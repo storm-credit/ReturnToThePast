@@ -1,0 +1,37 @@
+[
+    {
+        "entity": "Great Calamity",
+        "status": "Occurred (Previous Timeline)",
+        "timeline": "Previous",
+        "valid_at": 2030,
+        "invalid_at": 9999
+    },
+    {
+        "entity": "Great Calamity",
+        "status": "Prevented?",
+        "timeline": "Current",
+        "valid_at": 2030,
+        "invalid_at": 9999
+    },
+    {
+        "entity": "Protagonist",
+        "status": "Died in Battle",
+        "timeline": "Previous",
+        "valid_at": 2035,
+        "invalid_at": 9999
+    },
+    {
+        "entity": "Protagonist",
+        "status": "Regressed to Age 17",
+        "timeline": "Current",
+        "valid_at": 2020,
+        "invalid_at": 2080
+    },
+    {
+        "entity": "Hidden Dungeon of Astaroth",
+        "status": "Undiscovered",
+        "timeline": "Current",
+        "valid_at": 2020,
+        "invalid_at": 2025
+    }
+]

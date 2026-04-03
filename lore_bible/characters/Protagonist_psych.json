@@ -1,0 +1,17 @@
+{
+    "character": "Aiden",
+    "beliefs": [
+        {
+            "belief": "I must save Ria this time",
+            "weight": 95
+        },
+        {
+            "belief": "I cannot trust the Royal Family",
+            "weight": 70
+        },
+        {
+            "belief": "Power is the only truth",
+            "weight": 40
+        }
+    ]
+}

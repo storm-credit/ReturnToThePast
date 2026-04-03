@@ -1,0 +1,30 @@
+{
+    "character_id": "ria",
+    "name": "Ria Estelle",
+    "ideal": "에이든과 함께 평화롭게 살고 싶다",
+    "fears": [
+        "버림받는 것",
+        "쓸모없는 존재가 되는 것"
+    ],
+    "core_belief": "나는 누군가에게 필요한 사람이 되어야 한다",
+    "trauma": "가문 몰락 후 '필요 없는 아이'라는 말을 들음",
+    "tension_triggers": [
+        {
+            "tag": "aiden_danger",
+            "tension_delta": 30,
+            "reaction": "자기희생 시도"
+        },
+        {
+            "tag": "feeling_useless",
+            "tension_delta": 25,
+            "reaction": "과로, 무리한 치유"
+        },
+        {
+            "tag": "being_protected",
+            "tension_delta": -20,
+            "reaction": "안도하지만 죄책감"
+        }
+    ],
+    "default_tension": 40,
+    "max_tension_action": "에이든을 살리기 위해 자신의 생명력을 소모"
+}

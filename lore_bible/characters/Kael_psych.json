@@ -1,0 +1,35 @@
+{
+    "character_id": "kael",
+    "name": "Kael Nostron",
+    "ideal": "가문의 명예 회복, 형의 진실 규명",
+    "fears": [
+        "또 다시 배신당하는 것",
+        "자신도 형처럼 타락할 것"
+    ],
+    "core_belief": "강해져야 지킬 수 있다. 약하면 모든 것을 잃는다.",
+    "trauma": "가장 신뢰한 친구(에이든)의 침묵. 가문 몰락.",
+    "tension_triggers": [
+        {
+            "tag": "betrayal_hint",
+            "tension_delta": 35,
+            "reaction": "냉담해지고 거리 둠"
+        },
+        {
+            "tag": "family_mention",
+            "tension_delta": 25,
+            "reaction": "화제 전환 또는 분노"
+        },
+        {
+            "tag": "aiden_truth",
+            "tension_delta": -40,
+            "reaction": "경계심 해제, 신뢰 회복"
+        },
+        {
+            "tag": "brother_mention",
+            "tension_delta": 50,
+            "reaction": "폭발적 분노 또는 침묵"
+        }
+    ],
+    "default_tension": 50,
+    "max_tension_action": "단독으로 검은 사도(형)에게 돌진"
+}

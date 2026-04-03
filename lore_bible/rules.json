@@ -1,0 +1,29 @@
+{
+    "setting_name": "Eldoria (Gothic Fantasy)",
+    "genre": "Dark Fantasy",
+    "forbidden_terms": [
+        "Status Window",
+        "System",
+        "AI",
+        "Virus",
+        "Gun",
+        "Smartphone",
+        "Modern Medical Terms (Syringe, DNA)",
+        "Murim Terms (Dantian, Qi)",
+        "Game Terms (Level, Rank S)"
+    ],
+    "magic_system": {
+        "resource": "Mana (Corrupted Ether)",
+        "cost_logic": "Equivalent Exchange - Magic corrodes the body."
+    },
+    "constraints": [
+        {
+            "trigger": "reveal future",
+            "message": "Revealing the future directly weakens the timeline stability."
+        },
+        {
+            "trigger": "modern technology",
+            "message": "Technology must be described in magical/steampunk terms (e.g. Mana Engine)."
+        }
+    ]
+}
