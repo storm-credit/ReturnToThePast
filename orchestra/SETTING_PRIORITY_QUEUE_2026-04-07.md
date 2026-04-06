@@ -27,7 +27,7 @@ The automated smoke audit is green. The next priorities are no longer file-struc
 
 ## Next Focus
 
-The next conductor pass should begin with `P3: Secondary-doc terminology pass`.
+The next conductor pass should begin with `P3: Auxiliary pack cleanup pass`.
 
 ## P2
 
@@ -107,8 +107,14 @@ The next conductor pass should begin with `P3: Secondary-doc terminology pass`.
 
 ### Secondary-doc terminology pass
 
+- Status: completed on 2026-04-07
 - Goal: clean lower-priority appendices such as event cards, psych logs, and auxiliary prompts that still carry older regression-facing labels.
 - Why now: the main canon and entry surfaces are aligned, so the remaining terminology drift lives mostly in secondary support docs.
+
+### Auxiliary pack cleanup pass
+
+- Goal: review low-priority support packs such as cover prompts, psych appendices, and style side-notes for any remaining modern phrasing or duplicate guidance.
+- Why now: the main canon, entry surfaces, and secondary terminology are now aligned, so the next gain comes from reducing residue in auxiliary support material.
 
 ### Expand the smoke rules carefully
 
