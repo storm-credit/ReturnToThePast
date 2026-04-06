@@ -1,0 +1,171 @@
+{
+  "volumeCount": 15,
+  "chaptersPerVolume": 25,
+  "outlinePattern": "outline/Vol_{volume}_Outline.md",
+  "timelinePattern": "outline/Vol_{volume}_Timeline.md",
+  "chapterRowPattern": "^\\|\\s*\\*\\*제?[0-9]{1,2}화\\*\\*\\s*\\|",
+  "requiredFiles": [
+    "00_CANON.md",
+    "Start_Here.md",
+    "Guidelines/Series_Production_Constraints.md",
+    "Guidelines/Time_Travel_Frame.md",
+    "outline/Series_Roadmap.md",
+    "lore_bible/Foreshadow_Payoff_Ledger.md",
+    "lore_bible/Front_Half_Foreshadow_Map.md",
+    "lore_bible/Mandatory_Events.md",
+    "lore_bible/Secrets_Activation.md",
+    "lore_bible/Relationship_Map.md",
+    "lore_bible/Supporting_Cast_Witness_Map.md",
+    "lore_bible/Ending_Convergence_Map.md",
+    "lore_bible/history/Fixed_Points_and_Branches.md",
+    "lore_bible/settings/Travel_Recovery_Baseline.md",
+    "orchestra/SOURCE_OF_TRUTH.md",
+    "orchestra/LORE_AUDIT_HARNESS.md"
+  ],
+  "canonConflictScope": {
+    "include": [
+      "00_CANON.md",
+      "Start_Here.md",
+      "Guidelines",
+      "outline",
+      "lore_bible"
+    ],
+    "exclude": [
+      "Guidelines/Chapter_Audit_Checklist.md",
+      "Guidelines/Lore_Audit_Prompt.md",
+      "Guidelines/Writing_Prompt_Template.md",
+      "lore_bible/style/*"
+    ]
+  },
+  "canonConflicts": [
+    {
+      "id": "C-001",
+      "description": "Vol. 1 Lia rescue cost must not be framed as lifespan loss",
+      "pattern": "리아.*수명\\s*1년|수명\\s*1년.*리아|Vol\\.?\\s*1.*수명\\s*1년|수명\\s*1년.*Vol\\.?\\s*1",
+      "priority": 1
+    },
+    {
+      "id": "C-002",
+      "description": "The blink technique must not be described as a one-second or half-second stop",
+      "pattern": "1초의 정지|0\\.5초",
+      "priority": 1
+    },
+    {
+      "id": "C-003",
+      "description": "Aiden must not be written as the caster of a regression spell",
+      "pattern": "회귀술|회귀의 술식|회귀 마법",
+      "priority": 1
+    },
+    {
+      "id": "C-004",
+      "description": "Time prison loops should not be reduced to a plain suicide loop",
+      "pattern": "자살 루프|수천 번 자살",
+      "priority": 1
+    },
+    {
+      "id": "C-005",
+      "description": "Legacy gamey labels for myth-tier time abilities should not remain in active canon",
+      "pattern": "타임 스톱|월드 리셋|Time Stop|World Reset",
+      "priority": 2
+    }
+  ],
+  "styleScope": {
+    "include": [
+      "00_CANON.md",
+      "Start_Here.md",
+      "outline",
+      "lore_bible"
+    ],
+    "exclude": [
+      "lore_bible/style/*"
+    ]
+  },
+  "styleTerms": [
+    {
+      "id": "S-001",
+      "description": "Avoid gore-forward diction in canon and planning docs",
+      "pattern": "핏빛|선혈|피비린|잔혹한 학살|살육의 향연|핏물",
+      "priority": 2
+    },
+    {
+      "id": "S-002",
+      "description": "Avoid modern technical or game-like naming in canon and planning docs",
+      "pattern": "Mad Dog|Berserker|Werewolf|Bruiser|Barbarian|Reset|Black Market|Grey City|Clocktower Plaza|The Border|The White Tower|Crown Garden|The Ruins|The Abyss|Combat Stimpack|해킹",
+      "priority": 2
+    }
+  ],
+  "foreshadow": {
+    "ledgerFile": "lore_bible/Foreshadow_Payoff_Ledger.md",
+    "requiredIds": [
+      "F-001",
+      "F-002",
+      "F-003",
+      "F-004",
+      "F-005",
+      "F-006",
+      "F-007",
+      "F-008"
+    ],
+    "allowedStatuses": [
+      "seeded",
+      "reinforced",
+      "payoff-ready",
+      "paid-off"
+    ],
+    "companionFiles": [
+      "lore_bible/Mandatory_Events.md",
+      "lore_bible/Secrets_Activation.md"
+    ]
+  },
+  "markerChecks": [
+    {
+      "id": "front-half-marker-check",
+      "title": "Front-half clue map drift",
+      "description": "The front-half clue map is missing one or more locked reveal clusters",
+      "file": "lore_bible/Front_Half_Foreshadow_Map.md",
+      "requiredPatterns": [
+        "False regression",
+        "Emotional cost",
+        "Baltazar red herring",
+        "Echo identity",
+        "Ordinary happiness as final desire",
+        "Debt and collection motif"
+      ],
+      "priority": 2,
+      "passSummary": "Front-half clue map markers are present."
+    },
+    {
+      "id": "supporting-witness-marker-check",
+      "title": "Supporting-cast witness map drift",
+      "description": "The supporting-cast witness map is missing one or more locked witness lanes",
+      "file": "lore_bible/Supporting_Cast_Witness_Map.md",
+      "requiredPatterns": [
+        "Lyud",
+        "Varg",
+        "Thomas",
+        "Fenrir",
+        "Black Dog"
+      ],
+      "priority": 2,
+      "passSummary": "Supporting-cast witness markers are present."
+    },
+    {
+      "id": "ending-convergence-marker-check",
+      "title": "Ending convergence map drift",
+      "description": "The ending convergence map is missing one or more locked late-arc anchors",
+      "file": "lore_bible/Ending_Convergence_Map.md",
+      "requiredPatterns": [
+        "Vol\\. 11",
+        "Vol\\. 12",
+        "Vol\\. 13",
+        "Vol\\. 14",
+        "Vol\\. 15",
+        "Ending A",
+        "Ending B",
+        "Ria"
+      ],
+      "priority": 2,
+      "passSummary": "Ending convergence markers are present."
+    }
+  ]
+}

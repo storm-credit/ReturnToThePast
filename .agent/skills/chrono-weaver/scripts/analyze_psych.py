@@ -16,5 +16,4 @@ if __name__ == "__main__":
     tags = sys.argv[2].split(',')
     
     psych = PsychEngine()
-    tension = psych.calculate_tension(character, tags)
-    print(psych.suggest_action(character, tension))
+    print(psych.build_report(character, tags))

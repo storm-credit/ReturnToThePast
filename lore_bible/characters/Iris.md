@@ -1,4 +1,4 @@
-# ⚔️ 아이리스 (Iris) — 피로 물든 꽃 [Roadmap Aligned]
+# ⚔️ 아이리스 (Iris) — 잿비에 젖은 꽃 [Roadmap Aligned]
 
 > *"아~ 귀찮아... 그냥 다 죽이면 안 돼? 배고픈데."* (Vol. 1)
 > *"내 부하들 건드리면... 너도 꽃밥으로 만들어줄게."* (Vol. 2)
@@ -8,18 +8,18 @@
 | 항목 | 설정 |
 |------|------|
 | **본명** | 아이리스 (Iris) |
-| **이명** | **피로 물든 아이리스 (Bloody Iris)**, 투기장의 미친 꽃 |
+| **이명** | **붉은 아이리스**, 투기장의 미친 꽃 |
 | **소속** | 붉은 사막 용병단 (단장) ← 전(前) 무덤가의 투기장 검투사 |
 | **외모** | 씻지 않아서 꼬질꼬질하지만, 닦아놓으면 제국 최고 미녀. 헝클어진 붉은 머리, 나른하게 풀린 눈. |
-| **성격** | **나른한 광기 (Lazy Psycho)**. 평소엔 만사 귀찮아하고 늘어져 있지만, 전투 시엔 웃으면서 사람을 벰. |
-| **리더십** | **공생적 기생 (Symbiotic Parasitism)**. "내가 싸울 테니까, 너네가 밥하고 빨래하고 술 구해와." 1. 부하들을 '귀찮은 짐'이라 부르지만, 그들이 없으면 생활 불가능(생활력 0). 2. 속마음: 과거 지키지 못한 마을 사람들(여동생)에 대한 **부채감의 투영**. "이번엔 안 죽게 할 거야. 귀찮지만." |
+| **성격** | **나른한 광기**. 평소엔 만사 귀찮아하고 늘어져 있지만, 전투 시엔 웃으면서 사람을 벤다. |
+| **리더십** | **귀찮은 보호 본능**. "내가 싸울 테니까, 너네가 밥하고 빨래하고 술 구해와." 1. 부하들을 '귀찮은 짐'이라 부르지만, 그들이 없으면 생활 불가능(생활력 0). 2. 속마음: 과거 지키지 못한 마을 사람들(여동생)에 대한 **부채감의 투영**. "이번엔 안 죽게 할 거야. 귀찮지만." |
 
 ## 2. 심리 분석 (Psychological Profile)
 
 ### 🛡️ 방어 기제: '나른함' (Laziness as Shield)
 *   **해리성 둔감화**: 그녀의 '귀찮음'은 단순한 게으름이 아니다. 끔찍한 기억(여동생의 죽음)을 마주하지 않기 위해 **감정의 스위치를 꺼버린 상태**다.
 *   **회피 본능**: 복잡하게 생각하면 고통스러우니까, "몰라, 귀찮아, 잘래"로 도피한다.
-*   **전투광(Berserker)**: 역설적으로 전투 중에는 잡생각이 사라지기에, 살육의 순간에만 **생생하게 살아있음**을 느낀다.
+*   **싸움판에서만 또렷해짐**: 역설적으로 전투 중에는 잡생각이 사라지기에, 칼이 부딪히는 순간에만 **생생하게 살아있음**을 느낀다.
 
 ### 🚩 트라우마 트리거 (Triggers)
 *   **불(Fire)**: 불타는 집을 보면 패닉에 빠지거나, 반대로 극도로 흉폭해진다.
@@ -53,10 +53,25 @@
 *   **특기**: 마법 베기. (직감적으로 마나의 흐름을 읽음 - 본능적 천재)
 
 ## 5. 로드맵 행적
-*   **Vol. 4**: 수도 방어전에서 하품하며 오크 학살.
+*   **Vol. 4**: 수도 방어전에서 하품하며 오크 무리를 베어 넘김.
 *   **Vol. 7**: 괴수 대결전에서 에이든을 위해 팔을 잃음. "아, 팔 떨어졌네. 너 때문이야, 책임져." (담담함)
 *   **Vol. 8**: **기억 덮어쓰기** 당함.
     *   에이든을 보고: "누구세요? 아, 귀찮게 굴지 말고 꺼져." (타인 취급)
+
+## 6. Harmonized Relationship Curve
+
+- `Vol. 1`: Iris reads Aiden as a useful but unsettling employer figure.
+- `Vol. 2`: the bond becomes real, but even then something ordinary is already missing on his side.
+- `Vol. 4~5`: she watches him choose cost, timing, and outcome faster than warmth.
+- `Vol. 6`: fear and shame must coexist before rupture feels earned.
+- `Vol. 8`: the body remembers a trust the mind can no longer name cleanly.
+
+## 7. Debt Contact Notes
+
+- Iris is one of the clearest witnesses of what time-travel debt has taken from Aiden.
+- Her courage must never erase her fear.
+- Her fear must never erase her loyalty.
+- After memory damage, her discomfort should feel intuitive and bodily before it becomes verbal.
 
 ---
 **[에이전트 지침]**

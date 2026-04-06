@@ -1,0 +1,60 @@
+﻿{
+    "generated_at":  "2026-04-07 00:27:34 +09:00",
+    "overall_status":  "FAIL",
+    "rules_file":  "orchestra/scripts/setting-audit-rules.json",
+    "output_dir":  "orchestra/runs/setting-smoke-20260407-002734",
+    "checks":  [
+                   {
+                       "CheckId":  "canon-conflict-check",
+                       "Status":  "FAIL",
+                       "Priority":  1,
+                       "Summary":  "1 active canon conflict pattern(s) matched."
+                   },
+                   {
+                       "CheckId":  "banned-style-check",
+                       "Status":  "WARNING",
+                       "Priority":  2,
+                       "Summary":  "1 style rule warning(s) matched."
+                   },
+                   {
+                       "CheckId":  "chapter-count-check",
+                       "Status":  "PASS",
+                       "Priority":  3,
+                       "Summary":  "Every outline file contains 25 chapter rows."
+                   },
+                   {
+                       "CheckId":  "foreshadow-ledger-check",
+                       "Status":  "PASS",
+                       "Priority":  3,
+                       "Summary":  "Foreshadow ledger, IDs, statuses, and companion files are aligned."
+                   },
+                   {
+                       "CheckId":  "required-files-check",
+                       "Status":  "PASS",
+                       "Priority":  3,
+                       "Summary":  "All required source-of-truth files are present."
+                   },
+                   {
+                       "CheckId":  "volume-pair-check",
+                       "Status":  "PASS",
+                       "Priority":  3,
+                       "Summary":  "All 15 volume outline/timeline pairs exist."
+                   }
+               ],
+    "findings":  [
+                     {
+                         "CheckId":  "canon-conflict-check",
+                         "Status":  "FAIL",
+                         "Priority":  1,
+                         "Title":  "C-002",
+                         "Summary":  "The blink technique must not be described as a one-second or half-second stop. Matches: lore_bible/locations/Ancient_Labyrinth.md:20"
+                     },
+                     {
+                         "CheckId":  "banned-style-check",
+                         "Status":  "WARNING",
+                         "Priority":  2,
+                         "Title":  "S-001",
+                         "Summary":  "Avoid gore-forward diction in canon and planning docs. Matches: lore_bible/characters/Thomas.md:12"
+                     }
+                 ]
+}

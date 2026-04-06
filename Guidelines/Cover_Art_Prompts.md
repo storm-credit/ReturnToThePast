@@ -7,7 +7,7 @@
 
 ## 1. ✨ 에이든 단독 (Gothic Noir Style)
 > **컨셉**: '블러드본'이나 '강철의 연금술사' 같은 중세~근대 판타지풍 도시 배경.
-> **구도**: 안개 낀 돌길(Cobblestone) 위에 서 있는 고독한 회귀자.
+> **구도**: 안개 낀 돌길(Cobblestone) 위에 서 있는 고독한 시간의 표류자.
 
 ```text
 {{masterpiece}}, {{best quality}}, {{ultra_detailed}}, {{anime style}}, {{cel shading}},

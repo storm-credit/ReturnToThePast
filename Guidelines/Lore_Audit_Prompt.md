@@ -1,127 +1,93 @@
 # 🔍 설정집 정합성 검수 프롬프트 (Lore Audit Prompt)
 
-> AI에게 설정집 전체를 크로스 레퍼런스 검증하도록 지시하는 **명령어 템플릿**입니다.
-> 복사해서 사용하세요.
+> 설정집 전체를 점검할 때 쓰는 감사 프롬프트입니다.  
+> 이 프로젝트는 `lore_bible`만이 아니라 `outline`, `timeline`, `ending`, `foreshadow`까지 함께 봐야 합니다.
 
 ---
 
 ```text
 # 역할 부여
-당신은 판타지 시리즈 전문 '설정 감수관(Lore Auditor)'입니다.
-15권 시리즈의 세계관 일관성을 지키는 것이 당신의 유일한 임무입니다.
-사소한 오타 하나도 절대 놓치지 마세요.
+당신은 장기 연재 판타지 시리즈의 설정 감수관(Lore Auditor)입니다.
+사소한 오타가 아니라 구조적 누락, 패러독스 충돌, 복선 부채까지 잡아내는 것이 임무입니다.
 
 # 작업 개요
-프로젝트: 《나는 과거로 간다》 (15권 타임 루프 느와르)
-범위: 설정집 전체 (아래 폴더 전부)
-목표: 파일 간 **Cross-Reference 정합성** 검증
+프로젝트: 《나는 과거로 간다》
+장르 프레임: 표면 회귀 / 실상 강제 타임트래블 패러독스
+범위: 설정집 + 로드맵 + 권별 아웃라인/타임라인 + 엔딩/복선 장부
+목표: 파일 간 Cross-Reference 정합성 검증
 
-# 필수 검수 대상 폴더
-1. [lore_bible/characters/] - 에이든, 리아, 아이리스, 카엘, 발타자르, 적대자(영시), 12사도, 창백한 의회, 류드, 바르그, 티르(초대 단장)
-2. [lore_bible/locations/] - 수도 세라핌, 북부 전선, 마법탑, 성전, 고대 미궁, 세계 지도
-3. [lore_bible/rules/] - 통합 등급 체계(Combat_Rank_System), 감염 단계(Infection_Levels)
-4. [lore_bible/magic/] - 인과율 마법(Causality_Magic), 연금술(Alchemy_and_Magic)
-5. [lore_bible/settings/] - 해결사 시스템, 그림자 길드, 마약 카르텔, 경제, 귀족 문장
-6. [lore_bible/items/] - 저주받은 유물, 소모품, 개별 무기 시트 (11건)
-7. [lore_bible/monsters/] - 인과율 오류체, 변이체
-8. [lore_bible/history/] - 원본 타임라인, 멸망 타임라인, 사건 카드(6건)
-9. [lore_bible/ 루트] - 회귀 제약, 히든 피스, 금기 마법, 필수 이벤트, 엔딩 2종
-10. [Lore_Bible_Master_Index.md] - 마스터 인덱스 (링크 정합성)
+# 반드시 함께 검수할 파일/폴더
+1. `00_CANON.md`
+2. `Guidelines/Series_Production_Constraints.md`
+3. `Guidelines/Time_Travel_Frame.md`
+4. `outline/Series_Roadmap.md`
+5. 모든 `outline/Vol_*_Outline.md`
+6. 모든 `outline/Vol_*_Timeline.md`
+7. `lore_bible/**`
+8. `lore_bible/Mandatory_Events.md`
+9. `lore_bible/Secrets_Activation.md`
+10. `lore_bible/Foreshadow_Payoff_Ledger.md`
+11. `Lore_Bible_Master_Index.md`
+12. `Start_Here.md`
+13. `lore_bible/style/Naming_Style_Guide.md`
+14. `Guidelines/Setting_Audit_Scope.md`
+15. `lore_bible/Mid_War_Emotional_Continuity.md` when the target arc includes `Vol. 4~8`
+16. `lore_bible/history/Fixed_Point_Pressure_Map.md` when the target arc includes major paradox pressure
 
-# 검수 항목 (8대 체크)
+# 핵심 점검축
 
-## A. 이름 정합성 (Name Consistency)
-- [ ] 같은 캐릭터의 이름이 모든 파일에서 동일한가?
-  - 정본: 에이든(Aiden), 리아(Ria), 아이리스(Iris), 카엘(Kael), 발타자르(Baltazar)
-- [ ] 구버전 이름(카샤 등)이 잔존하고 있지 않은가?
-- [ ] 영문 표기가 통일되어 있는가?
+## A. 이름/고유명사 정합성
+- 인물, 세력, 장소, 무기, 개념명의 표기와 로마자 표기가 통일되어 있는가?
+- 지명과 용어가 현대적 기능어가 아니라 고풍하고 판타지적인 어감을 유지하는가?
 
-## B. 등급 체계 정합성 (Rank System Consistency)
-- [ ] Combat_Rank_System.md의 용어가 모든 파일에서 동일하게 사용되는가?
-  - 정본 용어:
-    - 검술: 병사/유저/익스퍼트/하이 익스퍼트/마스터/그랜드마스터/초월자
-    - 용병: 우드/아이언/실버/골드/플래티넘/블랙 태그
-    - 마법: 1~8서클 (재능 기반, 유지비 없음)
-    - 연금술: 쿡(Cook)/도제/라이선스/프로페서/로얄/헤레틱
-    - 암흑가: 스트레이/피커/브로커/팬텀 (The Hands) + 집행자/클리너/사일런서/그림자 (The Knives)
-- [ ] 게임 용어(F급, S급, 중급 검사, 기능 부전 등)가 잔존하고 있지 않은가?
-- [ ] Fixer_System.md와 Shadow_Guild_System.md의 등급이 Combat_Rank_System.md와 일치하는가?
+## B. 규칙 체계 정합성
+- 등급, 마법, 감염, 금기, 대가 체계가 문서마다 충돌하지 않는가?
 
-## C. 마법 체계 정합성 (Magic System Consistency)
-- [ ] Combat_Rank_System.md('서클' 기준)와 Causality_Magic.md('서클과 대가' 기준)가 일치하는가?
-- [ ] 마법사 각성 조건이 모든 파일에서 '선천적 재능'으로 통일되어 있는가?
-  - ~~금지어~~: ~~마나 열병~~, 유지비, 열병을 이겨낸 자
-  - **정정**: '마나열병(Mana Fever)'은 **공식 용어**임. 속칭 '회색 역병'. 금지어는 **'유지비', '열병을 이겨낸 자'**만 해당.
-- [ ] 에이든의 마법 능력(1서클 수준, 실전 압축)이 일관적으로 기술되어 있는가?
+## C. 시간여행 패러독스 정합성
+- `회귀처럼 보이는 표면`과 `강제 전송이라는 진실`이 서로 충돌하지 않는가?
+- 고정점, 분기점, 반작용, 누적 대가가 로드맵과 타임라인에 반영되어 있는가?
 
-## D. 캐릭터 정합성 (Character Consistency)
-- [ ] 에이든의 상태치가 모든 파일에서 동일한가?
-  - 정본: 육체 결함(Physical Defect) / 초월자급 지식(Overlord Level)
-- [ ] 아이리스의 말투가 **'나른한 소녀(Lazy Girl)'** 톤으로 일관적인가?
-  - 정본: `~어?`, `~지`, `...` 사용 (군인 말투 `~다/까` 금지)
-- [ ] 직업 경로가 일관적인가?
-  - 정본: 무직 → 해결사(Fixer) (※ '보스' 트리 삭제됨)
-- [ ] 전투 방식(패널티 플레이, 단검, 자해)이 Protagonist.md ↔ Combat_Rank_System.md ↔ Causality_Magic.md에서 일치하는가?
-- [ ] 회귀 횟수(172회차)가 모든 파일에서 동일한가?
+## D. 캐릭터/관계 정합성
+- 부상, 감정 마모, 기억 손실, 관계 변화, 세력 소속이 권이 넘어가도 일관적인가?
 
-## E. 타임라인-로드맵 정합성 (Timeline Consistency)
-- [ ] history/Timeline_Original.md ↔ Series_Roadmap.md의 사건 순서가 일치하는가?
-- [ ] Mandatory_Events.md의 필수 사건이 로드맵에 모두 반영되어 있는가?
-- [ ] Secrets_Activation.md의 히든 피스(T-001~T-010)가 로드맵의 해당 권에 정확히 배치되어 있는가?
-- [ ] Time_Travel_Laws.md의 규칙이 Regression_Constraints.md와 모순되지 않는가?
+## E. 권 구조 정합성
+- 모든 권에 `Outline`과 `Timeline`이 한 쌍으로 존재하는가?
+- 모든 권이 기본적으로 `25화 구조`를 유지하는가?
 
-## F. 세력-빌런-지역 매핑 (Faction-Villain-Location Mapping)
-- [ ] Faction_Balance.md의 세력(황녀파/의회/기사단/마법탑/암부/펜리르)이 개별 캐릭터 파일과 일치하는가?
-  - 펜리르는 **'독자 세력(Independent)'** 혹은 **'무법자'**로 분류되어야 함 (중립 X).
-- [ ] 12사도(The_12_Apostles.md)와 창백한 의회(The_Pale_Council.md)의 관계가 Magic_Drug_Cartel.md와 일치하는가?
-- [ ] 수도 세라핌의 구역 설정(Imperial_Capital.md)이 Fixer_System.md/Shadow_Guild_System.md와 일치하는가?
+## F. 복선/회수 정합성
+- 주요 진실, 레드헤링, 회수 지점이 장부와 권별 설계에 연결되어 있는가?
 
-## G. 중복/누락 (Duplicates & Gaps)
-- [ ] 같은 내용의 파일이 다른 폴더에 존재하지 않는가? (예: 전투 가이드 중복)
-- [ ] Lore_Bible_Master_Index.md에 나열된 파일이 실제로 존재하는가? (누락 체크)
-- [ ] Start_Here.md의 링크가 모두 유효한가? (Dead Link 체크)
-- [ ] 파일은 있는데 마스터 인덱스에 빠진 항목은 없는가?
+## G. 중복/누락
+- 인덱스에는 있는데 파일이 없거나, 파일은 있는데 인덱스와 진입점에 빠진 항목이 없는가?
 
-## H. 톤 & 금지어 (Tone & Forbidden Terms)
-- [ ] 게임 용어(상태창, 시스템 창, 레벨업, 경험치, 엔딩)가 설정집에 남아있지 않은가?
-- [ ] SF 용어(프로그램, 데이터, 코드, 시뮬레이션)가 설정집에 남아있지 않은가?
-  - 허용: '인과율의 오류', '각인된 존재' (판타지 치환된 용어)
-- [ ] **'세계 붕괴', '멸망'** 키워드가 **'패러독스', '인과율의 반작용', '항체'**로 대체되었는가? (Hybrid Model)
-- [ ] 모든 묘사가 '건조한 느와르(Dry Noir)' 톤을 유지하고 있는가?
+## H. 톤/금지어
+- 시스템, 상태창, 가벼운 게임 용어, 현대 SF 용어, 과장된 혈색 표현이 핵심 문서에 남아 있지 않은가?
 
 # 출력 양식
 
-## 설정집 정합성 검수 결과: [PASS / WARNING / FAIL]
+## 설정집 정합성 검수 결과: PASS / WARNING / FAIL
 
 ### 요약
 | 항목 | 판정 | 이슈 수 |
 | :--- | :---: | :---: |
-| A. 이름 정합성 | ✅/❌ | N건 |
-| B. 등급 체계 정합성 | ✅/❌ | N건 |
-| C. 마법 체계 정합성 | ✅/❌ | N건 |
-| D. 캐릭터 정합성 | ✅/❌ | N건 |
-| E. 타임라인-로드맵 정합성 | ✅/❌ | N건 |
-| F. 세력-빌런-지역 매핑 | ✅/❌ | N건 |
-| G. 중복/누락 | ✅/❌ | N건 |
-| H. 톤 & 금지어 | ✅/❌ | N건 |
+| A. 이름/고유명사 |  |  |
+| B. 규칙 체계 |  |  |
+| C. 시간여행 패러독스 |  |  |
+| D. 캐릭터/관계 |  |  |
+| E. 권 구조 |  |  |
+| F. 복선/회수 |  |  |
+| G. 중복/누락 |  |  |
+| H. 톤/금지어 |  |  |
 
-### 상세 이슈 목록
-(발견된 이슈를 🔴심각/🟡중간/🟢경미 등급으로 분류하고
-**파일명 + 줄 번호 + 현재값 + 올바른값**을 명시할 것)
+### Critical
+- 즉시 수정이 필요한 문제
 
-### 🔴 심각 (Critical)
-| # | 파일 | 줄 | 현재값 | 올바른값 | 분류 |
-|---|------|-----|--------|----------|------|
-| 1 | example.md | L12 | "F급 육체" | "육체 결함" | B. 등급 |
+### Warning
+- 다음 패스에서 보강해야 할 문제
 
-### 🟡 중간 (Warning)
-| # | 파일 | 줄 | 현재값 | 올바른값 | 분류 |
-|---|------|-----|--------|----------|------|
-
-### 🟢 경미 (Minor)
-| # | 파일 | 줄 | 현재값 | 올바른값 | 분류 |
-|---|------|-----|--------|----------|------|
+### Minor
+- 지금 당장 막히지는 않지만 정리해 두면 좋은 문제
 
 ### 수정 제안
-(심각/중간 이슈에 대해 구체적인 수정 방안을 제시할 것)
+- 심각/중간 이슈에 대한 구체적 수정 방안
 ```

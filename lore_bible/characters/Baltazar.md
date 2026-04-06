@@ -32,6 +32,19 @@
 *   하지만 영겁의 시간선 끝에서 감정을 잃어버린 에이든을 가르치며 **진짜 스승으로서의 애정**을 느낌.
 *   Vol. 11에서 에이든 손에 죽는 것은, **제자가 스승(가짜 껍질)을 깨고 나아가게 하려는** 마지막 수업.
 
+## 5. Harmonized Red-Herring Function
+
+- Baltazar should carry suspicion without absorbing the whole truth.
+- He can explain fragments of rule logic because he lives near the engine, not because he owns it.
+- His scenes should make the reader over-credit him fairly, then reread him as a guided instrument.
+
+## 6. Relationship to Aiden
+
+- surface: suspicious mentor
+- hidden role: inscribed guide built to steer the protagonist
+- emotional function: teach rule fragments while failing to replace a real human teacher
+- final use: handoff, not conquest
+
 ---
 **[키워드 수정]**
 - 프로그램 → 각인된 존재 / 호문클루스

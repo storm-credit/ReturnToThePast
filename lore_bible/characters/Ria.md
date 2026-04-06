@@ -38,6 +38,20 @@
     *   에이든: "효율적이지 않아." (감정 없는 대답)
 *   **리아 vs 운명**: 자신의 예지(에이든의 죽음)를 바꾸기 위해 필사적으로 노력하지만, 그럴수록 에이든은 더 위험해진다.
 
+## 6. Harmonized Relationship Function
+
+- Ria is the clearest living measure of what the protagonist lost in `Vol. 1`.
+- She should feel the warmth he cannot fully hold, even when the narration stays dry.
+- Their later scenes should hurt through missing warmth, delayed recognition, and unfinished care.
+
+## 7. Damage Curve
+
+- `Vol. 1`: she is rescued, but the rescue already costs the protagonist something human.
+- `Vol. 3`: she witnesses his death and carries that wound forward.
+- `Vol. 4`: war pressure awakens her more fully and sharpens guilt.
+- `Vol. 8`: memory damage creates distance without canceling emotional residue.
+- `Vol. 15`: reunion works because she remains the last human echo, not because the past is fully restored.
+
 ---
 **[에이전트 지침]**
 - 리아는 단순한 보호 대상이 아니다. **에이든이 잃어버린 '인간성'의 마지막 닻**.

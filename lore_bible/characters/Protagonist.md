@@ -4,7 +4,7 @@
 
 ## 1. 프로필
 *   **이명**: 방랑자 (The Walker), 청소부 (Janitor).
-*   **정체**: 셀 수 없이 수천수만 번의 죽음을 겪은 영겁의 회귀자. **인과의 엄청난 빚을 진 채무자.**
+*   **정체**: 셀 수 없이 많은 죽음과 강제 귀환을 겪은 시간의 채무자. **인과의 엄청난 빚을 진 자.**
 *   **현재 신분**: 몰락한 리스트 가문의 생존자. 뒷골목의 하급 해결사.
 *   **상태**: **감정 결핍 (Emotional Hollow)**. 무한에 가까운 등가교환으로 대부분의 감정을 잃음.
 
@@ -33,12 +33,28 @@
 | Vol. 2 | 아이리스(Iris) 생존 | 아이리스(Iris)와의 유대감 상실 |
 | Vol. 7 | 괴수 처치 | 동료들과의 따뜻했던 기억 상실 |
 | Vol. 8 | 동료 보호 | 타인의 기억 속에서 존재 소멸 |
-| Vol. 10 | 찰나(시간 정지) | 수명 (1년/회) + 미래에 대한 희망 |
+| Vol. 9 | 찰나 | 수명 (1년/회) + 앞으로 생겨날 기억의 윤곽 |
 
 ## 6. 인간관계
 *   **잔향 (Residual Echo)**: 에이든을 쫓는 정체불명의 채권자. (사실은 0회차 에이든)
 *   **리아**: 지켜야 할 대상. 하지만 그녀를 볼 때마다 가슴이 시리도록 **아무것도 느껴지지 않아서** 괴로워한다.
 *   **발타자르**: 스승이자 조력자. 유일하게 에이든의 "빚"에 대해 이해하는 자. (사실은 감시자)
+
+## 7. Harmonized Debt Ladder
+
+- `Vol. 1`: saving Ria cracks the protagonist's first instinctive warmth toward her.
+- `Vol. 2`: saving Iris no longer leaves a clean, ordinary bond behind.
+- `Vol. 5`: battlefield victory and survival pressure thin the warmth inside success itself.
+- `Vol. 6~8`: protecting companions hardens into distance, memory severance, and identity blur.
+- `Vol. 8`: escape from the prison costs the shape of an ordinary happy day.
+- `Vol. 9 onward`: `Chalna` burns lifespan and the outline of future memories.
+
+## 8. Relationship Damage Curve
+
+- `Ria`: rescue -> absence inside care -> final human echo.
+- `Iris`: contract -> earned bond -> fear of his judgment -> body-memory after rupture.
+- `Companions`: relief -> unease -> visible fear -> severed recognition.
+- `Baltazar`: suspicious teacher -> false center -> partial guide to the debt grammar.
 
 ---
 **[수정 완료]**
