@@ -27,7 +27,7 @@ The automated smoke audit is green. The next priorities are no longer file-struc
 
 ## Next Focus
 
-The next conductor pass should begin with `P3: Formal-name surface sync pass`.
+The next conductor pass should begin with `P3: Draft tone restraint pass`.
 
 ## P2
 
@@ -143,8 +143,14 @@ The next conductor pass should begin with `P3: Formal-name surface sync pass`.
 
 ### Formal-name surface sync pass
 
+- Status: completed on 2026-04-07
 - Goal: align draft-facing support surfaces with newly locked formal names such as `Noctur` and `Alvarn`, while preserving nickname use only where voice or scene texture benefits.
 - Why now: the setting library has locked the proper names, so the next gain comes from reducing mismatch between canon-facing docs and draft-facing surfaces.
+
+### Draft tone restraint pass
+
+- Goal: reduce leftover draft-only excess such as modern residues, over-loud gore diction, and rough placeholder phrasing while keeping the dark-fantasy pressure intact.
+- Why now: formal names and canon surfaces are aligned, so the next gain comes from making the actual chapter prose sound as intentional as the setting library.
 
 ### Expand the smoke rules carefully
 
