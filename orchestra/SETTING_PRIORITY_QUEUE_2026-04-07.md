@@ -1,9 +1,9 @@
 # Setting Priority Queue
 
 Date: 2026-04-07  
-Status: `SMOKE PASS`
+Status: `SETTING-FIRST PASS`
 
-The automated smoke audit is green. The next priorities are now setting-library completion tasks, not draft-facing work.
+The automated smoke audit is green. The core setting-library completion tasks are finished, and the next priorities are optional polish tasks rather than structural repair.
 
 ## P1
 
@@ -33,7 +33,11 @@ The automated smoke audit is green. The next priorities are now setting-library 
 
 ## Next Focus
 
-The next conductor pass should begin with `P1: Core antagonist redesign pass`.
+The next conductor pass should begin with `optional polish`, not structural rescue.
+
+- Optional A: engine-facing JSON/schema key cleanup
+- Optional B: orchestra meta-doc Korean surface sync
+- Optional C: pre-draft packet assembly for the first live writing lane
 
 ## P2
 
@@ -146,3 +150,23 @@ The next conductor pass should begin with `P1: Core antagonist redesign pass`.
 - Status: completed on 2026-04-07
 - Candidate additions: modern technical diction warnings, reveal clustering heuristics, and outline/timeline bridge checks.
 - Guardrail: only add automated checks that stay low-noise; the harness should remain a fast gate, not a false-positive factory.
+
+## Optional Polish
+
+### Engine-facing data cleanup
+
+- Status: pending
+- Goal: decide whether JSON key names such as `ideal` should stay engine-friendly or be mirrored in a Korean-facing data layer.
+- Why later: this is not blocking setting quality or orchestration flow.
+
+### Orchestra meta-doc Korean sync
+
+- Status: pending
+- Goal: reduce remaining English status labels and section names in conductor-facing docs.
+- Why later: this improves readability for operators, but not canon stability.
+
+### Pre-draft packet assembly
+
+- Status: pending
+- Goal: prepare the first chapter/volume handoff packet after the setting-first closeout.
+- Why later: the setting library is now stable enough to support live drafting when requested.
