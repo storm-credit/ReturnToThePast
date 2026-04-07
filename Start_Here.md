@@ -46,6 +46,12 @@
 *   [발타자르](lore_bible/characters/Baltazar.md): 상아 의정회의 전 수석 연구원. 초반 흑막처럼 보이는 레드헤링.
 *   [이레이저](lore_bible/characters/Eraser.md): 추격자, 금기 병기.
 
+### 👥 1권 보조 인물
+*   [세베린](lore_bible/characters/Severin.md): 상아 의정회의 표본 회수 및 장부 봉인을 맡는 실무 얼굴.
+*   [하르켄](lore_bible/characters/Harken.md): 검은 개 부대의 현장 포획과 검문을 지휘하는 목줄장.
+*   [미렐](lore_bible/characters/Mirel.md): 검은 시장 약방과 앰플 유통선을 쥔 중개상.
+*   [카시아](lore_bible/characters/Cassia.md): 황궁 하급 서기관 겸 필경사. 잠입 파트의 생활 얼굴.
+
 ### 🏰 1권 주요 세력
 *   [검은 개 부대](lore_bible/groups/Black_Dog.md): 상아 의정회 산하의 사설 무장 단체.
 *   [펜리르](lore_bible/groups/Fenrir.md): 회색 도시의 늑대 세력.
