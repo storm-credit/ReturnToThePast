@@ -27,7 +27,7 @@ The automated smoke audit is green. The next priorities are no longer file-struc
 
 ## Next Focus
 
-The next conductor pass should begin with `P3: Draft tone restraint pass`.
+The next conductor pass should begin with `P3: Draft tone restraint wave 2`.
 
 ## P2
 
@@ -149,8 +149,14 @@ The next conductor pass should begin with `P3: Draft tone restraint pass`.
 
 ### Draft tone restraint pass
 
+- Status: completed on 2026-04-07
 - Goal: reduce leftover draft-only excess such as modern residues, over-loud gore diction, and rough placeholder phrasing while keeping the dark-fantasy pressure intact.
 - Why now: formal names and canon surfaces are aligned, so the next gain comes from making the actual chapter prose sound as intentional as the setting library.
+
+### Draft tone restraint wave 2
+
+- Goal: continue the prose restraint pass across the next cluster of high-noise chapters, especially where combat, laboratory horror, and undercity violence still lean too hard on gore-forward repetition.
+- Why now: wave 1 established a cleaner tonal baseline, so the next gain comes from spreading that restraint without flattening scene pressure.
 
 ### Expand the smoke rules carefully
 
