@@ -9,7 +9,7 @@
 
 - 북부 전선: [시그룬](../lore_bible/characters/Sigrun.md)
 - 상아탑: [오렐](../lore_bible/characters/Orel.md)
-- 루미나 성전: [루키아](../lore_bible/characters/Lucia.md)
+- 루미나 성전: [루세아](../lore_bible/characters/Lucea.md)
 - 서부 사막: [자르칸](../lore_bible/characters/Zarkan.md)
 
 ## 총괄 판단

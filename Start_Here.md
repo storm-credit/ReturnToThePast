@@ -46,7 +46,7 @@
 *   [아이리스](lore_bible/characters/Iris.md): 몰락한 천재 용병, 파트너.
 *   [리아](lore_bible/characters/Ria.md): 표본 702호, 예언자.
 *   [발타자르](lore_bible/characters/Baltazar.md): 상아 의정회의 전 수석 연구원. 초반 흑막처럼 보이는 레드헤링.
-*   [이레이저](lore_bible/characters/Eraser.md): 추격자, 금기 병기.
+*   [아레시온](lore_bible/characters/Aresion.md): 추격자, 금기 병기.
 
 ### 👥 1권 보조 인물
 *   [세베린](lore_bible/characters/Severin.md): 상아 의정회의 표본 회수 및 장부 봉인을 맡는 실무 얼굴.
@@ -55,7 +55,7 @@
 *   [카시아](lore_bible/characters/Cassia.md): 황궁 하급 서기관 겸 필경사. 잠입 파트의 생활 얼굴.
 *   [시그룬](lore_bible/characters/Sigrun.md): 북부 전선에서 이름과 후송 명단을 붙드는 기록병.
 *   [오렐](lore_bible/characters/Orel.md): 침묵의 상아탑 정적의 도서관에서 봉인 장부를 지키는 기록관.
-*   [루키아](lore_bible/characters/Lucia.md): 루미나 성전에서 시련과 선별을 감시하는 제관.
+*   [루세아](lore_bible/characters/Lucea.md): 루미나 성전에서 시련과 선별을 감시하는 제관.
 *   [자르칸](lore_bible/characters/Zarkan.md): 사루크 천막성의 물자와 선금을 쥔 조달장.
 *   [제1권 보조 인물 연결 지도](lore_bible/Vol_1_Supporting_Cast_Link_Map.md): 네 인물이 어느 화에서 어떤 기능으로 쓰이는지 고정한 연결 기준.
 
@@ -97,9 +97,9 @@
 *   [저주받은 이물](lore_bible/items/Cursed_Artifacts.md): 리스크가 있는 무기들.
 *   [회색 역병](lore_bible/rules/Infection_Levels.md): 앰플, 마나 거부 반응.
 *   [인간관계도](lore_bible/Relationship_Map.md): 에이든, 리아, 아이리스, 발타자르, 영시 축이 어떻게 상처와 빚으로 얽히는지 정리한 문서.
-*   [측면 인물 목격 지도](lore_bible/Supporting_Cast_Witness_Map.md): 류드, 바르그, 토마스, 펜리르, 카르세인이 에이든의 손상을 어떤 각도에서 목격하는지 정리한 문서.
+*   [측면 인물 목격 지도](lore_bible/Supporting_Cast_Witness_Map.md): 류드, 바르그, 토마르, 펜리르, 카르세인이 에이든의 손상을 어떤 각도에서 목격하는지 정리한 문서.
 *   [제1권 보조 인물 연결 지도](lore_bible/Vol_1_Supporting_Cast_Link_Map.md): 세베린, 하르켄, 미렐, 카시아를 제1권 장면 흐름에 맞게 배치한 지도.
-*   [권역별 얼굴 배치 지도](lore_bible/Regional_Face_Deployment_Map.md): 시그룬, 오렐, 루키아, 자르칸을 어느 권에 어떤 기능으로 먼저 투입할지 정리한 배치 기준.
+*   [권역별 얼굴 배치 지도](lore_bible/Regional_Face_Deployment_Map.md): 시그룬, 오렐, 루세아, 자르칸을 어느 권에 어떤 기능으로 먼저 투입할지 정리한 배치 기준.
 *   [중반부 감정 연속성](lore_bible/Mid_War_Emotional_Continuity.md): 4권부터 8권까지 전쟁 상흔, 공포, 소거, 행복 상실이 어떻게 누적되는지 고정한 문서.
 *   [전반부 복선 지도](lore_bible/Front_Half_Foreshadow_Map.md): 1권부터 5권까지 어떤 단서를 미리 심어야 후반 반전이 공정하게 보이는지 정리한 문서.
 *   [고정점 압력 지도](lore_bible/history/Fixed_Point_Pressure_Map.md): 어디가 고정점이고 어디가 분기점이며 압력이 어떻게 되돌아오는지 정리한 문서.

@@ -10,7 +10,7 @@ This pass targeted recurring second-tier entities that were important to draftin
 
 ### Character
 
-- `lore_bible/characters/Thomas.md`
+- `lore_bible/characters/Tomar.md`
   - Added transaction rules, common goods, scene grammar, and recurring-use guidance.
 
 ### Factions

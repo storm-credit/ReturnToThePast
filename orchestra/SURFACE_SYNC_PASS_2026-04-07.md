@@ -31,10 +31,10 @@
 - 적대/조력 인물 표면:
   `lore_bible/characters/Kael.md`
   `lore_bible/characters/Noctur.md`
-  `lore_bible/characters/Thomas.md`
+`lore_bible/characters/Tomar.md`
   `lore_bible/characters/Relationship_Map.md`
   `lore_bible/characters/Alvarn.md`
-  `lore_bible/characters/Eraser.md`
+`lore_bible/characters/Aresion.md`
 - 필수 이벤트 및 감사 규칙:
   `lore_bible/Mandatory_Events.md`
   `orchestra/scripts/setting-audit-rules.json`

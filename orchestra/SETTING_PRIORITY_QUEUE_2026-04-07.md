@@ -92,7 +92,7 @@ The next conductor pass should begin with `optional polish`, not structural resc
 ### Supporting-cast harmonization pass
 
 - Status: completed on 2026-04-07
-- Goal: align secondary witness characters such as Lyud, Varg, Thomas, and adjacent faction-side figures with the locked emotional and paradox grammar.
+- Goal: align secondary witness characters such as Lyud, Varg, Tomar, and adjacent faction-side figures with the locked emotional and paradox grammar.
 - Why now: the core cast is clearer, so the next gain comes from making side-character testimony support the same canon pressure.
 
 ### Ending convergence pass
