@@ -27,7 +27,7 @@ The automated smoke audit is green. The next priorities are no longer file-struc
 
 ## Next Focus
 
-The next conductor pass should begin with `P3: Secondary antagonist lattice pass`.
+The next conductor pass should begin with `P3: Formal-name surface sync pass`.
 
 ## P2
 
@@ -137,8 +137,14 @@ The next conductor pass should begin with `P3: Secondary antagonist lattice pass
 
 ### Secondary antagonist lattice pass
 
+- Status: completed on 2026-04-07
 - Goal: raise the density of apostle, executor, broker, and older-pressure figures so late antagonistic pressure is not carried by single-name placeholders.
 - Why now: recurring second-tier drafting entities are healthier, so the next gain comes from strengthening the adversarial network around the main spine.
+
+### Formal-name surface sync pass
+
+- Goal: align draft-facing support surfaces with newly locked formal names such as `Noctur` and `Alvarn`, while preserving nickname use only where voice or scene texture benefits.
+- Why now: the setting library has locked the proper names, so the next gain comes from reducing mismatch between canon-facing docs and draft-facing surfaces.
 
 ### Expand the smoke rules carefully
 

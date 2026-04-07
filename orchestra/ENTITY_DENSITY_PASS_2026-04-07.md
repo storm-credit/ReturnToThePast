@@ -45,8 +45,8 @@ This pass targeted recurring second-tier entities that were important to draftin
 The next likely normalization targets are:
 
 - `lore_bible/characters/The_12_Apostles.md`
-- `lore_bible/characters/Owl.md`
-- `lore_bible/characters/The_Pale_Executors.md`
+- `lore_bible/characters/Noctur.md`
+- `lore_bible/characters/Alvarn.md`
 - `lore_bible/characters/Tyr_First_Leader.md`
 - `lore_bible/characters/Kael.md`
 
@@ -59,6 +59,6 @@ Route the next pass as a `secondary antagonist lattice pass`.
 That pass should focus on:
 
 1. apostle hierarchy and function
-2. Owl as an information-market hinge
-3. Pale Executors as pressure instruments rather than just named enemies
+2. Noctur as an information-market hinge
+3. Alvarn as pressure instruments rather than just named enemies
 4. Tyr and Kael as historical/relational pressure anchors

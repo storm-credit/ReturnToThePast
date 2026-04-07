@@ -21,7 +21,7 @@
 *   `[Relationship_Map.md]`: **인간관계도** (172회차 기준).
 *   `[Supporting_Cast_Witness_Map.md]`: **측면 인물 목격 지도** (류드, 바르그, 토마스, 펜리르, 검은 개가 에이든의 손상을 어떻게 다르게 목격하는지 정리한 기준표).
 *   `[The_12_Apostles.md]`: **12사도** (의회 파생 조직).
-*   `[The_Pale_Executors.md]`: **창백한 집행관들** (의회 무력 간부).
+*   `[Alvarn.md]`: **알바른** (의회 비밀 칙행단).
 
 ## 2. 🌍 세계 (World & Locations)
 *   `[Imperial_Capital.md]`: **수도 세라핌** (부패한 빛의 도시).
