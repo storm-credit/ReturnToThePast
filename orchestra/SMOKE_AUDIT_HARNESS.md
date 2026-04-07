@@ -1,47 +1,47 @@
-# Smoke Audit Harness
+# 스모크 감사 하네스
 
-Use this harness for fast, repeatable setting-library checks before major lore surgery, before drafting, and before final chapter inspection.
+대규모 설정 수선 전, 집필 시작 전, 최종 챕터 감수 전의 빠르고 반복 가능한 설정집 점검에 쓰는 하네스다.
 
-## What it checks
+## 점검 항목
 
-- required source-of-truth files exist
-- all 15 volumes have both `Outline` and `Timeline`
-- every outline still has 25 chapter rows
-- locked canon conflict phrases do not reappear
-- gore-forward diction does not leak into canon/planning docs
-- the foreshadow ledger still contains required IDs and valid statuses
-- front-half clue, supporting-witness, and ending-convergence marker docs still contain their locked anchor lanes
+- 필수 기준 문서가 모두 존재하는가
+- 15권 전체에 `Outline`과 `Timeline`이 한 쌍으로 있는가
+- 모든 아웃라인이 여전히 25화 행 구조를 유지하는가
+- 잠근 캐논 충돌 문구가 다시 살아나지 않았는가
+- 과장된 혈색 표현이 캐논 및 설계 문서에 스며들지 않았는가
+- 복선 장부에 필수 ID와 유효 상태가 남아 있는가
+- 전반부 복선, 측면 인물 목격, 엔딩 수렴 지도에 잠근 기준 레인이 유지되는가
 
-## Files
+## 관련 파일
 
-- Script: `orchestra/scripts/Invoke-SettingLibrarySmokeAudit.ps1`
-- Rules: `orchestra/scripts/setting-audit-rules.json`
-- Output: `orchestra/runs/setting-smoke-<timestamp>/`
+- 스크립트: `orchestra/scripts/Invoke-SettingLibrarySmokeAudit.ps1`
+- 규칙: `orchestra/scripts/setting-audit-rules.json`
+- 산출물: `orchestra/runs/setting-smoke-<timestamp>/`
 
-## Usage
+## 실행법
 
 ```powershell
 powershell -ExecutionPolicy Bypass -File .\orchestra\scripts\Invoke-SettingLibrarySmokeAudit.ps1
 ```
 
-To write into a named folder:
+지정 폴더에 쓰려면:
 
 ```powershell
 powershell -ExecutionPolicy Bypass -File .\orchestra\scripts\Invoke-SettingLibrarySmokeAudit.ps1 -OutputDir "orchestra/runs/current-smoke"
 ```
 
-## Priority Model
+## 우선순위 모델
 
-- `P0`: production structure is broken and drafting should stop
-- `P1`: active canon conflicts that can poison multiple volumes
-- `P2`: tone, naming, or ledger drift that should be cleaned before prose expands
-- `P2`: marker-map drift where key reveal or witness anchors have silently thinned out
-- `P3`: informational pass state
+- `P0`: 제작 구조가 깨져서 집필을 멈춰야 하는 상태
+- `P1`: 여러 권을 오염시킬 수 있는 활성 캐논 충돌
+- `P2`: 집필이 커지기 전에 정리해야 하는 톤, 이름, 장부 흔들림
+- `P2`: 핵심 진실 공개나 목격 축이 얇아진 지도 흔들림
+- `P3`: 참고용 통과 정보
 
-## When to run it
+## 언제 돌릴까
 
-- after outline or timeline edits
-- after canon rule changes
-- after adding or removing any conductor map such as foreshadow, witness, or ending-convergence docs
-- before chapter drafting begins for a volume
-- before a full lore audit merge
+- 아웃라인이나 타임라인을 고친 뒤
+- 캐논 규칙을 바꾼 뒤
+- 복선, 목격, 엔딩 수렴 지도 같은 총괄 지도 문서를 추가하거나 뺀 뒤
+- 권별 챕터 집필을 열기 직전
+- 대형 설정 감사 병합 직전

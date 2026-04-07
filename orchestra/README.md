@@ -1,60 +1,57 @@
-# Orchestra Overview
+# 오케스트라 개요
 
-This folder contains the operating system for the repo-local novel orchestra.
+이 폴더는 저장소 로컬 소설 오케스트라의 운영 중심이다.
 
-## What lives here
+## 여기 있는 것
 
-- `SOURCE_OF_TRUTH.md`: canonical priority order
-- `WORKFLOW.md`: lane order and merge discipline
-- `HANDOFF_PACKET_PLAYBOOK.md`: common mission packets for faster conductor dispatch
-- `LORE_AUDIT_HARNESS.md`: setting-library audit flow
-- `FORESHADOW_HARNESS.md`: clue and payoff flow
-- `STORYCRAFT_HARNESS.md`: structure, arc, reveal, and cadence flow
-- `SMOKE_AUDIT_HARNESS.md`: fast automated consistency checks
-- `../lore_bible/Relationship_Map.md`: core relationship damage grammar
-- `../lore_bible/Supporting_Cast_Witness_Map.md`: side-character witness grammar
-- `../lore_bible/Front_Half_Foreshadow_Map.md`: front-half clue obligations
-- `../lore_bible/Ending_Convergence_Map.md`: late-series ending convergence map
-- `SESSION_STATE.md`: live project snapshot
-- `ORCHESTRA_PORTABILITY_AUDIT_2026-04-07.md`: reusable-core boundary and separation guidance
-- `CORE_LAYER_MAP.md`: reusable core / project config / canon layer split
-- `ORCHESTRA_EXECUTION_PLAN_2026-04-07.md`: conductor-owned completion plan
-- `BRANCH_CHECKPOINT_POLICY.md`: branch, commit, and push cadence
-- `modules/novel-orchestra-core/README.md`: named reusable-core module overview
-- `templates/`: reusable packet, handoff, and reporting formats
-- `templates/NOVEL_ORCHESTRA_BOOTSTRAP_CHECKLIST.md`: bootstrap checklist for reusing this system on another novel
-- `templates/PROJECT_PROFILE_TEMPLATE.md`: per-project config template for a new novel
-- `templates/SOURCE_OF_TRUTH_TEMPLATE.md`: source-of-truth template for a new novel
-- `templates/SETTING_AUDIT_RULES_TEMPLATE.json`: smoke-rule skeleton for a new novel
-- `scripts/`: helper tooling and packet builders
-- `runs/`: generated output packets created on demand
+- `SOURCE_OF_TRUTH.md`: 문서 우선순위 기준
+- `WORKFLOW.md`: lane 순서와 병합 규율
+- `HANDOFF_PACKET_PLAYBOOK.md`: 반복 작업용 패킷 시작점
+- `LORE_AUDIT_HARNESS.md`: 설정집 감사 하네스
+- `FORESHADOW_HARNESS.md`: 복선/회수 감사 하네스
+- `STORYCRAFT_HARNESS.md`: 구조/감정선/리텐션 설계 하네스
+- `SMOKE_AUDIT_HARNESS.md`: 빠른 자동 정합성 게이트
+- `ENGINE_DATA_LAYER_POLICY.md`: JSON/엔진 데이터층 운영 기준
+- `../lore_bible/Relationship_Map.md`: 핵심 관계 손상 문법
+- `../lore_bible/Supporting_Cast_Witness_Map.md`: 측면 인물 목격 문법
+- `../lore_bible/Front_Half_Foreshadow_Map.md`: 전반부 복선 의무 지도
+- `../lore_bible/Ending_Convergence_Map.md`: 후반 엔딩 수렴 지도
+- `SESSION_STATE.md`: 현재 작업 상태
+- `ORCHESTRA_PORTABILITY_AUDIT_2026-04-07.md`: 재사용 경계 감사
+- `CORE_LAYER_MAP.md`: 코어 / 프로젝트 설정 / 캐논 레이어 구분
+- `ORCHESTRA_EXECUTION_PLAN_2026-04-07.md`: 총괄 실행 계획
+- `BRANCH_CHECKPOINT_POLICY.md`: 브랜치/커밋/푸시 규칙
+- `modules/novel-orchestra-core/README.md`: 명명된 재사용 코어 모듈 안내
+- `templates/`: 패킷, 핸드오프, 리포트 템플릿
+- `scripts/`: 보조 스크립트와 패킷 빌더
+- `runs/`: 실행 때마다 생기는 산출물
 
-Active helper tooling should live under `orchestra/scripts` or `backend/`. Root-level one-off utilities should be moved out of the repo root so the canon entry points stay clean.
+활성 보조 도구는 가능하면 `orchestra/scripts`나 `backend/` 아래에 두고, 루트의 일회성 유틸은 계속 비워 두는 편이 진입점을 깨끗하게 유지한다.
 
-## Usage
+## 사용 원칙
 
-Use the conductor first. The conductor decides which specialists are necessary, creates the packet, and merges outputs back into canon files. Do not route every task through every lane.
+- 먼저 총괄자부터 태운다. 총괄자가 필요한 전문가만 고르고 packet을 만든다.
+- 모든 lane을 다 돌리지 않는다. 현재 병목을 풀 lane만 태운다.
+- 반복 작업은 매번 새로 쓰지 말고 `HANDOFF_PACKET_PLAYBOOK.md`와 해당 템플릿부터 쓴다.
+- smoke audit는 빠른 구조 게이트이지, 소설가 판단을 대신하는 것은 아니다.
+- 인간적 대가, 진실 공개, 엔딩 수렴이 걸린 작업은 흩어진 문서를 다시 조립하지 말고 관련 지도 문서부터 읽는다.
 
-For repeatable work such as chapter drafting, lore repair, or bridge reinforcement, start from `HANDOFF_PACKET_PLAYBOOK.md` and the matching template instead of improvising a new packet every time.
+## 재사용과 계획
 
-Use the smoke audit when you need a fast pass before or after heavy edits. It is a structural gate, not a replacement for novelist judgment.
+- 다른 소설에 이식할 때는 `ORCHESTRA_PORTABILITY_AUDIT_2026-04-07.md` -> `CORE_LAYER_MAP.md` -> `templates/` 순으로 읽는다.
+- 이름이 붙은 재사용 경계는 `modules/novel-orchestra-core/`다.
+- 계획형 운영은 `ORCHESTRA_EXECUTION_PLAN_2026-04-07.md`와 `BRANCH_CHECKPOINT_POLICY.md`를 기준으로 잡는다.
 
-If the task touches human cost, reveal fairness, or the late ending spine, pull the relevant map first instead of reconstructing those rules from scattered lore files.
+## 3대 하네스
 
-If you plan to reuse this system on another novel, read `ORCHESTRA_PORTABILITY_AUDIT_2026-04-07.md` first, then `CORE_LAYER_MAP.md`, then clone the templates in `templates/`.
-If you want a named extraction target, treat `modules/novel-orchestra-core/` as the current reusable-core module boundary.
-If you want planned delivery, read `ORCHESTRA_EXECUTION_PLAN_2026-04-07.md` and `BRANCH_CHECKPOINT_POLICY.md` before starting the next pass.
+### Lore Audit
 
-## Three major harnesses
+세계관, 인물, 세력, 장소, 타임라인 정합성을 다룰 때 쓴다.
 
-### Lore audit
+### Foreshadow Audit
 
-Use when the problem is world, character, faction, location, or timeline integrity.
-
-### Foreshadow audit
-
-Use when the problem is clue fairness, red herrings, or payoff debt.
+복선 공정성, 레드헤링, 회수 부채를 다룰 때 쓴다.
 
 ### Storycraft
 
-Use when the problem is novelist-side design: structure, reveal order, emotional arcs, or serial retention.
+구조, 진실 공개 순서, 감정선, 회차 리텐션 같은 소설가 측 설계를 다룰 때 쓴다.

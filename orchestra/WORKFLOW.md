@@ -1,105 +1,105 @@
-# Orchestra Workflow
+# 오케스트라 워크플로
 
-This document explains how the repo-local novel orchestra should operate.
+이 문서는 저장소 로컬 소설 오케스트라가 어떻게 움직여야 하는지 설명한다.
 
-## Goal
+## 목표
 
-- Keep canon repair, storycraft planning, later drafting, and audit work separated.
-- Let specialists own narrow problems while the conductor owns merge order and final decisions.
-- Use only the lanes that remove the current bottleneck.
-- While `SETTING_FIRST_MODE.md` is active, treat drafting lanes as suspended by default.
+- 캐논 보수, 스토리크래프트 설계, 이후 초안, 감사 작업을 분리한다.
+- 전문가들은 좁은 문제를 맡고, 총괄자는 병합 순서와 최종 판단을 맡는다.
+- 현재 병목을 푸는 lane만 사용한다.
+- `SETTING_FIRST_MODE.md`가 켜져 있는 동안엔 drafting lane을 기본적으로 잠근다.
 
-## Core files
+## 핵심 문서
 
-- `SESSION_STATE.md`: active working context and current targets
-- `WORKFLOW.md`: operating rules and lane order
-- `SETTING_FIRST_MODE.md`: declares that the project is still finishing the setting library before prose
-- `SOURCE_OF_TRUTH.md`: canonical priority order and no-touch references
-- `Guidelines/Setting_Audit_Scope.md`: audit surface map for full setting-library work
-- `HANDOFF_PACKET_PLAYBOOK.md`: fast packet choices for common orchestra missions
-- `LORE_AUDIT_HARNESS.md`: full-domain lore audit flow
-- `FORESHADOW_HARNESS.md`: clue and payoff audit flow
-- `STORYCRAFT_HARNESS.md`: structure, reveal, arc, and cadence planning flow
-- `lore_bible/Mid_War_Emotional_Continuity.md`: Vol. 4~8 emotional continuity canon
-- `lore_bible/history/Fixed_Point_Pressure_Map.md`: fixed-point, branch, and pressure grammar
-- `templates/WORK_PACKET.md`: conductor dispatch format
-- `templates/AGENT_REPORT.md`: specialist report format
-- `templates/REVISION_LEDGER.md`: merge log for accepted deltas
-- `scripts/Build-LoreAuditPackets.ps1`: PowerShell lore-audit packet builder
+- `SESSION_STATE.md`: 현재 작업 상태와 타깃
+- `WORKFLOW.md`: 운영 규칙과 lane 순서
+- `SETTING_FIRST_MODE.md`: 아직 설정집 우선 모드임을 선언하는 문서
+- `SOURCE_OF_TRUTH.md`: 문서 우선순위와 no-touch 기준
+- `Guidelines/Setting_Audit_Scope.md`: 설정집 감사 표면 지도
+- `HANDOFF_PACKET_PLAYBOOK.md`: 반복 작업용 빠른 packet 시작점
+- `LORE_AUDIT_HARNESS.md`: 전 도메인 설정 감사 흐름
+- `FORESHADOW_HARNESS.md`: 복선/회수 감사 흐름
+- `STORYCRAFT_HARNESS.md`: 구조, 진실 공개, 감정선, 리텐션 설계 흐름
+- `lore_bible/Mid_War_Emotional_Continuity.md`: 제4권~제8권 감정 연속성 캐논
+- `lore_bible/history/Fixed_Point_Pressure_Map.md`: 고정점, 분기점, 패러독스 압력 문법
+- `templates/WORK_PACKET.md`: 총괄 dispatch 포맷
+- `templates/AGENT_REPORT.md`: 전문가 결과 보고 포맷
+- `templates/REVISION_LEDGER.md`: 병합된 수정 기록
+- `scripts/Build-LoreAuditPackets.ps1`: lore audit packet 빌더
 
-## Operating rules
+## 운영 규칙
 
-1. Update `SESSION_STATE.md` when a long-running task changes target or scope.
-2. The conductor reads the truth sources first and creates a work packet.
-3. For repeatable task shapes, prefer a handoff template or preset before writing a freeform packet.
-4. Specialists work only from the packet and their required reads.
-5. Specialists return structured findings before file edits happen.
-6. The conductor merges only compatible deltas into canonical files.
+1. 장기 작업의 목표나 범위가 바뀌면 `SESSION_STATE.md`를 갱신한다.
+2. 총괄자는 먼저 진실 문서를 읽고 work packet을 만든다.
+3. 반복 작업은 자유형 packet보다 handoff template이나 preset을 우선한다.
+4. 전문가들은 packet과 required reads 기준으로만 움직인다.
+5. 전문가들은 파일 수정 전에 구조화된 findings를 먼저 돌려준다.
+6. 총괄자는 서로 양립 가능한 수정만 캐논 파일에 병합한다.
 
-## Lane patterns
+## lane 패턴
 
-### Canon build or repair
+### 캐논 구축 또는 보수
 
 1. `novel-orchestra-conductor`
 2. `lore-forgemaster`
 3. `chrono-weaver`
 4. `plausibility-warden`
-5. `chapter-inspector` if the result will immediately touch prose
+5. 결과가 prose에 바로 닿으면 `chapter-inspector`
 
-### Lore library audit
+### 설정집 감사
 
 1. `novel-orchestra-conductor`
-2. domain specialists as needed
+2. 필요한 도메인 전문가
 3. `chrono-weaver`
-4. `arc-psychologist` when emotional continuity is the bottleneck
-5. `lore-forgemaster` if repair patches are needed
+4. 감정 연속성이 병목이면 `arc-psychologist`
+5. 실제 수리 패치가 필요하면 `lore-forgemaster`
 6. `plausibility-warden`
 
-For fixed-point or branch-pressure work, prefer:
+고정점/분기점/패러독스 압력 작업은 아래 순서를 우선한다.
 
 1. `novel-orchestra-conductor`
 2. `chrono-weaver`
 3. `world-rule-keeper`
 4. `plausibility-warden`
 
-Optional detail lanes:
+세부 lane이 필요한 경우:
 
 - `relic-curator`
 - `monster-ecologist`
 - `systems-chancellor`
 
-### Storycraft planning
+### 스토리크래프트 설계
 
 1. `novel-orchestra-conductor`
-2. `structure-architect` when skeleton or ending-backsolve is unstable
-3. `arc-psychologist` when the emotional path is thin
-4. `reveal-choreographer` when truth delivery is weak
-5. `foreshadow-bookkeeper` when clue bookkeeping is missing
-6. `serial-tension-engineer` when chapters drag or exits feel soft
+2. 뼈대나 엔딩 역산이 흔들리면 `structure-architect`
+3. 감정선이 얇으면 `arc-psychologist`
+4. 진실 공개 순서가 약하면 `reveal-choreographer`
+5. 복선 장부가 비면 `foreshadow-bookkeeper`
+6. 회차 압력이 약하면 `serial-tension-engineer`
 7. `plausibility-warden`
-8. `scene-smith` only after setting-first mode is lifted
-9. `chapter-inspector` only after setting-first mode is lifted
+8. `scene-smith`는 setting-first 해제 뒤에만
+9. `chapter-inspector`도 setting-first 해제 뒤에만
 
-### Foreshadow and payoff audit
+### 복선 / 회수 감사
 
 1. `novel-orchestra-conductor`
 2. `foreshadow-bookkeeper`
 3. `timeline-historian`
-4. `world-rule-keeper` if the reveal depends on rules
+4. 규칙 의존 리빌이면 `world-rule-keeper`
 5. `plausibility-warden`
 
-Conductor note:
+총괄자 메모:
 
-- Lock both the ledger and the front-half clue map when a reveal changes whole-series meaning.
-- If a payoff relies on a clue that first appears in the same volume, treat it as under-seeded until proven otherwise.
+- 리빌이 시리즈 전체 의미를 바꾸면 복선 장부와 전반부 복선 지도를 함께 잠근다.
+- 회수가 같은 권에서 처음 나온 단서에 기대면 under-seeded로 본다.
 
-### Post-setting drafting or rewrite
+### 설정집 이후 초안/재작성
 
-This lane is inactive until the conductor explicitly lifts `setting-first mode`.
+이 lane은 총괄자가 `setting-first mode`를 해제하기 전까지 비활성이다.
 
-## Packet rules
+## packet 잠금 항목
 
-Every packet should lock:
+모든 packet은 아래를 잠가야 한다.
 
 - `Mission`
 - `Lane`
@@ -113,12 +113,12 @@ Every packet should lock:
 - `Blocking Decisions`
 - `Stop Conditions`
 
-## Anti-patterns
+## 금지 패턴
 
-- Drafting before canon blockers are resolved
-- Drafting while setting-first mode is still active
-- Mixing lore invention and prose revision in one undifferentiated pass
-- Running many lanes against the same file when a narrower route is enough
-- Treating setting work as outline/timeline-only maintenance
-- Using twist energy or gore spectacle to cover for weak structure
-- Skipping the merge step and letting specialist suggestions overwrite canon directly
+- 캐논 병목이 풀리기 전에 초안부터 쓰기
+- setting-first 모드가 켜진 채 drafting lane 열기
+- lore 발명과 prose 수정을 한 패스에 뒤섞기
+- 좁게 풀 수 있는 문제를 여러 lane이 같은 파일에 동시에 건드리게 하기
+- 설정집 작업을 outline/timeline 유지보수로만 오해하기
+- 약한 구조를 반전 에너지나 고어 수사로 덮기
+- merge step 없이 전문가 제안을 캐논에 바로 덮어쓰기

@@ -41,6 +41,8 @@
 *   `[Orel.md]`: **오렐** (침묵의 상아탑 정적의 도서관 기록관).
 *   `[Lucea.md]`: **루세아** (루미나 성전 시련 감찰 제관).
 *   `[Zarkan.md]`: **자르칸** (사루크 천막성의 조달장).
+*   `[characters/Psych_Profile_Data_Guide.md]`: **심리 프로필 데이터 가이드** (캐릭터 심리 JSON 필드 설명층).
+*   `[characters/Protagonist_Psych_Legacy_Guide.md]`: **에이든 심리 데이터 레거시 가이드** (`Protagonist_psych.json`의 역할과 위험을 설명한 안내서).
 
 ## 2. 🌍 세계
 *   `[Imperial_Capital.md]`: **수도 세라핌** (부패한 빛의 도시).
@@ -76,6 +78,8 @@
 *   `[Calendar_Conversion.md]`: **달력 변환표**.
 *   `[Volume_Density_Report.md]`: **권별 밀도 보고서**.
 *   `[Foreshadow_Payoff_Ledger.md]`: **복선/회수 장부**.
+*   `[Rules_Data_Guide.md]`: **규칙 데이터 가이드** (`rules.json`을 사람이 읽는 말로 풀어 둔 설명층).
+*   `[Temporal_Facts_Guide.md]`: **시간 사실 데이터 가이드** (`temporal_facts.json`의 시간선 상태표를 읽는 법).
 *   `[Mid_War_Emotional_Continuity.md]`: **중반부 감정 연속성** (제4권~제8권 전쟁 상흔, 공포, 기억 소거, 행복 상실의 누적 경로).
 *   `[Front_Half_Foreshadow_Map.md]`: **전반부 복선 지도** (제1권~제5권에 무엇을 심어야 후반 반전이 공정해지는지 정리한 기준표).
 *   `[Ending_Convergence_Map.md]`: **엔딩 수렴 지도** (제11권~제15권의 반전, 대가, 인간적 여운이 어떤 순서로 결말에 모여야 하는지 정리한 기준표).

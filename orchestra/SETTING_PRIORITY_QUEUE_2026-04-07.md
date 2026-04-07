@@ -1,14 +1,14 @@
-# Setting Priority Queue
+# 설정 우선순위 큐
 
-Date: 2026-04-07  
-Status: `SETTING-FIRST PASS`
+날짜: 2026-04-07  
+상태: `SETTING-FIRST PASS`
 
-Execution reference:
+실행 기준:
 
 - `ORCHESTRA_EXECUTION_PLAN_2026-04-07.md`
 - `BRANCH_CHECKPOINT_POLICY.md`
 
-The automated smoke audit is green. The core setting-library completion tasks are finished, and the next priorities are optional polish tasks rather than structural repair.
+자동 스모크 감사는 녹색이다. 설정집 핵심 완료 작업은 끝났고, 다음 우선순위는 구조 수선보다 선택 정리 작업이다.
 
 ## P1
 
@@ -36,13 +36,13 @@ The automated smoke audit is green. The core setting-library completion tasks ar
 - Goal: lock the canonical main adversary surface as `상아 의정회` and propagate the rename across the active setting library.
 - Why now: the old name was still leaking through the entry surfaces, lore groups, and outline-facing references.
 
-## Next Focus
+## 다음 초점
 
-The next conductor pass should begin with `optional polish`, not structural rescue.
+다음 총괄 패스는 `구조 수선`이 아니라 `선택 정리`부터 시작한다.
 
-- Optional A: engine-facing JSON/schema key cleanup
-- Optional B: orchestra meta-doc Korean surface sync
-- Optional C: pre-draft packet assembly for the first live writing lane
+- 선택 A: 엔진용 JSON 및 스키마 설명층 정리
+- 선택 B: 오케스트라 운영 문서 한국어 표면 정리
+- 선택 C: 첫 실전 집필 레인을 위한 사전 패킷 조립
 
 ## P2
 
@@ -156,22 +156,22 @@ The next conductor pass should begin with `optional polish`, not structural resc
 - Candidate additions: modern technical diction warnings, reveal clustering heuristics, and outline/timeline bridge checks.
 - Guardrail: only add automated checks that stay low-noise; the harness should remain a fast gate, not a false-positive factory.
 
-## Optional Polish
+## 선택 정리
 
-### Engine-facing data cleanup
+### 엔진용 데이터 설명층 정리
+
+- Status: completed on 2026-04-07
+- Goal: JSON 키 이름은 안정적으로 유지하고, 사람용 설명층을 별도로 붙인다.
+- Result: `ENGINE_DATA_LAYER_POLICY.md`, `lore_bible/Rules_Data_Guide.md`, `lore_bible/Temporal_Facts_Guide.md`, `lore_bible/characters/Psych_Profile_Data_Guide.md`, `lore_bible/characters/Protagonist_Psych_Legacy_Guide.md`
+
+### 오케스트라 운영 문서 한국어 동기화
+
+- Status: completed on 2026-04-07
+- Goal: 총괄자가 매일 보는 문서의 영어 상태 라벨과 섹션명을 줄이고 한국어 표면으로 닫는다.
+- Result: `orchestra/README.md`, `orchestra/WORKFLOW.md`, `orchestra/SOURCE_OF_TRUTH.md`, `orchestra/STORYCRAFT_HARNESS.md`, `orchestra/SETTING_FIRST_MODE.md`, `orchestra/SMOKE_AUDIT_HARNESS.md`, `orchestra/HANDOFF_PACKET_PLAYBOOK.md`
+
+### 집필 전 패킷 조립
 
 - Status: pending
-- Goal: decide whether JSON key names such as `ideal` should stay engine-friendly or be mirrored in a Korean-facing data layer.
-- Why later: this is not blocking setting quality or orchestration flow.
-
-### Orchestra meta-doc Korean sync
-
-- Status: pending
-- Goal: reduce remaining English status labels and section names in conductor-facing docs.
-- Why later: this improves readability for operators, but not canon stability.
-
-### Pre-draft packet assembly
-
-- Status: pending
-- Goal: prepare the first chapter/volume handoff packet after the setting-first closeout.
-- Why later: the setting library is now stable enough to support live drafting when requested.
+- Goal: 설정 우선 마감 이후 첫 권/첫 화 핸드오프 패킷을 준비한다.
+- Why later: 설정집이 이제는 사용 가능 수준까지 잠겨 있어, 사용자가 원할 때 집필 레인을 열 준비만 남았다.

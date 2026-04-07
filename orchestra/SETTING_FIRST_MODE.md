@@ -1,19 +1,19 @@
-# Setting-First Mode
+# 설정 우선 모드
 
-Date locked: 2026-04-07
-Status: `ACTIVE`
+잠금 날짜: 2026-04-07
+상태: `ACTIVE`
 
-This project is currently in `setting-first mode`.
+현재 프로젝트는 `설정 우선 모드`에 있다.
 
-The setting library must be stabilized before any new prose drafting begins.
+새 초안을 쓰기 전에 설정집을 먼저 안정화해야 한다.
 
-## Active mission
+## 현재 임무
 
-- finish the setting library first
-- treat canon, outlines, timelines, naming, factions, rules, and payoff maps as the main work
-- do not let draft-side tasks become the default orchestra path
+- 설정집을 먼저 마감한다.
+- 캐논, 아웃라인, 타임라인, 작명, 세력, 규칙, 복선 지도를 본 작업으로 다룬다.
+- 초안 쪽 일이 기본 오케스트라 경로가 되지 않게 막는다.
 
-## Active edit surfaces
+## 현재 편집 면
 
 - `00_CANON.md`
 - `Start_Here.md`
@@ -21,31 +21,32 @@ The setting library must be stabilized before any new prose drafting begins.
 - `lore_bible/**`
 - `Guidelines/**`
 - `orchestra/**`
-- `.agent/skills/**` when orchestration behavior must change
+- 오케스트라 동작을 바꿔야 할 때의 `.agent/skills/**`
 
-## Suspended lanes
+## 기본 중지 레인
 
-The following lanes are not active by default while this mode is on:
+이 모드가 켜져 있는 동안 아래 레인은 기본 비활성이다.
 
 - `draft`
 - `hook`
 - `audit`
-- any chapter rewrite or prose polish pass
+- 모든 챕터 재작성
+- 모든 산문 다듬기 패스
 
-They may return only after the conductor explicitly declares the setting library ready for prose.
+이 레인들은 총괄자가 설정집이 산문 투입 준비를 마쳤다고 선언한 뒤에만 다시 연다.
 
-## Unlock conditions
+## 해제 조건
 
-Before drafting resumes, the conductor should be able to say all of the following are true:
+집필을 다시 열기 전에 총괄자는 아래 항목이 모두 참이라고 말할 수 있어야 한다.
 
-- the core antagonist axis is locked
-- the time-travel and debt grammar are stable
-- the 15-volume roadmap is coherent
-- volume outlines and timelines are usable as a production surface
-- naming and tone are stable across the setting library
-- foreshadow, fixed-point pressure, and ending convergence documents agree
-- smoke audit passes without depending on deleted draft files
+- 핵심 적대축이 잠겼다.
+- 시간여행과 대가 문법이 안정적이다.
+- 15권 로드맵이 일관된다.
+- 권별 아웃라인과 타임라인이 제작 면으로 쓸 수 있다.
+- 설정집 전반의 이름과 톤이 안정적이다.
+- 복선, 고정점 압력, 엔딩 수렴 문서가 서로 맞물린다.
+- 삭제된 초안 파일에 기대지 않고도 스모크 감사가 PASS다.
 
-## Conductor rule
+## 총괄 규칙
 
-If a task can be completed inside the setting library, do not route it through prose lanes.
+설정집 안에서 끝낼 수 있는 일이라면 산문 레인으로 보내지 않는다.

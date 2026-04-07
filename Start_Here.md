@@ -22,9 +22,19 @@
     *   설정 보강이 규칙, 인물, 세력, 장소, 용어, 복선, 아웃라인, 타임라인을 함께 본다는 운영 기준.
 6.  **[세계 이동 지도](lore_bible/locations/World_Travel_Atlas.md)**
     *   수도, 북부, 동부, 남부, 서부 권역의 거리감과 이동 압박을 잠그는 배경 지도.
-7.  **[집필 프롬프트 템플릿](Guidelines/Writing_Prompt_Template.md)**
+7.  **[엔진 데이터 레이어 정책](orchestra/ENGINE_DATA_LAYER_POLICY.md)**
+    *   JSON 키는 안정성 중심으로 두고, 사람용 설명층은 옆 문서로 분리한다는 운영 기준.
+8.  **[규칙 데이터 가이드](lore_bible/Rules_Data_Guide.md)**
+    *   `rules.json`의 금지어와 제약 조건을 사람이 읽는 말로 풀어 둔 안내서.
+9.  **[시간 사실 데이터 가이드](lore_bible/Temporal_Facts_Guide.md)**
+    *   `temporal_facts.json`의 시간선, 상태, 유효 구간을 사람이 읽는 말로 풀어 둔 안내서.
+10.  **[심리 프로필 데이터 가이드](lore_bible/characters/Psych_Profile_Data_Guide.md)**
+    *   캐릭터 심리 JSON 필드가 무엇을 뜻하는지 읽기 쉽게 정리한 문서.
+11.  **[에이든 심리 데이터 레거시 가이드](lore_bible/characters/Protagonist_Psych_Legacy_Guide.md)**
+    *   `Protagonist_psych.json`이 최신 심리 모델이 아니라 레거시 브리지 데이터라는 점을 정리한 안내서.
+12.  **[집필 프롬프트 템플릿](Guidelines/Writing_Prompt_Template.md)**
     *   설정집이 잠긴 뒤 쓰는 후행 문서. 지금은 참고만 하고, 집필 시작 전 다시 읽을 것.
-8.  **[챕터 감수 체크리스트](Guidelines/Chapter_Audit_Checklist.md)**
+13.  **[챕터 감수 체크리스트](Guidelines/Chapter_Audit_Checklist.md)**
     *   설정집 완료 후 초안 단계에서 쓰는 후행 검수 기준.
 
 ---

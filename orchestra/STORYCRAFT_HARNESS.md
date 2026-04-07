@@ -1,60 +1,60 @@
-# Storycraft Harness
+# 스토리크래프트 하네스
 
-Use this harness when the bottleneck is not raw canon accuracy but story design quality.
+캐논 정확도 자체보다 서사 설계 품질이 병목일 때 이 하네스를 쓴다.
 
-## Purpose
+## 목적
 
-- Turn lore into dramatic function.
-- Keep the project anchored to its time-travel paradox frame instead of drifting into generic regression logic.
-- Lock endings early enough to support fair foreshadowing.
-- Control reveal order so the story feels inevitable instead of arbitrary.
-- Keep long-form serialization addictive without using cheap spectacle.
+- 설정을 드라마 기능으로 바꾼다.
+- 작품이 일반 회귀물 문법으로 미끄러지지 않고 시간여행 패러독스 프레임에 붙어 있도록 잡는다.
+- 공정한 복선을 위해 엔딩을 충분히 이른 시점에 잠근다.
+- 진실 공개 순서를 조절해 서사가 임의가 아니라 필연처럼 읽히게 만든다.
+- 값싼 자극에 기대지 않고 장기 연재의 흡인력을 유지한다.
 
-## Shared playbook
+## 공통 운용법
 
-Read `Guidelines/Time_Travel_Frame.md` first, then `Guidelines/Storycraft_Algorithms.md` for the human-facing version and `.agent/skills/novel-orchestra-conductor/references/craft-algorithms.md` for the orchestra-facing version.
+먼저 `Guidelines/Time_Travel_Frame.md`를 읽고, 사람용 설명은 `Guidelines/Storycraft_Algorithms.md`, 오케스트라용 기준은 `.agent/skills/novel-orchestra-conductor/references/craft-algorithms.md`를 읽는다.
 
-Core algorithms:
+핵심 알고리즘:
 
-1. Ending Backsolve
-2. Reveal Ladder
-3. Arc Pressure Loop
-4. Serial Retention Loop
-5. Setting-to-Story Conversion
-6. Continuity Gate
+1. 엔딩 역산
+2. 진실 공개 사다리
+3. 장편 압력 순환
+4. 연재 유지 순환
+5. 설정-서사 변환
+6. 연속성 게이트
 
-## Specialist lanes
+## 전문 레인
 
-- `structure-architect`: series skeleton, volume promise, act turns, midpoint, ending-backsolve
-- `arc-psychologist`: wound, mask, trust shifts, internal need, emotional payment
-- `reveal-choreographer`: secrets, misdirection fairness, reveal gate, truth release order
-- `foreshadow-bookkeeper`: clue ledger, reinforcement spacing, payoff debt
-- `serial-tension-engineer`: scene pressure, chapter exits, anti-drag repair
+- `structure-architect`: 시리즈 골격, 권 약속, 전환점, 중반점, 엔딩 역산
+- `arc-psychologist`: 상처, 가면, 신뢰 변화, 내적 결핍, 감정 대가
+- `reveal-choreographer`: 비밀, 레드헤링 공정성, 공개 게이트, 진실 방출 순서
+- `foreshadow-bookkeeper`: 단서 장부, 보강 간격, 회수 부채
+- `serial-tension-engineer`: 장면 압력, 화 마감, 늘어짐 수선
 
-## Typical flow
+## 기본 흐름
 
-1. The conductor identifies the active bottleneck.
-2. The conductor routes only the lanes needed for that bottleneck.
-3. Specialists produce reports before any prose rewrite starts.
-4. The conductor merges accepted changes into roadmap, outlines, lore, or ledger files.
-5. Drafting begins only after the structural blockers are resolved.
+1. 총괄자가 현재 병목을 식별한다.
+2. 총괄자는 그 병목에 필요한 레인만 호출한다.
+3. 전문가는 산문 수정에 들어가기 전에 먼저 보고서를 낸다.
+4. 총괄자는 승인된 결과를 로드맵, 아웃라인, 설정, 장부 문서에 병합한다.
+5. 구조적 막힘이 풀린 뒤에만 집필을 연다.
 
-Outlines and timelines are part of the required check, because paradox pressure only stays coherent when event order is explicit.
+패러독스 압력은 사건 순서가 분명해야 유지되므로, 아웃라인과 타임라인은 항상 필수 점검 대상으로 본다.
 
-## Expected deliverables
+## 기대 산출물
 
-Depending on scope, the harness should produce one or more of these:
+범위에 따라 다음 중 하나 이상이 나와야 한다.
 
-- ending lock sheet
-- beat map
-- reveal ladder
-- arc pressure grid
-- cadence report
-- foreshadow/payoff updates
+- 엔딩 잠금 시트
+- 비트 지도
+- 진실 공개 사다리
+- 장편 압력 표
+- 장면 간격 보고서
+- 복선/회수 장부 갱신안
 
-## Guardrails
+## 보호 규칙
 
-- Do not add complicated theory unless it changes a concrete story decision.
-- Do not force every task through every lane.
-- Do not hide weak structure behind mystery language.
-- Do not use flashy blood-spectacle or faux-system jargon as a substitute for tension.
+- 구체적인 서사 결정을 바꾸지 않는 이론은 덧붙이지 않는다.
+- 모든 작업을 모든 레인에 억지로 태우지 않는다.
+- 약한 구조를 신비한 말로 숨기지 않는다.
+- 피 과시나 가짜 시스템 용어로 긴장을 대신하지 않는다.
