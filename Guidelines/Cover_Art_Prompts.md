@@ -1,60 +1,58 @@
-# 🎨 소설 표지용 NovelAI (NanoBanana) 프롬프트 모음 - [Dark Fantasy Anime Ver]
+# 표지/일러스트 프롬프트 팩
 
-**수정 사항**: '현대 도시(아파트, 빌딩)' 느낌을 완전히 배제하고, **[고딕/빅토리아 시대 판타지]** 배경으로 변경했습니다.
-**핵심 태그**: `gothic architecture`, `victorian era`, `steampunk elements`, `gas lamp`, `stone bricks`.
+**방향**: 현실 도시, 산업풍 장식, 특정 실존 도시 연상은 걷어내고, **첨탑과 회랑이 두드러진 고풍 암흑 판타지**로 맞춘다.  
+**핵심 태그**: `dark fantasy`, `gothic cathedral city`, `lamplit stone street`, `spire`, `weathered cloister`, `ancient clock tower`
 
 ---
 
-## 1. ✨ 에이든 단독 (Gothic Noir Style)
-> **컨셉**: '블러드본'이나 '강철의 연금술사' 같은 중세~근대 판타지풍 도시 배경.
-> **구도**: 안개 낀 돌길(Cobblestone) 위에 서 있는 고독한 시간의 표류자.
+## 1. 에이든 단독 (Ashen Spire Noir)
+> **컨셉**: 안개, 석조 회랑, 시계탑, 마른 표정의 시간 표류자.  
+> **구도**: 젖은 돌길 위에 홀로 선 에이든. 뒤편엔 첨탑과 회랑, 오래된 종루가 흐릿하게 서 있다.
 
 ```text
-{{masterpiece}}, {{best quality}}, {{ultra_detailed}}, {{anime style}}, {{cel shading}},
-{{dark fantasy}}, {{gothic architecture}}, {{victorian era}},
+{{masterpiece}}, {{best quality}}, {{ultra_detailed}}, {{anime illustration}},
+{{dark fantasy}}, gothic cathedral city, lamplit stone street, ancient spire,
 1boy, solo, male focus, upper body focus,
-(aiden), black hair, short neat hair, piercing purple eyes, handsome face, cold expression, cynical smile,
-wearing black victorian coat, high collar, leather gloves, cravat,
-holding a (glowing pocket watch:1.2) in hand, magic circle in background,
-background is foggy london street, gas lamp, stone buildings, clock tower, spires,
-night, rain, wet effect, mysterious atmosphere,
-dynamic lighting, dramatic shadows, voluminous fog,
-intricate details, 8k resolution
+(aiden), black hair, short neat hair, piercing purple eyes, handsome face, cold expression, restrained cynicism,
+wearing black long coat, high collar, leather gloves, cravat,
+holding an old pocket watch in hand, faint arcane sigils in background,
+misty stone avenue, gas lamps, weathered masonry, distant bell tower, cloister arches,
+night rain, wet cobblestone, muted palette, ash-grey atmosphere,
+dramatic shadows, dense fog, intricate details
 ```
 
-## 2. ⚔️ 에이든 & 아이리스(Iris) (Dark Action Dual)
-> **컨셉**: 폐허가 된 고딕 양식의 건물(성당, 시계탑)을 배경으로 한 전투 태세.
-> **구도**: 등을 맞대고 서 있는 두 사람. 붉은 마력과 푸른 마력의 대비.
+## 2. 에이든 & 아이리스 (Ruined Cloister Dual)
+> **컨셉**: 무너진 성당 회랑 앞에서 등을 맞댄 두 사람. 차가운 푸른 기류와 메마른 붉은 기류가 갈린다.  
+> **구도**: 전투 직전의 팽팽한 정적이 먼저 보이게 한다.
 
 ```text
-{{masterpiece}}, {{best quality}}, {{anime key visual}}, {{ufotable style}}, {{dark fantasy}},
+{{masterpiece}}, {{best quality}}, {{anime illustration}}, {{dark fantasy}},
 2persons, 1boy and 1girl,
-[Boy]: (left), black hair, victorian coat, holding dagger, calm, blue aura,
-[Girl]: (right), (kasha), red hair, ponytail, wild eyes, fierce expression, holding dual swords, leather armor, red aura, fire effects,
+[Boy]: black hair, dark long coat, holding dagger, calm, restrained blue aura,
+[Girl]: red hair, ponytail, fierce gaze, holding dual swords, worn leather armor, ember-red aura,
 back to back, fighting stance,
-background is destroyed gothic cathedral, stained glass shards, gears, clockwork parts, rubble,
-intense atmosphere, high contrast, cinematic composition,
+ruined cathedral cloister, shattered stained glass, fallen stone saints, scattered rubble,
+intense atmosphere, high contrast, cinematic composition, cold mist,
 {{detailed eyes}}, {{beautiful face}}
 ```
 
-## 3. 🌃 배경 일러스트 (Steampunk/Gothic City)
-> **컨셉**: 증기 기관과 마법이 공존하는 가스램프 판타지 도시의 전경.
-> **특징**: 아파트나 빌딩 대신 **첨탑(Spires)**과 **시계탑(Clock Tower)** 위주.
+## 3. 첨탑 도시 전경 (Cathedral City at Dusk)
+> **컨셉**: 가스등과 회랑, 첨탑, 오래된 종루가 층층이 겹치는 잿빛 왕도 전경.  
+> **특징**: 실존 도시나 산업 문물보다 석조 도시의 무게감이 먼저 보여야 한다.
 
 ```text
-{{masterpiece}}, {{best quality}}, {{scenery}}, {{makoto shinkai style}}, {{highly detailed background}},
-no humans, gothic city, victorian city,
-clock tower, big ben style, gears, cogs, steam pipes, fog,
-stone bridge, gothic castle in distance,
-night, full moon, purple sky, stars,
-gas lamps glowing, magical atmosphere, mysterious,
-lens flare, bloom, cinematic lighting,
+{{masterpiece}}, {{best quality}}, {{scenery}}, {{highly detailed background}},
+no humans, gothic fantasy city, spires, bell towers, cloisters, stone bridges,
+ancient clock tower, hanging lamps, narrow alleys, drifting fog,
+river below dark arches, distant citadel, weathered walls,
+dusk, ash-grey sky, pale moon, muted gold lights,
+moody atmosphere, cinematic lighting,
 painting style, concept art
 ```
 
 ---
 
-### 💡 팁 (Tips)
-*   **배경 태그**: `modern city`, `skyscraper`, `apartment`는 절대 넣지 마세요. 대신 `gothic`, `victorian`, `castle`, `stone`을 사용하세요.
-*   **의상**: `suit` 대신 `victorian coat`, `trench coat`, `medieval clothes`를 사용하면 판타지 느낌이 더 살아납니다.
-*   **네거티브(Undesired)**: `modern architecture, cars, telephone pole, electric wires, glass building`
+### 팁
+* **배경 태그**: `modern city`, `skyscraper`, `apartment`, `subway`, `office`는 피하고, `cathedral city`, `stone cloister`, `spire`, `citadel`, `lamplit street`를 우선한다.
+* **의상**: `suit`보다 `long coat`, `cloak`, `formal fantasy attire`, `weathered leather`, `high collar`가 더 잘 맞는다.
+* **네거티브 태그**: `modern architecture, cars, neon sign, electric wires, glass building, sci-fi panel`

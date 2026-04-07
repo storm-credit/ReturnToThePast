@@ -27,7 +27,7 @@ The automated smoke audit is green. The next priorities are no longer file-struc
 
 ## Next Focus
 
-The next conductor pass should begin with `P3: Auxiliary pack cleanup pass`.
+The next conductor pass should begin with `P3: Draft-facing prompt simplification pass`.
 
 ## P2
 
@@ -113,8 +113,14 @@ The next conductor pass should begin with `P3: Auxiliary pack cleanup pass`.
 
 ### Auxiliary pack cleanup pass
 
+- Status: completed on 2026-04-07
 - Goal: review low-priority support packs such as cover prompts, psych appendices, and style side-notes for any remaining modern phrasing or duplicate guidance.
 - Why now: the main canon, entry surfaces, and secondary terminology are now aligned, so the next gain comes from reducing residue in auxiliary support material.
+
+### Draft-facing prompt simplification pass
+
+- Goal: trim duplicated guardrails across drafting prompt packs so day-to-day usage stays lighter while the canon locks remain intact.
+- Why now: auxiliary support docs are cleaner, so the next gain comes from making the drafting surface faster and less repetitive for repeated orchestra runs.
 
 ### Expand the smoke rules carefully
 
