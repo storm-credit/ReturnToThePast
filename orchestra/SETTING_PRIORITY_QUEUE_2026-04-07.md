@@ -27,7 +27,7 @@ The automated smoke audit is green. The next priorities are no longer file-struc
 
 ## Next Focus
 
-The next conductor pass should begin with `P3: Entity density normalization pass`.
+The next conductor pass should begin with `P3: Secondary antagonist lattice pass`.
 
 ## P2
 
@@ -131,8 +131,14 @@ The next conductor pass should begin with `P3: Entity density normalization pass
 
 ### Entity density normalization pass
 
+- Status: completed on 2026-04-07
 - Goal: bring thin second-tier character, faction, and location files up to a more even operating density before deeper drafting begins.
 - Why now: the orchestration surface is cleaner, so the next gain comes from reducing thin spots in recurring lore entries.
+
+### Secondary antagonist lattice pass
+
+- Goal: raise the density of apostle, executor, broker, and older-pressure figures so late antagonistic pressure is not carried by single-name placeholders.
+- Why now: recurring second-tier drafting entities are healthier, so the next gain comes from strengthening the adversarial network around the main spine.
 
 ### Expand the smoke rules carefully
 
