@@ -1,37 +1,37 @@
-# Time Travel Frame
+# 시간여행 프레임
 
-This project should be treated as a dark-fantasy time-travel paradox story, not a standard regression fantasy.
+이 프로젝트는 일반적인 회귀 판타지가 아니라, 다크 판타지 시간여행 패러독스물로 다뤄야 한다.
 
-## Core frame
+## 핵심 프레임
 
-- The protagonist experiences the setup as if it were regression.
-- The deeper truth is forced consciousness transfer from a ruined future into a past body.
-- The engine of the story is intervention, paradox, fixed points, branch pressure, and tragic cost.
-- Knowledge is not a free cheat code. Even correct action should still demand payment.
+- 주인공은 이 현상을 표면적으로 귀환처럼 받아들인다.
+- 더 깊은 진실은 멸망한 미래에서 과거의 육체로 강제 의식 전송이 일어났다는 데 있다.
+- 이야기의 중심축은 개입, 패러독스, 고정점, 분기 압력, 비극적 대가다.
+- 지식은 공짜 치트가 아니다. 올바른 선택조차 반드시 값을 치러야 한다.
 
-## What this means for audits
+## 검수에서 뜻하는 바
 
-- `outline` and `timeline` files are mandatory parts of the setting check.
-- A real setting pass must also read the relevant `lore_bible` rules, character files, faction and location files, naming guides, mandatory-event docs, and foreshadow ledgers.
-- Every major intervention should be tracked against fixed points and branch points.
-- A reveal about time travel must feel fair on reread.
-- The story should not drift into easy wish-fulfillment regression logic.
-- The largest late-series truths should normally have visible clue pressure in the first half of the series.
-- Fixed points, branch points, and paradox pressure should be documented as one readable grammar rather than scattered exceptions.
+- `outline`과 `timeline`은 설정 점검의 필수 축이다.
+- 제대로 된 설정 패스라면 관련 `lore_bible` 규칙, 인물 파일, 세력과 장소 파일, 작명 가이드, 필수 이벤트 문서, 복선 장부까지 함께 읽어야 한다.
+- 모든 큰 개입은 고정점과 분기점에 맞물려 추적되어야 한다.
+- 시간여행 관련 진실은 재독 시에도 공정하게 느껴져야 한다.
+- 이야기가 쉬운 소원 성취형 회귀 논리로 미끄러지면 안 된다.
+- 후반의 큰 진실은 대체로 전반부에서 이미 압박 흔적이 보여야 한다.
+- 고정점, 분기점, 패러독스 압력은 흩어진 예외가 아니라 읽히는 하나의 문법으로 정리돼야 한다.
 
-## Required audit surfaces
+## 필수 검수 표면
 
-- `rules`: paradox laws, costs, fixed points, and taboo
-- `characters`: debt, fear, relationship change, and emotional erosion
-- `factions and locations`: power logic, movement pressure, and place identity
-- `tone and naming`: old, high-fantasy diction with no modern technical bleed
-- `foreshadow and endings`: fair clueing and locked truth delivery
-- `outline and timeline`: actual event order under pressure
+- `rules`: 패러독스 법칙, 대가, 고정점, 금기
+- `characters`: 빚, 공포, 관계 변화, 감정 마모
+- `factions and locations`: 권력 논리, 이동 압력, 장소의 결
+- `tone and naming`: 현대 기술어가 스며들지 않은 고풍 판타지 어휘
+- `foreshadow and endings`: 공정한 단서 배치와 잠긴 진실 전달
+- `outline and timeline`: 압력 아래에서 실제로 작동하는 사건 순서
 
-## Questions every lane should ask
+## 모든 레인이 물어야 할 질문
 
-1. What does the protagonist believe is happening?
-2. What is actually happening in time-travel terms?
-3. What is fixed, and what can still branch?
-4. What cost is being paid for this intervention?
-5. What paradox or reveal debt is being created for later?
+1. 주인공은 지금 무슨 일이 벌어진다고 믿고 있는가?
+2. 시간여행 문법상 실제로 벌어지는 일은 무엇인가?
+3. 무엇이 고정되어 있고, 무엇이 아직 갈라질 수 있는가?
+4. 이번 개입으로 어떤 값을 치르고 있는가?
+5. 이 선택이 후반에 어떤 패러독스 부채와 진실 부채를 남기는가?

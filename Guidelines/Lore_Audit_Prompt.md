@@ -1,4 +1,4 @@
-# 🔍 설정집 정합성 검수 프롬프트 (Lore Audit Prompt)
+# 🔍 설정집 정합성 검수 프롬프트
 
 > 설정집 전체를 점검할 때 쓰는 감사 프롬프트입니다.  
 > 이 프로젝트는 `lore_bible`만이 아니라 `outline`, `timeline`, `ending`, `foreshadow`까지 함께 봐야 합니다.
@@ -17,7 +17,7 @@
 프로젝트: 《나는 과거로 간다》
 장르 프레임: 표면 귀환 / 실상 강제 타임트래블 패러독스
 범위: 설정집 + 로드맵 + 권별 아웃라인/타임라인 + 엔딩/복선 장부
-목표: 파일 간 Cross-Reference 정합성 검증
+목표: 파일 간 교차 참조 정합성 검증
 
 # 반드시 함께 검수할 파일/폴더
 1. `00_CANON.md`
@@ -34,8 +34,8 @@
 12. `Start_Here.md`
 13. `lore_bible/style/Naming_Style_Guide.md`
 14. `Guidelines/Setting_Audit_Scope.md`
-15. `lore_bible/Mid_War_Emotional_Continuity.md` when the target arc includes `Vol. 4~8`
-16. `lore_bible/history/Fixed_Point_Pressure_Map.md` when the target arc includes major paradox pressure
+15. 대상 구간이 `제4권~제8권`을 포함하면 `lore_bible/Mid_War_Emotional_Continuity.md`
+16. 대상 구간에 큰 패러독스 압력이 걸리면 `lore_bible/history/Fixed_Point_Pressure_Map.md`
 
 # 핵심 점검축
 
