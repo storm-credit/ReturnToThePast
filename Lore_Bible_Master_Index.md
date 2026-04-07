@@ -44,9 +44,9 @@
 *   `[Calendar_Conversion.md]`: **달력 변환표**.
 *   `[Volume_Density_Report.md]`: **권별 밀도 보고서**.
 *   `[Foreshadow_Payoff_Ledger.md]`: **복선/회수 장부**.
-*   `[Mid_War_Emotional_Continuity.md]`: **중반부 감정 연속성** (Vol. 4~8 전쟁 상흔, 공포, 기억 소거, 행복 상실의 누적 경로).
-*   `[Front_Half_Foreshadow_Map.md]`: **전반부 복선 지도** (Vol. 1~5에 무엇을 심어야 후반 반전이 공정해지는지 정리한 기준표).
-*   `[Ending_Convergence_Map.md]`: **엔딩 수렴 지도** (Vol. 11~15의 반전, 대가, 인간적 여운이 어떤 순서로 결말에 모여야 하는지 정리한 기준표).
+*   `[Mid_War_Emotional_Continuity.md]`: **중반부 감정 연속성** (제4권~제8권 전쟁 상흔, 공포, 기억 소거, 행복 상실의 누적 경로).
+*   `[Front_Half_Foreshadow_Map.md]`: **전반부 복선 지도** (제1권~제5권에 무엇을 심어야 후반 반전이 공정해지는지 정리한 기준표).
+*   `[Ending_Convergence_Map.md]`: **엔딩 수렴 지도** (제11권~제15권의 반전, 대가, 인간적 여운이 어떤 순서로 결말에 모여야 하는지 정리한 기준표).
 
 ## 4. 🧙 마법
 *   `[Causality_Magic.md]`: **인과율 마법** (서클과 대가, 에이든의 실전 압축).
@@ -57,7 +57,7 @@
 *   `[Black_Dog.md]`: **검은 개 부대** (상아 의정회 산하 추적/포획 부대).
 *   `[Fenrir.md]`: **펜리르** (회색 도시의 늑대 세력).
 *   `[Stray_Dogs.md]`: **들개들** (하층 자경단/해결사 축).
-*   `[Lower_City_Hierarchy.md]`: **하층 권세도** (들개들, 펜리르, 검은 시장, 해결사 관계망).
+*   `[하층_권세도.md]`: **하층 권세도** (들개들, 펜리르, 검은 시장, 해결사 관계망).
 *   `[Fixer_System.md]`: **해결사 시스템** (등급, 의뢰 절차).
 *   `[Shadow_Guild_System.md]`: **그림자 길드** (등급, 의뢰 절차).
 *   `[Magic_Drug_Cartel.md]`: **에테르 암거래망** (회색 역병의 유통 경로).

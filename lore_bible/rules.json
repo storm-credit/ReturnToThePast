@@ -1,6 +1,6 @@
 {
-    "setting_name": "Eldoria (Gothic Fantasy)",
-    "genre": "Dark Fantasy",
+    "setting_name": "엘도리아",
+    "genre": "다크 판타지",
     "forbidden_terms": [
         "Status Window",
         "System",
@@ -13,17 +13,17 @@
         "Game Terms (Level, Rank S)"
     ],
     "magic_system": {
-        "resource": "Mana (Corrupted Ether)",
-        "cost_logic": "Equivalent Exchange - Magic corrodes the body."
+        "resource": "마나(오염된 에테르)",
+        "cost_logic": "대가 규칙 - 마법은 육신을 깎아 먹는다."
     },
     "constraints": [
         {
             "trigger": "reveal future",
-            "message": "Revealing the future directly weakens the timeline stability."
+            "message": "미래를 노골적으로 드러내면 시간선의 안정성이 약해진다."
         },
         {
             "trigger": "modern technology",
-            "message": "Technology must be described in magical/steampunk terms (e.g. Mana Engine)."
+            "message": "기술은 반드시 마도공학이나 증기 장치 같은 판타지 어휘로 바꿔 서술한다."
         }
     ]
 }

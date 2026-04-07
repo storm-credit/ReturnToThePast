@@ -50,7 +50,7 @@
 *   [검은 개 부대](lore_bible/groups/Black_Dog.md): 상아 의정회 산하의 사설 무장 단체.
 *   [펜리르](lore_bible/groups/Fenrir.md): 회색 도시의 늑대 세력.
 *   [들개들](lore_bible/groups/Stray_Dogs.md): 빈민가 자경단/해결사 축.
-*   [하층 권세도](lore_bible/groups/Lower_City_Hierarchy.md): 들개들, 펜리르, 검은 시장, 해결사의 실제 맞물림.
+*   [하층 권세도](lore_bible/groups/하층_권세도.md): 들개들, 펜리르, 검은 시장, 해결사의 실제 맞물림.
 *   [상아 의정회](lore_bible/groups/Ivory_Consistory.md): 황실 연금술 학회 내부의 비밀 결사.
 
 ### 🗺️ 장소
