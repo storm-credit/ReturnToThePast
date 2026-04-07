@@ -14,6 +14,7 @@ This document explains how the repo-local novel orchestra should operate.
 - `WORKFLOW.md`: operating rules and lane order
 - `SOURCE_OF_TRUTH.md`: canonical priority order and no-touch references
 - `Guidelines/Setting_Audit_Scope.md`: audit surface map for full setting-library work
+- `HANDOFF_PACKET_PLAYBOOK.md`: fast packet choices for common orchestra missions
 - `LORE_AUDIT_HARNESS.md`: full-domain lore audit flow
 - `FORESHADOW_HARNESS.md`: clue and payoff audit flow
 - `STORYCRAFT_HARNESS.md`: structure, reveal, arc, and cadence planning flow
@@ -28,9 +29,10 @@ This document explains how the repo-local novel orchestra should operate.
 
 1. Update `SESSION_STATE.md` when a long-running task changes target or scope.
 2. The conductor reads the truth sources first and creates a work packet.
-3. Specialists work only from the packet and their required reads.
-4. Specialists return structured findings before file edits happen.
-5. The conductor merges only compatible deltas into canonical files.
+3. For repeatable task shapes, prefer a handoff template or preset before writing a freeform packet.
+4. Specialists work only from the packet and their required reads.
+5. Specialists return structured findings before file edits happen.
+6. The conductor merges only compatible deltas into canonical files.
 
 ## Lane patterns
 

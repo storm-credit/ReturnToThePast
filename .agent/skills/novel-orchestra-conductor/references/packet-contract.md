@@ -7,12 +7,15 @@ Use one packet per mission. Specialists should receive a packet, not a vague pro
 - `Mission`: one sentence describing the job.
 - `Lane`: `lore`, `plausibility`, `draft`, `hook`, or `audit`.
 - `Target`: entity, volume, chapter, or file cluster.
+- `State Snapshot`: current bottleneck, adjacent dependency, and active risk.
 - `Required Reads`: files that must be read before acting.
 - `Optional Reads`: nearby canon that may be pulled in if contradiction risk is high.
 - `Locked Facts`: facts the specialist may not override.
 - `Editable Targets`: files the conductor may patch after review.
 - `No-Touch Files`: files that must not change in this pass.
+- `Requested Expert Order`: ideal lane sequence when the mission spans more than one specialist.
 - `Deliverable`: exact output shape expected from the specialist.
+- `Blocking Decisions`: decisions the conductor has not locked yet and may need escalation.
 - `Stop Conditions`: blockers that require escalation back to the conductor.
 
 ## Shared output shape
@@ -28,6 +31,16 @@ Every specialist response should use these headings:
 ```
 
 Keep findings concrete and file-scoped when possible.
+
+## Packet families
+
+For repeatable novelist-side tasks, prefer the repo-local handoff playbook instead of drafting packets from scratch every time:
+
+- `orchestra/HANDOFF_PACKET_PLAYBOOK.md`
+- `orchestra/templates/HANDOFF_CHAPTER_DRAFT.md`
+- `orchestra/templates/HANDOFF_LORE_REPAIR.md`
+- `orchestra/templates/HANDOFF_BRIDGE_REINFORCEMENT.md`
+- `orchestra/templates/HANDOFF_FORESHADOW_REPAIR.md`
 
 ## Lane-specific deliverables
 

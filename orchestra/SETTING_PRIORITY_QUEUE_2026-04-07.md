@@ -27,7 +27,7 @@ The automated smoke audit is green. The next priorities are no longer file-struc
 
 ## Next Focus
 
-The next conductor pass should begin with `P3: Conductor handoff packet pass`.
+The next conductor pass should begin with `P3: Entity density normalization pass`.
 
 ## P2
 
@@ -125,8 +125,14 @@ The next conductor pass should begin with `P3: Conductor handoff packet pass`.
 
 ### Conductor handoff packet pass
 
+- Status: completed on 2026-04-07
 - Goal: prepare short handoff packets for common tasks such as chapter drafting, lore repair, and bridge reinforcement so orchestration requests start faster.
 - Why now: the prompt surface is lighter, so the next gain comes from making conductor-to-agent delegation more reusable.
+
+### Entity density normalization pass
+
+- Goal: bring thin second-tier character, faction, and location files up to a more even operating density before deeper drafting begins.
+- Why now: the orchestration surface is cleaner, so the next gain comes from reducing thin spots in recurring lore entries.
 
 ### Expand the smoke rules carefully
 

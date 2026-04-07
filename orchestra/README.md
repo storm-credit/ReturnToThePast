@@ -6,6 +6,7 @@ This folder contains the operating system for the repo-local novel orchestra.
 
 - `SOURCE_OF_TRUTH.md`: canonical priority order
 - `WORKFLOW.md`: lane order and merge discipline
+- `HANDOFF_PACKET_PLAYBOOK.md`: common mission packets for faster conductor dispatch
 - `LORE_AUDIT_HARNESS.md`: setting-library audit flow
 - `FORESHADOW_HARNESS.md`: clue and payoff flow
 - `STORYCRAFT_HARNESS.md`: structure, arc, reveal, and cadence flow
@@ -15,7 +16,7 @@ This folder contains the operating system for the repo-local novel orchestra.
 - `../lore_bible/Front_Half_Foreshadow_Map.md`: front-half clue obligations
 - `../lore_bible/Ending_Convergence_Map.md`: late-series ending convergence map
 - `SESSION_STATE.md`: live project snapshot
-- `templates/`: reusable packet and reporting formats
+- `templates/`: reusable packet, handoff, and reporting formats
 - `scripts/`: helper tooling and packet builders
 - `runs/`: generated output packets created on demand
 
@@ -24,6 +25,8 @@ Active helper tooling should live under `orchestra/scripts` or `backend/`. Root-
 ## Usage
 
 Use the conductor first. The conductor decides which specialists are necessary, creates the packet, and merges outputs back into canon files. Do not route every task through every lane.
+
+For repeatable work such as chapter drafting, lore repair, or bridge reinforcement, start from `HANDOFF_PACKET_PLAYBOOK.md` and the matching template instead of improvising a new packet every time.
 
 Use the smoke audit when you need a fast pass before or after heavy edits. It is a structural gate, not a replacement for novelist judgment.
 

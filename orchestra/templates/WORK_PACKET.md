@@ -5,10 +5,17 @@
 - Created by:
 - Date:
 - Mode: `lore | plausibility | draft | hook | audit`
+- Preset:
 
 ## Goal
 - Primary objective:
 - Done when:
+
+## State Snapshot
+- Current bottleneck:
+- Active target:
+- Adjacent dependency:
+- Current risk:
 
 ## Source of Truth
 - Required files:
@@ -34,6 +41,9 @@
 1. 
 2. 
 3. 
+
+## Blocking Decisions
+- None locked yet
 
 ## Expected Outputs
 - Files to update:

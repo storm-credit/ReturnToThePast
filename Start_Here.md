@@ -78,7 +78,9 @@
     *   어떤 파일이 진실 원본인지, 무엇을 먼저 믿어야 하는지 정리한 기준표.
 2. **[오케스트라 운영 절차](orchestra/WORKFLOW.md)**
     *   설정 추가, 개연성 보강, 집필, 검수의 역할 분담과 순서.
-3. **[스모크 감사 하네스](orchestra/SMOKE_AUDIT_HARNESS.md)**
+3. **[핸드오프 패킷 플레이북](orchestra/HANDOFF_PACKET_PLAYBOOK.md)**
+    *   챕터 집필, 설정 보강, 브리지 보강, 복선 보강을 어떤 패킷으로 시작할지 빠르게 정리한 문서.
+4. **[스모크 감사 하네스](orchestra/SMOKE_AUDIT_HARNESS.md)**
     *   주요 설정집 지도와 복선/엔딩 마커가 빠지지 않았는지 빠르게 점검하는 자동감사 안내서.
 
 ---
