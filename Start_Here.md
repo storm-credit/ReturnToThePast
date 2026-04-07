@@ -20,9 +20,11 @@
     *   지명, 세력명, 금기명이 고풍한 다크 판타지 어감을 유지하도록 맞추는 기준.
 5.  **[설정집 감사 범위](Guidelines/Setting_Audit_Scope.md)**
     *   설정 보강이 규칙, 인물, 세력, 장소, 용어, 복선, 아웃라인, 타임라인을 함께 본다는 운영 기준.
-6.  **[집필 프롬프트 템플릿](Guidelines/Writing_Prompt_Template.md)**
+6.  **[세계 이동 지도](lore_bible/locations/World_Travel_Atlas.md)**
+    *   수도, 북부, 동부, 남부, 서부 권역의 거리감과 이동 압박을 잠그는 배경 지도.
+7.  **[집필 프롬프트 템플릿](Guidelines/Writing_Prompt_Template.md)**
     *   설정집이 잠긴 뒤 쓰는 후행 문서. 지금은 참고만 하고, 집필 시작 전 다시 읽을 것.
-7.  **[챕터 감수 체크리스트](Guidelines/Chapter_Audit_Checklist.md)**
+8.  **[챕터 감수 체크리스트](Guidelines/Chapter_Audit_Checklist.md)**
     *   설정집 완료 후 초안 단계에서 쓰는 후행 검수 기준.
 
 ---
@@ -48,21 +50,46 @@
 
 ### 👥 1권 보조 인물
 *   [세베린](lore_bible/characters/Severin.md): 상아 의정회의 표본 회수 및 장부 봉인을 맡는 실무 얼굴.
-*   [하르켄](lore_bible/characters/Harken.md): 검은 개 부대의 현장 포획과 검문을 지휘하는 목줄장.
+*   [하르켄](lore_bible/characters/Harken.md): 카르세인의 현장 포획과 검문을 지휘하는 쇄장.
 *   [미렐](lore_bible/characters/Mirel.md): 검은 시장 약방과 앰플 유통선을 쥔 중개상.
 *   [카시아](lore_bible/characters/Cassia.md): 황궁 하급 서기관 겸 필경사. 잠입 파트의 생활 얼굴.
+*   [시그룬](lore_bible/characters/Sigrun.md): 북부 전선에서 이름과 후송 명단을 붙드는 기록병.
+*   [오렐](lore_bible/characters/Orel.md): 침묵의 상아탑 정적의 도서관에서 봉인 장부를 지키는 기록관.
+*   [루키아](lore_bible/characters/Lucia.md): 루미나 성전에서 시련과 선별을 감시하는 제관.
+*   [자르칸](lore_bible/characters/Zarkan.md): 사루크 천막성의 물자와 선금을 쥔 조달장.
+*   [제1권 보조 인물 연결 지도](lore_bible/Vol_1_Supporting_Cast_Link_Map.md): 네 인물이 어느 화에서 어떤 기능으로 쓰이는지 고정한 연결 기준.
+
+### 👥 적대축 보강 문서
+*   [12사도](lore_bible/characters/The_12_Apostles.md): 역병, 장례, 구휼, 루머, 잠복기를 쥔 종말론 집단.
+*   [12사도 좌석 지도](lore_bible/characters/Twelve_Apostles_Seat_Map.md): 각 좌석이 도시의 어느 숨구멍을 장악하는지 정리한 배치표.
+*   [알바른](lore_bible/characters/Alvarn.md): 상아 의정회의 비밀 칙행단.
+*   [알바른 집행 조 편성표](lore_bible/characters/Alvarn_Execution_Cells.md): 세브락, 모르가나, 발로크, 셰이다르가 각자 어떤 공포와 처분을 맡는지 정리한 운용표.
+*   [적대축 배치 지도](lore_bible/Secondary_Antagonist_Deployment_Map.md): 12사도와 알바른의 개별 얼굴이 어느 권에서 어떤 공포로 먼저 들어와야 하는지 잠근 배치표.
 
 ### 🏰 1권 주요 세력
-*   [검은 개 부대](lore_bible/groups/Black_Dog.md): 상아 의정회 산하의 사설 무장 단체.
+*   [카르세인](lore_bible/groups/Carsein.md): 상아 의정회 산하의 사설 포획 부대.
 *   [펜리르](lore_bible/groups/Fenrir.md): 회색 도시의 늑대 세력.
-*   [들개들](lore_bible/groups/Stray_Dogs.md): 빈민가 자경단/해결사 축.
-*   [하층 권세도](lore_bible/groups/하층_권세도.md): 들개들, 펜리르, 검은 시장, 해결사의 실제 맞물림.
+*   [시네르](lore_bible/groups/Sinere.md): 빈민가 자경단/해결사 축.
+*   [하층 권세도](lore_bible/groups/하층_권세도.md): 시네르, 펜리르, 검은 시장, 해결사의 실제 맞물림.
 *   [상아 의정회](lore_bible/groups/Ivory_Consistory.md): 황실 연금술 학회 내부의 비밀 결사.
 
 ### 🗺️ 장소
 *   [수도 세라핌](lore_bible/locations/Imperial_Capital.md): 빈민가와 그림자 시장.
+*   [세계 이동 지도](lore_bible/locations/World_Travel_Atlas.md): 수도, 북부, 동부, 남부, 서부 권역의 거리감과 이동 압박.
+*   [세라핌 이동선 지도](lore_bible/locations/Seraphim_Transit_Map.md): 수도 안에서 검문선, 승강기, 수로, 하역문이 어떻게 맞물리는지 정리한 동선 지도.
+*   [황궁 동선도](lore_bible/locations/Imperial_Palace_Transit_Map.md): 제3 하역문, 시종 회랑, 서고, 대연회장, 의정회 열람실을 나눈 상층 잠입 지도.
+*   [황궁 의전선 일정표](lore_bible/locations/Imperial_Palace_Ceremonial_Schedule.md): 새벽 하역선, 아침 기록선, 정오 의전선, 심야 비밀선이 어떻게 갈리는지 정리한 시간표.
+*   [황실 연금술 학회 내부도](lore_bible/locations/Imperial_Alchemy_Academy_Inner_Map.md): 진료홀, 봉인 창고, 격리층, 소각층, 0호 실험실을 나눈 내부 지도.
 *   [마수의 땅](lore_bible/locations/Northern_Frontier.md): 코스믹 호러 최전선.
+*   [북부 전선 구역도](lore_bible/locations/Northern_Frontier_Zone_Map.md): 후방 보급권, 서리 요새, 얼음 송곳니, 파락 구역을 나눈 작전 지도.
+*   [서리 요새 세부 구조도](lore_bible/locations/Frost_Keep_Structure.md): 성루, 지휘실, 후송막사, 보급 적재장을 나눈 북부 핵심 요새 구조도.
+*   [얼음 송곳니 전초도](lore_bible/locations/Ice_Fang_Frontline_Map.md): 결계 말뚝선, 교대 참호, 전초 막사, 능선, 외곽 살육장을 나눈 북부 최전방 전초도.
 *   [침묵의 상아탑](lore_bible/locations/Magic_Tower.md): 인과율 방관자들.
+*   [침묵의 상아탑 층별도](lore_bible/locations/Magic_Tower_Floor_Map.md): 입구, 학구, 금기 연구소, 정적의 도서관, 공허의 눈을 나눈 층별 지도.
+*   [루미나 성전 내부도](lore_bible/locations/Holy_Temple_Inner_Map.md): 순례 회랑, 대성전, 시련의 탑, 지하 서고, 고삐 봉인실을 나눈 내부 구조도.
+*   [붉은 사막 거점도](lore_bible/locations/Red_Desert_Hub_Map.md): 바르카 협곡문, 벨사르 우물장, 사루크 천막성, 카르둠 환투장을 묶은 서부 사막 거점도.
+*   [사루크 천막성 내부도](lore_bible/locations/Saruk_Camp_Map.md): 생활 고리, 실무 고리, 전투 고리, 심부를 나눈 서부 용병 거점 내부도.
+*   [카르둠 환투장 구조도](lore_bible/locations/Kardum_Arena_Structure.md): 입장 마당, 내기 회랑, 원형장, 채무 감방, 암막 통로를 나눈 아이리스 과거 공간 구조도.
 
 ### ⚔️ 설정
 *   [인과율 마법](lore_bible/magic/Causality_Magic.md): 대가, 서클, 고통.
@@ -70,7 +97,9 @@
 *   [저주받은 이물](lore_bible/items/Cursed_Artifacts.md): 리스크가 있는 무기들.
 *   [회색 역병](lore_bible/rules/Infection_Levels.md): 앰플, 마나 거부 반응.
 *   [인간관계도](lore_bible/Relationship_Map.md): 에이든, 리아, 아이리스, 발타자르, 영시 축이 어떻게 상처와 빚으로 얽히는지 정리한 문서.
-*   [측면 인물 목격 지도](lore_bible/Supporting_Cast_Witness_Map.md): 류드, 바르그, 토마스, 펜리르, 검은 개가 에이든의 손상을 어떤 각도에서 목격하는지 정리한 문서.
+*   [측면 인물 목격 지도](lore_bible/Supporting_Cast_Witness_Map.md): 류드, 바르그, 토마스, 펜리르, 카르세인이 에이든의 손상을 어떤 각도에서 목격하는지 정리한 문서.
+*   [제1권 보조 인물 연결 지도](lore_bible/Vol_1_Supporting_Cast_Link_Map.md): 세베린, 하르켄, 미렐, 카시아를 제1권 장면 흐름에 맞게 배치한 지도.
+*   [권역별 얼굴 배치 지도](lore_bible/Regional_Face_Deployment_Map.md): 시그룬, 오렐, 루키아, 자르칸을 어느 권에 어떤 기능으로 먼저 투입할지 정리한 배치 기준.
 *   [중반부 감정 연속성](lore_bible/Mid_War_Emotional_Continuity.md): 4권부터 8권까지 전쟁 상흔, 공포, 소거, 행복 상실이 어떻게 누적되는지 고정한 문서.
 *   [전반부 복선 지도](lore_bible/Front_Half_Foreshadow_Map.md): 1권부터 5권까지 어떤 단서를 미리 심어야 후반 반전이 공정하게 보이는지 정리한 문서.
 *   [고정점 압력 지도](lore_bible/history/Fixed_Point_Pressure_Map.md): 어디가 고정점이고 어디가 분기점이며 압력이 어떻게 되돌아오는지 정리한 문서.

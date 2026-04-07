@@ -16,7 +16,14 @@ This folder contains the operating system for the repo-local novel orchestra.
 - `../lore_bible/Front_Half_Foreshadow_Map.md`: front-half clue obligations
 - `../lore_bible/Ending_Convergence_Map.md`: late-series ending convergence map
 - `SESSION_STATE.md`: live project snapshot
+- `ORCHESTRA_PORTABILITY_AUDIT_2026-04-07.md`: reusable-core boundary and separation guidance
+- `CORE_LAYER_MAP.md`: reusable core / project config / canon layer split
+- `modules/novel-orchestra-core/README.md`: named reusable-core module overview
 - `templates/`: reusable packet, handoff, and reporting formats
+- `templates/NOVEL_ORCHESTRA_BOOTSTRAP_CHECKLIST.md`: bootstrap checklist for reusing this system on another novel
+- `templates/PROJECT_PROFILE_TEMPLATE.md`: per-project config template for a new novel
+- `templates/SOURCE_OF_TRUTH_TEMPLATE.md`: source-of-truth template for a new novel
+- `templates/SETTING_AUDIT_RULES_TEMPLATE.json`: smoke-rule skeleton for a new novel
 - `scripts/`: helper tooling and packet builders
 - `runs/`: generated output packets created on demand
 
@@ -31,6 +38,9 @@ For repeatable work such as chapter drafting, lore repair, or bridge reinforceme
 Use the smoke audit when you need a fast pass before or after heavy edits. It is a structural gate, not a replacement for novelist judgment.
 
 If the task touches human cost, reveal fairness, or the late ending spine, pull the relevant map first instead of reconstructing those rules from scattered lore files.
+
+If you plan to reuse this system on another novel, read `ORCHESTRA_PORTABILITY_AUDIT_2026-04-07.md` first, then `CORE_LAYER_MAP.md`, then clone the templates in `templates/`.
+If you want a named extraction target, treat `modules/novel-orchestra-core/` as the current reusable-core module boundary.
 
 ## Three major harnesses
 

@@ -140,11 +140,11 @@
       "description": "The supporting-cast witness map is missing one or more locked witness lanes",
       "file": "lore_bible/Supporting_Cast_Witness_Map.md",
       "requiredPatterns": [
-        "Lyud",
-        "Varg",
-        "Thomas",
-        "Fenrir",
-        "Black Dog"
+        "류드",
+        "바르그",
+        "토마스",
+        "펜리르",
+        "카르세인"
       ],
       "priority": 2,
       "passSummary": "Supporting-cast witness markers are present."
@@ -160,9 +160,9 @@
         "제13권",
         "제14권",
         "제15권",
-        "Ending A",
-        "Ending B",
-        "Ria"
+        "A안 엔딩",
+        "B안 엔딩",
+        "리아"
       ],
       "priority": 2,
       "passSummary": "Ending convergence markers are present."

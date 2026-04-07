@@ -15,7 +15,7 @@ This pass targeted recurring second-tier entities that were important to draftin
 
 ### Factions
 
-- `lore_bible/groups/Black_Dog.md`
+- `lore_bible/groups/Carsein.md`
   - Added command chain, city operation pattern, and fear profile.
 - `lore_bible/groups/Fenrir.md`
   - Added internal law, territory feel, Lyud-era shift, and clearer story function.

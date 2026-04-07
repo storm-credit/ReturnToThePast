@@ -1,0 +1,27 @@
+{
+  "name": "novel-orchestra-core",
+  "version": "0.1.0",
+  "type": "documentation-module",
+  "scope": "reusable novel-orchestra operating core",
+  "entry_readme": "orchestra/modules/novel-orchestra-core/README.md",
+  "source_documents": [
+    "orchestra/WORKFLOW.md",
+    "orchestra/HANDOFF_PACKET_PLAYBOOK.md",
+    "orchestra/LORE_AUDIT_HARNESS.md",
+    "orchestra/FORESHADOW_HARNESS.md",
+    "orchestra/STORYCRAFT_HARNESS.md",
+    "orchestra/SMOKE_AUDIT_HARNESS.md",
+    "orchestra/CORE_LAYER_MAP.md",
+    "orchestra/templates/NOVEL_ORCHESTRA_BOOTSTRAP_CHECKLIST.md",
+    "orchestra/templates/PROJECT_PROFILE_TEMPLATE.md",
+    "orchestra/templates/SOURCE_OF_TRUTH_TEMPLATE.md",
+    "orchestra/templates/SETTING_AUDIT_RULES_TEMPLATE.json"
+  ],
+  "excludes": [
+    "lore_bible/**",
+    "outline/**",
+    "Guidelines/**",
+    "Drafts/**",
+    "orchestra/runs/**"
+  ]
+}

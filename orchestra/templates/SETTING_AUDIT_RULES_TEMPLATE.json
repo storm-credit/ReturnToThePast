@@ -1,0 +1,41 @@
+{
+  "required_files": [
+    "00_CANON.md",
+    "Start_Here.md",
+    "outline/Series_Roadmap.md"
+  ],
+  "banned_patterns": [
+    {
+      "id": "S-001",
+      "description": "작품 분위기를 깨는 금지 표면",
+      "pattern": "<작품 고유 금지어 1>|<작품 고유 금지어 2>",
+      "paths": [
+        "lore_bible/**",
+        "outline/**",
+        "Guidelines/**"
+      ]
+    }
+  ],
+  "canon_conflicts": [
+    {
+      "id": "C-001",
+      "description": "절대 흔들리면 안 되는 핵심 캐논 충돌",
+      "pattern": "<충돌 금지 문구 1>|<충돌 금지 문구 2>",
+      "paths": [
+        "00_CANON.md",
+        "lore_bible/**",
+        "outline/**"
+      ]
+    }
+  ],
+  "marker_checks": [
+    {
+      "id": "M-001",
+      "description": "반드시 있어야 하는 지도 / 장부 / 수렴 문서",
+      "required_paths": [
+        "lore_bible/<필수 문서 1>.md",
+        "lore_bible/<필수 문서 2>.md"
+      ]
+    }
+  ]
+}
