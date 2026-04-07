@@ -1,9 +1,9 @@
 # Session State
 
 ## Current Objective
-- Status: `idle`
-- Request:
-- Scope:
+- Status: `active`
+- Request: lock a conductor-owned completion plan with branch and checkpoint policy
+- Scope: orchestra operating docs, priority queue, reusable core module boundary
 
 ## Canonical Sources
 - `Start_Here.md`
@@ -11,15 +11,17 @@
 - Additional files:
 
 ## Active Work Packet
-- Mode:
-- Target volume/chapter:
-- Impacted files:
+- Mode: `planning`
+- Target volume/chapter: none
+- Impacted files: `orchestra/**`
 
 ## Open Risks
-- None yet.
+- plan exists before every optional polish item is fully verified
 
 ## Decisions
-- None yet.
+- integration branch remains `codex/orchestra-setting-sync`
+- `.obsidian` and `orchestra/runs` stay outside the default commit scope
+- drafting lanes remain closed until the exit gate defined in the execution plan
 
 ## Next Step
-- Create a work packet before editing.
+- merge the execution plan into orchestra docs, validate, then commit and push.

@@ -18,6 +18,8 @@ This folder contains the operating system for the repo-local novel orchestra.
 - `SESSION_STATE.md`: live project snapshot
 - `ORCHESTRA_PORTABILITY_AUDIT_2026-04-07.md`: reusable-core boundary and separation guidance
 - `CORE_LAYER_MAP.md`: reusable core / project config / canon layer split
+- `ORCHESTRA_EXECUTION_PLAN_2026-04-07.md`: conductor-owned completion plan
+- `BRANCH_CHECKPOINT_POLICY.md`: branch, commit, and push cadence
 - `modules/novel-orchestra-core/README.md`: named reusable-core module overview
 - `templates/`: reusable packet, handoff, and reporting formats
 - `templates/NOVEL_ORCHESTRA_BOOTSTRAP_CHECKLIST.md`: bootstrap checklist for reusing this system on another novel
@@ -41,6 +43,7 @@ If the task touches human cost, reveal fairness, or the late ending spine, pull 
 
 If you plan to reuse this system on another novel, read `ORCHESTRA_PORTABILITY_AUDIT_2026-04-07.md` first, then `CORE_LAYER_MAP.md`, then clone the templates in `templates/`.
 If you want a named extraction target, treat `modules/novel-orchestra-core/` as the current reusable-core module boundary.
+If you want planned delivery, read `ORCHESTRA_EXECUTION_PLAN_2026-04-07.md` and `BRANCH_CHECKPOINT_POLICY.md` before starting the next pass.
 
 ## Three major harnesses
 

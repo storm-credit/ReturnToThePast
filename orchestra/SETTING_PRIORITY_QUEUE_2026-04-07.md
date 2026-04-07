@@ -3,6 +3,11 @@
 Date: 2026-04-07  
 Status: `SETTING-FIRST PASS`
 
+Execution reference:
+
+- `ORCHESTRA_EXECUTION_PLAN_2026-04-07.md`
+- `BRANCH_CHECKPOINT_POLICY.md`
+
 The automated smoke audit is green. The core setting-library completion tasks are finished, and the next priorities are optional polish tasks rather than structural repair.
 
 ## P1
