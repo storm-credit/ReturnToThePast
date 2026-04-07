@@ -11,12 +11,12 @@
 - `lore_bible/Lost_Arcane_Arts.md`
 - `lore_bible/Regression_Log.md`
 - `lore_bible/Relationship_Map.md`
-- `lore_bible/history/Event_Cards/2021_마수_습격.md`
-- `lore_bible/history/Event_Cards/2024_황제_암살미수.md`
-- `lore_bible/history/Event_Cards/2030_대재앙.md`
-- `lore_bible/history/Event_Cards/2035_최후의_전투.md`
-- `lore_bible/history/Event_Cards/Year_995_The_First_Outbreak.md`
-- `lore_bible/history/Event_Cards/Year_999_The_End_of_Days.md`
+- `lore_bible/history/Event_Cards/제국력_996_마수_습격.md`
+- `lore_bible/history/Event_Cards/제국력_999_황제_암살_미수.md`
+- `lore_bible/history/Event_Cards/제국력_1005_대재앙.md`
+- `lore_bible/history/Event_Cards/제국력_1010_최후의_전투.md`
+- `lore_bible/history/Event_Cards/제국력_995_최초의_발병.md`
+- `lore_bible/history/Event_Cards/제국력_1005_종말의_날.md`
 
 ## 핵심 조정
 - `Event ID`, `Total Returns`, 영어 부제 같은 메타 표기를 한국어 중심으로 바꿨다.
@@ -29,10 +29,8 @@
   - 2035 -> 제국력 1010년
 
 ## 주의점
-- 사건 카드 파일명은 아직 예전 이름이 일부 남아 있다.
-- 이번 패스에서는 **내용과 표면의 정합성**을 먼저 맞췄고, 파일명 개편은 다음 정리 후보로 남겼다.
+- 이번 패스 이후 사건 카드 파일명도 제국력 기준으로 정리했다.
 
 ## 다음 후보
-- 사건 카드 파일명 자체를 제국력 기준으로 정리
 - `lore_bible/characters`와 `lore_bible/groups`의 남은 영문 괄호 부제 추가 정리
 - `lore_bible/history` 하위 보조 문서 전반 재점검
