@@ -22,6 +22,9 @@
 - `ORCHESTRA_EXECUTION_PLAN_2026-04-07.md`: 총괄 실행 계획
 - `BRANCH_CHECKPOINT_POLICY.md`: 브랜치/커밋/푸시 규칙
 - `modules/novel-orchestra-core/README.md`: 명명된 재사용 코어 모듈 안내
+- `packets/Vol_1_Chapter_1_PreDraft_Packet.md`: 집필 직전 제1화 잠금 패킷
+- `Vol_1_Core_Pressure_Grid.md`: 제1권 장면 압력 보조 지도
+- `SETTING_FIRST_EXIT_GATE_CHECK_2026-04-07.md`: 설정 우선 해제 가능 여부 점검표
 - `templates/`: 패킷, 핸드오프, 리포트 템플릿
 - `scripts/`: 보조 스크립트와 패킷 빌더
 - `runs/`: 실행 때마다 생기는 산출물

@@ -131,6 +131,12 @@
     *   설정 보강, 브리지 보강, 복선 보강을 어떤 패킷으로 시작할지 빠르게 정리한 문서.
 5. **[스모크 감사 하네스](orchestra/SMOKE_AUDIT_HARNESS.md)**
     *   주요 설정집 지도와 복선/엔딩 마커가 빠지지 않았는지 빠르게 점검하는 자동감사 안내서.
+6. **[제1권 제1화 사전 핸드오프 패킷](orchestra/packets/Vol_1_Chapter_1_PreDraft_Packet.md)**
+    *   집필을 열 때 첫 화가 무엇을 지켜야 하는지 미리 잠가 둔 패킷.
+7. **[제1권 핵심 장면 압력표](orchestra/Vol_1_Core_Pressure_Grid.md)**
+    *   제1권이 막별로 어떤 긴장과 감각을 남겨야 하는지 정리한 장면 압력 지도.
+8. **[설정 우선 해제 게이트 점검](orchestra/SETTING_FIRST_EXIT_GATE_CHECK_2026-04-07.md)**
+    *   지금 상태에서 집필 레인을 열 수 있는지 판정한 체크 문서.
 
 ---
 

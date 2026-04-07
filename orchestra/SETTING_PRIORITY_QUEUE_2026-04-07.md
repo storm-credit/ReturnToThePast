@@ -172,6 +172,6 @@
 
 ### 집필 전 패킷 조립
 
-- Status: pending
+- Status: completed on 2026-04-07
 - Goal: 설정 우선 마감 이후 첫 권/첫 화 핸드오프 패킷을 준비한다.
-- Why later: 설정집이 이제는 사용 가능 수준까지 잠겨 있어, 사용자가 원할 때 집필 레인을 열 준비만 남았다.
+- Result: `orchestra/packets/Vol_1_Chapter_1_PreDraft_Packet.md`, `orchestra/Vol_1_Core_Pressure_Grid.md`, `orchestra/SETTING_FIRST_EXIT_GATE_CHECK_2026-04-07.md`
