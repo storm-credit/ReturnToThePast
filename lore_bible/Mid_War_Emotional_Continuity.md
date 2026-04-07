@@ -1,51 +1,51 @@
-# Mid-War Emotional Continuity
+# 중반부 감정 연속성
 
-This document locks the emotional cause-and-effect chain from `Vol. 4` to `Vol. 8`.
+이 문서는 `제4권`부터 `제8권`까지 감정의 인과가 어떻게 이어져야 하는지 잠그는 기준표다.
 
-It exists so the series does not treat war trauma, emotional erosion, distrust, memory loss, and the loss of ordinary happiness as separate ideas.
+전쟁 상흔, 감정 마모, 불신, 기억 소거, 평범한 행복의 상실을 따로 노는 사건처럼 다루지 않기 위해 존재한다.
 
-## Core chain
+## 핵심 사슬
 
 `전장의 공포 -> 감정 마모 -> 타인과의 거리 -> 기억 소거 -> 평범한 하루 -> 행복 상실`
 
-## Why this matters
+## 왜 중요한가
 
-- `Vol. 4` should prove that foresight no longer guarantees safety.
-- `Vol. 5` should prove that victory can still hollow the protagonist out.
-- `Vol. 6` should prove that fear in the companions has become irreversible distance.
-- `Vol. 7` should prove that ordinary warmth was still possible before it is taken away.
-- `Vol. 8` should prove that escape from the prison still costs the protagonist his last simple happiness.
+- `제4권`은 예지와 준비만으로 더는 모두를 살릴 수 없다는 사실을 증명해야 한다.
+- `제5권`은 승리와 감정 마모가 동시에 올 수 있음을 증명해야 한다.
+- `제6권`은 동료들의 두려움이 되돌릴 수 없는 거리로 굳어졌음을 보여줘야 한다.
+- `제7권`은 빼앗기기 전까지는 평범한 온기가 여전히 가능했음을 남겨야 한다.
+- `제8권`은 시간의 감옥 탈출조차 마지막 소박한 행복을 대가로 치른다는 사실을 증명해야 한다.
 
-## Volume anchors
+## 권별 고정축
 
-| Volume | Emotional job | Canon pressure | Must carry forward |
-|---|---|---|---|
-| `Vol. 4` | turn war from theory into lived terror | failed certainty, first large helplessness, shock at collateral cost | the protagonist becomes colder because he cannot save everyone |
-| `Vol. 5` | show that victory and emotional erosion can happen together | battlefield success, Iris's amputation, survival at ugly cost | the companions begin to fear what the protagonist is becoming |
-| `Vol. 6` | convert fear into distance that cannot be spoken away | rumors, silence, visible emotional hollowing, political fallout | memory deletion feels like tragic necessity, not a plot trick |
-| `Vol. 7` | preserve proof of lost humanity | ordinary meals, shared routine, rest, laughter, non-military warmth | the reader sees what will later be taken |
-| `Vol. 8` | make the loss of ordinary happiness land as a second severance | time prison escape, body-memory without trust, grief arriving late | later distrust arc has an emotional foundation instead of only a structural one |
+| 권 | 감정적으로 맡아야 할 일 | 캐논 압박 | 다음 권으로 넘겨야 할 것 |
+| --- | --- | --- | --- |
+| `제4권` | 전쟁을 이론이 아니라 체감 공포로 바꾼다 | 실패한 확신, 처음 겪는 대규모 무력감, 부수 피해 충격 | 모두를 살릴 수 없어서 주인공이 더 차가워진다 |
+| `제5권` | 승리와 감정 침식이 함께 올 수 있음을 보여준다 | 전장 성공, 아이리스의 절단, 추한 비용의 생존 | 동료들이 주인공이 변해 가는 모습을 두려워하기 시작한다 |
+| `제6권` | 두려움을 말로 풀 수 없는 거리로 바꾼다 | 소문, 침묵, 눈에 보이는 감정 공백, 정치적 후폭풍 | 기억 소거가 편의 장치가 아니라 비극적 필연처럼 보이게 한다 |
+| `제7권` | 잃어버린 인간성의 증거를 남긴다 | 식사, 웃음, 쉼, 전장이 아닌 따뜻함 | 독자가 나중에 빼앗길 것을 직접 보게 한다 |
+| `제8권` | 평범한 행복의 상실을 두 번째 절단처럼 착지시킨다 | 시간의 감옥 탈출, 몸이 먼저 기억하는 잔향, 늦게 도착한 슬픔 | 이후 불신 축이 구조가 아니라 감정 기반 위에 서게 한다 |
 
-## Character checkpoints
+## 인물 점검
 
-### Aiden
+### 에이든
 
-- He should not become colder all at once.
-- Each loss should narrow what he can still feel, name, or share.
-- By `Vol. 6`, he should understand the companions' fear more clearly than he can answer it.
-- By `Vol. 8`, he should know that happiness mattered even if he can no longer hold it naturally.
+- 차가워짐은 한 번에 오면 안 된다.
+- 각 손실은 그가 아직 느끼고, 이름 붙이고, 나눌 수 있는 범위를 조금씩 좁혀야 한다.
+- `제6권`쯤엔 동료들의 두려움을 이해는 하지만 제대로 답하지 못해야 한다.
+- `제8권`에 이르면 행복이 중요했다는 사실은 알아도, 그 감각을 자연스럽게 붙잡지 못해야 한다.
 
-### Iris
+### 아이리스
 
-- She should not move directly from loyalty to rupture.
-- `Vol. 4` and `Vol. 5` should let her witness the protagonist prioritizing cost and outcome over warmth.
-- `Vol. 6` should let fear and shame coexist.
-- `Vol. 8` should let the body remember what the mind cannot fully retrieve.
+- 충성에서 파열로 곧장 꺾이면 안 된다.
+- `제4권`과 `제5권`은 주인공이 온기보다 비용과 결과를 앞세우는 모습을 직접 보게 해야 한다.
+- `제6권`은 두려움과 수치심이 함께 있어야 한다.
+- `제8권`은 머리가 아니라 몸이 먼저 기억하는 감각을 남겨야 한다.
 
-## Audit questions
+## 감사 질문
 
-1. Does each adjacent volume change the emotional state for a visible reason?
-2. Are the companions afraid because of concrete scenes, not abstract reputation?
-3. Does `Vol. 7` feel warm enough that `Vol. 8` can truly wound the reader?
-4. Does memory loss arrive as the climax of prior pressure instead of a sudden device?
-5. Does the protagonist's emotional debt remain tragic rather than melodramatic?
+1. 인접한 각 권이 감정 상태를 눈에 보이는 이유와 함께 바꾸고 있는가?
+2. 동료들의 두려움은 추상적 평판이 아니라 실제 장면에서 생기는가?
+3. `제7권`은 충분히 따뜻해서 `제8권`의 상실이 아프게 꽂히는가?
+4. 기억 소거는 갑툭튀 장치가 아니라 앞선 압박의 절정처럼 오는가?
+5. 주인공의 감정 빚은 멜로드라마가 아니라 비극으로 남아 있는가?

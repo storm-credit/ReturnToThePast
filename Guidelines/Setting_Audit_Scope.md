@@ -1,67 +1,67 @@
-# Setting Audit Scope
+# 설정집 감사 범위
 
-This document locks what "setting-library reinforcement" means for this project.
+이 문서는 이 프로젝트에서 "설정집 보강"이 정확히 무엇을 뜻하는지 잠그는 기준표다.
 
-It is not limited to `outline` and `timeline` maintenance.
+설정집 보강은 `outline`과 `timeline`만 정리하는 일이 아니다.
 
-## Canon audit surfaces
+## 캐논 감사 표면
 
-The orchestra should treat all of the following as part of one connected setting check:
+오케스트라는 아래 전부를 하나로 연결된 설정 점검 범위로 취급해야 한다.
 
-- `world rules`: time travel, fixed points, branch pressure, cost, and taboo
-- `character canon`: desire, wound, debt, memory erosion, fear, and relationship drift
-- `supporting-cast witness grammar`: how side characters, undercity operators, and institutional enemies register the protagonist's erosion
-- `factions and locations`: power logic, travel pressure, supply pressure, and place identity
-- `naming and tone`: high-fantasy diction, anti-gore guardrails, and anti-modern-term cleanup
-- `foreshadow and payoff`: clue planting, reveal fairness, and payoff timing
-- `front-half clue maps`: what must already be planted by `Vol. 1~5` before the late-series truth arrives
-- `pressure maps`: where fixed points, branch points, and paradox recoil are supposed to intensify
-- `outline and timeline`: whether the above rules still survive contact with the actual story path
-- `mandatory events and endings`: whether the series is still converging toward the locked final truth
+- `세계 법칙`: 시간여행, 고정점, 분기 압력, 대가, 금기
+- `인물 캐논`: 욕망, 상처, 빚, 기억 마모, 공포, 관계 이탈
+- `측면 인물 목격 문법`: 조연, 하층 운영자, 제도권 적대 세력이 주인공의 손상을 어떻게 읽는가
+- `세력과 장소`: 권력 논리, 이동 압력, 보급 압력, 장소의 결
+- `작명과 톤`: 고풍 판타지 어휘, 과한 고어 금지, 현대적 표현 제거
+- `복선과 회수`: 씨앗, 공정성, 회수 시점
+- `전반부 복선 지도`: 후반 진실이 오기 전에 `Vol. 1~5`에서 무엇이 이미 심겨 있어야 하는가
+- `압력 지도`: 고정점, 분기점, 패러독스 반동이 어디서 커져야 하는가
+- `아웃라인과 타임라인`: 위 규칙들이 실제 이야기 경로와 부딪혀도 살아남는가
+- `필수 이벤트와 엔딩`: 시리즈가 잠긴 최종 진실로 여전히 수렴하고 있는가
 
-## Minimum read bundle for a real setting pass
+## 제대로 된 설정 패스의 최소 읽기 묶음
 
 1. `00_CANON.md`
 2. `Start_Here.md`
 3. `Guidelines/Time_Travel_Frame.md`
 4. `Guidelines/Series_Production_Constraints.md`
 5. `outline/Series_Roadmap.md`
-6. relevant `outline/Vol_*_Outline.md`
-7. relevant `outline/Vol_*_Timeline.md`
-8. relevant `lore_bible/**`
+6. 관련 `outline/Vol_*_Outline.md`
+7. 관련 `outline/Vol_*_Timeline.md`
+8. 관련 `lore_bible/**`
 9. `lore_bible/Mandatory_Events.md`
 10. `lore_bible/Foreshadow_Payoff_Ledger.md`
 11. `lore_bible/style/Naming_Style_Guide.md`
 12. `lore_bible/Front_Half_Foreshadow_Map.md`
 13. `lore_bible/history/Fixed_Point_Pressure_Map.md`
-14. `lore_bible/Ending_Convergence_Map.md` when the target arc touches late reveals
-15. ending docs when the target arc touches late reveals
+14. 대상 아크가 후반 반전에 닿을 경우 `lore_bible/Ending_Convergence_Map.md`
+15. 대상 아크가 후반 반전에 닿을 경우 엔딩 문서
 
-## Questions the conductor should ask
+## 총괄 오케스트라가 물어야 할 질문
 
-1. Does the time-travel paradox frame still hold, or has the story drifted toward easy regression logic?
-2. Do the protagonist's debts and losses accumulate in a readable order?
-3. Do the key relationships change because of actual events, not because the outline needs them to?
-4. Do cities, factions, and travel routes feel like places with pressure instead of empty labels?
-5. Are names and terms still old, weighty, and fantasy-native?
-6. Is each major reveal seeded fairly and paid off on time?
-7. Do supporting characters witness different layers of the same damage instead of repeating one note?
-8. Do the outlines and timelines still obey the canon, or are they silently overriding it?
+1. 시간여행 패러독스 프레임이 아직 유지되는가, 아니면 쉬운 회귀물 논리로 미끄러졌는가?
+2. 주인공의 빚과 손실은 읽히는 순서로 누적되는가?
+3. 핵심 관계들은 실제 사건 때문에 바뀌는가, 아니면 아웃라인이 필요해서 억지로 움직이는가?
+4. 도시, 세력, 이동 경로는 압력이 있는 장소처럼 느껴지는가, 아니면 이름표만 남아 있는가?
+5. 이름과 용어는 여전히 오래되고 무게감 있고 판타지 내부 어휘처럼 들리는가?
+6. 각 주요 반전은 공정하게 심어지고 제때 회수되는가?
+7. 측면 인물들은 같은 손상을 서로 다른 각도에서 목격하는가, 아니면 한 음만 반복하는가?
+8. 아웃라인과 타임라인은 캐논을 따르는가, 아니면 조용히 덮어쓰고 있는가?
 
-## Pass conditions
+## 건강한 설정 패스 조건
 
-A setting pass is healthy only when all of the following are true:
+설정 패스는 아래가 모두 참일 때만 건강하다고 본다.
 
-- the rules are internally consistent
-- the emotional arc is cumulative
-- supporting-cast testimony confirms the same cost grammar from different angles
-- the faction and location logic feels believable
-- the naming and tone stay in register
-- the foreshadow ledger matches the roadmap
-- the outline and timeline files agree with the canon instead of competing with it
+- 규칙이 내부적으로 모순되지 않는다
+- 감정선이 누적된다
+- 측면 인물들의 증언이 다른 각도에서 같은 대가 문법을 확인해 준다
+- 세력과 장소 논리가 설득력 있다
+- 작명과 톤이 같은 결을 유지한다
+- 복선 장부가 로드맵과 맞물린다
+- 아웃라인과 타임라인이 캐논과 경쟁하지 않고 그것을 실행한다
 
-## Anti-pattern
+## 금지할 오해
 
-Do not reduce setting work to file-pair maintenance.
+설정 작업을 파일 쌍 유지보수로 축소하면 안 된다.
 
-If `Outline` and `Timeline` are clean but the rules, names, people, and payoff logic are thin, the setting pass is still incomplete.
+`Outline`과 `Timeline`만 말끔해도 규칙, 이름, 인물, 회수 논리가 빈약하면 그 설정 패스는 아직 미완성이다.

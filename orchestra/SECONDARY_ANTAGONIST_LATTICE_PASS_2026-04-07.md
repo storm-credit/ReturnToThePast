@@ -11,7 +11,7 @@ This pass focused on the secondary pressure network around the main spine so lat
 ### Plague-apocalypse pressure
 
 - `lore_bible/characters/The_12_Apostles.md`
-  - clarified doctrine, infiltration pattern, and how the apostles differ from the Pale Council
+- clarified doctrine, infiltration pattern, and how the apostles differ from the Ivory Consistory
   - shifted the surface language away from clinical jargon and toward darker fantasy pressure
 
 ### Market hinge

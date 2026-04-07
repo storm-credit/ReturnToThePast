@@ -1,110 +1,110 @@
-# Fixed-Point Pressure Map
+# 고정점 압력 지도
 
-This document explains how fixed points, branch points, and paradox pressure should be read across the series.
+이 문서는 시리즈 전체에서 고정점, 분기점, 패러독스 압력을 어떻게 읽어야 하는지를 설명하는 기준표다.
 
-Use it alongside:
+아래 문서들과 함께 본다.
 
 - `Time_Travel_Laws.md`
 - `Regression_Constraints.md`
 - `history/Fixed_Points_and_Branches.md`
 - `Mandatory_Events.md`
-- adjacent `outline/Vol_*` files
+- 인접한 `outline/Vol_*` 문서들
 
-## Core rule grammar
+## 핵심 문법
 
-### Fixed point
+### 고정점
 
-A fixed point is an event that cannot be cleanly erased from the causal structure.
+고정점은 인과 구조에서 깨끗하게 지워 낼 수 없는 사건이다.
 
-What may still change:
+바꿀 수 있는 것:
 
-- timing
-- staging
-- witness position
-- political interpretation
-- who pays the cost around it
+- 시각
+- 무대
+- 목격자 위치
+- 정치적 해석
+- 주변에서 누가 대가를 치르는가
 
-What may not change:
+바꿀 수 없는 것:
 
-- the event's structural existence
+- 그 사건이 구조적으로 존재한다는 사실
 
-### Branch point
+### 분기점
 
-A branch point is a place where intervention can meaningfully reshape the path.
+분기점은 개입이 실제 경로를 바꿀 수 있는 자리다.
 
-But branch points are not free.
-They still create pressure, debt, or substitute damage.
+하지만 분기점은 공짜가 아니다.
+압박, 빚, 대체 손상을 반드시 남긴다.
 
-### Paradox pressure
+### 패러독스 압력
 
-Paradox pressure is how the world pushes back when intervention load grows too large.
+패러독스 압력은 개입 하중이 너무 커졌을 때 세계가 밀어 되돌리는 방식이다.
 
-Common signs:
+대표 징후:
 
-- backlash
-- antibodies
-- sky cracks or structural strain
-- repetition tightening
-- memory drag
-- creditor attention
+- 반작용
+- 항체 출현
+- 하늘 균열이나 구조 흔들림
+- 반복의 조임
+- 기억 끌림
+- 채권자의 시선
 
-## Locked event classes
+## 잠긴 사건 분류
 
-| Event | Class | What can move | What cannot move | Pressure response |
+| 사건 | 분류 | 움직일 수 있는 것 | 움직일 수 없는 것 | 압박 반응 |
 | --- | --- | --- | --- | --- |
-| Lia rescue in `Vol. 1` | branch point | route, method, sacrifice pattern | intervention cost | emotional erosion begins immediately |
-| backlash lesson in `Vol. 3` | branch warning | local tactical choices | rule that damage returns somewhere | substitute tragedy and causal recoil |
-| emperor death in `Vol. 5` | fixed point | hour, framing, political use | the death itself | cost shifts into memory and warmth loss |
-| future-side pursuit in `Vol. 6` | branch correction | how the hunters arrive | the fact that pressure answers intervention | pursuit, instability, and escalation |
-| memory deletion in `Vol. 8` | debt-payment branch | exact method and scope | protection requires severe cost | relationship severance and identity blur |
-| time prison in `Vol. 9` | paradox enclosure | loop texture and exit method | overload must be contained somehow | repetition, collapse of ordinary causality |
-| Zero Hour reveal in `Vol. 12` | collection reveal | discovery path | the truth that the collector exists | whole-series meaning flips into place |
-| Great Rift in `Vol. 13` | system rupture | battlefield shape and local survival | unpaid load spills into the world | reality-wide instability |
+| `제1권` 리아 구출 | 분기점 | 경로, 방식, 희생 패턴 | 개입 대가 | 감정 마모가 즉시 시작된다 |
+| `제3권` 반작용 수업 | 분기 경고 | 지역 전술 선택 | 손상이 어딘가로 되돌아온다는 법칙 | 대체 비극과 인과 반동 |
+| `제5권` 황제의 죽음 | 고정점 | 시각, 무대, 정치적 활용 | 죽음 그 자체 | 대가가 기억과 온기 상실로 옮겨 간다 |
+| `제6권` 미래 측 추격 | 분기 교정 | 사냥꾼이 도착하는 방식 | 개입에 응답이 온다는 사실 | 추격, 불안정, 확대 |
+| `제8권` 기억 소거 | 빚 지불 분기 | 정확한 방식과 범위 | 보호에는 큰 대가가 필요함 | 관계 단절과 정체성 흐림 |
+| `제9권` 시간의 감옥 | 패러독스 포위 | 반복 질감과 탈출 방식 | 과부하는 어디선가 가둬져야 함 | 반복, 일상 시간 붕괴 |
+| `제12권` 영시 공개 | 징수 공개 | 발견 경로 | 채권자가 존재한다는 진실 | 시리즈 전체 의미가 뒤집힌다 |
+| `제13권` 대균열 | 구조 파열 | 전장 모양, 지역 생존 방식 | 미지급 하중이 세계로 번진다는 사실 | 현실 전역 불안정 |
 
-## Volume pressure ladder
+## 권별 압력 사다리
 
-### `Vol. 1~3`
+### `제1권~제3권`
 
-- Teach that intervention works.
-- Teach that intervention also scars.
-- End by proving the world answers back.
+- 개입이 실제로 먹힌다는 사실을 가르친다.
+- 동시에 개입이 상처를 남긴다는 사실도 가르친다.
+- 끝에는 세계가 되받아친다는 증거를 남긴다.
 
-### `Vol. 4~6`
+### `제4권~제6권`
 
-- Scale pressure from local consequence to world-level correction.
-- Make the protagonist's strategic success feel inseparable from human distance.
-- Introduce signs that the future side is actively correcting the branch.
+- 압력을 지역 결과에서 세계 단위 교정으로 키운다.
+- 주인공의 전략적 성공이 인간적 거리와 분리되지 않게 만든다.
+- 미래 측이 분기를 적극적으로 바로잡고 있다는 징후를 심는다.
 
-### `Vol. 7~9`
+### `제7권~제9권`
 
-- Turn branch pressure into enclosure.
-- Let memory, identity, and ordinary time start failing under load.
-- Make the prison feel like a world reaction, not a random dungeon gimmick.
+- 분기 압력을 포위 상태로 바꾼다.
+- 기억, 정체성, 평범한 시간이 하중 아래서 무너지기 시작하게 한다.
+- 감옥은 랜덤 던전이 아니라 세계 반응처럼 보여야 한다.
 
-### `Vol. 10~13`
+### `제10권~제13권`
 
-- Turn pressure into readable architecture.
-- Reveal that the collector has been carrying or absorbing debt.
-- When the collector fails, let the world inherit the bill.
+- 압력을 읽을 수 있는 건축물처럼 드러낸다.
+- 채권자가 빚을 떠안거나 붙들고 있었다는 사실을 공개한다.
+- 채권자가 무너지면 세계가 장부를 상속받게 만든다.
 
-### `Vol. 14~15`
+### `제14권~제15권`
 
-- Keep the final choice attached to the accumulated debt grammar.
-- The ending should feel like a last answer to pressure, not a separate epilogue logic.
-- `Ending A` should cash out as human residue surviving payment, not as a lore puzzle reward.
-- `Ending B` should remain a tragic branch where burden outlives intimacy, not a glamorous promotion.
+- 최종 선택을 누적된 빚 문법에 붙여 둔다.
+- 결말은 압력에 대한 마지막 답처럼 보여야지, 따로 노는 에필로그처럼 보이면 안 된다.
+- `Ending A`는 설명 보상이 아니라 대가 뒤에 남은 인간적 잔여처럼 읽혀야 한다.
+- `Ending B`는 짐이 친밀함보다 오래 남는 비극적 분기로 남아야 한다.
 
-## Audit questions
+## 감사 질문
 
-1. Is this event being treated as fixed, branch, or pressure fallout?
-2. If a fixed point is challenged, does the story preserve the event while moving only its shape?
-3. If a branch changes, what cost or pressure sign follows?
-4. Does the pressure arrive close enough to the intervention to feel causal?
-5. Are antibodies, collectors, prisons, and rifts all presented as parts of one grammar instead of unrelated phenomena?
-6. Can a reader trace the path from `Vol. 3` backlash to `Vol. 13` rupture without inventing extra rules?
+1. 이 사건은 고정점, 분기점, 압박 후폭풍 중 무엇으로 다뤄지고 있는가?
+2. 고정점을 건드릴 때 사건 자체는 남기고 모양만 움직이고 있는가?
+3. 분기가 바뀌었다면 어떤 대가나 압박 징후가 즉시 따라오는가?
+4. 압박은 개입에 충분히 가까이 붙어 있어서 인과적으로 느껴지는가?
+5. 항체, 채권자, 감옥, 균열은 하나의 문법으로 읽히는가?
+6. 독자가 `제3권`의 반작용에서 `제13권`의 파열까지를 추가 규칙 없이 따라갈 수 있는가?
 
-## Conductor note
+## 총괄 메모
 
-If an outline scene tries to erase a fixed point cleanly, treat that as a canon warning.
+아웃라인 장면이 고정점을 깨끗하게 지워 버리려 하면 캐논 경고로 본다.
 
-If a late-volume pressure beat has no visible branch load beneath it, treat that as underbuilt setup.
+후반부 압력 장면 아래에 보이는 분기 하중이 전혀 없으면, 그것도 설계 부족 경고로 본다.

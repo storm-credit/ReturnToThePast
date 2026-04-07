@@ -1,70 +1,70 @@
-# Relationship Map
+# 인간관계도
 
-This document tracks the core relationship grammar of the series.
+이 문서는 시리즈 핵심 관계가 어떤 문법으로 움직여야 하는지 잠그는 기준표다.
 
-It is not a romance chart.
-It is a damage map for trust, debt, fear, memory, and recognition.
+이건 연애 도표가 아니다.
+신뢰, 빚, 공포, 기억, 인식이 어떻게 손상되는지를 보여주는 손상 지도다.
 
-## Core principle
+## 핵심 원칙
 
-The protagonist's relationships should not fail because the plot needs distance.
+주인공의 관계는 아웃라인이 거리를 원해서 망가지면 안 된다.
 
-They should fail, bend, or return because:
+관계는 아래 이유 때문에 휘어지고, 끊어지고, 드물게 되돌아와야 한다.
 
-- time-travel debt keeps taking human things away
-- war pressure turns care into fear
-- memory damage breaks recognition before it breaks longing
-- the final story is about whether a human bond can survive the bill
+- 시간여행의 빚이 인간적인 것을 계속 뜯어 가기 때문에
+- 전쟁 압박이 보살핌을 두려움으로 바꾸기 때문에
+- 기억 손상이 그리움보다 먼저 인식을 깨뜨리기 때문에
+- 마지막 이야기가 결국 인간적인 결이 빚을 견딜 수 있는가를 묻기 때문에
 
-## Central web
+## 중심 관계망
 
-| Pair | Surface reading | Deeper truth | Long-term direction |
+| 관계 | 겉으로 보이는 관계 | 더 깊은 진실 | 장기 방향 |
 | --- | --- | --- | --- |
-| Aiden <-> Ria | rescue target and savior | Vol. 1 already costs him the ability to hold her with full warmth | she becomes the clearest measure of what he has lost |
-| Aiden <-> Iris | rough contract allies | she is one of the first people to witness both his usefulness and his hollowing | bond -> fear -> distance -> body-memory without full trust |
-| Aiden <-> Baltazar | suspicious mentor | false center who still understands part of the debt grammar | red herring -> guide -> handoff |
-| Aiden <-> Echo / Zero Hour | monster and prey | self confronting the earliest self who chose collection over collapse | hostility -> recognition -> tragic inheritance |
-| Aiden <-> companions | commander and survivors | gratitude erodes when his judgment looks less human than his intent | relief -> unease -> fear -> severance |
+| 에이든 <-> 리아 | 구출자와 피구출자 | `제1권`의 구출은 이미 따뜻하게 품는 능력을 깎아냈다 | 리아는 에이든이 잃은 것을 재는 가장 선명한 척도가 된다 |
+| 에이든 <-> 아이리스 | 거친 계약 동맹 | 아이리스는 에이든의 쓸모와 공허를 함께 목격한 첫 사람 중 하나다 | 유대 -> 두려움 -> 거리 -> 몸의 기억만 남은 신뢰 |
+| 에이든 <-> 발타자르 | 수상한 스승 | 가짜 중심이지만 빚 문법 일부를 이해하는 자 | 레드헤링 -> 안내자 -> 넘겨주기 |
+| 에이든 <-> 잔향 / 영시 | 괴물과 먹잇감 | 가장 이른 자기 자신이 징수를 택한 결과와 마주하는 관계 | 적대 -> 인식 -> 비극적 계승 |
+| 에이든 <-> 동료들 | 지휘자와 생존자들 | 그의 의도가 아니라 판단 방식 때문에 감사가 점점 불안으로 마모된다 | 안도 -> 불편 -> 두려움 -> 단절 |
 
-## Character lanes
+## 인물별 축
 
-### Aiden and Ria
+### 에이든과 리아
 
-- Ria is not only a person to save.
-- She is living proof that the first rescue already carried a human cost.
-- Their later scenes should hurt through absence more than open tenderness.
+- 리아는 단지 구해야 할 사람이 아니다.
+- 첫 구출이 이미 인간적인 대가를 치렀다는 살아 있는 증거다.
+- 이후 장면들은 노골적 다정함보다 비어 있는 자리를 통해 더 아프게 와야 한다.
 
-### Aiden and Iris
+### 에이든과 아이리스
 
-- Iris must never feel like a generic reward character.
-- She is a witness character with a blade in her hand and a body-level memory of what the protagonist used to mean.
-- Her fear should remain brave, and her bravery should remain afraid.
+- 아이리스는 보상형 조연처럼 보이면 안 된다.
+- 칼을 쥔 증인이자, 에이든이 예전에 무엇이었는지 몸으로 기억하는 인물이어야 한다.
+- 그녀의 두려움은 용감해야 하고, 용감함은 끝내 두려움을 품고 있어야 한다.
 
-### Aiden and Baltazar
+### 에이든과 발타자르
 
-- Baltazar should absorb suspicion without swallowing the entire truth.
-- He can teach rule fragments, but he cannot own the center of the series.
-- His function is misdirection with residue, not fake complexity for its own sake.
+- 발타자르는 의심을 흡수해야 하지만, 진실 전체를 삼켜 버리면 안 된다.
+- 법칙 조각을 가르칠 수는 있어도 시리즈의 중심을 차지하면 안 된다.
+- 기능은 복잡한 척이 아니라, 잔여를 남기는 오도에 있다.
 
-### Aiden and Echo / Zero Hour
+### 에이든과 잔향 / 영시
 
-- Echo should feel personal long before the reader knows why.
-- Once Zero Hour is revealed, earlier hostility should reread as intimate rather than random.
-- The series-ending choice depends on this bond feeling tragic instead of merely oppositional.
+- 잔향은 독자가 이유를 알기 전부터 개인적으로 느껴져야 한다.
+- 영시가 드러난 뒤에는 초기의 적대가 뜬금없는 것이 아니라 친밀한 상처처럼 다시 읽혀야 한다.
+- 시리즈 마지막 선택은 이 관계가 단순 대립이 아니라 비극적 관계로 서 있을 때만 힘을 가진다.
 
-## Supporting witness lanes
+## 측면 목격 레인
 
-- `Lyud`: reads Aiden as a man who keeps paying with pieces of himself and therefore respects him before he trusts him.
-- `Varg`: confirms at a body level that Aiden's strength feels slightly wrong because cost and pain stop slowing him down normally.
-- `Thomas`: proves that city survivors can sense the cold pressure around Aiden without understanding the hidden rule engine.
-- `Fenrir`: shows how usefulness can expand faster than intimacy inside a war-season undercity.
-- `Black Dog`: functions as the institutional counter-witness that reacts to Aiden as a destabilizing anomaly, not a mere nuisance.
+- `Lyud`: 에이든이 자기 자신을 깎아 가며 버틴다는 사실을 보고, 신뢰보다 먼저 존중한다.
+- `Varg`: 비용과 고통이 더는 정상적으로 제동을 걸지 않는다는 점을 몸으로 확인한다.
+- `Thomas`: 도시 생존자들이 귀족보다 먼저 에이든 주변의 차가운 압력을 읽는다는 사실을 증명한다.
+- `Fenrir`: 전쟁기 하층에서 쓸모가 친밀함보다 더 빨리 커질 수 있음을 보여준다.
+- `Black Dog`: 체제는 에이든을 성가신 개인이 아니라 명령 논리를 무너뜨리는 이상 개체로 본다.
 
-## Audit questions
+## 감사 질문
 
-1. Does each relationship change because of a visible scene?
-2. Is fear arriving after enough human contact to wound?
-3. Does memory damage break recognition in a way that still leaves emotional residue?
-4. Does Ria remain a human measure instead of becoming only a symbol?
-5. Does Iris remain an active witness instead of a passive victim?
-6. Does Baltazar mislead fairly without replacing the real center?
+1. 각 관계는 실제 장면을 통해 바뀌는가?
+2. 충분한 인간적 접촉 뒤에 두려움이 와서 더 아프게 꽂히는가?
+3. 기억 손상은 인식을 깨뜨리면서도 감정 잔여는 남기는가?
+4. 리아는 상징으로만 남지 않고 계속 인간적 척도로 기능하는가?
+5. 아이리스는 수동적 피해자가 아니라 능동적 증인으로 남는가?
+6. 발타자르는 공정하게 오도하면서도 진짜 중심을 대체하지 않는가?

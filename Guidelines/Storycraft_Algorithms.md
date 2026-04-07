@@ -1,71 +1,72 @@
-# Storycraft Algorithms
+# 서사 설계 알고리즘
 
-This document is the writer-facing playbook for turning a setting bible into a strong serial novel.
+이 문서는 설정집을 실제 연재 소설로 바꿀 때 쓰는 작가용 절차서다.
 
-Before using it, lock the project lens in `Guidelines/Time_Travel_Frame.md`. The story only looks like regression on the surface; structurally it should behave like a time-travel paradox narrative.
+사용 전에는 반드시 `Guidelines/Time_Travel_Frame.md`의 시선부터 잠근다.
+이 작품은 겉으로만 회귀처럼 보일 뿐, 구조적으로는 시간여행 패러독스물처럼 움직여야 한다.
 
-## 1. Ending Backsolve
+## 1. 결말 역산
 
-Use this when a volume or the whole series feels broad but unfocused.
+권 전체나 시리즈 전체가 넓기만 하고 흐릿할 때 쓴다.
 
-1. Decide the final truth.
-2. Decide the final choice.
-3. Decide the final cost.
-4. Decide the final image.
-5. Walk backward and mark the latest safe reveal point.
-6. Plant one early seed and one middle reinforcement for each major payoff.
+1. 최종 진실을 정한다.
+2. 최종 선택을 정한다.
+3. 최종 대가를 정한다.
+4. 최종 이미지를 정한다.
+5. 거꾸로 걸어 올라가며 가장 늦어도 안전한 공개 시점을 표시한다.
+6. 주요 회수마다 초반 씨앗 하나와 중간 강화 하나를 심는다.
 
-## 2. Reveal Ladder
+## 2. 반전 사다리
 
-Use this when twists exist, but the delivery is weak.
+반전은 있는데 전달력이 약할 때 쓴다.
 
-1. Write what is actually true.
-2. Write what the protagonist believes.
-3. Write what the reader should believe for now.
-4. Plant a clue that can be misread fairly.
-5. Add a second clue that narrows the options.
-6. Define the event that unlocks the truth.
-7. Check whether the reveal still feels fair when reread.
+1. 실제 진실을 적는다.
+2. 주인공이 믿는 것을 적는다.
+3. 독자가 당장은 믿어야 할 것을 적는다.
+4. 공정하게 오독 가능한 단서를 하나 심는다.
+5. 선택지를 좁히는 두 번째 단서를 더한다.
+6. 진실을 여는 사건을 정한다.
+7. 다시 읽어도 공정한지 점검한다.
 
-## 3. Arc Pressure Loop
+## 3. 아크 압박 순환
 
-Use this when characters respond to events but do not change in a meaningful way.
+인물은 사건에 반응하지만 실제로 변하지 않을 때 쓴다.
 
-1. Identify the wound.
-2. Identify the mask.
-3. Identify the external desire.
-4. Identify the internal need.
-5. Apply pressure that makes the mask fail.
-6. Force a costly choice.
-7. Record what changed inside the character.
+1. 상처를 특정한다.
+2. 가면을 특정한다.
+3. 바깥 욕망을 특정한다.
+4. 안쪽 필요를 특정한다.
+5. 가면이 깨지도록 압박을 건다.
+6. 값비싼 선택을 강제한다.
+7. 그 선택 뒤 인물 안에서 무엇이 바뀌었는지 기록한다.
 
-## 4. Serial Retention Loop
+## 4. 연재 견인 순환
 
-Use this when chapters are readable but not compelling enough to pull the next click.
+문장은 읽히는데 다음 화를 누르게 할 힘이 약할 때 쓴다.
 
-1. Give the scene a concrete objective.
-2. Add pressure or resistance.
-3. Turn the scene with loss, reversal, or narrowed options.
-4. End with a real residue question.
-5. Make the next chapter promise visible.
+1. 장면의 구체적 목표를 준다.
+2. 압박이나 저항을 얹는다.
+3. 손실, 반전, 선택지 축소로 장면을 꺾는다.
+4. 진짜 잔여 질문 하나를 남긴 채 끝낸다.
+5. 다음 화가 약속하는 것을 독자 눈에 보이게 한다.
 
-## 5. Setting-to-Story Conversion
+## 5. 설정에서 서사로
 
-Use this when the lore is rich but not dramatic yet.
+설정은 풍부하지만 아직 드라마가 아닐 때 쓴다.
 
-1. Name the lore element.
-2. Decide who uses it.
-3. Decide what it costs.
-4. Decide what the reader can see on the page.
-5. Decide what truth is still hidden.
-6. Decide how it pays off later.
+1. 설정 요소의 이름을 적는다.
+2. 누가 그것을 쓰는지 정한다.
+3. 그 값이 무엇인지 정한다.
+4. 독자가 페이지에서 실제로 볼 수 있는 것을 정한다.
+5. 아직 숨겨 둘 진실을 정한다.
+6. 나중에 어떻게 회수되는지 정한다.
 
-## 6. Continuity Gate
+## 6. 연속성 문턱
 
-Run this before lore changes are allowed to affect outlines or drafts.
+설정 변경이 아웃라인이나 초안에 반영되기 전에 반드시 돌린다.
 
-1. Mark the fixed points.
-2. Mark the branch points.
-3. Mark the cost already paid.
-4. Mark the emotional residue that should remain visible.
-5. Mark the downstream consequence that future chapters must inherit.
+1. 고정점을 표시한다.
+2. 분기점을 표시한다.
+3. 이미 지불한 대가를 표시한다.
+4. 앞으로도 보여야 할 감정 잔여를 표시한다.
+5. 이후 권들이 반드시 이어받아야 할 후속 결과를 표시한다.

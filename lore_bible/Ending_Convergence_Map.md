@@ -1,64 +1,64 @@
-# Ending Convergence Map
+# 엔딩 수렴 지도
 
-This document locks how the late-series reveal chain should converge into the canon ending.
+이 문서는 후반부 진실들이 어떻게 정사 엔딩으로 모여야 하는지를 잠그는 기준표다.
 
-Use it when auditing `Vol. 11~15`, ending docs, mandatory events, and final foreshadow payoff.
+`제11권~제15권`, 엔딩 문서, 필수 이벤트, 복선 회수 장부를 함께 점검할 때 사용한다.
 
-## Core rule
+## 핵심 원칙
 
-The ending must feel like the last answer to the same bill the series has been charging from `Vol. 1`.
+결말은 `제1권`부터 쌓여 온 같은 빚의 마지막 답이어야 한다.
 
-It should not read like:
+결말이 아래처럼 읽히면 안 된다.
 
-- a late twist added beside the main story
-- a separate epilogue logic
-- a payoff that depends only on lore explanation
+- 본편 옆에 덧붙인 늦은 반전
+- 따로 노는 에필로그 논리
+- 설정 설명에만 의존하는 회수
 
-It should read like:
+결말은 아래처럼 읽혀야 한다.
 
-- fixed-point pressure reaching collection scale
-- the truth of Zero Hour completing the meaning of earlier wounds
-- the final choice resolving both paradox pressure and human residue
+- 고정점 압박이 마침내 징수 규모로 커진 결과
+- 영시의 진실이 그동안의 상처를 새 의미로 완성하는 순간
+- 마지막 선택이 패러독스 압박과 인간적 잔여를 동시에 정리하는 귀결
 
-## Locked late-arc chain
+## 후반부 수렴 사슬
 
-| Volume band | Required function | What must land emotionally | What must already be prepared |
+| 권대 | 반드시 맡아야 할 일 | 감정적으로 착지해야 할 것 | 미리 준비되어 있어야 할 것 |
 | --- | --- | --- | --- |
-| `Vol. 11` | strip away false center confidence | killing Baltazar does not solve the story | the red herring has been fair but incomplete |
-| `Vol. 12` | reveal Zero Hour and collector truth | horror, recognition, and tragic intimacy arrive together | Echo has already felt personal before the reveal |
-| `Vol. 13` | let unpaid load spill into the world | the bill becomes social and structural, not private only | fixed-point and branch grammar already feels readable |
-| `Vol. 14` | force a final choice between system burden and human return | the protagonist must choose what kind of existence to keep | ordinary happiness has already been shown as costly and real |
-| `Vol. 15` | prove what survives after payment | the final residue is human, not mechanical | Ria remains the clearest human echo throughout the series |
+| `제11권` | 가짜 중심을 벗겨낸다 | 발타자르를 죽여도 이야기가 끝나지 않음을 체감 | 레드헤링이 공정하지만 불완전해야 함 |
+| `제12권` | 영시와 채권자 진실을 공개한다 | 공포, 인식, 비극적 친밀감이 동시에 와야 함 | 잔향이 이미 개인적인 존재처럼 느껴져 있어야 함 |
+| `제13권` | 미뤄졌던 빚을 세계로 번지게 한다 | 청구서가 개인을 넘어 사회와 구조로 번져야 함 | 고정점/분기점 문법이 독자에게 읽혀 있어야 함 |
+| `제14권` | 시스템의 짐과 인간으로의 귀환 중 선택하게 한다 | 주인공이 어떤 존재로 남을지 스스로 고르게 해야 함 | 평범한 행복이 이미 비싸고도 진짜라는 점이 보여져 있어야 함 |
+| `제15권` | 대가 뒤에 무엇이 남는지 증명한다 | 마지막 잔여는 기계적 설명이 아니라 인간적 여운이어야 함 | `Ria`가 끝까지 가장 선명한 인간적 메아리여야 함 |
 
-## Ending A requirements
+## 엔딩 A 성립 조건
 
-`Ending A` works only if all of the following stay true:
+`Ending A`는 아래 조건이 전부 유지될 때만 힘을 가진다.
 
-- the series treats humanity as costly, not free
-- memory loss does not erase all residue
-- the final return feels smaller, quieter, and more human than the earlier scale of violence
-- Ria's last recognition beat feels earned by long absence, not by convenient recall
+- 이 시리즈는 인간다움을 공짜로 다루지 않는다.
+- 기억 소거가 모든 잔여까지 지워 버리지는 않는다.
+- 마지막 귀환은 이전 폭력의 규모보다 작고, 조용하고, 더 인간적으로 느껴져야 한다.
+- 리아의 마지막 인식 장면은 긴 부재 끝에 얻어진 장면처럼 보여야지 편의적 기억 회복처럼 보여선 안 된다.
 
-## Ending B requirements
+## 엔딩 B 성립 조건
 
-`Ending B` works only if all of the following stay true:
+`Ending B`는 아래 조건이 전부 유지될 때만 외전답게 선다.
 
-- it remains a true branch, not the default emotional spine
-- the protagonist's choice reads as protection through burden, not as cool ascension
-- the eternal watcher image feels tragic and diminishing, not triumphant
+- 정서의 기본 골격이 아니라 진짜 갈래로 남아 있어야 한다.
+- 주인공의 선택은 멋진 승천이 아니라 짐을 떠안는 보호로 읽혀야 한다.
+- 영원한 감시자의 이미지는 장엄함보다 비극과 소진으로 느껴져야 한다.
 
-## Failure signs
+## 실패 징후
 
-- `Vol. 12` explains more than it wounds
-- `Vol. 13` becomes spectacle without bill logic
-- `Vol. 14` offers a choice before ordinary happiness has been made concrete
-- `Vol. 15` lands on lore residue instead of human residue
-- `Ending B` starts to feel more emotionally complete than `Ending A` without deliberate intent
+- `제12권`이 상처보다 설명을 더 많이 한다.
+- `제13권`이 빚의 논리 없이 구경거리만 커진다.
+- `제14권`이 평범한 행복의 실감을 만들기 전에 선택부터 내민다.
+- `제15권`이 인간적 잔여 대신 설정 찌꺼기만 남긴다.
+- 의도하지 않았는데도 `Ending B`가 `Ending A`보다 더 완결된 정서로 읽힌다.
 
-## Audit questions
+## 감사 질문
 
-1. Does each late volume do a distinct job, or are reveals stacking on the same beat?
-2. Does the final choice resolve both paradox pressure and relationship damage?
-3. Is Ria still functioning as the clearest human echo by the time the series closes?
-4. Does Zero Hour reinterpret earlier scenes instead of replacing them?
-5. If the ending changed today, which front-half seeds would break first?
+1. 후반 각 권이 서로 다른 일을 맡고 있는가, 아니면 같은 반전을 한 박자에 몰아넣고 있는가?
+2. 마지막 선택이 패러독스 압박과 관계 손상을 함께 정리하는가?
+3. 시리즈가 닫힐 때까지 리아는 가장 선명한 인간적 메아리로 남아 있는가?
+4. 영시는 앞선 장면을 지우지 않고 다시 읽히게 만드는가?
+5. 오늘 엔딩을 바꾸면 가장 먼저 무너질 전반부 씨앗은 무엇인가?

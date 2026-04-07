@@ -1,77 +1,77 @@
-# Front-Half Foreshadow Map
+# 전반부 복선 지도
 
-This document locks what the first half of the series must plant before the largest later-volume reveals arrive.
+이 문서는 후반 대반전이 터지기 전에 `제1권~제5권`에서 반드시 심어야 할 단서를 잠그는 기준표다.
 
-Use it with `Foreshadow_Payoff_Ledger.md`, not instead of it.
+`Foreshadow_Payoff_Ledger.md`를 대체하는 문서가 아니라, 그 장부를 전반부 기준으로 읽기 쉽게 풀어놓은 지도다.
 
-The ledger answers "what eventually pays off."
-This map answers "what the reader must already have seen by `Vol. 1~5` so the payoff feels earned."
+- 장부는 "무엇이 나중에 회수되는가"를 답한다.
+- 이 지도는 "그 회수가 공정하려면 초반부에 무엇을 이미 보여줘야 하는가"를 답한다.
 
-## Core rule
+## 핵심 원칙
 
-No major late reveal should depend only on information first introduced in the same volume where it pays off.
+후반의 큰 반전은 그 권에서 처음 나온 정보만으로 성립하면 안 된다.
 
-If a reveal changes the reader's understanding of the entire series, it should normally have:
+독자의 작품 이해 자체를 뒤집는 반전이라면 보통 아래 세 박자가 필요하다.
 
-- one early seed
-- one middle reinforcement
-- one pre-payoff pressure beat
+- 초반 씨앗 하나
+- 중반 강화 하나
+- 회수 직전 압박 장면 하나
 
-## Front-half clue matrix
+## 전반부 단서 행렬
 
-| Cluster | What the reader sees early | Intended misread | First seed | Reinforcement by `Vol. 5` | Main payoff |
+| 축 | 초반 독자가 먼저 보게 되는 것 | 독자가 하게 될 오해 | 첫 씨앗 | `제5권`까지의 강화 | 최종 회수 |
 | --- | --- | --- | --- | --- | --- |
-| False regression | strange re-entry sensations, mechanical knowledge, impossible familiarity | normal regression story | `Vol. 1` death-and-return dissonance | `Vol. 4~5` signs that an outside future force is intervening | `Vol. 12` forced transfer truth |
-| Emotional cost | the protagonist wins but cannot feel the win correctly | simple trauma or fatigue | `Vol. 1` Lia rescue aftermath | `Vol. 2` Iris bond gap, `Vol. 4~5` colder battlefield logic | `Vol. 12` full creditor logic |
-| Baltazar red herring | he knows too much and stands near time secrets | true final mastermind | `Vol. 3` suspicious access | `Vol. 5` teaches rules, appears too informed | `Vol. 11~12` false-villain break |
-| Echo identity | Echo speaks and reacts as if he knows the protagonist from inside | abstract cosmic observer | `Vol. 1` over-familiar hostility | `Vol. 4~5` tailored pressure and recognition motifs | `Vol. 12` Zero Hour / earliest-self reveal |
-| Fixed point vs branch | some events bend, some only shift shape | any future event can be cleanly prevented | `Vol. 3` backlash | `Vol. 5` emperor death timing manipulation | `Vol. 5~13` fixed-point logic stays readable |
-| Memory deletion architecture | protecting others requires distance first, then erasure | sudden late tragedy device | `Vol. 4~5` fear and coldness begin | `Vol. 6` fear becomes silence and rupture pressure | `Vol. 8` memory deletion lands as earned |
-| Ordinary happiness as final desire | meals, warmth, shelter, small peace matter more than glory | revenge or victory is the endgame | `Vol. 1~2` rare quiet human beats | `Vol. 5` victory feels empty without warmth | `Vol. 14~15` ordinary life ending choice |
-| Debt and collection motif | words, imagery, and scenes imply the world keeps accounts | dramatic flavor only | `Vol. 1` debt-toned imagery | `Vol. 4~5` collection pressure, payment language | `Vol. 12~13` creditor truth |
+| 가짜 회귀 (`False regression`) | 되돌아온 감각이 이상하고, 몸이 아닌 죽음의 기억이 앞선다 | 평범한 회귀물의 시작 | `제1권`의 귀환 이질감 | `제4~5권` 외부 미래 개입 흔적 | `제12권` 강제 전송 진실 |
+| 감정 대가 (`Emotional cost`) | 이기고도 제대로 기뻐하지 못한다 | 단순한 피로, 트라우마 | `제1권` 리아 구출 직후 | `제2권` 아이리스와의 틈, `제4~5권` 차가운 전장 판단 | `제12권` 빚과 징수의 본체 |
+| 발타자르 레드헤링 (`Baltazar red herring`) | 너무 많은 걸 알고 시간 축 가까이에 있다 | 진짜 최종 흑막 | `제3권` 수상한 접근 | `제5권` 법칙을 가르치며 지나치게 중심에 선다 | `제11~12권` 가짜 중심 붕괴 |
+| 잔향의 정체 (`Echo identity`) | 잔향이 에이든을 너무 개인적으로 안다 | 추상적 우주적 관찰자 | `제1권` 과하게 익숙한 적의 반응 | `제4~5권` 맞춤형 압박과 인식 | `제12권` 영시 공개 |
+| 고정점과 분기점 | 어떤 사건은 꺾이고, 어떤 사건은 모양만 바뀐다 | 모든 미래를 깨끗하게 막을 수 있다 | `제3권` 반작용 | `제5권` 황제 죽음 시각 조작 | `제5~13권` 고정점 문법 유지 |
+| 기억 소거 구조 | 지키려면 먼저 멀어지고, 결국 지워야 한다 | 후반부용 편의 장치 | `제4~5권` 냉기와 두려움의 시작 | `제6권` 침묵과 파열 압력 | `제8권` 기억 소거가 필연처럼 착지 |
+| 평범한 행복의 가치 (`Ordinary happiness as final desire`) | 식사, 온기, 쉼 같은 작은 평화가 영광보다 중요하다 | 복수나 승리가 끝이다 | `제1~2권` 드문 정적 장면 | `제5권` 승리의 공허함 | `제14~15권` 평범한 삶 선택 |
+| 빚과 징수 모티프 (`Debt and collection motif`) | 세계가 장부를 쓰고 있다는 이미지와 단어가 돈다 | 단순 분위기 연출 | `제1권` 빚의 어휘 | `제4~5권` 징수와 압박 언어 | `제12~13권` 채권자 진실 |
 
-## Volume obligations
+## 권별 의무
 
-### `Vol. 1`
+### `제1권`
 
-- Seed that the return is physically and emotionally wrong, not simply miraculous.
-- Let Echo feel too personal to be a generic monster.
-- Show one clear victory that still feels emotionally hollow.
-- Use debt, bill, or collection imagery lightly enough to feel atmospheric, not explanatory.
+- 귀환이 기적이 아니라 잘못된 복귀처럼 보여야 한다.
+- 잔향은 평범한 괴물이 아니라 너무 개인적인 적처럼 느껴져야 한다.
+- 분명한 승리 하나가 있어도 감정적으로는 빈맛이 남아야 한다.
+- 빚, 징수, 장부 같은 이미지는 설명이 아니라 공기처럼 스쳐야 한다.
 
-### `Vol. 2`
+### `제2권`
 
-- Reinforce that saving Iris also damages the protagonist's ability to hold the bond normally.
-- Let competence feel procedural rather than heroic at least once.
-- Plant one quiet moment that proves ordinary warmth matters in this series.
+- 아이리스를 살리는 일이 곧바로 정상적인 유대로 이어지지 않음을 보여줘야 한다.
+- 능숙함이 영웅성보다 절차와 계산처럼 보이는 장면이 적어도 한 번은 있어야 한다.
+- 이 시리즈에서 평범한 온기가 얼마나 귀한지 보여주는 조용한 장면이 하나는 필요하다.
 
-### `Vol. 3`
+### `제3권`
 
-- Let backlash teach that causality pushes back.
-- Place Baltazar where a reasonable reader can over-credit his importance.
-- Make it plausible that the protagonist is learning rules from the wrong apparent source.
+- 인과율이 밀어 되돌린다는 사실을 반작용으로 가르쳐야 한다.
+- 발타자르를 독자가 과하게 믿거나 과하게 의심해도 무리가 없도록 배치해야 한다.
+- 주인공이 법칙을 잘못된 스승에게서 배우고 있다는 인상을 줄 수 있어야 한다.
 
-### `Vol. 4`
+### `제4권`
 
-- Shift the scale from alley survival to world-level pressure.
-- Show outside-future interference through antibodies, anomalies, or rule-enforcement behavior.
-- Make the protagonist's coldness visible to companions, not just to the narration.
+- 골목 생존에서 세계 단위 압박으로 규모를 넓혀야 한다.
+- 항체, 이상 개입, 법칙 집행 같은 형태로 외부 미래 간섭을 보여줘야 한다.
+- 주인공의 차가움은 서술만이 아니라 동료들의 눈에도 보이기 시작해야 한다.
 
-### `Vol. 5`
+### `제5권`
 
-- Lock the fixed-point lesson through the emperor event.
-- Let victory and erosion coexist in the same arc.
-- Make fear of the protagonist begin in concrete scenes, not rumor.
-- End with enough unease that later rupture feels like accumulation, not pivot.
+- 황제 사건으로 고정점 수업을 확실히 잠가야 한다.
+- 승리와 마모가 같은 권 안에 함께 있어야 한다.
+- 동료들이 느끼는 두려움은 소문이 아니라 실제 장면에서 시작되어야 한다.
+- 끝은 파열의 시작처럼 불안해야지, 갑작스러운 꺾임처럼 보여선 안 된다.
 
-## Red-herring guardrail
+## 레드헤링 안전장치
 
-Baltazar can absorb suspicion, but he must not absorb every clue.
+발타자르는 충분히 의심을 흡수할 수 있어야 한다. 하지만 모든 시간 관련 단서가 그에게만 꽂히면 안 된다.
 
-If every time-related clue points only to him, the later reveal will feel like replacement rather than reversal.
+시간축 단서가 전부 발타자르에게만 매달리면, 후반 반전은 "뒤집기"가 아니라 "교체"처럼 보인다.
 
-## Ending guardrail
+## 엔딩 안전장치
 
-The final choice should feel emotionally visible long before the last volumes.
+최종 선택은 마지막 권에서 갑자기 생기면 안 된다.
 
-If the early books never teach the reader that ordinary warmth matters, the ending will read as a twist instead of a release.
+초반 권들이 평범한 온기의 가치를 충분히 가르치지 못하면, 결말은 해방이 아니라 트릭처럼 읽힌다.

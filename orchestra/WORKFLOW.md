@@ -4,14 +4,16 @@ This document explains how the repo-local novel orchestra should operate.
 
 ## Goal
 
-- Keep canon repair, storycraft planning, drafting, and audit work separated.
+- Keep canon repair, storycraft planning, later drafting, and audit work separated.
 - Let specialists own narrow problems while the conductor owns merge order and final decisions.
 - Use only the lanes that remove the current bottleneck.
+- While `SETTING_FIRST_MODE.md` is active, treat drafting lanes as suspended by default.
 
 ## Core files
 
 - `SESSION_STATE.md`: active working context and current targets
 - `WORKFLOW.md`: operating rules and lane order
+- `SETTING_FIRST_MODE.md`: declares that the project is still finishing the setting library before prose
 - `SOURCE_OF_TRUTH.md`: canonical priority order and no-touch references
 - `Guidelines/Setting_Audit_Scope.md`: audit surface map for full setting-library work
 - `HANDOFF_PACKET_PLAYBOOK.md`: fast packet choices for common orchestra missions
@@ -75,8 +77,8 @@ Optional detail lanes:
 5. `foreshadow-bookkeeper` when clue bookkeeping is missing
 6. `serial-tension-engineer` when chapters drag or exits feel soft
 7. `plausibility-warden`
-8. `scene-smith` only if prose is requested
-9. `chapter-inspector` if publication-level confidence is needed
+8. `scene-smith` only after setting-first mode is lifted
+9. `chapter-inspector` only after setting-first mode is lifted
 
 ### Foreshadow and payoff audit
 
@@ -91,15 +93,9 @@ Conductor note:
 - Lock both the ledger and the front-half clue map when a reveal changes whole-series meaning.
 - If a payoff relies on a clue that first appears in the same volume, treat it as under-seeded until proven otherwise.
 
-### Chapter drafting or rewrite
+### Post-setting drafting or rewrite
 
-1. `novel-orchestra-conductor`
-2. `lore-forgemaster` only if canon blockers remain
-3. `chrono-weaver`
-4. `plausibility-warden`
-5. `scene-smith`
-6. `hook-doctor` if chapter-turn pressure needs help
-7. `chapter-inspector`
+This lane is inactive until the conductor explicitly lifts `setting-first mode`.
 
 ## Packet rules
 
@@ -120,6 +116,7 @@ Every packet should lock:
 ## Anti-patterns
 
 - Drafting before canon blockers are resolved
+- Drafting while setting-first mode is still active
 - Mixing lore invention and prose revision in one undifferentiated pass
 - Running many lanes against the same file when a narrower route is enough
 - Treating setting work as outline/timeline-only maintenance

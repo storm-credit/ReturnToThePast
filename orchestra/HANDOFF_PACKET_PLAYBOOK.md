@@ -24,10 +24,11 @@ If those five are unclear, do not delegate yet.
 
 | Packet | Use when | Primary lane | Default expert order | Template |
 | --- | --- | --- | --- | --- |
-| `chapter-draft` | A chapter needs fresh prose or a clean rewrite inside locked canon | `draft` | conductor -> chrono -> plausibility -> scene -> hook -> audit | `templates/HANDOFF_CHAPTER_DRAFT.md` |
 | `lore-repair` | Canon files disagree or a setting block is too thin to draft safely | `lore` | conductor -> lore -> chrono -> plausibility | `templates/HANDOFF_LORE_REPAIR.md` |
 | `bridge-reinforcement` | Adjacent chapters or volumes connect weakly in logic or emotion | `plausibility` | conductor -> structure -> arc -> plausibility -> foreshadow | `templates/HANDOFF_BRIDGE_REINFORCEMENT.md` |
 | `foreshadow-repair` | A reveal feels under-seeded, unfair, or too late | `lore` | conductor -> foreshadow -> timeline -> world-rule -> plausibility | `templates/HANDOFF_FORESHADOW_REPAIR.md` |
+
+`chapter-draft` remains a future packet, but it is suspended while `SETTING_FIRST_MODE.md` is active.
 
 ---
 
@@ -38,7 +39,6 @@ When Python is available, use the packet builder for a first draft and then tigh
 Examples:
 
 ```text
-python .agent/skills/novel-orchestra-conductor/scripts/build_work_packet.py --preset chapter-draft --volume 1 --chapter 3 --mission "Draft Vol. 1 Ch. 3 inside locked canon"
 python .agent/skills/novel-orchestra-conductor/scripts/build_work_packet.py --preset lore-repair --entity Iris --mission "Repair Iris canon and debt continuity"
 python .agent/skills/novel-orchestra-conductor/scripts/build_work_packet.py --preset bridge-reinforcement --volume 6 --mission "Reinforce the Vol. 6 -> Vol. 7 handoff"
 ```
@@ -48,12 +48,6 @@ If Python is unavailable, copy the closest template from `orchestra/templates/` 
 ---
 
 ## Packet design notes
-
-### Chapter draft
-
-- Keep the packet narrow to one chapter unless a bridge is the real blocker.
-- Always include the previous chapter tail if continuity matters.
-- Lock the chapter exit style before prose starts if the hook lane is likely.
 
 ### Lore repair
 
@@ -79,5 +73,6 @@ If Python is unavailable, copy the closest template from `orchestra/templates/` 
 - vague verbs like "make it better"
 - open-ended lore invention without a contradiction target
 - sending prose work before canon blockers are resolved
+- sending prose work while `setting-first mode` is still active
 - routing every task through every lane
 - hiding the real decision from the specialist

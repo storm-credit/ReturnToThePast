@@ -6,16 +6,16 @@ All orchestra lanes must follow the same canonical priority order.
 
 1. `00_CANON.md`
 2. `Start_Here.md`
-3. `orchestra/WORKFLOW.md`
-4. `Guidelines/Time_Travel_Frame.md`
-5. `Guidelines/Series_Production_Constraints.md`
-6. `outline/Series_Roadmap.md`
-7. relevant `outline/Vol_*_Outline.md` and `outline/Vol_*_Timeline.md`
-8. relevant `lore_bible/**`
-9. relevant `Guidelines/**`
-10. relevant `Drafts/**`
+3. `orchestra/SETTING_FIRST_MODE.md`
+4. `orchestra/WORKFLOW.md`
+5. `Guidelines/Time_Travel_Frame.md`
+6. `Guidelines/Series_Production_Constraints.md`
+7. `outline/Series_Roadmap.md`
+8. relevant `outline/Vol_*_Outline.md` and `outline/Vol_*_Timeline.md`
+9. relevant `lore_bible/**`
+10. relevant `Guidelines/**`
 
-`Drafts/**` are outputs, not primary truth. If a draft conflicts with a higher source, repair the higher-level canon first and then fix the draft.
+`Drafts/**` are currently absent and inactive. Do not route work through prose files while `SETTING_FIRST_MODE.md` is active.
 
 ## Required bundles by task
 
@@ -23,6 +23,7 @@ All orchestra lanes must follow the same canonical priority order.
 
 - `00_CANON.md`
 - `Start_Here.md`
+- `orchestra/SETTING_FIRST_MODE.md`
 - `orchestra/WORKFLOW.md`
 - `Guidelines/Setting_Audit_Scope.md`
 - `Guidelines/Time_Travel_Frame.md`
@@ -40,6 +41,7 @@ All orchestra lanes must follow the same canonical priority order.
 
 ### Setting-body reinforcement
 
+- `orchestra/SETTING_FIRST_MODE.md`
 - `Guidelines/Setting_Audit_Scope.md`
 - `Guidelines/Time_Travel_Frame.md`
 - relevant character files
@@ -69,14 +71,15 @@ All orchestra lanes must follow the same canonical priority order.
 
 ### Plausibility or continuity check
 
+- `orchestra/SETTING_FIRST_MODE.md`
 - `outline/Series_Roadmap.md`
 - target `outline/Vol_*_Outline.md`
 - target `outline/Vol_*_Timeline.md`
 - relevant `lore_bible/**`
-- adjacent draft if present
 
 ### Storycraft planning
 
+- `orchestra/SETTING_FIRST_MODE.md`
 - `Guidelines/Time_Travel_Frame.md`
 - `Guidelines/Series_Production_Constraints.md`
 - `Guidelines/Storycraft_Algorithms.md`
@@ -87,6 +90,7 @@ All orchestra lanes must follow the same canonical priority order.
 
 ### Foreshadow or reveal reinforcement
 
+- `orchestra/SETTING_FIRST_MODE.md`
 - `Guidelines/Setting_Audit_Scope.md`
 - `lore_bible/Foreshadow_Payoff_Ledger.md`
 - `lore_bible/Front_Half_Foreshadow_Map.md`
@@ -97,24 +101,16 @@ All orchestra lanes must follow the same canonical priority order.
 - relevant early `outline/Vol_*_Outline.md`
 - ending docs when the reveal touches the series endgame
 
-### Chapter drafting or rewrite
+### Post-setting drafting activation
 
-- `Start_Here.md`
-- `Guidelines/Time_Travel_Frame.md`
-- `Guidelines/Series_Production_Constraints.md`
-- `outline/Series_Roadmap.md`
-- target `outline/Vol_*_Outline.md`
-- target `outline/Vol_*_Timeline.md`
-- `Guidelines/Writing_Prompt_Template.md`
-- `Guidelines/Chapter_Audit_Checklist.md`
-- relevant `lore_bible/**`
-- previous draft when continuity matters
+This bundle is inactive until `SETTING_FIRST_MODE.md` is explicitly turned off.
 
 ## Change rules
 
 - Fix canon in `lore_bible/**` or `outline/**` before patching prose when the issue is structural.
 - Treat outlines and timelines as mandatory audit inputs, not optional notes.
 - Do not treat setting repair as outline-only work; the rules, people, places, names, and payoff ledgers must move together.
+- While `SETTING_FIRST_MODE.md` is active, do not escalate into prose work unless the user explicitly reopens drafting.
 - Treat the `25 chapters per volume` and `3,500+ no-space characters per chapter` rules as production constraints, not soft suggestions.
 - Do not introduce time-travel rules that conflict with the project's paradox frame.
 - Do not fill missing references with guesses; log the gap and escalate it to the conductor.

@@ -1,56 +1,56 @@
-# Supporting Cast Witness Map
+# 측면 인물 목격 지도
 
-This document locks how the supporting cast should witness the protagonist's erosion.
+이 문서는 조연과 주변 세력이 주인공의 손상을 어떤 각도에서 목격해야 하는지를 잠그는 기준표다.
 
-These characters are not filler allies, random thugs, or quest contacts.
-They are side-angle proof that the cost of time-travel is visible in the world.
+이 인물들은 빈칸 채우기용 조연도, 지나가는 의뢰인도 아니다.
+시간여행의 대가가 세계에 실제로 보인다는 사실을 옆면에서 증명하는 존재들이다.
 
-## Core rule
+## 핵심 원칙
 
-Supporting cast should not only say that Aiden has changed.
+측면 인물은 단순히 "에이든이 변했다"라고 말만 하면 안 된다.
 
-They should each witness a different layer of the bill:
+각자 아래 다른 층위를 하나씩 목격해야 한다.
 
-- fear of his judgment
-- loss of ordinary warmth
-- usefulness becoming more visible than humanity
-- memory or recognition failing after trust already formed
-- the world reacting to him as a pressure source, not only as a hero
+- 그의 판단을 두려워하는 감각
+- 평범한 온기가 빠져나간 흔적
+- 인간성보다 쓸모가 먼저 보이는 순간
+- 신뢰가 생긴 뒤에야 기억이나 인식이 무너지는 충격
+- 세상이 그를 영웅이 아니라 압력원처럼 받아들이는 반응
 
-## Witness lanes
+## 목격 레인
 
-| Character or group | What they witness first | What they understand later | Function in the larger story |
+| 인물 또는 세력 | 처음 목격하는 것 | 나중에 이해하게 되는 것 | 큰 이야기에서 맡는 일 |
 | --- | --- | --- | --- |
-| Lyud | Aiden is dangerous because he moves like someone already half-buried | his inhuman calm is debt, not emptiness for style | side-angle witness to post-human usefulness |
-| Varg | Aiden is a fighter worth respecting | strength without ordinary hesitation is a warning sign | blunt body-level confirmation that fear can coexist with respect |
-| Thomas | Aiden carries a bad air that smart survivors notice before nobles do | transactions stay clean because Thomas knows not to lean too close | urban witness that the underworld reads damage instinctively |
-| Fenrir | Aiden is useful for retaliation and breach work | the more useful he becomes, the less ordinary trust survives around him | faction-scale proof that utility can outgrow intimacy |
-| Black Dog | Aiden is a destabilizing anomaly | he threatens command logic because he does not feel governable | institutional witness that the system reacts to paradox pressure |
+| 류드 (`Lyud`) | 에이든은 이미 절반쯤 무덤에 들어간 자처럼 움직인다 | 그 비인간적인 침착함은 멋이 아니라 대가의 흔적이다 | 인간 이후의 쓸모를 비추는 옆면 증인 |
+| 바르그 (`Varg`) | 에이든은 존중할 만한 전투원이다 | 머뭇거림 없는 강함은 경고 신호이기도 하다 | 존경과 두려움이 함께 설 수 있음을 몸으로 증명 |
+| 토마스 (`Thomas`) | 귀족보다 먼저 생존자들이 알아보는 나쁜 기운 | 거래가 늘 깔끔한 건 너무 가까이 가면 안 된다는 걸 알기 때문이다 | 도시 밑바닥이 손상을 본능적으로 읽는다는 증거 |
+| 펜리르 (`Fenrir`) | 에이든은 보복과 돌파에 쓸 수 있는 칼날이다 | 쓸모가 커질수록 평범한 신뢰는 주변에서 먼저 죽는다 | 유용함이 친밀함을 밀어내는 과정을 세력 단위로 증명 |
+| 검은 개 (`Black Dog`) | 에이든은 통제를 무너뜨리는 이상 개체다 | 그는 명령 논리를 어지럽히는 존재이며 길들여지지 않는다 | 체제 자체가 패러독스 압력에 반응함을 보여주는 제도적 증인 |
 
-## Character guidance
+## 인물별 지침
 
-### Lyud
+### 류드
 
-- Lyud should read the protagonist as a person who already belongs halfway to the grave.
-- He does not need full theory to sense that the man keeps paying with himself.
-- Respect should arrive before trust, and trust should remain conditional.
+- 류드는 주인공을 반쯤은 이미 죽은 자로 읽어야 한다.
+- 완전한 이론은 몰라도, 저 남자가 자기 자신을 계속 뜯어 먹고 있다는 감각은 알아야 한다.
+- 존중은 신뢰보다 먼저 와야 하고, 신뢰는 끝까지 조건부여야 한다.
 
-### Varg
+### 바르그
 
-- Varg is a body-first witness.
-- He should notice what ordinary people miss: the lack of hesitation, the cost-blind timing, the way pain becomes irrelevant at the wrong moments.
-- His approval should make the protagonist look formidable, but also slightly wrong.
+- 바르그는 몸으로 먼저 읽는 증인이다.
+- 평범한 사람은 못 보는 것을 본다. 망설임의 부재, 비용을 무시하는 타이밍, 아파야 할 순간에 통증이 지워지는 이상함.
+- 그의 인정은 에이든을 강해 보이게 하면서도 동시에 어딘가 잘못된 존재처럼 보여야 한다.
 
-### Thomas
+### 토마스
 
-- Thomas is a city-intuition witness.
-- He should not speak like a scholar of paradox.
-- He should simply know that deals around Aiden feel colder and more dangerous than they should.
+- 토마스는 도시 감각으로 읽는 증인이다.
+- 패러독스 학자처럼 말하면 안 된다.
+- 그냥 에이든 주변의 거래가 이상할 만큼 차갑고 위험하다는 걸 본능적으로 아는 사람이면 된다.
 
-## Audit questions
+## 감사 질문
 
-1. Does each supporting character witness a different layer of the protagonist's damage?
-2. Do they react from their own class, role, and survival logic rather than repeating the same line?
-3. Does respect arrive before clean emotional safety?
-4. Do side characters confirm the cost of time travel without explaining the whole mystery too early?
-5. Do their reactions make the world feel observant instead of blind?
+1. 각 조연이 주인공 손상의 서로 다른 층위를 목격하고 있는가?
+2. 이들의 반응이 같은 대사를 반복하지 않고, 각자의 계급과 역할과 생존 논리에서 나오고 있는가?
+3. 존중은 편안한 정서적 안전보다 먼저 도착하는가?
+4. 측면 인물들이 시간여행의 대가를 너무 이르게 설명하지 않으면서도 분명히 확인시켜 주는가?
+5. 이들의 반응이 세계를 둔감한 배경이 아니라 눈 밝은 공간처럼 느끼게 만드는가?

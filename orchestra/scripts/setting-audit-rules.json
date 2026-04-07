@@ -155,11 +155,11 @@
       "description": "The ending convergence map is missing one or more locked late-arc anchors",
       "file": "lore_bible/Ending_Convergence_Map.md",
       "requiredPatterns": [
-        "Vol\\. 11",
-        "Vol\\. 12",
-        "Vol\\. 13",
-        "Vol\\. 14",
-        "Vol\\. 15",
+        "제11권",
+        "제12권",
+        "제13권",
+        "제14권",
+        "제15권",
         "Ending A",
         "Ending B",
         "Ria"

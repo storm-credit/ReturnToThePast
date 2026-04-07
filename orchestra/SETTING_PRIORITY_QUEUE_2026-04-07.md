@@ -3,7 +3,7 @@
 Date: 2026-04-07  
 Status: `SMOKE PASS`
 
-The automated smoke audit is green. The next priorities are no longer file-structure blockers; they are conductor-level storycraft and canon-density tasks.
+The automated smoke audit is green. The next priorities are now setting-library completion tasks, not draft-facing work.
 
 ## P1
 
@@ -25,9 +25,15 @@ The automated smoke audit is green. The next priorities are no longer file-struc
 - Goal: spread the largest truth reveals so Zero Hour, creditor logic, Echo identity, and final-choice meaning do not collide all at once.
 - Why now: the foreshadow ledger is structurally sound, but the reveal burden is still concentrated too late.
 
+### Core antagonist redesign pass
+
+- Status: completed on 2026-04-07 (`name lock`)
+- Goal: lock the canonical main adversary surface as `상아 의정회` and propagate the rename across the active setting library.
+- Why now: the old name was still leaking through the entry surfaces, lore groups, and outline-facing references.
+
 ## Next Focus
 
-The next conductor pass should begin with `P3: Draft tone restraint wave 4`.
+The next conductor pass should begin with `P1: Core antagonist redesign pass`.
 
 ## P2
 
@@ -117,16 +123,10 @@ The next conductor pass should begin with `P3: Draft tone restraint wave 4`.
 - Goal: review low-priority support packs such as cover prompts, psych appendices, and style side-notes for any remaining modern phrasing or duplicate guidance.
 - Why now: the main canon, entry surfaces, and secondary terminology are now aligned, so the next gain comes from reducing residue in auxiliary support material.
 
-### Draft-facing prompt simplification pass
-
-- Status: completed on 2026-04-07
-- Goal: trim duplicated guardrails across drafting prompt packs so day-to-day usage stays lighter while the canon locks remain intact.
-- Why now: auxiliary support docs are cleaner, so the next gain comes from making the drafting surface faster and less repetitive for repeated orchestra runs.
-
 ### Conductor handoff packet pass
 
 - Status: completed on 2026-04-07
-- Goal: prepare short handoff packets for common tasks such as chapter drafting, lore repair, and bridge reinforcement so orchestration requests start faster.
+- Goal: prepare short handoff packets for common tasks such as lore repair and bridge reinforcement so orchestration requests start faster.
 - Why now: the prompt surface is lighter, so the next gain comes from making conductor-to-agent delegation more reusable.
 
 ### Entity density normalization pass
@@ -140,35 +140,6 @@ The next conductor pass should begin with `P3: Draft tone restraint wave 4`.
 - Status: completed on 2026-04-07
 - Goal: raise the density of apostle, executor, broker, and older-pressure figures so late antagonistic pressure is not carried by single-name placeholders.
 - Why now: recurring second-tier drafting entities are healthier, so the next gain comes from strengthening the adversarial network around the main spine.
-
-### Formal-name surface sync pass
-
-- Status: completed on 2026-04-07
-- Goal: align draft-facing support surfaces with newly locked formal names such as `Noctur` and `Alvarn`, while preserving nickname use only where voice or scene texture benefits.
-- Why now: the setting library has locked the proper names, so the next gain comes from reducing mismatch between canon-facing docs and draft-facing surfaces.
-
-### Draft tone restraint pass
-
-- Status: completed on 2026-04-07
-- Goal: reduce leftover draft-only excess such as modern residues, over-loud gore diction, and rough placeholder phrasing while keeping the dark-fantasy pressure intact.
-- Why now: formal names and canon surfaces are aligned, so the next gain comes from making the actual chapter prose sound as intentional as the setting library.
-
-### Draft tone restraint wave 2
-
-- Status: completed on 2026-04-07
-- Goal: continue the prose restraint pass across the next cluster of high-noise chapters, especially where combat, laboratory horror, and undercity violence still lean too hard on gore-forward repetition.
-- Why now: wave 1 established a cleaner tonal baseline, so the next gain comes from spreading that restraint without flattening scene pressure.
-
-### Draft tone restraint wave 3
-
-- Status: completed on 2026-04-07
-- Goal: continue the prose restraint pass across the next highest-noise cluster, especially `Vol_3_Chapter_20`, `Vol_2_Chapter_16`, `Vol_1_Chapter_9`, and adjacent combat-heavy chapters.
-- Why now: waves 1 and 2 established the restraint pattern in Vol. 1~2 anchor scenes, so the next gain comes from extending the same discipline into later-action chapters.
-
-### Draft tone restraint wave 4
-
-- Goal: continue the prose restraint pass across the next highest-noise cluster, especially `Vol_3_Chapter_17`, `Vol_3_Chapter_11`, `Vol_1_Chapter_5`, and `Vol_3_Chapter_14`.
-- Why now: wave 3 cleaned duplicated action texture and lowered narrator-volume in late Vol. 3 bridge scenes, so the next gain comes from spreading that restraint into the next densest combat-and-horror pocket.
 
 ### Expand the smoke rules carefully
 
