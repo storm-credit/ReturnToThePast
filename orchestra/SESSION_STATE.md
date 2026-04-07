@@ -2,8 +2,8 @@
 
 ## Current Objective
 - Status: `active`
-- Request: hold the repository in packet-ready state under the harness structure
-- Scope: Vol. 1 / Ch. 1 pre-draft packet bundle completed, exit gate ready on request
+- Request: complete the setting library before reopening drafting
+- Scope: lore_bible / outline / Guidelines / orchestra only
 
 ## Canonical Sources
 - `Start_Here.md`
@@ -11,14 +11,14 @@
 - Additional files:
 
 ## Active Work Packet
-- Mode: `phase-2-packet-ready`
-- Target volume/chapter: `Vol. 1 / Ch. 1`
-- Impacted files: `orchestra/**`, `outline/Vol_1_*`, packet docs and gate memo
+- Mode: `setting-first-finalization`
+- Target volume/chapter: `setting library completion`
+- Impacted files: `lore_bible/**`, `outline/**`, `Guidelines/**`, `orchestra/**`
 
 ## Open Risks
 - `.obsidian/**` and `orchestra/runs/**` must stay outside the default commit scope
-- drafting lane should not open automatically just because the packet is ready
-- first live prose pass must still obey the packet and chapter checklist, not just the outline
+- magic and monster layers must be as complete as timeline and paradox layers before prose starts
+- the failed first prose launch must not silently redefine the current operating mode
 
 ## Decisions
 - integration branch remains `codex/orchestra-setting-sync`
@@ -28,6 +28,8 @@
 - 2026-04-07 21:05 KST smoke audit passed after the optional-polish pass
 - pre-draft packet assembly may complete while `SETTING_FIRST_MODE.md` stays active
 - 2026-04-07 21:09 KST smoke audit passed after the Vol. 1 packet bundle was added
+- 2026-04-07 user chose to finish the setting library before any new prose pass
+- magic and monster layers are part of required completion, not optional garnish
 
 ## Next Step
-- keep `SETTING_FIRST_MODE.md` active until the user explicitly asks to start prose, then open the chapter-draft lane with the prepared packet.
+- finish second-detail setting passes, rerun smoke audit, then push the completed setting update.

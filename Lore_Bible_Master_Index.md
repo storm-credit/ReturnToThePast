@@ -87,6 +87,11 @@
 ## 4. 🧙 마법
 *   `[Causality_Magic.md]`: **인과율 마법** (서클과 대가, 에이든의 실전 압축).
 *   `[Alchemy_and_Magic.md]`: **연금술 개요**.
+*   `[Magic_Disciplines_and_Costs.md]`: **마법 계통과 대가 운용표** (점화, 방벽, 연성, 탐지, 강화, 금기계의 실전 문법과 후유증).
+*   `[Gutter_Magic_and_Street_Rites.md]`: **하층 마법과 거리의 주술** (회색 도시의 싸구려 부적, 약탕, 방비문, 하수도 주술).
+*   `[Gutter_Apothecary_and_Talisman_Practice.md]`: **하층 약방과 부적 실무** (약방, 부적, 앰플, 응급 봉합이 실제로 굴러가는 방식).
+*   `[Institutional_Magic_Doctrines.md]`: **기관별 마법 문법** (학회, 의정회, 상아탑, 성전, 하층의 마법 결 차이).
+*   `[Holy_Temple_Rites_and_Purification.md]`: **루미나 성전 의식과 정화 문법** (정화, 봉인, 선별 의식의 실제 절차와 잔여 대가).
 
 ## 5. ⚔️ 세력과 시스템
 *   `[Ivory_Consistory.md]`: **상아 의정회** (금기 연금 밀의회).
@@ -107,6 +112,11 @@
 
 ## 7. 👹 몬스터
 *   `[Creatures_of_the_Glitch.md]`: **인과율 변이체** (코스믹 호러 괴물).
+*   `[The_Abominations.md]`: **이형의 존재들** (역병 변이체와 인과 항체의 기본형).
+*   `[Monster_Ecology_and_Habitats.md]`: **괴물 생태와 서식권** (역병 변이체, 연성 봉합체, 인과 항체의 발생지와 처리 문법).
+*   `[Regional_Threat_Atlas.md]`: **권역별 괴물 위협 지도** (수도, 북부, 상아탑, 성전, 사막, 후반 인과 항체의 대표 위협).
+*   `[Northern_Frontier_Bestiary.md]`: **북부 전선 마수 개별 시트** (설원 망령, 얼음 거인, 흰 울음 짐승, 파락 잔체).
+*   `[Red_Desert_Abnormalities.md]`: **붉은 사막 변이체 시트** (사혈 전갈, 모래 수복체, 불목 매, 유리능선 메아리).
 
 ## 8. 📜 역사
 *   `[Timeline_Original.md]`: **원본 타임라인** (0회차 ~ 172회차).

@@ -103,7 +103,16 @@
 
 ### ⚔️ 설정
 *   [인과율 마법](lore_bible/magic/Causality_Magic.md): 대가, 서클, 고통.
+*   [마법 계통과 대가 운용표](lore_bible/magic/Magic_Disciplines_and_Costs.md): 점화, 방벽, 연성, 탐지, 강화, 금기계가 실전에서 어떤 대가와 함께 쓰이는지 정리한 운용표.
+*   [하층 마법과 거리의 주술](lore_bible/magic/Gutter_Magic_and_Street_Rites.md): 회색 도시의 싸구려 부적, 약탕, 방비문, 하수도 주술을 정리한 생활형 마법 문서.
+*   [하층 약방과 부적 실무](lore_bible/magic/Gutter_Apothecary_and_Talisman_Practice.md): 약방, 부적, 앰플, 응급 봉합이 실제로 어떻게 굴러가는지 정리한 하층 실무 시트.
+*   [기관별 마법 문법](lore_bible/magic/Institutional_Magic_Doctrines.md): 학회, 의정회, 상아탑, 성전, 하층이 같은 마법을 어떻게 다르게 쓰는지 정리한 기준표.
+*   [루미나 성전 의식과 정화 문법](lore_bible/magic/Holy_Temple_Rites_and_Purification.md): 성전의 정화, 봉인, 선별 의식이 어떤 절차와 대가로 움직이는지 정리한 세부 시트.
 *   [변이체 도감](lore_bible/monsters/Creatures_of_the_Glitch.md): 구울, 역병 변이체.
+*   [괴물 생태와 서식권](lore_bible/monsters/Monster_Ecology_and_Habitats.md): 역병 변이체, 연성 봉합체, 인과 항체가 어디서 태어나고 어떻게 남는지 정리한 생태 문서.
+*   [권역별 괴물 위협 지도](lore_bible/monsters/Regional_Threat_Atlas.md): 수도, 북부, 상아탑, 성전, 사막, 후반 인과 항체까지 권역별 대표 위협을 정리한 지도.
+*   [북부 전선 마수 개별 시트](lore_bible/monsters/Northern_Frontier_Bestiary.md): 설원 망령, 얼음 거인, 흰 울음 짐승, 파락 잔체를 정리한 북부 개별 위협 시트.
+*   [붉은 사막 변이체 시트](lore_bible/monsters/Red_Desert_Abnormalities.md): 사혈 전갈, 모래 수복체, 불목 매, 유리능선 메아리 등 사막권 위협 시트.
 *   [저주받은 이물](lore_bible/items/Cursed_Artifacts.md): 리스크가 있는 무기들.
 *   [회색 역병](lore_bible/rules/Infection_Levels.md): 앰플, 마나 거부 반응.
 *   [인간관계도](lore_bible/Relationship_Map.md): 에이든, 리아, 아이리스, 발타자르, 영시 축이 어떻게 상처와 빚으로 얽히는지 정리한 문서.
