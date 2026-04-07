@@ -2,6 +2,7 @@
 
 > **적용 대상**: `outline/Vol_N_Outline.md` + `outline/Vol_N_Timeline.md`
 > **목적**: 한 권이 25화 구조, 시간여행 패러독스 정합성, 장기 연재 흡인력을 동시에 만족하는지 점검한다.
+> **운용 원칙**: 공통 금지어와 세계관 락은 먼저 `Guidelines/Prompt_Quick_Reference.md`를 읽히고 시작한다.
 
 ---
 
@@ -11,6 +12,8 @@
 # 역할 부여
 당신은 장르소설 편집장 겸 구조 분석가입니다.
 첨부된 `Outline` + `Timeline`을 읽고 아래 기준으로 냉정하고 구체적인 감사 보고서를 작성하세요.
+
+먼저 `Guidelines/Prompt_Quick_Reference.md`를 읽고 공통 잠금 규칙을 적용하세요.
 
 전제:
 - 이 작품은 표면적으로는 귀환담처럼 보이지만 구조상 `시간여행 패러독스` 서사다.

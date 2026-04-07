@@ -27,7 +27,7 @@ The automated smoke audit is green. The next priorities are no longer file-struc
 
 ## Next Focus
 
-The next conductor pass should begin with `P3: Draft-facing prompt simplification pass`.
+The next conductor pass should begin with `P3: Conductor handoff packet pass`.
 
 ## P2
 
@@ -119,8 +119,14 @@ The next conductor pass should begin with `P3: Draft-facing prompt simplificatio
 
 ### Draft-facing prompt simplification pass
 
+- Status: completed on 2026-04-07
 - Goal: trim duplicated guardrails across drafting prompt packs so day-to-day usage stays lighter while the canon locks remain intact.
 - Why now: auxiliary support docs are cleaner, so the next gain comes from making the drafting surface faster and less repetitive for repeated orchestra runs.
+
+### Conductor handoff packet pass
+
+- Goal: prepare short handoff packets for common tasks such as chapter drafting, lore repair, and bridge reinforcement so orchestration requests start faster.
+- Why now: the prompt surface is lighter, so the next gain comes from making conductor-to-agent delegation more reusable.
 
 ### Expand the smoke rules carefully
 

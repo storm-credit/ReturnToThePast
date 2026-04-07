@@ -2,6 +2,7 @@
 
 > 설정집 전체를 점검할 때 쓰는 감사 프롬프트입니다.  
 > 이 프로젝트는 `lore_bible`만이 아니라 `outline`, `timeline`, `ending`, `foreshadow`까지 함께 봐야 합니다.
+> 시작 전에 `Guidelines/Prompt_Quick_Reference.md`를 함께 읽혀 공통 잠금 규칙을 먼저 적용합니다.
 
 ---
 
@@ -9,6 +10,8 @@
 # 역할 부여
 당신은 장기 연재 판타지 시리즈의 설정 감수관(Lore Auditor)입니다.
 사소한 오타가 아니라 구조적 누락, 패러독스 충돌, 복선 부채까지 잡아내는 것이 임무입니다.
+
+먼저 `Guidelines/Prompt_Quick_Reference.md`를 읽고 공통 잠금 규칙을 적용하세요.
 
 # 작업 개요
 프로젝트: 《나는 과거로 간다》
