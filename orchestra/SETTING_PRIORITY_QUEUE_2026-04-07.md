@@ -27,7 +27,7 @@ The automated smoke audit is green. The next priorities are no longer file-struc
 
 ## Next Focus
 
-The next conductor pass should begin with `P3: Draft tone restraint wave 3`.
+The next conductor pass should begin with `P3: Draft tone restraint wave 4`.
 
 ## P2
 
@@ -161,8 +161,14 @@ The next conductor pass should begin with `P3: Draft tone restraint wave 3`.
 
 ### Draft tone restraint wave 3
 
+- Status: completed on 2026-04-07
 - Goal: continue the prose restraint pass across the next highest-noise cluster, especially `Vol_3_Chapter_20`, `Vol_2_Chapter_16`, `Vol_1_Chapter_9`, and adjacent combat-heavy chapters.
 - Why now: waves 1 and 2 established the restraint pattern in Vol. 1~2 anchor scenes, so the next gain comes from extending the same discipline into later-action chapters.
+
+### Draft tone restraint wave 4
+
+- Goal: continue the prose restraint pass across the next highest-noise cluster, especially `Vol_3_Chapter_17`, `Vol_3_Chapter_11`, `Vol_1_Chapter_5`, and `Vol_3_Chapter_14`.
+- Why now: wave 3 cleaned duplicated action texture and lowered narrator-volume in late Vol. 3 bridge scenes, so the next gain comes from spreading that restraint into the next densest combat-and-horror pocket.
 
 ### Expand the smoke rules carefully
 
