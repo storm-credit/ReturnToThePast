@@ -106,6 +106,7 @@
 *   `[Noble_Heraldry.md]`: **귀족 문장학**.
 
 ## 6. 🗡️ 아이템
+*   `[Named_Weapon_Registry.md]`: **핵심 무기와 유물 레지스트리** (에이든, 아이리스, 리아의 핵심 장비가 어떤 대가와 상징을 갖는지 잠근 기준표).
 *   `[Cursed_Artifacts.md]`: **저주받은 유물** (리스크가 있는 무기들).
 *   `[Consumables.md]`: **소모품** (포션, 앰플, 스크롤).
 *   무기 시트 9건: `Aleph_Sword`, `Azure_Wind_Blade`, `Dawns_End`, `Frost_Fang`, `Guardians_Oath`, `Immortal_Heart`, `Saints_Tear`, `Staff_of_Stars`, `Twilight_Legacy`.
