@@ -11,7 +11,7 @@
 - 운영 문서 정리: 완료
 - 제1권 사전 패킷: 준비 완료
 - 최신 스모크 감사: PASS
-- 현재 결론: 집필 요청이 들어오면 해제 가능, 하지만 기본 상태는 아직 `설정 우선 모드 유지`
+- 현재 결론: 이 문서는 준비 판정 기록으로 유지한다. 최신 최종 판정은 `DRAFTING_REOPEN_GATE_2026-04-08.md`를 따른다.
 
 ## 확인 항목
 
@@ -43,3 +43,8 @@
 - `orchestra/packets/Vol_1_Chapter_1_PreDraft_Packet.md`를 기준으로 제1화 집필 시작
 - `orchestra/Vol_1_Core_Pressure_Grid.md`를 장면 압력 보조 표로 사용
 - 집필 후 `Guidelines/Chapter_Audit_Checklist.md`와 스모크 감사 재실행
+
+## 최신 상태
+
+- 2026-04-08 기준 최종 재개 판정 문서: `orchestra/DRAFTING_REOPEN_GATE_2026-04-08.md`
+- 실행 패킷: `orchestra/packets/Vol_1_Chapter_1_Launch_Packet.md`
