@@ -116,8 +116,10 @@
 *   [얼음 송곳니 전초도](lore_bible/locations/Ice_Fang_Frontline_Map.md): 결계 말뚝선, 교대 참호, 전초 막사, 능선, 외곽 살육장을 나눈 북부 최전방 전초도.
 *   [침묵의 상아탑](lore_bible/locations/Magic_Tower.md): 인과율 방관자들.
 *   [침묵의 상아탑 층별도](lore_bible/locations/Magic_Tower_Floor_Map.md): 입구, 학구, 금기 연구소, 정적의 도서관, 공허의 눈을 나눈 층별 지도.
+*   [상아탑 금기 열람 승인선](lore_bible/locations/Silent_Ivory_Tower_Approval_Line.md): 누가 어떤 값으로 금기 문서와 봉인 장부를 열람하는지 정리한 상아탑 실무 시트.
 *   [루미나 성전 내부도](lore_bible/locations/Holy_Temple_Inner_Map.md): 순례 회랑, 대성전, 시련의 탑, 지하 서고, 고삐 봉인실을 나눈 내부 구조도.
 *   [루미나 성전 접근도](lore_bible/locations/Holy_Temple_Approach_Map.md): 산기슭 순례길, 정화문, 묵상막, 외곽 회랑, 대성전 문턱으로 이어지는 외부 접근 구조도.
+*   [루미나 봉인 기록선](lore_bible/locations/Lumina_Seal_Record_Line.md): 봉인 장부, 순례 판정, 정화 실패 기록이 어떻게 묶이는지 정리한 성전 실무 시트.
 *   [붉은 사막 거점도](lore_bible/locations/Red_Desert_Hub_Map.md): 바르카 협곡문, 벨사르 우물장, 사루크 천막성, 카르둠 환투장을 묶은 서부 사막 거점도.
 *   [사루크 천막성 내부도](lore_bible/locations/Saruk_Camp_Map.md): 생활 고리, 실무 고리, 전투 고리, 심부를 나눈 서부 용병 거점 내부도.
 *   [카르둠 환투장 구조도](lore_bible/locations/Kardum_Arena_Structure.md): 입장 마당, 내기 회랑, 원형장, 채무 감방, 암막 통로를 나눈 아이리스 과거 공간 구조도.

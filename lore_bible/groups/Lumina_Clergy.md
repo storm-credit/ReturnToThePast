@@ -33,6 +33,7 @@
 *   [루미나 성전](../locations/Holy_Temple.md)
 *   [루미나 성전 접근도](../locations/Holy_Temple_Approach_Map.md)
 *   [루미나 성전 내부도](../locations/Holy_Temple_Inner_Map.md)
+*   [루미나 봉인 기록선](../locations/Lumina_Seal_Record_Line.md)
 *   [루미나 성전 의식과 정화 문법](../magic/Holy_Temple_Rites_and_Purification.md)
 *   [세라피나](../characters/Seraphina.md)
 *   [루세아](../characters/Lucea.md)

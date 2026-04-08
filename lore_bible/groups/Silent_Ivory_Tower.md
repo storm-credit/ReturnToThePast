@@ -32,6 +32,7 @@
 ## 5. 연결 축
 *   [침묵의 상아탑](../locations/Magic_Tower.md)
 *   [침묵의 상아탑 층별도](../locations/Magic_Tower_Floor_Map.md)
+*   [상아탑 금기 열람 승인선](../locations/Silent_Ivory_Tower_Approval_Line.md)
 *   [아르카누스](../characters/Arcanus.md)
 *   [오렐](../characters/Orel.md)
 *   [벨로니스](../characters/Velonis.md)
