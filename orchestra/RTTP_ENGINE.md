@@ -2,11 +2,13 @@
 
 `RTTP 엔진`은 《나는 과거로 간다》 전용 소설 제작 엔진이다.
 
-이 엔진은 `novel-orchestra-core` 위에 올라가는 작품 전용 층이며, 다음 세 가지를 묶는다.
+이 엔진은 `novel-orchestra-core` 위에 올라가는 작품 전용 층이며, 다음 다섯 가지를 묶는다.
 
 1. 시간여행 패러독스 다크 판타지에 맞춘 작문 알고리즘
 2. 총괄 오케스트라가 고용하는 전문가 에이전트 체계
 3. 설정집 -> 하네스 -> 체크포인트 -> 집필로 이어지는 실행 절차
+4. 총괄 권한과 역할 경계
+5. MCP / 스킬 / 에이전트 / 훅 / 하네스의 런타임 규약
 
 ---
 
@@ -16,6 +18,7 @@
 - 패러독스, 대가, 감정 손실, 복선, 리텐션을 한 시스템으로 묶는다.
 - 필요할 때만 전문가 에이전트를 불러 토큰을 아낀다.
 - 모든 변경은 하네스와 체크포인트를 거쳐 병합한다.
+- 총괄 권한을 명시적으로 잠가, 전문가가 많아져도 방향이 흐트러지지 않게 한다.
 
 ---
 
@@ -70,13 +73,9 @@
 - 모든 전문가를 항상 다 쓰지 않는다.
 - 병목이 생긴 도메인만 분기한다.
 - 총괄은 언제나 `novel-orchestra-conductor`다.
-
-## 3.5. 총괄 권한과 역할 분리
-
-- 총괄 오케스트라는 RTTP 엔진의 유일한 편집권자다.
-- 전문가는 판단 재료를 만들고, 총괄이 그것을 캐논 결정으로 바꾼다.
-- MCP, 스킬, 에이전트, 훅, 하네스는 모두 총괄 아래에서 작동한다.
-- 세부 권한은 `orchestra/CONDUCTOR_AUTHORITY_LOCK.md`와 `orchestra/MCP_SKILLS_AGENTS_HOOKS_HARNESS_MAP.md`를 따른다.
+- 총괄 권한은 [CONDUCTOR_ROLE_LOCK.md](CONDUCTOR_ROLE_LOCK.md)를 우선한다.
+- 역할 경계는 [MCP_SKILLS_AGENTS_HOOKS_MAP.md](MCP_SKILLS_AGENTS_HOOKS_MAP.md)를 우선한다.
+- 런타임 실행 규칙은 [HARNESS_RUNTIME_LOCK.md](HARNESS_RUNTIME_LOCK.md)를 우선한다.
 
 ---
 
@@ -95,11 +94,23 @@
 - 빠른 정합성 게이트다.
 - 큰 판단은 대신하지 않지만, 깨진 링크와 빠진 핵심 마커를 잡는다.
 
-하네스의 실제 런타임 규칙은 `orchestra/HARNESS_RUNTIME_RULES.md`를 따른다.
+---
+
+## 5. 역할 구조
+
+- `MCP`: 외부 연결과 증거 수집
+- `스킬`: 절차 지식과 작업 표준
+- `에이전트`: 좁은 조사와 보강 실행
+- `훅`: 경고, 금지선, 자동 게이트
+- `하네스`: 반복 가능한 실행 순서
+- `총괄`: 범위 잠금, 병합, 승인, 체크포인트 결정
+
+핵심은 단순하다.  
+`총괄만`이 범위와 병합과 승인 권한을 가진다.
 
 ---
 
-## 5. 엔진 출력물
+## 6. 엔진 출력물
 
 RTTP 엔진은 보통 아래 산출물 중 하나를 만든다.
 
@@ -114,11 +125,11 @@ RTTP 엔진은 보통 아래 산출물 중 하나를 만든다.
 
 ---
 
-## 6. 현재 링크
+## 7. 현재 링크
 
-- 실행 프로토콜: `orchestra/RTTP_ENGINE_EXECUTION_PROTOCOL.md`
-- 에이전트 구성표: `orchestra/RTTP_ENGINE_AGENT_ROSTER.md`
-- 총괄 권한 잠금: `orchestra/CONDUCTOR_AUTHORITY_LOCK.md`
-- 역할 맵: `orchestra/MCP_SKILLS_AGENTS_HOOKS_HARNESS_MAP.md`
-- 하네스 런타임 규칙: `orchestra/HARNESS_RUNTIME_RULES.md`
-- 전용 모듈: `orchestra/modules/rttp-engine/README.md`
+- 실행 프로토콜: [RTTP_ENGINE_EXECUTION_PROTOCOL.md](RTTP_ENGINE_EXECUTION_PROTOCOL.md)
+- 에이전트 구성표: [RTTP_ENGINE_AGENT_ROSTER.md](RTTP_ENGINE_AGENT_ROSTER.md)
+- 총괄 역할 잠금: [CONDUCTOR_ROLE_LOCK.md](CONDUCTOR_ROLE_LOCK.md)
+- 역할 지도: [MCP_SKILLS_AGENTS_HOOKS_MAP.md](MCP_SKILLS_AGENTS_HOOKS_MAP.md)
+- 런타임 잠금: [HARNESS_RUNTIME_LOCK.md](HARNESS_RUNTIME_LOCK.md)
+- 전용 모듈: [modules/rttp-engine/README.md](modules/rttp-engine/README.md)

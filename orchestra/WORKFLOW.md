@@ -37,6 +37,9 @@
 6. 총괄자는 서로 양립 가능한 수정만 캐논 파일에 병합한다.
 
 추가 잠금:
+- 총괄의 위임 경계는 `CONDUCTOR_AUTHORITY_LOCK.md`를 따른다.
+- MCP / 스킬 / 에이전트 / 훅 / 하네스의 계층 분리는 `MCP_SKILLS_AGENTS_HOOKS_HARNESS_MAP.md`를 따른다.
+- pass 런타임과 실패 시 재진입은 `HARNESS_RUNTIME_RULES.md`를 따른다.
 
 - 총괄만 lane을 연다.
 - 총괄만 병합 순서를 바꾼다.

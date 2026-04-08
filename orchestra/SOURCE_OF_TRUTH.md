@@ -8,12 +8,14 @@
 2. `Start_Here.md`
 3. `orchestra/SETTING_FIRST_MODE.md`
 4. `orchestra/WORKFLOW.md`
-5. `Guidelines/Time_Travel_Frame.md`
-6. `Guidelines/Series_Production_Constraints.md`
-7. `outline/Series_Roadmap.md`
-8. 관련 `outline/Vol_*_Outline.md`, `outline/Vol_*_Timeline.md`
-9. 관련 `lore_bible/**`
-10. 관련 `Guidelines/**`
+5. `orchestra/CONDUCTOR_AUTHORITY_LOCK.md`
+6. `orchestra/HARNESS_RUNTIME_RULES.md`
+7. `Guidelines/Time_Travel_Frame.md`
+8. `Guidelines/Series_Production_Constraints.md`
+9. `outline/Series_Roadmap.md`
+10. 관련 `outline/Vol_*_Outline.md`, `outline/Vol_*_Timeline.md`
+11. 관련 `lore_bible/**`
+12. 관련 `Guidelines/**`
 
 현재 `Drafts/**`는 존재하지 않으며 비활성 상태다. `SETTING_FIRST_MODE.md`가 살아 있는 동안에는 초안 파일을 기준 문서로 삼지 않는다.
 
