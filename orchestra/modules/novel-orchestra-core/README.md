@@ -18,6 +18,9 @@
 - `orchestra/FORESHADOW_HARNESS.md`
 - `orchestra/STORYCRAFT_HARNESS.md`
 - `orchestra/SMOKE_AUDIT_HARNESS.md`
+- `orchestra/CONDUCTOR_AUTHORITY_LOCK.md`
+- `orchestra/MCP_SKILLS_AGENTS_HOOKS_HARNESS_MAP.md`
+- `orchestra/HARNESS_RUNTIME_RULES.md`
 - `orchestra/templates/WORK_PACKET.md`
 - `orchestra/templates/HANDOFF_*.md`
 - `orchestra/templates/REVISION_LEDGER.md`

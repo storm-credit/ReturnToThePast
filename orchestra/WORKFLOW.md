@@ -36,6 +36,20 @@
 5. 전문가들은 파일 수정 전에 구조화된 findings를 먼저 돌려준다.
 6. 총괄자는 서로 양립 가능한 수정만 캐논 파일에 병합한다.
 
+추가 잠금:
+
+- 총괄만 lane을 연다.
+- 총괄만 병합 순서를 바꾼다.
+- 총괄만 캐논 반영 여부를 결정한다.
+- 훅은 pass를 시작할 수는 있어도 merge authority를 갖지 않는다.
+- 하네스는 경보와 게이트를 담당하고, 최종 해석은 총괄이 맡는다.
+
+관련 문서:
+
+- `CONDUCTOR_AUTHORITY_LOCK.md`
+- `MCP_SKILLS_AGENTS_HOOKS_HARNESS_MAP.md`
+- `HARNESS_RUNTIME_RULES.md`
+
 ## lane 패턴
 
 ### 캐논 구축 또는 보수

@@ -71,6 +71,13 @@
 - 병목이 생긴 도메인만 분기한다.
 - 총괄은 언제나 `novel-orchestra-conductor`다.
 
+## 3.5. 총괄 권한과 역할 분리
+
+- 총괄 오케스트라는 RTTP 엔진의 유일한 편집권자다.
+- 전문가는 판단 재료를 만들고, 총괄이 그것을 캐논 결정으로 바꾼다.
+- MCP, 스킬, 에이전트, 훅, 하네스는 모두 총괄 아래에서 작동한다.
+- 세부 권한은 `orchestra/CONDUCTOR_AUTHORITY_LOCK.md`와 `orchestra/MCP_SKILLS_AGENTS_HOOKS_HARNESS_MAP.md`를 따른다.
+
 ---
 
 ## 4. 하네스 체계
@@ -87,6 +94,8 @@
 ### Smoke Audit Harness
 - 빠른 정합성 게이트다.
 - 큰 판단은 대신하지 않지만, 깨진 링크와 빠진 핵심 마커를 잡는다.
+
+하네스의 실제 런타임 규칙은 `orchestra/HARNESS_RUNTIME_RULES.md`를 따른다.
 
 ---
 
@@ -109,4 +118,7 @@ RTTP 엔진은 보통 아래 산출물 중 하나를 만든다.
 
 - 실행 프로토콜: `orchestra/RTTP_ENGINE_EXECUTION_PROTOCOL.md`
 - 에이전트 구성표: `orchestra/RTTP_ENGINE_AGENT_ROSTER.md`
+- 총괄 권한 잠금: `orchestra/CONDUCTOR_AUTHORITY_LOCK.md`
+- 역할 맵: `orchestra/MCP_SKILLS_AGENTS_HOOKS_HARNESS_MAP.md`
+- 하네스 런타임 규칙: `orchestra/HARNESS_RUNTIME_RULES.md`
 - 전용 모듈: `orchestra/modules/rttp-engine/README.md`

@@ -16,6 +16,9 @@
 - `orchestra/RTTP_ENGINE.md`
 - `orchestra/RTTP_ENGINE_AGENT_ROSTER.md`
 - `orchestra/RTTP_ENGINE_EXECUTION_PROTOCOL.md`
+- `orchestra/CONDUCTOR_AUTHORITY_LOCK.md`
+- `orchestra/MCP_SKILLS_AGENTS_HOOKS_HARNESS_MAP.md`
+- `orchestra/HARNESS_RUNTIME_RULES.md`
 - `orchestra/SETTING_FIRST_MODE.md`
 - `orchestra/SOURCE_OF_TRUTH.md`
 - `orchestra/ORCHESTRA_EXECUTION_PLAN_2026-04-07.md`
@@ -26,6 +29,8 @@
 - RTTP 전용 전문가 에이전트 체계
 - RTTP 전용 모델/추론 선택 기준
 - 설정 우선 -> 집필 전환 규칙
+- 총괄 편집권 잠금
+- 도구/에이전트/훅/하네스 역할 분리 규약
 
 ## 포함되지 않는 것
 
