@@ -73,9 +73,9 @@
 - 모든 전문가를 항상 다 쓰지 않는다.
 - 병목이 생긴 도메인만 분기한다.
 - 총괄은 언제나 `novel-orchestra-conductor`다.
-- 총괄 권한은 [CONDUCTOR_ROLE_LOCK.md](CONDUCTOR_ROLE_LOCK.md)를 우선한다.
-- 역할 경계는 [MCP_SKILLS_AGENTS_HOOKS_MAP.md](MCP_SKILLS_AGENTS_HOOKS_MAP.md)를 우선한다.
-- 런타임 실행 규칙은 [HARNESS_RUNTIME_LOCK.md](HARNESS_RUNTIME_LOCK.md)를 우선한다.
+- 총괄 권한은 [CONDUCTOR_AUTHORITY_LOCK.md](CONDUCTOR_AUTHORITY_LOCK.md)를 우선한다.
+- 역할 경계는 [MCP_SKILLS_AGENTS_HOOKS_HARNESS_MAP.md](MCP_SKILLS_AGENTS_HOOKS_HARNESS_MAP.md)를 우선한다.
+- 런타임 실행 규칙은 [HARNESS_RUNTIME_RULES.md](HARNESS_RUNTIME_RULES.md)를 우선한다.
 
 ---
 
@@ -129,7 +129,7 @@ RTTP 엔진은 보통 아래 산출물 중 하나를 만든다.
 
 - 실행 프로토콜: [RTTP_ENGINE_EXECUTION_PROTOCOL.md](RTTP_ENGINE_EXECUTION_PROTOCOL.md)
 - 에이전트 구성표: [RTTP_ENGINE_AGENT_ROSTER.md](RTTP_ENGINE_AGENT_ROSTER.md)
-- 총괄 역할 잠금: [CONDUCTOR_ROLE_LOCK.md](CONDUCTOR_ROLE_LOCK.md)
-- 역할 지도: [MCP_SKILLS_AGENTS_HOOKS_MAP.md](MCP_SKILLS_AGENTS_HOOKS_MAP.md)
-- 런타임 잠금: [HARNESS_RUNTIME_LOCK.md](HARNESS_RUNTIME_LOCK.md)
+- 총괄 역할 잠금: [CONDUCTOR_AUTHORITY_LOCK.md](CONDUCTOR_AUTHORITY_LOCK.md)
+- 역할 지도: [MCP_SKILLS_AGENTS_HOOKS_HARNESS_MAP.md](MCP_SKILLS_AGENTS_HOOKS_HARNESS_MAP.md)
+- 런타임 잠금: [HARNESS_RUNTIME_RULES.md](HARNESS_RUNTIME_RULES.md)
 - 전용 모듈: [modules/rttp-engine/README.md](modules/rttp-engine/README.md)

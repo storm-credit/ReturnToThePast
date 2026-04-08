@@ -137,15 +137,23 @@
     *   지금은 설정집 선완성 모드이며, 초안 집필 lane이 기본 동작이 아니라는 선언문.
 3. **[오케스트라 운영 절차](orchestra/WORKFLOW.md)**
     *   설정 추가, 개연성 보강, 집필, 검수의 역할 분담과 순서.
-4. **[핸드오프 패킷 플레이북](orchestra/HANDOFF_PACKET_PLAYBOOK.md)**
+4. **[RTTP 엔진](orchestra/RTTP_ENGINE.md)**
+    *   이 작품 전용 작문 알고리즘, 총괄 권한, 하네스 실행 구조를 묶은 엔진 문서.
+5. **[총괄 권한 잠금](orchestra/CONDUCTOR_AUTHORITY_LOCK.md)**
+    *   총괄 오케스트라만 캐논 승인과 병합 권한을 가진다는 잠금 문서.
+6. **[역할 맵](orchestra/MCP_SKILLS_AGENTS_HOOKS_HARNESS_MAP.md)**
+    *   MCP, 스킬, 에이전트, 훅, 하네스가 각각 어디까지 책임지는지 정리한 경계표.
+7. **[하네스 런타임 규칙](orchestra/HARNESS_RUNTIME_RULES.md)**
+    *   preflight, dispatch, merge, verify, checkpoint의 실행 순서를 잠근 런타임 문서.
+8. **[핸드오프 패킷 플레이북](orchestra/HANDOFF_PACKET_PLAYBOOK.md)**
     *   설정 보강, 브리지 보강, 복선 보강을 어떤 패킷으로 시작할지 빠르게 정리한 문서.
-5. **[스모크 감사 하네스](orchestra/SMOKE_AUDIT_HARNESS.md)**
+9. **[스모크 감사 하네스](orchestra/SMOKE_AUDIT_HARNESS.md)**
     *   주요 설정집 지도와 복선/엔딩 마커가 빠지지 않았는지 빠르게 점검하는 자동감사 안내서.
-6. **[제1권 제1화 사전 핸드오프 패킷](orchestra/packets/Vol_1_Chapter_1_PreDraft_Packet.md)**
+10. **[제1권 제1화 사전 핸드오프 패킷](orchestra/packets/Vol_1_Chapter_1_PreDraft_Packet.md)**
     *   집필을 열 때 첫 화가 무엇을 지켜야 하는지 미리 잠가 둔 패킷.
-7. **[제1권 핵심 장면 압력표](orchestra/Vol_1_Core_Pressure_Grid.md)**
+11. **[제1권 핵심 장면 압력표](orchestra/Vol_1_Core_Pressure_Grid.md)**
     *   제1권이 막별로 어떤 긴장과 감각을 남겨야 하는지 정리한 장면 압력 지도.
-8. **[설정 우선 해제 게이트 점검](orchestra/SETTING_FIRST_EXIT_GATE_CHECK_2026-04-07.md)**
+12. **[설정 우선 해제 게이트 점검](orchestra/SETTING_FIRST_EXIT_GATE_CHECK_2026-04-07.md)**
     *   지금 상태에서 집필 레인을 열 수 있는지 판정한 체크 문서.
 
 ---

@@ -15,7 +15,7 @@
 7. 스모크 감사 또는 관련 하네스를 다시 돌린다
 8. self-contained pass 단위로 커밋/푸시한다
 
-총괄 권한은 [CONDUCTOR_ROLE_LOCK.md](CONDUCTOR_ROLE_LOCK.md), 실행 규칙은 [HARNESS_RUNTIME_LOCK.md](HARNESS_RUNTIME_LOCK.md)를 함께 따른다.
+총괄 권한은 [CONDUCTOR_AUTHORITY_LOCK.md](CONDUCTOR_AUTHORITY_LOCK.md), 실행 규칙은 [HARNESS_RUNTIME_RULES.md](HARNESS_RUNTIME_RULES.md)를 함께 따른다.
 
 ---
 
@@ -94,7 +94,7 @@ RTTP 엔진은 아래 조건이 충족되기 전엔 집필 레인을 대량 개�
 - `하네스`는 실행 순서를 제공한다.
 - 최종 승인과 병합은 총괄만 한다.
 
-자세한 경계는 [MCP_SKILLS_AGENTS_HOOKS_MAP.md](MCP_SKILLS_AGENTS_HOOKS_MAP.md)를 우선한다.
+자세한 경계는 [MCP_SKILLS_AGENTS_HOOKS_HARNESS_MAP.md](MCP_SKILLS_AGENTS_HOOKS_HARNESS_MAP.md)를 우선한다.
 
 ---
 
