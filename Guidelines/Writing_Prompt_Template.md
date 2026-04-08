@@ -27,7 +27,7 @@
 - `outline/Series_Roadmap.md`
 - `outline/Vol_X_Outline.md`
 - `outline/Vol_X_Timeline.md`
-- `Drafts/Vol_X_Chapter_[Y-1].md`
+- 직전 화 초안 또는 직전 화 연속성 메모가 있으면 함께 참조
 - `lore_bible/characters/Protagonist.md`
 - 해당 화 등장 인물의 캐릭터 파일
 - `lore_bible/rules/Equivalent_Exchange.md`

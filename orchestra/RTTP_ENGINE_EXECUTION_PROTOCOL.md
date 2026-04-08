@@ -15,6 +15,15 @@
 7. 스모크 감사 또는 관련 하네스를 다시 돌린다
 8. self-contained pass 단위로 커밋/푸시한다
 
+에이전트에게 넘기는 모든 packet은 최소한 아래 항목을 포함해야 한다.
+
+- `Required Reads`
+- `Locked Facts`
+- `Editable Targets`
+- `No-Touch Files`
+- `Deliverable`
+- `Stop Conditions`
+
 총괄 권한은 [CONDUCTOR_AUTHORITY_LOCK.md](CONDUCTOR_AUTHORITY_LOCK.md), 실행 규칙은 [HARNESS_RUNTIME_RULES.md](HARNESS_RUNTIME_RULES.md)를 함께 따른다.
 
 ---
