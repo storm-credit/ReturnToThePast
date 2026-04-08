@@ -69,8 +69,10 @@
 *   [시그룬](lore_bible/characters/Sigrun.md): 북부 전선에서 이름과 후송 명단을 붙드는 기록병.
 *   [아르카누스](lore_bible/characters/Arcanus.md): 침묵의 상아탑의 대마도사이자 관측자.
 *   [오렐](lore_bible/characters/Orel.md): 침묵의 상아탑 정적의 도서관에서 봉인 장부를 지키는 기록관.
+*   [벨로니스](lore_bible/characters/Velonis.md): 침묵의 상아탑 하층 학구와 거래 문법을 맡는 조교수.
 *   [세라피나](lore_bible/characters/Seraphina.md): 루미나 성전의 대신관. 선별과 봉인을 쥔 최고 성직자.
 *   [루세아](lore_bible/characters/Lucea.md): 루미나 성전에서 시련과 선별을 감시하는 제관.
+*   [이셀라](lore_bible/characters/Ysela.md): 루미나 성전 순례길과 묵상막의 문턱을 맡는 등잔 사제.
 *   [자르칸](lore_bible/characters/Zarkan.md): 사루크 천막성의 물자와 선금을 쥔 조달장.
 *   [제1권 보조 인물 연결 지도](lore_bible/Vol_1_Supporting_Cast_Link_Map.md): 네 인물이 어느 화에서 어떤 기능으로 쓰이는지 고정한 연결 기준.
 
@@ -86,6 +88,7 @@
 
 ### 🏰 1권 주요 세력
 *   [황실 에스페란자](lore_bible/groups/Imperial_Court.md): 황궁 상층의 허가, 의전, 기록을 쥔 제국 권력 중심.
+*   [황궁 상층 귀족 가문 지도](lore_bible/settings/Imperial_Court_Families.md): 발테론과 코르베스가 황궁 질서를 어떻게 받치는지 정리한 가문 지도.
 *   [카르세인](lore_bible/groups/Carsein.md): 상아 의정회 산하의 사설 포획 부대.
 *   [펜리르](lore_bible/groups/Fenrir.md): 회색 도시의 늑대 세력.
 *   [시네르](lore_bible/groups/Sinere.md): 빈민가 자경단/해결사 축.
