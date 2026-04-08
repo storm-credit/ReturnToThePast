@@ -145,15 +145,19 @@
     *   MCP, 스킬, 에이전트, 훅, 하네스가 각각 어디까지 책임지는지 정리한 경계표.
 7. **[하네스 런타임 규칙](orchestra/HARNESS_RUNTIME_RULES.md)**
     *   preflight, dispatch, merge, verify, checkpoint의 실행 순서를 잠근 런타임 문서.
-8. **[핸드오프 패킷 플레이북](orchestra/HANDOFF_PACKET_PLAYBOOK.md)**
+8. **[훅 카탈로그](orchestra/HOOK_CATALOG.md)**
+    *   어떤 훅이 언제 발동하고 무엇을 경고하는지 정리한 실행 자동층 문서.
+9. **[하네스-훅 매트릭스](orchestra/HARNESS_HOOK_MATRIX.md)**
+    *   Lore, Foreshadow, Storycraft, Smoke 하네스가 어떤 훅을 기본으로 태우는지 정리한 매핑표.
+10. **[핸드오프 패킷 플레이북](orchestra/HANDOFF_PACKET_PLAYBOOK.md)**
     *   설정 보강, 브리지 보강, 복선 보강을 어떤 패킷으로 시작할지 빠르게 정리한 문서.
-9. **[스모크 감사 하네스](orchestra/SMOKE_AUDIT_HARNESS.md)**
+11. **[스모크 감사 하네스](orchestra/SMOKE_AUDIT_HARNESS.md)**
     *   주요 설정집 지도와 복선/엔딩 마커가 빠지지 않았는지 빠르게 점검하는 자동감사 안내서.
-10. **[제1권 제1화 사전 핸드오프 패킷](orchestra/packets/Vol_1_Chapter_1_PreDraft_Packet.md)**
+12. **[제1권 제1화 사전 핸드오프 패킷](orchestra/packets/Vol_1_Chapter_1_PreDraft_Packet.md)**
     *   집필을 열 때 첫 화가 무엇을 지켜야 하는지 미리 잠가 둔 패킷.
-11. **[제1권 핵심 장면 압력표](orchestra/Vol_1_Core_Pressure_Grid.md)**
+13. **[제1권 핵심 장면 압력표](orchestra/Vol_1_Core_Pressure_Grid.md)**
     *   제1권이 막별로 어떤 긴장과 감각을 남겨야 하는지 정리한 장면 압력 지도.
-12. **[설정 우선 해제 게이트 점검](orchestra/SETTING_FIRST_EXIT_GATE_CHECK_2026-04-07.md)**
+14. **[설정 우선 해제 게이트 점검](orchestra/SETTING_FIRST_EXIT_GATE_CHECK_2026-04-07.md)**
     *   지금 상태에서 집필 레인을 열 수 있는지 판정한 체크 문서.
 
 ---

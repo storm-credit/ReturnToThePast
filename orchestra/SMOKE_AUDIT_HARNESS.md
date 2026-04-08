@@ -45,3 +45,10 @@ powershell -ExecutionPolicy Bypass -File .\orchestra\scripts\Invoke-SettingLibra
 - 복선, 목격, 엔딩 수렴 지도 같은 총괄 지도 문서를 추가하거나 뺀 뒤
 - 권별 챕터 집필을 열기 직전
 - 대형 설정 감사 병합 직전
+
+## 기본 훅
+
+- `marker-hook`
+- `link-integrity-hook`
+- `banned-surface-hook`
+- `volume-structure-hook`

@@ -43,3 +43,9 @@
 - 회수는 있는데 씨앗이 없다
 - 레드 헤링만 있고 진짜 단서가 없다
 - 결말 정서와 복선 방향이 다르다
+
+## 기본 훅
+
+- `seed-payoff-hook`
+- `reveal-fairness-hook`
+- `ending-convergence-hook`

@@ -20,6 +20,8 @@
 - `verify`: 관련 하네스와 smoke 재실행
 - `checkpoint`: session state, 브랜치, 커밋 기준 재확인
 
+자세한 훅 설명은 [HOOK_CATALOG.md](HOOK_CATALOG.md), 하네스별 조합은 [HARNESS_HOOK_MATRIX.md](HARNESS_HOOK_MATRIX.md)를 따른다.
+
 ## 2. 동시성 규칙
 
 - 같은 파일에 두 lane을 동시에 쓰지 않는다.

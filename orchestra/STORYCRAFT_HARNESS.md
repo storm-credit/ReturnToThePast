@@ -58,3 +58,10 @@
 - 모든 작업을 모든 레인에 억지로 태우지 않는다.
 - 약한 구조를 신비한 말로 숨기지 않는다.
 - 피 과시나 가짜 시스템 용어로 긴장을 대신하지 않는다.
+
+## 기본 훅
+
+- `arc-pressure-hook`
+- `bridge-gap-hook`
+- `tone-guard-hook`
+- `serial-retention-hook`

@@ -49,6 +49,8 @@
 ### `Smoke`
 - 빠른 정합성 확인
 
+훅 목록은 [HOOK_CATALOG.md](HOOK_CATALOG.md), 하네스별 조합은 [HARNESS_HOOK_MATRIX.md](HARNESS_HOOK_MATRIX.md)를 우선한다.
+
 ---
 
 ## 4. 설정집 먼저 해야 하나

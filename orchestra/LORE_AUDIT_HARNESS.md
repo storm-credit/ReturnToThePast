@@ -65,3 +65,10 @@
 
 자세한 매핑은 `.agent/skills/novel-orchestra-conductor/references/model-routing.md`를 따른다.
 설정집 전체 감사처럼 비용이 큰 작업은 총괄과 핵심 도메인에 `gpt-5.4`를 유지한다.
+
+## 기본 훅
+
+- `lore-gap-hook`
+- `canon-conflict-hook`
+- `naming-conflict-hook`
+- `setting-first-hook`
