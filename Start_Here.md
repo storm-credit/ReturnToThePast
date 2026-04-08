@@ -18,23 +18,25 @@
     *   이 작품이 회귀물이 아니라 시간여행 패러독스물이라는 구조적 기준.
 4.  **[고유명사 작명 가이드](lore_bible/style/Naming_Style_Guide.md)**
     *   지명, 세력명, 금기명이 고풍한 다크 판타지 어감을 유지하도록 맞추는 기준.
-5.  **[설정집 감사 범위](Guidelines/Setting_Audit_Scope.md)**
+5.  **[정식명 장부](lore_bible/style/Canonical_Name_Register.md)**
+    *   정식명, 별칭, 폐기명, 언어 계열을 함께 묶어 이름 재오염을 막는 장부.
+6.  **[설정집 감사 범위](Guidelines/Setting_Audit_Scope.md)**
     *   설정 보강이 규칙, 인물, 세력, 장소, 용어, 복선, 아웃라인, 타임라인을 함께 본다는 운영 기준.
-6.  **[세계 이동 지도](lore_bible/locations/World_Travel_Atlas.md)**
+7.  **[세계 이동 지도](lore_bible/locations/World_Travel_Atlas.md)**
     *   수도, 북부, 동부, 남부, 서부 권역의 거리감과 이동 압박을 잠그는 배경 지도.
-7.  **[엔진 데이터 레이어 정책](orchestra/ENGINE_DATA_LAYER_POLICY.md)**
+8.  **[엔진 데이터 레이어 정책](orchestra/ENGINE_DATA_LAYER_POLICY.md)**
     *   JSON 키는 안정성 중심으로 두고, 사람용 설명층은 옆 문서로 분리한다는 운영 기준.
-8.  **[규칙 데이터 가이드](lore_bible/Rules_Data_Guide.md)**
+9.  **[규칙 데이터 가이드](lore_bible/Rules_Data_Guide.md)**
     *   `rules.json`의 금지어와 제약 조건을 사람이 읽는 말로 풀어 둔 안내서.
-9.  **[시간 사실 데이터 가이드](lore_bible/Temporal_Facts_Guide.md)**
+10.  **[시간 사실 데이터 가이드](lore_bible/Temporal_Facts_Guide.md)**
     *   `temporal_facts.json`의 시간선, 상태, 유효 구간을 사람이 읽는 말로 풀어 둔 안내서.
-10.  **[심리 프로필 데이터 가이드](lore_bible/characters/Psych_Profile_Data_Guide.md)**
+11.  **[심리 프로필 데이터 가이드](lore_bible/characters/Psych_Profile_Data_Guide.md)**
     *   캐릭터 심리 JSON 필드가 무엇을 뜻하는지 읽기 쉽게 정리한 문서.
-11.  **[에이든 심리 데이터 레거시 가이드](lore_bible/characters/Protagonist_Psych_Legacy_Guide.md)**
+12.  **[에이든 심리 데이터 레거시 가이드](lore_bible/characters/Protagonist_Psych_Legacy_Guide.md)**
     *   `Protagonist_psych.json`이 최신 심리 모델이 아니라 레거시 브리지 데이터라는 점을 정리한 안내서.
-12.  **[집필 프롬프트 템플릿](Guidelines/Writing_Prompt_Template.md)**
+13.  **[집필 프롬프트 템플릿](Guidelines/Writing_Prompt_Template.md)**
     *   설정집이 잠긴 뒤 쓰는 후행 문서. 지금은 참고만 하고, 집필 시작 전 다시 읽을 것.
-13.  **[챕터 감수 체크리스트](Guidelines/Chapter_Audit_Checklist.md)**
+14.  **[챕터 감수 체크리스트](Guidelines/Chapter_Audit_Checklist.md)**
     *   설정집 완료 후 초안 단계에서 쓰는 후행 검수 기준.
 
 ---
@@ -102,8 +104,10 @@
 *   [세계 이동 지도](lore_bible/locations/World_Travel_Atlas.md): 수도, 북부, 동부, 남부, 서부 권역의 거리감과 이동 압박.
 *   [세라핌 이동선 지도](lore_bible/locations/Seraphim_Transit_Map.md): 수도 안에서 검문선, 승강기, 수로, 하역문이 어떻게 맞물리는지 정리한 동선 지도.
 *   [황궁 동선도](lore_bible/locations/Imperial_Palace_Transit_Map.md): 제3 하역문, 시종 회랑, 서고, 대연회장, 의정회 열람실을 나눈 상층 잠입 지도.
+*   [황궁 야간 기록선](lore_bible/locations/Imperial_Palace_Night_Record_Line.md): 필경실 당직, 야간 열람 허가, 비공식 봉인 문서 반출입 절차를 정리한 실무 시트.
 *   [황궁 의전선 일정표](lore_bible/locations/Imperial_Palace_Ceremonial_Schedule.md): 새벽 하역선, 아침 기록선, 정오 의전선, 심야 비밀선이 어떻게 갈리는지 정리한 시간표.
 *   [황실 연금술 학회 내부도](lore_bible/locations/Imperial_Alchemy_Academy_Inner_Map.md): 진료홀, 봉인 창고, 격리층, 소각층, 0호 실험실을 나눈 내부 지도.
+*   [상아 의정회 밀의회실](lore_bible/locations/Ivory_Consistory_Council_Chambers.md): 심의선, 봉인 열람실, 표본 승인/폐기 결재선을 정리한 내부 실무 공간 시트.
 *   [마수의 땅](lore_bible/locations/Northern_Frontier.md): 코스믹 호러 최전선.
 *   [북부 전선 구역도](lore_bible/locations/Northern_Frontier_Zone_Map.md): 후방 보급권, 서리 요새, 얼음 송곳니, 파락 구역을 나눈 작전 지도.
 *   [서리 요새 세부 구조도](lore_bible/locations/Frost_Keep_Structure.md): 성루, 지휘실, 후송막사, 보급 적재장을 나눈 북부 핵심 요새 구조도.

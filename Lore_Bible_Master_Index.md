@@ -61,8 +61,10 @@
 *   `[World_Travel_Atlas.md]`: **세계 이동 지도** (권역 간 거리감, 이동 압박, 주요 동선 기준표).
 *   `[Seraphim_Transit_Map.md]`: **세라핌 이동선 지도** (검문선, 승강기, 수로, 하역문을 묶은 수도 내부 동선 지도).
 *   `[Imperial_Palace_Transit_Map.md]`: **황궁 동선도** (제3 하역문, 시종 회랑, 서고, 대연회장, 의정회 열람실을 묶은 상층 잠입 지도).
+*   `[Imperial_Palace_Night_Record_Line.md]`: **황궁 야간 기록선** (필경실 당직, 야간 열람 허가, 비공식 봉인 문서 반출입 절차를 정리한 실무 시트).
 *   `[Imperial_Palace_Ceremonial_Schedule.md]`: **황궁 의전선 일정표** (새벽 하역선, 아침 기록선, 정오 의전선, 심야 비밀선으로 갈리는 시간 기반 잠입표).
 *   `[Imperial_Alchemy_Academy_Inner_Map.md]`: **황실 연금술 학회 내부도** (진료홀, 봉인 창고, 격리층, 소각층, 0호 실험실 구조도).
+*   `[Ivory_Consistory_Council_Chambers.md]`: **상아 의정회 밀의회실** (심의선, 봉인 열람실, 표본 승인/폐기 결재선을 정리한 내부 실무 공간 시트).
 *   `[World_Map_Geography.md]`: **패러독스의 대가(마나열병)**와 지도.
 *   `[Magic_Tower.md]`: **침묵의 상아탑** (방관자들).
 *   `[Silent_Ivory_Tower.md]`: **침묵의 상아탑 기관층** (관측, 봉인, 금기 연구의 기관 구조).
@@ -148,6 +150,7 @@
 *   `[Tone_Manner_Guide.md]`: **톤 앤 매너**.
 *   `[Noir_Adaptation_Guide.md]`: **느와르 적응 가이드**.
 *   `[Naming_Style_Guide.md]`: **고유명사 작명 기준**.
+*   `[Canonical_Name_Register.md]`: **정식명 장부** (정식명, 별칭, 폐기명, 언어 계열, 적용 범위를 함께 묶는 재오염 방지 장부).
 
 ## 9. 🔚 엔딩
 *   `[Ending_A_Canon.md]`: **🔴 정사 엔딩** — 인간으로의 귀환.

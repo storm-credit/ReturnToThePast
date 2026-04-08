@@ -4,6 +4,10 @@
 
 이 문서는 [인과율의 변이체](Creatures_of_the_Glitch.md), [이형의 존재들](The_Abominations.md), [회색 역병](..\rules\Infection_Levels.md)을 집필용으로 엮은 생태 보조 문서다.
 
+- `Creatures_of_the_Glitch.md`는 코어 원리 문서,
+- `The_Abominations.md`는 핵심 분류 카탈로그,
+- 이 문서는 발생지와 서식권, 흔적과 대응 규칙을 묶는 생태 시트다.
+
 ---
 
 ## 1. 큰 분류
