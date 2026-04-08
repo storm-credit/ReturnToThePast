@@ -5,7 +5,7 @@
 | `character` | `character-architect` | 인물 상태, 상처, 감정 대가, 관계, 동기 | `lore_bible/characters/**`, `lore_bible/characters/Relationship_Map.md`, 관련 아웃라인/타임라인 | `gpt-5.4` / `high` |
 | `faction` | `faction-strategist` | 세력 목적, 정치 압력, 동맹/배신, 조직 간 충돌 | `lore_bible/groups/**`, 관련 `settings/**`, 관련 아웃라인 | `gpt-5.4` / `high` |
 | `location` | `location-cartographer` | 도시/지형/동선/여행 시간/장소 분위기 | `lore_bible/locations/**`, 타임라인, 이동 관련 장면 | `gpt-5.4` / `medium` |
-| `world` | `world-rule-keeper` | 마법, 등가교환, 회귀, 역병, 아이템, 괴물, 사회 시스템 | `lore_bible/rules/**`, `magic/**`, `settings/**`, `items/**`, `monsters/**` | `gpt-5.4` / `high` |
+| `world` | `world-rule-keeper` | 마법, 대가의 법칙, 귀환 구조, 역병, 아이템, 괴물, 사회 시스템 | `lore_bible/rules/**`, `magic/**`, `settings/**`, `items/**`, `monsters/**` | `gpt-5.4` / `high` |
 | `timeline` | `timeline-historian` | 사건 순서, 고정점, 분기점, 역사와 여파 | `outline/*Timeline*`, `lore_bible/history/**`, `lore_bible/Regression_Log.md` | `gpt-5.4` / `high` |
 | `items-detail` | `relic-curator` | 무기, 유물, 저주받은 이물의 비용과 소유 정합성 | `lore_bible/items/**`, 관련 규칙/캐릭터/타임라인 | `gpt-5.4` / `medium` |
 | `monsters-detail` | `monster-ecologist` | 괴물, 변이, 역병, 생태 공포 구조 | `lore_bible/monsters/**`, `rules/**`, 관련 장소/타임라인 | `gpt-5.4` / `medium` |
