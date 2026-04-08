@@ -86,6 +86,7 @@
 
 - [Holy_Temple.md](C:/Users/Raino%20PI/Documents/New%20project/repo_inspect/lore_bible/locations/Holy_Temple.md)가 성전의 개념이라면,
 - 이 문서는 성전의 `내부 배치와 동선`이다.
+- 성전 바깥에서 안으로 들어오는 압력은 [Holy_Temple_Approach_Map.md](C:/Users/Raino%20PI/Documents/New%20project/repo_inspect/lore_bible/locations/Holy_Temple_Approach_Map.md)를 함께 봐야 완성된다.
 
 성전 관련 장면이 흔들릴 때는
 `지금 이 장면이 순례 회랑인지`,
