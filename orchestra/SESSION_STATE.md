@@ -2,8 +2,8 @@
 
 ## Current Objective
 - Status: `active`
-- Request: setting library is locked; reopen drafting only on request using the launch packet
-- Scope: lore_bible / outline / Guidelines / orchestra with draft launch readiness
+- Request: setting library and drafting engine are locked; proceed through the drafting master plan using the launch packet
+- Scope: lore_bible / outline / Guidelines / orchestra with active drafting-operation readiness
 
 ## Canonical Sources
 - `Start_Here.md`
@@ -11,8 +11,8 @@
 - Additional files:
 
 ## Active Work Packet
-- Mode: `draft-ready-after-setting-lock`
-- Target volume/chapter: `Vol.1 Chapter 1 launch readiness`
+- Mode: `drafting-master-plan-ready`
+- Target volume/chapter: `Vol.1 Chapter 1 launch execution readiness`
 - Impacted files: `lore_bible/**`, `outline/**`, `Guidelines/**`, `orchestra/**`
 
 ## Open Risks
@@ -32,6 +32,8 @@
 - magic and monster layers are part of required completion, not optional garnish
 - 2026-04-08 final setting sweep passed and the setting library is treated as locked for launch
 - drafting should reopen via `DRAFTING_REOPEN_GATE_2026-04-08.md` and `Vol_1_Chapter_1_Launch_Packet.md`
+- 2026-04-09 drafting cadence is locked by `DRAFTING_MASTER_PLAN_2026-04-09.md`
+- 2026-04-09 progress reporting should reference `DRAFTING_PROGRESS_TRACKER.md`
 
 ## Next Step
-- if the user requests prose, open the draft lane with the Vol.1 Chapter 1 launch packet and run chapter audit after drafting.
+- open the draft lane with the Vol.1 Chapter 1 launch packet, then run chapter audit and smoke before counting progress.
