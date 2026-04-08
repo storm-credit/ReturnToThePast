@@ -118,6 +118,7 @@
 
 ### ⚔️ 설정
 *   [인과율 마법](lore_bible/magic/Causality_Magic.md): 대가, 서클, 고통.
+*   [강제 귀환술 운영 시트](lore_bible/Forced_Return_Operation_Sheet.md): 미래측이 어떤 희생과 절차로 귀환술을 떠받치는지 정리한 운영 시트.
 *   [마법 계통과 대가 운용표](lore_bible/magic/Magic_Disciplines_and_Costs.md): 점화, 방벽, 연성, 탐지, 강화, 금기계가 실전에서 어떤 대가와 함께 쓰이는지 정리한 운용표.
 *   [하층 마법과 거리의 주술](lore_bible/magic/Gutter_Magic_and_Street_Rites.md): 회색 도시의 싸구려 부적, 약탕, 방비문, 하수도 주술을 정리한 생활형 마법 문서.
 *   [하층 약방과 부적 실무](lore_bible/magic/Gutter_Apothecary_and_Talisman_Practice.md): 약방, 부적, 앰플, 응급 봉합이 실제로 어떻게 굴러가는지 정리한 하층 실무 시트.
@@ -130,6 +131,8 @@
 *   [붉은 사막 변이체 시트](lore_bible/monsters/Red_Desert_Abnormalities.md): 사혈 전갈, 모래 수복체, 불목 매, 유리능선 메아리 등 사막권 위협 시트.
 *   [저주받은 이물](lore_bible/items/Cursed_Artifacts.md): 리스크가 있는 무기들.
 *   [회색 역병](lore_bible/rules/Infection_Levels.md): 앰플, 마나 거부 반응.
+*   [해결사 실무 시트](lore_bible/settings/Fixer_Procedure_Sheet.md): 의뢰, 선금, 안전가옥, 시체 처리, 실패 패널티를 장면 단위로 푼 시트.
+*   [거리 거래 값 시트](lore_bible/settings/Street_Transaction_Value_Sheet.md): 하층 약방, 검문 뇌물, 해결사 선금, 표본 거래의 체감 가격표.
 *   [인간관계도](lore_bible/Relationship_Map.md): 에이든, 리아, 아이리스, 발타자르, 영시 축이 어떻게 상처와 빚으로 얽히는지 정리한 문서.
 *   [측면 인물 목격 지도](lore_bible/Supporting_Cast_Witness_Map.md): 류드, 바르그, 토마르, 펜리르, 카르세인이 에이든의 손상을 어떤 각도에서 목격하는지 정리한 문서.
 *   [제1권 보조 인물 연결 지도](lore_bible/Vol_1_Supporting_Cast_Link_Map.md): 세베린, 하르켄, 미렐, 카시아를 제1권 장면 흐름에 맞게 배치한 지도.

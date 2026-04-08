@@ -87,6 +87,7 @@
 *   `[Regression_Constraints.md]`: **귀환의 대가** (감정의 대가).
 *   `[Equivalent_Exchange.md]`: **대가 규칙** (무엇을 얻고 무엇을 잃는가).
 *   `[Time_Travel_Laws.md]`: **시간과 인과율의 절대 법칙** (수렴, 고정점, 분기점).
+*   `[Forced_Return_Operation_Sheet.md]`: **강제 귀환술 운영 시트** (미래측이 어떤 희생과 절차로 귀환술을 떠받치는지 정리한 운영 시트).
 *   `[Secrets_Activation.md]`: **히든 피스 및 반전** (T-001 ~ T-011).
 *   `[Lost_Arcane_Arts.md]`: **금기 마법** (수명/존재를 태우는 기술).
 *   `[Mandatory_Events.md]`: **필수 통과 이벤트** (1부~3부 체크리스트).
@@ -115,9 +116,11 @@
 *   `[Sinere.md]`: **시네르** (하층 자경단/해결사 축).
 *   `[하층_권세도.md]`: **하층 권세도** (시네르, 펜리르, 검은 시장, 해결사 관계망).
 *   `[Fixer_System.md]`: **해결사 시스템** (등급, 의뢰 절차).
+*   `[Fixer_Procedure_Sheet.md]`: **해결사 실무 시트** (의뢰, 선금, 안전가옥, 시체 처리, 실패 패널티를 장면 단위로 정리한 기준표).
 *   `[Shadow_Guild_System.md]`: **그림자 길드** (등급, 의뢰 절차).
 *   `[Magic_Drug_Cartel.md]`: **에테르 암거래망** (회색 역병의 유통 경로).
 *   `[Economy_Currency.md]`: **경제/화폐 시스템**.
+*   `[Street_Transaction_Value_Sheet.md]`: **거리 거래 값 시트** (하층 약방, 검문 뇌물, 해결사 선금, 표본 거래의 체감 가격표).
 *   `[Noble_Heraldry.md]`: **귀족 문장학**.
 
 ## 6. 🗡️ 아이템
