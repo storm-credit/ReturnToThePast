@@ -17,6 +17,7 @@
 먼저 아래 문서를 읽고 모든 규칙을 적용하라.
 - `Guidelines/Prompt_Quick_Reference.md`
 - `Guidelines/Chapter_Audit_Checklist.md`
+- `orchestra/Continuity_Input_Ledger.md`
 
 # 이번 작업
 - 프로젝트: 《나는 과거로 간다》
@@ -27,7 +28,7 @@
 - `outline/Series_Roadmap.md`
 - `outline/Vol_X_Outline.md`
 - `outline/Vol_X_Timeline.md`
-- 직전 화 초안 또는 직전 화 연속성 메모가 있으면 함께 참조
+- 직전 화 초안이 없으면 `orchestra/Continuity_Input_Ledger.md`의 입력 기준을 따른다
 - `lore_bible/characters/Protagonist.md`
 - 해당 화 등장 인물의 캐릭터 파일
 - `lore_bible/rules/Equivalent_Exchange.md`
@@ -60,6 +61,7 @@
 - `Guidelines/Prompt_Quick_Reference.md`
 - `Guidelines/Series_Production_Constraints.md`
 - `Guidelines/Time_Travel_Frame.md`
+- `orchestra/Packet_Baseline_Register.md`
 
 # 작업
 - 대상: [제N권]
@@ -99,6 +101,7 @@
 # 공통 잠금
 - `Guidelines/Prompt_Quick_Reference.md`
 - `Guidelines/Chapter_Audit_Checklist.md`
+- `Guidelines/Banned_Surface_Ledger.md`
 
 # 필수 참조
 - `outline/Vol_X_Outline.md`
@@ -137,6 +140,7 @@
 # 공통 잠금
 - `Guidelines/Prompt_Quick_Reference.md`
 - `lore_bible/style/Tone_Manner_Guide.md`
+- `Guidelines/Banned_Surface_Ledger.md`
 
 # 요청
 아래 텍스트의 사건 순서와 의미는 유지하되, 문체만 교정하라.

@@ -20,6 +20,8 @@
 - `verify`: 관련 하네스와 smoke 재실행
 - `checkpoint`: session state, 브랜치, 커밋 기준 재확인
 
+금지 표면어와 패킷 기준은 각각 `../Guidelines/Banned_Surface_Ledger.md`, `Packet_Baseline_Register.md`를 런타임 보조 장부로 본다.
+
 자세한 훅 설명은 [HOOK_CATALOG.md](HOOK_CATALOG.md), 하네스별 조합은 [HARNESS_HOOK_MATRIX.md](HARNESS_HOOK_MATRIX.md)를 따른다.
 
 ## 2. 동시성 규칙

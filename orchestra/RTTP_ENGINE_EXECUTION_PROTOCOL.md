@@ -24,6 +24,8 @@
 - `Deliverable`
 - `Stop Conditions`
 
+세부 항목 기준은 `Packet_Baseline_Register.md`를 함께 따른다.
+
 총괄 권한은 [CONDUCTOR_AUTHORITY_LOCK.md](CONDUCTOR_AUTHORITY_LOCK.md), 실행 규칙은 [HARNESS_RUNTIME_RULES.md](HARNESS_RUNTIME_RULES.md)를 함께 따른다.
 
 ---
@@ -88,6 +90,8 @@ RTTP 엔진은 아래 조건이 충족되기 전엔 집필 레인을 대량 개�
 - 인덱스 정리
 - 짧은 문체 정책 수정
 - 링크 보정
+
+직전 초안이 없거나 끊긴 상태에서 이어 쓰는 경우에는 `Continuity_Input_Ledger.md`를 먼저 확인한다.
 
 ### 전문가를 붙이는 경우
 - 설정 충돌이 넓게 퍼질 때

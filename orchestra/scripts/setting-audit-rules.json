@@ -32,6 +32,7 @@
     ],
     "exclude": [
       "Guidelines/Chapter_Audit_Checklist.md",
+      "Guidelines/Banned_Surface_Ledger.md",
       "Guidelines/Lore_Audit_Prompt.md",
       "Guidelines/Writing_Prompt_Template.md",
       "lore_bible/style/*"

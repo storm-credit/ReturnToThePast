@@ -9,6 +9,7 @@
 *   `[Series_Roadmap.md]`: **15권 전체 시놉시스** (절대 기준).
 *   `[Writing_Prompt_Template.md]`: **집필 프롬프트 템플릿** (글근육 스타일).
 *   `[Chapter_Audit_Checklist.md]`: 챕터 검수용 체크리스트.
+*   `[Banned_Surface_Ledger.md]`: **금지 표면어 장부** (현대/SF/게임 표면어, 중2병 서사 표면, 구형 캐논 단어의 대체 기준표).
 
 ## 1. 👥 인물
 *   `[Protagonist.md]`: **에이든** (172회차 채무자, 감정 거세).
