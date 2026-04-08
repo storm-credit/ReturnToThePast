@@ -63,8 +63,11 @@
 *   [하르켄](lore_bible/characters/Harken.md): 카르세인의 현장 포획과 검문을 지휘하는 쇄장.
 *   [미렐](lore_bible/characters/Mirel.md): 검은 시장 약방과 앰플 유통선을 쥔 중개상.
 *   [카시아](lore_bible/characters/Cassia.md): 황궁 하급 서기관 겸 필경사. 잠입 파트의 생활 얼굴.
+*   [마르첼란](lore_bible/characters/Marcellan.md): 황궁 출입선과 의전선을 쥔 궁내대신. 상층 실무 권력의 얼굴.
 *   [시그룬](lore_bible/characters/Sigrun.md): 북부 전선에서 이름과 후송 명단을 붙드는 기록병.
+*   [아르카누스](lore_bible/characters/Arcanus.md): 침묵의 상아탑의 대마도사이자 관측자.
 *   [오렐](lore_bible/characters/Orel.md): 침묵의 상아탑 정적의 도서관에서 봉인 장부를 지키는 기록관.
+*   [세라피나](lore_bible/characters/Seraphina.md): 루미나 성전의 대신관. 선별과 봉인을 쥔 최고 성직자.
 *   [루세아](lore_bible/characters/Lucea.md): 루미나 성전에서 시련과 선별을 감시하는 제관.
 *   [자르칸](lore_bible/characters/Zarkan.md): 사루크 천막성의 물자와 선금을 쥔 조달장.
 *   [제1권 보조 인물 연결 지도](lore_bible/Vol_1_Supporting_Cast_Link_Map.md): 네 인물이 어느 화에서 어떤 기능으로 쓰이는지 고정한 연결 기준.
@@ -77,11 +80,14 @@
 *   [적대축 배치 지도](lore_bible/Secondary_Antagonist_Deployment_Map.md): 12사도와 알바른의 개별 얼굴이 어느 권에서 어떤 공포로 먼저 들어와야 하는지 잠근 배치표.
 
 ### 🏰 1권 주요 세력
+*   [황실 에스페란자](lore_bible/groups/Imperial_Court.md): 황궁 상층의 허가, 의전, 기록을 쥔 제국 권력 중심.
 *   [카르세인](lore_bible/groups/Carsein.md): 상아 의정회 산하의 사설 포획 부대.
 *   [펜리르](lore_bible/groups/Fenrir.md): 회색 도시의 늑대 세력.
 *   [시네르](lore_bible/groups/Sinere.md): 빈민가 자경단/해결사 축.
 *   [하층 권세도](lore_bible/groups/하층_권세도.md): 시네르, 펜리르, 검은 시장, 해결사의 실제 맞물림.
 *   [상아 의정회](lore_bible/groups/Ivory_Consistory.md): 황실 연금술 학회 내부의 비밀 결사.
+*   [침묵의 상아탑 기관층](lore_bible/groups/Silent_Ivory_Tower.md): 상아탑의 관측, 기록, 봉인, 금기 연구 체계.
+*   [루미나 성직층](lore_bible/groups/Lumina_Clergy.md): 성전의 선별, 정화, 봉인 실무를 굴리는 성직 기관.
 
 ### 🗺️ 장소
 *   [수도 세라핌](lore_bible/locations/Imperial_Capital.md): 빈민가와 그림자 시장.

@@ -17,5 +17,7 @@
 - 제13권에선 기록이 무너지거나 봉인이 찢어질 때, 상아탑이 왜 무너지는지 가장 먼저 알아차리는 증인이 된다.
 
 ## 4. 연결
+- [침묵의 상아탑 기관층](../groups/Silent_Ivory_Tower.md)
+- [아르카누스](Arcanus.md)
 - [침묵의 상아탑 층별도](../locations/Magic_Tower_Floor_Map.md)
 - [침묵의 상아탑](../locations/Magic_Tower.md)

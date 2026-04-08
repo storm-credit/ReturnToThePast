@@ -17,5 +17,7 @@
 - 제11권에선 루미나 성전이 후반 진실과 이어진 오래된 감시 기계라는 사실을 더욱 구체화한다.
 
 ## 4. 연결
+- [루미나 성직층](../groups/Lumina_Clergy.md)
+- [세라피나](Seraphina.md)
 - [루미나 성전 내부도](../locations/Holy_Temple_Inner_Map.md)
 - [루미나 성전](../locations/Holy_Temple.md)
