@@ -46,6 +46,9 @@
 *   `[Seraphina.md]`: **세라피나** (루미나 성전의 대신관).
 *   `[Lucea.md]`: **루세아** (루미나 성전 시련 감찰 제관).
 *   `[Zarkan.md]`: **자르칸** (사루크 천막성의 조달장).
+*   `[Morgana.md]`: **모르가나** (알바른 소속 금기 합성과 저주 표본 집행자).
+*   `[Balrok.md]`: **발로크** (알바른 소속 정면 파괴와 공포 시위 집행자).
+*   `[Sheidar.md]`: **셰이다르** (알바른 소속 정보 교란과 함정 집행자).
 *   `[characters/Psych_Profile_Data_Guide.md]`: **심리 프로필 데이터 가이드** (캐릭터 심리 JSON 필드 설명층).
 *   `[characters/Protagonist_Psych_Legacy_Guide.md]`: **에이든 심리 데이터 레거시 가이드** (`Protagonist_psych.json`의 역할과 위험을 설명한 안내서).
 

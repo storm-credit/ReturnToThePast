@@ -63,6 +63,8 @@
 *   [하르켄](lore_bible/characters/Harken.md): 카르세인의 현장 포획과 검문을 지휘하는 쇄장.
 *   [미렐](lore_bible/characters/Mirel.md): 검은 시장 약방과 앰플 유통선을 쥔 중개상.
 *   [카시아](lore_bible/characters/Cassia.md): 황궁 하급 서기관 겸 필경사. 잠입 파트의 생활 얼굴.
+*   [레오니드 3세](lore_bible/characters/Leonid_III.md): 황궁 상층의 최종 승인권자.
+*   [아이린](lore_bible/characters/Irene.md): 황실의 체면과 계승을 대표하는 황녀.
 *   [마르첼란](lore_bible/characters/Marcellan.md): 황궁 출입선과 의전선을 쥔 궁내대신. 상층 실무 권력의 얼굴.
 *   [시그룬](lore_bible/characters/Sigrun.md): 북부 전선에서 이름과 후송 명단을 붙드는 기록병.
 *   [아르카누스](lore_bible/characters/Arcanus.md): 침묵의 상아탑의 대마도사이자 관측자.
@@ -77,6 +79,9 @@
 *   [12사도 좌석 지도](lore_bible/characters/Twelve_Apostles_Seat_Map.md): 각 좌석이 도시의 어느 숨구멍을 장악하는지 정리한 배치표.
 *   [알바른](lore_bible/characters/Alvarn.md): 상아 의정회의 비밀 칙행단.
 *   [알바른 집행 조 편성표](lore_bible/characters/Alvarn_Execution_Cells.md): 세브락, 모르가나, 발로크, 셰이다르가 각자 어떤 공포와 처분을 맡는지 정리한 운용표.
+*   [모르가나](lore_bible/characters/Morgana.md): 몸과 저주를 비틀어 공포를 만드는 집행자.
+*   [발로크](lore_bible/characters/Balrok.md): 공개 파괴와 공포 시위를 맡는 집행자.
+*   [셰이다르](lore_bible/characters/Sheidar.md): 정보 흐름을 늦추고 꼬아 버리는 집행자.
 *   [적대축 배치 지도](lore_bible/Secondary_Antagonist_Deployment_Map.md): 12사도와 알바른의 개별 얼굴이 어느 권에서 어떤 공포로 먼저 들어와야 하는지 잠근 배치표.
 
 ### 🏰 1권 주요 세력
