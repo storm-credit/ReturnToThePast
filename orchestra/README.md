@@ -19,9 +19,13 @@
 - `SESSION_STATE.md`: 현재 작업 상태
 - `ORCHESTRA_PORTABILITY_AUDIT_2026-04-07.md`: 재사용 경계 감사
 - `CORE_LAYER_MAP.md`: 코어 / 프로젝트 설정 / 캐논 레이어 구분
+- `RTTP_ENGINE.md`: 이 작품 전용 작문/운영 엔진 개요
+- `RTTP_ENGINE_AGENT_ROSTER.md`: 총괄이 고용하는 전문가 에이전트 구성표
+- `RTTP_ENGINE_EXECUTION_PROTOCOL.md`: 실행 순서, 하네스 선택, 모델 추론 수준 가이드
 - `ORCHESTRA_EXECUTION_PLAN_2026-04-07.md`: 총괄 실행 계획
 - `BRANCH_CHECKPOINT_POLICY.md`: 브랜치/커밋/푸시 규칙
 - `modules/novel-orchestra-core/README.md`: 명명된 재사용 코어 모듈 안내
+- `modules/rttp-engine/README.md`: RTTP 전용 엔진 모듈 안내
 - `packets/Vol_1_Chapter_1_PreDraft_Packet.md`: 집필 직전 제1화 잠금 패킷
 - `Vol_1_Core_Pressure_Grid.md`: 제1권 장면 압력 보조 지도
 - `SETTING_FIRST_EXIT_GATE_CHECK_2026-04-07.md`: 설정 우선 해제 가능 여부 점검표
@@ -43,6 +47,7 @@
 
 - 다른 소설에 이식할 때는 `ORCHESTRA_PORTABILITY_AUDIT_2026-04-07.md` -> `CORE_LAYER_MAP.md` -> `templates/` 순으로 읽는다.
 - 이름이 붙은 재사용 경계는 `modules/novel-orchestra-core/`다.
+- 작품 전용 엔진층은 `modules/rttp-engine/`로 따로 읽는다.
 - 계획형 운영은 `ORCHESTRA_EXECUTION_PLAN_2026-04-07.md`와 `BRANCH_CHECKPOINT_POLICY.md`를 기준으로 잡는다.
 
 ## 3대 하네스

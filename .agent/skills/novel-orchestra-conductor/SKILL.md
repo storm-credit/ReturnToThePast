@@ -21,6 +21,7 @@ description: Orchestrate repo-local novel production for ReturnToThePast. Priori
 - Use `references/role-map.md` to choose the lane.
 - For setting-library audits, also read `references/lore-audit-role-map.md` and `references/model-routing.md`.
 - For storycraft planning, reveal strategy, chapter-retention work, or character-arc mapping, read `orchestra/STORYCRAFT_HARNESS.md`, `references/craft-role-map.md`, and `references/craft-algorithms.md`.
+- Read `orchestra/RTTP_ENGINE.md`, `orchestra/RTTP_ENGINE_AGENT_ROSTER.md`, and `orchestra/RTTP_ENGINE_EXECUTION_PROTOCOL.md` when the task is about engine composition, specialist selection, or execution governance.
 - When Python is unavailable, use `orchestra/scripts/Build-LoreAuditPackets.ps1` to create lore-audit packets.
 - When twist setup or payoff tracking is the issue, read `orchestra/FORESHADOW_HARNESS.md` and route through `foreshadow-bookkeeper`.
 
@@ -75,6 +76,10 @@ If the setting task is too broad for one domain owner, split further without ask
 
 - Add `relic-curator` for items, weapons, cursed artifacts, or possession continuity.
 - Add `monster-ecologist` for monsters, outbreaks, mutation ecology, or infection pressure.
+- Add `bestiary-warden` for named creature sheets, region-specific threat profiles, and fear-grammar tuning.
+- Add `building-cartographer` for palaces, towers, temples, academies, forts, service corridors, or chase-path logic.
+- Add `ritual-liturgist` for sacred rites, oaths, seals, purifications, liturgy, and ceremonial procedure.
+- Add `street-apothecary` for undercity medicine, black-market consumables, cheap talismans, and remedy realism.
 - Add `systems-chancellor` for economy, guilds, nobility, cartel structure, or survival institutions.
 - Add `structure-architect` for series design, ending backsolve, act turns, and volume promises.
 - Add `arc-psychologist` for wound, desire, fear, relationship pressure, and identity-shift design.
@@ -116,3 +121,7 @@ If the setting task is too broad for one domain owner, split further without ask
 
 - Run the lightest relevant verification available after merging.
 - Summarize remaining risks, especially unresolved canon ambiguity, reveal fairness risk, or chapter continuity exposure.
+- Before each substantial pass, tell the user:
+  1. current task
+  2. next task
+  3. whether the conductor is working solo or with specialists

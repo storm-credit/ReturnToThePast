@@ -17,6 +17,10 @@ This document defines the default model and effort for each orchestra role.
 | `serial-tension-engineer` | `gpt-5.4` | `medium` | Cadence work is iterative, narrow, and benefits from fast repetition |
 | `relic-curator` | `gpt-5.4` | `medium` | Item logic is bounded but can become a hidden continuity trap |
 | `monster-ecologist` | `gpt-5.4` | `medium` | Ecology and outbreak pressure are domain-specific but systemic |
+| `bestiary-warden` | `gpt-5.4-mini` | `medium` | Individual threat sheets are bounded and reward focused iteration |
+| `building-cartographer` | `gpt-5.4-mini` | `medium` | Building-scale movement logic is narrow and map-specific |
+| `ritual-liturgist` | `gpt-5.4` | `medium` | Rites and sacred procedures need conceptual coherence more than broad synthesis |
+| `street-apothecary` | `gpt-5.4-mini` | `medium` | Everyday consumables and undercity remedy logic are bounded but texture-critical |
 | `systems-chancellor` | `gpt-5.4` | `medium` | Social systems need coherent incentives more than maximal prose depth |
 | `lore-forgemaster` | `gpt-5.4` | `high` | Canon repair and minimal-retcon design are high-leverage tasks |
 | `plausibility-warden` | `gpt-5.4` | `medium` | Integration stress testing benefits from depth without always needing max effort |
@@ -28,6 +32,7 @@ This document defines the default model and effort for each orchestra role.
 ## Escalation rules
 
 - Use `gpt-5.4-mini` for simple spot checks, isolated chapter-end hook passes, and helper lookups.
+- Use `gpt-5.4-mini` for building passes, item/consumable sheets, named-creature sheets, and other bounded field guides.
 - Use `gpt-5.4` for any new canon, major retcon, endgame reveal work, or full-volume synthesis.
 - Do not downgrade the conductor during a full lore audit or storycraft merge pass.
 - Default to `medium` effort for bounded audits and `high` effort for cross-volume planning.

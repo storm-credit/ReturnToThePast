@@ -1,0 +1,25 @@
+{
+  "name": "rttp-engine",
+  "version": "0.1.0",
+  "type": "documentation-module",
+  "scope": "ReturnToThePast-specific orchestration and writing engine",
+  "entry_readme": "orchestra/modules/rttp-engine/README.md",
+  "source_documents": [
+    "orchestra/RTTP_ENGINE.md",
+    "orchestra/RTTP_ENGINE_AGENT_ROSTER.md",
+    "orchestra/RTTP_ENGINE_EXECUTION_PROTOCOL.md",
+    "orchestra/SETTING_FIRST_MODE.md",
+    "orchestra/SOURCE_OF_TRUTH.md",
+    "orchestra/ORCHESTRA_EXECUTION_PLAN_2026-04-07.md"
+  ],
+  "depends_on": [
+    "orchestra/modules/novel-orchestra-core/module-manifest.json"
+  ],
+  "excludes": [
+    "lore_bible/**",
+    "outline/**",
+    "Guidelines/**",
+    "Drafts/**",
+    "orchestra/runs/**"
+  ]
+}
