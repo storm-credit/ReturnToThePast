@@ -12,14 +12,14 @@
 
 ## Active Work Packet
 - Mode: `active-drafting-batch`
-- Target volume/chapter: `Vol.3 Chapter 7 onward`
+- Target volume/chapter: `Vol.4 Chapter 4 onward`
 - Impacted files: `Drafts/**`, `outline/**`, `lore_bible/**`, `orchestra/**`
 
 ## Open Risks
 - `.obsidian/**` and `orchestra/runs/**` must stay outside the default commit scope
 - local user-side docs in `lore_bible/monsters/Creatures_of_the_Glitch.md` and `lore_bible/psych_logs/pre_death_final_log.md` remain outside the default commit scope
 - active drafting must keep the locked packet rhythm rather than ad-libbing a new structure
-- no chapter under `공백 제외 3,500자` may pass or count as progress
+- no chapter under `공백 제외 4,000자` may pass or count as progress
 
 ## Decisions
 - integration branch remains `codex/orchestra-setting-sync`
@@ -38,7 +38,10 @@
 - 2026-04-09 Vol.1 and Vol.2 are complete and audited
 - 2026-04-09 Vol.3 Chapters 1~17 are valid and passed active batch reviews
 - 2026-04-09 active drafting should reference `VOL3_ACTIVE_FIXED_POINT_CARD_2026-04-09.md`
-- 2026-04-09 Chapter length under `공백 제외 3,500자` is immediate FAIL and must be rewritten before any checkpoint or progress count
+- 2026-04-10 Chapter length under `공백 제외 4,000자` is immediate FAIL and must be rewritten before any checkpoint or progress count
+- 2026-04-10 Vol.3 is complete and bridged into Vol.4
+- 2026-04-10 Vol.4 Chapters 1~2 are valid and passed the first checkpoint
+- 2026-04-10 Vol.4 Chapters 1~3 are valid and passed the first batch review
 
 ## Next Step
-- draft `Vol.3 Chapter 18`, then run the hard length gate, chapter audit, and the next checkpoint before counting progress.
+- draft `Vol.4 Chapter 4`, then run the hard length gate, chapter audit, and the next checkpoint before counting progress.
