@@ -36,9 +36,9 @@
 - 2026-04-09 drafting cadence is locked by `DRAFTING_MASTER_PLAN_2026-04-09.md`
 - 2026-04-09 progress reporting should reference `DRAFTING_PROGRESS_TRACKER.md`
 - 2026-04-09 Vol.1 and Vol.2 are complete and audited
-- 2026-04-09 Vol.3 Chapters 1~13 are valid and passed active batch reviews
+- 2026-04-09 Vol.3 Chapters 1~15 are valid and passed active batch reviews
 - 2026-04-09 active drafting should reference `VOL3_ACTIVE_FIXED_POINT_CARD_2026-04-09.md`
 - 2026-04-09 Chapter length under `공백 제외 3,500자` is immediate FAIL and must be rewritten before any checkpoint or progress count
 
 ## Next Step
-- draft `Vol.3 Chapter 14`, then run the hard length gate, chapter audit, and the next checkpoint before counting progress.
+- draft `Vol.3 Chapter 16`, then run the hard length gate, chapter audit, and the next checkpoint before counting progress.
