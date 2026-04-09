@@ -2,8 +2,8 @@
 
 ## Current Objective
 - Status: `active`
-- Request: setting library and drafting engine are locked; proceed through the drafting master plan using the launch packet
-- Scope: lore_bible / outline / Guidelines / orchestra with active drafting-operation readiness
+- Request: continue the drafting master plan through active volume batches with harness validation and checkpoint pushes
+- Scope: active drafting across `Drafts/**` with supporting `lore_bible / outline / Guidelines / orchestra`
 
 ## Canonical Sources
 - `Start_Here.md`
@@ -11,14 +11,15 @@
 - Additional files:
 
 ## Active Work Packet
-- Mode: `drafting-master-plan-ready`
-- Target volume/chapter: `Vol.1 Chapter 1 launch execution readiness`
-- Impacted files: `lore_bible/**`, `outline/**`, `Guidelines/**`, `orchestra/**`
+- Mode: `active-drafting-batch`
+- Target volume/chapter: `Vol.3 Chapter 7 onward`
+- Impacted files: `Drafts/**`, `outline/**`, `lore_bible/**`, `orchestra/**`
 
 ## Open Risks
 - `.obsidian/**` and `orchestra/runs/**` must stay outside the default commit scope
 - local user-side docs in `lore_bible/monsters/Creatures_of_the_Glitch.md` and `lore_bible/psych_logs/pre_death_final_log.md` remain outside the default commit scope
-- launch should follow the locked packet rather than ad-libbing a new opening frame
+- active drafting must keep the locked packet rhythm rather than ad-libbing a new structure
+- no chapter under `공백 제외 3,500자` may pass or count as progress
 
 ## Decisions
 - integration branch remains `codex/orchestra-setting-sync`
@@ -34,6 +35,9 @@
 - drafting should reopen via `DRAFTING_REOPEN_GATE_2026-04-08.md` and `Vol_1_Chapter_1_Launch_Packet.md`
 - 2026-04-09 drafting cadence is locked by `DRAFTING_MASTER_PLAN_2026-04-09.md`
 - 2026-04-09 progress reporting should reference `DRAFTING_PROGRESS_TRACKER.md`
+- 2026-04-09 Vol.1 and Vol.2 are complete and audited
+- 2026-04-09 Vol.3 Chapters 1~6 are valid and passed batch review
+- 2026-04-09 active drafting should reference `VOL3_ACTIVE_FIXED_POINT_CARD_2026-04-09.md`
 
 ## Next Step
-- open the draft lane with the Vol.1 Chapter 1 launch packet, then run chapter audit and smoke before counting progress.
+- draft `Vol.3 Chapter 7`, then run length gate, chapter audit, and batch review before counting progress.
