@@ -12,7 +12,7 @@
 
 ## Active Work Packet
 - Mode: `active-drafting-batch`
-- Target volume/chapter: `Vol.4 Chapter 16 onward`
+- Target volume/chapter: `Vol.4 Chapter 18 onward`
 - Impacted files: `Drafts/**`, `outline/**`, `lore_bible/**`, `orchestra/**`
 
 ## Open Risks
@@ -48,6 +48,7 @@
 - 2026-04-10 Vol.4 Chapters 10~11 are valid and passed the fifth checkpoint
 - 2026-04-10 Vol.4 Chapters 12~13 are valid and passed the sixth checkpoint
 - 2026-04-10 Vol.4 Chapters 14~15 are valid and passed the seventh checkpoint
+- 2026-04-10 Vol.4 Chapters 16~17 are valid and passed the eighth checkpoint
 
 ## Next Step
-- draft `Vol.4 Chapter 16`, then run the hard length gate, chapter audit, and the next checkpoint before counting progress.
+- draft `Vol.4 Chapter 18`, then run the hard length gate, chapter audit, and the next checkpoint before counting progress.
