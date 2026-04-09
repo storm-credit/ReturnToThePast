@@ -2,6 +2,8 @@
 
 이 문서는 RTTP 엔진에서 각 층이 무엇을 하고, 어디까지 책임지는지 분리해서 잠근다.
 
+필수 전문가 목록과 하네스별 기본 조합은 `REQUIRED_EXPERT_LOCK.md`를 우선 참조한다.
+
 ## 1. MCP
 
 `MCP`는 외부 도구와 데이터 접근층이다.
@@ -83,6 +85,7 @@ MCP는 `손과 눈`이지 `편집권`이 아니다.
 하네스는 `게이트`이지 `심판`이 아니다.
 
 하네스별 훅 조합은 [HARNESS_HOOK_MATRIX.md](HARNESS_HOOK_MATRIX.md)를 우선한다.
+하네스별 기본 전문가는 [REQUIRED_EXPERT_LOCK.md](REQUIRED_EXPERT_LOCK.md)를 우선한다.
 
 ## 6. 총괄 오케스트라
 

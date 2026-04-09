@@ -2,6 +2,8 @@
 
 이 문서는 총괄 오케스트라가 언제 어떤 전문가를 고용하는지 정리한 표다.
 
+상시 고정 전문가 기준은 `REQUIRED_EXPERT_LOCK.md`를 우선한다.
+
 핵심 원칙은 단순하다.
 
 - 총괄은 항상 `novel-orchestra-conductor`
@@ -163,6 +165,9 @@
 
 ## 6. 기본 고용 규칙
 
+필수 기본 전문가 잠금은 `REQUIRED_EXPERT_LOCK.md`를 기준으로 한다.  
+이 문서는 그 잠금을 바탕으로 `언제 호출하는가`를 더 풀어 쓴 운영 문서다.
+
 ### 설정집 단계
 - 총괄 단독으로 범위를 잠근다
 - 필요한 기본 전문가만 연다
@@ -173,6 +178,17 @@
 - 먼저 `structure`/`arc`/`foreshadow`/`cadence`로 설계를 잠근다
 - 그다음 `scene-smith`
 - 마지막에 `hook-doctor`와 `chapter-inspector`
+
+## 6-1. 잃어버리면 안 되는 기본 전문가
+
+아래 전문가는 앞으로 RTTP 오케스트라가 기본으로 기억해야 하는 고정 roster다.
+
+- 총괄: `novel-orchestra-conductor`
+- 설정집 기본: `character-architect`, `faction-strategist`, `location-cartographer`, `world-rule-keeper`, `timeline-historian`
+- 서사/집필 기본: `structure-architect`, `arc-psychologist`, `foreshadow-bookkeeper`, `serial-tension-engineer`, `scene-smith`, `chapter-inspector`
+- 검수/스트레스 테스트 기본 후보: `plausibility-warden`, `hook-doctor`, `reveal-choreographer`
+
+세분화 전문가와 하네스별 기본 조합은 `REQUIRED_EXPERT_LOCK.md`를 따른다.
 
 ---
 

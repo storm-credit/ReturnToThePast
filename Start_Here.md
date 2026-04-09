@@ -166,11 +166,13 @@
     *   이 작품 전용 작문 알고리즘, 총괄 권한, 하네스 실행 구조를 묶은 엔진 문서.
 5. **[총괄 권한 잠금](orchestra/CONDUCTOR_AUTHORITY_LOCK.md)**
     *   총괄 오케스트라만 캐논 승인과 병합 권한을 가진다는 잠금 문서.
-6. **[역할 맵](orchestra/MCP_SKILLS_AGENTS_HOOKS_HARNESS_MAP.md)**
+6. **[필수 전문가 잠금](orchestra/REQUIRED_EXPERT_LOCK.md)**
+    *   앞으로 잃어버리면 안 되는 기본 전문가 roster와 하네스별 기본 조합.
+7. **[역할 맵](orchestra/MCP_SKILLS_AGENTS_HOOKS_HARNESS_MAP.md)**
     *   MCP, 스킬, 에이전트, 훅, 하네스가 각각 어디까지 책임지는지 정리한 경계표.
-7. **[하네스 런타임 규칙](orchestra/HARNESS_RUNTIME_RULES.md)**
-    *   preflight, dispatch, merge, verify, checkpoint의 실행 순서를 잠근 런타임 문서.
-8. **[훅 카탈로그](orchestra/HOOK_CATALOG.md)**
+8. **[하네스 런타임 규칙](orchestra/HARNESS_RUNTIME_RULES.md)**
+     *   preflight, dispatch, merge, verify, checkpoint의 실행 순서를 잠근 런타임 문서.
+9. **[훅 카탈로그](orchestra/HOOK_CATALOG.md)**
     *   어떤 훅이 언제 발동하고 무엇을 경고하는지 정리한 실행 자동층 문서.
 9. **[하네스-훅 매트릭스](orchestra/HARNESS_HOOK_MATRIX.md)**
     *   Lore, Foreshadow, Storycraft, Smoke 하네스가 어떤 훅을 기본으로 태우는지 정리한 매핑표.
