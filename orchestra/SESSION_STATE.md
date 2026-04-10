@@ -50,6 +50,7 @@
 - 2026-04-10 Vol.4 Chapters 14~15 are valid and passed the seventh checkpoint
 - 2026-04-10 Vol.4 Chapters 16~17 are valid and passed the eighth checkpoint
 - 2026-04-10 Vol.4 Chapters 18~19 are valid and passed the ninth checkpoint
+- 2026-04-10 Vol.4 Chapters 20~21 are valid and passed the tenth checkpoint
 
 ## Next Step
-- draft `Vol.4 Chapter 20`, then run the hard length gate, chapter audit, and the next checkpoint before counting progress.
+- draft `Vol.4 Chapter 22`, then run the hard length gate, chapter audit, and the next checkpoint before counting progress.
