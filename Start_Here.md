@@ -13,7 +13,7 @@
 1.  **[15권 로드맵](outline/Series_Roadmap.md)**
     *   전체 줄거리, 회차별 타임 패러독스, 엔딩까지의 설계도.
 2.  **[시리즈 제작 고정 규칙](Guidelines/Series_Production_Constraints.md)**
-    *   권당 25화, 화당 공백 제외 3,500자 이상, 설계 문서 필수 규칙.
+    *   권당 25화, 화당 공백 제외 4,000자 이상, 설계 문서 필수 규칙.
 3.  **[시간여행 프레임](Guidelines/Time_Travel_Frame.md)**
     *   이 작품이 회귀물이 아니라 시간여행 패러독스물이라는 구조적 기준.
 4.  **[고유명사 작명 가이드](lore_bible/style/Naming_Style_Guide.md)**
@@ -44,7 +44,7 @@
 ---
 
 ## 2. 📚 현재 작업 축
-지금은 초안 집필보다 설정집 고정이 먼저입니다. 아래 문서는 앞으로 집필을 가능하게 만들 핵심 설계 축입니다.
+지금은 설정집 핵심 축을 유지한 채 집필과 환류를 병행합니다. 아래 문서는 현재 초안과 후반 구조를 함께 붙드는 핵심 설계 축입니다.
 
 1.  **[1권 세부 개요](outline/Vol_1_Outline.md)**
     *   1화~25화까지의 상세 플롯과 사건 전개.
@@ -148,6 +148,8 @@
 *   [중반부 감정 연속성](lore_bible/Mid_War_Emotional_Continuity.md): 4권부터 8권까지 전쟁 상흔, 공포, 소거, 행복 상실이 어떻게 누적되는지 고정한 문서.
 *   [전반부 복선 지도](lore_bible/Front_Half_Foreshadow_Map.md): 1권부터 5권까지 어떤 단서를 미리 심어야 후반 반전이 공정하게 보이는지 정리한 문서.
 *   [고정점 압력 지도](lore_bible/history/Fixed_Point_Pressure_Map.md): 어디가 고정점이고 어디가 분기점이며 압력이 어떻게 되돌아오는지 정리한 문서.
+*   [같은 사건의 다른 이름 장부](lore_bible/history/Same_Event_Different_Names_Register.md): 황궁, 학회, 성전, 하층이 같은 사건을 어떤 이름으로 다르게 기록하는지 잠근 장부.
+*   [조직 기원 반전 후보 지도](lore_bible/history/Origin_Reversal_Candidate_Map.md): 후영, 항체, 정화 의식, 봉인 구역을 어떤 방식으로 반전의 기원으로 쓸지 정리한 후보 지도.
 *   [엔딩 수렴 지도](lore_bible/Ending_Convergence_Map.md): 11권부터 15권까지 반전, 대가, 인간적 여운이 어떤 순서로 결말에 모여야 하는지 정리한 문서.
 
 ---

@@ -147,6 +147,8 @@
 *   `[Timeline_of_Doom.md]`: **멸망 타임라인**.
 *   `[Fixed_Points_and_Branches.md]`: **고정점/분기점 표**.
 *   `[Fixed_Point_Pressure_Map.md]`: **고정점 압력 지도** (어떤 사건이 고정점인지, 어떤 개입이 분기점인지, 압력이 어떻게 되돌아오는지 정리한 기준표).
+*   `[Same_Event_Different_Names_Register.md]`: **같은 사건의 다른 이름 장부** (황궁, 학회, 성전, 하층이 같은 사건을 어떤 이름으로 다르게 기록하는지 잠근 장부).
+*   `[Origin_Reversal_Candidate_Map.md]`: **조직 기원 반전 후보 지도** (후영, 항체, 정화 의식, 봉인 구역이 어떤 방식으로 조직 기원 반전과 이어질 수 있는지 정리한 후보표).
 *   `[Event_Cards/]`: **사건 카드** 6건 (개별 사건 상세).
 
 ## 8.5. ✒️ 문체와 작명
