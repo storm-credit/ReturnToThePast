@@ -52,6 +52,8 @@
 - 2026-04-10 Vol.4 Chapters 18~19 are valid and passed the ninth checkpoint
 - 2026-04-10 Vol.4 Chapters 20~21 are valid and passed the tenth checkpoint
 - 2026-04-10 Vol.4 Chapters 22~23 are valid and passed the eleventh checkpoint
+- 2026-04-10 Vol.4 Chapters 24~25 are valid and passed the twelfth checkpoint
+- 2026-04-10 Vol.4 full-audit passed with watchpoints
 
 ## Next Step
-- draft `Vol.4 Chapter 24`, then run the hard length gate, chapter audit, and the next checkpoint before counting progress.
+- run the Vol.4 -> Vol.5 bridge audit, then draft `Vol.5 Chapter 1` under the locked launch packet.
