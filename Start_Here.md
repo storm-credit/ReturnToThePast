@@ -150,6 +150,9 @@
 *   [고정점 압력 지도](lore_bible/history/Fixed_Point_Pressure_Map.md): 어디가 고정점이고 어디가 분기점이며 압력이 어떻게 되돌아오는지 정리한 문서.
 *   [같은 사건의 다른 이름 장부](lore_bible/history/Same_Event_Different_Names_Register.md): 황궁, 학회, 성전, 하층이 같은 사건을 어떤 이름으로 다르게 기록하는지 잠근 장부.
 *   [조직 기원 반전 후보 지도](lore_bible/history/Origin_Reversal_Candidate_Map.md): 후영, 항체, 정화 의식, 봉인 구역을 어떤 방식으로 반전의 기원으로 쓸지 정리한 후보 지도.
+*   [후반 관계 재배치 지도](lore_bible/characters/Late_Arc_Relationship_Reposition_Map.md): 리아, 아이리스, 발타자르, 후영/영시 축이 후반에 어떤 자리로 재배치될지 잠근 지도.
+*   [시간 잔재 기록 장부](lore_bible/history/Temporal_Residual_Record_Ledger.md): 후영, 영시, 기억 파편, 밀린 박자가 각 기관에서 어떤 이름으로 기록되는지 잠근 장부.
+*   [강제 귀환 잔재 문법](lore_bible/rules/Forced_Return_Residual_Syntax.md): 후영, 영시, 기억 파편, 항체가 어떤 비용과 어긋남으로 작동하는지 정리한 문법서.
 *   [엔딩 수렴 지도](lore_bible/Ending_Convergence_Map.md): 11권부터 15권까지 반전, 대가, 인간적 여운이 어떤 순서로 결말에 모여야 하는지 정리한 문서.
 
 ---
