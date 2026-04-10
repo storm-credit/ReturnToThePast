@@ -63,6 +63,9 @@
   - 목표, 방해, 압박, 전환, 잔여 질문을 각 화에 남긴다.
 - **장면 압력표**
   - 장면별로 긴장, 비용, 전환, 끝 압력을 가시화한다.
+- **문피아 입구 레이어**
+  - 첫 5줄, 첫 20줄에서 설명보다 상황과 위기를 먼저 배치한다.
+  - 다만 RTTP는 일반 회귀 훅이 아니라 `타임트래블 패러독스 훅`을 쓴다.
 - **중2병 필터**
   - 허세 대사, 자기 신화화, 과장된 파멸 미학, 장엄 독백을 차단한다.
 
@@ -124,6 +127,7 @@ RTTP 엔진은 보통 아래 산출물 중 하나를 만든다.
 - 사전 핸드오프 패킷
 - 스모크 감사 결과
 - 체크포인트 커밋
+- 입구 리팩토링 지시서
 
 ---
 
@@ -134,4 +138,5 @@ RTTP 엔진은 보통 아래 산출물 중 하나를 만든다.
 - 총괄 역할 잠금: [CONDUCTOR_AUTHORITY_LOCK.md](CONDUCTOR_AUTHORITY_LOCK.md)
 - 역할 지도: [MCP_SKILLS_AGENTS_HOOKS_HARNESS_MAP.md](MCP_SKILLS_AGENTS_HOOKS_HARNESS_MAP.md)
 - 런타임 잠금: [HARNESS_RUNTIME_RULES.md](HARNESS_RUNTIME_RULES.md)
+- 입구 레이어: [MUNPIA_ENTRANCE_LAYER.md](MUNPIA_ENTRANCE_LAYER.md)
 - 전용 모듈: [modules/rttp-engine/README.md](modules/rttp-engine/README.md)
