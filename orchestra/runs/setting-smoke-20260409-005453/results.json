@@ -1,0 +1,78 @@
+﻿{
+    "generated_at":  "2026-04-09 00:54:53 +09:00",
+    "overall_status":  "FAIL",
+    "rules_file":  "orchestra/scripts/setting-audit-rules.json",
+    "output_dir":  "orchestra/runs/setting-smoke-20260409-005453",
+    "checks":  [
+                   {
+                       "CheckId":  "canon-conflict-check",
+                       "Status":  "FAIL",
+                       "Priority":  1,
+                       "Summary":  "2 active canon conflict pattern(s) matched."
+                   },
+                   {
+                       "CheckId":  "banned-style-check",
+                       "Status":  "PASS",
+                       "Priority":  3,
+                       "Summary":  "No gore-forward diction was found in canon and planning docs."
+                   },
+                   {
+                       "CheckId":  "chapter-count-check",
+                       "Status":  "PASS",
+                       "Priority":  3,
+                       "Summary":  "Every outline file contains 25 chapter rows."
+                   },
+                   {
+                       "CheckId":  "ending-convergence-marker-check",
+                       "Status":  "PASS",
+                       "Priority":  3,
+                       "Summary":  "Ending convergence markers are present."
+                   },
+                   {
+                       "CheckId":  "foreshadow-ledger-check",
+                       "Status":  "PASS",
+                       "Priority":  3,
+                       "Summary":  "Foreshadow ledger, IDs, statuses, and companion files are aligned."
+                   },
+                   {
+                       "CheckId":  "front-half-marker-check",
+                       "Status":  "PASS",
+                       "Priority":  3,
+                       "Summary":  "Front-half clue map markers are present."
+                   },
+                   {
+                       "CheckId":  "required-files-check",
+                       "Status":  "PASS",
+                       "Priority":  3,
+                       "Summary":  "All required source-of-truth files are present."
+                   },
+                   {
+                       "CheckId":  "supporting-witness-marker-check",
+                       "Status":  "PASS",
+                       "Priority":  3,
+                       "Summary":  "Supporting-cast witness markers are present."
+                   },
+                   {
+                       "CheckId":  "volume-pair-check",
+                       "Status":  "PASS",
+                       "Priority":  3,
+                       "Summary":  "All 15 volume outline/timeline pairs exist."
+                   }
+               ],
+    "findings":  [
+                     {
+                         "CheckId":  "canon-conflict-check",
+                         "Status":  "FAIL",
+                         "Priority":  1,
+                         "Title":  "C-003",
+                         "Summary":  "Aiden must not be written as the caster of a regression spell. Matches: Guidelines/Banned_Surface_Ledger.md:26"
+                     },
+                     {
+                         "CheckId":  "canon-conflict-check",
+                         "Status":  "FAIL",
+                         "Priority":  2,
+                         "Title":  "C-005",
+                         "Summary":  "Legacy gamey labels for myth-tier time abilities should not remain in active canon. Matches: Guidelines/Banned_Surface_Ledger.md:19"
+                     }
+                 ]
+}

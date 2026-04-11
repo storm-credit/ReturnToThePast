@@ -1,0 +1,65 @@
+﻿{
+    "generated_at":  "2026-04-07 19:59:57 +09:00",
+    "overall_status":  "PASS",
+    "rules_file":  "orchestra/scripts/setting-audit-rules.json",
+    "output_dir":  "orchestra/runs/setting-smoke-20260407-195956",
+    "checks":  [
+                   {
+                       "CheckId":  "banned-style-check",
+                       "Status":  "PASS",
+                       "Priority":  3,
+                       "Summary":  "No gore-forward diction was found in canon and planning docs."
+                   },
+                   {
+                       "CheckId":  "canon-conflict-check",
+                       "Status":  "PASS",
+                       "Priority":  3,
+                       "Summary":  "No locked canon conflict phrases were found in active canon files."
+                   },
+                   {
+                       "CheckId":  "chapter-count-check",
+                       "Status":  "PASS",
+                       "Priority":  3,
+                       "Summary":  "Every outline file contains 25 chapter rows."
+                   },
+                   {
+                       "CheckId":  "ending-convergence-marker-check",
+                       "Status":  "PASS",
+                       "Priority":  3,
+                       "Summary":  "Ending convergence markers are present."
+                   },
+                   {
+                       "CheckId":  "foreshadow-ledger-check",
+                       "Status":  "PASS",
+                       "Priority":  3,
+                       "Summary":  "Foreshadow ledger, IDs, statuses, and companion files are aligned."
+                   },
+                   {
+                       "CheckId":  "front-half-marker-check",
+                       "Status":  "PASS",
+                       "Priority":  3,
+                       "Summary":  "Front-half clue map markers are present."
+                   },
+                   {
+                       "CheckId":  "required-files-check",
+                       "Status":  "PASS",
+                       "Priority":  3,
+                       "Summary":  "All required source-of-truth files are present."
+                   },
+                   {
+                       "CheckId":  "supporting-witness-marker-check",
+                       "Status":  "PASS",
+                       "Priority":  3,
+                       "Summary":  "Supporting-cast witness markers are present."
+                   },
+                   {
+                       "CheckId":  "volume-pair-check",
+                       "Status":  "PASS",
+                       "Priority":  3,
+                       "Summary":  "All 15 volume outline/timeline pairs exist."
+                   }
+               ],
+    "findings":  {
+
+                 }
+}

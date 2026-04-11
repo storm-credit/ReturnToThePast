@@ -1,0 +1,69 @@
+﻿{
+    "generated_at":  "2026-04-07 14:17:03 +09:00",
+    "overall_status":  "FAIL",
+    "rules_file":  "orchestra/scripts/setting-audit-rules.json",
+    "output_dir":  "orchestra/runs/setting-smoke-20260407-141703",
+    "checks":  [
+                   {
+                       "CheckId":  "ending-convergence-marker-check",
+                       "Status":  "FAIL",
+                       "Priority":  2,
+                       "Summary":  "The ending convergence map is missing one or more locked late-arc anchors. Missing markers: Vol\\. 11, Vol\\. 12, Vol\\. 13, Vol\\. 14, Vol\\. 15"
+                   },
+                   {
+                       "CheckId":  "banned-style-check",
+                       "Status":  "PASS",
+                       "Priority":  3,
+                       "Summary":  "No gore-forward diction was found in canon and planning docs."
+                   },
+                   {
+                       "CheckId":  "canon-conflict-check",
+                       "Status":  "PASS",
+                       "Priority":  3,
+                       "Summary":  "No locked canon conflict phrases were found in active canon files."
+                   },
+                   {
+                       "CheckId":  "chapter-count-check",
+                       "Status":  "PASS",
+                       "Priority":  3,
+                       "Summary":  "Every outline file contains 25 chapter rows."
+                   },
+                   {
+                       "CheckId":  "foreshadow-ledger-check",
+                       "Status":  "PASS",
+                       "Priority":  3,
+                       "Summary":  "Foreshadow ledger, IDs, statuses, and companion files are aligned."
+                   },
+                   {
+                       "CheckId":  "front-half-marker-check",
+                       "Status":  "PASS",
+                       "Priority":  3,
+                       "Summary":  "Front-half clue map markers are present."
+                   },
+                   {
+                       "CheckId":  "required-files-check",
+                       "Status":  "PASS",
+                       "Priority":  3,
+                       "Summary":  "All required source-of-truth files are present."
+                   },
+                   {
+                       "CheckId":  "supporting-witness-marker-check",
+                       "Status":  "PASS",
+                       "Priority":  3,
+                       "Summary":  "Supporting-cast witness markers are present."
+                   },
+                   {
+                       "CheckId":  "volume-pair-check",
+                       "Status":  "PASS",
+                       "Priority":  3,
+                       "Summary":  "All 15 volume outline/timeline pairs exist."
+                   }
+               ],
+    "findings":  {
+                     "CheckId":  "ending-convergence-marker-check",
+                     "Status":  "FAIL",
+                     "Priority":  2,
+                     "Title":  "Ending convergence map drift",
+                     "Summary":  "The ending convergence map is missing one or more locked late-arc anchors. Missing markers: Vol\\. 11, Vol\\. 12, Vol\\. 13, Vol\\. 14, Vol\\. 15"
+                 }
+}

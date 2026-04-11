@@ -7,8 +7,8 @@
 ## 현재 요약
 
 - 현재 초안 총수: `69화`
-- `4,000자 미만` 재작성 대상: `5화`
-- `4,000자 이상` 통과 초안: `64화`
+- `4,000자 미만` 재작성 대상: `0화`
+- `4,000자 이상` 통과 초안: `69화`
 - 이 문서는 `4,000자 하드룰 전환 큐`의 단일 진실 원천이다.
 
 ## 병렬 분배 원칙
@@ -22,28 +22,27 @@
 
 ### Wave A: 즉시 상향
 
-- [Vol_1_Chapter_22.md](/C:/Users/Raino%20PI/Documents/New%20project/repo_inspect/Drafts/Vol_1/Vol_1_Chapter_22.md) `3559자`
-- [Vol_1_Chapter_23.md](/C:/Users/Raino%20PI/Documents/New%20project/repo_inspect/Drafts/Vol_1/Vol_1_Chapter_23.md) `3500자`
-- [Vol_2_Chapter_2.md](/C:/Users/Raino%20PI/Documents/New%20project/repo_inspect/Drafts/Vol_2/Vol_2_Chapter_2.md) `3688자`
-- [Vol_2_Chapter_13.md](/C:/Users/Raino%20PI/Documents/New%20project/repo_inspect/Drafts/Vol_2/Vol_2_Chapter_13.md) `3753자`
-- [Vol_2_Chapter_14.md](/C:/Users/Raino%20PI/Documents/New%20project/repo_inspect/Drafts/Vol_2/Vol_2_Chapter_14.md) `3501자`
+- 완료:
+  - [Vol_2_Chapter_2.md](/C:/Users/Raino%20PI/Documents/New%20project/repo_inspect/Drafts/Vol_2/Vol_2_Chapter_2.md) `4193자`
+  - [Vol_2_Chapter_13.md](/C:/Users/Raino%20PI/Documents/New%20project/repo_inspect/Drafts/Vol_2/Vol_2_Chapter_13.md) `4021자`
+  - [Vol_2_Chapter_14.md](/C:/Users/Raino%20PI/Documents/New%20project/repo_inspect/Drafts/Vol_2/Vol_2_Chapter_14.md) `4042자`
 
 ## 권별 현황
 
 ### Vol_1
 
-- 대상 화수: `2`
-- 남은 화:
-  - [Vol_1_Chapter_22.md](/C:/Users/Raino%20PI/Documents/New%20project/repo_inspect/Drafts/Vol_1/Vol_1_Chapter_22.md)
-  - [Vol_1_Chapter_23.md](/C:/Users/Raino%20PI/Documents/New%20project/repo_inspect/Drafts/Vol_1/Vol_1_Chapter_23.md)
+- 대상 화수: `0`
+- 메모:
+  - [Vol_1_Chapter_22.md](/C:/Users/Raino%20PI/Documents/New%20project/repo_inspect/Drafts/Vol_1/Vol_1_Chapter_22.md) `4163자` 상향 완료
+  - [Vol_1_Chapter_23.md](/C:/Users/Raino%20PI/Documents/New%20project/repo_inspect/Drafts/Vol_1/Vol_1_Chapter_23.md) `4155자` 상향 완료
 
 ### Vol_2
 
-- 대상 화수: `3`
-- 남은 화:
-  - [Vol_2_Chapter_2.md](/C:/Users/Raino%20PI/Documents/New%20project/repo_inspect/Drafts/Vol_2/Vol_2_Chapter_2.md)
-  - [Vol_2_Chapter_13.md](/C:/Users/Raino%20PI/Documents/New%20project/repo_inspect/Drafts/Vol_2/Vol_2_Chapter_13.md)
-  - [Vol_2_Chapter_14.md](/C:/Users/Raino%20PI/Documents/New%20project/repo_inspect/Drafts/Vol_2/Vol_2_Chapter_14.md)
+- 대상 화수: `0`
+- 메모:
+  - [Vol_2_Chapter_2.md](/C:/Users/Raino%20PI/Documents/New%20project/repo_inspect/Drafts/Vol_2/Vol_2_Chapter_2.md) `4193자` 상향 완료
+  - [Vol_2_Chapter_13.md](/C:/Users/Raino%20PI/Documents/New%20project/repo_inspect/Drafts/Vol_2/Vol_2_Chapter_13.md) `4021자` 상향 완료
+  - [Vol_2_Chapter_14.md](/C:/Users/Raino%20PI/Documents/New%20project/repo_inspect/Drafts/Vol_2/Vol_2_Chapter_14.md) `4042자` 상향 완료
 
 ### Vol_3
 
@@ -53,7 +52,6 @@
 
 ## 다음 액션
 
-1. Vol_1 22~23화 상향
-2. Vol_2 2화 상향
-3. Vol_2 13~14화 상향
-4. 상향 완료 후 체크포인트/배치 리뷰 문서 재동기화
+1. `4,000자 미만` 신규 FAIL 발생 여부만 추적
+2. 체크포인트/배치 리뷰 문서와 PASS 집계 유지 동기화
+3. 다음 drafting-support 큐로 전환

@@ -25,6 +25,7 @@
 - `templates/WORK_PACKET.md`: 총괄 dispatch 포맷
 - `templates/AGENT_REPORT.md`: 전문가 결과 보고 포맷
 - `templates/REVISION_LEDGER.md`: 병합된 수정 기록
+- `EXECUTION_PROGRESS_LEDGER.md`: `진행` 요청과 pass별 사용층/다음 큐 기록
 - `scripts/Build-LoreAuditPackets.ps1`: lore audit packet 빌더
 
 ## 운영 규칙
@@ -35,6 +36,7 @@
 4. 전문가들은 packet과 required reads 기준으로만 움직인다.
 5. 전문가들은 파일 수정 전에 구조화된 findings를 먼저 돌려준다.
 6. 총괄자는 서로 양립 가능한 수정만 캐논 파일에 병합한다.
+7. 사용자가 `진행` 또는 `계속`을 요청하면, 총괄은 pass 종료 전 `EXECUTION_PROGRESS_LEDGER.md`에 실제 사용한 총괄/전문가/MCP/스킬/훅/하네스와 다음 큐를 남긴다.
 
 추가 잠금:
 - 총괄의 위임 경계는 `CONDUCTOR_AUTHORITY_LOCK.md`를 따른다.

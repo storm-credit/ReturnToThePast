@@ -56,6 +56,7 @@
 - 2026-04-10 Vol.4 full-audit passed with watchpoints
 - 2026-04-10 Vol.4 -> Vol.5 bridge audit passed
 - 2026-04-10 Vol.5 Chapters 1~2 are valid and passed the first checkpoint
+- 2026-04-10 `진행` 요청은 `orchestra/EXECUTION_PROGRESS_LEDGER.md`에 실제 사용층과 재개 지점을 남기는 방식으로 보고한다
 
 ## Next Step
 - draft `Vol.5 Chapter 3`, then run the hard length gate, chapter audit, and the next checkpoint before counting progress.

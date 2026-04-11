@@ -1,0 +1,4 @@
+interface:
+  display_name: "Progress Ledger"
+  short_description: "Track orchestra progress, runtime tool usage, and next queue."
+  default_prompt: "Continue work, log conductor/specialists/MCP/skills/hooks/harnesses used, and update the active progress ledger."

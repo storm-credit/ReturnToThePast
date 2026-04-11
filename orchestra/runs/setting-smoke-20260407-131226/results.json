@@ -1,0 +1,85 @@
+﻿{
+    "generated_at":  "2026-04-07 13:12:27 +09:00",
+    "overall_status":  "FAIL",
+    "rules_file":  "orchestra/scripts/setting-audit-rules.json",
+    "output_dir":  "orchestra/runs/setting-smoke-20260407-131226",
+    "checks":  [
+                   {
+                       "CheckId":  "ending-convergence-marker-check",
+                       "Status":  "FAIL",
+                       "Priority":  2,
+                       "Summary":  "The ending convergence map is missing one or more locked late-arc anchors. Missing markers: Ria"
+                   },
+                   {
+                       "CheckId":  "front-half-marker-check",
+                       "Status":  "FAIL",
+                       "Priority":  2,
+                       "Summary":  "The front-half clue map is missing one or more locked reveal clusters. Missing markers: False regression, Emotional cost, Baltazar red herring, Echo identity, Ordinary happiness as final desire, Debt and collection motif"
+                   },
+                   {
+                       "CheckId":  "supporting-witness-marker-check",
+                       "Status":  "FAIL",
+                       "Priority":  2,
+                       "Summary":  "The supporting-cast witness map is missing one or more locked witness lanes. Missing markers: Lyud, Varg, Thomas, Fenrir, Black Dog"
+                   },
+                   {
+                       "CheckId":  "banned-style-check",
+                       "Status":  "PASS",
+                       "Priority":  3,
+                       "Summary":  "No gore-forward diction was found in canon and planning docs."
+                   },
+                   {
+                       "CheckId":  "canon-conflict-check",
+                       "Status":  "PASS",
+                       "Priority":  3,
+                       "Summary":  "No locked canon conflict phrases were found in active canon files."
+                   },
+                   {
+                       "CheckId":  "chapter-count-check",
+                       "Status":  "PASS",
+                       "Priority":  3,
+                       "Summary":  "Every outline file contains 25 chapter rows."
+                   },
+                   {
+                       "CheckId":  "foreshadow-ledger-check",
+                       "Status":  "PASS",
+                       "Priority":  3,
+                       "Summary":  "Foreshadow ledger, IDs, statuses, and companion files are aligned."
+                   },
+                   {
+                       "CheckId":  "required-files-check",
+                       "Status":  "PASS",
+                       "Priority":  3,
+                       "Summary":  "All required source-of-truth files are present."
+                   },
+                   {
+                       "CheckId":  "volume-pair-check",
+                       "Status":  "PASS",
+                       "Priority":  3,
+                       "Summary":  "All 15 volume outline/timeline pairs exist."
+                   }
+               ],
+    "findings":  [
+                     {
+                         "CheckId":  "ending-convergence-marker-check",
+                         "Status":  "FAIL",
+                         "Priority":  2,
+                         "Title":  "Ending convergence map drift",
+                         "Summary":  "The ending convergence map is missing one or more locked late-arc anchors. Missing markers: Ria"
+                     },
+                     {
+                         "CheckId":  "front-half-marker-check",
+                         "Status":  "FAIL",
+                         "Priority":  2,
+                         "Title":  "Front-half clue map drift",
+                         "Summary":  "The front-half clue map is missing one or more locked reveal clusters. Missing markers: False regression, Emotional cost, Baltazar red herring, Echo identity, Ordinary happiness as final desire, Debt and collection motif"
+                     },
+                     {
+                         "CheckId":  "supporting-witness-marker-check",
+                         "Status":  "FAIL",
+                         "Priority":  2,
+                         "Title":  "Supporting-cast witness map drift",
+                         "Summary":  "The supporting-cast witness map is missing one or more locked witness lanes. Missing markers: Lyud, Varg, Thomas, Fenrir, Black Dog"
+                     }
+                 ]
+}
