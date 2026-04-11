@@ -1526,6 +1526,199 @@
 - 재개 지점:
   - 제7권 `제11화 잘못된 박자`, `제12화 구조의 응답`
 
+## 2026-04-11 14:43 KST
+
+- 모드: `vol7-batch-9 drafting`
+- 병목: `빈눈회`가 위협과 규칙 설명에만 머물면 루프형 감옥의 긴장이 평평해지므로, `에이든이 상대 박자를 역이용하는 첫 반격`과 `그 반격이 아침 표면을 실제로 바꾸는 증거`가 필요한 상태.
+- 현재 작업: 제7권 `제17화`, `제18화` 초안 작성 및 체크포인트 잠금
+- 다음 작업: 제7권 `제19화`, `제20화`에서 `조금 달라진 평범한 하루`와 `그 평범함의 축적` 전진
+- 실행 방식: `총괄 + 전문가 관점 반영`
+- 총괄: `novel-orchestra-conductor`
+- 전문가:
+  - `Maxwell`
+  - `Hitchcock`
+- MCP: `none`
+- 스킬:
+  - `novel-orchestra-conductor`
+  - `progress-ledger`
+- 훅: `none`
+- 하네스: `none`
+- 수정 파일:
+  - `Drafts/Vol_7/Vol_7_Chapter_17.md`
+  - `Drafts/Vol_7/Vol_7_Chapter_18.md`
+  - `orchestra/VOL7_BATCH_9_CHECKPOINT_2026-04-11.md`
+  - `orchestra/DRAFTING_PROGRESS_TRACKER.md`
+  - `orchestra/EXECUTION_PROGRESS_LEDGER.md`
+- 결과:
+  - 제17화 `역조건`에서 에이든이 `거절도 응답` 규칙을 뒤집어 `빵집 창가 둘째 칸 공백`을 요구하고, 대가로 `선취권 보류`를 내놓는 첫 반격 구조를 고정
+  - 제18화 `웃음`에서 그 역조건이 실제 아침 표면에 반영되는 첫 증거와 `에이든의 첫 웃음`을 같은 장면 안에 묶어 `루프 안 일상 변형`을 가시화
+  - `Vol_7_Chapter_17.md` 공백 제외 `4032자` 통과
+  - `Vol_7_Chapter_18.md` 공백 제외 `4045자` 통과
+  - `4,000자 하드룰 적합성` 집계를 `초안 168화 중 168화 통과`로 갱신
+- 재개 지점:
+  - 제7권 `제19화`, `제20화`
+
+## 2026-04-11 15:02 KST
+
+- 모드: `vol7-batch-10 drafting`
+- 병목: `평범한 하루`가 단순 휴지 구간으로 읽히지 않으려면, 그 평범함이 `탈출의 대가`와 직접 연결되고 `세계냐 감각이냐`의 선택 구조가 본문에서 명확히 드러나야 하는 상태.
+- 현재 작업: 제7권 `제19화`, `제20화` 초안 작성 및 체크포인트 잠금
+- 다음 작업: 제7권 `제21화`, `제22화`에서 `마지막 평범한 하루`와 `빵집에서의 이별` 전진
+- 실행 방식: `총괄 + 전문가 관점 반영`
+- 총괄: `novel-orchestra-conductor`
+- 전문가:
+  - `Hitchcock`
+  - `Sophocles`
+- MCP: `none`
+- 스킬:
+  - `novel-orchestra-conductor`
+  - `progress-ledger`
+- 훅: `none`
+- 하네스: `none`
+- 수정 파일:
+  - `Drafts/Vol_7/Vol_7_Chapter_19.md`
+  - `Drafts/Vol_7/Vol_7_Chapter_20.md`
+  - `orchestra/VOL7_BATCH_10_CHECKPOINT_2026-04-11.md`
+  - `orchestra/DRAFTING_PROGRESS_TRACKER.md`
+  - `orchestra/EXECUTION_PROGRESS_LEDGER.md`
+- 결과:
+  - 제19화 `대가`에서 `밖으로 나갈 때 웃음, 온기, 편안함 같은 생활 감각이 벗겨질 수 있다`는 루프의 진짜 비용을 명문화
+  - 제20화 `선택`에서 `남으면 감각 / 나가면 세계`의 구조를 회색 외투 인영과의 대화로 정면화하고, 에이든이 지키고 싶은 생활 목록을 의식적으로 기록하기 시작하게 만듦
+  - `Vol_7_Chapter_19.md` 공백 제외 `4001자` 통과
+  - `Vol_7_Chapter_20.md` 공백 제외 `4069자` 통과
+  - `4,000자 하드룰 적합성` 집계를 `초안 170화 중 170화 통과`로 갱신
+- 재개 지점:
+  - 제7권 `제21화`, `제22화`
+
+## 2026-04-11 15:32 KST
+
+- 모드: `vol7-batch-11 drafting`
+- 병목: `평범한 하루`의 가치가 충분히 쌓이지 않으면 이후 `결심`과 `이별`의 무게가 약해지므로, 생활 감각을 구체적으로 축적하고 `말하지 못한 작별`을 본문 사건으로 만들어야 하는 상태.
+- 현재 작업: 제7권 `제21화`, `제22화` 초안 작성 및 체크포인트 잠금
+- 다음 작업: 제7권 `제23화`, `제24화`에서 `고양이에게`, `결심` 전진
+- 실행 방식: `총괄 + 전문가 관점 반영`
+- 총괄: `novel-orchestra-conductor`
+- 전문가:
+  - `Rilke`
+  - `Sophocles`
+- MCP: `none`
+- 스킬:
+  - `novel-orchestra-conductor`
+  - `progress-ledger`
+- 훅: `none`
+- 하네스: `none`
+- 수정 파일:
+  - `Drafts/Vol_7/Vol_7_Chapter_21.md`
+  - `Drafts/Vol_7/Vol_7_Chapter_22.md`
+  - `orchestra/VOL7_BATCH_11_CHECKPOINT_2026-04-11.md`
+  - `orchestra/DRAFTING_PROGRESS_TRACKER.md`
+  - `orchestra/EXECUTION_PROGRESS_LEDGER.md`
+- 결과:
+  - 제21화 `1847번째 아침`에서 에이든이 마지막 평범한 하루를 `형태`로 접어 넣으며 생활 감각을 의식적으로 축적
+  - 제22화 `빵집에서의 이별`에서 `맛있었습니다`와 `내일도 오세요`를 통해 생활 문장만으로 이루어진 작별의 결을 고정
+  - `Vol_7_Chapter_21.md` 공백 제외 `4001자` 통과
+  - `Vol_7_Chapter_22.md` 공백 제외 `4000자` 통과
+  - `4,000자 하드룰 적합성` 집계를 `초안 172화 중 172화 통과`로 갱신
+- 재개 지점:
+  - 제7권 `제23화`, `제24화`
+
+## 2026-04-11 15:41 KST
+
+- 모드: `vol7-batch-12 drafting`
+- 병목: 권말 직전 구간에서 `이별`과 `결심`이 충분히 구체적이지 않으면 제25화의 탈출 준비가 선언으로만 읽히기 쉬우므로, `생활적 상실`과 `실무적 결심`을 함께 고정해야 하는 상태.
+- 현재 작업: 제7권 `제23화`, `제24화` 초안 작성 및 체크포인트 잠금
+- 다음 작업: 제7권 `제25화`와 권 단위 체크포인트
+- 실행 방식: `총괄 + 전문가 관점 반영`
+- 총괄: `novel-orchestra-conductor`
+- 전문가:
+  - `Rilke`
+  - `Hitchcock`
+- MCP: `none`
+- 스킬:
+  - `novel-orchestra-conductor`
+  - `progress-ledger`
+- 훅: `none`
+- 하네스: `none`
+- 수정 파일:
+  - `Drafts/Vol_7/Vol_7_Chapter_23.md`
+  - `Drafts/Vol_7/Vol_7_Chapter_24.md`
+  - `orchestra/VOL7_BATCH_12_CHECKPOINT_2026-04-11.md`
+  - `orchestra/DRAFTING_PROGRESS_TRACKER.md`
+  - `orchestra/EXECUTION_PROGRESS_LEDGER.md`
+- 결과:
+  - 제23화 `고양이에게`에서 말 없는 이별과 `울지 못한 슬픔`을 구체적 생활 감각으로 고정
+  - 제24화 `결심`에서 `이 감정을 기억하겠다 / 잃더라도`를 중심 문장으로 잠그고, 감정적 결심이 실제 준비 동작으로 바뀌는 지점까지 전진
+  - `Vol_7_Chapter_23.md` 공백 제외 `4000자` 통과
+  - `Vol_7_Chapter_24.md` 공백 제외 `4000자` 통과
+  - `4,000자 하드룰 적합성` 집계를 `초안 174화 중 174화 통과`로 갱신
+- 재개 지점:
+  - 제7권 `제25화`, 권 단위 체크포인트
+
+## 2026-04-11 16:24 KST
+
+- 모드: `vol7-finale + bridge`
+- 병목: 권말이 `감정적 결심`에서 멈추면 다음 권 초반이 다시 설명을 반복하게 되므로, `마지막 반복 준비`를 실제 동작으로 닫고 제8권 초반을 `실행 파트`로 곧장 연결해야 하는 상태.
+- 현재 작업: 제7권 `제25화` 초안 작성, 권 단위 체크포인트, 제7권 -> 제8권 브리지 점검
+- 다음 작업: 제8권 `제1화`, `제2화`
+- 실행 방식: `총괄 + 전문가 관점 반영`
+- 총괄: `novel-orchestra-conductor`
+- 전문가:
+  - `Sophocles`
+  - `Rilke`
+- MCP: `none`
+- 스킬:
+  - `novel-orchestra-conductor`
+  - `progress-ledger`
+- 훅: `none`
+- 하네스: `none`
+- 수정 파일:
+  - `Drafts/Vol_7/Vol_7_Chapter_25.md`
+  - `orchestra/VOL7_BATCH_13_CHECKPOINT_2026-04-11.md`
+  - `orchestra/VOL7_VOLUME_CHECKPOINT_2026-04-11.md`
+  - `orchestra/VOL7_TO_VOL8_BRIDGE_AUDIT_2026-04-11.md`
+  - `orchestra/DRAFTING_PROGRESS_TRACKER.md`
+  - `orchestra/EXECUTION_PROGRESS_LEDGER.md`
+- 결과:
+  - 제25화 `끝없는 하루의 끝`에서 감정적 결심을 `가져갈 것 / 두고 갈 것 / 동선 확인 / 첫걸음`으로 전환해 마지막 반복 준비를 완료
+  - 제7권 권 단위 종합 감사를 통해 권 전체를 `생활 감각을 배우고 잃을 준비를 하는 감옥`으로 정리
+  - 제7권 -> 제8권 브리지에서 `1848번째 아침`은 재설명이 아니라 `마지막 반복 실행` 파트여야 한다는 원칙을 고정
+  - `Vol_7_Chapter_25.md` 공백 제외 `4002자` 통과
+  - `4,000자 하드룰 적합성` 집계를 `초안 175화 중 175화 통과`로 갱신
+- 재개 지점:
+  - 제8권 `제1화`, `제2화`
+
+## 2026-04-11 16:41 KST
+
+- 모드: `vol8-batch-1 drafting`
+- 병목: 제8권 초반이 제7권 후반의 감상 반복으로 읽히면 `행복의 대가`가 약해지므로, `마지막 반복의 실행`과 `잃기 전 감각 채취`를 분명히 세워야 하는 상태.
+- 현재 작업: 제8권 `제1화`, `제2화` 초안 작성 및 체크포인트 잠금
+- 다음 작업: 제8권 `제3화`, `제4화`
+- 실행 방식: `총괄 + 전문가 관점 반영`
+- 총괄: `novel-orchestra-conductor`
+- 전문가:
+  - `Rilke`
+  - `Hitchcock`
+- MCP: `none`
+- 스킬:
+  - `novel-orchestra-conductor`
+  - `progress-ledger`
+- 훅: `none`
+- 하네스: `none`
+- 수정 파일:
+  - `Drafts/Vol_8/Vol_8_Chapter_1.md`
+  - `Drafts/Vol_8/Vol_8_Chapter_2.md`
+  - `orchestra/VOL8_BATCH_1_CHECKPOINT_2026-04-11.md`
+  - `orchestra/DRAFTING_PROGRESS_TRACKER.md`
+  - `orchestra/EXECUTION_PROGRESS_LEDGER.md`
+- 결과:
+  - 제8권 제1화 `1848번째 아침`에서 마지막 반복을 `끝을 알기 때문에 더 또렷하게 겪는 아침`으로 고정
+  - 제8권 제2화 `마지막 빵`에서 빵의 향, 온기, 질감, 뒷맛을 `곧 잃게 될 감각`으로 명시해 이후 대가 지불의 기반을 강화
+  - `Vol_8_Chapter_1.md` 공백 제외 `4001자` 통과
+  - `Vol_8_Chapter_2.md` 공백 제외 `4001자` 통과
+  - `4,000자 하드룰 적합성` 집계를 `초안 177화 중 177화 통과`로 갱신
+- 재개 지점:
+  - 제8권 `제3화`, `제4화`
+
 ## 2026-04-11 03:18 KST
 
 - 모드: `active-drafting-support / vol-7 batch-6`
@@ -1705,6 +1898,36 @@
   - 제7권 `13~14화 체크포인트` 문서 작성 및 PASS 고정
 - 재개 지점:
   - 제7권 `제15화`, `제16화`
+
+## 2026-04-11 14:22 KST
+
+- 모드: `active-drafting-support / vol-7 batch-8`
+- 병목: `호명`과 `응답의 대가`가 한 번 사건화된 뒤에도 곧장 사람 얼굴과 생활 비용으로 내려오지 않으면 교단 위협이 다시 문장/장부 단계로 후퇴할 수 있는 상태.
+- 현재 작업: 제7권 `제15화 첫 번째 실패자`, `제16화 두 번째 종` 작성 및 배치 PASS 고정
+- 다음 작업: 제7권 `제17화`, `제18화` 작성
+- 실행 방식: `총괄 직접 집필`
+- 총괄: `novel-orchestra-conductor`
+- 전문가: `none`
+- MCP: `none`
+- 스킬:
+  - `novel-orchestra-conductor`
+  - `progress-ledger`
+- 훅: `none`
+- 하네스: `none`
+- 수정 파일:
+  - `Drafts/Vol_7/Vol_7_Chapter_15.md`
+  - `Drafts/Vol_7/Vol_7_Chapter_16.md`
+  - `orchestra/VOL7_BATCH_8_CHECKPOINT_2026-04-11.md`
+  - `orchestra/DRAFTING_PROGRESS_TRACKER.md`
+  - `orchestra/EXECUTION_PROGRESS_LEDGER.md`
+- 결과:
+  - 제15화를 `첫 번째 실패자`, `남은 쪽`, `거절도 방식일 뿐 기록된다`, `반쯤 맞는 말의 공포` 중심으로 작성
+  - 제16화를 `두 번째 종`, `거절도 응답이다`, `둘째 뒤 공백의 길어짐`, `계단/컵/탁자 순서 미끄러짐` 중심으로 작성
+  - `Vol_7_Chapter_15.md` 공백 제외 `4057자` 통과
+  - `Vol_7_Chapter_16.md` 공백 제외 `4271자` 통과
+  - 제7권 `15~16화 체크포인트` 문서 작성 및 PASS 고정
+- 재개 지점:
+  - 제7권 `제17화`, `제18화`
 
 ## 2026-04-11 03:35 KST
 
