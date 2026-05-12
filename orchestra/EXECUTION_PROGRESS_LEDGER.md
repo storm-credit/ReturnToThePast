@@ -12,7 +12,3730 @@
 - 상세 누적 진행도는 `SETTING_PROGRESS_TRACKER.md`, `DRAFTING_PROGRESS_TRACKER.md`를 따른다.
 - 현재 즉시 재개 지점은 `SESSION_STATE.md`를 따른다.
 
+## 2026-05-12 KST
+
+- Mode: `rttp style-harness recast Vol.2 Chapter 13`
+- Scope note: continuing the new style-recast loop; this is not the prior Vol.6/overall-147 continuation queue.
+- Current work: `Vol.2 Chapter 13` style-harness lock complete
+- Next work: `Vol.2 Chapter 14`; aggregate `Vol.2 Chapters 11~15` is due after Vol.2 Chapter 15 passes
+- Execution mode: `conductor direct lock`
+- Primary agent: `Codex`
+- Specialists: `none`
+- MCP: `none`
+- Skills:
+  - `rttp-lock-cycle`
+- Automations: `rttp-style-harness-ch1-loop`
+- Automation push policy:
+  - After each successful chapter or aggregate packet, stage only relevant changed files, commit clearly, and push the current branch to origin.
+- Length policy:
+  - From `Vol.1 Chapter 22` onward and for the continuing style queue, enforce no-space floor `4,800` and target around `5,000`; do not retroactively revise prior chapters for length unless explicitly requested.
+- Edits:
+  - `Drafts/Vol_2/Vol_2_Chapter_13.md`
+  - `orchestra/VOL2_CHAPTER_13_STYLE_HARNESS_CHECKPOINT_2026-05-12.md`
+  - `orchestra/SESSION_STATE.md`
+  - `orchestra/NEXT_DIALOGUE_HANDOFF.md`
+  - `orchestra/EXECUTION_PROGRESS_LEDGER.md`
+- Manuscript note:
+  - Narrow repair only: aligned title format, cleared time/replay-scent surfaces, kept `후영` as residue/contamination rather than prophecy or route logic, and added the final self-verification cost beat through Aiden checking his fingers.
+- Final verification:
+  - Chapter 13 held five no-edit cycles at `nospace=4,840`, hard/meta/time-scent hits `0`, hash `7A953D42DE655F30946A068296C3FF9708FCA3DDA2567DF34E1ECB3BD7499F3A`.
+- Result: `Vol.1 Chapters 1~25; Vol.2 Chapters 1~13` style-harness verified. Aggregate remains verified through `Vol.1 Chapters 1~25; Vol.2 Chapters 1~10`; next aggregate packet is `Vol.2 Chapters 11~15`.
+
+- Mode: `rttp style-harness recast Vol.2 Chapter 12`
+- Scope note: continuing the new style-recast loop; this is not the prior Vol.6/overall-147 continuation queue.
+- Current work: `Vol.2 Chapter 12` style-harness lock complete
+- Next work: `Vol.2 Chapter 13`; aggregate `Vol.2 Chapters 11~15` is due after Vol.2 Chapter 15 passes
+- Execution mode: `conductor direct lock`
+- Primary agent: `Codex`
+- Specialists: `none`
+- MCP: `none`
+- Skills:
+  - `rttp-lock-cycle`
+- Automations: `rttp-style-harness-ch1-loop`
+- Length policy:
+  - From `Vol.1 Chapter 22` onward and for the continuing style queue, enforce no-space floor `4,800` and target around `5,000`; do not retroactively revise prior chapters for length unless explicitly requested.
+- Edits:
+  - `Drafts/Vol_2/Vol_2_Chapter_12.md`
+  - `orchestra/VOL2_CHAPTER_12_STYLE_HARNESS_CHECKPOINT_2026-05-12.md`
+  - `orchestra/SESSION_STATE.md`
+  - `orchestra/NEXT_DIALOGUE_HANDOFF.md`
+  - `orchestra/EXECUTION_PROGRESS_LEDGER.md`
+- Manuscript note:
+  - Narrow repair only: aligned title format, removed backtick/code styling, cleared time-scent/replay-scent surfaces, preserved the rumor-board plot mechanics, and added a compact causal-debt ending beat through Aiden's wrist pain.
+- Final verification:
+  - Chapter 12 held five no-edit cycles at `nospace=4,801`, hard/meta/time-scent hits `0`, hash `8348EF55AF484DF6577239AFD575176DD1BCF47043FC8C5A3DFAACC2254B8BA2`.
+- Result: `Vol.1 Chapters 1~25; Vol.2 Chapters 1~12` style-harness verified. Aggregate remains verified through `Vol.1 Chapters 1~25; Vol.2 Chapters 1~10`; next aggregate packet is `Vol.2 Chapters 11~15`.
+
+## 2026-05-11 KST
+
+- Mode: `rttp style-harness recast Vol.2 Chapter 11`
+- Scope note: continuing the new style-recast loop; this is not the prior Vol.6/overall-147 continuation queue.
+- Current work: `Vol.2 Chapter 11` style-harness lock complete
+- Next work: `Vol.2 Chapter 12`; aggregate `Vol.2 Chapters 11~15` is due after Vol.2 Chapter 15 passes
+- Execution mode: `conductor direct lock`
+- Primary agent: `Codex`
+- Specialists: `none`
+- MCP: `none`
+- Skills:
+  - `rttp-lock-cycle`
+- Automations: `rttp-style-harness-ch1-loop`
+- Length policy:
+  - From `Vol.1 Chapter 22` onward and for the continuing style queue, enforce no-space floor `4,800` and target around `5,000`; do not retroactively revise prior chapters for length unless explicitly requested.
+- Edits:
+  - `Drafts/Vol_2/Vol_2_Chapter_11.md`
+  - `orchestra/VOL2_CHAPTER_11_STYLE_HARNESS_CHECKPOINT_2026-05-11.md`
+  - `orchestra/SESSION_STATE.md`
+  - `orchestra/NEXT_DIALOGUE_HANDOFF.md`
+  - `orchestra/EXECUTION_PROGRESS_LEDGER.md`
+- Manuscript note:
+  - Narrow repair only: aligned title format, cleared `다시` surface hits, restored the 4,800 no-space floor, and added a compact causal-debt bridge from palace silence to Iris-side outside breath-cost.
+- Final verification:
+  - Chapter 11 held five no-edit cycles at `nospace=4,829`, hard/meta hits `0`, hash `215EEA5A12DCC5D1217938CF073D48FEBBE016C1D46002D483C521C600CDBC59`.
+- Result: `Vol.1 Chapters 1~25; Vol.2 Chapters 1~11` style-harness verified. Aggregate remains verified through `Vol.1 Chapters 1~25; Vol.2 Chapters 1~10`; next aggregate packet is `Vol.2 Chapters 11~15`.
+
+- Mode: `rttp style-harness recast Vol.2 Chapter 10 + aggregate 6~10`
+- Scope note: continuing the new style-recast loop; this is not the prior Vol.6/overall-147 continuation queue.
+- Current work: `Vol.2 Chapter 10` style-harness lock complete; aggregate `Vol.2 Chapters 6~10` complete
+- Next work: `Vol.2 Chapter 11`; next aggregate `Vol.2 Chapters 11~15` is due after Vol.2 Chapter 15 passes
+- Execution mode: `conductor direct lock`
+- Primary agent: `Codex`
+- Specialists: `none`
+- MCP: `none`
+- Skills:
+  - `rttp-lock-cycle`
+- Automations: `rttp-style-harness-ch1-loop`
+- Length policy:
+  - From `Vol.1 Chapter 22` onward and for the continuing style queue, enforce no-space floor `4,800` and target around `5,000`; do not retroactively revise prior chapters for length unless explicitly requested.
+- Edits:
+  - `Drafts/Vol_2/Vol_2_Chapter_6.md`
+  - `Drafts/Vol_2/Vol_2_Chapter_9.md`
+  - `Drafts/Vol_2/Vol_2_Chapter_10.md`
+  - `orchestra/VOL2_CHAPTER_10_STYLE_HARNESS_CHECKPOINT_2026-05-11.md`
+  - `orchestra/VOL2_CHAPTER_6_10_STYLE_HARNESS_AGGREGATE_CHECKPOINT_2026-05-11.md`
+  - `orchestra/SESSION_STATE.md`
+  - `orchestra/NEXT_DIALOGUE_HANDOFF.md`
+  - `orchestra/EXECUTION_PROGRESS_LEDGER.md`
+- Manuscript note:
+  - Chapter 10 narrow repair only: aligned title format, cleared repeat/time-scent residue, added a causal-debt bridge to outside breath-cost, and sharpened the ending into the second prince measuring his own hand before the poison timing breaks.
+  - Aggregate 6~10 cleanup: removed residual `그날 밤` and `다음 날` surfaces from Chapters 6, 9, and 10, then reran both Chapter 10 and packet verification.
+- Final verification:
+  - Chapter 10 held five no-edit cycles at `nospace=4,808`, hard/meta hits `0`, hash `BD187B508F94B429465FB2F818E785B6B5E689A4AD4AC3907D0CBF398641ECDB`.
+  - Aggregate `Vol.2 Chapters 6~10` held five no-edit cycles at `nospace=24,040`, hard/meta hits `0`, aggregate hash `A7F62737C16F6D0F97CDBC27CE65C272316C7D1FAD2128A9A37D87F388B23AB5`.
+- Result: `Vol.1 Chapters 1~25; Vol.2 Chapters 1~10` style-harness verified. Aggregate verified range is now `Vol.1 Chapters 1~25; Vol.2 Chapters 1~10`.
+
+- Mode: `rttp style-harness recast Vol.2 Chapter 9`
+- Scope note: continuing the new style-recast loop; this is not the prior Vol.6/overall-147 continuation queue.
+- Current work: `Vol.2 Chapter 9` style-harness lock complete
+- Next work: `Vol.2 Chapter 10`; aggregate `Vol.2 Chapters 6~10` is due after Vol.2 Chapter 10 passes
+- Execution mode: `conductor direct lock`
+- Primary agent: `Codex`
+- Specialists: `none`
+- MCP: `none`
+- Skills:
+  - `rttp-lock-cycle`
+- Automations: `rttp-style-harness-ch1-loop`
+- Length policy:
+  - From `Vol.1 Chapter 22` onward and for the continuing style queue, enforce no-space floor `4,800` and target around `5,000`; do not retroactively revise prior chapters for length unless explicitly requested.
+- Edits:
+  - `Drafts/Vol_2/Vol_2_Chapter_9.md`
+  - `orchestra/VOL2_CHAPTER_9_STYLE_HARNESS_CHECKPOINT_2026-05-11.md`
+  - `orchestra/SESSION_STATE.md`
+  - `orchestra/NEXT_DIALOGUE_HANDOFF.md`
+  - `orchestra/EXECUTION_PROGRESS_LEDGER.md`
+- Manuscript note:
+  - Narrow repair only: aligned title format, replaced blood-surface opening with violence-trace logic, removed backtick note styling, cleared `피/피비린내` surface hits, added one causal-debt bridge after Iris's report, and compressed the ending into internal suspicion plus outside breath-cost.
+- Final verification:
+  - Chapter 9 held five no-edit cycles at `nospace=4,806`, hard/meta hits `0`, blood-surface hits `0`, hash `432367510E9B970BD95F674E9CDF38DC97593462B3A6B49A60BEAFB6747F9938`.
+- Result: `Vol.1 Chapters 1~25; Vol.2 Chapters 1~9` style-harness verified. Aggregate remains verified through `Vol.1 Chapters 1~25; Vol.2 Chapters 1~5`; next aggregate packet is `Vol.2 Chapters 6~10`.
+
+- Mode: `rttp style-harness recast Vol.2 Chapter 8`
+- Scope note: continuing the new style-recast loop; this is not the prior Vol.6/overall-147 continuation queue.
+- Current work: `Vol.2 Chapter 8` style-harness lock complete
+- Next work: `Vol.2 Chapter 9`; aggregate `Vol.2 Chapters 6~10` is due after Vol.2 Chapter 10 passes
+- Execution mode: `conductor direct lock`
+- Primary agent: `Codex`
+- Specialists: `none`
+- MCP: `none`
+- Skills:
+  - `rttp-lock-cycle`
+- Automations: `rttp-style-harness-ch1-loop`
+- Length policy:
+  - From `Vol.1 Chapter 22` onward and for the continuing style queue, enforce no-space floor `4,800` and target around `5,000`; do not retroactively revise prior chapters for length unless explicitly requested.
+- Edits:
+  - `Drafts/Vol_2/Vol_2_Chapter_8.md`
+  - `orchestra/VOL2_CHAPTER_8_STYLE_HARNESS_CHECKPOINT_2026-05-11.md`
+  - `orchestra/SESSION_STATE.md`
+  - `orchestra/NEXT_DIALOGUE_HANDOFF.md`
+  - `orchestra/EXECUTION_PROGRESS_LEDGER.md`
+- Manuscript note:
+  - Narrow repair only: aligned title format, removed `다음 날/다시/이번` loop-scent residue, replaced direct blood-surface wording, fixed the record-box prop continuity, and compressed the ending into slow causal-debt erosion.
+- Final verification:
+  - Chapter 8 held five no-edit cycles at `nospace=4,802`, hard/meta hits `0`, surface cleanup hits `0`, hash `1BD678BBC6D9BABB151E16887E36311E70323D21B8FEBA2CB460E19EA7A41FD5`.
+- Result: `Vol.1 Chapters 1~25; Vol.2 Chapters 1~8` style-harness verified. Aggregate remains verified through `Vol.1 Chapters 1~25; Vol.2 Chapters 1~5`; next aggregate packet is `Vol.2 Chapters 6~10`.
+
+- Mode: `rttp style-harness recast Vol.2 Chapter 7`
+- Scope note: continuing the new style-recast loop; this is not the prior Vol.6/overall-147 continuation queue.
+- Current work: `Vol.2 Chapter 7` style-harness lock complete
+- Next work: `Vol.2 Chapter 8`; aggregate `Vol.2 Chapters 6~10` is due after Vol.2 Chapter 10 passes
+- Execution mode: `conductor direct lock`
+- Primary agent: `Codex`
+- Specialists: `none`
+- MCP: `none`
+- Skills:
+  - `rttp-lock-cycle`
+- Automations: `rttp-style-harness-ch1-loop`
+- Length policy:
+  - From `Vol.1 Chapter 22` onward and for the continuing style queue, enforce no-space floor `4,800` and target around `5,000`; do not retroactively revise prior chapters for length unless explicitly requested.
+- Edits:
+  - `Drafts/Vol_2/Vol_2_Chapter_7.md`
+  - `orchestra/VOL2_CHAPTER_7_STYLE_HARNESS_CHECKPOINT_2026-05-11.md`
+  - `orchestra/SESSION_STATE.md`
+  - `orchestra/NEXT_DIALOGUE_HANDOFF.md`
+  - `orchestra/EXECUTION_PROGRESS_LEDGER.md`
+- Manuscript note:
+  - Narrow repair only: aligned title format, replaced direct gore-surface language with record-line dread, and tightened the ending so Balthazar's next-night test, the palace clock, and Iris's outside breath-cost read as one causal-debt pressure.
+- Final verification:
+  - Chapter 7 held five no-edit cycles at `nospace=4,805`, hard/meta hits `0`, surface cleanup hits `0`, hash `82EEE53D640E73E1B436C707FA1C87B3CF8501882568CEE9D82A5B1EC6159125`.
+- Result: `Vol.1 Chapters 1~25; Vol.2 Chapters 1~7` style-harness verified. Aggregate remains verified through `Vol.1 Chapters 1~25; Vol.2 Chapters 1~5`; next aggregate packet is `Vol.2 Chapters 6~10`.
+
+- Mode: `rttp style-harness recast Vol.2 Chapter 6`
+- Scope note: continuing the new style-recast loop; this is not the prior Vol.6/overall-147 continuation queue.
+- Current work: `Vol.2 Chapter 6` style-harness lock complete
+- Next work: `Vol.2 Chapter 7`; aggregate `Vol.2 Chapters 6~10` is due after Vol.2 Chapter 10 passes
+- Execution mode: `conductor direct lock`
+- Primary agent: `Codex`
+- Specialists: `none`
+- MCP: `none`
+- Skills:
+  - `rttp-lock-cycle`
+- Automations: `rttp-style-harness-ch1-loop`
+- Length policy:
+  - From `Vol.1 Chapter 22` onward and for the continuing style queue, enforce no-space floor `4,800` and target around `5,000`; do not retroactively revise prior chapters for length unless explicitly requested.
+- Edits:
+  - `Drafts/Vol_2/Vol_2_Chapter_6.md`
+  - `orchestra/VOL2_CHAPTER_6_STYLE_HARNESS_CHECKPOINT_2026-05-11.md`
+  - `orchestra/SESSION_STATE.md`
+  - `orchestra/NEXT_DIALOGUE_HANDOFF.md`
+  - `orchestra/EXECUTION_PROGRESS_LEDGER.md`
+- Manuscript note:
+  - Narrow repair only: aligned title format, sharpened the opening timing hook, removed backtick/gore surface residue, tied palace delay to Ria/Iris outside cost, and clarified the alchemist's five-interval mark as a test rather than a simple invitation.
+- Final verification:
+  - Chapter 6 held five no-edit cycles at `nospace=4,823`, hard/meta hits `0`, surface cleanup hits `0`, hash `C10F92384693446C6EEB9282F1AEA0597DC46C0A9870665519A37BB1314AF998`.
+- Result: `Vol.1 Chapters 1~25; Vol.2 Chapters 1~6` style-harness verified. Aggregate remains verified through `Vol.1 Chapters 1~25; Vol.2 Chapters 1~5`; next aggregate packet is `Vol.2 Chapters 6~10`.
+
+- Mode: `rttp style-harness recast Vol.2 Chapter 5 + aggregate 1~5`
+- Scope note: continuing the new style-recast loop; this is not the prior Vol.6/overall-147 continuation queue.
+- Current work: `Vol.2 Chapter 5` style-harness lock complete; aggregate `Vol.2 Chapters 1~5` complete
+- Next work: `Vol.2 Chapter 6`; next aggregate `Vol.2 Chapters 6~10` is due after Vol.2 Chapter 10 passes
+- Execution mode: `conductor direct lock`
+- Primary agent: `Codex`
+- Specialists: `none`
+- MCP: `node_repl` verification helper
+- Skills:
+  - `rttp-lock-cycle`
+- Automations: `rttp-style-harness-ch1-loop`
+- Length policy:
+  - From `Vol.1 Chapter 22` onward and for the continuing style queue, enforce no-space floor `4,800` and target around `5,000`; do not retroactively revise prior chapters for length unless explicitly requested.
+- Edits:
+  - `Drafts/Vol_2/Vol_2_Chapter_5.md`
+  - `orchestra/VOL2_CHAPTER_5_STYLE_HARNESS_CHECKPOINT_2026-05-11.md`
+  - `orchestra/VOL2_CHAPTER_1_5_STYLE_HARNESS_AGGREGATE_CHECKPOINT_2026-05-11.md`
+  - `orchestra/SESSION_STATE.md`
+  - `orchestra/NEXT_DIALOGUE_HANDOFF.md`
+  - `orchestra/EXECUTION_PROGRESS_LEDGER.md`
+- Manuscript note:
+  - Narrow repair only: aligned title format, removed backtick note formatting, cleared `이번/다시/피` surface residue, and sharpened the transition from death-prevention failure to news-time strategy.
+- Final verification:
+  - Chapter 5 held five no-edit cycles at `nospace=4,854`, hard/meta hits `0`, surface cleanup hits `0`, hash `9BC3586E26C3861B985194DFF503BD8E886D6C6E21BA34DE66201CCF05662820`.
+  - Aggregate `Vol.2 Chapters 1~5` held five no-edit cycles at `nospace=24,335`, hard/meta hits `0`, aggregate hash `2119281AA54C5AD3182FD1F348495FABB5956F707CC8D06D8248C1EFE3A33860`.
+- Result: `Vol.1 Chapters 1~25; Vol.2 Chapters 1~5` style-harness verified. Aggregate verified range is now `Vol.1 Chapters 1~25; Vol.2 Chapters 1~5`.
+
+- Mode: `rttp style-harness recast Vol.2 Chapter 4`
+- Scope note: continuing the new style-recast loop; this is not the prior Vol.6/overall-147 continuation queue.
+- Current work: `Vol.2 Chapter 4` style-harness lock complete
+- Next work: `Vol.2 Chapter 5`; aggregate `Vol.2 Chapters 1~5` is due after Vol.2 Chapter 5 passes
+- Execution mode: `conductor direct lock`
+- Primary agent: `Codex`
+- Specialists: `none`
+- MCP: `node_repl` verification helper
+- Skills:
+  - `rttp-lock-cycle`
+- Automations: `rttp-style-harness-ch1-loop`
+- Length policy:
+  - From `Vol.1 Chapter 22` onward and for the continuing style queue, enforce no-space floor `4,800` and target around `5,000`; do not retroactively revise prior chapters for length unless explicitly requested.
+- Edits:
+  - `Drafts/Vol_2/Vol_2_Chapter_4.md`
+  - `orchestra/VOL2_CHAPTER_4_STYLE_HARNESS_CHECKPOINT_2026-05-11.md`
+  - `orchestra/SESSION_STATE.md`
+  - `orchestra/NEXT_DIALOGUE_HANDOFF.md`
+  - `orchestra/EXECUTION_PROGRESS_LEDGER.md`
+- Manuscript note:
+  - Narrow repair only: aligned title format, removed early gore-surface wording, cleared `이미/다시` residue, and tightened the drain-line ending into causal-debt pressure.
+- Final verification:
+  - Chapter 4 held five no-edit cycles at `nospace=4,827`, hard/meta hits `0`, surface cleanup hits `0`, hash `F5559B8A7EFC3B4EEC0A0B72709FDD109D7FE36E47DAFFBECC42446DF5BAED77`.
+- Result: `Vol.1 Chapters 1~25; Vol.2 Chapters 1~4` style-harness verified. Aggregate remains verified through `Vol.1 Chapters 1~25`; next aggregate packet is `Vol.2 Chapters 1~5`.
+
+- Mode: `rttp style-harness recast Vol.2 Chapter 3`
+- Scope note: continuing the new style-recast loop; this is not the prior Vol.6/overall-147 continuation queue.
+- Current work: `Vol.2 Chapter 3` style-harness lock complete
+- Next work: `Vol.2 Chapter 4`; aggregate `Vol.2 Chapters 1~5` is due only after Vol.2 Chapter 5 passes
+- Execution mode: `conductor direct lock`
+- Primary agent: `Codex`
+- Specialists: `none`
+- MCP: `node_repl` verification helper
+- Skills:
+  - `rttp-lock-cycle`
+- Automations: `rttp-style-harness-ch1-loop`
+- Length policy:
+  - From `Vol.1 Chapter 22` onward and for the continuing style queue, enforce no-space floor `4,800` and target around `5,000`; do not retroactively revise prior chapters for length unless explicitly requested.
+- Edits:
+  - `Drafts/Vol_2/Vol_2_Chapter_3.md`
+  - `orchestra/VOL2_CHAPTER_3_STYLE_HARNESS_CHECKPOINT_2026-05-11.md`
+  - `orchestra/SESSION_STATE.md`
+  - `orchestra/NEXT_DIALOGUE_HANDOFF.md`
+  - `orchestra/EXECUTION_PROGRESS_LEDGER.md`
+- Manuscript note:
+  - Narrow repair only: aligned title format, sharpened the palace-time opening, cleared one gore-surface word and backtick emphasis, restored the body-only length floor, and tightened the `Elman` assignment ending into a planted knot/neckline click.
+- Final verification:
+  - Chapter 3 held five no-edit cycles at `nospace=4,814`, hard/meta hits `0`, surface cleanup hits `0`, hash `401BFF2F90518F0309DCD9FB2B21E6D66E5E49B5E175F772E18B022C19E6187E`.
+- Result: `Vol.1 Chapters 1~25; Vol.2 Chapters 1~3` style-harness verified. Aggregate remains verified through `Vol.1 Chapters 1~25`; next aggregate packet is `Vol.2 Chapters 1~5`.
+
+- Mode: `rttp style-harness recast Vol.2 Chapter 2`
+- Scope note: continuing the new style-recast loop; this is not the prior Vol.6/overall-147 continuation queue.
+- Current work: `Vol.2 Chapter 2` style-harness lock complete
+- Next work: `Vol.2 Chapter 3`; aggregate `Vol.2 Chapters 1~5` is due only after Vol.2 Chapter 5 passes
+- Execution mode: `conductor direct lock`
+- Primary agent: `Codex`
+- Specialists: `none`
+- MCP: `node_repl` verification helper
+- Skills:
+  - `rttp-lock-cycle`
+- Automations: `rttp-style-harness-ch1-loop`
+- Length policy:
+  - From `Vol.1 Chapter 22` onward and for the continuing style queue, enforce no-space floor `4,800` and target around `5,000`; do not retroactively revise prior chapters for length unless explicitly requested.
+- Edits:
+  - `Drafts/Vol_2/Vol_2_Chapter_2.md`
+  - `orchestra/VOL2_CHAPTER_2_STYLE_HARNESS_CHECKPOINT_2026-05-11.md`
+  - `orchestra/SESSION_STATE.md`
+  - `orchestra/NEXT_DIALOGUE_HANDOFF.md`
+  - `orchestra/EXECUTION_PROGRESS_LEDGER.md`
+- Manuscript note:
+  - Narrow repair only: aligned title format, sharpened the opening sentence, removed backtick note surfaces, fixed one awkward Iris line, cleared `이미`, and tightened the north-corridor ending click.
+- Final verification:
+  - Chapter 2 held five no-edit cycles at `nospace=4,800`, hard/meta hits `0`, surface cleanup hits `0`, hash `A3B03A3A782C0AFC07B8E4DBFD14C93419B49263AE14188892580667A3B55B42`.
+- Result: `Vol.1 Chapters 1~25; Vol.2 Chapters 1~2` style-harness verified. Aggregate remains verified through `Vol.1 Chapters 1~25`; next aggregate packet is `Vol.2 Chapters 1~5`.
+
+- Mode: `rttp style-harness recast Vol.2 Chapter 1`
+- Scope note: this starts Vol.2 in the new style-recast loop; it is not the prior Vol.6/overall-147 continuation queue.
+- Current work: `Vol.2 Chapter 1` style-harness lock complete
+- Next work: `Vol.2 Chapter 2`; aggregate `Vol.2 Chapters 1~5` is due only after Vol.2 Chapter 5 passes
+- Execution mode: `conductor direct lock`
+- Primary agent: `Codex`
+- Specialists: `none`
+- MCP: `node_repl` verification helper
+- Skills:
+  - `rttp-lock-cycle`
+- Automations: `rttp-style-harness-ch1-loop`
+- Length policy:
+  - From `Vol.1 Chapter 22` onward and for the continuing style queue, enforce no-space floor `4,800` and target around `5,000`; do not retroactively revise prior chapters for length unless explicitly requested.
+- Edits:
+  - `Drafts/Vol_2/Vol_2_Chapter_1.md`
+  - `orchestra/VOL2_CHAPTER_1_STYLE_HARNESS_CHECKPOINT_2026-05-11.md`
+  - `orchestra/SESSION_STATE.md`
+  - `orchestra/NEXT_DIALOGUE_HANDOFF.md`
+  - `orchestra/EXECUTION_PROGRESS_LEDGER.md`
+- Manuscript note:
+  - Narrow repair only: aligned title format, removed `이미/이번/피비린내` surface residue, separated official `황제` references from thematic `왕` shorthand, and softened premature fixed-point certainty into a Chapter 1 objective around grasping the death time.
+- Final verification:
+  - Chapter 1 held five no-edit cycles at `nospace=4,860`, hard/meta hits `0`, surface cleanup hits `0`, hash `87BCDAC8BAE2D0CB9DD3A3284B8D57A04B30F4E318A5ED0BD75F974C7E0880F2`.
+- Result: `Vol.1 Chapters 1~25; Vol.2 Chapter 1` style-harness verified. Aggregate remains verified through `Vol.1 Chapters 1~25`; next aggregate packet is `Vol.2 Chapters 1~5`.
+
+- Mode: `rttp style-harness recast Vol.1 Chapter 25 + aggregate 21~25`
+- Scope note: this completes Vol.1 in the new style-recast loop; it is not the prior Vol.6/overall-147 continuation queue.
+- Current work: `Vol.1 Chapter 25` style-harness lock complete; aggregate `Vol.1 Chapters 21~25` complete
+- Next work: `Vol.2 Chapter 1`; next aggregate packet is `Vol.2 Chapters 1~5` after Vol.2 Chapter 5 passes
+- Execution mode: `conductor direct lock`
+- Primary agent: `Codex`
+- Specialists: `none`
+- MCP: `node_repl` verification helper
+- Skills:
+  - `rttp-lock-cycle`
+- Automations: `rttp-style-harness-ch1-loop`
+- Length policy:
+  - From `Vol.1 Chapter 22` onward and for the continuing style queue, enforce no-space floor `4,800` and target around `5,000`; do not retroactively revise prior chapters for length unless explicitly requested.
+- Edits:
+  - `Drafts/Vol_1/Vol_1_Chapter_21.md`
+  - `Drafts/Vol_1/Vol_1_Chapter_22.md`
+  - `Drafts/Vol_1/Vol_1_Chapter_25.md`
+  - `orchestra/VOL1_CHAPTER_25_STYLE_HARNESS_CHECKPOINT_2026-05-11.md`
+  - `orchestra/VOL1_CHAPTER_21_25_STYLE_HARNESS_AGGREGATE_CHECKPOINT_2026-05-11.md`
+  - `orchestra/SESSION_STATE.md`
+  - `orchestra/NEXT_DIALOGUE_HANDOFF.md`
+  - `orchestra/EXECUTION_PROGRESS_LEDGER.md`
+- Manuscript note:
+  - Chapter 25 narrow repair only: aligned title format and replaced two `피비린내` gore-surface phrases with restrained sensory wording.
+  - Aggregate 21~25 cleanup: removed residual `이번/이미` surface scent from Chapters 21 and 22, then reread affected chapters and reran the packet gate.
+- Final verification:
+  - Chapter 25 held five no-edit cycles at `nospace=4,810`, hard/meta hits `0`, surface cleanup hits `0`, hash `3FDB6B2D2D7103BBE3D9830FA99DE0A1E6DF5284A9D23B1C1A8BD5AB63F39FFC`.
+  - Chapter 21 repassed at `nospace=4,890`, hash `5C17D5609968C4950599BCF8D34E7EA11F2C2EAC33F606D82829DCA7B5A08FF6`.
+  - Chapter 22 repassed at `nospace=4,956`, hash `D95A9CBFF143D2DE22A36B9CE309A9C2A1333B7323D125837CFDC73979D6AEA4`.
+  - Aggregate 21~25 held five no-edit cycles at `nospace=24,607`, hard/meta hits `0`, surface cleanup hits `0`, aggregate hash `451944789E17724EEDA46584D2530554C268FF91B26094965235F48BB3666CC2`.
+- Result: `Vol.1 Chapters 1~25` style-harness verified; aggregate `1~25` verified. Next target is `Vol.2 Chapter 1`.
+
+- Mode: `rttp style-harness recast Vol.1 Chapter 24`
+- Scope note: this is the twenty-fourth completed chapter in the new style-recast loop; it is not the prior Vol.6/overall-147 continuation queue.
+- Current work: `Vol.1 Chapter 24` style-harness lock complete under the updated length policy
+- Next work: `Vol.1 Chapter 25`; after Chapter 25 passes, run aggregate `Vol.1 Chapters 21~25`
+- Execution mode: `conductor direct lock`
+- Primary agent: `Codex`
+- Specialists: `none`
+- MCP: `node_repl` verification helper
+- Skills:
+  - `rttp-lock-cycle`
+- Automations: `rttp-style-harness-ch1-loop`
+- Length policy:
+  - From `Vol.1 Chapter 22` onward, enforce no-space floor `4,800` and target around `5,000`; do not retroactively revise Chapters 1~21 for length unless explicitly requested.
+- Edits:
+  - `Drafts/Vol_1/Vol_1_Chapter_24.md`
+  - `orchestra/VOL1_CHAPTER_24_STYLE_HARNESS_CHECKPOINT_2026-05-11.md`
+  - `orchestra/SESSION_STATE.md`
+  - `orchestra/NEXT_DIALOGUE_HANDOFF.md`
+  - `orchestra/EXECUTION_PROGRESS_LEDGER.md`
+- Manuscript note:
+  - Narrow repair only: aligned title format, removed backtick emphasis, replaced gore-surface phrasing, cleared `이번/이미` surface scent, and reinforced the safehouse as borrowed debt rather than real safety.
+- Final verification:
+  - Chapter 24 held five no-edit cycles at `nospace=4,967`, hard/meta hits `0`, surface cleanup hits `0`, hash `0816928B1EC7A697B6B2725D50BF1E82B3BF168E5ECAA9C7C8B39557AB6D5145`.
+- Result: `Vol.1 Chapters 1~24` style-harness verified; aggregate remains verified through `1~20`. Aggregate `21~25` is due after Chapter 25.
+
+- Mode: `rttp style-harness recast Vol.1 Chapter 23`
+- Scope note: this is the twenty-third completed chapter in the new style-recast loop; it is not the prior Vol.6/overall-147 continuation queue.
+- Current work: `Vol.1 Chapter 23` style-harness lock complete under the updated length policy
+- Next work: `Vol.1 Chapter 24`; aggregate `Vol.1 Chapters 21~25` is due only after Chapter 25 passes
+- Execution mode: `conductor direct lock`
+- Primary agent: `Codex`
+- Specialists: `none`
+- MCP: `node_repl` verification helper
+- Skills:
+  - `rttp-lock-cycle`
+- Automations: `rttp-style-harness-ch1-loop`
+- Length policy:
+  - From `Vol.1 Chapter 22` onward, enforce no-space floor `4,800` and target around `5,000`; do not retroactively revise Chapters 1~21 for length unless explicitly requested.
+- Edits:
+  - `Drafts/Vol_1/Vol_1_Chapter_23.md`
+  - `orchestra/VOL1_CHAPTER_23_STYLE_HARNESS_CHECKPOINT_2026-05-11.md`
+  - `orchestra/SESSION_STATE.md`
+  - `orchestra/NEXT_DIALOGUE_HANDOFF.md`
+  - `orchestra/EXECUTION_PROGRESS_LEDGER.md`
+- Manuscript note:
+  - Narrow repair only: aligned title format, removed backtick emphasis, removed a stray foreign token, fixed two typos, replaced gore-surface phrasing, and reinforced the Fenrir bargain as delayed debt rather than rescue.
+- Final verification:
+  - Chapter 23 held five no-edit cycles at `nospace=4,984`, hard/meta hits `0`, surface cleanup hits `0`, hash `5D88C56891F798F7FE3F571E2EF6989AFE733DFE48D52CCB8F9C6EDC53450239`.
+- Result: `Vol.1 Chapters 1~23` style-harness verified; aggregate remains verified through `1~20`.
+
+- Mode: `rttp style-harness recast Vol.1 Chapter 22`
+- Scope note: this is the twenty-second completed chapter in the new style-recast loop; it is not the prior Vol.6/overall-147 continuation queue.
+- Current work: `Vol.1 Chapter 22` style-harness lock complete under the updated length policy
+- Next work: `Vol.1 Chapter 23`; aggregate `Vol.1 Chapters 21~25` is due only after Chapter 25 passes
+- Execution mode: `conductor direct lock`
+- Primary agent: `Codex`
+- Specialists: `none`
+- MCP: `node_repl` verification helper
+- Skills:
+  - `rttp-lock-cycle`
+- Automations: `rttp-style-harness-ch1-loop`
+- Length policy:
+  - From `Vol.1 Chapter 22` onward, enforce no-space floor `4,800` and target around `5,000`; do not retroactively revise Chapters 1~21 for length unless explicitly requested.
+- Edits:
+  - `Drafts/Vol_1/Vol_1_Chapter_22.md`
+  - `orchestra/VOL1_CHAPTER_22_STYLE_HARNESS_CHECKPOINT_2026-05-11.md`
+  - `orchestra/SESSION_STATE.md`
+  - `orchestra/NEXT_DIALOGUE_HANDOFF.md`
+  - `orchestra/EXECUTION_PROGRESS_LEDGER.md`
+- Manuscript note:
+  - Narrow repair only: aligned title format, removed backtick emphasis, replaced gore-surface phrasing, strengthened the Iris-name anchor, clarified the tactical isolation beat, and sharpened the ending into an explicit debt-click.
+- Final verification:
+  - Chapter 22 held five no-edit cycles at `nospace=4,957`, hard/meta hits `0`, surface cleanup hits `0`, hash `34FF4C8C93C8C4579DCF815D2DAD1371AB695DD2959A43737D6DB95E0EFCC575`.
+- Result: `Vol.1 Chapters 1~22` style-harness verified; aggregate remains verified through `1~20`.
+
+- Mode: `rttp style-harness recast Vol.1 Chapter 21`
+- Scope note: this is the twenty-first completed chapter in the new style-recast loop; it is not the prior Vol.6/overall-147 continuation queue.
+- Current work: `Vol.1 Chapter 21` style-harness lock complete
+- Next work: `Vol.1 Chapter 22`; aggregate `Vol.1 Chapters 21~25` is due only after Chapter 25 passes
+- Execution mode: `conductor direct lock`
+- Primary agent: `Codex`
+- Specialists: `none`
+- MCP: `node_repl` verification helper
+- Skills:
+  - `rttp-lock-cycle`
+- Automations: `rttp-style-harness-ch1-loop`
+- Edits:
+  - `Drafts/Vol_1/Vol_1_Chapter_21.md`
+  - `orchestra/VOL1_CHAPTER_21_STYLE_HARNESS_CHECKPOINT_2026-05-11.md`
+  - `orchestra/SESSION_STATE.md`
+  - `orchestra/NEXT_DIALOGUE_HANDOFF.md`
+  - `orchestra/EXECUTION_PROGRESS_LEDGER.md`
+- Manuscript note:
+  - Narrow repair only: aligned title format, softened `실선처럼`, removed `피 묻은` surface phrasing, changed `오류` to `오차`, and made the ending read as Aresion measuring Aiden's mismatch rather than flatly “문제 삼았다.”
+- Final verification:
+  - Chapter 21 held five no-edit cycles at `nospace=4,891`, hard/meta hits `0`, surface cleanup hits `0`, hash `03B0D0C23AE80E020E51BA37C1B5EC823E2767FE3FE061EAE67111A2AB7DAE9B`.
+- Result: `Vol.1 Chapters 1~21` style-harness verified; aggregate remains verified through `1~20`.
+
+- Mode: `rttp style-harness recast Vol.1 Chapter 20 + aggregate 16~20`
+- Scope note: this is the twentieth completed chapter in the new style-recast loop; it is not the prior Vol.6/overall-147 continuation queue.
+- Current work: `Vol.1 Chapter 20` style-harness lock complete; aggregate `Vol.1 Chapters 16~20` complete
+- Next work: `Vol.1 Chapter 21`; next aggregate packet is `Vol.1 Chapters 21~25` after Chapter 25 passes
+- Execution mode: `conductor direct lock`
+- Primary agent: `Codex`
+- Specialists: `none`
+- MCP: `node_repl` verification helper
+- Skills:
+  - `rttp-lock-cycle`
+- Automations: `rttp-style-harness-ch1-loop`
+- Edits:
+  - `Drafts/Vol_1/Vol_1_Chapter_20.md`
+  - `orchestra/VOL1_CHAPTER_20_STYLE_HARNESS_CHECKPOINT_2026-05-11.md`
+  - `orchestra/VOL1_CHAPTER_16_20_STYLE_HARNESS_AGGREGATE_CHECKPOINT_2026-05-11.md`
+  - `orchestra/SESSION_STATE.md`
+  - `orchestra/NEXT_DIALOGUE_HANDOFF.md`
+  - `orchestra/EXECUTION_PROGRESS_LEDGER.md`
+- Manuscript note:
+  - Narrow repair only: replaced `드라이한 자리`, `정상적인 탈출로`, and `피 묻은 입가` with less modern, less surface-stained phrasing.
+- Final verification:
+  - Chapter 20 held five no-edit cycles at `nospace=4,828`, hard/meta hits `0`, surface cleanup hits `0`, hash `2A325B7D428D95B4FF5C2FF2C1E1C3800339EA62B140DF1BCA22DBA7746AFBC7`.
+  - Aggregate 16~20 held five no-edit cycles at `nospace=24,120`, hard/meta hits `0`, aggregate hash `B3442AE89ED32DC058C81CBE5F2E147EBCE05852FAC32BAF1561F4ADF422D161`.
+  - `칠공이=1` is documented as an in-world cover code in Chapter 17, not a regression/game-route marker.
+- Result: `Vol.1 Chapters 1~20` style-harness verified; aggregate `1~20` verified.
+
+- Mode: `rttp style-harness recast Vol.1 Chapter 19`
+- Scope note: this is the nineteenth completed chapter in the new style-recast loop; it is not the prior Vol.6/overall-147 continuation queue.
+- Current work: `Vol.1 Chapter 19` style-harness lock complete
+- Next work: `Vol.1 Chapter 20`; after Chapter 20 passes, run aggregate `Vol.1 Chapters 16~20`
+- Execution mode: `conductor direct lock`
+- Primary agent: `Codex`
+- Specialists: `none`
+- MCP: `node_repl` verification helper
+- Skills:
+  - `rttp-lock-cycle`
+- Automations: `rttp-style-harness-ch1-loop`
+- Edits:
+  - `Drafts/Vol_1/Vol_1_Chapter_19.md`
+  - `orchestra/VOL1_CHAPTER_19_STYLE_HARNESS_CHECKPOINT_2026-05-11.md`
+  - `orchestra/SESSION_STATE.md`
+  - `orchestra/NEXT_DIALOGUE_HANDOFF.md`
+  - `orchestra/EXECUTION_PROGRESS_LEDGER.md`
+- Manuscript note:
+  - Narrow repair only: sharpened the opening market-pricing hook, reframed Aresion recognition as wound/body response, changed `표본 칠공이` to `표본 702호`, and removed `피 묻은` surface phrasing.
+- Result:
+  - `Vol.1 Chapter 19` passed full read, FAIL ledger, narrow repair, full reread, and final no-edit 5-cycle verification
+  - final no-space count `4,801`
+  - hard/banned/meta surface hits `0`
+  - exact motif counts held within limits: `Ria=20`, `Iris=21`, `Aiden=25`, `Mirel=5`, `Aresion=19`, `academy=5`, `blackMarket=13`, `market=16`, `rain=19`, `memory=1`, `late=6`, `scent=7`, `door=36`, `specimen=1`, `702=1`, `recovery=2`, `money=5`, `price=8`, `again=4`, `already=2`, `thisTime=0`, `blood=9`, `fire=4`, `darkness=5`, `alley=30`, `doorkeeper=10`, `pass=2`, `seal=4`, `resonanceBlade=4`, `wound=1`
+  - final stable hash `7D85E111CDC80A3BF218D26D943F06D7344A4F52CE6BACB03771B661AA703FB8`
+  - current style-harness verified range is now `Vol.1 Chapters 1~19`
+  - aggregate `Vol.1 Chapters 1~15` remains complete; next aggregate verification is due after Chapter 20
+
+- Mode: `rttp style-harness recast Vol.1 Chapter 18`
+- Scope note: this is the eighteenth completed chapter in the new style-recast loop; it is not the prior Vol.6/overall-147 continuation queue.
+- Current work: `Vol.1 Chapter 18` style-harness lock complete
+- Next work: `Vol.1 Chapter 19`; next aggregate due after `Vol.1 Chapter 20`
+- Execution mode: `conductor direct lock`
+- Primary agent: `Codex`
+- Specialists: `none`
+- MCP: `node_repl` verification helper
+- Skills:
+  - `rttp-lock-cycle`
+- Automations: `rttp-style-harness-ch1-loop`
+- Edits:
+  - `Drafts/Vol_1/Vol_1_Chapter_18.md`
+  - `orchestra/VOL1_CHAPTER_18_STYLE_HARNESS_CHECKPOINT_2026-05-11.md`
+  - `orchestra/SESSION_STATE.md`
+  - `orchestra/NEXT_DIALOGUE_HANDOFF.md`
+  - `orchestra/EXECUTION_PROGRESS_LEDGER.md`
+- Manuscript note:
+  - Narrow repair only: sharpened the opening mud/rain friction, removed remaining backticks, and clarified the academy note as `702호`.
+- Result:
+  - `Vol.1 Chapter 18` passed full read, FAIL ledger, narrow repair, full reread, and final no-edit 5-cycle verification
+  - final no-space count `4,832`
+  - hard/banned/meta surface hits `0`
+  - exact motif counts held within limits: `Ria=26`, `Iris=14`, `Aiden=30`, `Mirel=18`, `academy=15`, `blackMarket=10`, `market=11`, `rain=17`, `mud=1`, `memory=5`, `late=9`, `scent=4`, `ledger=2`, `door=16`, `702=1`, `recovery=1`, `observation=1`, `paper=5`, `money=3`, `price=2`, `again=10`, `already=3`, `thisTime=0`, `blood=2`, `fire=8`
+  - final stable hash `BBA07C8B733067D4686F0B6490BA3EBE8591C3385EFAD46D41435F97E1BF49CF`
+  - current style-harness verified range is now `Vol.1 Chapters 1~18`
+  - aggregate `Vol.1 Chapters 1~15` remains complete; next aggregate verification is due after Chapter 20
+
+- Mode: `rttp style-harness recast Vol.1 Chapter 17`
+- Scope note: this is the seventeenth completed chapter in the new style-recast loop; it is not the prior Vol.6/overall-147 continuation queue.
+- Current work: `Vol.1 Chapter 17` style-harness lock complete
+- Next work: `Vol.1 Chapter 18`; next aggregate due after `Vol.1 Chapter 20`
+- Execution mode: `conductor direct lock`
+- Primary agent: `Codex`
+- Specialists: `none`
+- MCP: `node_repl` verification helper
+- Skills:
+  - `rttp-lock-cycle`
+- Automations: `rttp-style-harness-ch1-loop`
+- Edits:
+  - `Drafts/Vol_1/Vol_1_Chapter_17.md`
+  - `orchestra/VOL1_CHAPTER_17_STYLE_HARNESS_CHECKPOINT_2026-05-11.md`
+  - `orchestra/SESSION_STATE.md`
+  - `orchestra/NEXT_DIALOGUE_HANDOFF.md`
+  - `orchestra/EXECUTION_PROGRESS_LEDGER.md`
+- Manuscript note:
+  - Narrow repair only: sharpened the opening with Ria's body/extraction pressure and removed remaining backticks from the rear loading-yard label.
+- Result:
+  - `Vol.1 Chapter 17` passed full read, FAIL ledger, narrow repair, full reread, and final no-edit 5-cycle verification
+  - final no-space count `4,807`
+  - hard/banned/meta surface hits `0`
+  - exact motif counts held within limits: `Ria=15`, `Iris=19`, `Aiden=29`, `emergency=4`, `bell=1`, `chimera=6`, `specimen=4`, `academy=15`, `door=20`, `blood=3`, `already=3`, `thisTime=0`, `again=11`, `memory=2`, `scent=14`, `ledger=5`, `darkness=1`, `rain=14`, `market=6`, `fire=17`, `recovery=6`, `loadingYard=9`
+  - final stable hash `D199C0ECE29FD6184091B7EE3C50671FABBFBE73358B4787B9DAFE4E10C28748`
+  - current style-harness verified range is now `Vol.1 Chapters 1~17`
+  - aggregate `Vol.1 Chapters 1~15` remains complete; next aggregate verification is due after Chapter 20
+
+- Mode: `rttp style-harness recast Vol.1 Chapter 16`
+- Scope note: this is the sixteenth completed chapter in the new style-recast loop; it is not the prior Vol.6/overall-147 continuation queue.
+- Current work: `Vol.1 Chapter 16` style-harness lock complete
+- Next work: `Vol.1 Chapter 17`; next aggregate due after `Vol.1 Chapter 20`
+- Execution mode: `conductor direct lock`
+- Primary agent: `Codex`
+- Specialists: `none`
+- MCP: `node_repl` verification helper
+- Skills:
+  - `rttp-lock-cycle`
+- Automations: `rttp-style-harness-ch1-loop`
+- Edits:
+  - `Drafts/Vol_1/Vol_1_Chapter_16.md`
+  - `orchestra/VOL1_CHAPTER_16_STYLE_HARNESS_CHECKPOINT_2026-05-11.md`
+  - `orchestra/SESSION_STATE.md`
+  - `orchestra/NEXT_DIALOGUE_HANDOFF.md`
+  - `orchestra/EXECUTION_PROGRESS_LEDGER.md`
+- Manuscript note:
+  - Narrow repair only: sharpened the opening with Ria's extraction objective and removed remaining backticks from in-world labels.
+- Result:
+  - `Vol.1 Chapter 16` passed full read, FAIL ledger, narrow repair, full reread, and final no-edit 5-cycle verification
+  - final no-space count `4,800`
+  - hard/banned/meta surface hits `0`
+  - exact motif counts held within limits: `Ria=24`, `Iris=20`, `Aiden=29`, `emergency=6`, `bell=6`, `chimera=10`, `specimen=3`, `academy=8`, `door=20`, `blood=7`, `already=1`, `thisTime=0`, `again=7`, `memory=2`, `scent=10`, `ledger=5`, `darkness=5`, `rain=24`, `downway=5`
+  - final stable hash `392D8E979DFCAFC3D86CBC9B64671526D3FB7079E8384B3C909FC168D4905157`
+  - current style-harness verified range is now `Vol.1 Chapters 1~16`
+  - aggregate `Vol.1 Chapters 1~15` remains complete; next aggregate verification is due after Chapter 20
+
+- Mode: `rttp style-harness recast Vol.1 Chapter 15 + aggregate 11~15`
+- Scope note: this is the fifteenth completed chapter in the new style-recast loop; it is not the prior Vol.6/overall-147 continuation queue.
+- Current work: `Vol.1 Chapter 15` style-harness lock complete and aggregate `Vol.1 Chapters 11~15` verification complete
+- Next work: `Vol.1 Chapter 16`; next aggregate due after `Vol.1 Chapter 20`
+- Execution mode: `conductor direct lock`
+- Primary agent: `Codex`
+- Specialists: `none`
+- MCP: `node_repl` verification helper
+- Skills:
+  - `rttp-lock-cycle`
+- Automations: `rttp-style-harness-ch1-loop`
+- Edits:
+  - `Drafts/Vol_1/Vol_1_Chapter_15.md`
+  - `orchestra/VOL1_CHAPTER_15_STYLE_HARNESS_CHECKPOINT_2026-05-11.md`
+  - `orchestra/VOL1_CHAPTER_11_15_STYLE_HARNESS_AGGREGATE_CHECKPOINT_2026-05-11.md`
+  - `orchestra/SESSION_STATE.md`
+  - `orchestra/NEXT_DIALOGUE_HANDOFF.md`
+  - `orchestra/EXECUTION_PROGRESS_LEDGER.md`
+- Manuscript note:
+  - Narrow repair only: sharpened the opening with the concrete `702호 문` objective and removed all backticks from in-world labels/fragments.
+- Result:
+  - `Vol.1 Chapter 15` passed full read, FAIL ledger, narrow repair, full reread, and final no-edit 5-cycle verification
+  - final no-space count `4,805`
+  - hard/banned/meta surface hits `0`
+  - exact motif counts held within limits: `702=4`, `Ria=35`, `Iris=17`, `specimen=2`, `memory=4`, `bell=10`, `injection=2`, `academy=6`, `door=30`, `blood=1`, `deep=5`, `quarantine=3`, `emergency=1`, `selectionLine=1`
+  - final stable hash `D5CF769B94BD535B87CF197BD0877FB85C2B02EA2BE53C4BD00C71C7E18A0F5F`
+  - aggregate `Vol.1 Chapters 11~15` passed five no-edit cycles
+  - aggregate no-space count `23,587`
+  - aggregate hard/banned/meta surface hits `0`
+  - aggregate stable hash `F978FB42BD4D8DD3E07E9946571B7726B8A5CA86CC3A90ED03E70BDD79F0C7E8`
+  - current style-harness verified range is now `Vol.1 Chapters 1~15`
+  - current aggregate style-harness verified range is now `Vol.1 Chapters 1~15`
+
+- Mode: `rttp style-harness recast Vol.1 Chapter 14`
+- Scope note: this is the fourteenth completed chapter in the new style-recast loop; it is not the prior Vol.6/overall-147 continuation queue.
+- Current work: `Vol.1 Chapter 14` style-harness lock complete
+- Next work: `Vol.1 Chapter 15`; after Chapter 15 passes, run aggregate `Vol.1 Chapters 11~15` packet verification
+- Execution mode: `conductor direct lock`
+- Primary agent: `Codex`
+- Specialists: `none`
+- MCP: `node_repl` verification helper
+- Skills:
+  - `rttp-lock-cycle`
+- Automations: `rttp-style-harness-ch1-loop`
+- Edits:
+  - `Drafts/Vol_1/Vol_1_Chapter_14.md`
+  - `orchestra/VOL1_CHAPTER_14_STYLE_HARNESS_CHECKPOINT_2026-05-11.md`
+  - `orchestra/SESSION_STATE.md`
+  - `orchestra/NEXT_DIALOGUE_HANDOFF.md`
+  - `orchestra/EXECUTION_PROGRESS_LEDGER.md`
+- Manuscript note:
+  - Narrow repair only: sharpened the opening around the white gown's dehumanizing function, removed all backticks, and compressed the final detection/decision pressure.
+- Result:
+  - `Vol.1 Chapter 14` passed full read, FAIL ledger, narrow repair, full reread, and final no-edit 5-cycle verification
+  - final no-space count `4,644`
+  - hard/banned/meta surface hits `0`
+  - exact motif counts held within limits: `gown=16`, `white=9`, `academy=4`, `Ria=5`, `Iris=25`, `number=4`, `ledger=16`, `door=24`, `blood=2`, `already=0`, `again=6`, `red=3`
+  - final stable hash `E220DE83AF26C17AFD390AB7E362C1B51CB9FE23755471207D50E1F237886D66`
+  - current style-harness verified range is now `Vol.1 Chapters 1~14`
+  - aggregate `Vol.1 Chapters 1~10` remains complete; next aggregate verification is due after Chapter 15
+
+- Mode: `rttp style-harness recast Vol.1 Chapter 13`
+- Scope note: this is the thirteenth completed chapter in the new style-recast loop; it is not the prior Vol.6/overall-147 continuation queue.
+- Current work: `Vol.1 Chapter 13` style-harness lock complete
+- Next work: `Vol.1 Chapter 14`; next aggregate due after `Vol.1 Chapter 15`
+- Execution mode: `conductor direct lock`
+- Primary agent: `Codex`
+- Specialists: `none`
+- MCP: `node_repl` verification helper
+- Skills:
+  - `rttp-lock-cycle`
+- Automations: `rttp-style-harness-ch1-loop`
+- Edits:
+  - `Drafts/Vol_1/Vol_1_Chapter_13.md`
+  - `orchestra/VOL1_CHAPTER_13_STYLE_HARNESS_CHECKPOINT_2026-05-11.md`
+  - `orchestra/SESSION_STATE.md`
+  - `orchestra/NEXT_DIALOGUE_HANDOFF.md`
+  - `orchestra/EXECUTION_PROGRESS_LEDGER.md`
+- Manuscript note:
+  - Narrow repair only: sharpened the opening into the Ria/sewer objective, removed backticks from in-world labels, and compressed the final academy-threshold click.
+- Result:
+  - `Vol.1 Chapter 13` passed full read, FAIL ledger, narrow repair, full reread, and final no-edit 5-cycle verification
+  - final no-space count `4,648`
+  - hard/banned/meta surface hits `0`
+  - exact motif counts held within limits: `rainSurface=4`, `waterSurface=30`, `bloodSurface=4`, `Aiden=29`, `Iris=24`, `Ria=5`, `academy=3`, `rat=11`, `number=5`, `door=19`, `already=2`, `again=12`
+  - final stable hash `947C773135F4A0E435592E49F066A525B31EC84BF1536D68BBBBA4C61435121F`
+  - current style-harness verified range is now `Vol.1 Chapters 1~13`
+  - aggregate `Vol.1 Chapters 1~10` remains complete; next aggregate verification is due after Chapter 15
+
+- Mode: `rttp style-harness recast Vol.1 Chapter 12`
+- Scope note: this is the twelfth completed chapter in the new style-recast loop; it is not the prior Vol.6/overall-147 continuation queue.
+- Current work: `Vol.1 Chapter 12` style-harness lock complete
+- Next work: `Vol.1 Chapter 13`; next aggregate due after `Vol.1 Chapter 15`
+- Execution mode: `conductor direct lock`
+- Primary agent: `Codex`
+- Specialists: `none`
+- MCP: `node_repl` verification helper
+- Skills:
+  - `rttp-lock-cycle`
+- Automations: `rttp-style-harness-ch1-loop`
+- Edits:
+  - `Drafts/Vol_1/Vol_1_Chapter_12.md`
+  - `orchestra/VOL1_CHAPTER_12_STYLE_HARNESS_CHECKPOINT_2026-05-11.md`
+  - `orchestra/SESSION_STATE.md`
+  - `orchestra/NEXT_DIALOGUE_HANDOFF.md`
+  - `orchestra/EXECUTION_PROGRESS_LEDGER.md`
+- Manuscript note:
+  - Narrow repair only: sharpened the opening from weather to Aiden actively counting rain-sounds, reduced repeated `빈칸` surfaces, and preserved the unsafe cohabitation/planning function.
+- Result:
+  - `Vol.1 Chapter 12` passed full read, FAIL ledger, narrow repair, full reread, and final no-edit 5-cycle verification
+  - final no-space count `4,815`
+  - hard/banned/meta surface hits `0`
+  - exact motif counts held within limits: `rainSurface=11`, `waterSurface=9`, `bloodSurface=2`, `Aiden=33`, `Iris=30`, `Ria=5`, `academy=7`, `blank=4`, `blankPlace=2`, `point=6`, `already=2`, `again=9`
+  - final stable hash `C844A7200893D7A9E055594589EACA7C1F006FAB83C51AFB564C26EB2BFA902A`
+  - current style-harness verified range is now `Vol.1 Chapters 1~12`
+  - aggregate `Vol.1 Chapters 1~10` remains complete; next aggregate verification is due after Chapter 15
+
+- Mode: `rttp style-harness recast Vol.1 Chapter 11`
+- Scope note: this is the eleventh completed chapter in the new style-recast loop; it is not the prior Vol.6/overall-147 continuation queue.
+- Current work: `Vol.1 Chapter 11` style-harness lock complete
+- Next work: `Vol.1 Chapter 12`; next aggregate due after `Vol.1 Chapter 15`
+- Execution mode: `conductor direct lock`
+- Primary agent: `Codex`
+- Specialists: `none`
+- MCP: `node_repl` verification helper
+- Skills:
+  - `rttp-lock-cycle`
+- Automations: `rttp-style-harness-ch1-loop`
+- Edits:
+  - `Drafts/Vol_1/Vol_1_Chapter_11.md`
+  - `orchestra/VOL1_CHAPTER_11_STYLE_HARNESS_CHECKPOINT_2026-05-11.md`
+  - `orchestra/SESSION_STATE.md`
+  - `orchestra/NEXT_DIALOGUE_HANDOFF.md`
+  - `orchestra/EXECUTION_PROGRESS_LEDGER.md`
+- Manuscript note:
+  - Narrow repair only: sharpened the opening consequence beat, converted answer-key memory phrasing into body-memory phrasing, removed backticks, reduced repeated `이미` and blood/smell surfaces, and compressed the ending into the document/invitation/next-neck click.
+- Result:
+  - `Vol.1 Chapter 11` passed full read, FAIL ledger, narrow repair, full reread, and final no-edit 5-cycle verification
+  - final no-space count `4,675`
+  - hard/banned/meta surface hits `0`
+  - exact motif counts held within limits: `rainSurface=14`, `waterSurface=23`, `bloodSurface=3`, `Aiden=30`, `Iris=28`, `Carlson=10`, `marker=7`, `document=9`, `invitation=3`, `already=1`, `again=13`
+  - final stable hash `ED8A110BB03D8C1B66E8036FA267853B86EDB922329B9B62815BE7721614E576`
+  - current style-harness verified range is now `Vol.1 Chapters 1~11`
+  - aggregate `Vol.1 Chapters 1~10` remains complete; next aggregate verification is due after Chapter 15
+
+- Mode: `rttp style-harness recast Vol.1 Chapter 10 + aggregate 6~10`
+- Scope note: this is the tenth completed chapter in the new style-recast loop; it is not the prior Vol.6/overall-147 continuation queue.
+- Current work: `Vol.1 Chapter 10` style-harness lock complete and aggregate `Vol.1 Chapters 6~10` verification complete
+- Next work: `Vol.1 Chapter 11`; next aggregate due after `Vol.1 Chapter 15`
+- Execution mode: `conductor direct lock`
+- Primary agent: `Codex`
+- Specialists: `none`
+- MCP: `node_repl` verification helper
+- Skills:
+  - `rttp-lock-cycle`
+- Automations: `rttp-style-harness-ch1-loop`
+- Edits:
+  - `Drafts/Vol_1/Vol_1_Chapter_10.md`
+  - `orchestra/VOL1_CHAPTER_10_STYLE_HARNESS_CHECKPOINT_2026-05-11.md`
+  - `orchestra/VOL1_CHAPTER_6_10_STYLE_HARNESS_AGGREGATE_CHECKPOINT_2026-05-11.md`
+  - `orchestra/SESSION_STATE.md`
+  - `orchestra/NEXT_DIALOGUE_HANDOFF.md`
+  - `orchestra/EXECUTION_PROGRESS_LEDGER.md`
+- Manuscript note:
+  - Narrow repair only: sharpened the opening from rain atmosphere to the Carlson mission objective, removed hard-banned `피 묻은`, and compressed the final consequence chain into the recovered marker/Ria/Iris threshold.
+- Result:
+  - `Vol.1 Chapter 10` passed full read, FAIL ledger, narrow repair, full reread, and final no-edit 5-cycle verification
+  - final no-space count `4,640`
+  - hard/banned/meta surface hits `0`
+  - exact motif counts held within limits: `rainSurface=6`, `waterSurface=16`, `bloodSurface=4`, `kalStandalone=10`, `Carlson=39`, `Iris=29`, `Ria=2`, `marker=9`, `checkpoint=7`
+  - final stable hash `0528A494C58025111EDA69FA972E2E2026CBE14F7653FA6FBF4D54F8364D712C`
+  - aggregate `Vol.1 Chapters 6~10` passed five no-edit cycles
+  - aggregate no-space count `24,205`
+  - aggregate hard/banned/meta surface hits `0`
+  - aggregate stable hash `53A3447A43A7C7B707AB6E8C42E0F6A3854471E9040C392DA308E24500E04D47`
+  - current style-harness verified range is now `Vol.1 Chapters 1~10`
+  - current aggregate style-harness verified range is now `Vol.1 Chapters 1~10`
+
+- Mode: `rttp style-harness recast Vol.1 Chapter 9`
+- Scope note: this is the ninth completed chapter in the new style-recast loop; it is not the prior Vol.6/overall-147 continuation queue.
+- Current work: `Vol.1 Chapter 9` style-harness lock complete
+- Next work: `Vol.1 Chapter 10`; after Chapter 10 passes, run aggregate `Vol.1 Chapters 6~10` packet verification
+- Execution mode: `conductor direct lock`
+- Primary agent: `Codex`
+- Specialists: `none`
+- MCP: `node_repl` verification helper
+- Skills:
+  - `rttp-lock-cycle`
+- Automations: `rttp-style-harness-ch1-loop`
+- Edits:
+  - `Drafts/Vol_1/Vol_1_Chapter_9.md`
+  - `orchestra/VOL1_CHAPTER_9_STYLE_HARNESS_CHECKPOINT_2026-05-11.md`
+  - `orchestra/SESSION_STATE.md`
+  - `orchestra/NEXT_DIALOGUE_HANDOFF.md`
+  - `orchestra/EXECUTION_PROGRESS_LEDGER.md`
+- Manuscript note:
+  - Narrow repair only: moved the child-cry pressure to the opening, replaced premature future-name surface, compressed the ending, reduced repeated `울음` surfaces, and restored the Ria-direction click.
+- Result:
+  - `Vol.1 Chapter 9` passed full read, FAIL ledger, narrow repair, full reread, and final no-edit 5-cycle verification
+  - final no-space count `4,539`
+  - hard/banned/meta surface hits `0`
+  - exact motif counts held within limits: `rainSurface=8`, `침묵=4`, `울음=4`, `불빛=4`, `아이리스=37`, `리아=2`, `리나=2`, `계약=6`, `칼=9`, `밥=2`, `술_standalone=7`, `bloodSurface=1`
+  - final stable hash `02588A024FA2E7D9C7464C998F35D031361E28B0EA0125263B22D116D35D7002`
+  - current style-harness verified range is now `Vol.1 Chapters 1~9`
+  - aggregate `Vol.1 Chapters 1~5` remains complete; next aggregate verification is due after Chapter 10
+
+- Mode: `rttp style-harness recast Vol.1 Chapter 8`
+- Scope note: this is the eighth completed chapter in the new style-recast loop; it is not the prior Vol.6/overall-147 continuation queue.
+- Current work: `Vol.1 Chapter 8` style-harness lock complete
+- Next work: `Vol.1 Chapter 9`
+- Execution mode: `conductor direct lock`
+- Primary agent: `Codex`
+- Specialists: `none`
+- MCP: `node_repl` verification helper
+- Skills:
+  - `rttp-lock-cycle`
+- Automations: `rttp-style-harness-ch1-loop`
+- Edits:
+  - `Drafts/Vol_1/Vol_1_Chapter_8.md`
+  - `orchestra/VOL1_CHAPTER_8_STYLE_HARNESS_CHECKPOINT_2026-05-11.md`
+  - `orchestra/SESSION_STATE.md`
+  - `orchestra/NEXT_DIALOGUE_HANDOFF.md`
+  - `orchestra/EXECUTION_PROGRESS_LEDGER.md`
+- Manuscript note:
+  - Narrow repair only: sharpened the opening danger pattern, removed a meta backtick surface, reduced smell/motif overlap, compressed duplicated ending explanation, and added a concise causal bridge for the three attempts.
+- Result:
+  - `Vol.1 Chapter 8` passed full read, FAIL ledger, narrow repair, full reread, and final no-edit 5-cycle verification
+  - final no-space count `4,559`
+  - hard/banned/meta surface hits `0`
+  - exact motif counts held within limits: `rainSurface=12`, `술_standalone=12`, `밥=4`, `칼=7`, `빚=3`, `이름=8`, `아이리스=33`, `실패=4`, `셋=5`, `독=10`, `쇠뇌=10`, `기름=4`, `bloodSurface=4`
+  - final stable hash `F7BB38F732ED91AABC8679ADE284555A75BC8CD9501AB740149155E5DD8DEB23`
+  - current style-harness verified range is now `Vol.1 Chapters 1~8`
+  - aggregate `Vol.1 Chapters 1~5` remains complete; next aggregate verification is due after Chapter 10
+
+- Mode: `rttp style-harness recast Vol.1 Chapter 7`
+- Scope note: this is the seventh completed chapter in the new style-recast loop; it is not the prior Vol.6/overall-147 continuation queue.
+- Current work: `Vol.1 Chapter 7` style-harness lock complete
+- Next work: `Vol.1 Chapter 8`
+- Execution mode: `conductor direct lock`
+- Primary agent: `Codex`
+- Specialists: `none`
+- MCP: `node_repl` verification helper
+- Skills:
+  - `rttp-lock-cycle`
+- Automations: `rttp-style-harness-ch1-loop`
+- Edits:
+  - `Drafts/Vol_1/Vol_1_Chapter_7.md`
+  - `orchestra/VOL1_CHAPTER_7_STYLE_HARNESS_CHECKPOINT_2026-05-11.md`
+  - `orchestra/SESSION_STATE.md`
+  - `orchestra/NEXT_DIALOGUE_HANDOFF.md`
+  - `orchestra/EXECUTION_PROGRESS_LEDGER.md`
+- Manuscript note:
+  - Narrow repair only: sharpened the first body sentence into the objective hook, removed a meta backtick surface, clarified `내 판`, and reduced nonfunctional alcohol/blood surface repeats.
+- Result:
+  - `Vol.1 Chapter 7` passed full read, FAIL ledger, narrow repair, full reread, and final no-edit 5-cycle verification
+  - final no-space count `5,387`
+  - hard/banned/meta surface hits `0`
+  - exact motif counts held within limits: `비=21`, `술_standalone=13`, `밥=6`, `칼=20`, `빚=6`, `이름=8`, `소리 없는 칼=4`, `학회=2`, `유리관=1`, `bloodSurface=1`
+  - final stable hash `7E08FDC4BAD4C9F7BF4928286C8420763B7853F6EF07BCDCD88F607CCF3A83F5`
+  - current style-harness verified range is now `Vol.1 Chapters 1~7`
+  - aggregate `Vol.1 Chapters 1~5` remains complete; next aggregate verification is due after Chapter 10
+
+- Mode: `rttp style-harness recast Vol.1 Chapter 6`
+- Scope note: this is the sixth completed chapter in the new style-recast loop; it is not the prior Vol.6/overall-147 continuation queue.
+- Current work: `Vol.1 Chapter 6` style-harness lock complete
+- Next work: `Vol.1 Chapter 7`
+- Execution mode: `conductor direct lock`
+- Primary agent: `Codex`
+- Specialists: `none`
+- MCP: `node_repl` verification helper
+- Skills:
+  - `rttp-lock-cycle`
+- Automations: `rttp-style-harness-ch1-loop`
+- Edits:
+  - `Drafts/Vol_1/Vol_1_Chapter_6.md`
+  - `orchestra/VOL1_CHAPTER_6_STYLE_HARNESS_CHECKPOINT_2026-05-11.md`
+  - `orchestra/SESSION_STATE.md`
+  - `orchestra/NEXT_DIALOGUE_HANDOFF.md`
+  - `orchestra/EXECUTION_PROGRESS_LEDGER.md`
+- Manuscript note:
+  - Narrow repair only: moved the wrongness pressure into the first body sentence and corrected `비는 자리` to `빈자리`.
+- Result:
+  - `Vol.1 Chapter 6` passed full read, FAIL ledger, narrow repair, full reread, and final no-edit 5-cycle verification
+  - final no-space count `5,029`
+  - hard/banned surface hits `0`
+  - exact motif counts held within limits: `비=28`, `빗소리=2`, `소리=32`, `철표=7`, `리아=4`, `제분소=9`, `피값=2`, `짤각=1`
+  - final stable hash `E13445C05B808F96FB6487370D52B30ECA0C7C6B3AE2AC8AC21442BCB9649E9D`
+  - current style-harness verified range is now `Vol.1 Chapters 1~6`
+  - aggregate `Vol.1 Chapters 1~5` remains complete; next aggregate verification is due after Chapter 10
+
+- Mode: `rttp style-harness recast Vol.1 Chapter 5 + aggregate 1~5`
+- Scope note: this is the fifth completed chapter in the new style-recast loop; it is not the prior Vol.6/overall-147 continuation queue.
+- Current work: `Vol.1 Chapter 5` style-harness lock complete; aggregate `Vol.1 Chapters 1~5` complete
+- Next work: `Vol.1 Chapter 6`
+- Execution mode: `conductor direct lock`
+- Primary agent: `Codex`
+- Specialists: `none`
+- MCP: `none`
+- Skills:
+  - `rttp-lock-cycle`
+- Automations: `rttp-style-harness-ch1-loop`
+- Edits:
+  - `orchestra/VOL1_CHAPTER_5_STYLE_HARNESS_CHECKPOINT_2026-05-11.md`
+  - `orchestra/VOL1_CHAPTER_1_5_STYLE_HARNESS_AGGREGATE_CHECKPOINT_2026-05-11.md`
+  - `orchestra/SESSION_STATE.md`
+  - `orchestra/NEXT_DIALOGUE_HANDOFF.md`
+  - `orchestra/EXECUTION_PROGRESS_LEDGER.md`
+- Manuscript note:
+  - `Drafts/Vol_1/Vol_1_Chapter_5.md` required no additional manuscript edits in this wakeup; the current draft passed the full style-harness gate as-is.
+- Result:
+  - `Vol.1 Chapter 5` passed full read, FAIL ledger, full reread, and final no-edit 5-cycle verification
+  - final no-space count `5,034`
+  - hard/banned surface hits `0`
+  - final stable hash `EB26F1472E09975C8AB4B56ACD8B296E83662666E5D19F80D8AF759DA31CE162`
+  - aggregate `Vol.1 Chapters 1~5` then passed five no-edit cycles
+  - aggregate no-space count `25,166`
+  - aggregate hash `88D7E8AE3622B95790CB1252A5A2DBCF7AE4E49CBB5217EAB889BBBBA0F253CE`
+  - current style-harness verified range is now `Vol.1 Chapters 1~5`
+
+## 2026-05-10 KST
+
+- Mode: `rttp style-harness recast Vol.1 Chapter 4`
+- Scope note: this is the fourth completed chapter in the new style-recast loop; it is not the prior Vol.6/overall-147 continuation queue.
+- Current work: `Vol.1 Chapter 4` style-harness lock complete
+- Next work: `Vol.1 Chapter 5`; after Chapter 5 passes, run aggregate `Vol.1 Chapters 1~5` packet verification
+- Execution mode: `conductor direct lock`
+- Primary agent: `Codex`
+- Specialists: `none`
+- MCP: `none`
+- Skills:
+  - `rttp-lock-cycle`
+- Automations: `rttp-style-harness-ch1-loop`
+- Edits:
+  - `orchestra/VOL1_CHAPTER_4_STYLE_HARNESS_CHECKPOINT_2026-05-10.md`
+  - `orchestra/SESSION_STATE.md`
+  - `orchestra/NEXT_DIALOGUE_HANDOFF.md`
+  - `orchestra/EXECUTION_PROGRESS_LEDGER.md`
+- Manuscript note:
+  - `Drafts/Vol_1/Vol_1_Chapter_4.md` required no additional manuscript edits in this wakeup; the current draft passed the full style-harness gate as-is.
+- Result:
+  - `Vol.1 Chapter 4` passed full read, FAIL ledger, full reread, and final no-edit 5-cycle verification
+  - final no-space count `5,024`
+  - hard/banned surface hits `0`
+  - exact motif counts held within limits: `rain=8`, `blood=5`, `time=8`, `ledger=27`, `serkan=35`, `mark=21`, `door=16`, `sound=18`, `ria=1`, `debtValue=7`
+  - final stable hash `763623691602969B028B5C6A302B065065781FA8C96902D420B29ED61374A356`
+  - current style-harness verified range is now `Vol.1 Chapters 1~4`
+
+## 2026-05-10 KST
+
+- Mode: `rttp style-harness recast Vol.1 Chapter 3`
+- Scope note: this is the third completed chapter in the new style-recast loop; it is not the prior Vol.6/overall-147 continuation queue.
+- Current work: `Vol.1 Chapter 3` style-harness lock complete
+- Next work: `Vol.1 Chapter 4`
+- Execution mode: `conductor direct lock`
+- Primary agent: `Codex`
+- Specialists: `none`
+- MCP: `none`
+- Skills:
+  - `rttp-lock-cycle`
+- Automations: `rttp-style-harness-ch1-loop`
+- Edits:
+  - `Drafts/Vol_1/Vol_1_Chapter_3.md`
+  - `orchestra/VOL1_CHAPTER_3_STYLE_HARNESS_CHECKPOINT_2026-05-10.md`
+  - `orchestra/SESSION_STATE.md`
+  - `orchestra/NEXT_DIALOGUE_HANDOFF.md`
+  - `orchestra/EXECUTION_PROGRESS_LEDGER.md`
+- Result:
+  - `Vol.1 Chapter 3` passed full read, FAIL ledger, narrow repair, full reread, and final no-edit 5-cycle verification
+  - final no-space count `5,055`
+  - hard/banned surface hits `0`
+  - exact motif counts held within limits: `rain=7`, `bloodSmell=6`, `time=3`, `door=29`, `serkan=14`, `ria=4`, `ledger=6`, `rat=13`
+  - final stable hash `F3F3DAF6566708B8D7819EDD6C2616F8C5B20086F9298BD4387C09CBEA69F254`
+  - current style-harness verified range is now `Vol.1 Chapters 1~3`
+
+## 2026-05-10 KST
+
+- Mode: `rttp style-harness recast Vol.1 Chapter 2`
+- Scope note: this is the second completed chapter in the new style-recast loop; it is not the prior Vol.6/overall-147 continuation queue.
+- Current work: `Vol.1 Chapter 2` style-harness lock complete
+- Next work: `Vol.1 Chapter 3`
+- Execution mode: `conductor direct lock`
+- Primary agent: `Codex`
+- Specialists: `none`
+- MCP: `none`
+- Skills:
+  - `rttp-lock-cycle`
+- Automations: `rttp-style-harness-ch1-loop`
+- Edits:
+  - `Drafts/Vol_1/Vol_1_Chapter_2.md`
+  - `orchestra/VOL1_CHAPTER_2_STYLE_HARNESS_CHECKPOINT_2026-05-10.md`
+  - `orchestra/SESSION_STATE.md`
+  - `orchestra/NEXT_DIALOGUE_HANDOFF.md`
+  - `orchestra/EXECUTION_PROGRESS_LEDGER.md`
+- Result:
+  - `Vol.1 Chapter 2` passed full read, FAIL ledger, narrow repair, full reread, and final no-edit 5-cycle verification
+  - final no-space count `5,016`
+  - hard/banned surface hits `0`
+  - exact motif counts held within limits: `rainExact=10`, `coin=5`, `time=4`, `doorExact=8`, `bloodSmell=6`, `valueDebt=10`
+  - final stable hash `BB61EE1EA6E0DA844690CE4C8F6F4D9CBF8D37EA9A24C604AF17EB42DC538220`
+  - current style-harness verified range is now `Vol.1 Chapters 1~2`
+
+## 2026-05-10 KST
+
+- Mode: `rttp style-harness recast Vol.1 Chapter 1`
+- Scope note: this is the first completed chapter in the new style-recast loop; it is not the prior Vol.6/overall-147 continuation queue.
+- Current work: `Vol.1 Chapter 1` style-harness lock complete
+- Next work: `Vol.1 Chapter 2`
+- Execution mode: `conductor direct lock`
+- Primary agent: `Codex`
+- Specialists: `none`
+- MCP: `none`
+- Skills:
+  - `rttp-lock-cycle`
+- Automations: `rttp-style-harness-ch1-loop`
+- Edits:
+  - `Drafts/Vol_1/Vol_1_Chapter_1.md`
+  - `orchestra/VOL1_CHAPTER_1_STYLE_HARNESS_CHECKPOINT_2026-05-10.md`
+  - `orchestra/SESSION_STATE.md`
+  - `orchestra/NEXT_DIALOGUE_HANDOFF.md`
+  - `orchestra/EXECUTION_PROGRESS_LEDGER.md`
+- Result:
+  - `Vol.1 Chapter 1` passed full read, FAIL ledger, narrow repair, full reread, and final no-edit 5-cycle verification
+  - final no-space count `4,987`
+  - hard/banned surface hits `0`
+  - final stable hash `3621896A5959EC874963572A30BD82BD798D6354423D86AB69FC875A0B59D4C9`
+  - current style-harness verified range is now `Vol.1 Chapter 1`
+
+## 2026-05-10 KST
+
+- Mode: `rttp style-harness recast queue setup`
+- Scope note: this starts a new style-recast loop from `Vol.1 Chapter 1`; it is not the prior Vol.6/overall-147 continuation queue.
+- Current work: style harness rules integrated and automation created
+- Next work: `Vol.1 Chapter 1` full style-harness lock cycle
+- Execution mode: `conductor direct setup`
+- Primary agent: `Codex`
+- Specialists: `none`
+- MCP: `none`
+- Skills:
+  - `rttp-lock-cycle`
+- Automations: `rttp-style-harness-ch1-loop`
+- Edits:
+  - `Guidelines/Chapter_Audit_Checklist.md`
+  - `Guidelines/Prompt_Quick_Reference.md`
+  - `Guidelines/Writing_Prompt_Template.md`
+  - `orchestra/RTTP_ENGINE.md`
+  - `Drafts/Vol_1/Vol_1_Chapter_1.md`
+  - `orchestra/SESSION_STATE.md`
+  - `orchestra/NEXT_DIALOGUE_HANDOFF.md`
+  - `orchestra/EXECUTION_PROGRESS_LEDGER.md`
+- Result:
+  - sample-derived style rules now active: blade-like opening rhythm, stepwise wrongness confirmation, relationship-pressure before exposition, low-intensity reversal, surrounding-character reaction proof, restrained anger/violence, and RTTP time-travel/causal-debt framing
+  - Chapter 1 opening has a style-direction pass, but no chapter is style-locked complete yet
+  - style-harness verified range remains `none`
+
+## 2026-05-10 KST
+
+- Mode: `rttp re-deep-lock 146 one-chapter deep harness`
+- Scope note: overall `146` was mapped to `Vol.6 Chapter 21`; this is the first chapter of the `146~150` reopened packet.
+- Issue summary: chapter held the correct `그림자 사냥` function, but opened with a title/meta line, carried backtick emphasis, soft `이미=6`, `이번=5`, `루트=1`, episode-facing `제4막` phrasing, and needed a sharper bridge toward `발타자르의 제안`.
+- Current work: `146` re-deep-lock + final no-edit 5-cycle verification complete
+- Next work: `147 (Vol.6 Chapter 22)`; after `150`, run aggregate `146~150` packet verification
+- Execution mode: `conductor direct lock`
+- Primary agent: `Codex`
+- Specialists: `none`
+- MCP: `none`
+- Skills:
+  - `rttp-lock-cycle`
+- Automations: `rttp-one-chapter-5-pass-lock-loop`
+- Edits:
+  - `Drafts/Vol_6/Vol_6_Chapter_21.md`
+  - `orchestra/VOL6_CHAPTER_146_REDEEPLOCK_CHECKPOINT_2026-05-10.md`
+  - `orchestra/NEXT_DIALOGUE_HANDOFF.md`
+  - `orchestra/SESSION_STATE.md`
+  - `orchestra/EXECUTION_PROGRESS_LEDGER.md`
+- Result:
+  - reopened single-chapter verified range is now contiguous `1~146`
+  - active incomplete reopened gap remains `none`
+  - aggregate verified range remains `1~145`
+  - `146` final 5 cycles held at `5,500`
+  - chapter held `meta/time-scent 0`, hard repeats `0`, and `이미=0`, `이번=0`, `루트=0`, `제4막=0` across the no-edit verification
+  - final hash `408DAD015402F534B271B0F14AF1CDE548DAB601588CB0DD3A969086D2A79FB3`
+
+## 2026-05-03 01:21 KST
+
+- Mode: `rttp re-deep-lock 145 one-chapter deep harness + 141~145 aggregate closure`
+- Scope note: overall `145` was mapped to `Vol.6 Chapter 20`; this closes the `141~145` reopened packet.
+- Issue summary: chapter held the correct `적의 함정` function, but opened with a title/meta line, carried backtick emphasis, soft `이미=10`, `이번=1`, and one stray foreign token, and needed a direct bridge into `그림자 사냥`.
+- Current work: `145` re-deep-lock + final no-edit 5-cycle verification complete
+- Aggregate work: `141~145` aggregate no-edit 5-cycle verification complete
+- Next work: `146 (Vol.6 Chapter 21)`; after `150`, run aggregate `146~150` packet verification
+- Execution mode: `conductor direct lock`
+- Primary agent: `Codex`
+- Specialists: `none`
+- MCP: `none`
+- Skills:
+  - `rttp-lock-cycle`
+- Automations: `rttp-one-chapter-5-pass-lock-loop`
+- Edits:
+  - `Drafts/Vol_6/Vol_6_Chapter_20.md`
+  - `orchestra/VOL6_CHAPTER_145_REDEEPLOCK_CHECKPOINT_2026-05-03.md`
+  - `orchestra/VOL6_CHAPTER_141_145_REDEEPLOCK_AGGREGATE_COMPLETE_CHECKPOINT_2026-05-03.md`
+  - `orchestra/NEXT_DIALOGUE_HANDOFF.md`
+  - `orchestra/SESSION_STATE.md`
+  - `orchestra/EXECUTION_PROGRESS_LEDGER.md`
+- Result:
+  - reopened single-chapter verified range is now contiguous `1~145`
+  - active incomplete reopened gap remains `none`
+  - aggregate verified range advances to `1~145`
+  - `145` final 5 cycles held at `5,053`
+  - chapter held `meta/time-scent 0`, hard repeats `0`, and soft `이미=0`, `이번=0` across the no-edit verification
+  - aggregate `141~145` held five no-edit cycles at total no-space `24,664`, hard/meta total `0`, aggregate hash `5C175687737A3DDD9B7FB41BB1ABF64828CEA59022EBD28DDDD8207154BB02C2`
+
+## 2026-05-03 00:47 KST
+
+- Mode: `rttp re-deep-lock 144 one-chapter deep harness`
+- Scope note: overall `144` was mapped to `Vol.6 Chapter 19`; this is the fourth chapter of the `141~145` reopened packet.
+- Issue summary: chapter held the correct `발타자르의 기억` function, but opened with a title/meta line, carried backtick record labels, episode/volume-facing meta phrasing, soft `이미=8`, `이번=5`, and needed a clearer bridge toward `적의 함정`.
+- Current work: `144` re-deep-lock + final no-edit 5-cycle verification complete
+- Next work: `145 (Vol.6 Chapter 20)`; after `145`, run aggregate `141~145` packet verification
+- Execution mode: `conductor direct lock`
+- Primary agent: `Codex`
+- Specialists: `none`
+- MCP: `none`
+- Skills:
+  - `rttp-lock-cycle`
+- Automations: `rttp-one-chapter-5-pass-lock-loop`
+- Edits:
+  - `Drafts/Vol_6/Vol_6_Chapter_19.md`
+  - `orchestra/VOL6_CHAPTER_144_REDEEPLOCK_CHECKPOINT_2026-05-03.md`
+  - `orchestra/NEXT_DIALOGUE_HANDOFF.md`
+  - `orchestra/SESSION_STATE.md`
+  - `orchestra/EXECUTION_PROGRESS_LEDGER.md`
+- Result:
+  - reopened single-chapter verified range is now contiguous `1~144`
+  - active incomplete reopened gap remains `none`
+  - aggregate verified range remains `1~140`
+  - `144` final 5 cycles held at `5,303`
+  - chapter held `meta/time-scent 0`, hard repeats `0`, and soft `이미=0`, `이번=0` across the no-edit verification
+
+## 2026-05-03 00:12 KST
+
+- Mode: `rttp re-deep-lock 143 one-chapter deep harness`
+- Scope note: overall `143` was mapped to `Vol.6 Chapter 18`; this is the third chapter of the `141~145` reopened packet.
+- Issue summary: chapter held the correct `이름 없는 검` function, but opened with a title/meta line, carried backtick report labels, hard `이번에도=1`, soft `이미=4`, `이번=4`, and needed a cleaner bridge toward `발타자르의 기억`.
+- Current work: `143` re-deep-lock + final no-edit 5-cycle verification complete
+- Next work: `144 (Vol.6 Chapter 19)`; after `145`, run aggregate `141~145` packet verification
+- Execution mode: `conductor direct lock`
+- Primary agent: `Codex`
+- Specialists: `none`
+- MCP: `none`
+- Skills:
+  - `rttp-lock-cycle`
+- Automations: `rttp-one-chapter-5-pass-lock-loop`
+- Edits:
+  - `Drafts/Vol_6/Vol_6_Chapter_18.md`
+  - `orchestra/VOL6_CHAPTER_143_REDEEPLOCK_CHECKPOINT_2026-05-03.md`
+  - `orchestra/NEXT_DIALOGUE_HANDOFF.md`
+  - `orchestra/SESSION_STATE.md`
+  - `orchestra/EXECUTION_PROGRESS_LEDGER.md`
+- Result:
+  - reopened single-chapter verified range is now contiguous `1~143`
+  - active incomplete reopened gap remains `none`
+  - aggregate verified range remains `1~140`
+  - `143` final 5 cycles held at `5,235`
+  - chapter held `meta/time-scent 0`, hard repeats `0`, and soft `이미=0`, `이번=0` across the no-edit verification
+
+## 2026-05-02 23:36 KST
+
+- Mode: `rttp re-deep-lock 142 one-chapter deep harness`
+- Scope note: overall `142` was mapped to `Vol.6 Chapter 17`; this is the second chapter of the `141~145` reopened packet.
+- Issue summary: chapter held the correct `유령의 전쟁` function, but opened with a title/meta line, had a no-space count of `4,077`, carried backtick emphasis, soft `이미=4`, `이번=1`, and needed a clearer bridge toward `이름 없는 검`.
+- Current work: `142` re-deep-lock + final no-edit 5-cycle verification complete
+- Next work: `143 (Vol.6 Chapter 18)`; after `145`, run aggregate `141~145` packet verification
+- Execution mode: `conductor direct lock`
+- Primary agent: `Codex`
+- Specialists: `none`
+- MCP: `none`
+- Skills:
+  - `rttp-lock-cycle`
+- Automations: `rttp-one-chapter-5-pass-lock-loop`
+- Edits:
+  - `Drafts/Vol_6/Vol_6_Chapter_17.md`
+  - `orchestra/VOL6_CHAPTER_142_REDEEPLOCK_CHECKPOINT_2026-05-02.md`
+  - `orchestra/NEXT_DIALOGUE_HANDOFF.md`
+  - `orchestra/SESSION_STATE.md`
+  - `orchestra/EXECUTION_PROGRESS_LEDGER.md`
+- Result:
+  - reopened single-chapter verified range is now contiguous `1~142`
+  - active incomplete reopened gap remains `none`
+  - aggregate verified range remains `1~140`
+  - `142` final 5 cycles held at `4,507`
+  - chapter held `meta/time-scent 0`, hard repeats `0`, and soft `이미=0`, `이번=0` across the no-edit verification
+
+## 2026-05-02 23:03 KST
+
+- Mode: `rttp re-deep-lock 141 one-chapter deep harness`
+- Scope note: overall `141` was mapped to `Vol.6 Chapter 16`; this opens the `141~145` reopened packet.
+- Issue summary: chapter held the correct `혼자의 밤` function, but opened with a title/meta line, had a no-space count of `4,203`, carried soft `이미=2`, `이번=4`, and needed stronger no-witness/no-record pressure toward `유령의 전쟁`.
+- Current work: `141` re-deep-lock + final no-edit 5-cycle verification complete
+- Next work: `142 (Vol.6 Chapter 17)`; after `145`, run aggregate `141~145` packet verification
+- Execution mode: `conductor direct lock`
+- Primary agent: `Codex`
+- Specialists: `none`
+- MCP: `none`
+- Skills:
+  - `rttp-lock-cycle`
+- Automations: `rttp-one-chapter-5-pass-lock-loop`
+- Edits:
+  - `Drafts/Vol_6/Vol_6_Chapter_16.md`
+  - `orchestra/VOL6_CHAPTER_141_REDEEPLOCK_CHECKPOINT_2026-05-02.md`
+  - `orchestra/NEXT_DIALOGUE_HANDOFF.md`
+  - `orchestra/SESSION_STATE.md`
+  - `orchestra/EXECUTION_PROGRESS_LEDGER.md`
+- Result:
+  - reopened single-chapter verified range is now contiguous `1~141`
+  - active incomplete reopened gap remains `none`
+  - aggregate verified range remains `1~140`
+  - `141` final 5 cycles held at `4,550`
+  - chapter held `meta/time-scent 0`, hard repeats `0`, and soft `이미=0`, `이번=0` across the no-edit verification
+
+## 2026-05-02 22:27 KST
+
+- Mode: `rttp re-deep-lock 140 one-chapter deep harness + 136~140 aggregate closure`
+- Scope note: overall `140` was mapped to `Vol.6 Chapter 15`; this closes the `136~140` reopened packet.
+- Issue summary: chapter held the correct `변절자` function, but opened with a title/meta line, had a no-space count of `4,038`, carried backtick emphasis, soft `이미=4`, and needed stronger report/posting pressure plus a physical bridge into `혼자의 밤`.
+- Current work: `140` re-deep-lock + final no-edit 5-cycle verification complete
+- Aggregate work: `136~140` aggregate no-edit 5-cycle verification complete
+- Next work: `141 (Vol.6 Chapter 16)`; after `145`, run aggregate `141~145` packet verification
+- Execution mode: `conductor direct lock`
+- Primary agent: `Codex`
+- Specialists: `none`
+- MCP: `none`
+- Skills:
+  - `rttp-lock-cycle`
+- Automations: `rttp-one-chapter-5-pass-lock-loop`
+- Edits:
+  - `Drafts/Vol_6/Vol_6_Chapter_15.md`
+  - `orchestra/VOL6_CHAPTER_140_REDEEPLOCK_CHECKPOINT_2026-05-02.md`
+  - `orchestra/VOL6_CHAPTER_136_140_REDEEPLOCK_AGGREGATE_COMPLETE_CHECKPOINT_2026-05-02.md`
+  - `orchestra/NEXT_DIALOGUE_HANDOFF.md`
+  - `orchestra/SESSION_STATE.md`
+  - `orchestra/EXECUTION_PROGRESS_LEDGER.md`
+- Result:
+  - reopened single-chapter verified range is now contiguous `1~140`
+  - active incomplete reopened gap remains `none`
+  - aggregate verified range advances to `1~140`
+  - `140` final 5 cycles held at `4,562`
+  - chapter held `meta/time-scent 0`, hard repeats `0`, and soft `이미=0`, `이번=0` across the no-edit verification
+  - aggregate `136~140` held five no-edit cycles at total no-space `22,683`, hard/meta total `0`, aggregate hash `3F9019FB756B57EEC8C85EF8B4D9D9DD70427AAF0C7F497AF34639A4E7E029FC`
+
+## 2026-05-02 21:52 KST
+
+- Mode: `rttp re-deep-lock 139 one-chapter deep harness`
+- Scope note: overall `139` was mapped to `Vol.6 Chapter 14`; this is the fourth chapter of the `136~140` reopened packet.
+- Issue summary: chapter held the correct nobody-knows-him function, but opened with a title/meta line, had a no-space count of `4,120`, carried backtick emphasis, soft `이미=3`, and needed a stronger bridge toward the next chapter's `변절자` label.
+- Current work: `139` re-deep-lock + final no-edit 5-cycle verification complete
+- Next work: `140 (Vol.6 Chapter 15)`; after `140`, run aggregate `136~140` packet verification
+- Execution mode: `conductor direct lock`
+- Primary agent: `Codex`
+- Specialists: `none`
+- MCP: `none`
+- Skills:
+  - `rttp-lock-cycle`
+- Automations: `rttp-one-chapter-5-pass-lock-loop`
+- Edits:
+  - `Drafts/Vol_6/Vol_6_Chapter_14.md`
+  - `orchestra/VOL6_CHAPTER_139_REDEEPLOCK_CHECKPOINT_2026-05-02.md`
+  - `orchestra/NEXT_DIALOGUE_HANDOFF.md`
+  - `orchestra/SESSION_STATE.md`
+  - `orchestra/EXECUTION_PROGRESS_LEDGER.md`
+- Result:
+  - reopened single-chapter verified range is now contiguous `1~139`
+  - active incomplete reopened gap remains `none`
+  - aggregate verified range remains `1~135`
+  - `139` final 5 cycles held at `4,500`
+  - chapter held `meta/time-scent 0`, hard repeats `0`, and soft `이미=0`, `이번=0` across the no-edit verification
+
+## 2026-05-01 15:48 KST
+
+- Mode: `rttp re-deep-lock 138 one-chapter deep harness`
+- Scope note: overall `138` was mapped to `Vol.6 Chapter 13`; this is the third chapter of the `136~140` reopened packet.
+- Issue summary: chapter held the correct taboo-overwrite function, but opened with a title/meta line, had a no-space count of `4,113`, carried backtick emphasis, soft `이미=8`, `이번=2`, a stray foreign token, and needed a stronger ending bridge into the identity-erasure fallout.
+- Current work: `138` re-deep-lock + final no-edit 5-cycle verification complete
+- Next work: `139 (Vol.6 Chapter 14)`; after `140`, run aggregate `136~140` packet verification
+- Execution mode: `conductor direct lock`
+- Primary agent: `Codex`
+- Specialists: `none`
+- MCP: `none`
+- Skills:
+  - `rttp-lock-cycle`
+- Automations: `rttp-one-chapter-5-pass-lock-loop`
+- Edits:
+  - `Drafts/Vol_6/Vol_6_Chapter_13.md`
+  - `orchestra/VOL6_CHAPTER_138_REDEEPLOCK_CHECKPOINT_2026-05-01.md`
+  - `orchestra/NEXT_DIALOGUE_HANDOFF.md`
+  - `orchestra/SESSION_STATE.md`
+  - `orchestra/EXECUTION_PROGRESS_LEDGER.md`
+- Result:
+  - reopened single-chapter verified range is now contiguous `1~138`
+  - active incomplete reopened gap remains `none`
+  - aggregate verified range remains `1~135`
+  - `138` final 5 cycles held at `4,620`
+  - chapter held `meta/time-scent 0`, hard repeats `0`, and soft `이미=0`, `이번=0` across the no-edit verification
+
+## 2026-05-01 15:12 KST
+
+- Mode: `rttp re-deep-lock 137 one-chapter deep harness`
+- Scope note: overall `137` was mapped to `Vol.6 Chapter 12`; this is the second chapter of the `136~140` reopened packet.
+- Issue summary: chapter held the correct Lia-record function, but opened with a title/meta line, had a no-space count of `4,002`, carried backtick emphasis, soft `이미=9`, `이번=6`, `미래=1`, a stray English token, and a repetitive fragment tail.
+- Current work: `137` re-deep-lock + final no-edit 5-cycle verification complete
+- Next work: `138 (Vol.6 Chapter 13)`; after `140`, run aggregate `136~140` packet verification
+- Execution mode: `conductor direct lock`
+- Primary agent: `Codex`
+- Specialists: `none`
+- MCP: `none`
+- Skills:
+  - `rttp-lock-cycle`
+- Automations: `rttp-one-chapter-5-pass-lock-loop`
+- Edits:
+  - `Drafts/Vol_6/Vol_6_Chapter_12.md`
+  - `orchestra/VOL6_CHAPTER_137_REDEEPLOCK_CHECKPOINT_2026-05-01.md`
+  - `orchestra/NEXT_DIALOGUE_HANDOFF.md`
+  - `orchestra/SESSION_STATE.md`
+  - `orchestra/EXECUTION_PROGRESS_LEDGER.md`
+- Result:
+  - reopened single-chapter verified range is now contiguous `1~137`
+  - active incomplete reopened gap remains `none`
+  - aggregate verified range remains `1~135`
+  - `137` final 5 cycles held at `4,501`
+  - chapter held `meta/time-scent 0`, hard repeats `0`, and soft `이미=0`, `이번=2` across the no-edit verification
+
+## 2026-05-01 14:37 KST
+
+- Mode: `rttp re-deep-lock 136 one-chapter deep harness`
+- Scope note: overall `136` was mapped to `Vol.6 Chapter 11`; this opens the `136~140` reopened packet.
+- Issue summary: chapter held the correct Iris-knife-return function, but opened with a title/meta line, had a no-space count of `4,001`, carried backtick emphasis, soft `이미=6`, a non-Korean stray token, and a repetitive fragment tail.
+- Current work: `136` re-deep-lock + final no-edit 5-cycle verification complete
+- Next work: `137 (Vol.6 Chapter 12)`; after `140`, run aggregate `136~140` packet verification
+- Execution mode: `conductor direct lock`
+- Primary agent: `Codex`
+- Specialists: `none`
+- MCP: `none`
+- Skills:
+  - `rttp-lock-cycle`
+- Automations: `rttp-one-chapter-5-pass-lock-loop`
+- Edits:
+  - `Drafts/Vol_6/Vol_6_Chapter_11.md`
+  - `orchestra/VOL6_CHAPTER_136_REDEEPLOCK_CHECKPOINT_2026-05-01.md`
+  - `orchestra/NEXT_DIALOGUE_HANDOFF.md`
+  - `orchestra/SESSION_STATE.md`
+  - `orchestra/EXECUTION_PROGRESS_LEDGER.md`
+- Result:
+  - reopened single-chapter verified range is now contiguous `1~136`
+  - active incomplete reopened gap remains `none`
+  - aggregate verified range remains `1~135`
+  - `136` final 5 cycles held at `4,500`
+  - chapter held `meta/time-scent 0`, hard repeats `0`, and soft `이미=0`, `이번=2` across the no-edit verification
+
+## 2026-05-01 14:02 KST
+
+- Mode: `rttp re-deep-lock 135 one-chapter deep harness + 131~135 aggregate closure`
+- Scope note: overall `135` was mapped to `Vol.6 Chapter 10`; this closes the `131~135` reopened packet.
+- Issue summary: chapter held the correct last-patrol function, but opened with a title/meta line, carried hard `이번에도=1`, backtick emphasis, soft `이미=7`, `길=10`, `마지막=6`, `순찰=8`, and ended with a repetitive fragment tail.
+- Current work: `135` re-deep-lock + final no-edit 5-cycle verification complete
+- Aggregate work: `131~135` aggregate no-edit 5-cycle verification complete
+- Next work: `136 (Vol.6 Chapter 11)`; after `140`, run aggregate `136~140` packet verification
+- Execution mode: `conductor direct lock`
+- Primary agent: `Codex`
+- Specialists: `none`
+- MCP: `none`
+- Skills:
+  - `rttp-lock-cycle`
+- Automations: `rttp-one-chapter-5-pass-lock-loop`
+- Edits:
+  - `Drafts/Vol_6/Vol_6_Chapter_10.md`
+  - `orchestra/VOL6_CHAPTER_135_REDEEPLOCK_CHECKPOINT_2026-05-01.md`
+  - `orchestra/VOL6_CHAPTER_131_135_REDEEPLOCK_AGGREGATE_COMPLETE_CHECKPOINT_2026-05-01.md`
+  - `orchestra/NEXT_DIALOGUE_HANDOFF.md`
+  - `orchestra/SESSION_STATE.md`
+  - `orchestra/EXECUTION_PROGRESS_LEDGER.md`
+- Result:
+  - reopened single-chapter verified range is now contiguous `1~135`
+  - active incomplete reopened gap remains `none`
+  - aggregate verified range advances to `1~135`
+  - `135` final 5 cycles held at `4,622`
+  - aggregate `131~135` held five no-edit cycles at total no-space `24,124`, hard/meta total `0`, aggregate hash `C8A3A5DDFEFF233BE2971F93BE48065FE950E3EF621607242E39AA2930A8AB28`
+
+## 2026-05-01 13:28 KST
+
+- Mode: `rttp re-deep-lock 134 one-chapter deep harness`
+- Scope note: overall `134` was mapped to `Vol.6 Chapter 9`; this is the fourth chapter of the `131~135` reopened packet.
+- Issue summary: chapter held the correct Balthazar-objection function, but opened with a title/meta line, had a no-space count of `4,254`, carried backtick emphasis, soft `이미=8`, `이번=3`, and repeated explanatory terms around `반대/설명/기억`.
+- Current work: `134` re-deep-lock + final no-edit 5-cycle verification complete
+- Next work: `135 (Vol.6 Chapter 10)`; after `135`, run aggregate `131~135` packet verification
+- Execution mode: `conductor direct lock`
+- Primary agent: `Codex`
+- Specialists: `none`
+- MCP: `none`
+- Skills:
+  - `rttp-lock-cycle`
+- Automations: `rttp-one-chapter-5-pass-lock-loop`
+- Edits:
+  - `Drafts/Vol_6/Vol_6_Chapter_9.md`
+  - `orchestra/VOL6_CHAPTER_134_REDEEPLOCK_CHECKPOINT_2026-05-01.md`
+  - `orchestra/NEXT_DIALOGUE_HANDOFF.md`
+  - `orchestra/SESSION_STATE.md`
+  - `orchestra/EXECUTION_PROGRESS_LEDGER.md`
+- Result:
+  - reopened single-chapter verified range is now contiguous `1~134`
+  - active incomplete reopened gap remains `none`
+  - aggregate verified range remains `1~130`
+  - `134` final 5 cycles held at `4,530`
+  - chapter held `meta/time-scent 0`, hard repeats `0`, and soft `이미=0`, `이번=1` across the no-edit verification
+
+## 2026-05-01 12:53 KST
+
+- Mode: `rttp re-deep-lock 133 one-chapter deep harness`
+- Scope note: overall `133` was mapped to `Vol.6 Chapter 8`; this is the third chapter of the `131~135` reopened packet.
+- Issue summary: chapter held the correct emotionless-decision function, but opened with a title/meta line, carried backtick emphasis, soft `이미=6`, `이번=5`, `다시=8`, and repeated thesis labels around `정리/결심/판단/감정`.
+- Current work: `133` re-deep-lock + final no-edit 5-cycle verification complete
+- Next work: `134 (Vol.6 Chapter 9)`; after `135`, run aggregate `131~135` packet verification
+- Execution mode: `conductor direct lock`
+- Primary agent: `Codex`
+- Specialists: `none`
+- MCP: `none`
+- Skills:
+  - `rttp-lock-cycle`
+- Automations: `rttp-one-chapter-5-pass-lock-loop`
+- Edits:
+  - `Drafts/Vol_6/Vol_6_Chapter_8.md`
+  - `orchestra/VOL6_CHAPTER_133_REDEEPLOCK_CHECKPOINT_2026-05-01.md`
+  - `orchestra/NEXT_DIALOGUE_HANDOFF.md`
+  - `orchestra/SESSION_STATE.md`
+  - `orchestra/EXECUTION_PROGRESS_LEDGER.md`
+- Result:
+  - reopened single-chapter verified range is now contiguous `1~133`
+  - active incomplete reopened gap remains `none`
+  - aggregate verified range remains `1~130`
+  - `133` final 5 cycles held at `5,371`
+  - chapter held `meta/time-scent 0`, hard repeats `0`, and soft `이미=0`, `이번=1` across the no-edit verification
+
+## 2026-05-01 10:44 KST
+
+- Mode: `rttp re-deep-lock 132 one-chapter deep harness`
+- Scope note: overall `132` was mapped to `Vol.6 Chapter 7`; this is the second chapter of the `131~135` reopened packet.
+- Issue summary: chapter held the correct forbidden-whisper function, but opened with a title/meta line, had a no-space floor shortfall at `4,001`, carried soft `이미=7` and `이번=1`, used backtick emphasis, and ended with a repetitive tail rather than a clean criterion-click.
+- Current work: `132` re-deep-lock + final no-edit 5-cycle verification complete
+- Next work: `133 (Vol.6 Chapter 8)`; after `135`, run aggregate `131~135` packet verification
+- Execution mode: `conductor direct lock`
+- Primary agent: `Codex`
+- Specialists: `none`
+- MCP: `none`
+- Skills:
+  - `rttp-lock-cycle`
+- Automations: `rttp-one-chapter-5-pass-lock-loop`
+- Edits:
+  - `Drafts/Vol_6/Vol_6_Chapter_7.md`
+  - `orchestra/VOL6_CHAPTER_132_REDEEPLOCK_CHECKPOINT_2026-05-01.md`
+  - `orchestra/NEXT_DIALOGUE_HANDOFF.md`
+  - `orchestra/SESSION_STATE.md`
+  - `orchestra/EXECUTION_PROGRESS_LEDGER.md`
+- Result:
+  - reopened single-chapter verified range is now contiguous `1~132`
+  - active incomplete reopened gap remains `none`
+  - aggregate verified range remains `1~130`
+  - `132` final 5 cycles held at `4,800`
+  - chapter held `meta/time-scent 0`, hard repeats `0`, and soft `이미=0`, `이번=0` across the no-edit verification
+
+## 2026-05-01 10:08 KST
+
+- Mode: `rttp re-deep-lock 131 one-chapter deep harness`
+- Scope note: overall `131` was mapped to `Vol.6 Chapter 6`; this opens the `131~135` reopened packet.
+- Issue summary: chapter held the correct Aiden/Balthazar back-alley function, but opened with a title/meta line, had a no-space floor shortfall at `4,062`, carried soft `이미=5` and `이번=1`, and needed the forbidden-memory proposal grounded more physically in the alley and medicine contrast.
+- Current work: `131` re-deep-lock + final no-edit 5-cycle verification complete
+- Next work: `132 (Vol.6 Chapter 7)`; after `135`, run aggregate `131~135` packet verification
+- Execution mode: `conductor direct lock`
+- Primary agent: `Codex`
+- Specialists: `none`
+- MCP: `none`
+- Skills:
+  - `rttp-lock-cycle`
+- Automations: `rttp-one-chapter-5-pass-lock-loop`
+- Edits:
+  - `Drafts/Vol_6/Vol_6_Chapter_6.md`
+  - `orchestra/VOL6_CHAPTER_131_REDEEPLOCK_CHECKPOINT_2026-05-01.md`
+  - `orchestra/NEXT_DIALOGUE_HANDOFF.md`
+  - `orchestra/SESSION_STATE.md`
+  - `orchestra/EXECUTION_PROGRESS_LEDGER.md`
+- Result:
+  - reopened single-chapter verified range is now contiguous `1~131`
+  - active incomplete reopened gap remains `none`
+  - aggregate verified range remains `1~130`
+  - `131` final 5 cycles held at `4,801`
+  - chapter held `meta/time-scent 0`, hard repeats `0`, and soft `이미=0`, `이번=0` across the no-edit verification
+
+## 2026-05-01 09:31 KST
+
+- Mode: `rttp re-deep-lock 130 one-chapter deep harness + 126~130 aggregate closure`
+- Scope note: overall `130` was mapped to `Vol.6 Chapter 5`; this closes the `126~130` reopened packet.
+- Issue summary: chapter held the correct Iris/Aiden question function, but opened with a title/meta line, had a no-space floor shortfall at `4,038`, carried soft `이미=2` and `이번=2`, used backtick emphasis, and needed a stronger scene-level bridge toward Aiden's isolated pain-medicine beat.
+- Current work: `130` re-deep-lock + final no-edit 5-cycle verification complete
+- Aggregate work: `126~130` aggregate no-edit 5-cycle verification complete
+- Next work: `131 (Vol.6 Chapter 6)`; after `135`, run aggregate `131~135` packet verification
+- Execution mode: `conductor direct lock`
+- Primary agent: `Codex`
+- Specialists: `none`
+- MCP: `none`
+- Skills:
+  - `rttp-lock-cycle`
+- Automations: `rttp-one-chapter-5-pass-lock-loop`
+- Edits:
+  - `Drafts/Vol_6/Vol_6_Chapter_5.md`
+  - `orchestra/VOL6_CHAPTER_130_REDEEPLOCK_CHECKPOINT_2026-05-01.md`
+  - `orchestra/VOL6_CHAPTER_126_130_REDEEPLOCK_AGGREGATE_COMPLETE_CHECKPOINT_2026-05-01.md`
+  - `orchestra/NEXT_DIALOGUE_HANDOFF.md`
+  - `orchestra/SESSION_STATE.md`
+  - `orchestra/EXECUTION_PROGRESS_LEDGER.md`
+- Result:
+  - reopened single-chapter verified range is now contiguous `1~130`
+  - active incomplete reopened gap remains `none`
+  - aggregate verified range is now contiguous `1~130`
+  - `130` final 5 cycles held at `4,803`
+  - aggregate `126~130` final 5 cycles held at `24,038` total no-space characters and hard/meta total `0`
+
+## 2026-05-01 08:56 KST
+
+- Mode: `rttp re-deep-lock 129 one-chapter deep harness`
+- Scope note: overall `129` was mapped to `Vol.6 Chapter 4`; this is the fourth chapter of the `126~130` reopened packet.
+- Issue summary: chapter held the correct collective-fracture function, but opened with a title/meta line, had a no-space floor shortfall at `4,085`, carried hard `제6권=1`, soft `이미=2`, duplicated rumor lines, and used backtick emphasis that made notes and labels read too meta.
+- Current work: `129` re-deep-lock + final no-edit 5-cycle verification complete
+- Next work: `130 (Vol.6 Chapter 5)`; after `130`, run aggregate `126~130` packet verification
+- Execution mode: `conductor direct lock`
+- Primary agent: `Codex`
+- Specialists: `none`
+- MCP: `none`
+- Skills:
+  - `rttp-lock-cycle`
+- Automations: `rttp-one-chapter-5-pass-lock-loop`
+- Edits:
+  - `Drafts/Vol_6/Vol_6_Chapter_4.md`
+  - `orchestra/VOL6_CHAPTER_129_REDEEPLOCK_CHECKPOINT_2026-05-01.md`
+  - `orchestra/NEXT_DIALOGUE_HANDOFF.md`
+  - `orchestra/SESSION_STATE.md`
+  - `orchestra/EXECUTION_PROGRESS_LEDGER.md`
+- Result:
+  - reopened single-chapter verified range is now contiguous `1~129`
+  - active incomplete reopened gap remains `none`
+  - aggregate verified range remains `1~125`
+  - `129` final 5 cycles held at `4,801`
+  - chapter held `meta/time-scent 0`, hard repeats `0`, and soft `이미=0`, `이번=0` across the no-edit verification
+
+## 2026-05-01 08:20 KST
+
+- Mode: `rttp re-deep-lock 128 one-chapter deep harness`
+- Scope note: overall `128` was mapped to `Vol.6 Chapter 3`; this is the third chapter of the `126~130` reopened packet.
+- Issue summary: chapter held the correct Barkan/Aiden monster-label function, but opened with a title/meta line, had a no-space floor shortfall at `4,002`, carried hard `이번에도=1`, soft `이미=7` and `이번=2`, and used backtick emphasis that made the social label too explicit.
+- Current work: `128` re-deep-lock + final no-edit 5-cycle verification complete
+- Next work: `129 (Vol.6 Chapter 4)`; after `130`, run aggregate `126~130` packet verification
+- Execution mode: `conductor direct lock`
+- Primary agent: `Codex`
+- Specialists: `none`
+- MCP: `none`
+- Skills:
+  - `rttp-lock-cycle`
+- Automations: `rttp-one-chapter-5-pass-lock-loop`
+- Edits:
+  - `Drafts/Vol_6/Vol_6_Chapter_3.md`
+  - `orchestra/VOL6_CHAPTER_128_REDEEPLOCK_CHECKPOINT_2026-05-01.md`
+  - `orchestra/NEXT_DIALOGUE_HANDOFF.md`
+  - `orchestra/SESSION_STATE.md`
+  - `orchestra/EXECUTION_PROGRESS_LEDGER.md`
+- Result:
+  - reopened single-chapter verified range is now contiguous `1~128`
+  - active incomplete reopened gap remains `none`
+  - aggregate verified range remains `1~125`
+  - `128` final 5 cycles held at `4,800`
+  - chapter held `meta/time-scent 0`, hard repeats `0`, and soft `이미=0`, `이번=0` across the no-edit verification
+
+## 2026-05-01 07:46 KST
+
+- Mode: `rttp re-deep-lock 127 one-chapter deep harness`
+- Scope note: overall `127` was mapped to `Vol.6 Chapter 2`; this is the second chapter of the `126~130` reopened packet.
+- Issue summary: chapter held the correct Iris/Aiden empty-eye function, but opened with a title/meta line, had a no-space floor shortfall at `4,059`, carried soft `이미=2`, `이번=2`, and `미래=1`, and overlapped too closely with the earlier first confrontation unless the repeated-days residue was made explicit.
+- Current work: `127` re-deep-lock + final no-edit 5-cycle verification complete
+- Next work: `128 (Vol.6 Chapter 3)`; after `130`, run aggregate `126~130` packet verification
+- Execution mode: `conductor direct lock`
+- Primary agent: `Codex`
+- Specialists: `none`
+- MCP: `none`
+- Skills:
+  - `rttp-lock-cycle`
+- Automations: `rttp-one-chapter-5-pass-lock-loop`
+- Edits:
+  - `Drafts/Vol_6/Vol_6_Chapter_2.md`
+  - `orchestra/VOL6_CHAPTER_127_REDEEPLOCK_CHECKPOINT_2026-05-01.md`
+  - `orchestra/NEXT_DIALOGUE_HANDOFF.md`
+  - `orchestra/SESSION_STATE.md`
+  - `orchestra/EXECUTION_PROGRESS_LEDGER.md`
+- Result:
+  - reopened single-chapter verified range is now contiguous `1~127`
+  - active incomplete reopened gap remains `none`
+  - aggregate verified range remains `1~125`
+  - `127` final 5 cycles held at `4,834`
+  - chapter held `meta/time-scent 0`, hard repeats `0`, and soft `이미=0`, `이번=0` across the no-edit verification
+
+## 2026-05-01 05:36 KST
+
+- Mode: `rttp re-deep-lock 126 one-chapter deep harness`
+- Scope note: overall `126` was mapped to `Vol.6 Chapter 1`; this opens the `126~130` reopened packet.
+- Issue summary: chapter held the correct postwar rumor/isolation function, but opened with a title/meta line, had a no-space floor shortfall at `4,409`, carried hard `제6권=1`, soft `이미=3` and `이번=5`, and used backtick/report emphasis that made the opening feel meta instead of diegetic.
+- Current work: `126` re-deep-lock + final no-edit 5-cycle verification complete
+- Next work: `127 (Vol.6 Chapter 2)`; after `130`, run aggregate `126~130` packet verification
+- Execution mode: `conductor direct lock`
+- Primary agent: `Codex`
+- Specialists: `none`
+- MCP: `none`
+- Skills:
+  - `rttp-lock-cycle`
+- Automations: `rttp-one-chapter-5-pass-lock-loop`
+- Edits:
+  - `Drafts/Vol_6/Vol_6_Chapter_1.md`
+  - `orchestra/VOL6_CHAPTER_126_REDEEPLOCK_CHECKPOINT_2026-05-01.md`
+  - `orchestra/NEXT_DIALOGUE_HANDOFF.md`
+  - `orchestra/SESSION_STATE.md`
+  - `orchestra/EXECUTION_PROGRESS_LEDGER.md`
+- Result:
+  - reopened single-chapter verified range is now contiguous `1~126`
+  - active incomplete reopened gap remains `none`
+  - aggregate verified range remains `1~125`
+  - `126` final 5 cycles held at `4,800`
+  - chapter held `meta/time-scent 0`, hard repeats `0`, and soft `이미=0`, `이번=0` across the no-edit verification
+
+## 2026-05-01 04:59 KST
+
+- Mode: `rttp re-deep-lock 125 one-chapter deep harness + 121~125 aggregate closure`
+- Scope note: overall `125` was mapped to `Vol.5 Chapter 25`; this closes the `121~125` reopened packet and Vol.5.
+- Issue summary: chapter held the correct survivor/no-hero bridge, but opened with a title/meta line, carried hard `제5권=6` and `제6권=1`, soft `이미=3` and `이번=2`, overused smell at `냄새=8`, and ended with direct volume-level explanation rather than scene pressure.
+- Current work: `125` re-deep-lock + final no-edit 5-cycle verification complete
+- Aggregate work: `121~125` aggregate no-edit 5-cycle verification complete
+- Next work: `126 (Vol.6 Chapter 1)`; after `130`, run aggregate `126~130` packet verification
+- Execution mode: `conductor direct lock`
+- Primary agent: `Codex`
+- Specialists: `none`
+- MCP: `none`
+- Skills:
+  - `rttp-lock-cycle`
+- Automations: `rttp-one-chapter-5-pass-lock-loop`
+- Edits:
+  - `Drafts/Vol_5/Vol_5_Chapter_25.md`
+  - `orchestra/VOL5_CHAPTER_125_REDEEPLOCK_CHECKPOINT_2026-05-01.md`
+  - `orchestra/VOL5_CHAPTER_121_125_REDEEPLOCK_AGGREGATE_COMPLETE_CHECKPOINT_2026-05-01.md`
+  - `orchestra/NEXT_DIALOGUE_HANDOFF.md`
+  - `orchestra/SESSION_STATE.md`
+  - `orchestra/EXECUTION_PROGRESS_LEDGER.md`
+- Result:
+  - reopened single-chapter verified range is now contiguous `1~125`
+  - reopened aggregate verified range is now contiguous `1~125`
+  - active incomplete reopened gap remains `none`
+  - `125` final 5 cycles held at `4,800`
+  - aggregate `121~125` held five no-edit cycles with hard/meta hit total `0` and total no-space count `24,000`
+
+## 2026-05-01 04:22 KST
+
+- Mode: `rttp re-deep-lock 124 one-chapter deep harness`
+- Scope note: overall `124` was mapped to `Vol.5 Chapter 24`; this is the fourth chapter of the `121~125` reopened packet.
+- Issue summary: chapter held the Iris/Aiden empty-eye confrontation, but opened with a title/meta line, had a no-space floor shortfall at `2,922`, carried hard `이번에도=1`, soft `이미=1` and `이번=2`, and needed a stronger bridge toward survivor-wide mistrust.
+- Current work: `124` re-deep-lock + final no-edit 5-cycle verification complete
+- Next work: `125 (Vol.5 Chapter 25)`; after `125`, run aggregate `121~125` packet verification
+- Execution mode: `conductor direct lock`
+- Primary agent: `Codex`
+- Specialists: `none`
+- MCP: `none`
+- Skills:
+  - `rttp-lock-cycle`
+- Automations: `rttp-one-chapter-5-pass-lock-loop`
+- Edits:
+  - `Drafts/Vol_5/Vol_5_Chapter_24.md`
+  - `orchestra/VOL5_CHAPTER_124_REDEEPLOCK_CHECKPOINT_2026-05-01.md`
+  - `orchestra/NEXT_DIALOGUE_HANDOFF.md`
+  - `orchestra/SESSION_STATE.md`
+  - `orchestra/EXECUTION_PROGRESS_LEDGER.md`
+- Result:
+  - reopened single-chapter verified range is now contiguous `1~124`
+  - active incomplete reopened gap remains `none`
+  - aggregate verified range remains `1~120`
+  - `124` final 5 cycles held at `4,800`
+  - chapter held `meta/time-scent 0`, hard repeats `0`, and soft `이미=0`, `이번=0` across the no-edit verification
+
+## 2026-05-01 03:45 KST
+
+- Mode: `rttp re-deep-lock 123 one-chapter deep harness`
+- Scope note: overall `123` was mapped to `Vol.5 Chapter 23`; this is the third chapter of the `121~125` reopened packet.
+- Issue summary: chapter held the no-victory dawn function, but opened with a title/meta line, had a no-space floor shortfall at `2,807`, carried hard `제5권=1`, soft `이미=2`, and overused smell/procedure backtick texture.
+- Current work: `123` re-deep-lock + final no-edit 5-cycle verification complete
+- Next work: `124 (Vol.5 Chapter 24)`; after `125`, run aggregate `121~125` packet verification
+- Execution mode: `conductor direct lock`
+- Primary agent: `Codex`
+- Specialists: `none`
+- MCP: `none`
+- Skills:
+  - `rttp-lock-cycle`
+- Automations: `rttp-one-chapter-5-pass-lock-loop`
+- Edits:
+  - `Drafts/Vol_5/Vol_5_Chapter_23.md`
+  - `orchestra/VOL5_CHAPTER_123_REDEEPLOCK_CHECKPOINT_2026-05-01.md`
+  - `orchestra/NEXT_DIALOGUE_HANDOFF.md`
+  - `orchestra/SESSION_STATE.md`
+  - `orchestra/EXECUTION_PROGRESS_LEDGER.md`
+- Result:
+  - reopened single-chapter verified range is now contiguous `1~123`
+  - active incomplete reopened gap remains `none`
+  - aggregate verified range remains `1~120`
+  - `123` final 5 cycles held at `4,800`
+  - chapter held `meta/time-scent 0`, hard repeats `0`, and soft `이미=0`, `이번=0` across the no-edit verification
+
+## 2026-05-01 03:07 KST
+
+- Mode: `rttp re-deep-lock 122 one-chapter deep harness`
+- Scope note: overall `122` was mapped to `Vol.5 Chapter 22`; this is the second chapter of the `121~125` reopened packet.
+- Issue summary: chapter held the sky-closing function, but opened with a title/meta line, had a no-space floor shortfall at `2,614`, carried soft `이번=5` and `이미=2`, and used a banned over-bloody tone phrase.
+- Current work: `122` re-deep-lock + final no-edit 5-cycle verification complete
+- Next work: `123 (Vol.5 Chapter 23)`; after `125`, run aggregate `121~125` packet verification
+- Execution mode: `conductor direct lock`
+- Primary agent: `Codex`
+- Specialists: `none`
+- MCP: `none`
+- Skills:
+  - `rttp-lock-cycle`
+- Automations: `rttp-one-chapter-5-pass-lock-loop`
+- Edits:
+  - `Drafts/Vol_5/Vol_5_Chapter_22.md`
+  - `orchestra/VOL5_CHAPTER_122_REDEEPLOCK_CHECKPOINT_2026-05-01.md`
+  - `orchestra/NEXT_DIALOGUE_HANDOFF.md`
+  - `orchestra/SESSION_STATE.md`
+  - `orchestra/EXECUTION_PROGRESS_LEDGER.md`
+- Result:
+  - reopened single-chapter verified range is now contiguous `1~122`
+  - active incomplete reopened gap remains `none`
+  - aggregate verified range remains `1~120`
+  - `122` final 5 cycles held at `4,800`
+  - chapter held `meta/time-scent 0`, hard repeats `0`, and soft `이미=0`, `이번=0` across the no-edit verification
+
+## 2026-05-01 02:31 KST
+
+- Mode: `rttp re-deep-lock 121 one-chapter deep harness`
+- Scope note: overall `121` was mapped to `Vol.5 Chapter 21`; this opens the `121~125` reopened packet.
+- Issue summary: chapter held the 빚의 폭풍 / memory erosion function, but opened with a title/meta line, had a no-space floor shortfall at `2,728`, contained non-record backticks, soft `이미=1`, and direct next-chapter meta.
+- Current work: `121` re-deep-lock + final no-edit 5-cycle verification complete
+- Next work: `122 (Vol.5 Chapter 22)`; after `125`, run aggregate `121~125` packet verification
+- Execution mode: `conductor direct lock`
+- Primary agent: `Codex`
+- Specialists: `none`
+- MCP: `none`
+- Skills:
+  - `rttp-lock-cycle`
+- Automations: `rttp-one-chapter-5-pass-lock-loop`
+- Edits:
+  - `Drafts/Vol_5/Vol_5_Chapter_21.md`
+  - `orchestra/VOL5_CHAPTER_121_REDEEPLOCK_CHECKPOINT_2026-05-01.md`
+  - `orchestra/NEXT_DIALOGUE_HANDOFF.md`
+  - `orchestra/SESSION_STATE.md`
+  - `orchestra/EXECUTION_PROGRESS_LEDGER.md`
+- Result:
+  - reopened single-chapter verified range is now contiguous `1~121`
+  - active incomplete reopened gap remains `none`
+  - aggregate verified range remains `1~120`
+  - `121` final 5 cycles held at `4,800`
+  - chapter held `meta/time-scent 0`, hard repeats `0`, and soft `이미=0`, `이번=0` across the no-edit verification
+
+## 2026-05-01 00:52 KST
+
+- Mode: `rttp re-deep-lock 120 one-chapter deep harness + 116~120 aggregate closure`
+- Scope note: overall `120` was mapped to `Vol.5 Chapter 20`; this closes the `116~120` reopened packet.
+- Issue summary: chapter held the correct 개문 function, but opened with a title/meta line, had a no-space floor shortfall at `2,687`, contained soft `이미=4` and `이번=1`, and used non-record backticks around procedure/action phrasing.
+- Current work: `120` re-deep-lock + final no-edit 5-cycle verification complete
+- Aggregate work: `116~120` aggregate no-edit 5-cycle verification complete
+- Next work: `121 (Vol.5 Chapter 21)`; after `125`, run aggregate `121~125` packet verification
+- Execution mode: `conductor direct lock`
+- Primary agent: `Codex`
+- Specialists: `none`
+- MCP: `none`
+- Skills:
+  - `rttp-lock-cycle`
+- Automations: `rttp-one-chapter-5-pass-lock-loop`
+- Edits:
+  - `Drafts/Vol_5/Vol_5_Chapter_20.md`
+  - `orchestra/VOL5_CHAPTER_120_REDEEPLOCK_CHECKPOINT_2026-05-01.md`
+  - `orchestra/VOL5_CHAPTER_116_120_REDEEPLOCK_AGGREGATE_COMPLETE_CHECKPOINT_2026-05-01.md`
+  - `orchestra/NEXT_DIALOGUE_HANDOFF.md`
+  - `orchestra/SESSION_STATE.md`
+  - `orchestra/EXECUTION_PROGRESS_LEDGER.md`
+- Result:
+  - reopened single-chapter verified range is now contiguous `1~120`
+  - reopened aggregate verified range is now contiguous `1~120`
+  - active incomplete reopened gap remains `none`
+  - `120` final 5 cycles held at `4,807`
+  - aggregate `116~120` held five no-edit cycles with hard/meta hit total `0`
+
+## 2026-05-01 00:18 KST
+
+- Mode: `rttp re-deep-lock 119 one-chapter deep harness`
+- Scope note: overall `119` was mapped to `Vol.5 Chapter 19`; this is the fourth chapter of the `116~120` reopened packet.
+- Issue summary: chapter held the core-reveal function, but opened with a title/meta line, had a no-space floor shortfall at `2,630`, contained soft `이미=2`, and used non-record backticks around procedural phrases.
+- Current work: `119` re-deep-lock + final no-edit 5-cycle verification complete
+- Next work: `120 (Vol.5 Chapter 20)`; after `120`, run aggregate `116~120` packet verification
+- Execution mode: `conductor direct lock`
+- Primary agent: `Codex`
+- Specialists: `none`
+- MCP: `none`
+- Skills:
+  - `rttp-lock-cycle`
+- Automations: `rttp-one-chapter-5-pass-lock-loop`
+- Edits:
+  - `Drafts/Vol_5/Vol_5_Chapter_19.md`
+  - `orchestra/VOL5_CHAPTER_119_REDEEPLOCK_CHECKPOINT_2026-05-01.md`
+  - `orchestra/NEXT_DIALOGUE_HANDOFF.md`
+  - `orchestra/SESSION_STATE.md`
+  - `orchestra/EXECUTION_PROGRESS_LEDGER.md`
+- Result:
+  - reopened single-chapter verified range is now contiguous `1~119`
+  - active incomplete reopened gap remains `none`
+  - aggregate verified range remains `1~115`
+  - `119` final 5 cycles held at `4,825`
+  - chapter held `meta/time-scent 0`, hard repeats `0`, and soft `이미=0`, `이번=0` across the no-edit verification
+
+## 2026-04-30 23:42 KST
+
+- Mode: `rttp re-deep-lock 118 one-chapter deep harness`
+- Scope note: overall `118` was mapped to `Vol.5 Chapter 18`; this is the third chapter of the `116~120` reopened packet.
+- Issue summary: chapter held the cold-rescue function, but opened with a title/meta line, had a no-space floor shortfall at `2,788`, contained a stray work-note/non-Korean fragment, and used non-record backticks.
+- Current work: `118` re-deep-lock + final no-edit 5-cycle verification complete
+- Next work: `119 (Vol.5 Chapter 19)`; after `120`, run aggregate `116~120` packet verification
+- Execution mode: `conductor direct lock`
+- Primary agent: `Codex`
+- Specialists: `none`
+- MCP: `none`
+- Skills:
+  - `rttp-lock-cycle`
+- Automations: `rttp-one-chapter-5-pass-lock-loop`
+- Edits:
+  - `Drafts/Vol_5/Vol_5_Chapter_18.md`
+  - `orchestra/VOL5_CHAPTER_118_REDEEPLOCK_CHECKPOINT_2026-04-30.md`
+  - `orchestra/NEXT_DIALOGUE_HANDOFF.md`
+  - `orchestra/SESSION_STATE.md`
+  - `orchestra/EXECUTION_PROGRESS_LEDGER.md`
+- Result:
+  - reopened single-chapter verified range is now contiguous `1~118`
+  - active incomplete reopened gap remains `none`
+  - aggregate verified range remains `1~115`
+  - `118` final 5 cycles held at `4,806`
+  - chapter held `meta/time-scent 0`, hard repeats `0`, and soft `이미=0`, `이번=0` across the no-edit verification
+
+## 2026-04-30 23:05 KST
+
+- Mode: `rttp re-deep-lock 117 one-chapter deep harness`
+- Scope note: overall `117` was mapped to `Vol.5 Chapter 17`; this is the second chapter of the `116~120` reopened packet.
+- Issue summary: chapter held the right-arm-loss function, but opened with a title/meta line, had a no-space floor shortfall at `3,347`, contained soft `이미=5`, and used non-record backticks around medical/time terms.
+- Current work: `117` re-deep-lock + final no-edit 5-cycle verification complete
+- Next work: `118 (Vol.5 Chapter 18)`; after `120`, run aggregate `116~120` packet verification
+- Execution mode: `conductor direct lock`
+- Primary agent: `Codex`
+- Specialists: `none`
+- MCP: `none`
+- Skills:
+  - `rttp-lock-cycle`
+- Automations: `rttp-one-chapter-5-pass-lock-loop`
+- Edits:
+  - `Drafts/Vol_5/Vol_5_Chapter_17.md`
+  - `orchestra/VOL5_CHAPTER_117_REDEEPLOCK_CHECKPOINT_2026-04-30.md`
+  - `orchestra/NEXT_DIALOGUE_HANDOFF.md`
+  - `orchestra/SESSION_STATE.md`
+  - `orchestra/EXECUTION_PROGRESS_LEDGER.md`
+- Result:
+  - reopened single-chapter verified range is now contiguous `1~117`
+  - active incomplete reopened gap remains `none`
+  - aggregate verified range remains `1~115`
+  - `117` final 5 cycles held at `4,809`
+  - chapter held `meta/time-scent 0`, hard repeats `0`, and soft `이미=0`, `이번=0` across the no-edit verification
+
+## 2026-04-30 22:30 KST
+
+- Mode: `rttp re-deep-lock 116 one-chapter deep harness`
+- Scope note: overall `116` was mapped to `Vol.5 Chapter 16`; this opens the `116~120` reopened packet.
+- Issue summary: chapter held the correct cold-command function but opened with a title/meta line, had a major no-space floor shortfall at `2,667`, and contained soft time-scent/meta residue.
+- Current work: `116` re-deep-lock + final no-edit 5-cycle verification complete
+- Next work: `117 (Vol.5 Chapter 17)`; after `120`, run aggregate `116~120` packet verification
+- Execution mode: `conductor direct lock`
+- Primary agent: `Codex`
+- Specialists: `none`
+- MCP: `none`
+- Skills:
+  - `rttp-lock-cycle`
+- Automations: `rttp-one-chapter-5-pass-lock-loop`
+- Edits:
+  - `Drafts/Vol_5/Vol_5_Chapter_16.md`
+  - `orchestra/VOL5_CHAPTER_116_REDEEPLOCK_CHECKPOINT_2026-04-30.md`
+  - `orchestra/NEXT_DIALOGUE_HANDOFF.md`
+  - `orchestra/SESSION_STATE.md`
+  - `orchestra/EXECUTION_PROGRESS_LEDGER.md`
+- Result:
+  - reopened single-chapter verified range is now contiguous `1~116`
+  - active incomplete reopened gap remains `none`
+  - aggregate verified range remains `1~115`
+  - `116` final 5 cycles held at `4,800`
+  - chapter held `meta/time-scent 0`, hard repeats `0`, and soft `이미=0`, `이번=0` across the no-edit verification
+
+## 2026-04-30 21:55 KST
+
+- Mode: `rttp re-deep-lock 115 one-chapter deep harness + 111~115 aggregate closure`
+- Scope note: overall `115` was mapped to `Vol.5 Chapter 15`; this closes the `111~115` reopened packet.
+- Issue summary: chapter held the ruin-echo function, but one hard `이미 한 번` hit and soft `이미/이번/다시` residue risked making the echo read as known-route replay rather than body-first paradox residue.
+- Current work: `115` re-deep-lock + final no-edit 5-cycle verification complete
+- Aggregate work: `111~115` aggregate no-edit 5-cycle verification complete
+- Next work: `116 (Vol.5 Chapter 16)`; after `120`, run aggregate `116~120` packet verification
+- Execution mode: `conductor direct lock`
+- Primary agent: `Codex`
+- Specialists: `none`
+- MCP: `none`
+- Skills:
+  - `rttp-lock-cycle`
+- Automations: `rttp-one-chapter-5-pass-lock-loop`
+- Edits:
+  - `Drafts/Vol_5/Vol_5_Chapter_15.md`
+  - `orchestra/VOL5_CHAPTER_115_REDEEPLOCK_CHECKPOINT_2026-04-30.md`
+  - `orchestra/VOL5_CHAPTER_111_115_REDEEPLOCK_AGGREGATE_COMPLETE_CHECKPOINT_2026-04-30.md`
+  - `orchestra/NEXT_DIALOGUE_HANDOFF.md`
+  - `orchestra/SESSION_STATE.md`
+  - `orchestra/EXECUTION_PROGRESS_LEDGER.md`
+- Result:
+  - reopened single-chapter verified range is now contiguous `1~115`
+  - reopened aggregate verified range is now contiguous `1~115`
+  - active incomplete reopened gap remains `none`
+  - `115` final 5 cycles held at `4,912`
+  - aggregate `111~115` held five no-edit cycles with hard/meta hit total `0`
+
+## 2026-04-30 21:21 KST
+
+- Mode: `rttp re-deep-lock 114 one-chapter deep harness`
+- Scope note: overall `114` was mapped to `Vol.5 Chapter 14`; this is the fourth chapter of the `111~115` reopened packet.
+- Issue summary: chapter held the threshold-entry function, but one unclear Lia record line and soft `이미/다시/이번` residue needed cleanup before lock.
+- Current work: `114` re-deep-lock + final no-edit 5-cycle verification complete
+- Next work: `115 (Vol.5 Chapter 15)`; after `115`, run aggregate `111~115` packet verification
+- Execution mode: `conductor direct lock`
+- Primary agent: `Codex`
+- Specialists: `none`
+- MCP: `none`
+- Skills:
+  - `rttp-lock-cycle`
+- Automations: `rttp-one-chapter-5-pass-lock-loop`
+- Edits:
+  - `Drafts/Vol_5/Vol_5_Chapter_14.md`
+  - `orchestra/VOL5_CHAPTER_114_REDEEPLOCK_CHECKPOINT_2026-04-30.md`
+  - `orchestra/NEXT_DIALOGUE_HANDOFF.md`
+  - `orchestra/SESSION_STATE.md`
+  - `orchestra/EXECUTION_PROGRESS_LEDGER.md`
+- Result:
+  - reopened single-chapter verified range is now contiguous `1~114`
+  - active incomplete reopened gap remains `none`
+  - aggregate verified range remains `1~110`
+  - `114` final 5 cycles held at `4,816`
+  - chapter held `meta/time-scent 0`, hard repeats `0`, and soft `이번=0`, `이미=0` across the no-edit verification
+
+## 2026-04-30 20:48 KST
+
+- Mode: `rttp re-deep-lock 113 one-chapter deep harness`
+- Scope note: overall `113` was mapped to `Vol.5 Chapter 13`; this is the third chapter of the `111~115` reopened packet.
+- Issue summary: chapter held the dead-route/remnant-map function, but soft `이미/이번` residue risked making the remnant path feel pre-known rather than currently reacting.
+- Current work: `113` re-deep-lock + final no-edit 5-cycle verification complete
+- Next work: `114 (Vol.5 Chapter 14)`; after `115`, run aggregate `111~115` packet verification
+- Execution mode: `conductor direct lock`
+- Primary agent: `Codex`
+- Specialists: `none`
+- MCP: `none`
+- Skills:
+  - `rttp-lock-cycle`
+- Automations: `rttp-one-chapter-5-pass-lock-loop`
+- Edits:
+  - `Drafts/Vol_5/Vol_5_Chapter_13.md`
+  - `orchestra/VOL5_CHAPTER_113_REDEEPLOCK_CHECKPOINT_2026-04-30.md`
+  - `orchestra/NEXT_DIALOGUE_HANDOFF.md`
+  - `orchestra/SESSION_STATE.md`
+  - `orchestra/EXECUTION_PROGRESS_LEDGER.md`
+- Result:
+  - reopened single-chapter verified range is now contiguous `1~113`
+  - active incomplete reopened gap remains `none`
+  - aggregate verified range remains `1~110`
+  - `113` final 5 cycles held at `4,830`
+  - chapter held `meta/time-scent 0`, hard repeats `0`, and soft `이미=0` across the no-edit verification
+
+## 2026-04-30 20:16 KST
+
+- Mode: `rttp re-deep-lock 112 one-chapter deep harness`
+- Scope note: overall `112` was mapped to `Vol.5 Chapter 12`; this is the second chapter of the `111~115` reopened packet.
+- Issue summary: chapter held the silent-operation planning function, but soft `이미/이번` residue and broad `모두` repetition risked making planning feel pre-known and flattening tent-room pressure.
+- Current work: `112` re-deep-lock + final no-edit 5-cycle verification complete
+- Next work: `113 (Vol.5 Chapter 13)`; after `115`, run aggregate `111~115` packet verification
+- Execution mode: `conductor direct lock`
+- Primary agent: `Codex`
+- Specialists: `none`
+- MCP: `none`
+- Skills:
+  - `rttp-lock-cycle`
+- Automations: `rttp-one-chapter-5-pass-lock-loop`
+- Edits:
+  - `Drafts/Vol_5/Vol_5_Chapter_12.md`
+  - `orchestra/VOL5_CHAPTER_112_REDEEPLOCK_CHECKPOINT_2026-04-30.md`
+  - `orchestra/NEXT_DIALOGUE_HANDOFF.md`
+  - `orchestra/SESSION_STATE.md`
+  - `orchestra/EXECUTION_PROGRESS_LEDGER.md`
+- Result:
+  - reopened single-chapter verified range is now contiguous `1~112`
+  - active incomplete reopened gap remains `none`
+  - aggregate verified range remains `1~110`
+  - `112` final 5 cycles held at `5,119`
+  - chapter held `meta/time-scent 0`, hard repeats `0`, and soft `이번=0`, `이미=0` across the no-edit verification
+
+## 2026-04-30 19:43 KST
+
+- Mode: `rttp re-deep-lock 111 one-chapter deep harness`
+- Scope note: overall `111` was mapped to `Vol.5 Chapter 11`; this opens the `111~115` reopened packet.
+- Issue summary: chapter held the rear-ruin Eye discovery function, but soft `이미` residue risked making Lia's sensing and Aiden's calculations feel pre-known rather than current.
+- Current work: `111` re-deep-lock + final no-edit 5-cycle verification complete
+- Next work: `112 (Vol.5 Chapter 12)`; after `115`, run aggregate `111~115` packet verification
+- Execution mode: `conductor direct lock`
+- Primary agent: `Codex`
+- Specialists: `none`
+- MCP: `none`
+- Skills:
+  - `rttp-lock-cycle`
+- Automations: `rttp-one-chapter-5-pass-lock-loop`
+- Edits:
+  - `Drafts/Vol_5/Vol_5_Chapter_11.md`
+  - `orchestra/VOL5_CHAPTER_111_REDEEPLOCK_CHECKPOINT_2026-04-30.md`
+  - `orchestra/NEXT_DIALOGUE_HANDOFF.md`
+  - `orchestra/SESSION_STATE.md`
+  - `orchestra/EXECUTION_PROGRESS_LEDGER.md`
+- Result:
+  - reopened single-chapter verified range is now contiguous `1~111`
+  - active incomplete reopened gap remains `none`
+  - aggregate verified range remains `1~110`
+  - `111` final 5 cycles held at `5,019`
+  - chapter held `meta/time-scent 0`, hard repeats `0`, and soft `이번=0`, `이미=0` across the no-edit verification
+
+## 2026-04-30 19:08 KST
+
+- Mode: `rttp re-deep-lock 110 one-chapter deep harness + 106~110 aggregate closure`
+- Scope note: overall `110` was mapped to `Vol.5 Chapter 10`; this closes the `106~110` reopened packet.
+- Issue summary: chapter held the deliberate blockade function, but soft `이미` residue, one non-record backtick phrase, and a slightly diffuse ending needed cleanup before lock.
+- Current work: `110` re-deep-lock + final no-edit 5-cycle verification complete
+- Aggregate work: `106~110` aggregate no-edit 5-cycle verification complete
+- Next work: `111 (Vol.5 Chapter 11)`; after `115`, run aggregate `111~115` packet verification
+- Execution mode: `conductor direct lock`
+- Primary agent: `Codex`
+- Specialists: `none`
+- MCP: `none`
+- Skills:
+  - `rttp-lock-cycle`
+- Automations: `rttp-one-chapter-5-pass-lock-loop`
+- Edits:
+  - `Drafts/Vol_5/Vol_5_Chapter_10.md`
+  - `orchestra/VOL5_CHAPTER_110_REDEEPLOCK_CHECKPOINT_2026-04-30.md`
+  - `orchestra/VOL5_CHAPTER_106_110_REDEEPLOCK_AGGREGATE_COMPLETE_CHECKPOINT_2026-04-30.md`
+  - `orchestra/NEXT_DIALOGUE_HANDOFF.md`
+  - `orchestra/SESSION_STATE.md`
+  - `orchestra/EXECUTION_PROGRESS_LEDGER.md`
+- Result:
+  - reopened single-chapter verified range is now contiguous `1~110`
+  - reopened aggregate verified range is now contiguous `1~110`
+  - active incomplete reopened gap remains `none`
+  - `110` final 5 cycles held at `4,815`
+  - aggregate `106~110` held five no-edit cycles with hard/meta hit total `0`
+
+## 2026-04-30 18:35 KST
+
+- Mode: `rttp re-deep-lock 109 one-chapter deep harness`
+- Scope note: overall `109` was mapped to `Vol.5 Chapter 9`; this is the fourth chapter of the `106~110` reopened packet.
+- Issue summary: chapter held the contaminated allied-squad execution function, but soft `이번/이미` residue and late declarative emphasis stacking weakened the lock.
+- Current work: `109` re-deep-lock + final no-edit 5-cycle verification complete
+- Next work: `110 (Vol.5 Chapter 10)`; after `110`, run aggregate `106~110` packet verification
+- Execution mode: `conductor direct lock`
+- Primary agent: `Codex`
+- Specialists: `none`
+- MCP: `none`
+- Skills:
+  - `rttp-lock-cycle`
+- Automations: `rttp-one-chapter-5-pass-lock-loop`
+- Edits:
+  - `Drafts/Vol_5/Vol_5_Chapter_9.md`
+  - `orchestra/VOL5_CHAPTER_109_REDEEPLOCK_CHECKPOINT_2026-04-30.md`
+  - `orchestra/NEXT_DIALOGUE_HANDOFF.md`
+  - `orchestra/SESSION_STATE.md`
+  - `orchestra/EXECUTION_PROGRESS_LEDGER.md`
+- Result:
+  - reopened single-chapter verified range is now contiguous `1~109`
+  - active incomplete reopened gap remains `none`
+  - `109` final 5 cycles held at `4,881`
+  - chapter held `meta/time-scent 0`, hard repeats `0`, and soft `이번=0`, `이미=0`, `끝내=0` across the no-edit verification
+
+## 2026-04-30 18:01 KST
+
+- Mode: `rttp re-deep-lock 108 one-chapter deep harness`
+- Scope note: overall `108` was mapped to `Vol.5 Chapter 8`; this is the third chapter of the `106~110` reopened packet.
+- Issue summary: chapter held the Iris rear-guard function, but one non-record inline backtick phrase and soft `이미` residue needed cleanup before lock.
+- Current work: `108` re-deep-lock + final no-edit 5-cycle verification complete
+- Next work: `109 (Vol.5 Chapter 9)`; after `110`, run aggregate `106~110` packet verification
+- Execution mode: `conductor direct lock`
+- Primary agent: `Codex`
+- Specialists: `none`
+- MCP: `none`
+- Skills:
+  - `rttp-lock-cycle`
+- Automations: `rttp-one-chapter-5-pass-lock-loop`
+- Edits:
+  - `Drafts/Vol_5/Vol_5_Chapter_8.md`
+  - `orchestra/VOL5_CHAPTER_108_REDEEPLOCK_CHECKPOINT_2026-04-30.md`
+  - `orchestra/NEXT_DIALOGUE_HANDOFF.md`
+  - `orchestra/SESSION_STATE.md`
+  - `orchestra/EXECUTION_PROGRESS_LEDGER.md`
+- Result:
+  - reopened single-chapter verified range is now contiguous `1~108`
+  - active incomplete reopened gap remains `none`
+  - `108` final 5 cycles held at `4,804`
+  - chapter held `meta/time-scent 0`, hard repeats `0`, and soft `이번=0`, `이미=1` across the no-edit verification
+
+## 2026-04-30 17:28 KST
+
+- Mode: `rttp re-deep-lock 107 one-chapter deep harness`
+- Scope note: overall `107` was mapped to `Vol.5 Chapter 7`; this is the second chapter of the `106~110` reopened packet.
+- Issue summary: chapter opened above the old floor and held the supply-collapse function, but soft `이번/이미` repeat residue, one non-record inline backtick phrase, and post-cleanup length floor needed correction.
+- Current work: `107` re-deep-lock + final no-edit 5-cycle verification complete
+- Next work: `108 (Vol.5 Chapter 8)`; after `110`, run aggregate `106~110` packet verification
+- Execution mode: `conductor direct lock`
+- Primary agent: `Codex`
+- Specialists: `none`
+- MCP: `none`
+- Skills:
+  - `rttp-lock-cycle`
+- Automations: `rttp-one-chapter-5-pass-lock-loop`
+- Edits:
+  - `Drafts/Vol_5/Vol_5_Chapter_7.md`
+  - `orchestra/VOL5_CHAPTER_107_REDEEPLOCK_CHECKPOINT_2026-04-30.md`
+  - `orchestra/NEXT_DIALOGUE_HANDOFF.md`
+  - `orchestra/SESSION_STATE.md`
+  - `orchestra/EXECUTION_PROGRESS_LEDGER.md`
+- Result:
+  - reopened single-chapter verified range is now contiguous `1~107`
+  - active incomplete reopened gap remains `none`
+  - `107` final 5 cycles held at `4,800`
+  - chapter held `meta/time-scent 0`, hard repeats `0`, and soft `이번=0`, `이미=0` across the no-edit verification
+
+## 2026-04-30 16:55 KST
+
+- Mode: `rttp re-deep-lock 106 one-chapter deep harness`
+- Scope note: overall `106` was mapped to `Vol.5 Chapter 6`; this opens the `106~110` reopened packet after the `101~105` aggregate repair closure.
+- Issue summary: chapter opened above the `4,800` no-space floor and held the night-camp antibody function, but one soft `이번` residue and one non-record inline backtick phrase needed cleanup.
+- Current work: `106` re-deep-lock + final no-edit 5-cycle verification complete
+- Next work: `107 (Vol.5 Chapter 7)`; after `110`, run aggregate `106~110` packet verification
+- Execution mode: `conductor direct lock`
+- Primary agent: `Codex`
+- Specialists: `none`
+- MCP: `none`
+- Skills:
+  - `rttp-lock-cycle`
+- Automations: `rttp-one-chapter-5-pass-lock-loop`
+- Edits:
+  - `Drafts/Vol_5/Vol_5_Chapter_6.md`
+  - `orchestra/VOL5_CHAPTER_106_REDEEPLOCK_CHECKPOINT_2026-04-30.md`
+  - `orchestra/NEXT_DIALOGUE_HANDOFF.md`
+  - `orchestra/SESSION_STATE.md`
+  - `orchestra/EXECUTION_PROGRESS_LEDGER.md`
+- Result:
+  - reopened single-chapter verified range is now contiguous `1~106`
+  - active incomplete reopened gap remains `none`
+  - `106` final 5 cycles held at `4,819`
+  - chapter held `meta/time-scent 0` and hard repeats `0` across the no-edit verification
+
+## 2026-04-30 16:20 KST
+
+- Mode: `rttp aggregate meta repair 103 one-chapter deep harness + 101~105 aggregate closure`
+- Scope note: overall `103` was mapped to `Vol.5 Chapter 3`; this was the final repair target for the `101~105` aggregate packet.
+- Issue summary: chapter structure already held, but aggregate packet scan found two live prose metadata hits: `제5권=2`.
+- Current work: `103` aggregate meta cleanup + full reread + final no-edit 5-cycle verification complete
+- Aggregate work: `101~105` aggregate no-edit 5-cycle verification rerun and passed
+- Next work: `106 (Vol.5 Chapter 6)`
+- Execution mode: `conductor direct lock`
+- Primary agent: `Codex`
+- Specialists: `none`
+- MCP: `none`
+- Skills:
+  - `rttp-lock-cycle`
+- Automations: `rttp-one-chapter-5-pass-lock-loop`
+- Edits:
+  - `Drafts/Vol_5/Vol_5_Chapter_3.md`
+  - `orchestra/VOL5_CHAPTER_103_AGGREGATE_META_REPAIR_CHECKPOINT_2026-04-30.md`
+  - `orchestra/VOL5_CHAPTER_101_105_REDEEPLOCK_AGGREGATE_COMPLETE_CHECKPOINT_2026-04-30.md`
+  - `orchestra/VOL5_CHAPTER_101_105_REDEEPLOCK_AGGREGATE_REPAIR_CHECKPOINT_2026-04-30.md`
+  - `orchestra/NEXT_DIALOGUE_HANDOFF.md`
+  - `orchestra/SESSION_STATE.md`
+  - `orchestra/EXECUTION_PROGRESS_LEDGER.md`
+- Result:
+  - `103` aggregate meta repair locked complete at `4,800`
+  - `101~105` aggregate packet locked complete at `101 4,806 / 102 4,800 / 103 4,800 / 104 4,803 / 105 4,801`
+  - aggregate hard/meta hits stayed `0` across all five cycles
+  - active aggregate repair gap is now `none`
+
+## 2026-04-30 15:49 KST
+
+- Mode: `rttp aggregate meta repair 102 one-chapter deep harness`
+- Scope note: overall `102` was mapped to `Vol.5 Chapter 2`; this is the second repair target for the `101~105` aggregate packet.
+- Issue summary: chapter structure already held, but aggregate packet scan found one live prose metadata hit: `제5권=1`.
+- Current work: `102` aggregate meta cleanup + full reread + final no-edit 5-cycle verification complete
+- Next work: `103 (Vol.5 Chapter 3 aggregate meta cleanup)`; after `103`, rerun aggregate `101~105` packet verification
+- Execution mode: `conductor direct lock`
+- Primary agent: `Codex`
+- Specialists: `none`
+- MCP: `none`
+- Skills:
+  - `rttp-lock-cycle`
+- Automations: `rttp-one-chapter-5-pass-lock-loop`
+- Edits:
+  - `Drafts/Vol_5/Vol_5_Chapter_2.md`
+  - `orchestra/VOL5_CHAPTER_102_AGGREGATE_META_REPAIR_CHECKPOINT_2026-04-30.md`
+  - `orchestra/VOL5_CHAPTER_101_105_REDEEPLOCK_AGGREGATE_REPAIR_CHECKPOINT_2026-04-30.md`
+  - `orchestra/NEXT_DIALOGUE_HANDOFF.md`
+  - `orchestra/SESSION_STATE.md`
+  - `orchestra/EXECUTION_PROGRESS_LEDGER.md`
+- Result:
+  - `102` aggregate meta repair locked complete at `4,800`
+  - `101~105` aggregate packet remains `재수정 필요`
+  - do not proceed to `106` until `103` is repaired and aggregate no-edit 5-cycle verification passes
+
+## 2026-04-30 15:16 KST
+
+- Mode: `rttp aggregate meta repair 101 one-chapter deep harness`
+- Scope note: overall `101` was mapped to `Vol.5 Chapter 1`; this is the first repair target for the `101~105` aggregate packet.
+- Issue summary: chapter structure already held, but aggregate packet scan found one live prose metadata hit: `제5권=1`.
+- Current work: `101` aggregate meta cleanup + full reread + final no-edit 5-cycle verification complete
+- Next work: `102 (Vol.5 Chapter 2 aggregate meta cleanup)`, then `103`; after repairs, rerun aggregate `101~105` packet verification
+- Execution mode: `conductor direct lock`
+- Primary agent: `Codex`
+- Specialists: `none`
+- MCP: `none`
+- Skills:
+  - `rttp-lock-cycle`
+- Automations: `rttp-one-chapter-5-pass-lock-loop`
+- Edits:
+  - `Drafts/Vol_5/Vol_5_Chapter_1.md`
+  - `orchestra/VOL5_CHAPTER_101_AGGREGATE_META_REPAIR_CHECKPOINT_2026-04-30.md`
+  - `orchestra/VOL5_CHAPTER_101_105_REDEEPLOCK_AGGREGATE_REPAIR_CHECKPOINT_2026-04-30.md`
+  - `orchestra/NEXT_DIALOGUE_HANDOFF.md`
+  - `orchestra/SESSION_STATE.md`
+  - `orchestra/EXECUTION_PROGRESS_LEDGER.md`
+- Result:
+  - `101` aggregate meta repair locked complete at `4,806`
+  - `101~105` aggregate packet remains `재수정 필요`
+  - do not proceed to `106` until `102~103` are repaired and aggregate no-edit 5-cycle verification passes
+
+## 2026-04-30 14:43 KST
+
+- Mode: `rttp re-deep-lock 105 one-chapter deep harness + 101~105 aggregate verification`
+- Scope note: overall `105` was mapped to `Vol.5 Chapter 5`; this closes the `101~105` reopened packet at the single-chapter level.
+- Issue summary: chapter opened at the `4,800` no-space floor and held the shadow-command function, but soft `이번` residue and `이미 한 번` repeat-scent phrasing needed cleanup.
+- Current work: `105` re-deep-lock + final no-edit 5-cycle verification complete
+- Aggregate work: `101~105` aggregate no-edit 5-cycle verification run, but packet marked `재수정 필요` because expanded meta scan found live prose `제5권` wording in `101~103`
+- Next work: `101 (Vol.5 Chapter 1 aggregate meta cleanup)`, then continue aggregate repairs one chapter at a time before proceeding to `106`
+- Execution mode: `conductor direct lock`
+- Primary agent: `Codex`
+- Specialists: `none`
+- MCP: `none`
+- Skills:
+  - `rttp-lock-cycle`
+- Automations: `rttp-one-chapter-5-pass-lock-loop`
+- Edits:
+  - `Drafts/Vol_5/Vol_5_Chapter_5.md`
+  - `orchestra/VOL5_CHAPTER_105_REDEEPLOCK_CHECKPOINT_2026-04-30.md`
+  - `orchestra/VOL5_CHAPTER_101_105_REDEEPLOCK_AGGREGATE_REPAIR_CHECKPOINT_2026-04-30.md`
+  - `orchestra/NEXT_DIALOGUE_HANDOFF.md`
+  - `orchestra/SESSION_STATE.md`
+  - `orchestra/EXECUTION_PROGRESS_LEDGER.md`
+- Result:
+  - `105` single-chapter lock complete at `4,801`
+  - single-chapter reopened verified range is now `1~105`
+  - active aggregate gap is `101~105 aggregate packet meta repair`
+  - do not mark packet `101~105` locked until a fresh aggregate no-edit 5-cycle verification passes
+
+## 2026-04-30 14:09 KST
+
+- Mode: `rttp re-deep-lock 104 one-chapter deep harness`
+- Scope note: overall `104` was mapped to `Vol.5 Chapter 4`; this is the fourth chapter of the `101~105` reopened packet.
+- Issue summary: chapter opened above the `4,800` no-space floor and held the civilian evacuation-line function, but hard `이번에도` time-scent, soft `이번` residue, one non-record backtick emphasis, and `제5권 전장` meta wording needed cleanup.
+- Current work: `104` re-deep-lock + final no-edit 5-cycle verification complete
+- Next work: `105 (Vol.5 Chapter 5)`; after `105`, run aggregate `101~105` packet verification
+- Execution mode: `conductor direct lock`
+- Primary agent: `Codex`
+- Specialists: `none`
+- MCP: `none`
+- Skills:
+  - `rttp-lock-cycle`
+- Automations: `rttp-one-chapter-5-pass-lock-loop`
+- Edits:
+  - `Drafts/Vol_5/Vol_5_Chapter_4.md`
+  - `orchestra/VOL5_CHAPTER_104_REDEEPLOCK_CHECKPOINT_2026-04-30.md`
+  - `orchestra/NEXT_DIALOGUE_HANDOFF.md`
+  - `orchestra/SESSION_STATE.md`
+  - `orchestra/EXECUTION_PROGRESS_LEDGER.md`
+- Result:
+  - reopened verified range is now contiguous `1~104`
+  - active incomplete reopened gap remains `none`
+  - `104` final 5 cycles held at `4,803`
+  - chapter held `meta/time-scent 0` and hard repeats `0` across the no-edit verification
+
+## 2026-04-30 13:33 KST
+
+- Mode: `rttp re-deep-lock 103 one-chapter deep harness`
+- Scope note: overall `103` was mapped to `Vol.5 Chapter 3`; this is the third chapter of the `101~105` reopened packet.
+- Issue summary: chapter opened above the `4,800` no-space floor and held the monster/antibody distinction function, but non-record inline code-style emphasis needed prose normalization, soft `이번` needed cleanup, and `아직` repetition needed reduction.
+- Current work: `103` re-deep-lock + final no-edit 5-cycle verification complete
+- Next work: `104 (Vol.5 Chapter 4)`, then remaining packet `105`; after `105`, run aggregate `101~105` packet verification
+- Execution mode: `conductor direct lock`
+- Primary agent: `Codex`
+- Specialists: `none`
+- MCP: `none`
+- Skills:
+  - `rttp-lock-cycle`
+- Automations: `rttp-one-chapter-5-pass-lock-loop`
+- Edits:
+  - `Drafts/Vol_5/Vol_5_Chapter_3.md`
+  - `orchestra/VOL5_CHAPTER_103_REDEEPLOCK_CHECKPOINT_2026-04-30.md`
+  - `orchestra/NEXT_DIALOGUE_HANDOFF.md`
+  - `orchestra/SESSION_STATE.md`
+  - `orchestra/EXECUTION_PROGRESS_LEDGER.md`
+- Result:
+  - reopened verified range is now contiguous `1~103`
+  - active incomplete reopened gap remains `none`
+  - `103` final 5 cycles held at `4,802`
+  - chapter held `meta/time-scent 0` and hard repeats `0` across the no-edit verification
+
+## 2026-04-30 13:00 KST
+
+- Mode: `rttp re-deep-lock 102 one-chapter deep harness`
+- Scope note: overall `102` was mapped to `Vol.5 Chapter 2`; this is the second chapter of the `101~105` reopened packet.
+- Issue summary: chapter opened above the `4,800` no-space floor and held the live Liberator first-field-use function, but non-record inline code-style emphasis needed prose normalization and one soft `이번` residue needed cleanup.
+- Current work: `102` re-deep-lock + final no-edit 5-cycle verification complete
+- Next work: `103 (Vol.5 Chapter 3)`, then remaining packet `104~105`; after `105`, run aggregate `101~105` packet verification
+- Execution mode: `conductor direct lock`
+- Primary agent: `Codex`
+- Specialists: `none`
+- MCP: `none`
+- Skills:
+  - `rttp-lock-cycle`
+- Automations: `rttp-one-chapter-5-pass-lock-loop`
+- Edits:
+  - `Drafts/Vol_5/Vol_5_Chapter_2.md`
+  - `orchestra/VOL5_CHAPTER_102_REDEEPLOCK_CHECKPOINT_2026-04-30.md`
+  - `orchestra/NEXT_DIALOGUE_HANDOFF.md`
+  - `orchestra/SESSION_STATE.md`
+  - `orchestra/EXECUTION_PROGRESS_LEDGER.md`
+- Result:
+  - reopened verified range is now contiguous `1~102`
+  - active incomplete reopened gap remains `none`
+  - `102` final 5 cycles held at `4,802`
+  - chapter held `meta/time-scent 0` and hard repeats `0` across the no-edit verification
+
+## 2026-04-30 12:27 KST
+
+- Mode: `rttp re-deep-lock 101 one-chapter deep harness`
+- Scope note: overall `101` was mapped to `Vol.5 Chapter 1`; this opens the `101~105` reopened packet and Vol.5.
+- Issue summary: chapter opened above the `4,800` no-space floor and held the lower-front battlefield-entry function, but non-record inline code-style emphasis needed prose normalization and soft `이미/아직` repetition needed reduction.
+- Current work: `101` re-deep-lock + final no-edit 5-cycle verification complete
+- Next work: `102 (Vol.5 Chapter 2)`, then remaining packet `103~105`; after `105`, run aggregate `101~105` packet verification
+- Execution mode: `conductor direct lock`
+- Primary agent: `Codex`
+- Specialists: `none`
+- MCP: `none`
+- Skills:
+  - `rttp-lock-cycle`
+- Automations: `rttp-one-chapter-5-pass-lock-loop`
+- Edits:
+  - `Drafts/Vol_5/Vol_5_Chapter_1.md`
+  - `orchestra/VOL5_CHAPTER_101_REDEEPLOCK_CHECKPOINT_2026-04-30.md`
+  - `orchestra/NEXT_DIALOGUE_HANDOFF.md`
+  - `orchestra/SESSION_STATE.md`
+  - `orchestra/EXECUTION_PROGRESS_LEDGER.md`
+- Result:
+  - reopened verified range is now contiguous `1~101`
+  - active incomplete reopened gap remains `none`
+  - `101` final 5 cycles held at `4,805`
+  - chapter held `meta/time-scent 0` and hard repeats `0` across the no-edit verification
+
+## 2026-04-30 11:53 KST
+
+- Mode: `rttp re-deep-lock 100 one-chapter deep harness + 96~100 packet closure`
+- Scope note: overall `100` was mapped to `Vol.4 Chapter 25`; this closes the `96~100` reopened packet and Vol.4.
+- Issue summary: chapter opened above the `4,800` no-space floor and held the live advance/rear-signal function, but non-record inline code-style emphasis needed prose normalization and soft `이미` repetition needed reduction.
+- Current work: `100` re-deep-lock + final no-edit 5-cycle verification complete; aggregate `96~100` packet no-edit 5-cycle verification complete
+- Next work: `101 (Vol.5 Chapter 1)`, opening packet `101~105`
+- Execution mode: `conductor direct lock`
+- Primary agent: `Codex`
+- Specialists: `none`
+- MCP: `none`
+- Skills:
+  - `rttp-lock-cycle`
+- Automations: `rttp-one-chapter-5-pass-lock-loop`
+- Edits:
+  - `Drafts/Vol_4/Vol_4_Chapter_25.md`
+  - `orchestra/VOL4_CHAPTER_100_REDEEPLOCK_CHECKPOINT_2026-04-30.md`
+  - `orchestra/VOL4_CHAPTER_96_100_REDEEPLOCK_CHECKPOINT_2026-04-30.md`
+  - `orchestra/NEXT_DIALOGUE_HANDOFF.md`
+  - `orchestra/SESSION_STATE.md`
+  - `orchestra/EXECUTION_PROGRESS_LEDGER.md`
+- Result:
+  - reopened verified range is now contiguous `1~100`
+  - active incomplete reopened gap remains `none`
+  - `100` final 5 cycles held at `5,045`
+  - aggregate `96~100` counts held at `96 4,855 / 97 4,818 / 98 4,804 / 99 4,833 / 100 5,045`
+  - aggregate packet held `meta/time-scent 0` and hard repeats `0` across all five cycles
+
+## 2026-04-30 11:19 KST
+
+- Mode: `rttp re-deep-lock 99 one-chapter deep harness`
+- Scope note: overall `99` was mapped to `Vol.4 Chapter 24`; this is the fourth chapter of the `96~100` reopened packet.
+- Issue summary: chapter opened above the `4,800` no-space floor and held the live talisman function, but non-record inline code-style emphasis needed prose normalization.
+- Current work: `99` re-deep-lock + final no-edit 5-cycle verification complete
+- Next work: `100 (Vol.4 Chapter 25)`; after `100`, run aggregate `96~100` packet verification
+- Execution mode: `conductor direct lock`
+- Primary agent: `Codex`
+- Specialists: `none`
+- MCP: `none`
+- Skills:
+  - `rttp-lock-cycle`
+- Automations: `rttp-one-chapter-5-pass-lock-loop`
+- Edits:
+  - `Drafts/Vol_4/Vol_4_Chapter_24.md`
+  - `orchestra/VOL4_CHAPTER_99_REDEEPLOCK_CHECKPOINT_2026-04-30.md`
+  - `orchestra/NEXT_DIALOGUE_HANDOFF.md`
+  - `orchestra/SESSION_STATE.md`
+  - `orchestra/EXECUTION_PROGRESS_LEDGER.md`
+- Result:
+  - reopened verified range is now contiguous `1~99`
+  - active incomplete reopened gap remains `none`
+  - `99` final 5 cycles held at `4,833`
+  - chapter held `meta/time-scent 0` and hard repeats `0` across the no-edit verification
+
+## 2026-04-30 10:45 KST
+
+- Mode: `rttp re-deep-lock 98 one-chapter deep harness`
+- Scope note: overall `98` was mapped to `Vol.4 Chapter 23`; this is the third chapter of the `96~100` reopened packet.
+- Issue summary: chapter opened above the `4,800` no-space floor and held the live packet function, but non-record inline code-style emphasis needed prose normalization and one `이번엔` line needed time-scent cleanup.
+- Current work: `98` re-deep-lock + final no-edit 5-cycle verification complete
+- Next work: `99 (Vol.4 Chapter 24)`, then remaining `100`; after `100`, run aggregate `96~100` packet verification
+- Execution mode: `conductor direct lock`
+- Primary agent: `Codex`
+- Specialists: `none`
+- MCP: `none`
+- Skills:
+  - `rttp-lock-cycle`
+- Automations: `rttp-one-chapter-5-pass-lock-loop`
+- Edits:
+  - `Drafts/Vol_4/Vol_4_Chapter_23.md`
+  - `orchestra/VOL4_CHAPTER_98_REDEEPLOCK_CHECKPOINT_2026-04-30.md`
+  - `orchestra/NEXT_DIALOGUE_HANDOFF.md`
+  - `orchestra/SESSION_STATE.md`
+  - `orchestra/EXECUTION_PROGRESS_LEDGER.md`
+- Result:
+  - reopened verified range is now contiguous `1~98`
+  - active incomplete reopened gap remains `none`
+  - `98` final 5 cycles held at `4,804`
+  - chapter held `meta/time-scent 0` and hard repeats `0` across the no-edit verification
+
+## 2026-04-30 10:10 KST
+
+- Mode: `rttp re-deep-lock 97 one-chapter deep harness`
+- Scope note: overall `97` was mapped to `Vol.4 Chapter 22`; this is the second chapter of the `96~100` reopened packet.
+- Issue summary: chapter opened above the `4,800` no-space floor and held the live packet function, but non-record inline code-style emphasis around request/report/deployment terms needed prose normalization.
+- Current work: `97` re-deep-lock + final no-edit 5-cycle verification complete
+- Next work: `98 (Vol.4 Chapter 23)`, then remaining packet `99~100`; after `100`, run aggregate `96~100` packet verification
+- Execution mode: `conductor direct lock`
+- Primary agent: `Codex`
+- Specialists: `none`
+- MCP: `none`
+- Skills:
+  - `rttp-lock-cycle`
+- Automations: `rttp-one-chapter-5-pass-lock-loop`
+- Edits:
+  - `Drafts/Vol_4/Vol_4_Chapter_22.md`
+  - `orchestra/VOL4_CHAPTER_97_REDEEPLOCK_CHECKPOINT_2026-04-30.md`
+  - `orchestra/NEXT_DIALOGUE_HANDOFF.md`
+  - `orchestra/SESSION_STATE.md`
+  - `orchestra/EXECUTION_PROGRESS_LEDGER.md`
+- Result:
+  - reopened verified range is now contiguous `1~97`
+  - active incomplete reopened gap remains `none`
+  - `97` final 5 cycles held at `4,818`
+  - chapter held `meta/time-scent 0` and hard repeats `0` across the no-edit verification
+
+## 2026-04-30 09:36 KST
+
+- Mode: `rttp re-deep-lock 96 one-chapter deep harness`
+- Scope note: overall `96` was mapped to `Vol.4 Chapter 21`; this opens the `96~100` reopened packet.
+- Issue summary: chapter opened above the `4,800` no-space floor and held the live packet function, but non-record inline code-style emphasis needed prose normalization and one `기억처럼` phrase needed time-scent cleanup.
+- Current work: `96` re-deep-lock + final no-edit 5-cycle verification complete
+- Next work: `97 (Vol.4 Chapter 22)`, then remaining packet `98~100`; after `100`, run aggregate `96~100` packet verification
+- Execution mode: `conductor direct lock`
+- Primary agent: `Codex`
+- Specialists: `none`
+- MCP: `none`
+- Skills:
+  - `rttp-lock-cycle`
+- Automations: `rttp-one-chapter-5-pass-lock-loop`
+- Edits:
+  - `Drafts/Vol_4/Vol_4_Chapter_21.md`
+  - `orchestra/VOL4_CHAPTER_96_REDEEPLOCK_CHECKPOINT_2026-04-30.md`
+  - `orchestra/NEXT_DIALOGUE_HANDOFF.md`
+  - `orchestra/SESSION_STATE.md`
+  - `orchestra/EXECUTION_PROGRESS_LEDGER.md`
+- Result:
+  - reopened verified range is now contiguous `1~96`
+  - active incomplete reopened gap remains `none`
+  - `96` final 5 cycles held at `4,855`
+  - chapter held `meta/time-scent 0` and hard repeats `0` across the no-edit verification
+
+## 2026-04-30 09:01 KST
+
+- Mode: `rttp re-deep-lock 95 one-chapter deep harness + 91~95 packet closure`
+- Scope note: overall `95` was mapped to `Vol.4 Chapter 20`; this closes the `91~95` reopened packet.
+- Issue summary: chapter opened above the `4,800` no-space floor and held the live packet function, but non-record inline code-style emphasis needed prose normalization and one soft `이번` residue needed time-scent cleanup.
+- Current work: `95` re-deep-lock + final no-edit 5-cycle verification complete; aggregate `91~95` packet no-edit 5-cycle verification complete
+- Next work: `96 (Vol.4 Chapter 21)`, opening packet `96~100`
+- Execution mode: `conductor direct lock`
+- Primary agent: `Codex`
+- Specialists: `none`
+- MCP: `none`
+- Skills:
+  - `rttp-lock-cycle`
+- Automations: `rttp-one-chapter-5-pass-lock-loop`
+- Edits:
+  - `Drafts/Vol_4/Vol_4_Chapter_20.md`
+  - `orchestra/VOL4_CHAPTER_95_REDEEPLOCK_CHECKPOINT_2026-04-30.md`
+  - `orchestra/VOL4_CHAPTER_91_95_REDEEPLOCK_CHECKPOINT_2026-04-30.md`
+  - `orchestra/NEXT_DIALOGUE_HANDOFF.md`
+  - `orchestra/SESSION_STATE.md`
+  - `orchestra/EXECUTION_PROGRESS_LEDGER.md`
+- Result:
+  - reopened verified range is now contiguous `1~95`
+  - active incomplete reopened gap remains `none`
+  - `95` final 5 cycles held at `5,022`
+  - aggregate `91~95` counts held at `91 4,831 / 92 5,006 / 93 4,930 / 94 4,825 / 95 5,022`
+  - aggregate packet held `meta/time-scent 0` and hard repeats `0` across all five cycles
+
+## 2026-04-30 08:26 KST
+
+- Mode: `rttp re-deep-lock 94 one-chapter deep harness`
+- Scope note: overall `94` was mapped to `Vol.4 Chapter 19`; this is the fourth chapter of the `91~95` reopened packet.
+- Issue summary: chapter opened above the `4,800` no-space floor and held the live packet function, but one non-record inline code-style phrase needed prose normalization.
+- Current work: `94` re-deep-lock + final no-edit 5-cycle verification complete
+- Next work: `95 (Vol.4 Chapter 20)`; after `95`, run aggregate `91~95` packet verification
+- Execution mode: `conductor direct lock`
+- Primary agent: `Codex`
+- Specialists: `none`
+- MCP: `none`
+- Skills:
+  - `rttp-lock-cycle`
+- Automations: `rttp-one-chapter-5-pass-lock-loop`
+- Edits:
+  - `Drafts/Vol_4/Vol_4_Chapter_19.md`
+  - `orchestra/VOL4_CHAPTER_94_REDEEPLOCK_CHECKPOINT_2026-04-30.md`
+  - `orchestra/NEXT_DIALOGUE_HANDOFF.md`
+  - `orchestra/SESSION_STATE.md`
+  - `orchestra/EXECUTION_PROGRESS_LEDGER.md`
+- Result:
+  - reopened verified range is now contiguous `1~94`
+  - active incomplete reopened gap remains `none`
+  - `94` final 5 cycles held at `4,825`
+  - chapter held `meta/time-scent 0` and hard repeats `0` across the no-edit verification
+
+## 2026-04-30 07:52 KST
+
+- Mode: `rttp re-deep-lock 93 one-chapter deep harness`
+- Scope note: overall `93` was mapped to `Vol.4 Chapter 18`; this is the third chapter of the `91~95` reopened packet.
+- Issue summary: chapter opened above the `4,800` no-space floor and held the live packet function, but non-record inline code-style emphasis needed prose normalization and one tactical `이번` wording was removed for time-scent hygiene.
+- Current work: `93` re-deep-lock + final no-edit 5-cycle verification complete
+- Next work: `94 (Vol.4 Chapter 19)`, then remaining packet `95`; after `95`, run aggregate `91~95` packet verification
+- Execution mode: `conductor direct lock`
+- Primary agent: `Codex`
+- Specialists: `none`
+- MCP: `none`
+- Skills:
+  - `rttp-lock-cycle`
+- Automations: `rttp-one-chapter-5-pass-lock-loop`
+- Edits:
+  - `Drafts/Vol_4/Vol_4_Chapter_18.md`
+  - `orchestra/VOL4_CHAPTER_93_REDEEPLOCK_CHECKPOINT_2026-04-30.md`
+  - `orchestra/NEXT_DIALOGUE_HANDOFF.md`
+  - `orchestra/SESSION_STATE.md`
+  - `orchestra/EXECUTION_PROGRESS_LEDGER.md`
+- Result:
+  - reopened verified range is now contiguous `1~93`
+  - active incomplete reopened gap remains `none`
+  - `93` final 5 cycles held at `4,930`
+  - chapter held `meta/time-scent 0` and hard repeats `0` across the no-edit verification
+
+## 2026-04-30 07:18 KST
+
+- Mode: `rttp re-deep-lock 92 one-chapter deep harness`
+- Scope note: overall `92` was mapped to `Vol.4 Chapter 17`; this is the second chapter of the `91~95` reopened packet.
+- Issue summary: chapter opened above the `4,800` no-space floor and held the live packet function, but non-record inline code-style emphasis needed prose normalization.
+- Current work: `92` re-deep-lock + final no-edit 5-cycle verification complete
+- Next work: `93 (Vol.4 Chapter 18)`, then remaining packet `94~95`
+- Execution mode: `conductor direct lock`
+- Primary agent: `Codex`
+- Specialists: `none`
+- MCP: `none`
+- Skills:
+  - `rttp-lock-cycle`
+- Automations: `rttp-one-chapter-5-pass-lock-loop`
+- Edits:
+  - `Drafts/Vol_4/Vol_4_Chapter_17.md`
+  - `orchestra/VOL4_CHAPTER_92_REDEEPLOCK_CHECKPOINT_2026-04-30.md`
+  - `orchestra/NEXT_DIALOGUE_HANDOFF.md`
+  - `orchestra/SESSION_STATE.md`
+  - `orchestra/EXECUTION_PROGRESS_LEDGER.md`
+- Result:
+  - reopened verified range is now contiguous `1~92`
+  - active incomplete reopened gap remains `none`
+  - `92` final 5 cycles held at `5,006`
+  - chapter held `meta/time-scent 0` across the no-edit verification
+
+## 2026-04-30 06:45 KST
+
+- Mode: `rttp re-deep-lock 91 one-chapter deep harness`
+- Scope note: overall `91` was mapped to `Vol.4 Chapter 16`; this begins the `91~95` reopened packet.
+- Issue summary: chapter opened above the `4,800` no-space floor and held the live packet function, but one non-record inline code-style phrase needed prose normalization.
+- Current work: `91` re-deep-lock + final no-edit 5-cycle verification complete
+- Next work: `92 (Vol.4 Chapter 17)`, then remaining packet `93~95`
+- Execution mode: `conductor direct lock`
+- Primary agent: `Codex`
+- Specialists: `none`
+- MCP: `none`
+- Skills:
+  - `rttp-lock-cycle`
+- Automations: `rttp-one-chapter-5-pass-lock-loop`
+- Edits:
+  - `Drafts/Vol_4/Vol_4_Chapter_16.md`
+  - `orchestra/VOL4_CHAPTER_91_REDEEPLOCK_CHECKPOINT_2026-04-30.md`
+  - `orchestra/NEXT_DIALOGUE_HANDOFF.md`
+  - `orchestra/SESSION_STATE.md`
+  - `orchestra/EXECUTION_PROGRESS_LEDGER.md`
+- Result:
+  - reopened verified range is now contiguous `1~91`
+  - active incomplete reopened gap remains `none`
+  - `91` final 5 cycles held at `4,831`
+  - chapter held `meta/time-scent 0` across the no-edit verification
+
+## 2026-04-29 23:47 KST
+
+- Mode: `rttp re-deep-lock 90 one-chapter deep harness + 86~90 packet closure`
+- Scope note: overall `90` was mapped to `Vol.4 Chapter 15`; this closes the `86~90` forward packet.
+- Issue summary: chapter opened above the `4,800` no-space floor and held the ruined-world/Liberator-cost function, but one phrase tripped the time-scent gate and one inline code-style phrase needed prose normalization.
+- Current work: `90` re-deep-lock + final no-edit 5-cycle verification complete; `86~90` aggregate no-edit 5-cycle verification complete
+- Next work: `91~95 (Vol.4 Chapters 16~20)`, starting with `91 (Vol.4 Chapter 16)`
+- Execution mode: `conductor direct lock`
+- Primary agent: `Codex`
+- Specialists: `none`
+- MCP: `none`
+- Skills:
+  - `rttp-lock-cycle`
+- Automations: `none`
+- Edits:
+  - `Drafts/Vol_4/Vol_4_Chapter_15.md`
+  - `orchestra/VOL4_CHAPTER_90_REDEEPLOCK_CHECKPOINT_2026-04-29.md`
+  - `orchestra/VOL4_CHAPTER_86_90_REDEEPLOCK_CHECKPOINT_2026-04-29.md`
+  - `orchestra/NEXT_DIALOGUE_HANDOFF.md`
+  - `orchestra/SESSION_STATE.md`
+  - `orchestra/EXECUTION_PROGRESS_LEDGER.md`
+- Result:
+  - reopened verified range is now contiguous `1~90`
+  - active incomplete reopened gap remains `none`
+  - `90` final 5 cycles held at `4,862`
+  - aggregate `86~90` cycles held at `86 5,282 / 87 4,937 / 88 4,863 / 89 4,803 / 90 4,862`
+  - aggregate packet held `meta/time-scent 0` across all five no-edit cycles
+
+## 2026-04-29 23:45 KST
+
+- Mode: `rttp re-deep-lock 89 one-chapter deep harness`
+- Scope note: overall `89` was mapped to `Vol.4 Chapter 14`; this is the fourth chapter of the `86~90` forward packet.
+- Issue summary: chapter opened above the `4,800` no-space floor and carried the correct ended-timeline contact function, but one phrase read as a typo/clarity snag.
+- Current work: `89` re-deep-lock + final no-edit 5-cycle verification complete
+- Next work: `90 (Vol.4 Chapter 15)`, closing the current packet
+- Execution mode: `conductor direct lock`
+- Primary agent: `Codex`
+- Specialists: `none`
+- MCP: `none`
+- Skills:
+  - `rttp-lock-cycle`
+- Automations: `none`
+- Edits:
+  - `Drafts/Vol_4/Vol_4_Chapter_14.md`
+  - `orchestra/VOL4_CHAPTER_89_REDEEPLOCK_CHECKPOINT_2026-04-29.md`
+  - `orchestra/NEXT_DIALOGUE_HANDOFF.md`
+  - `orchestra/SESSION_STATE.md`
+  - `orchestra/EXECUTION_PROGRESS_LEDGER.md`
+- Result:
+  - reopened verified range is now contiguous `1~89`
+  - active incomplete reopened gap remains `none`
+  - `89` final 5 cycles held at `4,803`
+  - packet held `meta/time-scent 0` across the no-edit verification
+
+## 2026-04-29 23:42 KST
+
+- Mode: `rttp re-deep-lock 88 one-chapter deep harness`
+- Scope note: overall `88` was mapped to `Vol.4 Chapter 13`; this is the third chapter of the `86~90` forward packet.
+- Issue summary: chapter opened above the `4,800` no-space floor and already carried the required sacrifice-cost, consent, retreat-window, and return-place markers, so no text repair was needed.
+- Current work: `88` re-deep-lock + final no-edit 5-cycle verification complete
+- Next work: `89 (Vol.4 Chapter 14)`, then remaining packet `90`
+- Execution mode: `conductor direct lock`
+- Primary agent: `Codex`
+- Specialists: `none`
+- MCP: `none`
+- Skills:
+  - `rttp-lock-cycle`
+- Automations: `none`
+- Edits:
+  - `orchestra/VOL4_CHAPTER_88_REDEEPLOCK_CHECKPOINT_2026-04-29.md`
+  - `orchestra/NEXT_DIALOGUE_HANDOFF.md`
+  - `orchestra/SESSION_STATE.md`
+  - `orchestra/EXECUTION_PROGRESS_LEDGER.md`
+- Inspected without text edit:
+  - `Drafts/Vol_4/Vol_4_Chapter_13.md`
+- Result:
+  - reopened verified range is now contiguous `1~88`
+  - active incomplete reopened gap remains `none`
+  - `88` final 5 cycles held at `4,863`
+  - packet held `meta/time-scent 0` across the no-edit verification
+
+## 2026-04-29 00:30 KST
+
+- Mode: `rttp re-deep-lock 87 one-chapter deep harness`
+- Scope note: overall `87` was mapped to `Vol.4 Chapter 12`; this is the second chapter of the `86~90` forward packet.
+- Issue summary: chapter opened above the `4,800` no-space floor, but the Chapter 12 outline decision line needed a stronger debt-shaped lock, and one phrase read awkwardly as `발타자르 상자`.
+- Current work: `87` re-deep-lock + final no-edit 5-cycle verification complete
+- Next work: `88 (Vol.4 Chapter 13)`, then remaining packet `89~90`
+- Execution mode: `conductor direct lock`
+- Primary agent: `Codex`
+- Specialists: `none`
+- MCP: `none`
+- Skills:
+  - `rttp-lock-cycle`
+- Automations: `none`
+- Edits:
+  - `Drafts/Vol_4/Vol_4_Chapter_12.md`
+  - `orchestra/VOL4_CHAPTER_87_REDEEPLOCK_CHECKPOINT_2026-04-29.md`
+  - `orchestra/NEXT_DIALOGUE_HANDOFF.md`
+  - `orchestra/SESSION_STATE.md`
+  - `orchestra/EXECUTION_PROGRESS_LEDGER.md`
+- Result:
+  - reopened verified range is now contiguous `1~87`
+  - active incomplete reopened gap remains `none`
+  - `87` final 5 cycles held at `4,937`
+  - packet held `meta/time-scent 0` across the no-edit verification
+
+## 2026-04-29 00:00 KST
+
+- Mode: `rttp re-deep-lock 86 one-chapter deep harness`
+- Scope note: overall `86` was mapped to `Vol.4 Chapter 11`; this is the first chapter of the `86~90` forward packet.
+- Issue summary: chapter opened above the `4,800` no-space floor, but the outline requirement that the enemy concentrates around Aiden because it detects causal debt was too faint.
+- Current work: `86` re-deep-lock + final no-edit 5-cycle verification complete
+- Next work: `87 (Vol.4 Chapter 12)`, then remaining packet `88~90`
+- Execution mode: `conductor direct lock`
+- Primary agent: `Codex`
+- Specialists: `none`
+- MCP: `none`
+- Skills:
+  - `rttp-lock-cycle`
+- Automations: `none`
+- Edits:
+  - `Drafts/Vol_4/Vol_4_Chapter_11.md`
+  - `orchestra/VOL4_CHAPTER_86_REDEEPLOCK_CHECKPOINT_2026-04-29.md`
+  - `orchestra/NEXT_DIALOGUE_HANDOFF.md`
+  - `orchestra/SESSION_STATE.md`
+  - `orchestra/EXECUTION_PROGRESS_LEDGER.md`
+- Result:
+  - reopened verified range is now contiguous `1~86`
+  - active incomplete reopened gap remains `none`
+  - `86` final 5 cycles held at `5,282`
+  - packet held `meta/time-scent 0` across the no-edit verification
+
+## 2026-04-27 02:05 KST
+
+- Mode: `rttp re-deep-lock 26~30 gap packet`
+- Scope note: the previously skipped reopened gap `26~30` was mapped to `Vol.2 Chapters 1~5`; closing this packet makes the reopened verification range contiguous through overall `85`.
+- Issue summary: all five live files opened below the `4,800` no-space floor, and `26`, `28`, `29`, `30` carried clustered repeat/time-scent wording that needed lowering before any final gate.
+- Current work: `26~30` re-deep-lock + final no-edit 5-cycle verification complete
+- Next work: `86~90 (Vol.4 Chapters 11~15)`
+- Execution mode: `conductor direct lock`
+- Primary agent: `Codex`
+- Specialists: `none`
+- MCP: `none`
+- Skills:
+  - `rttp-lock-cycle`
+- Automations: `none`
+- Edits:
+  - `Drafts/Vol_2/Vol_2_Chapter_1.md`
+  - `Drafts/Vol_2/Vol_2_Chapter_2.md`
+  - `Drafts/Vol_2/Vol_2_Chapter_3.md`
+  - `Drafts/Vol_2/Vol_2_Chapter_4.md`
+  - `Drafts/Vol_2/Vol_2_Chapter_5.md`
+  - `orchestra/VOL2_CHAPTER_26_30_REDEEPLOCK_CHECKPOINT_2026-04-27.md`
+  - `orchestra/NEXT_DIALOGUE_HANDOFF.md`
+  - `orchestra/SESSION_STATE.md`
+  - `orchestra/EXECUTION_PROGRESS_LEDGER.md`
+- Result:
+  - reopened verified range is now contiguous `1~85`
+  - active incomplete reopened gap is now `none`
+  - `26~30` final 5 cycles held at `4,862 / 4,832 / 4,811 / 4,817 / 4,820`
+  - packet held `meta 0 / time-scent 0` across the no-edit verification
+
+## 2026-04-27 00:40 KST
+
+- Mode: `rttp re-deep-lock 81~85`
+- Scope note: explicit overall-number packet mapped to `Vol.4 Chapters 6~10`; `26~30` remains the active reopened gap.
+- Issue summary: no floor shortfall in this packet, but `82`, `83`, and `85` carried clustered repeat/time-scent wording around the forbidden-door and alliance packet, and `81` plus `85` needed one more click of ending pressure.
+- Current work: `81~85` re-deep-lock + final no-edit 5-cycle verification complete
+- Next work: `26~30 (Vol.2 Chapters 1~5)` gap packet, or user-forward continuation `86~90 (Vol.4 Chapters 11~15)` while still keeping the gap explicitly incomplete in reporting
+- Execution mode: `conductor direct lock`
+- Primary agent: `Codex`
+- Specialists: `none`
+- MCP: `none`
+- Skills:
+  - `rttp-lock-cycle`
+- Automations: `none`
+- Edits:
+  - `Drafts/Vol_4/Vol_4_Chapter_6.md`
+  - `Drafts/Vol_4/Vol_4_Chapter_7.md`
+  - `Drafts/Vol_4/Vol_4_Chapter_8.md`
+  - `Drafts/Vol_4/Vol_4_Chapter_10.md`
+  - `orchestra/VOL4_CHAPTER_81_85_REDEEPLOCK_CHECKPOINT_2026-04-27.md`
+  - `orchestra/NEXT_DIALOGUE_HANDOFF.md`
+  - `orchestra/SESSION_STATE.md`
+  - `orchestra/EXECUTION_PROGRESS_LEDGER.md`
+- Result:
+  - reopened verified jump now extends to `1~25`, `31~85`
+  - active incomplete reopened gap remains `26~30`
+  - `81~85` final 5 cycles held at `4,926 / 4,883 / 5,015 / 5,031 / 5,034`
+  - packet held `meta 0 / time-scent 0` across the no-edit verification
+
+## 2026-04-24 01:10 KST
+
+- Mode: `rttp re-deep-lock 71~80 in 5-chapter packets`
+- Scope note: explicit overall-number packets mapped to `Vol.3 Chapters 21~25` and `Vol.4 Chapters 1~5`; `26~30` remains the active reopened gap.
+- Issue summary: `71~75` all opened under the `4,800` no-space floor and carried repeat/time-scent pressure; `76~80` opened above floor but still needed clustered `다시/돌아온`-coded wording lowered before final verification.
+- Current work: `71~75` and `76~80` re-deep-lock + final no-edit 5-cycle verification complete
+- Next work: `26~30 (Vol.2 Chapters 1~5)` gap packet, or user-forward continuation `81~85 (Vol.4 Chapters 6~10)` while still keeping the gap explicitly incomplete in reporting
+- Execution mode: `conductor direct lock`
+- Primary agent: `Codex`
+- Specialists: `none`
+- MCP: `none`
+- Skills:
+  - `rttp-lock-cycle`
+- Automations: `none`
+- Edits:
+  - `Drafts/Vol_3/Vol_3_Chapter_21.md`
+  - `Drafts/Vol_3/Vol_3_Chapter_22.md`
+  - `Drafts/Vol_3/Vol_3_Chapter_23.md`
+  - `Drafts/Vol_3/Vol_3_Chapter_24.md`
+  - `Drafts/Vol_3/Vol_3_Chapter_25.md`
+  - `Drafts/Vol_4/Vol_4_Chapter_1.md`
+  - `Drafts/Vol_4/Vol_4_Chapter_2.md`
+  - `Drafts/Vol_4/Vol_4_Chapter_3.md`
+  - `Drafts/Vol_4/Vol_4_Chapter_4.md`
+  - `Drafts/Vol_4/Vol_4_Chapter_5.md`
+  - `orchestra/VOL3_CHAPTER_71_75_REDEEPLOCK_CHECKPOINT_2026-04-24.md`
+  - `orchestra/VOL4_CHAPTER_76_80_REDEEPLOCK_CHECKPOINT_2026-04-24.md`
+  - `orchestra/NEXT_DIALOGUE_HANDOFF.md`
+  - `orchestra/SESSION_STATE.md`
+  - `orchestra/EXECUTION_PROGRESS_LEDGER.md`
+- Result:
+  - reopened verified jump now extends to `1~25`, `31~80`
+  - active incomplete reopened gap remains `26~30`
+  - `71~75` final 5 cycles held at `4,812 / 4,806 / 4,812 / 4,854 / 4,814`
+  - `76~80` final 5 cycles held at `4,852 / 4,822 / 4,942 / 5,199 / 5,457`
+  - both packets held `meta 0 / time-scent 0` across the no-edit verification
+
+## 2026-04-24 00:00 KST
+
+- Mode: `rttp context-guard handoff before next 5-chapter batch`
+- Scope note: the previous packet `66~70` is complete; the user wants to continue into `71~75` and then `76~80`, but context guard requires a fresh window before the next batch.
+- Issue summary: reopened verified state is now broad enough that continuing in the same thread risks blurring `verified`, `forward queue`, and the still-incomplete reopened gap `26~30`.
+- Current work: handoff/state refresh for restart-safe continuation
+- Next work: `71~75 (Vol.3 Chapters 21~25)` with optional continuation into `76~80 (Vol.4 Chapters 1~5)` if the next window still has room
+- Execution mode: `conductor direct lock`
+- Primary agent: `Codex`
+- Specialists: `none`
+- MCP: `none`
+- Skills:
+  - `rttp-lock-cycle`
+- Automations: `none`
+- Edits:
+  - `orchestra/NEXT_DIALOGUE_HANDOFF.md`
+  - `orchestra/SESSION_STATE.md`
+  - `orchestra/EXECUTION_PROGRESS_LEDGER.md`
+- Result:
+  - last verified reopened jump remains `1~25`, `31~70`
+  - active incomplete reopened gap remains `26~30`
+  - next-window prompt is fixed for `71~75`, with `76~80` allowed immediately after if context permits
+
+## 2026-04-23 00:00 KST
+
+- Mode: `rttp re-deep-lock 66~70`
+- Scope note: explicit overall-number jump mapped to `Vol.3 Chapters 16~20`; `26~30` remains the active reopened gap.
+- Issue summary: all five live files opened under the `4,800` no-space floor. `68~70` carried replay-route/time-scent wording such as `기억`, `처음부터`, `몇 번`, `전처럼`, `다시`, and `이미`; endings needed stronger live pressure.
+- Current work: `66~70` re-deep-lock + final no-edit 5-cycle verification complete
+- Next work: `26~30 (Vol.2 Chapters 1~5)` gap packet
+- Execution mode: `conductor direct lock`
+- Primary agent: `Codex`
+- Specialists: `none`
+- MCP: `none`
+- Skills:
+  - `rttp-lock-cycle`
+- Automations: `none`
+- Edits:
+  - `Drafts/Vol_3/Vol_3_Chapter_16.md`
+  - `Drafts/Vol_3/Vol_3_Chapter_17.md`
+  - `Drafts/Vol_3/Vol_3_Chapter_18.md`
+  - `Drafts/Vol_3/Vol_3_Chapter_19.md`
+  - `Drafts/Vol_3/Vol_3_Chapter_20.md`
+  - `orchestra/VOL3_CHAPTER_66_70_REDEEPLOCK_CHECKPOINT_2026-04-23.md`
+  - `orchestra/NEXT_DIALOGUE_HANDOFF.md`
+  - `orchestra/SESSION_STATE.md`
+  - `orchestra/EXECUTION_PROGRESS_LEDGER.md`
+- Result:
+  - `66` now closes on public anger being converted into a recordable charge at `4,819`
+  - `67` now closes on witness pursuit after the public trial at `4,821`
+  - `68` now closes on a dark wax marker pointing to active concealment at `4,816`
+  - `69` now closes on continued pursuit after Aresion's death at `4,852`
+  - `70` now closes on a wet location-confirmation note under the door at `4,860`
+  - final 5 cycles held all five at `meta 0 / time-scent 0 / above 4,800`
+
+## 2026-04-22 01:06 KST
+
+- Mode: `rttp re-deep-lock 61~65`
+- Scope note: explicit overall-number jump mapped to `Vol.3 Chapters 11~15`; `26~30` remains the active reopened gap.
+- Issue summary: all five live files opened under the `4,800` no-space floor. `62`, `63`, and `65` carried repeat/time-scent wording; `63` had body-level `제2권` meta wording; `65` had one floating transition line during reread.
+- Current work: `61~65` re-deep-lock + final no-edit 5-cycle verification complete
+- Next work: `26~30 (Vol.2 Chapters 1~5)` gap packet
+- Execution mode: `conductor direct lock`
+- Primary agent: `Codex`
+- Specialists: `none`
+- MCP: `none`
+- Skills:
+  - `rttp-lock-cycle`
+- Automations: `none`
+- Edits:
+  - `Drafts/Vol_3/Vol_3_Chapter_11.md`
+  - `Drafts/Vol_3/Vol_3_Chapter_12.md`
+  - `Drafts/Vol_3/Vol_3_Chapter_13.md`
+  - `Drafts/Vol_3/Vol_3_Chapter_14.md`
+  - `Drafts/Vol_3/Vol_3_Chapter_15.md`
+  - `orchestra/VOL3_CHAPTER_61_65_REDEEPLOCK_CHECKPOINT_2026-04-22.md`
+  - `orchestra/NEXT_DIALOGUE_HANDOFF.md`
+  - `orchestra/SESSION_STATE.md`
+  - `orchestra/EXECUTION_PROGRESS_LEDGER.md`
+- Result:
+  - `61` now closes on the still-closed inner door at `4,849`
+  - `62` now converts memory-coded pain into body-first timing residue at `4,802`
+  - `63` now removes body-level volume meta wording and strengthens the premature alarm pressure at `4,926`
+  - `64` now turns the empty culprit frame into direct witness/team danger at `4,854`
+  - `65` now repairs the floating transition and closes on the door handle moving at `4,812`
+  - final 5 cycles held all five at `meta 0 / time-scent 0 / above 4,800`
+
+## 2026-04-22 00:37 KST
+
+- Mode: `rttp re-deep-lock 56~60`
+- Scope note: explicit overall-number jump mapped to `Vol.3 Chapters 6~10`; `26~30` remains the active reopened gap.
+- Issue summary: all five live files opened under the `4,800` no-space floor. `60` also carried body-level `이번 권` wording, and `56`/`60` needed old-memory smell lowered into current body residue.
+- Current work: `56~60` re-deep-lock + final no-edit 5-cycle verification complete
+- Next work: `26~30 (Vol.2 Chapters 1~5)` gap packet
+- Execution mode: `conductor direct lock`
+- Primary agent: `Codex`
+- Specialists: `none`
+- MCP: `none`
+- Skills:
+  - `rttp-lock-cycle`
+- Automations: `none`
+- Edits:
+  - `Drafts/Vol_3/Vol_3_Chapter_6.md`
+  - `Drafts/Vol_3/Vol_3_Chapter_7.md`
+  - `Drafts/Vol_3/Vol_3_Chapter_8.md`
+  - `Drafts/Vol_3/Vol_3_Chapter_9.md`
+  - `Drafts/Vol_3/Vol_3_Chapter_10.md`
+  - `orchestra/VOL3_CHAPTER_56_60_REDEEPLOCK_CHECKPOINT_2026-04-22.md`
+  - `orchestra/NEXT_DIALOGUE_HANDOFF.md`
+  - `orchestra/SESSION_STATE.md`
+  - `orchestra/EXECUTION_PROGRESS_LEDGER.md`
+- Result:
+  - `56` now converts time-residue pressure into quiet weight-change danger at `4,808`
+  - `57` now makes sequence-bait a forced dirty choice at `4,803`
+  - `58` now turns waiting into a moral cost attached to people at `4,803`
+  - `59` now uses Iris's wound as a false-read trace while preserving survival pressure at `4,800`
+  - `60` now removes body-level volume language and old-memory smell, closing on body-first action at `4,801`
+  - final 5 cycles held all five at `meta 0 / time-scent 0 / hash fixed`
+
+## 2026-04-22 00:07 KST
+
+- Mode: `rttp re-deep-lock 51~55`
+- Scope note: explicit overall-number jump mapped to `Vol.3 Chapters 1~5`; `26~30` remains the active reopened gap.
+- Issue summary: all five live files opened under the `4,800` no-space floor. Body-level meta-facing `권` phrasing appeared across `52~55`, and the endings needed sharper next-episode operational pressure.
+- Current work: `51~55` re-deep-lock + final no-edit 5-cycle verification complete
+- Next work: `26~30 (Vol.2 Chapters 1~5)` gap packet
+- Execution mode: `conductor direct lock`
+- Primary agent: `Codex`
+- Specialists: `none`
+- MCP: `none`
+- Skills:
+  - `rttp-lock-cycle`
+- Automations: `none`
+- Edits:
+  - `Drafts/Vol_3/Vol_3_Chapter_1.md`
+  - `Drafts/Vol_3/Vol_3_Chapter_2.md`
+  - `Drafts/Vol_3/Vol_3_Chapter_3.md`
+  - `Drafts/Vol_3/Vol_3_Chapter_4.md`
+  - `Drafts/Vol_3/Vol_3_Chapter_5.md`
+  - `orchestra/VOL3_CHAPTER_51_55_REDEEPLOCK_CHECKPOINT_2026-04-22.md`
+  - `orchestra/NEXT_DIALOGUE_HANDOFF.md`
+  - `orchestra/SESSION_STATE.md`
+  - `orchestra/EXECUTION_PROGRESS_LEDGER.md`
+- Result:
+  - `51` now closes on choosing what the threshold lets the intruder see first at `4,821`
+  - `52` now removes body-level `권` wording and turns the missing ledger into room-breath pressure at `4,897`
+  - `53` now removes `3권의 바닥` wording and makes the missing child a daily-route restoration problem at `4,970`
+  - `54` now removes `이 권의 싸움` wording and turns fake fever into a precise rescue stain at `4,952`
+  - `55` now removes body-level `권` wording and closes on Aiden's own responses becoming readable at `4,810`
+  - final 5 cycles held all five at `meta 0 / time-scent 0 / hash fixed`
+
+## 2026-04-21 23:59 KST
+
+- Mode: `rttp re-deep-lock 46~50`
+- Scope note: explicit overall-number jump mapped to `Vol.2 Chapters 21~25`; `26~30` remains the active reopened gap.
+- Issue summary: all five live files opened under the `4,800` no-space floor. Chapter 50 also carried two meta-facing `2권의 끝` phrases, and Chapters 49~50 needed the dense line motif to resolve into practical choice and supply pressure.
+- Current work: `46~50` re-deep-lock + final no-edit 5-cycle verification complete
+- Next work: `26~30 (Vol.2 Chapters 1~5)` gap packet
+- Execution mode: `conductor direct lock`
+- Primary agent: `Codex`
+- Specialists: `none`
+- MCP: `none`
+- Skills:
+  - `rttp-lock-cycle`
+- Automations: `none`
+- Edits:
+  - `Drafts/Vol_2/Vol_2_Chapter_21.md`
+  - `Drafts/Vol_2/Vol_2_Chapter_22.md`
+  - `Drafts/Vol_2/Vol_2_Chapter_23.md`
+  - `Drafts/Vol_2/Vol_2_Chapter_24.md`
+  - `Drafts/Vol_2/Vol_2_Chapter_25.md`
+  - `orchestra/VOL2_CHAPTER_46_50_REDEEPLOCK_CHECKPOINT_2026-04-21.md`
+  - `orchestra/NEXT_DIALOGUE_HANDOFF.md`
+  - `orchestra/SESSION_STATE.md`
+  - `orchestra/EXECUTION_PROGRESS_LEDGER.md`
+- Result:
+  - `46` now closes on Aiden's cost ledger and the first human-shaped plague signal at `4,963`
+  - `47` now turns quarantine dread toward the hand using disease as access at `4,877`
+  - `48` now tracks the academy's first paper trail before exception becomes custom at `4,836`
+  - `49` now pushes Baltazar's warning into delegated risk and the next human arrival at `4,901`
+  - `50` now removes meta-facing volume language and closes on quarantine, academy, military supply, and extraction pressure at `4,860`
+  - final 5 cycles held all five at `meta 0 / time-scent 0 / hash fixed`
+
+## 2026-04-21 23:23 KST
+
+- Mode: `rttp re-deep-lock 41~45`
+- Scope note: explicit overall-number jump mapped to `Vol.2 Chapters 16~20`; `26~30` remains the active reopened gap.
+- Issue summary: all five live files opened under the `4,800` no-space floor and their chapter-end pressure clicked out too early on first read. Chapter 45 also surfaced one city-rumor typo during reread.
+- Current work: `41~45` re-deep-lock + final no-edit 5-cycle verification complete
+- Next work: `26~30 (Vol.2 Chapters 1~5)` gap packet
+- Execution mode: `conductor direct lock`
+- Primary agent: `Codex`
+- Specialists: `none`
+- MCP: `none`
+- Skills:
+  - `rttp-lock-cycle`
+- Automations: `none`
+- Edits:
+  - `Drafts/Vol_2/Vol_2_Chapter_16.md`
+  - `Drafts/Vol_2/Vol_2_Chapter_17.md`
+  - `Drafts/Vol_2/Vol_2_Chapter_18.md`
+  - `Drafts/Vol_2/Vol_2_Chapter_19.md`
+  - `Drafts/Vol_2/Vol_2_Chapter_20.md`
+  - `orchestra/VOL2_CHAPTER_41_45_REDEEPLOCK_CHECKPOINT_2026-04-21.md`
+  - `orchestra/NEXT_DIALOGUE_HANDOFF.md`
+  - `orchestra/SESSION_STATE.md`
+  - `orchestra/EXECUTION_PROGRESS_LEDGER.md`
+- Result:
+  - `41` restored the paper-chain aftermath into a larger reading risk and closed at `4,808`
+  - `42` extended the revolt cleanup into the first dawn cost and closed at `4,814`
+  - `43` pushed the silent purge into city-side vacancy and closed at `4,808`
+  - `44` tied the memory-loss price to continued exactness burden and closed at `4,800`
+  - `45` bridged the new-emperor image into first city cost, fixed one live typo during reread, and closed at `4,811`
+  - final 5 cycles held all five at `meta 0 / time-scent 0 / hash fixed`
+
 ---
+
+## 2026-04-21 22:08 KST
+
+- 모드: `rttp re-deep-lock 36~40`
+- 범위 메모: 사용자 요청 `36~40화`는 연속 총화수 기준으로 해석해 `Vol.2 Chapters 11~15`에 매핑했다. `26~30화`는 여전히 활성 미완 구간으로 유지한다.
+- 병목: 다섯 화 모두 live-file 기준 `4,800` 바닥 미달이었고, 특히 `36~40화`는 화말 압력이 한 박자씩 일찍 닫혀 다음 호명/후속 질서로 넘어가는 힘이 부족했다.
+- 현재 작업: `36~40화` 재딥락 + 최종 무수정 5사이클 검증 완료
+- 다음 작업: `26~30화 (Vol.2 Chapters 1~5)` 공백 구간 재딥락
+- 실행 방식: `conductor direct lock`
+- 총괄: `Codex`
+- 전문가: `none`
+- MCP: `none`
+- 스킬:
+  - `rttp-lock-cycle`
+- 에이전트: `none`
+- 자동화: `none`
+- 수정 파일:
+  - `Drafts/Vol_2/Vol_2_Chapter_11.md`
+  - `Drafts/Vol_2/Vol_2_Chapter_12.md`
+  - `Drafts/Vol_2/Vol_2_Chapter_13.md`
+  - `Drafts/Vol_2/Vol_2_Chapter_14.md`
+  - `Drafts/Vol_2/Vol_2_Chapter_15.md`
+  - `orchestra/VOL2_CHAPTER_36_40_REDEEPLOCK_CHECKPOINT_2026-04-21.md`
+  - `orchestra/NEXT_DIALOGUE_HANDOFF.md`
+  - `orchestra/SESSION_STATE.md`
+  - `orchestra/EXECUTION_PROGRESS_LEDGER.md`
+- 결과:
+  - `36화`는 3황자 빈자리 라인에 빌린 얼굴이 걸릴 현재 위험을 붙여 `4,803자`
+  - `37화`는 귀족 소문이 다음날 작은 가문 공포와 회의선까지 번지는 값을 붙여 `4,810자`
+  - `38화`는 `후영`을 문서/호출 실무 리스크로 다시 묶어 `4,814자`
+  - `39화`는 당겨진 죽음 뒤 누가 먼저 이름을 부르는지까지 압력을 이어 `4,818자`
+  - `40화`는 피를 누가 먼저 닦고 그 손이 어떻게 정당성으로 읽히는지까지 옥좌 압력을 이어 `4,816자`
+  - 최종 5사이클 동안 다섯 화 모두 `meta 0 / time-scent 0 / hash 고정`으로 PASS
+
+## 2026-04-21 21:28 KST
+
+- 모드: `rttp re-deep-lock 31~35`
+- 범위 메모: 사용자 요청 `31~35화`는 연속 총화수 기준으로 해석해 `Vol.2 Chapters 6~10`에 매핑했다. `26~30화`는 아직 비어 있는 활성 미완 구간으로 유지한다.
+- 병목: 다섯 화 모두 live-file 기준 `4,800` 바닥 미달이었고, 구간별 시간회귀 냄새, 반복 표면, 화말 압력이 겹쳐 있었다.
+- 현재 작업: `31~35화` 재딥락 + 최종 무수정 5사이클 검증 완료
+- 다음 작업: `26~30화 (Vol.2 Chapters 1~5)` 공백 구간 재딥락
+- 실행 방식: `conductor direct lock`
+- 총괄: `Codex`
+- 전문가: `none`
+- MCP: `none`
+- 스킬:
+  - `rttp-lock-cycle`
+- 에이전트: `none`
+- 자동화: `none`
+- 수정 파일:
+  - `Drafts/Vol_2/Vol_2_Chapter_6.md`
+  - `Drafts/Vol_2/Vol_2_Chapter_7.md`
+  - `Drafts/Vol_2/Vol_2_Chapter_8.md`
+  - `Drafts/Vol_2/Vol_2_Chapter_9.md`
+  - `Drafts/Vol_2/Vol_2_Chapter_10.md`
+  - `orchestra/VOL2_CHAPTER_31_35_REDEEPLOCK_CHECKPOINT_2026-04-21.md`
+  - `orchestra/NEXT_DIALOGUE_HANDOFF.md`
+  - `orchestra/SESSION_STATE.md`
+  - `orchestra/EXECUTION_PROGRESS_LEDGER.md`
+- 결과:
+  - `31화`는 추상적 운명/시각 설명을 현재 비용과 궁밖 숨값 압력으로 전환해 `4,807자`로 복구
+  - `32화`는 장례/순서 설명 냄새를 걷고 잔여 흔적과 시험 압력을 보강해 `4,801자`
+  - `33화`는 내부 손실 경고를 현재 비용으로 재배치하고 화말을 매끈하게 정리해 `4,811자`
+  - `34화`는 `1황자 / 칼` 반복 표면을 분산하고 안쪽부터 번지는 피 압력으로 정리해 `4,801자`
+  - `35화`는 문서/봉투 불신 사슬을 선명하게 만들고 화말을 부드럽게 고정해 `4,802자`
+  - 최종 5사이클 동안 다섯 화 모두 `meta 0 / time-scent 0 / hash 고정`으로 PASS
+
+## 2026-04-21 20:38 KST
+
+- 모드: `rttp re-deep-lock 21~25`
+- 병목: `22~25화` 실파일 기준으로 바닥 미달, 후영/시간회귀 냄새, 반복 압력, 화말 밀도를 다시 정리해야 했고, `24화`는 길이를 처음 잘못 읽은 상태라 live-file 기준 재산정이 필요했다.
+- 현재 작업: `21화` live-file 재감사 + `22~25화` 딥락 5사이클 잠금검수 완료
+- 다음 작업: `Vol.1 Chapter 26` 재개방 잠금검수
+- 실행 방식: `conductor direct lock`
+- 총괄: `Codex`
+- 전문가: `none`
+- MCP: `none`
+- 스킬:
+  - `rttp-lock-cycle`
+- 훅: `none`
+- 하네스: `none`
+- 수정 파일:
+  - `Drafts/Vol_1/Vol_1_Chapter_22.md`
+  - `Drafts/Vol_1/Vol_1_Chapter_23.md`
+  - `Drafts/Vol_1/Vol_1_Chapter_24.md`
+  - `Drafts/Vol_1/Vol_1_Chapter_25.md`
+  - `orchestra/VOL1_CHAPTER_21_25_REDEEPLOCK_CHECKPOINT_2026-04-21.md`
+  - `orchestra/NEXT_DIALOGUE_HANDOFF.md`
+  - `orchestra/SESSION_STATE.md`
+  - `orchestra/EXECUTION_PROGRESS_LEDGER.md`
+- 결과:
+  - `21화`는 실파일 기준 재독에서 그대로 유지됨
+  - `22화`는 후영 설명을 현재형 오염 신호로 정리하고 분량을 `4,801자`로 회복
+  - `23화`는 유예/목줄 반복 압력을 정리하고 분량을 `4,834자`로 회복
+  - `24화`는 live-file 기준 분량 미달을 재확인한 뒤 협상실/손끝 압력을 보강해 `4,804자`로 회복
+  - `25화`는 직접적 시간회귀 냄새를 현재 비용으로 바꾸고 검문 압력을 보강해 `4,816자`로 회복
+  - `21~25화` 전체가 무수정 5사이클에서 해시 고정 PASS
+- 재개 지점:
+  - `Vol.1 Chapter 26`
+
+---
+
+## 2026-04-16 12:05 KST
+
+- 모드: `harness priority retune`
+- 병목: 사용자가 RTTP의 최우선 기준을 `문체`, `흡입력`, `스토리`로 재지정했고, 길이 목표를 늘리더라도 몰입이 죽으면 안 되는 상태.
+- 현재 작업: 문피아 몰입 우선순위를 별도 잠금 문서로 고정하고, active drafting 하네스에 `공백 제외 5,000자 목표`를 연결.
+- 다음 작업: 제12권 13화부터는 새 우선순위 게이트로 집필/점검/수정을 반복.
+- 실행 방식: `conductor direct lock`
+- 초점:
+  - `voice`
+  - `entrance hook`
+  - `story progress`
+  - `serial pressure`
+  - `time-travel tension`
+  - `5,000-char target without padding`
+- 수정 파일:
+  - `orchestra/MUNPIA_PRIORITY_LOCK_2026-04-16.md`
+  - `orchestra/SESSION_STATE.md`
+  - `orchestra/EXECUTION_PROGRESS_LEDGER.md`
+
+---
+
+## 2026-04-13 03:18 KST
+
+- 모드: `vol11-batch-7 drafting`
+- 병목: 제11권은 이제 진술 재정리와 첫 공식 호명이 실제로 사람의 다음 하루를 바꾸는 지점까지 밀어야 이후 `재대조 / 공식 죄목화` 국면이 끊기지 않고 이어지는 상태.
+- 현재 작업: 제11권 `제13화 다시 쓰이는 진술`, `제14화 첫 공식 호명` 작성 및 일곱 번째 체크포인트 잠금
+- 다음 작업: `제11권 제15화 이름으로 묶인 밤`, `제16화 첫 재대조` 초안 작성
+- 실행 방식: `총괄 + 전문가 검토 병행`
+- 총괄: `novel-orchestra-conductor`
+- 전문가:
+  - `Dalton`
+  - `Descartes`
+- MCP: `none`
+- 스킬:
+  - `novel-orchestra-conductor`
+  - `progress-ledger`
+- 훅: `none`
+- 하네스: `none`
+- 수정 파일:
+  - `Drafts/Vol_11/Vol_11_Chapter_13.md`
+  - `Drafts/Vol_11/Vol_11_Chapter_14.md`
+  - `orchestra/VOL11_BATCH_7_CHECKPOINT_2026-04-13.md`
+  - `orchestra/DRAFTING_PROGRESS_TRACKER.md`
+  - `orchestra/NEXT_DIALOGUE_HANDOFF.md`
+  - `orchestra/SESSION_STATE.md`
+  - `orchestra/EXECUTION_PROGRESS_LEDGER.md`
+- 결과:
+  - `제13화 다시 쓰이는 진술`을 공백 제외 `4009자`로 통과시켜 단어 치환과 생활 언어 삭제를 통해 살아 있는 진술이 혐의 쪽 문장으로 재정리되는 과정을 확보함
+  - `제14화 첫 공식 호명`을 공백 제외 `4000자`로 통과시켜 첫 공식 명칭이 운영 명령이 되어 다음 교대와 질문 구조를 직접 바꾸는 국면을 고정함
+  - 제11권 진행 장부를 `초안 264화 중 264화 통과` 기준으로 갱신함
+- 재개 지점:
+  - 제11권 `제15화 이름으로 묶인 밤`
+  - 제11권 `제16화 첫 재대조`
+
+## 2026-04-13 02:54 KST
+
+- 모드: `vol11-batch-6 drafting`
+- 병목: 제11권은 혐의와 보류를 지나 이제 `대면 자체가 차이를 만드는 절차`임을 분명히 보여 줘야 이후 공식 호명과 진술 재작성 국면이 설득력 있게 이어지는 상태.
+- 현재 작업: 제11권 `제11화 대면 전야`, `제12화 같은 사건, 다른 자리` 작성 및 여섯 번째 체크포인트 잠금
+- 다음 작업: `제11권 제13화 다시 쓰이는 진술`, `제14화 첫 공식 호명` 초안 작성
+- 실행 방식: `총괄 + 전문가 검토 병행`
+- 총괄: `novel-orchestra-conductor`
+- 전문가:
+  - `Dalton`
+  - `Descartes`
+- MCP: `none`
+- 스킬:
+  - `novel-orchestra-conductor`
+  - `progress-ledger`
+- 훅: `none`
+- 하네스: `none`
+- 수정 파일:
+  - `Drafts/Vol_11/Vol_11_Chapter_11.md`
+  - `Drafts/Vol_11/Vol_11_Chapter_12.md`
+  - `orchestra/VOL11_BATCH_6_CHECKPOINT_2026-04-13.md`
+  - `orchestra/DRAFTING_PROGRESS_TRACKER.md`
+  - `orchestra/NEXT_DIALOGUE_HANDOFF.md`
+  - `orchestra/SESSION_STATE.md`
+  - `orchestra/EXECUTION_PROGRESS_LEDGER.md`
+- 결과:
+  - `제11화 대면 전야`를 공백 제외 `4000자`로 통과시켜 역할축이 소품과 배치에 이미 박혀 있는 밤의 압박을 확보함
+  - `제12화 같은 사건, 다른 자리`를 공백 제외 `4555자`로 통과시켜 같은 사건이 질문 구조 때문에 서로 다른 사건처럼 재편되는 대면 국면을 고정함
+  - 제11권 진행 장부를 `초안 262화 중 262화 통과` 기준으로 갱신함
+- 재개 지점:
+  - 제11권 `제13화 다시 쓰이는 진술`
+  - 제11권 `제14화 첫 공식 호명`
+
+## 2026-04-13 02:31 KST
+
+- 모드: `vol11-batch-5 drafting`
+- 병목: 제11권은 혐의가 막 생긴 상태에서 한 걸음 더 나아가 `보류`, `질문 틀`, `운영 방식` 자체가 이미 판정처럼 작동하고 있음을 굳혀야 이후 대면 대조와 고착 국면이 자연스럽게 이어지는 상태.
+- 현재 작업: 제11권 `제9화 보류된 이름`, `제10화 셋을 가르는 질문` 작성 및 다섯 번째 체크포인트 잠금
+- 다음 작업: `제11권 제11화 대면 전야`, `제12화 같은 사건, 다른 자리` 초안 작성
+- 실행 방식: `총괄 + 전문가 검토 병행`
+- 총괄: `novel-orchestra-conductor`
+- 전문가:
+  - `Godel`
+  - `Ptolemy`
+- MCP: `none`
+- 스킬:
+  - `novel-orchestra-conductor`
+  - `progress-ledger`
+- 훅: `none`
+- 하네스: `none`
+- 수정 파일:
+  - `Drafts/Vol_11/Vol_11_Chapter_9.md`
+  - `Drafts/Vol_11/Vol_11_Chapter_10.md`
+  - `orchestra/VOL11_BATCH_5_CHECKPOINT_2026-04-13.md`
+  - `orchestra/DRAFTING_PROGRESS_TRACKER.md`
+  - `orchestra/NEXT_DIALOGUE_HANDOFF.md`
+  - `orchestra/SESSION_STATE.md`
+  - `orchestra/EXECUTION_PROGRESS_LEDGER.md`
+- 결과:
+  - `제9화 보류된 이름`을 공백 제외 `4000자`로 통과시켜 이름이 확정되지 않았어도 운영 방식이 이미 에이든/아이리스/레나를 서로 다른 역할로 다루는 상태를 잠금
+  - `제10화 셋을 가르는 질문`을 공백 제외 `4009자`로 통과시켜 질문 틀 자체가 셋을 `중심 / 동조 / 잔류` 쪽으로 가르는 절차가 됐음을 전면화함
+  - 제11권 진행 장부를 `초안 260화 중 260화 통과` 기준으로 갱신함
+- 재개 지점:
+  - 제11권 `제11화 대면 전야`
+  - 제11권 `제12화 같은 사건, 다른 자리`
+
+## 2026-04-13 02:11 KST
+
+- 모드: `vol11-batch-4 drafting`
+- 병목: 제11권 중반 진입 전, 귀환자 셋을 둘러싼 도시 반응이 단순 공포를 넘어 `진술 차이 -> 선행 혐의 부착`으로 움직여야 이후 보류, 재대조, 죄목 고착이 자연스럽게 살아나는 상태.
+- 현재 작업: 제11권 `제7화 다른 진술`, `제8화 먼저 붙는 죄목` 작성 및 네 번째 체크포인트 잠금
+- 다음 작업: `제11권 제9화 보류된 이름`, `제10화 셋을 가르는 질문` 초안 작성
+- 실행 방식: `총괄 + 전문가 검토 병행`
+- 총괄: `novel-orchestra-conductor`
+- 전문가:
+  - `Sophocles`
+  - `Meitner`
+- MCP: `none`
+- 스킬:
+  - `novel-orchestra-conductor`
+  - `progress-ledger`
+- 훅: `none`
+- 하네스: `none`
+- 수정 파일:
+  - `Drafts/Vol_11/Vol_11_Chapter_7.md`
+  - `Drafts/Vol_11/Vol_11_Chapter_8.md`
+  - `orchestra/VOL11_BATCH_4_CHECKPOINT_2026-04-13.md`
+  - `orchestra/DRAFTING_PROGRESS_TRACKER.md`
+  - `orchestra/NEXT_DIALOGUE_HANDOFF.md`
+  - `orchestra/SESSION_STATE.md`
+  - `orchestra/EXECUTION_PROGRESS_LEDGER.md`
+- 결과:
+  - `제7화 다른 진술`을 공백 제외 `4266자`로 통과시켜 셋의 자연스러운 진술 차이가 기록실 안에서 곧바로 `결 차`, `대면 대조`, `혐의 재료`로 번역되는 과정을 확보함
+  - `제8화 먼저 붙는 죄목`을 공백 제외 `4001자`로 통과시켜 `숨김`, `입맞춤`, `오염`, `문 닫히게 만든 놈들` 같은 혐의 언어가 군중/신앙/행정에서 동시에 자라는 상태를 고정함
+  - 제11권 진행 장부를 `초안 258화 중 258화 통과` 기준으로 갱신함
+- 재개 지점:
+  - 제11권 `제9화 보류된 이름`
+  - 제11권 `제10화 셋을 가르는 질문`
+
+## 2026-04-13 01:43 KST
+
+- 모드: `vol11-batch-3 drafting`
+- 병목: 제11권은 외부 반응을 유지한 채 실제 귀환 인물과 도시가 처음 맞물리는 순간을 `첫 얼굴`, `첫 이름`, `분리 심문`으로 밀어야 다음 화부터 죄목/관리/오독 전쟁이 자연스럽게 열린다.
+- 현재 작업: 제11권 `제5화 먼저 내려온 사람`, `제6화 도시가 붙인 이름` 작성 및 세 번째 체크포인트 잠금
+- 다음 작업: `제11권 제7화 다른 진술`, `제8화 먼저 붙는 죄목` 초안 작성
+- 실행 방식: `총괄 + 전문가 검토 병행`
+- 총괄: `novel-orchestra-conductor`
+- 전문가:
+  - `Huygens`
+  - `Godel`
+- MCP: `none`
+- 스킬:
+  - `novel-orchestra-conductor`
+  - `progress-ledger`
+- 훅: `none`
+- 하네스: `none`
+- 수정 파일:
+  - `Drafts/Vol_11/Vol_11_Chapter_5.md`
+  - `Drafts/Vol_11/Vol_11_Chapter_6.md`
+  - `orchestra/VOL11_BATCH_3_CHECKPOINT_2026-04-13.md`
+  - `orchestra/DRAFTING_PROGRESS_TRACKER.md`
+  - `orchestra/NEXT_DIALOGUE_HANDOFF.md`
+  - `orchestra/SESSION_STATE.md`
+  - `orchestra/EXECUTION_PROGRESS_LEDGER.md`
+- 결과:
+  - `제5화 먼저 내려온 사람`을 공백 제외 `4001자`로 통과시켜 에이든이 도시의 첫 표적이자 첫 설명 대상으로 굳어지는 장면을 잠금
+  - `제6화 도시가 붙인 이름`을 공백 제외 `4001자`로 통과시켜 군중 / 신앙 / 행정이 각각 다른 이름을 붙이며 셋의 귀환을 `호명 전쟁`으로 바꾸는 국면을 고정함
+  - 제11권 진행 장부를 `초안 256화 중 256화 통과` 기준으로 갱신함
+- 재개 지점:
+  - 제11권 `제7화 다른 진술`
+  - 제11권 `제8화 먼저 붙는 죄목`
+
+## 2026-04-13 00:57 KST
+
+- 모드: `vol11-batch-2 drafting`
+- 병목: 제11권 초반은 외부 반응을 단순 군중 패닉으로 두지 말고, `첫 진술 채집 -> 생활 언어 분리 -> 계층별 다른 해석`으로 도시 전체가 먼저 움직이는 엔진을 명확히 세워야 하는 상태.
+- 현재 작업: 제11권 `제3화 1차 목격 진술`, `제4화 금을 보는 사람들` 작성 및 두 번째 체크포인트 잠금
+- 다음 작업: `제11권 제5화 먼저 내려온 사람`, `제6화 도시가 붙인 이름` 초안 작성
+- 실행 방식: `총괄 + 전문가 검토 병행`
+- 총괄: `novel-orchestra-conductor`
+- 전문가:
+  - `Ohm`
+  - `Ptolemy`
+- MCP: `none`
+- 스킬:
+  - `novel-orchestra-conductor`
+  - `progress-ledger`
+- 훅: `none`
+- 하네스: `none`
+- 수정 파일:
+  - `Drafts/Vol_11/Vol_11_Chapter_3.md`
+  - `Drafts/Vol_11/Vol_11_Chapter_4.md`
+  - `orchestra/VOL11_BATCH_2_CHECKPOINT_2026-04-13.md`
+  - `orchestra/DRAFTING_PROGRESS_TRACKER.md`
+  - `orchestra/NEXT_DIALOGUE_HANDOFF.md`
+  - `orchestra/SESSION_STATE.md`
+  - `orchestra/EXECUTION_PROGRESS_LEDGER.md`
+- 결과:
+  - `제3화 1차 목격 진술`을 공백 제외 `4079자`로 통과시켜 첫 진술이 사실보다 `표현 갈림`, `생활 전이`, `표정 변화`를 더 또렷하게 드러내는 기록실 장면으로 잠금
+  - `제4화 금을 보는 사람들`을 공백 제외 `4003자`로 통과시켜 세탁터, 예배당, 장터, 중층 주택가, 순찰선, 기록 보관고까지 각자 다른 삶의 계산으로 하늘 금을 읽는 도시 전면 반응을 확보함
+  - 제11권 진행 장부를 `초안 254화 중 254화 통과` 기준으로 갱신함
+- 재개 지점:
+  - 제11권 `제5화 먼저 내려온 사람`
+  - 제11권 `제6화 도시가 붙인 이름`
+
+## 2026-04-13 00:18 KST
+
+- 모드: `vol11-batch-1 drafting`
+- 병목: 제11권 초반은 탑 밖으로 나온 뒤 설명을 듣는 구도가 아니라, 이미 `하늘 금 -> 소문 -> 행정 추적 -> 검문`이 먼저 굳어 버린 도시 속으로 되돌아가는 압박을 외부 시점에서 선명하게 세워야 하는 상태.
+- 현재 작업: 제11권 `제1화 금이 보이는 하늘`, `제2화 숨길 수 없는 균열` 작성 및 첫 체크포인트 잠금
+- 다음 작업: `제11권 제3화 1차 목격 진술`, `제4화 금을 보는 사람들` 초안 작성
+- 실행 방식: `총괄 + 전문가 검토 병행`
+- 총괄: `novel-orchestra-conductor`
+- 전문가:
+  - `Socrates`
+  - `Meitner`
+- MCP: `none`
+- 스킬:
+  - `novel-orchestra-conductor`
+  - `progress-ledger`
+- 훅: `none`
+- 하네스: `none`
+- 수정 파일:
+  - `Drafts/Vol_11/Vol_11_Chapter_1.md`
+  - `Drafts/Vol_11/Vol_11_Chapter_2.md`
+  - `orchestra/VOL11_BATCH_1_CHECKPOINT_2026-04-13.md`
+  - `orchestra/DRAFTING_PROGRESS_TRACKER.md`
+  - `orchestra/NEXT_DIALOGUE_HANDOFF.md`
+  - `orchestra/SESSION_STATE.md`
+  - `orchestra/EXECUTION_PROGRESS_LEDGER.md`
+- 결과:
+  - `제1화 금이 보이는 하늘`을 공백 제외 `4003자`로 통과시켜 하늘의 금을 본 첫 외부 시선이 우물가, 약방, 기도실, 성문 검문선으로 번지는 생활 반응까지 확보함
+  - `제2화 숨길 수 없는 균열`을 공백 제외 `4004자`로 통과시켜 같은 장면이 `민심 안정`, `단어 추적`, `군중 이동 패턴 확인` 같은 행정 언어로 전환되는 과정을 잠금
+  - 제11권 첫 체크포인트를 PASS로 잠그고 진행 장부를 `초안 252화 중 252화 통과` 기준으로 갱신함
+- 재개 지점:
+  - 제11권 `제3화 1차 목격 진술`
+  - 제11권 `제4화 금을 보는 사람들`
+
+## 2026-04-12 11:36 KST
+
+- 모드: `vol10-finale drafting`
+- 병목: 제10권 마지막은 `핵심을 이겼다`보다 `무엇을 남기기로 했는가`를 바깥 하늘까지 연결해 닫아야 다음 권 외부 반응이 자연스럽게 살아나는 상태.
+- 현재 작업: 제10권 `제25화 남기는 것` 작성, 권말 체크포인트, 제11권 브리지 감사 잠금
+- 다음 작업: `제11권 제1화 금이 보이는 하늘`, `제2화 숨길 수 없는 균열` 초안 작성
+- 실행 방식: `총괄 + 전문가 검토 병행`
+- 총괄: `novel-orchestra-conductor`
+- 전문가:
+  - `Ptolemy`
+  - `Huygens`
+- MCP: `none`
+- 스킬:
+  - `novel-orchestra-conductor`
+  - `progress-ledger`
+- 훅: `none`
+- 하네스: `none`
+- 수정 파일:
+  - `Drafts/Vol_10/Vol_10_Chapter_25.md`
+  - `orchestra/VOL10_BATCH_13_CHECKPOINT_2026-04-12.md`
+  - `orchestra/VOL10_VOLUME_CHECKPOINT_2026-04-12.md`
+  - `orchestra/VOL10_TO_VOL11_BRIDGE_AUDIT_2026-04-12.md`
+  - `orchestra/DRAFTING_PROGRESS_TRACKER.md`
+  - `orchestra/NEXT_DIALOGUE_HANDOFF.md`
+  - `orchestra/SESSION_STATE.md`
+  - `orchestra/EXECUTION_PROGRESS_LEDGER.md`
+- 결과:
+  - `제25화 남기는 것`을 공백 제외 `4130자`로 통과시켜 푸른 결이 찢긴 뒤 `남겨야 할 것`을 바깥 하늘의 금으로 가져가는 권말 이미지까지 확보함
+  - 제10권을 `덮는 구조에서 남기는 구조로 기준을 꺾는 권`으로 권말 체크포인트와 함께 잠금
+  - 제11권 초반을 `하늘에 드러난 금을 밖이 어떻게 읽는가`로 여는 브리지 원칙을 고정함
+  - 제10권 진행 장부를 `초안 250화 중 250화 통과` 기준으로 갱신
+- 재개 지점:
+  - 제11권 `제1화 금이 보이는 하늘`
+  - 제11권 `제2화 숨길 수 없는 균열`
+
+## 2026-04-12 11:02 KST
+
+- 모드: `vol10-batch-12 drafting`
+- 병목: 상층 안쪽 기준이 `빈 자리를 메우지 않는다`로 바뀐 직후, 이제 구조의 가장 깊은 핵심인 `푸른 결`이 상처를 덮는 대체 규칙으로 드러나며, 셋이 무엇을 끝까지 남길 것인지 정해야 하는 상태.
+- 현재 작업: 제10권 `제23화 핵심`, `제24화 푸른 결` 작성 및 배치 잠금
+- 다음 작업: `제10권 제25화 남기는 것` 초안 작성, 권말 체크포인트, 제11권 브리지 감사
+- 실행 방식: `총괄 + 전문가 검토 병행`
+- 총괄: `novel-orchestra-conductor`
+- 전문가:
+  - `Ptolemy`
+  - `Heisenberg`
+- MCP: `none`
+- 스킬:
+  - `novel-orchestra-conductor`
+  - `progress-ledger`
+- 훅: `none`
+- 하네스: `none`
+- 수정 파일:
+  - `Drafts/Vol_10/Vol_10_Chapter_23.md`
+  - `Drafts/Vol_10/Vol_10_Chapter_24.md`
+  - `orchestra/VOL10_BATCH_12_CHECKPOINT_2026-04-12.md`
+  - `orchestra/DRAFTING_PROGRESS_TRACKER.md`
+  - `orchestra/NEXT_DIALOGUE_HANDOFF.md`
+  - `orchestra/SESSION_STATE.md`
+  - `orchestra/EXECUTION_PROGRESS_LEDGER.md`
+- 결과:
+  - `제23화 핵심`을 공백 제외 `4055자`로 통과시켜 푸른 결을 `상처와 대가를 가장 깨끗하게 덮는 대체 규칙`으로 정체화함
+  - `제24화 푸른 결`을 공백 제외 `4000자`로 통과시켜 회색 형체의 `남겨`를 기준점으로 핵심의 매끈한 덮개를 찢고 정면 충돌 국면으로 전환함
+  - 제10권 진행 장부를 `초안 249화 중 249화 통과` 기준으로 갱신
+- 재개 지점:
+  - 제10권 `제25화 남기는 것`
+  - 제10권 권말 체크포인트
+  - 제10권 -> 제11권 브리지 감사
+
+## 2026-04-12 10:34 KST
+
+- 모드: `vol10-batch-11 drafting`
+- 병목: `더 깊은 층`과 `분리층`을 넘긴 뒤 이제 상층 안쪽이 `빈 자리를 메우지 않고도 버틸 수 있느냐`를 묻기 시작해, 잔류를 적/대체품 이분법으로 처리하지 않는 새 기준이 필요한 상태.
+- 현재 작업: 제10권 `제21화 구조의 안쪽`, `제22화 남은 자리` 작성 및 배치 잠금
+- 다음 작업: `제10권 제23화 핵심`, `제24화 푸른 결` 초안 작성
+- 실행 방식: `총괄 + 전문가 검토 병행`
+- 총괄: `novel-orchestra-conductor`
+- 전문가:
+  - `Ptolemy`
+  - `Godel`
+- MCP: `none`
+- 스킬:
+  - `novel-orchestra-conductor`
+  - `progress-ledger`
+- 훅: `none`
+- 하네스: `none`
+- 수정 파일:
+  - `Drafts/Vol_10/Vol_10_Chapter_21.md`
+  - `Drafts/Vol_10/Vol_10_Chapter_22.md`
+  - `orchestra/VOL10_BATCH_11_CHECKPOINT_2026-04-12.md`
+  - `orchestra/DRAFTING_PROGRESS_TRACKER.md`
+  - `orchestra/NEXT_DIALOGUE_HANDOFF.md`
+  - `orchestra/SESSION_STATE.md`
+  - `orchestra/EXECUTION_PROGRESS_LEDGER.md`
+- 결과:
+  - `제21화 구조의 안쪽`을 공백 제외 `4001자`로 통과시켜 안쪽 원형 구조를 `자기 방식의 한계를 인정한 채 빈 자리를 메우지 않고 버틸 수 있는가`를 묻는 자리로 정식화함
+  - `제22화 남은 자리`를 공백 제외 `4001자`로 통과시켜 옛 증언선의 잔류처럼 보이는 `남은 자리`를 제거/대체 대신 `멈춰 세운 채 바깥에 새 고정선을 얹는 방식`으로 처리함
+  - 제10권 진행 장부를 `초안 247화 중 247화 통과` 기준으로 갱신
+- 재개 지점:
+  - 제10권 `제23화 핵심`
+  - 제10권 `제24화 푸른 결`
+
+## 2026-04-12 10:05 KST
+
+- 모드: `vol10-batch-10 drafting`
+- 병목: 첫 상층 시험을 넘긴 뒤 `더 깊은 층`이 셋의 완벽함이 아니라 과잉 보정과 엇박, 분리 심리를 노리기 시작해, 셋이 단순 협동이 아니라 확인 절차 자체를 새 구조로 만들어야 하는 상태.
+- 현재 작업: 제10권 `제19화 더 깊은 층`, `제20화 셋을 갈라놓는 것` 작성 및 배치 잠금
+- 다음 작업: `제10권 제21화 구조의 안쪽`, `제22화 남은 자리` 초안 작성
+- 실행 방식: `총괄 + 전문가 검토 병행`
+- 총괄: `novel-orchestra-conductor`
+- 전문가:
+  - `Godel`
+  - `Heisenberg`
+- MCP: `none`
+- 스킬:
+  - `novel-orchestra-conductor`
+  - `progress-ledger`
+- 훅: `none`
+- 하네스: `none`
+- 수정 파일:
+  - `Drafts/Vol_10/Vol_10_Chapter_19.md`
+  - `Drafts/Vol_10/Vol_10_Chapter_20.md`
+  - `orchestra/VOL10_BATCH_10_CHECKPOINT_2026-04-12.md`
+  - `orchestra/DRAFTING_PROGRESS_TRACKER.md`
+  - `orchestra/NEXT_DIALOGUE_HANDOFF.md`
+  - `orchestra/SESSION_STATE.md`
+  - `orchestra/EXECUTION_PROGRESS_LEDGER.md`
+- 결과:
+  - `제19화 더 깊은 층`을 공백 제외 `4001자`로 통과시켜 상층 아래 구조가 `각자의 과잉 최선`을 독으로 바꾸는 층임을 드러냄
+  - `제20화 셋을 갈라놓는 것`을 공백 제외 `4001자`로 통과시켜 분리층을 `같은 사실을 다른 속도로 보게 만드는 구조`로 정식화하고, 셋이 `증언 -> 교정 -> 고정` 순서를 고정해 대응하게 함
+  - 제10권 진행 장부를 `초안 245화 중 245화 통과` 기준으로 갱신
+- 재개 지점:
+  - 제10권 `제21화 구조의 안쪽`
+  - 제10권 `제22화 남은 자리`
+
+## 2026-04-12 09:22 KST
+
+- 모드: `vol10-batch-9 drafting`
+- 병목: 상층 가동 직후 `셋이 같이 서는 구조`를 말로만 끝내지 않고, 실제 시험 전투 속에서 `고정 / 교정 / 증언`이 서로를 어떻게 살리는지 사건으로 증명해야 하는 상태.
+- 현재 작업: 제10권 `제17화 고정의 시험`, `제18화 셋의 박자` 작성 및 배치 잠금
+- 다음 작업: `제10권 제19화 더 깊은 층`, `제20화 셋을 갈라놓는 것` 초안 작성
+- 실행 방식: `총괄 + 전문가 검토 병행`
+- 총괄: `novel-orchestra-conductor`
+- 전문가:
+  - `Heisenberg`
+  - `Ptolemy`
+- MCP: `none`
+- 스킬:
+  - `novel-orchestra-conductor`
+  - `progress-ledger`
+- 훅: `none`
+- 하네스: `none`
+- 수정 파일:
+  - `Drafts/Vol_10/Vol_10_Chapter_17.md`
+  - `Drafts/Vol_10/Vol_10_Chapter_18.md`
+  - `orchestra/VOL10_BATCH_9_CHECKPOINT_2026-04-12.md`
+  - `orchestra/DRAFTING_PROGRESS_TRACKER.md`
+  - `orchestra/NEXT_DIALOGUE_HANDOFF.md`
+  - `orchestra/SESSION_STATE.md`
+  - `orchestra/EXECUTION_PROGRESS_LEDGER.md`
+- 결과:
+  - `제17화 고정의 시험`을 공백 제외 `4000자`로 통과시켜 `너만 아니면 아무도 못 한다`는 고립 문장을 무게는 들되 뜻은 같이 정한다는 방식으로 눌렀다
+  - `제18화 셋의 박자`를 공백 제외 `4000자`로 통과시켜 `호명 -> 오독 제거 -> 중심 고정`이 실제 구조 안에서 맞물리는 첫 승리를 세웠다
+  - 제10권 진행 장부를 `초안 243화 중 243화 통과` 기준으로 갱신
+- 재개 지점:
+  - 제10권 `제19화 더 깊은 층`
+  - 제10권 `제20화 셋을 갈라놓는 것`
+
+## 2026-04-12 08:48 KST
+
+- 모드: `vol10-batch-8 drafting`
+- 병목: 정상 설명을 곧바로 `한 사람 미봉 반복`으로 닫지 않고, `셋이 나눠 드는 상층 구조`를 실제 충돌과 가동 장면으로 바꿔야 하는 상태.
+- 현재 작업: 제10권 `제15화 인계 거부`, `제16화 상층 가동` 작성 및 배치 잠금
+- 다음 작업: `제10권 제17화 고정의 시험`, `제18화 셋의 박자` 초안 작성
+- 실행 방식: `총괄 + 전문가 검토 병행`
+- 총괄: `novel-orchestra-conductor`
+- 전문가:
+  - `Ptolemy`
+  - `Godel`
+- MCP: `none`
+- 스킬:
+  - `novel-orchestra-conductor`
+  - `progress-ledger`
+- 훅: `none`
+- 하네스: `none`
+- 수정 파일:
+  - `Drafts/Vol_10/Vol_10_Chapter_15.md`
+  - `Drafts/Vol_10/Vol_10_Chapter_16.md`
+  - `orchestra/VOL10_BATCH_8_CHECKPOINT_2026-04-12.md`
+  - `orchestra/DRAFTING_PROGRESS_TRACKER.md`
+  - `orchestra/NEXT_DIALOGUE_HANDOFF.md`
+  - `orchestra/SESSION_STATE.md`
+  - `orchestra/EXECUTION_PROGRESS_LEDGER.md`
+- 결과:
+  - `제15화 인계 거부`를 공백 제외 `4020자`로 통과시켜 발타자르의 `한 사람 고정` 미봉을 정면으로 거부하고, 상층의 본래 구조가 `셋이 나눠 드는 틀`임을 드러냄
+  - `제16화 상층 가동`을 공백 제외 `4000자`로 통과시켜 `고정 / 교정 / 증언` 세 자리를 아이리스, 레나, 에이든 축으로 실제 가동함
+  - 제10권 진행 장부를 `초안 241화 중 241화 통과` 기준으로 갱신
+- 재개 지점:
+  - 제10권 `제17화 고정의 시험`
+  - 제10권 `제18화 셋의 박자`
+
+## 2026-04-12 08:10 KST
+
+- 모드: `vol10-batch-7 drafting`
+- 병목: 환영 국면을 끝내고도 설명 과잉으로 주저앉지 않으면서, `돌파`를 사건으로 세우고 `정상`을 도착점이 아니라 더 큰 판정실로 전환해야 하는 상태.
+- 현재 작업: 제10권 `제13화 돌파`, `제14화 탑의 꼭대기` 작성 및 배치 잠금
+- 다음 작업: `제10권 제15화 인계 거부`, `제16화 상층 가동` 초안 작성
+- 실행 방식: `총괄 + 전문가 검토 병행`
+- 총괄: `novel-orchestra-conductor`
+- 전문가:
+  - `Huygens`
+  - `Godel`
+- MCP: `none`
+- 스킬:
+  - `novel-orchestra-conductor`
+  - `progress-ledger`
+- 훅: `none`
+- 하네스: `none`
+- 수정 파일:
+  - `Drafts/Vol_10/Vol_10_Chapter_13.md`
+  - `Drafts/Vol_10/Vol_10_Chapter_14.md`
+  - `orchestra/VOL10_BATCH_7_CHECKPOINT_2026-04-12.md`
+  - `orchestra/DRAFTING_PROGRESS_TRACKER.md`
+  - `orchestra/NEXT_DIALOGUE_HANDOFF.md`
+  - `orchestra/SESSION_STATE.md`
+  - `orchestra/EXECUTION_PROGRESS_LEDGER.md`
+- 결과:
+  - `제13화 돌파`를 공백 제외 `4001자`로 통과시켜 탑이 강요하던 `혼자 / 정답 / 요약` 문장을 실제 전투로 끊는 전환점을 잠금
+  - `제14화 탑의 꼭대기`를 공백 제외 `4199자`로 통과시켜 발타자르 대면, `실패층 봉합`, `인계` 선언까지 전진시킴
+  - 제10권 진행 장부를 `초안 239화 중 239화 통과` 기준으로 갱신
+- 재개 지점:
+  - 제10권 `제15화 인계 거부`
+  - 제10권 `제16화 상층 가동`
+
+## 2026-04-12 06:46 KST
+
+- 모드: `vol10-batch-6 drafting`
+- 병목: `바르칸`은 독단과 신뢰의 부채를, `리아`는 구원의 대가와 살아남은 뒤의 시간을 찌르는 관계형 시련이라 전투보다 말과 의미가 더 깊게 남아야 하는 상태.
+- 현재 작업: 제10권 `제11화 바르칸의 환영`, `제12화 리아의 환영` 작성 및 배치 잠금
+- 다음 작업: `제10권 제13화 돌파`, `제14화 탑의 꼭대기` 초안 작성
+- 실행 방식: `총괄 + 전문가 검토 병행`
+- 총괄: `novel-orchestra-conductor`
+- 전문가:
+  - `Ptolemy`
+  - `Heisenberg`
+- MCP: `none`
+- 스킬:
+  - `novel-orchestra-conductor`
+  - `progress-ledger`
+- 훅: `none`
+- 하네스: `none`
+- 수정 파일:
+  - `Drafts/Vol_10/Vol_10_Chapter_11.md`
+  - `Drafts/Vol_10/Vol_10_Chapter_12.md`
+  - `orchestra/VOL10_BATCH_6_CHECKPOINT_2026-04-12.md`
+  - `orchestra/DRAFTING_PROGRESS_TRACKER.md`
+  - `orchestra/NEXT_DIALOGUE_HANDOFF.md`
+  - `orchestra/SESSION_STATE.md`
+  - `orchestra/EXECUTION_PROGRESS_LEDGER.md`
+- 결과:
+  - `제11화 바르칸의 환영`을 공백 제외 `4001자`로 통과시켜 `왜 혼자였냐`는 신뢰의 부채와 `같이 드는 쪽`의 반격을 잠금
+  - `제12화 리아의 환영`을 공백 제외 `4069자`로 통과시켜 `구원의 대가`와 `살아남은 뒤의 시간`을 정면으로 다루는 응답을 세움
+  - 제10권 진행 장부를 `초안 237화 중 237화 통과` 기준으로 갱신
+- 재개 지점:
+  - 제10권 `제13화 돌파`
+  - 제10권 `제14화 탑의 꼭대기`
 
 ## 2026-04-10 14:25 KST
 
@@ -1526,6 +5249,1015 @@
 - 재개 지점:
   - 제7권 `제11화 잘못된 박자`, `제12화 구조의 응답`
 
+## 2026-04-12 04:06 KST
+
+- 모드: `vol9-batch-12 drafting`
+- 병목: 제9권 `긴 문장`, `미봉 누적`이 주제만 살아 있고 공백 제외 `4,000자` 하드룰을 넘지 못한 상태라, 숫자만 맞추는 덧붙임이 아니라 `다음 판독 오염`과 `절차 피로`가 실제 사건으로 더 보여야 하는 상태.
+- 현재 작업: 제9권 `제23화 긴 문장`, `제24화 미봉 누적` 기준 통과 및 배치 잠금
+- 다음 작업: `제9권 제25화` 초안 작성 후 권 단위 체크포인트와 `제9권 -> 제10권` 브리지 검토
+- 실행 방식: `총괄 + 전문가 검토 병행`
+- 총괄: `novel-orchestra-conductor`
+- 전문가:
+  - `Bohr`
+  - `Godel`
+- MCP: `none`
+- 스킬:
+  - `novel-orchestra-conductor`
+  - `progress-ledger`
+- 훅: `none`
+- 하네스: `none`
+- 수정 파일:
+  - `Drafts/Vol_9/Vol_9_Chapter_23.md`
+  - `Drafts/Vol_9/Vol_9_Chapter_24.md`
+  - `orchestra/VOL9_BATCH_12_CHECKPOINT_2026-04-12.md`
+  - `orchestra/DRAFTING_PROGRESS_TRACKER.md`
+  - `orchestra/NEXT_DIALOGUE_HANDOFF.md`
+  - `orchestra/SESSION_STATE.md`
+  - `orchestra/EXECUTION_PROGRESS_LEDGER.md`
+- 결과:
+  - `제23화 긴 문장`을 공백 제외 `4109자`로 통과시켜 `긴 임시 분류가 다음 현장뿐 아니라 과거 기록까지 다시 끌어오는 지연 구조`를 고정
+  - `제24화 미봉 누적`을 공백 제외 `4010자`로 통과시켜 `왜 또 봤는지 설명하느라 스스로 닳는 절차 피로`를 사건으로 전면화
+  - `Vol 9 Batch 12 Checkpoint`를 생성하고 진행 장부를 `초안 224화 중 224화 통과` 기준으로 갱신
+- 재개 지점:
+  - 제9권 `제25화`
+  - 제9권 권 단위 체크포인트
+
+## 2026-04-12 04:28 KST
+
+- 모드: `vol9-finale + bridge-lock`
+- 병목: 제9권은 `제25화`와 권말 브리지가 잠기기 전까지 다음 권 진입점이 흔들릴 수 있으므로, `과한 덮개`를 실제 상층 진입 사건으로 닫고 곧바로 Vol.10 초반 축까지 고정해야 하는 상태.
+- 현재 작업: 제9권 `제25화` 작성 및 권 단위 체크포인트/브리지 잠금
+- 다음 작업: `제10권 제1화 탑의 시련`, `제2화 1회차` 초안 작성
+- 실행 방식: `총괄 + 전문가 검토 병행`
+- 총괄: `novel-orchestra-conductor`
+- 전문가:
+  - `Heisenberg`
+  - `Sophocles`
+- MCP: `none`
+- 스킬:
+  - `novel-orchestra-conductor`
+  - `progress-ledger`
+- 훅: `none`
+- 하네스: `none`
+- 수정 파일:
+  - `Drafts/Vol_9/Vol_9_Chapter_25.md`
+  - `orchestra/VOL9_BATCH_13_CHECKPOINT_2026-04-12.md`
+  - `orchestra/VOL9_VOLUME_CHECKPOINT_2026-04-12.md`
+  - `orchestra/VOL9_TO_VOL10_BRIDGE_AUDIT_2026-04-12.md`
+  - `orchestra/DRAFTING_PROGRESS_TRACKER.md`
+  - `orchestra/NEXT_DIALOGUE_HANDOFF.md`
+  - `orchestra/SESSION_STATE.md`
+  - `orchestra/EXECUTION_PROGRESS_LEDGER.md`
+- 결과:
+  - `제25화 꼭대기를 향해`를 공백 제외 `4012자`로 통과시켜 `과한 덮개 -> 상층 대조실 임시 개방 -> 탑 상층 문턱 도달` 권말 구조를 잠금
+  - 제9권 전체를 `초안 225화 중 225화 통과` 기준으로 갱신
+  - 제9권 권말 체크포인트와 `Vol.9 -> Vol.10` 브리지 문서를 생성해 `탑 상층 결정 구조`와 `과거 회차 자기 대면`을 다음 진입선으로 고정
+- 재개 지점:
+  - 제10권 `제1화 탑의 시련`
+  - 제10권 `제2화 1회차`
+
+## 2026-04-12 05:02 KST
+
+- 모드: `vol10-batch-1 drafting`
+- 병목: 제10권 초반은 `탑 상층부 진입` 보상이 즉시 보여야 하면서도, 설명으로 늘어지지 않고 `과거 회차 자기 대면`을 곧바로 사건으로 세워야 하는 상태.
+- 현재 작업: 제10권 `제1화 탑의 시련`, `제2화 1회차` 작성 및 첫 체크포인트 잠금
+- 다음 작업: `제10권 제3화 10회차`, `제4화 50회차` 초안 작성
+- 실행 방식: `총괄 + 전문가 검토 병행`
+- 총괄: `novel-orchestra-conductor`
+- 전문가:
+  - `Heisenberg`
+  - `Ptolemy`
+- MCP: `none`
+- 스킬:
+  - `novel-orchestra-conductor`
+  - `progress-ledger`
+- 훅: `none`
+- 하네스: `none`
+- 수정 파일:
+  - `Drafts/Vol_10/Vol_10_Chapter_1.md`
+  - `Drafts/Vol_10/Vol_10_Chapter_2.md`
+  - `orchestra/VOL10_BATCH_1_CHECKPOINT_2026-04-12.md`
+  - `orchestra/DRAFTING_PROGRESS_TRACKER.md`
+  - `orchestra/NEXT_DIALOGUE_HANDOFF.md`
+  - `orchestra/SESSION_STATE.md`
+  - `orchestra/EXECUTION_PROGRESS_LEDGER.md`
+- 결과:
+  - `제1화 탑의 시련`을 공백 제외 `4000자`로 통과시켜 `상층 결정 구조`, `걸음 순서 판독`, `1회차 형상 출현`을 첫 보상으로 고정
+  - `제2화 1회차`를 공백 제외 `4000자`로 통과시켜 `가장 어린 실패와의 첫 베기`, `조각이 남는 전진`, `다음 회차 압박`을 잠금
+  - 제10권 첫 체크포인트를 생성하고 진행 장부를 `초안 227화 중 227화 통과` 기준으로 갱신
+- 재개 지점:
+  - 제10권 `제3화 10회차`
+  - 제10권 `제4화 50회차`
+
+## 2026-04-12 05:24 KST
+
+- 모드: `vol10-batch-2 drafting`
+- 병목: `10회차`와 `50회차`는 둘 다 과거의 자기지만 감정선이 섞이면 안 되므로, `처음으로 울었던 실패`와 `감정을 버리기 시작한 실패`를 분리해 실제 계단처럼 읽히게 해야 하는 상태.
+- 현재 작업: 제10권 `제3화 10회차`, `제4화 50회차` 작성 및 배치 잠금
+- 다음 작업: `제10권 제5화 100회차`, `제6화 실패의 합창` 초안 작성
+- 실행 방식: `총괄 + 전문가 검토 병행`
+- 총괄: `novel-orchestra-conductor`
+- 전문가:
+  - `Ptolemy`
+  - `Heisenberg`
+- MCP: `none`
+- 스킬:
+  - `novel-orchestra-conductor`
+  - `progress-ledger`
+- 훅: `none`
+- 하네스: `none`
+- 수정 파일:
+  - `Drafts/Vol_10/Vol_10_Chapter_3.md`
+  - `Drafts/Vol_10/Vol_10_Chapter_4.md`
+  - `orchestra/VOL10_BATCH_2_CHECKPOINT_2026-04-12.md`
+  - `orchestra/DRAFTING_PROGRESS_TRACKER.md`
+  - `orchestra/NEXT_DIALOGUE_HANDOFF.md`
+  - `orchestra/SESSION_STATE.md`
+  - `orchestra/EXECUTION_PROGRESS_LEDGER.md`
+- 결과:
+  - `제3화 10회차`를 공백 제외 `4000자`로 통과시켜 `처음으로 구하려 했고 처음으로 울었던 실패`를 전투와 문답으로 고정
+  - `제4화 50회차`를 공백 제외 `4002자`로 통과시켜 `감정을 버려야 한다고 믿기 시작한 냉각`과 `사람을 기능으로 읽는 검`을 잠금
+  - 제10권 진행 장부를 `초안 229화 중 229화 통과` 기준으로 갱신
+- 재개 지점:
+  - 제10권 `제5화 100회차`
+  - 제10권 `제6화 실패의 합창`
+
+## 2026-04-12 05:43 KST
+
+- 모드: `vol10-batch-3 drafting`
+- 병목: `100회차`는 거의 현재와 맞닿은 자기라 단순한 강적이 아니라 `기능만 남긴 생존`의 유혹으로 읽혀야 하고, `실패의 합창`은 개별 회차 반복이 아니라 여러 실패가 한 리듬으로 현재를 확정하려 드는 집단 압박으로 커져야 하는 상태.
+- 현재 작업: 제10권 `제5화 100회차`, `제6화 실패의 합창` 작성 및 배치 잠금
+- 다음 작업: `제10권 제7화 첫 번째 베기`, `제8화 130회차` 초안 작성
+- 실행 방식: `총괄 + 전문가 검토 병행`
+- 총괄: `novel-orchestra-conductor`
+- 전문가:
+  - `Heisenberg`
+  - `Ptolemy`
+- MCP: `none`
+- 스킬:
+  - `novel-orchestra-conductor`
+  - `progress-ledger`
+- 훅: `none`
+- 하네스: `none`
+- 수정 파일:
+  - `Drafts/Vol_10/Vol_10_Chapter_5.md`
+  - `Drafts/Vol_10/Vol_10_Chapter_6.md`
+  - `orchestra/VOL10_BATCH_3_CHECKPOINT_2026-04-12.md`
+  - `orchestra/DRAFTING_PROGRESS_TRACKER.md`
+  - `orchestra/NEXT_DIALOGUE_HANDOFF.md`
+  - `orchestra/SESSION_STATE.md`
+  - `orchestra/EXECUTION_PROGRESS_LEDGER.md`
+- 결과:
+  - `제5화 100회차`를 공백 제외 `4068자`로 통과시켜 `기능만 남긴 생존`과 `잃은 걸 알면서도 찾으려는 전진`의 대립을 고정
+  - `제6화 실패의 합창`을 공백 제외 `4289자`로 통과시켜 여러 실패가 한 리듬으로 현재를 `실패들의 합`으로 확정하려 드는 압박과 그 박자를 깨는 첫 반격을 잠금
+  - 제10권 진행 장부를 `초안 231화 중 231화 통과` 기준으로 갱신
+- 재개 지점:
+  - 제10권 `제7화 첫 번째 베기`
+  - 제10권 `제8화 130회차`
+
+## 2026-04-12 06:03 KST
+
+- 모드: `vol10-batch-4 drafting`
+- 병목: `첫 번째 베기`는 단순 승리가 아니라 `가장 쉽게 믿을 뻔한 결론`을 끊는 결단으로 읽혀야 하고, `130회차`는 거의 성공한 실패의 유혹과 정확도를 함께 품은 가장 위험한 강적으로 서야 하는 상태.
+- 현재 작업: 제10권 `제7화 첫 번째 베기`, `제8화 130회차` 작성 및 배치 잠금
+- 다음 작업: `제10권 제9화 171회차`, `제10화 아이리스의 환영` 초안 작성
+- 실행 방식: `총괄 + 전문가 검토 병행`
+- 총괄: `novel-orchestra-conductor`
+- 전문가:
+  - `Heisenberg`
+  - `Ptolemy`
+- MCP: `none`
+- 스킬:
+  - `novel-orchestra-conductor`
+  - `progress-ledger`
+- 훅: `none`
+- 하네스: `none`
+- 수정 파일:
+  - `Drafts/Vol_10/Vol_10_Chapter_7.md`
+  - `Drafts/Vol_10/Vol_10_Chapter_8.md`
+  - `orchestra/VOL10_BATCH_4_CHECKPOINT_2026-04-12.md`
+  - `orchestra/DRAFTING_PROGRESS_TRACKER.md`
+  - `orchestra/NEXT_DIALOGUE_HANDOFF.md`
+  - `orchestra/SESSION_STATE.md`
+  - `orchestra/EXECUTION_PROGRESS_LEDGER.md`
+- 결과:
+  - `제7화 첫 번째 베기`를 공백 제외 `4002자`로 통과시켜 `가장 쉽게 믿을 뻔한 결론`을 처음 의식적으로 베어 넘기는 장면을 고정
+  - `제8화 130회차`를 공백 제외 `4342자`로 통과시켜 `거의 성공했다가 마지막에 무너진 가장 위험한 자기`와의 전투를 잠금
+  - 제10권 진행 장부를 `초안 233화 중 233화 통과` 기준으로 갱신
+- 재개 지점:
+  - 제10권 `제9화 171회차`
+  - 제10권 `제10화 아이리스의 환영`
+
+## 2026-04-12 06:24 KST
+
+- 모드: `vol10-batch-5 drafting`
+- 병목: `171회차`는 가장 가까운 실패라 `혼자 끝내려는 문장`의 유혹을 가장 직접적으로 찌르는 전투가 되어야 하고, `아이리스의 환영`은 검보다 관계적 심문이 먼저 아프게 들어와야 하는 상태.
+- 현재 작업: 제10권 `제9화 171회차`, `제10화 아이리스의 환영` 작성 및 배치 잠금
+- 다음 작업: `제10권 제11화 바르칸의 환영`, `제12화 리아의 환영` 초안 작성
+- 실행 방식: `총괄 + 전문가 검토 병행`
+- 총괄: `novel-orchestra-conductor`
+- 전문가:
+  - `Ptolemy`
+  - `Heisenberg`
+- MCP: `none`
+- 스킬:
+  - `novel-orchestra-conductor`
+  - `progress-ledger`
+- 훅: `none`
+- 하네스: `none`
+- 수정 파일:
+  - `Drafts/Vol_10/Vol_10_Chapter_9.md`
+  - `Drafts/Vol_10/Vol_10_Chapter_10.md`
+  - `orchestra/VOL10_BATCH_5_CHECKPOINT_2026-04-12.md`
+  - `orchestra/DRAFTING_PROGRESS_TRACKER.md`
+  - `orchestra/NEXT_DIALOGUE_HANDOFF.md`
+  - `orchestra/SESSION_STATE.md`
+  - `orchestra/EXECUTION_PROGRESS_LEDGER.md`
+- 결과:
+  - `제9화 171회차`를 공백 제외 `4010자`로 통과시켜 `가장 가까운 실패`와 `혼자 끝내려는 문장`의 붕괴를 전투로 고정
+  - `제10화 아이리스의 환영`을 공백 제외 `4179자`로 통과시켜 `늦게 도착한 미안함`과 `기억되지 않는 관계`를 전면 심문으로 끌어냄
+  - 제10권 진행 장부를 `초안 235화 중 235화 통과` 기준으로 갱신
+- 재개 지점:
+  - 제10권 `제11화 바르칸의 환영`
+  - 제10권 `제12화 리아의 환영`
+
+## 2026-04-11 21:53 KST
+
+- 모드: `vol8-batch-8 drafting`
+- 병목: 제8권 2막이 `유령 상태 설명`에만 머물면 아이리스 재회선과 기록원 추적선이 다시 분리되므로, `이름 없는 처단`과 `검흔 먼저 인지되는 관계 복구`를 같은 배치에서 사건화해야 하는 상태.
+- 현재 작업: 제8권 `제14화 유령의 칼`, `제15화 이름 없는 폭력` 작성, 하드 길이 게이트 검증, 배치 체크포인트 잠금
+- 다음 작업: 제8권 `제16화 추적`, `제17화 후영의 강화`
+- 실행 방식: `총괄 직접 집필`
+- 총괄: `novel-orchestra-conductor`
+- 전문가: `none`
+- MCP: `none`
+- 스킬:
+  - `novel-orchestra-conductor`
+  - `progress-ledger`
+- 훅: `none`
+- 하네스: `none`
+- 수정 파일:
+  - `Drafts/Vol_8/Vol_8_Chapter_14.md`
+  - `Drafts/Vol_8/Vol_8_Chapter_15.md`
+  - `orchestra/VOL8_BATCH_8_CHECKPOINT_2026-04-11.md`
+  - `orchestra/DRAFTING_PROGRESS_TRACKER.md`
+  - `orchestra/NEXT_DIALOGUE_HANDOFF.md`
+  - `orchestra/SESSION_STATE.md`
+  - `orchestra/EXECUTION_PROGRESS_LEDGER.md`
+- 결과:
+  - 제14화에서 에이든이 `이름을 적는 손`을 직접 끊으며 `이관 전 임시 보류`, `보류실`을 실제 적대 장치로 전진시킴
+  - 제15화에서 아이리스가 이름보다 `검흔`, `박자`, `가르친 칼의 강도`를 먼저 감지하게 만들어 관계 복구의 첫 문을 `기억`이 아니라 `전투 흔적`으로 열기 시작함
+  - `Vol_8_Chapter_14.md` 공백 제외 `4001자` 통과
+  - `Vol_8_Chapter_15.md` 공백 제외 `4125자` 통과
+  - `4,000자 하드룰 적합성` 집계를 `초안 190화 중 190화 통과`로 갱신
+- 재개 지점:
+  - 제8권 `제16화 추적`, `제17화 후영의 강화`
+
+## 2026-04-11 21:58 KST
+
+- 모드: `vol8-batch-9 drafting`
+- 병목: `유령의 칼` 이후가 단순한 여파 정리로 흐르면 기록원 추적선과 후영 오염선이 다시 분리되므로, `보류실까지 이어지는 실무 동선`과 `망한 길이 겹쳐 보이는 후영 강화`를 같은 배치에서 사건화해야 하는 상태.
+- 현재 작업: 제8권 `제16화 추적`, `제17화 후영의 강화` 작성, 하드 길이 게이트 검증, 배치 체크포인트 잠금
+- 다음 작업: 제8권 `제18화 보류실`, `제19화 임시 보류`
+- 실행 방식: `총괄 직접 집필`
+- 총괄: `novel-orchestra-conductor`
+- 전문가: `none`
+- MCP: `none`
+- 스킬:
+  - `novel-orchestra-conductor`
+  - `progress-ledger`
+- 훅: `none`
+- 하네스: `none`
+- 수정 파일:
+  - `Drafts/Vol_8/Vol_8_Chapter_16.md`
+  - `Drafts/Vol_8/Vol_8_Chapter_17.md`
+  - `orchestra/VOL8_BATCH_9_CHECKPOINT_2026-04-11.md`
+  - `orchestra/DRAFTING_PROGRESS_TRACKER.md`
+  - `orchestra/NEXT_DIALOGUE_HANDOFF.md`
+  - `orchestra/SESSION_STATE.md`
+  - `orchestra/EXECUTION_PROGRESS_LEDGER.md`
+- 결과:
+  - 제16화에서 `염색공방 -> 목욕탕 하층 통로 -> 동벽 임시 보류실` 운반선을 직접 추적하며 북빈가가 이미 `북구획 유입분`으로 분류되고 있음을 확인
+  - 제17화에서 후영이 `답`이 아니라 `망한 길의 겹침`으로 강화되고, 전실의 `빈 패`, `북빈가 붙은 칼`, `임시 보류` 잔상을 통해 에이든 자신의 분류 위험을 전면화
+  - `Vol_8_Chapter_16.md` 공백 제외 `6400자` 통과
+  - `Vol_8_Chapter_17.md` 공백 제외 `5053자` 통과
+  - `4,000자 하드룰 적합성` 집계를 `초안 192화 중 192화 통과`로 갱신
+- 재개 지점:
+  - 제8권 `제18화 보류실`, `제19화 임시 보류`
+
+## 2026-04-11 22:40 KST
+
+- 모드: `vol8-batch-10 drafting`
+- 병목: `보류실`을 한 번 발견한 뒤에도 `분류 체계가 몸에 붙는 방식`이 직접 보이지 않으면 위협이 다시 장부 설명으로 후퇴하므로, `붙이는 패`, `임시 보류 핀`, `읽힌 사람`을 실제 사건으로 잠가야 하는 상태.
+- 현재 작업: 제8권 `제18화 보류실`, `제19화 임시 보류` 작성, 하드 길이 게이트 검증, 배치 체크포인트 잠금
+- 다음 작업: 제8권 `제20화 읽힌 사람`, `제21화 북구획 유입분`
+- 실행 방식: `총괄 직접 집필`
+- 총괄: `novel-orchestra-conductor`
+- 전문가: `none`
+- MCP: `none`
+- 스킬:
+  - `novel-orchestra-conductor`
+  - `progress-ledger`
+- 훅: `none`
+- 하네스: `none`
+- 수정 파일:
+  - `Drafts/Vol_8/Vol_8_Chapter_18.md`
+  - `Drafts/Vol_8/Vol_8_Chapter_19.md`
+  - `orchestra/VOL8_BATCH_10_CHECKPOINT_2026-04-11.md`
+  - `orchestra/DRAFTING_PROGRESS_TRACKER.md`
+  - `orchestra/NEXT_DIALOGUE_HANDOFF.md`
+  - `orchestra/SESSION_STATE.md`
+  - `orchestra/EXECUTION_PROGRESS_LEDGER.md`
+- 결과:
+  - 제18화에서 `보류실`을 `작업장`, `붙이는 패`, `북구획 빈자리 보충안`, `문 하나가 아닌 다층 구조`로 고정해 분류 체계의 실체를 드러냄
+  - 제19화에서 `임시 보류 핀`, `원형 작업실`, `북구획 유입 / 임시분`, `에이든` 이름의 순간 호출을 통해 에이든이 체계에 한 번 읽힌 존재가 되는 압박과 아이리스의 관계 회복 징후를 동시 전진
+  - `Vol_8_Chapter_18.md` 공백 제외 `6070자` 통과
+  - `Vol_8_Chapter_19.md` 공백 제외 `6947자` 통과
+  - `4,000자 하드룰 적합성` 집계를 `초안 194화 중 194화 통과`로 갱신
+- 재개 지점:
+  - 제8권 `제20화 읽힌 사람`, `제21화 북구획 유입분`
+
+## 2026-04-11 22:44 KST
+
+- 모드: `vol8-batch-11 drafting`
+- 병목: `임시 보류`가 한 번 붙은 뒤의 비용이 생활 단위로 드러나지 않으면 위협이 다시 보류실 안에만 갇히고, 장부가 해독되지 않으면 `위쪽 선`을 칠 명분이 약해지는 상태.
+- 현재 작업: 제8권 `제20화 읽힌 사람`, `제21화 북구획 유입분` 작성, 하드 길이 게이트 검증, 배치 체크포인트 잠금
+- 다음 작업: 제8권 `제22화 남수문`, `제23화 위임자 확인`
+- 실행 방식: `총괄 직접 집필`
+- 총괄: `novel-orchestra-conductor`
+- 전문가: `none`
+- MCP: `none`
+- 스킬:
+  - `novel-orchestra-conductor`
+  - `progress-ledger`
+- 훅: `none`
+- 하네스: `none`
+- 수정 파일:
+  - `Drafts/Vol_8/Vol_8_Chapter_20.md`
+  - `Drafts/Vol_8/Vol_8_Chapter_21.md`
+  - `orchestra/VOL8_BATCH_11_CHECKPOINT_2026-04-11.md`
+  - `orchestra/DRAFTING_PROGRESS_TRACKER.md`
+  - `orchestra/NEXT_DIALOGUE_HANDOFF.md`
+  - `orchestra/SESSION_STATE.md`
+  - `orchestra/EXECUTION_PROGRESS_LEDGER.md`
+- 결과:
+  - 제20화에서 에이든이 `읽힌 사람`이 된 뒤 동물, 아이, 회색 외투 거래 시도까지 포함해 생활 단위에서 더 이상 완전히 숨을 수 없게 되는 비용을 고정
+  - 제21화에서 `북구획 유입분` 장부를 해독해 사람을 `빈자리에 넣는 분류 단위`로 다루는 체계와 `공백 관측반 교차 확인`, `위임자 확인` 상신선을 전면화
+  - `Vol_8_Chapter_20.md` 공백 제외 `5427자` 통과
+  - `Vol_8_Chapter_21.md` 공백 제외 `4794자` 통과
+  - `4,000자 하드룰 적합성` 집계를 `초안 196화 중 196화 통과`로 갱신
+- 재개 지점:
+  - 제8권 `제22화 남수문`, `제23화 위임자 확인`
+
+## 2026-04-11 22:52 KST
+
+- 모드: `vol8-finale + vol9-bridge`
+- 병목: 제8권 후반이 `남수문/동벽 추적`에서 끝나면 권말 압박이 흩어지므로, `빈자리 보는 쪽`, `활용 검토`, `결손 1 전환`, `오독 작전`까지 한 덩어리로 잠그고 다음 권 초반 엔진을 바로 열어야 하는 상태.
+- 현재 작업: 제8권 `제22화`~`제25화` 작성, 배치 체크포인트 2개, 권 단위 감사, 제8권 -> 제9권 브리지 점검
+- 다음 작업: 제9권 `제1화 결손 1`, `제2화 오독`
+- 실행 방식: `총괄 직접 집필`
+- 총괄: `novel-orchestra-conductor`
+- 전문가: `none`
+- MCP: `none`
+- 스킬:
+  - `novel-orchestra-conductor`
+  - `progress-ledger`
+- 훅: `none`
+- 하네스: `none`
+- 수정 파일:
+  - `Drafts/Vol_8/Vol_8_Chapter_22.md`
+  - `Drafts/Vol_8/Vol_8_Chapter_23.md`
+  - `Drafts/Vol_8/Vol_8_Chapter_24.md`
+  - `Drafts/Vol_8/Vol_8_Chapter_25.md`
+  - `orchestra/VOL8_BATCH_12_CHECKPOINT_2026-04-11.md`
+  - `orchestra/VOL8_BATCH_13_CHECKPOINT_2026-04-11.md`
+  - `orchestra/VOL8_VOLUME_CHECKPOINT_2026-04-11.md`
+  - `orchestra/VOL8_TO_VOL9_BRIDGE_AUDIT_2026-04-11.md`
+  - `orchestra/DRAFTING_PROGRESS_TRACKER.md`
+  - `orchestra/NEXT_DIALOGUE_HANDOFF.md`
+  - `orchestra/SESSION_STATE.md`
+  - `orchestra/EXECUTION_PROGRESS_LEDGER.md`
+- 결과:
+  - 제22화~제23화에서 `남수문`, `위임자 확인`, `동벽 상신`, `빈자리 보는 쪽`을 실제 사건으로 전진시킴
+  - 제24화~제25화에서 `활용 검토`, `결손 1 전환`, `오독 작전`을 통해 제8권을 `읽힌 사람의 역분류 시작`으로 닫음
+  - `Vol_8_Chapter_22.md` 공백 제외 `5648자` 통과
+  - `Vol_8_Chapter_23.md` 공백 제외 `5891자` 통과
+  - `Vol_8_Chapter_24.md` 공백 제외 `6747자` 통과
+  - `Vol_8_Chapter_25.md` 공백 제외 `4524자` 통과
+  - `4,000자 하드룰 적합성` 집계를 `초안 200화 중 200화 통과`로 갱신
+- 재개 지점:
+  - 제9권 `제1화 결손 1`, `제2화 오독`
+
+## 2026-04-11 22:56 KST
+
+- 모드: `vol9-batch-1 drafting`
+- 병목: 제8권 권말의 `오독 작전`이 다음 권 초반에서 바로 먹히지 않으면 `결손 1` 압박이 느슨해지므로, 제9권 초반은 설명이 아니라 `결손 1 확인선이 흔들리는 사건`으로 곧장 들어가야 하는 상태.
+- 현재 작업: 제9권 `제1화 결손 1`, `제2화 오독` 작성 및 체크포인트 잠금
+- 다음 작업: 제9권 `제3화 외벽 3-1`, `제4화 빈자리의 얼굴`
+- 실행 방식: `총괄 직접 집필`
+- 총괄: `novel-orchestra-conductor`
+- 전문가: `none`
+- MCP: `none`
+- 스킬:
+  - `novel-orchestra-conductor`
+  - `progress-ledger`
+- 훅: `none`
+- 하네스: `none`
+- 수정 파일:
+  - `Drafts/Vol_9/Vol_9_Chapter_1.md`
+  - `Drafts/Vol_9/Vol_9_Chapter_2.md`
+  - `orchestra/VOL9_BATCH_1_CHECKPOINT_2026-04-11.md`
+  - `orchestra/DRAFTING_PROGRESS_TRACKER.md`
+  - `orchestra/NEXT_DIALOGUE_HANDOFF.md`
+  - `orchestra/SESSION_STATE.md`
+  - `orchestra/EXECUTION_PROGRESS_LEDGER.md`
+- 결과:
+  - 제1화에서 `결손 1 확인 필요`와 `북구획 이탈 / 활용 보류 / 재검` 오독 문장을 실제로 뿌려 상위 확인선 반응을 끌어냄
+  - 제2화에서 `외벽 3-1`, `금속판으로 읽는 눈`, `둘로 갈렸네`를 통해 오독이 상위 확인선까지 실제로 먹히는 것을 확인
+  - `Vol_9_Chapter_1.md` 공백 제외 `5398자` 통과
+  - `Vol_9_Chapter_2.md` 공백 제외 `5185자` 통과
+  - `4,000자 하드룰 적합성` 집계를 `초안 202화 중 202화 통과`로 갱신
+- 재개 지점:
+  - 제9권 `제3화 외벽 3-1`, `제4화 빈자리의 얼굴`
+
+## 2026-04-11 23:14 KST
+
+- 모드: `vol9-batch-2 drafting`
+- 병목: `결손 1`이 무엇인지 너무 늦게 드러나면 오독 작전의 긴장이 약해지므로, `외벽 3-1` 내부와 `빈자리 보는 쪽`의 실제 얼굴을 통해 결손 1이 `박자 관측` 계열 자리라는 단서를 바로 전진시켜야 하는 상태.
+- 현재 작업: 제9권 `제3화 외벽 3-1`, `제4화 빈자리의 얼굴` 작성 및 체크포인트 잠금
+- 다음 작업: 제9권 `제5화 결손의 문턱`, `제6화 박자 절단`
+- 실행 방식: `총괄 직접 집필`
+- 총괄: `novel-orchestra-conductor`
+- 전문가: `none`
+- MCP: `none`
+- 스킬:
+  - `novel-orchestra-conductor`
+  - `progress-ledger`
+- 훅: `none`
+- 하네스: `none`
+- 수정 파일:
+  - `Drafts/Vol_9/Vol_9_Chapter_3.md`
+  - `Drafts/Vol_9/Vol_9_Chapter_4.md`
+  - `orchestra/VOL9_BATCH_2_CHECKPOINT_2026-04-11.md`
+  - `orchestra/DRAFTING_PROGRESS_TRACKER.md`
+  - `orchestra/NEXT_DIALOGUE_HANDOFF.md`
+  - `orchestra/SESSION_STATE.md`
+  - `orchestra/EXECUTION_PROGRESS_LEDGER.md`
+- 결과:
+  - 제3화에서 `외벽 3-1` 금속통, 후보 목패, `재배치 가능`, `결손 1 = 관측` 단서를 통해 자리 성격을 더 구체화
+  - 제4화에서 `빈자리 보는 쪽` 상위 얼굴과 `칼이 아니라 박자로 읽는 자리`를 통해 결손 1이 에이든에게 맞춰진 이유를 체계 논리로 전면화
+  - `Vol_9_Chapter_3.md` 공백 제외 `5691자` 통과
+  - `Vol_9_Chapter_4.md` 공백 제외 `5498자` 통과
+  - `4,000자 하드룰 적합성` 집계를 `초안 204화 중 204화 통과`로 갱신
+- 재개 지점:
+  - 제9권 `제5화 결손의 문턱`, `제6화 박자 절단`
+
+## 2026-04-11 23:18 KST
+
+- 모드: `vol9-batch-3 drafting`
+- 병목: 결손 1이 `박자 관측` 자리라는 단서만으론 아직 약하므로, 실제 문턱에서 `박자 확인` 선을 끊고 에이든을 `활용 가능`이 아닌 `문턱 오염` 쪽으로 밀어 체계가 다시 읽게 만들어야 하는 상태.
+- 현재 작업: 제9권 `제5화 결손의 문턱`, `제6화 박자 절단` 작성 및 체크포인트 잠금
+- 다음 작업: 제9권 `제7화 쓸 수 없는 자리`, `제8화 빈칸의 반격`
+- 실행 방식: `총괄 직접 집필`
+- 총괄: `novel-orchestra-conductor`
+- 전문가: `none`
+- MCP: `none`
+- 스킬:
+  - `novel-orchestra-conductor`
+  - `progress-ledger`
+- 훅: `none`
+- 하네스: `none`
+- 수정 파일:
+  - `Drafts/Vol_9/Vol_9_Chapter_5.md`
+  - `Drafts/Vol_9/Vol_9_Chapter_6.md`
+  - `orchestra/VOL9_BATCH_3_CHECKPOINT_2026-04-11.md`
+  - `orchestra/DRAFTING_PROGRESS_TRACKER.md`
+  - `orchestra/NEXT_DIALOGUE_HANDOFF.md`
+  - `orchestra/SESSION_STATE.md`
+  - `orchestra/EXECUTION_PROGRESS_LEDGER.md`
+- 결과:
+  - 제5화에서 결손 1 문턱에 `재검`, `격리`, `박자 확인`, `이관 보류`를 동시에 걸어 후보선 자체를 문장 차원에서 흔듦
+  - 제6화에서 `박자 확인 / 북구획 붙은 칼`, `문턱 오염`, `비상 읽기 선`을 끊어 에이든을 `쓸 수 있는 결손 후보`에서 `쓸 수 없는 오염` 쪽으로 밀기 시작함
+  - `Vol_9_Chapter_5.md` 공백 제외 `4781자` 통과
+  - `Vol_9_Chapter_6.md` 공백 제외 `4542자` 통과
+  - `4,000자 하드룰 적합성` 집계를 `초안 206화 중 206화 통과`로 갱신
+- 재개 지점:
+  - 제9권 `제7화 쓸 수 없는 자리`, `제8화 빈칸의 반격`
+
+## 2026-04-11 23:47 KST
+
+- 모드: `vol9-batch-4 drafting`
+- 병목: 결손 1이 단순히 늦춰진 상태로만 남으면 체계가 언젠가 다시 `활용 가능` 쪽으로 되돌릴 수 있으므로, 빈자리 자체가 상위선까지 흔드는 `문제 칸`이 되게 만들어야 하는 상태.
+- 현재 작업: 제9권 `제7화 쓸 수 없는 자리`, `제8화 빈칸의 반격` 작성 및 체크포인트 잠금
+- 다음 작업: 제9권 `제9화 폐기선`, `제10화 자리 없는 판정`
+- 실행 방식: `총괄 직접 집필`
+- 총괄: `novel-orchestra-conductor`
+- 전문가: `none`
+- MCP: `none`
+- 스킬:
+  - `novel-orchestra-conductor`
+  - `progress-ledger`
+- 훅: `none`
+- 하네스: `none`
+- 수정 파일:
+  - `Drafts/Vol_9/Vol_9_Chapter_7.md`
+  - `Drafts/Vol_9/Vol_9_Chapter_8.md`
+  - `orchestra/VOL9_BATCH_4_CHECKPOINT_2026-04-11.md`
+  - `orchestra/DRAFTING_PROGRESS_TRACKER.md`
+  - `orchestra/NEXT_DIALOGUE_HANDOFF.md`
+  - `orchestra/SESSION_STATE.md`
+  - `orchestra/EXECUTION_PROGRESS_LEDGER.md`
+- 결과:
+  - 제7화에서 `합 불량`, `격리 우선 / 재사용 금지`, 중간 정리실 교란을 통해 결손 1이 체계가 쓰기를 주저하는 문제 자리로 흔들리기 시작함
+  - 제8화에서 상위 반사선까지 켜진 상태에서도 북빈가 생활 오염이 먹히며 결손 1이 상위선 전체를 되물어뜯는 `반격하는 빈칸`으로 전진함
+  - `Vol_9_Chapter_7.md` 공백 제외 `5261자` 통과
+  - `Vol_9_Chapter_8.md` 공백 제외 `5417자` 통과
+  - `4,000자 하드룰 적합성` 집계를 `초안 208화 중 208화 통과`로 갱신
+- 재개 지점:
+  - 제9권 `제9화 폐기선`, `제10화 자리 없는 판정`
+
+## 2026-04-11 23:55 KST
+
+- 모드: `vol9-batch-5 drafting`
+- 병목: 결손 1을 흔드는 것만으로는 언젠가 다시 `활용 가능` 쪽으로 복구될 수 있으므로, `장기 보류`를 `자리 없음` 판정 직전까지 밀어 결손 1 자체를 체계가 재편 대상으로 읽게 만들어야 하는 상태.
+- 현재 작업: 제9권 `제9화 폐기선`, `제10화 자리 없는 판정` 작성 및 체크포인트 잠금
+- 다음 작업: 제9권 `제11화 빈자리 없는 밤`, `제12화 느슨해지는 늦음`
+- 실행 방식: `총괄 직접 집필`
+- 총괄: `novel-orchestra-conductor`
+- 전문가: `none`
+- MCP: `none`
+- 스킬:
+  - `novel-orchestra-conductor`
+  - `progress-ledger`
+- 훅: `none`
+- 하네스: `none`
+- 수정 파일:
+  - `Drafts/Vol_9/Vol_9_Chapter_9.md`
+  - `Drafts/Vol_9/Vol_9_Chapter_10.md`
+  - `orchestra/VOL9_BATCH_5_CHECKPOINT_2026-04-11.md`
+  - `orchestra/DRAFTING_PROGRESS_TRACKER.md`
+  - `orchestra/NEXT_DIALOGUE_HANDOFF.md`
+  - `orchestra/SESSION_STATE.md`
+  - `orchestra/EXECUTION_PROGRESS_LEDGER.md`
+- 결과:
+  - 제9화에서 결손 1 확인선이 실제로 후퇴하며 `장기 보류 검토`와 폐기선이 열리는 상태를 전진시킴
+  - 제10화에서 `자리 없음 / 대체선 유지` 문장을 상위선 선택지로 끌어올리고, 결손 1이 에이든 몸의 늦음에도 실제로 영향을 주는 구조임을 드러냄
+  - `Vol_9_Chapter_9.md` 공백 제외 `4551자` 통과
+  - `Vol_9_Chapter_10.md` 공백 제외 `5490자` 통과
+  - `4,000자 하드룰 적합성` 집계를 `초안 210화 중 210화 통과`로 갱신
+- 재개 지점:
+  - 제9권 `제11화 빈자리 없는 밤`, `제12화 느슨해지는 늦음`
+
+## 2026-04-12 00:18 KST
+
+- 모드: `vol9-batch-6 drafting`
+- 병목: 결손 1이 접힌 뒤 반응이 추상 설명에만 머무르면 해방감과 다음 위협이 동시에 약해지므로, `기록선 전환`과 `느슨해지는 늦음`을 현장 반응과 생활 검증으로 실제화해야 하는 상태.
+- 현재 작업: 제9권 `제11화 빈자리 없는 밤`, `제12화 느슨해지는 늦음` 보강 작성 및 체크포인트 잠금
+- 다음 작업: 제9권 `제13화 기록선`, `제14화 멀리서 보는 자`
+- 실행 방식: `총괄 직접 집필`
+- 총괄: `novel-orchestra-conductor`
+- 전문가: `none`
+- MCP: `none`
+- 스킬:
+  - `novel-orchestra-conductor`
+  - `progress-ledger`
+- 훅: `none`
+- 하네스: `none`
+- 수정 파일:
+  - `Drafts/Vol_9/Vol_9_Chapter_11.md`
+  - `Drafts/Vol_9/Vol_9_Chapter_12.md`
+  - `orchestra/VOL9_BATCH_6_CHECKPOINT_2026-04-12.md`
+  - `orchestra/DRAFTING_PROGRESS_TRACKER.md`
+  - `orchestra/NEXT_DIALOGUE_HANDOFF.md`
+  - `orchestra/SESSION_STATE.md`
+  - `orchestra/EXECUTION_PROGRESS_LEDGER.md`
+- 결과:
+  - 제11화에서 `결손 1이 접힌 뒤 남는 손`을 `정리선`, `고정등`, `사람선 잔류`로 구체화해 위기가 끝난 게 아니라 `기록선`으로 결이 바뀌는 밤을 고정함
+  - 제12화에서 에이든의 몸을 `회복`이 아니라 `느슨해짐`으로 규정하고, 훈련/생활 동선/시장 반응을 통해 늦음의 잔류와 북빈가식 검증 복귀를 함께 전진시킴
+  - `Vol_9_Chapter_11.md` 공백 제외 `4329자` 통과
+  - `Vol_9_Chapter_12.md` 공백 제외 `4167자` 통과
+  - `4,000자 하드룰 적합성` 집계를 `초안 212화 중 212화 통과`로 갱신
+- 재개 지점:
+  - 제9권 `제13화 기록선`, `제14화 멀리서 보는 자`
+
+## 2026-04-12 00:46 KST
+
+- 모드: `vol9-batch-7 drafting`
+- 병목: 결손 1이 접힌 뒤에도 체계가 에이든을 이름 없는 `결`과 `잔류`로 다시 올릴 수 있으므로, 기록선의 실제 동선과 `멀리서 보는 자`의 인간 층을 드러내지 못하면 다음 반격이 추상 설명으로만 남는 상태.
+- 현재 작업: 제9권 `제13화 기록선`, `제14화 멀리서 보는 자` 작성 및 체크포인트 잠금
+- 다음 작업: 제9권 `제15화 교대표`, `제16화 끌어내리는 밤`
+- 실행 방식: `총괄 직접 집필`
+- 총괄: `novel-orchestra-conductor`
+- 전문가: `none`
+- MCP: `none`
+- 스킬:
+  - `novel-orchestra-conductor`
+  - `progress-ledger`
+- 훅: `none`
+- 하네스: `none`
+- 수정 파일:
+  - `Drafts/Vol_9/Vol_9_Chapter_13.md`
+  - `Drafts/Vol_9/Vol_9_Chapter_14.md`
+  - `orchestra/VOL9_BATCH_7_CHECKPOINT_2026-04-12.md`
+  - `orchestra/DRAFTING_PROGRESS_TRACKER.md`
+  - `orchestra/NEXT_DIALOGUE_HANDOFF.md`
+  - `orchestra/SESSION_STATE.md`
+  - `orchestra/EXECUTION_PROGRESS_LEDGER.md`
+- 결과:
+  - 제13화에서 필사방, 제분소 뒤 창고, `지연 / 잔류 / 재상신` 조각을 통해 기록선이 결손 1 이후의 `잔류 예외 관리선`으로 작동하는 구조를 고정함
+  - 제14화에서 다락 유리빛, 관측조, 반 박자 늦은 보고를 통해 `멀리서 보는 자`가 개인이 아니라 정식 상위 관측선임을 실제 장면으로 전진시킴
+  - `Vol_9_Chapter_13.md` 공백 제외 `4023자` 통과
+  - `Vol_9_Chapter_14.md` 공백 제외 `4197자` 통과
+  - `4,000자 하드룰 적합성` 집계를 `초안 214화 중 214화 통과`로 갱신
+- 재개 지점:
+  - 제9권 `제15화 교대표`, `제16화 끌어내리는 밤`
+
+## 2026-04-12 01:19 KST
+
+- 모드: `vol9-batch-8 drafting`
+- 병목: 기록선의 인간 층을 봤더라도 교대 논리와 재판독자를 아래로 끌어내리지 못하면 상위선은 다시 같은 기준으로 덮어쓸 수 있으므로, `교대표`와 `끌어내리기`를 사건으로 고정해야 하는 상태.
+- 현재 작업: 제9권 `제15화 교대표`, `제16화 끌어내리는 밤` 작성 및 체크포인트 잠금
+- 다음 작업: 제9권 `제17화 재판독자`, `제18화 역열람`
+- 실행 방식: `총괄 직접 집필`
+- 총괄: `novel-orchestra-conductor`
+- 전문가: `none`
+- MCP: `none`
+- 스킬:
+  - `novel-orchestra-conductor`
+  - `progress-ledger`
+- 훅: `none`
+- 하네스: `none`
+- 수정 파일:
+  - `Drafts/Vol_9/Vol_9_Chapter_15.md`
+  - `Drafts/Vol_9/Vol_9_Chapter_16.md`
+  - `orchestra/VOL9_BATCH_8_CHECKPOINT_2026-04-12.md`
+  - `orchestra/DRAFTING_PROGRESS_TRACKER.md`
+  - `orchestra/NEXT_DIALOGUE_HANDOFF.md`
+  - `orchestra/SESSION_STATE.md`
+  - `orchestra/EXECUTION_PROGRESS_LEDGER.md`
+- 결과:
+  - 제15화에서 기록선이 죽그릇, 못주머니, 되돌림 표식으로 굴리는 `교대표/역할표/재확인표` 구조를 고정하고, 북빈가가 노릴 층을 `틀린 교대를 고르는 사람`까지 끌어올림
+  - 제16화에서 일부러 서로 다른 분류를 동시에 유도해 재판독자를 아래로 끌어내리고, `이름이 아니라 얼굴과 읽는 순서`를 흔드는 방식으로 기록선의 인간적 균열을 확보함
+  - `Vol_9_Chapter_15.md` 공백 제외 `4000자` 통과
+  - `Vol_9_Chapter_16.md` 공백 제외 `4002자` 통과
+  - `4,000자 하드룰 적합성` 집계를 `초안 216화 중 216화 통과`로 갱신
+- 재개 지점:
+  - 제9권 `제17화 재판독자`, `제18화 역열람`
+
+## 2026-04-12 01:48 KST
+
+- 모드: `vol9-batch-9 drafting`
+- 병목: 재판독자의 얼굴을 봤더라도 읽는 순서를 북빈가 쪽에서 먼저 쥐지 못하면 기록선은 다시 상위 기준으로 봉합될 수 있으므로, `재판독자`와 `역열람`을 실제 반격 수단으로 고정해야 하는 상태.
+- 현재 작업: 제9권 `제17화 재판독자`, `제18화 역열람` 작성 및 체크포인트 잠금
+- 다음 작업: 제9권 `제19화 보고선 오염`, `제20화 위 사람`
+- 실행 방식: `총괄 직접 집필`
+- 총괄: `novel-orchestra-conductor`
+- 전문가: `none`
+- MCP: `none`
+- 스킬:
+  - `novel-orchestra-conductor`
+  - `progress-ledger`
+- 훅: `none`
+- 하네스: `none`
+- 수정 파일:
+  - `Drafts/Vol_9/Vol_9_Chapter_17.md`
+  - `Drafts/Vol_9/Vol_9_Chapter_18.md`
+  - `orchestra/VOL9_BATCH_9_CHECKPOINT_2026-04-12.md`
+  - `orchestra/DRAFTING_PROGRESS_TRACKER.md`
+  - `orchestra/NEXT_DIALOGUE_HANDOFF.md`
+  - `orchestra/SESSION_STATE.md`
+  - `orchestra/EXECUTION_PROGRESS_LEDGER.md`
+- 결과:
+  - 제17화에서 재판독자를 `틀린 판독을 다시 고르는 인간`으로 고정하고, `한 번 더`와 `보류`를 버리지 못하는 성질까지 포착해 인간적 약점을 확보함
+  - 제18화에서 재판독자의 읽는 순서를 거꾸로 타는 작전을 성공시켜, 기록선의 현장-사람-결 우선순위를 북빈가 쪽에서 먼저 흔들 수 있음을 사건으로 증명함
+  - `Vol_9_Chapter_17.md` 공백 제외 `4038자` 통과
+  - `Vol_9_Chapter_18.md` 공백 제외 `4084자` 통과
+  - `4,000자 하드룰 적합성` 집계를 `초안 218화 중 218화 통과`로 갱신
+- 재개 지점:
+  - 제9권 `제19화 보고선 오염`, `제20화 위 사람`
+
+## 2026-04-12 02:24 KST
+
+- 모드: `vol9-batch-10 drafting`
+- 병목: 재판독자와 역열람 단계만으로는 상위 정리층이 다시 기록선을 봉합할 수 있으므로, 보고선 자체를 오염시키고 `위 사람`의 정리 습관까지 드러내야 다음 반격이 한 단계 올라가는 상태.
+- 현재 작업: 제9권 `제19화 보고선 오염`, `제20화 위 사람` 작성 및 체크포인트 잠금
+- 다음 작업: 제9권 `제21화 공모 구조`, `제22화 둘을 하나로`
+- 실행 방식: `총괄 직접 집필`
+- 총괄: `novel-orchestra-conductor`
+- 전문가: `none`
+- MCP: `none`
+- 스킬:
+  - `novel-orchestra-conductor`
+  - `progress-ledger`
+- 훅: `none`
+- 하네스: `none`
+- 수정 파일:
+  - `Drafts/Vol_9/Vol_9_Chapter_19.md`
+  - `Drafts/Vol_9/Vol_9_Chapter_20.md`
+  - `orchestra/VOL9_BATCH_10_CHECKPOINT_2026-04-12.md`
+  - `orchestra/DRAFTING_PROGRESS_TRACKER.md`
+  - `orchestra/NEXT_DIALOGUE_HANDOFF.md`
+  - `orchestra/SESSION_STATE.md`
+  - `orchestra/EXECUTION_PROGRESS_LEDGER.md`
+- 결과:
+  - 제19화에서 재판독자가 현장과 위 사람 사이에서 한 줄 문장을 고르지 못하게 만들며, 북빈가가 보고선 자체를 `조건문 덩어리`로 더럽히는 단계에 들어섬
+  - 제20화에서 정리욕이 강한 `위 사람`을 직접 아래로 끌어내고, 그가 `둘 중 하나로 묶기`를 선호한다는 취향까지 드러내며 다음 반격 표적을 `정리 습관`으로 끌어올림
+  - `Vol_9_Chapter_19.md` 공백 제외 `4017자` 통과
+  - `Vol_9_Chapter_20.md` 공백 제외 `4002자` 통과
+  - `4,000자 하드룰 적합성` 집계를 `초안 220화 중 220화 통과`로 갱신
+- 재개 지점:
+  - 제9권 `제21화 공모 구조`, `제22화 둘을 하나로`
+
+## 2026-04-12 03:09 KST
+
+- 모드: `vol9-batch-11 drafting`
+- 병목: 위 사람까지 내려온 뒤에도 에이든-아이리스를 한 줄 공모 구조로 정리할 수 있으면 기록선은 다시 봉합되므로, `둘을 하나로 묶는 시도` 자체가 내부 속도 차와 긴 임시 문장을 낳는 단계까지 끌어올려야 하는 상태.
+- 현재 작업: 제9권 `제21화 공모 구조`, `제22화 둘을 하나로` 작성 및 체크포인트 잠금
+- 다음 작업: 제9권 `제23화 긴 문장`, `제24화 미봉 누적`
+- 실행 방식: `총괄 직접 집필`
+- 총괄: `novel-orchestra-conductor`
+- 전문가: `none`
+- MCP: `none`
+- 스킬:
+  - `novel-orchestra-conductor`
+  - `progress-ledger`
+- 훅: `none`
+- 하네스: `none`
+- 수정 파일:
+  - `Drafts/Vol_9/Vol_9_Chapter_21.md`
+  - `Drafts/Vol_9/Vol_9_Chapter_22.md`
+  - `orchestra/VOL9_BATCH_11_CHECKPOINT_2026-04-12.md`
+  - `orchestra/DRAFTING_PROGRESS_TRACKER.md`
+  - `orchestra/NEXT_DIALOGUE_HANDOFF.md`
+  - `orchestra/SESSION_STATE.md`
+  - `orchestra/EXECUTION_PROGRESS_LEDGER.md`
+- 결과:
+  - 제21화에서 위 사람과 재판독자가 에이든-아이리스를 하나의 구조로 묶으려다 내부 속도 차와 분류 엇박자를 먼저 드러내는 흐름을 고정함
+  - 제22화에서 `둘을 하나로` 묶으려는 시도 자체가 더 긴 임시 분류와 미봉을 낳는다는 점을 사건으로 밀어, 북빈가가 상대 정리 습관을 역으로 이용하는 단계까지 끌어올림
+  - `Vol_9_Chapter_21.md` 공백 제외 `4001자` 통과
+  - `Vol_9_Chapter_22.md` 공백 제외 `4000자` 통과
+  - `4,000자 하드룰 적합성` 집계를 `초안 222화 중 222화 통과`로 갱신
+- 재개 지점:
+  - 제9권 `제23화 긴 문장`, `제24화 미봉 누적`
+
+## 2026-04-11 17:46 KST
+
+- 모드: `vol8-batch-3 drafting`
+- 병목: `제8권 1막의 대가/환영 축을 고정해야 하는 구간. 행복 상실은 설명이 아니라 감각 붕괴로 받아야 하고, 발타자르 환영은 정답 노출보다 다음 권역으로 미는 독한 미끼여야 하는 상태.`
+- 현재 작업: `제8권 제5화 행복의 대가`, `제6화 발타자르의 환영` 초안 작성 및 배치 체크포인트 반영
+- 다음 작업: `제8권 제7화 탈출` 초안 작성
+- 실행 방식: `총괄 + 전문가 검토 병행`
+- 총괄: `novel-orchestra-conductor`
+- 전문가:
+  - `Rilke`
+  - `Hitchcock`
+  - `Godel`
+- MCP: `none`
+- 스킬:
+  - `novel-orchestra-conductor`
+  - `progress-ledger`
+- 훅: `none`
+- 하네스: `none`
+- 수정 파일:
+  - `Drafts/Vol_8/Vol_8_Chapter_5.md`
+  - `Drafts/Vol_8/Vol_8_Chapter_6.md`
+  - `orchestra/VOL8_BATCH_3_CHECKPOINT_2026-04-11.md`
+  - `orchestra/DRAFTING_PROGRESS_TRACKER.md`
+  - `orchestra/EXECUTION_PROGRESS_LEDGER.md`
+- 결과:
+  - `Rilke`가 `행복 상실`을 눈물이나 통곡이 아니라 `좋았던 좌표는 남아 있는데 정서 반응만 비어 버린 상태`로 눌러 문학성 축을 안정화.
+  - `Hitchcock`이 `발타자르 환영`을 진실 고백이 아니라 `닫았다 / 열린 걸 / 시간의 탑`으로 이어지는 독한 미끼로 정리해 다음 장 흡인력을 확보.
+  - `Godel`이 대가를 `기억 소거`가 아니라 `정서적 효용 소거`로 규정해 규칙 일관성을 유지.
+  - `Vol_8_Chapter_5.md` 공백 제외 `4330자`
+  - `Vol_8_Chapter_6.md` 공백 제외 `4374자`
+  - 진행판 집계를 `초안 181화 중 181화 통과`로 갱신
+- 재개 지점:
+  - 제8권 `제7화 탈출`
+
+## 2026-04-11 18:09 KST
+
+- 모드: `vol8-batch-4 drafting + act1 audit`
+- 병목: `제8권 1막을 루프 정조에서 폐허 탐색 파트로 자연스럽게 넘겨야 하는 구간. 탈출이 감정적 해방으로 읽히면 다음 막 압박이 약해지므로, 즉시 더 나쁜 세계로 떨어지는 체감과 3년 공백의 무게가 동시에 필요.`
+- 현재 작업: `제8권 제7화 탈출` 초안 작성, 체크포인트 및 1막 감사 문서 반영
+- 다음 작업: `제8권 제8화 폐허`, `제9화 3년의 공백` 초안 작성
+- 실행 방식: `총괄 + 전문가 검토 병행`
+- 총괄: `novel-orchestra-conductor`
+- 전문가:
+  - `Rilke`
+  - `Hitchcock`
+  - `Godel`
+  - `Sophocles`
+- MCP: `none`
+- 스킬:
+  - `novel-orchestra-conductor`
+  - `progress-ledger`
+- 훅: `none`
+- 하네스: `none`
+- 수정 파일:
+  - `Drafts/Vol_8/Vol_8_Chapter_7.md`
+  - `orchestra/VOL8_BATCH_4_CHECKPOINT_2026-04-11.md`
+  - `orchestra/VOL8_ACT1_AUDIT_2026-04-11.md`
+  - `orchestra/DRAFTING_PROGRESS_TRACKER.md`
+  - `orchestra/EXECUTION_PROGRESS_LEDGER.md`
+- 결과:
+  - `Rilke`가 탈출 직후의 폐허 인식을 `슬픔 과잉`이 아니라 `좌표는 남고 내용물이 바뀐 냉혹한 인식`으로 잡아 1막의 여운을 폐허 감각으로 전환.
+  - `Hitchcock`이 `3년 공백 확인`을 정보 공개가 아니라 즉시 다음 장을 당기게 만드는 절벽 끝 충격으로 정리.
+  - `Godel`이 루프 탈출의 결과를 `다음 날`이 아니라 `외부 시간 정상 진행`으로 고정해 개연성 축을 잠금.
+  - `Sophocles`가 제8권 1막 구조를 `기억 -> 대가 -> 환영 -> 결과` 4단계로 정리해 다음 막 진입의 서사 동선을 정리.
+  - `Vol_8_Chapter_7.md` 공백 제외 `4157자`
+  - 진행판 집계를 `초안 182화 중 182화 통과`로 갱신
+- 재개 지점:
+  - 제8권 `제8화 폐허`, `제9화 3년의 공백`
+
+## 2026-04-11 18:37 KST
+
+- 모드: `vol8-batch-5 drafting`
+- 병목: `제8권 2막 초입에서 폐허를 그냥 배경처럼 쓰면 긴장과 개연성이 동시에 약해지는 상태. 도시가 어떻게 시간을 요구하는지, 소문이 왜 비싼지, 제도가 어떤 찌꺼기 형태로 남았는지를 사건 단위로 보여 줘야 하는 구간.`
+- 현재 작업: `제8권 제8화 폐허`, `제9화 3년의 공백` 초안 작성 및 배치 체크포인트 반영
+- 다음 작업: `제8권 제10화 아이리스의 행방`, `제11화 재회` 초안 작성
+- 실행 방식: `총괄 + 전문가 검토 병행`
+- 총괄: `novel-orchestra-conductor`
+- 전문가:
+  - `Rilke`
+  - `Hitchcock`
+  - `Godel`
+  - `Braudel`
+- MCP: `none`
+- 스킬:
+  - `novel-orchestra-conductor`
+  - `progress-ledger`
+- 훅: `none`
+- 하네스: `none`
+- 수정 파일:
+  - `Drafts/Vol_8/Vol_8_Chapter_8.md`
+  - `Drafts/Vol_8/Vol_8_Chapter_9.md`
+  - `orchestra/VOL8_BATCH_5_CHECKPOINT_2026-04-11.md`
+  - `orchestra/DRAFTING_PROGRESS_TRACKER.md`
+  - `orchestra/EXECUTION_PROGRESS_LEDGER.md`
+- 결과:
+  - `Rilke`가 폐허를 풍경이 아니라 `살아남기 위해 언어를 바꾼 도시`로 눌러 감각 층을 유지.
+  - `Hitchcock`이 정보 수집을 `정답 설명` 대신 `값을 치르고 파편을 모으는 과정`으로 정리해 2막 흡인력을 확보.
+  - `Godel`이 `검문`, `외부인`, `공백 관측반`, `구획 단위 통제`를 통해 3년 공백 뒤 제도 찌꺼기의 개연성을 고정.
+  - `Braudel`이 `식량 가격`, `통행료`, `구획 단절`, `장터 언어`를 도시 구조 변화의 증거로 정리.
+  - `Vol_8_Chapter_8.md` 공백 제외 `4336자`
+  - `Vol_8_Chapter_9.md` 공백 제외 `4749자`
+  - 진행판 집계를 `초안 184화 중 184화 통과`로 갱신
+- 재개 지점:
+  - 제8권 `제10화 아이리스의 행방`, `제11화 재회`
+
+## 2026-04-11 20:23 KST
+
+- 모드: `vol8-batch-7 drafting`
+- 병목: `아이리스 재회 직후를 감정 정리로만 보내면 다시 평탄해질 위험이 큰 구간. 에이든의 고립이 생활 언어로 보이고, 발타자르 흔적이 실제 좌표로 바뀌어야 다음 막 처단 엔진이 자연스럽게 열린다.`
+- 현재 작업: `제8권 제12화 유령`, `제13화 발타자르의 흔적` 초안 작성 및 배치 체크포인트 반영
+- 다음 작업: `제8권 제14화 유령의 칼`, `제15화 이름 없는 폭력` 초안 작성
+- 실행 방식: `총괄 단독`
+- 총괄: `novel-orchestra-conductor`
+- 전문가:
+  - `none`
+- MCP: `none`
+- 스킬:
+  - `progress-ledger`
+- 훅: `none`
+- 하네스: `Storycraft`
+- 수정 파일:
+  - `Drafts/Vol_8/Vol_8_Chapter_12.md`
+  - `Drafts/Vol_8/Vol_8_Chapter_13.md`
+  - `orchestra/VOL8_BATCH_7_CHECKPOINT_2026-04-11.md`
+  - `orchestra/DRAFTING_PROGRESS_TRACKER.md`
+  - `orchestra/NEXT_DIALOGUE_HANDOFF.md`
+  - `orchestra/EXECUTION_PROGRESS_LEDGER.md`
+- 결과:
+  - `제12화`에서 에이든이 `아무도 기억하지 못하는 사람`을 넘어 `기능으로만 남는 외부인`, `누구의 사람으로도 접수되지 못하는 얼굴`로 읽히게 고정
+  - `제13화`에서 기록원 터, `공백 대조`, `특이 기록 보류`, `올라오면 안다` 메모를 통해 발타자르 추적축을 실제 사건 좌표로 전환
+  - 아이리스 축의 고립과 발타자르 축의 추적이 동시에 전진하도록 구조를 잠금
+  - `Vol_8_Chapter_12.md` 공백 제외 `4001자`
+  - `Vol_8_Chapter_13.md` 공백 제외 `4005자`
+  - 진행판 집계를 `초안 188화 중 188화 통과`로 갱신
+- 재개 지점:
+  - 제8권 `제14화 유령의 칼`, `제15화 이름 없는 폭력`
+
+## 2026-04-11 19:58 KST
+
+- 모드: `vol8-batch-6 drafting`
+- 병목: `제8권 2막이 정보 수집만으로 흐르면 상업성 평가에서 지적된 평탄화 위험이 바로 터지는 구간. 북빈가 접선과 아이리스 재회를 설명이 아니라 충돌/검문/시험으로 먼저 세워야 하는 상태.`
+- 현재 작업: `제8권 제10화 아이리스의 행방`, `제11화 재회` 초안 작성 및 배치 체크포인트 반영
+- 다음 작업: `제8권 제12화 유령`, `제13화 발타자르의 흔적` 초안 작성
+- 실행 방식: `총괄 단독`
+- 총괄: `novel-orchestra-conductor`
+- 전문가:
+  - `none`
+- MCP: `none`
+- 스킬:
+  - `progress-ledger`
+- 훅: `none`
+- 하네스: `Storycraft`
+- 수정 파일:
+  - `Drafts/Vol_8/Vol_8_Chapter_10.md`
+  - `Drafts/Vol_8/Vol_8_Chapter_11.md`
+  - `orchestra/VOL8_BATCH_6_CHECKPOINT_2026-04-11.md`
+  - `orchestra/DRAFTING_PROGRESS_TRACKER.md`
+  - `orchestra/NEXT_DIALOGUE_HANDOFF.md`
+  - `orchestra/EXECUTION_PROGRESS_LEDGER.md`
+- 결과:
+  - `제10화`에서 북빈가를 `갈취조/이름 검문/한팔 검투`가 실제로 작동하는 공터 사건으로 열어 `아이리스의 행방`을 설명보다 사건으로 먼저 제시
+  - `제11화`에서 `에이든`이라는 이름이 정보로는 들리지만 관계로는 복구되지 않는 `누구세요?` 충격을 고정
+  - `공백 관측반`, `장부`, `이름 적는 손`을 추상 설정이 아니라 현장 위협으로 끌어내 다음 배치 동력을 확보
+  - `Vol_8_Chapter_10.md` 공백 제외 `4130자`
+  - `Vol_8_Chapter_11.md` 공백 제외 `4031자`
+  - 진행판 집계를 `초안 186화 중 186화 통과`로 갱신
+- 재개 지점:
+  - 제8권 `제12화 유령`, `제13화 발타자르의 흔적`
+
+## 2026-04-11 19:24 KST
+
+- 모드: `popularity-orchestra-evaluation`
+- 병목: `진행은 계속되고 있지만 이 작품이 실제로 독자를 강하게 붙잡을 타입인지, 그리고 어디서 흥행이 꺾일 수 있는지에 대한 분야별 판정이 따로 잠겨 있지 않은 상태.`
+- 현재 작업: `상업성 / 연재 리텐션 / 감정 애착 / 장기 유지력` 병렬 전문가 평가 및 총괄 병합
+- 다음 작업: 평가 결과를 다음 집필 배치인 `제8권 제10화`, `제11화`에 바로 반영
+- 실행 방식: `총괄 + 병렬 전문가`
+- 총괄: `novel-orchestra-conductor`
+- 전문가:
+  - `Socrates`
+  - `Ohm`
+  - `Ptolemy`
+  - `Meitner`
+- MCP: `none`
+- 스킬:
+  - `novel-orchestra-conductor`
+  - `progress-ledger`
+- 훅: `none`
+- 하네스: `Storycraft`
+- 수정 파일:
+  - `orchestra/POPULARITY_ORCHESTRA_EVALUATION_2026-04-11.md`
+  - `orchestra/NEXT_DIALOGUE_HANDOFF.md`
+  - `orchestra/EXECUTION_PROGRESS_LEDGER.md`
+- 결과:
+  - 총괄 판정은 `인기 가능성 있음`, 다만 `대형 범용 흥행형`보다는 `강한 충성독자형`
+  - `Socrates`가 상업성 `7.4 / 10`으로 판정하고 `입구 클릭력`과 `화말 압박` 보강을 최우선으로 제안
+  - `Ohm`이 리텐션 `8.5 / 10`으로 판정하고 `상태 훼손 + 권 엔진 전환 + 표면 증거` 구조가 실제로 연재 동력으로 작동한다고 평가
+  - `Ptolemy`가 감정 몰입 `8.8 / 10`으로 판정하고 `에이든-아이리스`, `에이든-리아`, `에이든-발타자르` 축의 팬덤 잠재력을 높게 평가
+  - `Meitner`가 장기 유지력 `8.3 / 10`으로 판정하고 핵심 리스크를 `발타자르 예외 기억`, `빈눈회`, `후영 축 회수 부채`로 정리
+  - 다음 배치 우선 과제를 `북빈가 접선 사건`, `이름 검문`, `아이리스 재회 충격` 선행으로 잠금
+- 재개 지점:
+  - 제8권 `제10화 아이리스의 행방`, `제11화 재회`
+
+## 2026-04-11 19:01 KST
+
+- 모드: `main-push fixed-point lock`
+- 병목: `브랜치 푸시는 했지만 main 반영 시점이 운영 규칙으로 잠겨 있지 않아, 적정 시기마다 같은 판단을 다시 해야 하는 상태. 대화가 길어지면 로컬 누적분은 커지는데 main 반영이 습관이 아니라 예외처럼 밀리는 문제.`
+- 현재 작업: `main 반영 고정점` 문서 생성 및 핸드오프/세션 상태 연결
+- 다음 작업: 다음 안정 배치 종료 후 `main push fixed point` 도달 여부 판정
+- 실행 방식: `총괄 잠금`
+- 총괄: `novel-orchestra-conductor`
+- 전문가:
+  - `none`
+- MCP: `none`
+- 스킬:
+  - `progress-ledger`
+- 훅: `none`
+- 하네스: `none`
+- 수정 파일:
+  - `orchestra/MAIN_PUSH_FIXED_POINT.md`
+  - `orchestra/NEXT_DIALOGUE_HANDOFF.md`
+  - `orchestra/SESSION_STATE.md`
+  - `orchestra/DRAFTING_PROGRESS_TRACKER.md`
+  - `orchestra/EXECUTION_PROGRESS_LEDGER.md`
+- 결과:
+  - `main` 반영을 `권 단위 / 막 단위 / 장기 누적` 중 하나가 오면 발동하는 고정 게이트로 문서화
+  - 다음 대화 핸드오프에도 `main 반영 시점 먼저 판정` 규칙을 연결
+  - 현재 로컬 진행분은 `고정점 후보` 상태로 표시
+- 재개 지점:
+  - 제8권 `제10화 아이리스의 행방`, `제11화 재회`
+
+## 2026-04-11 18:52 KST
+
+- 모드: `restart-safe handoff lock`
+- 병목: `대화가 길어질수록 재개 지점이 흩어져 다음 스레드에서 바로 이어붙이기 어려운 상태. 진행만 계속되면 장부는 늘어나는데, 다음 대화 첫 문서가 고정돼 있지 않아 재가동 비용이 커지는 문제.`
+- 현재 작업: `다음 대화 핸드오프` 고정 문서 생성 및 세션 상태 문서 최신화
+- 다음 작업: 다음 스레드에서도 `orchestra/NEXT_DIALOGUE_HANDOFF.md`부터 확인 후 집필 재개
+- 실행 방식: `총괄 잠금`
+- 총괄: `novel-orchestra-conductor`
+- 전문가:
+  - `none`
+- MCP: `none`
+- 스킬:
+  - `progress-ledger`
+- 훅: `none`
+- 하네스: `none`
+- 수정 파일:
+  - `orchestra/NEXT_DIALOGUE_HANDOFF.md`
+  - `orchestra/SESSION_STATE.md`
+  - `orchestra/DRAFTING_PROGRESS_TRACKER.md`
+  - `orchestra/EXECUTION_PROGRESS_LEDGER.md`
+- 결과:
+  - 다음 대화에서 항상 먼저 열 고정 문서를 `orchestra/NEXT_DIALOGUE_HANDOFF.md`로 잠금
+  - 현재 브랜치, 마지막 푸시, 로컬 미커밋 진행분, 즉시 재개 큐를 한 문서에 요약
+  - `SESSION_STATE.md`를 현재 집필 권차 기준으로 갱신
+  - 진행판에도 핸드오프 문서 우선 확인 규칙을 연결
+- 재개 지점:
+  - 제8권 `제10화 아이리스의 행방`, `제11화 재회`
+
 ## 2026-04-11 14:43 KST
 
 - 모드: `vol7-batch-9 drafting`
@@ -1718,6 +6450,38 @@
   - `4,000자 하드룰 적합성` 집계를 `초안 177화 중 177화 통과`로 갱신
 - 재개 지점:
   - 제8권 `제3화`, `제4화`
+
+## 2026-04-11 17:07 KST
+
+- 모드: `vol8-batch-2 drafting`
+- 병목: `마지막 반복` 구간이 아름다운 감상으로만 흐르면 제5화 `행복의 대가`와 제6화 `발타자르의 환영`의 충격이 약해지므로, `마지막 석양`과 `탈출 술식`을 각각 `감각 채취`와 `실행 구조`로 분명히 갈라 세워야 하는 상태.
+- 현재 작업: 제8권 `제3화`, `제4화` 초안 작성 및 체크포인트 잠금
+- 다음 작업: 제8권 `제5화`, `제6화`
+- 실행 방식: `총괄 + 전문가 관점 반영`
+- 총괄: `novel-orchestra-conductor`
+- 전문가:
+  - `Rilke`
+  - `Godel`
+- MCP: `none`
+- 스킬:
+  - `novel-orchestra-conductor`
+  - `progress-ledger`
+- 훅: `none`
+- 하네스: `none`
+- 수정 파일:
+  - `Drafts/Vol_8/Vol_8_Chapter_3.md`
+  - `Drafts/Vol_8/Vol_8_Chapter_4.md`
+  - `orchestra/VOL8_BATCH_2_CHECKPOINT_2026-04-11.md`
+  - `orchestra/DRAFTING_PROGRESS_TRACKER.md`
+  - `orchestra/EXECUTION_PROGRESS_LEDGER.md`
+- 결과:
+  - 제8권 제3화 `마지막 석양`에서 `끝나기 전에 끝까지 보는 일`을 통해 색의 소실과 기억 채취를 강화
+  - 제8권 제4화 `탈출 술식`에서 `둘 뒤 공백`과 `미세한 어긋남`을 중심으로 술식의 첫 실작동과 루프 구조의 첫 걸림을 가시화
+  - `Vol_8_Chapter_3.md` 공백 제외 `4001자` 통과
+  - `Vol_8_Chapter_4.md` 공백 제외 `4001자` 통과
+  - `4,000자 하드룰 적합성` 집계를 `초안 179화 중 179화 통과`로 갱신
+- 재개 지점:
+  - 제8권 `제5화`, `제6화`
 
 ## 2026-04-11 03:18 KST
 
@@ -2019,3 +6783,1651 @@
   - 성전/기록원/행정이 같은 현상을 각각 `빈눈회`, `잔흔해석회`, `공백 관측반`으로 다르게 부르는 다중 명명 구조를 잠금
 - 재개 지점:
   - 제7권 `제11화 잘못된 박자`, `제12화 구조의 응답`
+
+## 2026-04-13 22:08 KST
+
+- 모드: `vol11-batch-8 drafting`
+- 병목: 제11권은 `첫 공식 호명` 뒤에 그 이름이 밤 운영과 재대조 절차를 통해 실제 사람 몸 위에서 어떻게 굳는지를 보여 줘야 이후 `길들여진 질문 / 두 번째 분류` 국면이 설명이 아니라 체감으로 이어지는 상태.
+- 현재 작업: 제11권 `제15화 이름으로 묶인 밤`, `제16화 첫 재대조` 초안 작성 및 체크포인트 고정
+- 다음 작업: 제11권 `제17화 길들여진 질문`, `제18화 두 번째 분류`
+- 실행 방식: `총괄 + 전문가 검토 병행`
+- 총괄: `novel-orchestra-conductor`
+- 전문가:
+  - `Dalton`
+  - `Descartes`
+- MCP: `none`
+- 스킬:
+  - `novel-orchestra-conductor`
+  - `progress-ledger`
+- 훅: `none`
+- 하네스: `none`
+- 수정 파일:
+  - `Drafts/Vol_11/Vol_11_Chapter_15.md`
+  - `Drafts/Vol_11/Vol_11_Chapter_16.md`
+  - `orchestra/VOL11_BATCH_8_CHECKPOINT_2026-04-13.md`
+  - `orchestra/DRAFTING_PROGRESS_TRACKER.md`
+  - `orchestra/NEXT_DIALOGUE_HANDOFF.md`
+  - `orchestra/SESSION_STATE.md`
+  - `orchestra/EXECUTION_PROGRESS_LEDGER.md`
+- 결과:
+  - `Dalton` 포인트를 반영해 공식 명칭이 문패, 식수 반입, 기도실 주석, 야간 교대표로 퍼지며 `사람보다 묶음이 먼저 움직이는 밤`을 고정
+  - `Descartes` 포인트를 반영해 첫 재대조가 사실 확인보다 `어느 문장으로 정리할지`를 고르는 절차이며, 질문 틀 자체가 선후 / 공모 / 책임 귀속 쪽으로 사건을 밀어 붙이는 압박을 고정
+  - `Vol_11_Chapter_15.md` 공백 제외 `4048자` 통과
+  - `Vol_11_Chapter_16.md` 공백 제외 `4888자` 통과
+  - `Vol.11 Chapters 15~16`가 여덟 번째 체크포인트를 통과한 것으로 장부와 세션 상태를 동기화
+- 재개 지점:
+  - 제11권 `제17화 길들여진 질문`, `제18화 두 번째 분류`
+
+## 2026-04-13 22:41 KST
+
+- 모드: `vol11-batch-9 drafting`
+- 병목: 제11권은 이제 `재대조`가 일회성 절차가 아니라 생활 언어와 임시 지침을 통해 사람을 길들이고 다시 접는 운영 습관으로 보이기 시작해야 하며, 이 구간이 약하면 이후 공식 분류가 사건보다 문서로만 읽히는 상태.
+- 현재 작업: 제11권 `제17화 길들여진 질문`, `제18화 두 번째 분류` 초안 작성 및 체크포인트 고정
+- 다음 작업: 제11권 `제19화 임시 지침`, `제20화 셋으로 남는 법`
+- 실행 방식: `총괄 + 전문가 검토 병행`
+- 총괄: `novel-orchestra-conductor`
+- 전문가:
+  - `Dalton`
+  - `Descartes`
+- MCP: `none`
+- 스킬:
+  - `novel-orchestra-conductor`
+  - `progress-ledger`
+- 훅: `none`
+- 하네스: `none`
+- 수정 파일:
+  - `Drafts/Vol_11/Vol_11_Chapter_17.md`
+  - `Drafts/Vol_11/Vol_11_Chapter_18.md`
+  - `orchestra/VOL11_BATCH_9_CHECKPOINT_2026-04-13.md`
+  - `orchestra/DRAFTING_PROGRESS_TRACKER.md`
+  - `orchestra/NEXT_DIALOGUE_HANDOFF.md`
+  - `orchestra/SESSION_STATE.md`
+  - `orchestra/EXECUTION_PROGRESS_LEDGER.md`
+- 결과:
+  - `Dalton` 포인트를 반영해 첫 재대조 뒤 공식 질문 틀이 비공식 대화와 생활 언어 속으로 퍼지며, 당사자들조차 `질문이 원하는 모양`을 먼저 계산하게 되는 `길들여진 질문` 국면을 고정
+  - `Descartes` 포인트를 반영해 `보류`가 중립이 아니라 더 쉬운 운영 단위로 접기 위한 임시 상태였음이 드러나고, 셋이 `개입 선행군 / 상호 종속 관찰군` 같은 두 갈래 처리선으로 분류되기 시작하는 `두 번째 분류` 국면을 고정
+  - `Vol_11_Chapter_17.md` 공백 제외 `4004자` 통과
+  - `Vol_11_Chapter_18.md` 공백 제외 `4002자` 통과
+  - `Vol.11 Chapters 17~18`가 아홉 번째 체크포인트를 통과한 것으로 장부와 세션 상태를 동기화
+- 재개 지점:
+  - 제11권 `제19화 임시 지침`, `제20화 셋으로 남는 법`
+
+## 2026-04-13 23:06 KST
+
+- 모드: `vol11-batch-10 drafting`
+- 병목: 임시 지침이 단순 공문이 아니라 조사실 밖 생활 전체를 조정하는 운영 습관으로 번져야 하고, 셋의 결속도 감정 확인이 아니라 외부 분류를 늦추고 비틀어 버티는 대응 기술로 보이기 시작해야 한다.
+- 현재 작업: 제11권 `제19화 임시 지침`, `제20화 셋으로 남는 법` 초안 검증 및 체크포인트 고정
+- 다음 작업: 제11권 `제21화 조사실 밖의 규칙`, `제22화 하나의 사건을 남기는 법`
+- 실행 방식: `총괄 + 전문가 검토 병행`
+- 총괄: `novel-orchestra-conductor`
+- 전문가:
+  - `Dalton`
+  - `Descartes`
+- MCP: `none`
+- 스킬:
+  - `novel-orchestra-conductor`
+  - `progress-ledger`
+- 훅: `none`
+- 하네스: `none`
+- 수정 파일:
+  - `Drafts/Vol_11/Vol_11_Chapter_19.md`
+  - `Drafts/Vol_11/Vol_11_Chapter_20.md`
+  - `orchestra/VOL11_BATCH_10_CHECKPOINT_2026-04-13.md`
+  - `orchestra/DRAFTING_PROGRESS_TRACKER.md`
+  - `orchestra/NEXT_DIALOGUE_HANDOFF.md`
+  - `orchestra/SESSION_STATE.md`
+  - `orchestra/EXECUTION_PROGRESS_LEDGER.md`
+- 결과:
+  - `제19화 임시 지침`에서 아직 확정되지 않았다는 말이 안심용 수식일 뿐이고, 실제로는 호출선과 질문 길부터 먼저 갈라 놓는 새 기준이라는 점을 고정
+  - `제20화 셋으로 남는 법`에서 셋이 같은 말로 뭉치는 대신 각자 다른 자리의 문장으로도 하나의 사건이 둘로 접히지 않게 버티는 대응을 처음 세우는 국면을 고정
+  - `Vol_11_Chapter_19.md` 공백 제외 `4054자` 통과
+  - `Vol_11_Chapter_20.md` 공백 제외 `4132자` 통과
+  - `Vol.11 Chapters 19~20`가 열 번째 체크포인트를 통과한 것으로 장부와 세션 상태를 동기화
+- 재개 지점:
+  - 제11권 `제21화 조사실 밖의 규칙`, `제22화 하나의 사건을 남기는 법`
+
+## 2026-04-13 23:19 KST
+
+- 모드: `vol11-batch-11 drafting`
+- 병목: 공식 명칭과 관리 문장이 조사실 안쪽 용어에 머물지 않고 생활 규칙으로 굳어져야 하며, 셋의 결속도 감정적 합의가 아니라 서로 다른 문장으로 하나의 사건선을 남기는 대응 기술로 보여야 한다.
+- 현재 작업: 제11권 `제21화 조사실 밖의 규칙`, `제22화 하나의 사건을 남기는 법` 초안 작성 및 체크포인트 고정
+- 다음 작업: 제11권 `제23화`, `제24화`
+- 실행 방식: `총괄 + 전문가 검토 병행`
+- 총괄: `novel-orchestra-conductor`
+- 전문가:
+  - `Dalton`
+  - `Descartes`
+- MCP: `none`
+- 스킬:
+  - `novel-orchestra-conductor`
+  - `progress-ledger`
+- 훅: `none`
+- 하네스: `none`
+- 수정 파일:
+  - `Drafts/Vol_11/Vol_11_Chapter_21.md`
+  - `Drafts/Vol_11/Vol_11_Chapter_22.md`
+  - `orchestra/VOL11_BATCH_11_CHECKPOINT_2026-04-13.md`
+  - `orchestra/DRAFTING_PROGRESS_TRACKER.md`
+  - `orchestra/NEXT_DIALOGUE_HANDOFF.md`
+  - `orchestra/SESSION_STATE.md`
+  - `orchestra/EXECUTION_PROGRESS_LEDGER.md`
+- 결과:
+  - `Dalton` 포인트를 반영해 공식 문장이 문서가 아니라 배식, 복도 거리, 세면 순서 같은 생활 습관으로 먼저 내려앉는 `조사실 밖의 규칙` 국면을 고정
+  - `Descartes` 포인트를 반영해 셋이 같은 답을 맞추지 않고도 순서와 위치와 이어짐을 붙들어 하나의 사건선을 남기는 `하나의 사건을 남기는 법` 국면을 고정
+  - `Vol_11_Chapter_21.md` 공백 제외 `4159자` 통과
+  - `Vol_11_Chapter_22.md` 공백 제외 `4063자` 통과
+  - `Vol.11 Chapters 21~22`가 열한 번째 체크포인트를 통과한 것으로 장부와 세션 상태를 동기화
+- 재개 지점:
+  - 제11권 `제23화`, `제24화`
+
+## 2026-04-13 23:35 KST
+
+- 모드: `vol11-batch-12 drafting`
+- 병목: 상층은 사건을 없애지 못한 채 긴 문장과 조건절로 선을 흐리고, 현장은 그 미봉 문장들을 임시 조치와 추가 보고로 떠안으면서 운영 피로가 한계에 가까워지는 상태다.
+- 현재 작업: 제11권 `제23화 길어진 문장 아래에서`, `제24화 임시 조치의 무게` 초안 작성 및 체크포인트 고정
+- 다음 작업: 제11권 `제25화`, `제11권 권말 체크포인트`, `제11권 -> 제12권 브리지 감사`
+- 실행 방식: `총괄 + 전문가 검토 병행`
+- 총괄: `novel-orchestra-conductor`
+- 전문가:
+  - `Dalton`
+  - `Descartes`
+- MCP: `none`
+- 스킬:
+  - `novel-orchestra-conductor`
+  - `progress-ledger`
+- 훅: `none`
+- 하네스: `none`
+- 수정 파일:
+  - `Drafts/Vol_11/Vol_11_Chapter_23.md`
+  - `Drafts/Vol_11/Vol_11_Chapter_24.md`
+  - `orchestra/VOL11_BATCH_12_CHECKPOINT_2026-04-13.md`
+  - `orchestra/DRAFTING_PROGRESS_TRACKER.md`
+  - `orchestra/NEXT_DIALOGUE_HANDOFF.md`
+  - `orchestra/SESSION_STATE.md`
+  - `orchestra/EXECUTION_PROGRESS_LEDGER.md`
+- 결과:
+  - `Dalton` 포인트를 반영해 사건이 부정되지 않은 채 긴 문장으로 더 흐려지고, 그 문장 정치의 무게가 밤의 체력과 인계 부담으로 떨어지는 흐름을 고정
+  - `Descartes` 포인트를 반영해 기각보다 위험한 `책임 없는 긴 승인`, 그리고 선의와 회피가 덧댄 미봉 누적이 현장을 더 무겁게 만든다는 구조를 고정
+  - `Vol_11_Chapter_23.md` 공백 제외 `4065자` 통과
+  - `Vol_11_Chapter_24.md` 공백 제외 `4132자` 통과
+  - `Vol.11 Chapters 23~24`가 열두 번째 체크포인트를 통과한 것으로 장부와 세션 상태를 동기화
+- 재개 지점:
+  - 제11권 `제25화`, `제11권 권말 체크포인트`, `제11권 -> 제12권 브리지 감사`
+
+## 2026-04-13 23:52 KST
+
+- 모드: `vol11-finale drafting`
+- 병목: 제11권 권말은 체계가 셋을 끝내 접지 못한 결과를 `승리`가 아니라 `과부하가 처음 읽힌 좌표`로 닫아야 하고, 동시에 제12권이 상층 직접 개입과 더 강한 공식 언어로 즉시 이어질 다리를 남겨야 한다.
+- 현재 작업: 제11권 `제25화 먼저 찢어질 자리` 초안 작성, 권말 체크포인트, `제11권 -> 제12권` 브리지 감사 고정
+- 다음 작업: 제12권 `제1화 위에서 내려온 손`, `제2화 더 큰 이름`
+- 실행 방식: `총괄 + 전문가 검토 병행`
+- 총괄: `novel-orchestra-conductor`
+- 전문가:
+  - `Dalton`
+  - `Descartes`
+- MCP: `none`
+- 스킬:
+  - `novel-orchestra-conductor`
+  - `progress-ledger`
+- 훅: `none`
+- 하네스: `none`
+- 수정 파일:
+  - `Drafts/Vol_11/Vol_11_Chapter_25.md`
+  - `orchestra/VOL11_VOLUME_CHECKPOINT_2026-04-13.md`
+  - `orchestra/VOL11_TO_VOL12_BRIDGE_AUDIT_2026-04-13.md`
+  - `orchestra/DRAFTING_PROGRESS_TRACKER.md`
+  - `orchestra/NEXT_DIALOGUE_HANDOFF.md`
+  - `orchestra/SESSION_STATE.md`
+  - `orchestra/EXECUTION_PROGRESS_LEDGER.md`
+- 결과:
+  - `Dalton` 포인트를 반영해 지침과 분류와 재대조 문장이 겹치며 현장이 버벅이고, 실수보다 피로가 먼저 틈을 만드는 권말 구조를 고정
+  - `Descartes` 포인트를 반영해 셋이 이 균열을 승리로 읽지 않고, 더 큰 손과 더 강한 이름이 내려오기 전 `좌표 확보`로 읽는 결말을 고정
+  - `Vol_11_Chapter_25.md` 공백 제외 `4599자` 통과
+  - `Vol.11` 권말 체크포인트와 `Vol.11 -> Vol.12` 브리지 감사 문서를 잠갔고, 다음 권 시작 좌표를 `상층 직접 개입`과 `더 큰 이름`으로 고정
+- 재개 지점:
+  - 제12권 `제1화 위에서 내려온 손`, `제2화 더 큰 이름`
+
+## 2026-04-14 00:11 KST
+
+- 모드: `vol12-batch-1 drafting`
+- 병목: 제11권 권말의 과부하 좌표를 즉시 다음 단계 압박으로 전환해야 하며, 제12권 초반은 상층 직접 개입과 더 큰 공식 이름이 내려오는 사건으로 외연을 넓혀야 한다.
+- 현재 작업: 제12권 `제1화 위에서 내려온 손`, `제2화 더 큰 이름` 초안 작성 및 체크포인트 고정
+- 다음 작업: 제12권 `제3화`, `제4화`
+- 실행 방식: `총괄 + 전문가 검토 병행`
+- 총괄: `novel-orchestra-conductor`
+- 전문가:
+  - `Dalton`
+  - `Descartes`
+- MCP: `none`
+- 스킬:
+  - `novel-orchestra-conductor`
+  - `progress-ledger`
+- 훅: `none`
+- 하네스: `none`
+- 수정 파일:
+  - `Drafts/Vol_12/Vol_12_Chapter_1.md`
+  - `Drafts/Vol_12/Vol_12_Chapter_2.md`
+  - `orchestra/VOL12_BATCH_1_CHECKPOINT_2026-04-13.md`
+  - `orchestra/DRAFTING_PROGRESS_TRACKER.md`
+  - `orchestra/NEXT_DIALOGUE_HANDOFF.md`
+  - `orchestra/SESSION_STATE.md`
+  - `orchestra/EXECUTION_PROGRESS_LEDGER.md`
+- 결과:
+  - `Descartes` 포인트를 반영해 상층 직접 개입이 혼란 수습이 아니라 현장을 더 적게 설명해도 되게 만드는 손이라는 구조를 `제1화`에 고정
+  - `Descartes` 포인트를 반영해 `잔류 공명군`이라는 더 큰 이름이 셋의 사건을 넘어 도시 전체의 다음 운영 방식을 정당화하는 명칭으로 쓰이기 시작하는 국면을 `제2화`에 고정
+  - `Vol_12_Chapter_1.md` 공백 제외 `4009자` 통과
+  - `Vol_12_Chapter_2.md` 공백 제외 `4069자` 통과
+  - `Vol.12 Chapters 1~2`가 첫 번째 체크포인트를 통과한 것으로 장부와 세션 상태를 동기화
+- 재개 지점:
+  - 제12권 `제3화`, `제4화`
+
+## 2026-04-14 00:32 KST
+
+- 모드: `vol12-batch-2 drafting`
+- 병목: `잔류 공명군`이라는 더 큰 이름이 셋 바깥으로 번지기 시작한 만큼, 제12권은 이름의 범위 확대와 첫 실제 이관 집행을 통해 사건이 아니라 운영 체계 전체가 넓어지는 감각을 밀어야 한다.
+- 현재 작업: 제12권 `제3화 이름의 바깥`, `제4화 인계 문장` 초안 작성 및 체크포인트 고정
+- 다음 작업: 제12권 `제5화`, `제6화`
+- 실행 방식: `총괄 + 전문가 검토 병행`
+- 총괄: `novel-orchestra-conductor`
+- 전문가:
+  - `Dalton`
+  - `Descartes`
+- MCP: `none`
+- 스킬:
+  - `novel-orchestra-conductor`
+  - `progress-ledger`
+- 훅: `none`
+- 하네스: `none`
+- 수정 파일:
+  - `Drafts/Vol_12/Vol_12_Chapter_3.md`
+  - `Drafts/Vol_12/Vol_12_Chapter_4.md`
+  - `orchestra/VOL12_BATCH_2_CHECKPOINT_2026-04-14.md`
+  - `orchestra/DRAFTING_PROGRESS_TRACKER.md`
+  - `orchestra/NEXT_DIALOGUE_HANDOFF.md`
+  - `orchestra/SESSION_STATE.md`
+  - `orchestra/EXECUTION_PROGRESS_LEDGER.md`
+- 결과:
+  - `Descartes` 포인트를 반영해 설명되지 않은 부분이 빈칸으로 남는 대신 더 큰 이름 안으로 접혀 들어가며 접촉자와 보고선까지 범위가 넓어지는 `제3화` 구조를 고정
+  - `Descartes` 포인트를 반영해 첫 실제 이관이 판결이 아니라 인계 문장과 고지 확인 절차 몇 줄로 집행되는 조용한 이동이라는 `제4화` 구조를 고정
+  - `Vol_12_Chapter_3.md` 공백 제외 `4049자` 통과
+  - `Vol_12_Chapter_4.md` 공백 제외 `4112자` 통과
+  - `Vol.12 Chapters 3~4`가 두 번째 체크포인트를 통과한 것으로 장부와 세션 상태를 동기화
+- 재개 지점:
+  - 제12권 `제5화`, `제6화`
+
+## 2026-04-14 00:50 KST
+
+- 모드: `vol12-batch-3 drafting`
+- 병목: 더 큰 이름과 첫 이관 이후엔 한쪽은 직인계 구역의 정숙과 절차 속에서, 다른 쪽은 현장 보류의 느린 시간 압박 속에서 서로 다른 방식으로 닳는 국면을 분명히 갈라야 한다.
+- 현재 작업: 제12권 `제5화 도장이 먼저 말하는 곳`, `제6화 남겨진 쪽의 시간` 초안 작성 및 체크포인트 고정
+- 다음 작업: 제12권 `제7화`, `제8화`
+- 실행 방식: `총괄 + 전문가 검토 병행`
+- 총괄: `novel-orchestra-conductor`
+- 전문가:
+  - `Dalton`
+  - `Descartes`
+- MCP: `none`
+- 스킬:
+  - `novel-orchestra-conductor`
+  - `progress-ledger`
+- 훅: `none`
+- 하네스: `none`
+- 수정 파일:
+  - `Drafts/Vol_12/Vol_12_Chapter_5.md`
+  - `Drafts/Vol_12/Vol_12_Chapter_6.md`
+  - `orchestra/VOL12_BATCH_3_CHECKPOINT_2026-04-14.md`
+  - `orchestra/DRAFTING_PROGRESS_TRACKER.md`
+  - `orchestra/NEXT_DIALOGUE_HANDOFF.md`
+  - `orchestra/SESSION_STATE.md`
+  - `orchestra/EXECUTION_PROGRESS_LEDGER.md`
+- 결과:
+  - `Descartes` 포인트를 반영해 직인계 구역이 가혹함보다 정돈과 침묵으로 사람을 후순위 첨부로 밀어내는 운영 공간이라는 `제5화` 구조를 고정
+  - `Descartes` 포인트를 반영해 현장 보류 대상이 당장 이동되지 않는 대신 호출 간격과 기록 누적과 시간표 분리로 더 오래 닳는 상태라는 `제6화` 구조를 고정
+  - `Vol_12_Chapter_5.md` 공백 제외 `4169자` 통과
+  - `Vol_12_Chapter_6.md` 공백 제외 `4113자` 통과
+  - `Vol.12 Chapters 5~6`가 세 번째 체크포인트를 통과한 것으로 장부와 세션 상태를 동기화
+- 재개 지점:
+  - 제12권 `제7화`, `제8화`
+
+## 2026-04-14 01:18 KST
+
+- 모드: `vol12-batch-4 drafting`
+- 병목: 한쪽은 직인계 구역에서 설명이 언제나 후순위 첨부로 밀리는 구조를 견뎌야 하고, 다른 쪽은 현장 보류의 반복 속에서 너무 많이 쌓인 체계가 처음 어긋나는 순서를 읽기 시작해야 하는 구간이다.
+- 현재 작업: 제12권 `제7화 후순위 첨부`, `제8화 어긋나는 순서` 초안 작성 및 체크포인트 고정
+- 다음 작업: 제12권 `제9화`, `제10화`
+- 실행 방식: `총괄 + 전문가 검토 병행`
+- 총괄: `novel-orchestra-conductor`
+- 전문가:
+  - `Dalton`
+  - `Descartes`
+- MCP: `none`
+- 스킬:
+  - `novel-orchestra-conductor`
+  - `progress-ledger`
+- 훅: `none`
+- 하네스: `none`
+- 수정 파일:
+  - `Drafts/Vol_12/Vol_12_Chapter_7.md`
+  - `Drafts/Vol_12/Vol_12_Chapter_8.md`
+  - `orchestra/VOL12_BATCH_4_CHECKPOINT_2026-04-14.md`
+  - `orchestra/DRAFTING_PROGRESS_TRACKER.md`
+  - `orchestra/NEXT_DIALOGUE_HANDOFF.md`
+  - `orchestra/SESSION_STATE.md`
+  - `orchestra/EXECUTION_PROGRESS_LEDGER.md`
+- 결과:
+  - `Descartes` 포인트를 반영해 에이든의 말이 지워지는 게 아니라 언제나 본문 바깥 후순위 첨부로 밀려나는 구조를 `제7화`에 고정
+  - `Descartes` 포인트를 반영해 아이리스와 레나가 반복되는 시간표와 기록 누적 속에서 처음으로 체계가 미세하게 어긋나는 순서를 읽는 국면을 `제8화`에 고정
+  - `Vol_12_Chapter_7.md` 공백 제외 `4014자` 통과
+  - `Vol_12_Chapter_8.md` 공백 제외 `4010자` 통과
+  - `Vol.12 Chapters 7~8`가 네 번째 체크포인트를 통과한 것으로 장부와 세션 상태를 동기화
+- 재개 지점:
+  - 제12권 `제9화`, `제10화`
+
+## 2026-04-14 01:45 KST
+
+- 모드: `vol12-batch-5 drafting`
+- 병목: 후순위 첨부와 미세한 순서 어긋남이 단순 설명이 아니라 실제 재대조와 책임 흔들림으로 이어져야 다음 배치 `이름으로 묶인 밤`, `첫 재대조`가 설득력을 얻는다.
+- 현재 작업: 제12권 `제9화 다시 펼쳐지는 종이`, `제10화 반 박자 밀린 확인` 초안 보강, 하드룰 검증, 체크포인트 고정
+- 다음 작업: 제12권 `제11화 이름으로 묶인 밤`, `제12화 첫 재대조`
+- 실행 방식: `총괄 + 전문가 검토 병행`
+- 총괄: `novel-orchestra-conductor`
+- 전문가:
+  - `Dalton`
+  - `Descartes`
+- MCP: `none`
+- 스킬:
+  - `novel-orchestra-conductor`
+  - `progress-ledger`
+- 훅: `none`
+- 하네스: `none`
+- 수정 파일:
+  - `Drafts/Vol_12/Vol_12_Chapter_9.md`
+  - `Drafts/Vol_12/Vol_12_Chapter_10.md`
+  - `orchestra/VOL12_BATCH_5_CHECKPOINT_2026-04-14.md`
+  - `orchestra/DRAFTING_PROGRESS_TRACKER.md`
+  - `orchestra/NEXT_DIALOGUE_HANDOFF.md`
+  - `orchestra/SESSION_STATE.md`
+  - `orchestra/EXECUTION_PROGRESS_LEDGER.md`
+- 결과:
+  - `Descartes` 직전 포인트를 반영해 `제9화`에서 후순위 첨부가 본문을 이기지 못해도 실무자 책임과 재대조 시점마다 다시 펼쳐지는 잔여 문서라는 성격을 고정
+  - `Descartes` 직전 포인트를 반영해 `제10화`에서 반 박자 어긋난 확인이 `재확인`, `순서 재대조 후 진행` 같은 작은 절차 연쇄를 실제로 부르며 다음 호출까지 늦추는 구조를 고정
+  - `Dalton`은 이번 배치 직접 회신 대기 상태였고, 총괄단에서 기존 상업성 메모인 `화말 압박`, `짧은 운영 문장의 압박감`, `다음 화로 미는 잔여감`을 유지해 마감 조정
+  - `Vol_12_Chapter_9.md` 공백 제외 `4010자` 통과
+  - `Vol_12_Chapter_10.md` 공백 제외 `4000자` 통과
+  - `Vol.12 Chapters 9~10`이 다섯 번째 체크포인트를 통과한 것으로 장부와 세션 상태를 동기화
+- 재개 지점:
+  - 제12권 `제11화 이름으로 묶인 밤`
+  - 제12권 `제12화 첫 재대조`
+
+## 2026-04-14 02:18 KST
+
+- 모드: `vol12-batch-6 drafting`
+- 병목: 밤 이름으로 묶인 운영이 실제 첫 재대조를 부르는 순간, 사람 개별 감정보다 이름-장부-절차의 결속이 먼저 작동해야 다음 배치에서 더 큰 비교와 분류 전환이 설득력을 얻는다.
+- 현재 작업: 제12권 `제11화 이름으로 묶인 밤`, `제12화 첫 재대조` 초안 작성 및 하드룰 검증, 체크포인트 고정
+- 다음 작업: 제12권 `제13화`, `제14화`
+- 실행 방식: `총괄 + 전문가 검토 병행`
+- 총괄: `novel-orchestra-conductor`
+- 전문가:
+  - `Dalton`
+  - `Descartes`
+- MCP: `none`
+- 스킬:
+  - `novel-orchestra-conductor`
+  - `progress-ledger`
+- 훅: `none`
+- 하네스: `none`
+- 수정 파일:
+  - `Drafts/Vol_12/Vol_12_Chapter_11.md`
+  - `Drafts/Vol_12/Vol_12_Chapter_12.md`
+  - `orchestra/VOL12_BATCH_6_CHECKPOINT_2026-04-14.md`
+  - `orchestra/DRAFTING_PROGRESS_TRACKER.md`
+  - `orchestra/NEXT_DIALOGUE_HANDOFF.md`
+  - `orchestra/SESSION_STATE.md`
+  - `orchestra/EXECUTION_PROGRESS_LEDGER.md`
+- 결과:
+  - `제11화`에서 밤 이름이 사람과 장부와 책임선을 함께 묶어 아침 대조표로 넘기는 운영 매듭이라는 구조를 고정
+  - `제12화`에서 첫 재대조가 사람을 심문하기보다 체계가 자기 기록끼리 맞지 않는 지점을 다시 읽는 절차라는 구조를 고정
+  - `Dalton`, `Descartes`는 이번 회차 직접 회신 대기 상태였고, 총괄단에서 기존 전문가 메모 축을 이어 장면 리듬과 마감 압박을 정리
+  - `Vol_12_Chapter_11.md` 공백 제외 `4000자` 통과
+  - `Vol_12_Chapter_12.md` 공백 제외 `4000자` 통과
+  - `Vol.12 Chapters 11~12`가 여섯 번째 체크포인트를 통과한 것으로 장부와 세션 상태를 동기화
+- 재개 지점:
+  - 제12권 `제13화`
+  - 제12권 `제14화`
+
+## 2026-04-15 11:39 KST
+
+- 모드: `munpia-immersion harness lock`
+- 병목: 사용자 요청 기준이 `한 사이클`이 아니라 `잠금 가능할 때까지 반복`으로 분명해졌고, 문피아식 몰입 / 설명 과다 억제 / 꼬꼬무식 해설 방지 / 점검 주체를 런타임에 명시적으로 잠글 필요가 생겼다.
+- 현재 작업: 웹소설 연재용 하네스 운영 기준 문서화 및 런타임 규칙 연결
+- 다음 작업: 이후 모든 집필 배치를 `집필 -> 점검 -> 수정 -> 재점검 -> 잠금` 반복 기준으로 운영
+- 실행 방식: `총괄 단일 루프 + 필요 전문가 내장 호출`
+- 총괄: `novel-orchestra-conductor`
+- 전문가:
+  - `serial-tension-engineer`
+  - `hook-doctor`
+  - `chapter-inspector`
+  - `character-voice`
+  - `Korean occult`
+  - `plot & foreshadow`
+  - `canon auditor`
+  - `setting librarian`
+- MCP: `none`
+- 스킬:
+  - `novel-orchestra-conductor`
+  - `progress-ledger`
+- 훅:
+  - `serial-retention-hook`
+  - `tone-guard-hook`
+  - `arc-pressure-hook`
+- 하네스: `munpia immersion harness`
+- 수정 파일:
+  - `orchestra/MUNPIA_IMMERSION_HARNESS_LOCK_2026-04-15.md`
+  - `orchestra/HARNESS_RUNTIME_RULES.md`
+  - `orchestra/SESSION_STATE.md`
+  - `orchestra/EXECUTION_PROGRESS_LEDGER.md`
+- 결과:
+  - `문피아 몰입형 하네스`를 별도 문서로 잠가 집필, 점검, 수정, 재점검, 잠금 판정의 반복 기준을 명시
+  - `꼬꼬무식 설명`, `과서정`, `시스템 냄새`를 웹소설 문체의 주요 금지 패턴으로 잠금
+  - 점검 주체는 사용자 외부 관리가 아니라 총괄 단일 루프이며, 필요 전문가는 내부 하네스로 호출하는 방식으로 정리
+  - 잠금 기준을 `연재 투입 가능 여부`와 `공백 제외 4,000자 하드룰`로 명시
+- 재개 지점:
+  - 다음 집필 배치부터 `제12권 제13화`, `제14화`를 `잠금 가능할 때까지` 반복 루프로 진행
+
+## 2026-04-16 00:00 KST
+
+- 모드: `time-travel craft expansion`
+- 병목: 기존 엔진이 역설계, 복선, 리텐션은 충분히 강하지만 타임트래블 패러독스물 전용 작문법인 인과 가시화, 패러독스 부채, 개입 후 잔재, 재독 공정성을 엔진 본문에 더 명시적으로 잠글 필요가 있었다.
+- 현재 작업: 시간여행 전용 추가 작문법 탐색 및 엔진 반영
+- 다음 작업: 이후 집필 배치에서 `시간 감각 불일치`, `미래 잔향`, `루프 냄새 제거`를 실제 회차 점검 기준으로 적용
+- 실행 방식: `총괄 단독`
+- 총괄: `novel-orchestra-conductor`
+- 전문가:
+  - `timeline-historian`
+  - `paradox-pressure-designer`
+  - `chapter-inspector`
+- MCP: `none`
+- 스킬:
+  - `novel-orchestra-conductor`
+  - `progress-ledger`
+- 훅:
+  - `ending-convergence-hook`
+  - `tone-guard-hook`
+- 하네스:
+  - `storycraft`
+  - `foreshadow`
+- 수정 파일:
+  - `orchestra/TIME_TRAVEL_WRITING_EXPANSION_2026-04-16.md`
+  - `orchestra/RTTP_ENGINE.md`
+  - `orchestra/ENGINE_EXPERT_LOCK.md`
+  - `orchestra/SESSION_STATE.md`
+  - `orchestra/EXECUTION_PROGRESS_LEDGER.md`
+- 결과:
+  - RTTP 엔진에 타임트래블물 전용 추가 작문법 10종을 별도 확장 문서로 잠금
+  - 엔진 본문에 `시간여행 전용 축`을 신설해 인과 가시화, 패러독스 부채, 고정점 위장, 미래 잔향, 개입 후 잔재, 루프 냄새 제거를 명시
+  - 엔진 전문가 잠금 문서에 `timeline-historian`, `paradox-pressure-designer` 역할을 보강
+  - 이후 회차 집필은 단순 복선/리텐션뿐 아니라 `시간축 정보 비대칭`과 `재독 공정성`까지 기본 점검 대상으로 삼음
+- 재개 지점:
+  - 다음 집필 배치부터 `제12권 제13화`, `제14화`를 시간여행 전용 작문법까지 포함한 잠금 루프로 진행
+
+## 2026-04-16 13:10 KST
+
+- 모드: `Vol.1 relock harness`
+- 병목: `Vol_1_Chapter_2.md`는 초반 결은 좋지만 `문체 우선`, `흡입력`, `스토리 전진`, `5,000자 잠금` 기준에는 모자랐고, 미렐 장면 이후 세르칸 압박과 화말 발사력이 약했다.
+- 현재 작업: `Vol_1_Chapter_2.md` 재작성 및 Vol.1 재잠금 1차 배치 체크포인트 고정
+- 다음 작업: `Vol_1_Chapter_3.md`, `Vol_1_Chapter_4.md`를 같은 우선순위 하네스로 재잠금
+- 실행 방식: `오케스트라 총괄 + Dalton/Descartes 진단 반영 + 본문 재작성`
+- 총괄: `novel-orchestra-conductor`
+- 전문가:
+  - `Dalton`
+  - `Descartes`
+  - `hook-doctor`
+  - `chapter-inspector`
+- MCP: `none`
+- 스킬:
+  - `novel-orchestra-conductor`
+  - `progress-ledger`
+- 훅:
+  - `serial-retention-hook`
+  - `tone-guard-hook`
+  - `arc-pressure-hook`
+- 하네스: `munpia priority lock`
+- 수정 파일:
+  - `Drafts/Vol_1/Vol_1_Chapter_2.md`
+  - `orchestra/VOL1_RELOCK_BATCH_1_CHECKPOINT_2026-04-16.md`
+  - `orchestra/DRAFTING_PROGRESS_TRACKER.md`
+  - `orchestra/NEXT_DIALOGUE_HANDOFF.md`
+  - `orchestra/SESSION_STATE.md`
+  - `orchestra/EXECUTION_PROGRESS_LEDGER.md`
+- 결과:
+  - `Vol_1_Chapter_2.md`를 공백 제외 `5000자`로 재잠금
+  - `동전 세 닢`을 `냄새`, `길`, `밤`의 구체 값으로 분리해 제목 기능을 강화
+  - 미렐 장면의 하층 약탕/부적 문화를 유지하면서도 세르칸 진입 실마리와 후반 제분소 정찰을 추가
+  - 화말을 `오늘 밤 진입`과 `리아 시간표` 압박으로 다시 잠금
+- 재개 지점:
+  - `제1권 제3화`
+  - `제1권 제4화`
+
+## 2026-04-16 14:05 KST
+
+- 모드: `Vol.1 relock harness`
+- 병목: `Vol_1_Chapter_3.md`는 침투 결 자체는 좋지만 분량이 짧고, 세르칸 구역이 사람을 갉아먹는 압박과 속창구 직전의 축적이 부족했다.
+- 현재 작업: `Vol_1_Chapter_3.md` 재작성 및 Vol.1 재잠금 2차 체크포인트 고정
+- 다음 작업: `Vol_1_Chapter_4.md`, `Vol_1_Chapter_5.md`를 같은 우선순위 하네스로 재잠금
+- 실행 방식: `오케스트라 총괄 + Dalton 진단 반영 + 본문 재작성`
+- 총괄: `novel-orchestra-conductor`
+- 전문가:
+  - `Dalton`
+  - `hook-doctor`
+  - `chapter-inspector`
+- MCP: `none`
+- 스킬:
+  - `novel-orchestra-conductor`
+  - `progress-ledger`
+- 훅:
+  - `serial-retention-hook`
+  - `tone-guard-hook`
+  - `arc-pressure-hook`
+- 하네스: `munpia priority lock`
+- 수정 파일:
+  - `Drafts/Vol_1/Vol_1_Chapter_3.md`
+  - `orchestra/VOL1_RELOCK_BATCH_2_CHECKPOINT_2026-04-16.md`
+  - `orchestra/DRAFTING_PROGRESS_TRACKER.md`
+  - `orchestra/NEXT_DIALOGUE_HANDOFF.md`
+  - `orchestra/SESSION_STATE.md`
+  - `orchestra/EXECUTION_PROGRESS_LEDGER.md`
+- 결과:
+  - `Vol_1_Chapter_3.md`를 공백 제외 `5000자`로 재잠금
+  - 보초 휘파람 대응, 옆굴의 약탈 흔적, 수문 장치, 쥐 떼와 상처 열감을 추가해 세르칸 영역의 더러움과 공포를 보강
+  - 화말을 `밖에서 뭐가 끊어졌어` 직전 정지로 고정해 `제4화` 전투 장면의 진입 압력을 강화
+- 재개 지점:
+  - `제1권 제4화`
+  - `제1권 제5화`
+
+## 2026-04-16 14:33 KST
+
+- 모드: `Vol.1 Chapter 4 second Munpia-pressure pass`
+- 병목: 제4화는 구조는 강했지만 전투 중간 해설과 화말 설명이 조금 남아 있어 `세르칸을 죽인다`보다 `세르칸이 쥐던 권한을 뺏는다`는 맛이 덜 직접적으로 남을 수 있었다. 사용자가 원하는 문피아식 압력을 위해 전투와 장부 탈취, 다음 거래 브리지를 더 직선으로 정리할 필요가 있었다.
+- 현재 작업: `Vol_1_Chapter_4.md` 2차 재보정 및 다음 재개 순서 유지
+- 다음 작업: `Vol_1_Chapter_5.md` 재오픈, 이어서 `Vol_1_Chapter_6.md` 재점검
+- 실행 방식: `오케스트라 총괄 + Dalton/Descartes 진단 반영 + 직접 보정`
+- 총괄: `novel-orchestra-conductor`
+- 전문가:
+  - `Dalton`
+  - `Descartes`
+  - `hook-doctor`
+  - `chapter-inspector`
+- MCP: `none`
+- 스킬:
+  - `novel-orchestra-conductor`
+  - `progress-ledger`
+- 훅:
+  - `serial-retention-hook`
+  - `tone-guard-hook`
+  - `arc-pressure-hook`
+- 하네스: `munpia priority lock`
+- 수정 파일:
+  - `Drafts/Vol_1/Vol_1_Chapter_4.md`
+  - `orchestra/VOL1_RELOCK_BATCH_3_CHECKPOINT_2026-04-16.md`
+  - `orchestra/DRAFTING_PROGRESS_TRACKER.md`
+  - `orchestra/NEXT_DIALOGUE_HANDOFF.md`
+  - `orchestra/SESSION_STATE.md`
+  - `orchestra/EXECUTION_PROGRESS_LEDGER.md`
+- 결과:
+  - `Vol_1_Chapter_4.md`를 공백 제외 `5000자` 상태로 재잠금
+  - 전투 중간 해설을 줄여 `속창구 전투 -> 세르칸 권한 탈취` 리듬을 더 날카롭게 정리
+  - `장부`를 오래 쥘 물건이 아니라 더 비싼 손이 붙기 전에 값을 바꿔야 하는 물건으로 재정의
+  - 화말을 `녹투르에게 값을 받으러 간다`는 직접 브리지로 재잠금
+- 재개 지점:
+  - `제1권 제5화`
+  - `제1권 제6화`
+
+## 2026-04-16 17:34 KST
+
+- 모드: `Vol.1 Chapter 5-6 third Munpia-pressure pass`
+- 병목: `제5화`는 흥정 핵심문장이 추상으로 미끄러졌고, `제6화`는 골목 불일치와 이명 감각 뒤에 해설이 조금 길어져 다음 화 발사 압력이 약해지고 있었다.
+- 현재 작업: `Vol_1_Chapter_5.md`, `Vol_1_Chapter_6.md` 재잠금
+- 다음 작업: `Vol_1_Chapter_7.md`, `Vol_1_Chapter_8.md` 재점검 재개
+- 실행 방식: `오케스트라 총괄 + Dalton/Descartes 점검 반영 + 직접 보정`
+- 총괄: `novel-orchestra-conductor`
+- 전문가:
+  - `Dalton`
+  - `Descartes`
+  - `tone-guard-hook`
+  - `chapter-inspector`
+- MCP: `none`
+- 스킬:
+  - `novel-orchestra-conductor`
+  - `progress-ledger`
+- 훅:
+  - `serial-retention-hook`
+  - `tone-guard-hook`
+  - `arc-pressure-hook`
+- 하네스: `munpia priority lock`
+- 수정 파일:
+  - `Drafts/Vol_1/Vol_1_Chapter_5.md`
+  - `Drafts/Vol_1/Vol_1_Chapter_6.md`
+  - `orchestra/DRAFTING_PROGRESS_TRACKER.md`
+  - `orchestra/NEXT_DIALOGUE_HANDOFF.md`
+  - `orchestra/SESSION_STATE.md`
+  - `orchestra/EXECUTION_PROGRESS_LEDGER.md`
+- 결과:
+  - `Vol_1_Chapter_5.md`를 공백 제외 `5000자` 상태로 재잠금
+  - `녹투르` 흥정의 핵심 거래값을 `빈 길목 몇 시간`으로 구체화해 첫독 압력을 강화
+  - `Vol_1_Chapter_6.md`를 공백 제외 `5000자` 상태로 재잠금
+- 골목 불일치 장면의 해설을 줄이고 `소리 없는 칼` 명명, 추적값 상승, 철표 탈취 목표가 더 직접적으로 남도록 조정
+- 재개 지점:
+  - `제1권 제7화`
+  - `제1권 제8화`
+
+## 2026-04-17 00:00 KST
+
+- 모드: `Vol.1 Chapter 11~21 deep lock`
+- 병목: 사용자가 `$rttp-lock-cycle 11~21화 딥락 5사이클 잠금검수`를 명시했고, 마지막 사이클 무수정 통과 전까지 잠금 완료라고 하지 말라고 고정했다.
+- 현재 작업: `Vol_1_Chapter_11.md` ~ `Vol_1_Chapter_21.md` 딥락 보정 및 5사이클 검수
+- 다음 작업: `Vol_1_Chapter_22.md`, `Vol_1_Chapter_23.md` 잠금검수
+- 실행 방식: `오케스트라 총괄 + rttp-lock-cycle + 직접 보정 + 5사이클 무수정 검수`
+- 총괄: `novel-orchestra-conductor`
+- 전문가:
+  - `hook-doctor`
+  - `time-travel-guard`
+  - `motif-guard`
+  - `chapter-inspector`
+  - `munpia-retention-auditor`
+- MCP: `none`
+- 스킬:
+  - `rttp-lock-cycle`
+- 훅:
+  - `serial-retention-hook`
+  - `time-scent-guard-hook`
+  - `motif-overuse-hook`
+  - `ending-click-hook`
+- 하네스: `deep lock 5-cycle`
+- 수정 파일:
+  - `Drafts/Vol_1/Vol_1_Chapter_11.md`
+  - `Drafts/Vol_1/Vol_1_Chapter_12.md`
+  - `Drafts/Vol_1/Vol_1_Chapter_13.md`
+  - `Drafts/Vol_1/Vol_1_Chapter_14.md`
+  - `Drafts/Vol_1/Vol_1_Chapter_15.md`
+  - `Drafts/Vol_1/Vol_1_Chapter_16.md`
+  - `Drafts/Vol_1/Vol_1_Chapter_17.md`
+  - `Drafts/Vol_1/Vol_1_Chapter_18.md`
+  - `Drafts/Vol_1/Vol_1_Chapter_19.md`
+  - `Drafts/Vol_1/Vol_1_Chapter_20.md`
+  - `Drafts/Vol_1/Vol_1_Chapter_21.md`
+  - `orchestra/VOL1_CHAPTER_11_21_DEEPLOCK_CHECKPOINT_2026-04-17.md`
+  - `orchestra/EXECUTION_PROGRESS_LEDGER.md`
+- 결과:
+  - 제11화~제21화 전부 공백 제외 4,500자 이상으로 보강
+  - strict 금지패턴, old bad phrase, extra time-scent, 화말 strict hit 모두 0건
+  - 18화 `냄새` 모티프 WARN을 추가 수정으로 제거
+  - 최종 5사이클 모두 무수정 통과
+- 최종 글자수:
+  - `11화 4507자`
+  - `12화 4580자`
+  - `13화 4521자`
+  - `14화 4513자`
+  - `15화 4794자`
+  - `16화 4505자`
+  - `17화 4511자`
+  - `18화 4804자`
+  - `19화 4579자`
+  - `20화 4517자`
+  - `21화 5058자`
+- 재개 지점:
+  - `제1권 제22화`
+  - `제1권 제23화`
+
+## 2026-04-17 00:00 KST
+
+- 모드: `전체 21~100화 deep lock attempt`
+- 병목: 사용자가 `Rttp Lock Cycle 21~100화 딥락 5사이클 잠금검수`를 요청했고, 마지막 사이클 무수정 통과 전까지 잠금 완료라고 하지 말라고 명시했다.
+- 현재 작업: `Vol_1_Chapter_21.md` ~ `Vol_4_Chapter_25.md` 초기 딥락 스윕 및 1차 시간회귀 냄새 제거
+- 다음 작업: 분량 미달 73화 장면 단위 보강 후 재검수
+- 실행 방식: `rttp-lock-cycle + bulk time-scent sweep + 5-cycle fail verification`
+- 총괄: `novel-orchestra-conductor`
+- 전문가:
+  - `time-travel-guard`
+  - `motif-guard`
+  - `chapter-inspector`
+  - `munpia-retention-auditor`
+- MCP: `none`
+- 스킬:
+  - `rttp-lock-cycle`
+- 훅:
+  - `time-scent-guard-hook`
+  - `motif-overuse-hook`
+  - `ending-click-hook`
+- 하네스: `deep lock 5-cycle`
+- 수정 파일:
+  - `Drafts/Vol_1/Vol_1_Chapter_21.md` ~ `Drafts/Vol_4/Vol_4_Chapter_25.md`
+  - `orchestra/VOL1_4_CHAPTER_21_100_DEEPLOCK_FAIL_LEDGER_2026-04-17.md`
+  - `orchestra/EXECUTION_PROGRESS_LEDGER.md`
+  - `orchestra/runs/VOL1_4_CH21_100_INITIAL_SWEEP_2026-04-17.csv`
+  - `orchestra/runs/VOL1_4_CH21_100_AFTER_BULK_SWEEP_2026-04-17.csv`
+- 결과:
+  - 대상 80화 파일 매핑 완료
+  - 초기 strict 금지패턴 `1,146건`을 1차 수정 후 `0건`으로 제거
+  - old bad phrase `0건`
+  - 화말 strict `89건`을 `0건`으로 제거
+  - extra time-scent `27건` 직접 치환
+  - 최종 5사이클 결과 `FAIL 73화`, `WARN 2화`, `OK 5화`
+  - 최종 상태는 `재수정 필요`
+  - `잠금 완료` 아님
+- 재개 지점:
+  - `전체 22화`
+  - `Vol_1_Chapter_22.md`부터 장면 단위 보강
+
+## 2026-04-16 17:35 KST
+
+- 모드: `Vol.1 Chapter 1~10 rttp-lock-cycle deeplock`
+- 병목: 사용자가 `마지막 사이클 무수정 통과 전까지 잠금 완료라고 하지 말라`고 명시. 1~10화에 남아 있던 `이번엔`, `몸이 먼저`, `짤그랑`, `먼저`, `값이었다`, `냄새/동전 과다`가 회귀/루트 냄새와 자동 문장 리듬을 만들 수 있었다.
+- 현재 작업: `Vol_1_Chapter_1.md` ~ `Vol_1_Chapter_10.md` 딥락 5사이클 잠금검수
+- 다음 작업: `Vol_1_Chapter_11.md` 동일 하네스 적용
+- 실행 방식: `rttp-lock-cycle + 하네스 5사이클 + 무수정 마지막 사이클`
+- 총괄: `orchestrator`
+- 전문가:
+  - `hook-doctor`
+  - `time-travel-guard`
+  - `motif-overuse-guard`
+  - `clarity-inspector`
+  - `ending-click-inspector`
+- MCP: `none`
+- 스킬:
+  - `rttp-lock-cycle`
+- 훅:
+  - `time-travel-not-regression-hook`
+  - `motif-overuse-hook`
+  - `ending-20-lines-hook`
+  - `old-bad-phrase-hook`
+- 하네스: `deeplock 5-cycle`
+- 수정 파일:
+  - `Drafts/Vol_1/Vol_1_Chapter_1.md`
+  - `Drafts/Vol_1/Vol_1_Chapter_2.md`
+  - `Drafts/Vol_1/Vol_1_Chapter_5.md`
+  - `Drafts/Vol_1/Vol_1_Chapter_6.md`
+  - `Drafts/Vol_1/Vol_1_Chapter_7.md`
+  - `Drafts/Vol_1/Vol_1_Chapter_8.md`
+  - `Drafts/Vol_1/Vol_1_Chapter_9.md`
+  - `Drafts/Vol_1/Vol_1_Chapter_10.md`
+  - `orchestra/VOL1_CHAPTER_1_10_DEEPLOCK_CHECKPOINT_2026-04-16.md`
+- 결과:
+  - 1~10화 엄격 금지패턴 `0건`
+  - old bad phrase `0건`
+  - 화말 20줄 금지패턴 `0건`
+  - 모티프 과다 WARN `0건`
+  - 5사이클 모두 `NO-EDIT HARD FAIL: PASS`
+  - 마지막 사이클 무수정 통과 확인 후 `잠금 완료` 판정
+- 재개 지점:
+  - `제1권 제11화`
+  - `Vol_1_Chapter_11.md`부터 동일 방식으로 계속 진행
+
+## 2026-04-16 18:21 KST
+
+- 모드: `Vol.1 Chapter 7 expansion relock`
+- 병목: Chapter 7 was under-length at `공백 제외 3,621자` and did not cash in the `소리 없는 칼` naming pressure fast enough; it needed a concrete recruit-and-launch close rather than atmospheric setup.
+- 현재 작업: `Vol_1_Chapter_7.md` 확장 재잠금
+- 다음 작업: `Vol_1_Chapter_8.md`, `Vol_1_Chapter_9.md` 재점검 재개
+- 실행 방식: `오케스트라 총괄 + paid-click / time-scent 기준 직접 확장`
+- 총괄: `novel-orchestra-conductor`
+- 전문가:
+  - `serial-tension-engineer`
+  - `hook-doctor`
+  - `payment-beat-auditor`
+  - `paradox-pressure-designer`
+- MCP: `none`
+- 스킬:
+  - `novel-orchestra-conductor`
+  - `progress-ledger`
+- 훅:
+  - `paid-click-hook`
+  - `serial-retention-hook`
+  - `time-scent-hook`
+- 하네스: `munpia priority lock`
+- 수정 파일:
+  - `Drafts/Vol_1/Vol_1_Chapter_7.md`
+  - `orchestra/DRAFTING_PROGRESS_TRACKER.md`
+  - `orchestra/NEXT_DIALOGUE_HANDOFF.md`
+  - `orchestra/SESSION_STATE.md`
+  - `orchestra/EXECUTION_PROGRESS_LEDGER.md`
+- 결과:
+  - `Vol_1_Chapter_7.md`를 공백 제외 `5421자` 상태로 확장 재잠금
+- `소리 없는 칼` 이름값을 첫머리로 끌어올리고, 붉은 용병을 실제로 고용하는 거래 장면까지 완성
+  - 화말을 `오늘 밤, 누구부터 쓰러뜨리면 돼?`로 바꿔 다음 화 실전 압력을 강화
+- 재개 지점:
+  - `제1권 제8화`
+  - `제1권 제9화`
+
+## 2026-04-16 18:08 KST
+
+- 모드: `Vol.1 Chapter 2-6 cross-audit under new hooks`
+- 병목: 사용자가 `동전 소리`, 반복 장치, 회귀처럼 들리는 표현을 직접 지적했고, 이에 따라 `paid-click`, `motif-overuse`, `time-scent` 축으로 초기 화수를 다시 검문할 필요가 생겼다.
+- 현재 작업: `Vol_1_Chapter_2.md` ~ `Vol_1_Chapter_6.md` 전수 재감사 및 필요 교정
+- 다음 작업: `Vol_1_Chapter_7.md`, `Vol_1_Chapter_8.md` 재점검 재개
+- 실행 방식: `오케스트라 총괄 + Dalton/Descartes 점검 반영 + 직접 보정`
+- 총괄: `novel-orchestra-conductor`
+- 전문가:
+  - `Dalton`
+  - `Descartes`
+  - `payment-beat-auditor`
+  - `motif-warden`
+  - `paradox-pressure-designer`
+- MCP: `none`
+- 스킬:
+  - `novel-orchestra-conductor`
+  - `progress-ledger`
+- 훅:
+  - `paid-click-hook`
+  - `motif-overuse-hook`
+  - `time-scent-hook`
+- 하네스: `munpia priority lock`
+- 수정 파일:
+  - `Drafts/Vol_1/Vol_1_Chapter_2.md`
+  - `Drafts/Vol_1/Vol_1_Chapter_3.md`
+  - `orchestra/DRAFTING_PROGRESS_TRACKER.md`
+  - `orchestra/NEXT_DIALOGUE_HANDOFF.md`
+  - `orchestra/SESSION_STATE.md`
+  - `orchestra/EXECUTION_PROGRESS_LEDGER.md`
+- 결과:
+  - `Vol_1_Chapter_2.md`를 공백 제외 `5003자` 상태로 재잠금
+  - `동전/짤그랑` 장치 의존을 낮추고 `이번에는` 계열을 걷어 현재 압박 중심으로 정리
+  - `Vol_1_Chapter_3.md`를 공백 제외 `5001자` 상태로 유지 재잠금
+  - `공략 루트`처럼 읽히기 쉬운 표현을 낮춰 타임트래블 결을 보존
+  - `Vol_1_Chapter_4.md`, `Vol_1_Chapter_5.md`, `Vol_1_Chapter_6.md`는 이번 훅 스윕에서 추가 수정 없이 통과
+- 재개 지점:
+  - `제1권 제7화`
+  - `제1권 제8화`
+
+## 2026-04-16 14:40 KST
+
+- 모드: `Vol.1 Chapter 1 spice pass`
+- 병목: 제1화는 기본 결은 좋지만 첫 20줄이 `좋은 분위기` 쪽으로 읽혀 `찾게 만드는 맛`과 `주인공 상품성`이 덜 매웠다.
+- 현재 작업: `Vol_1_Chapter_1.md` 도입부/종결부 가열
+- 다음 작업: 같은 기준으로 `Vol_1_Chapter_4.md` 전투 파트를 더 맵게 재잠금
+- 실행 방식: `오케스트라 총괄 + Dalton 진단 반영 + 직접 보정`
+- 수정 파일:
+  - `Drafts/Vol_1/Vol_1_Chapter_1.md`
+  - `orchestra/VOL1_RELOCK_BATCH_1_CHECKPOINT_2026-04-16.md`
+  - `orchestra/NEXT_DIALOGUE_HANDOFF.md`
+  - `orchestra/SESSION_STATE.md`
+  - `orchestra/EXECUTION_PROGRESS_LEDGER.md`
+- 결과:
+  - 제1화를 공백 제외 `5051자` 상태로 재조정
+  - 초반에 `셋이 들어올 거라는 감각`, `리아가 번호가 되기 전에 움직여야 한다`를 더 빨리 전면으로 배치
+  - 종결부를 계획 설명보다 `피를 밟고 앞으로 걷는 행동`으로 바꿔 다음 화 압박을 강화
+
+## 2026-04-16 15:05 KST
+
+- 모드: `Vol.1 relock harness`
+- 병목: `Vol_1_Chapter_4.md`는 속창구 전투 자체는 살아 있었지만 잠금 직전 `4996자`에서 멈췄고, 세르칸 장악 이후가 전투 정리처럼 닫혀 다음 화 거래 압박이 덜 선명했다.
+- 현재 작업: `Vol_1_Chapter_4.md` 최종 재잠금 및 Vol.1 재잠금 3차 체크포인트 고정
+- 다음 작업: `Vol_1_Chapter_5.md`, `Vol_1_Chapter_6.md`를 같은 우선순위 하네스로 재잠금
+- 실행 방식: `오케스트라 총괄 + Dalton 진단 반영 + 직접 보정`
+- 총괄: `novel-orchestra-conductor`
+- 전문가:
+  - `Dalton`
+  - `Descartes` `direct reply pending`
+  - `hook-doctor`
+  - `chapter-inspector`
+- MCP: `none`
+- 스킬:
+  - `novel-orchestra-conductor`
+  - `progress-ledger`
+- 훅:
+  - `serial-retention-hook`
+  - `tone-guard-hook`
+  - `arc-pressure-hook`
+- 하네스: `munpia priority lock`
+- 수정 파일:
+  - `Drafts/Vol_1/Vol_1_Chapter_4.md`
+  - `orchestra/VOL1_RELOCK_BATCH_3_CHECKPOINT_2026-04-16.md`
+  - `orchestra/DRAFTING_PROGRESS_TRACKER.md`
+  - `orchestra/NEXT_DIALOGUE_HANDOFF.md`
+  - `orchestra/SESSION_STATE.md`
+  - `orchestra/EXECUTION_PROGRESS_LEDGER.md`
+- 결과:
+  - `Vol_1_Chapter_4.md`를 공백 제외 `5011자`로 재잠금
+  - Dalton 진단을 반영해 화말을 `전투 후 정리`가 아니라 `장부를 누구에게, 얼마나 빨리 팔아야 하는가` 쪽 압박으로 조정
+  - 세르칸 장악이 `첫 승리`보다 `골목의 값과 표식을 바꾸는 첫 장악`으로 읽히게 매듭을 다시 잠금
+- 재개 지점:
+  - `제1권 제5화`
+  - `제1권 제6화`
+
+## 2026-04-16 15:34 KST
+
+- 모드: `Vol.1 relock harness`
+- 병목: `Vol_1_Chapter_5.md`는 거래 장면의 결 자체는 좋았지만 `3767자`로 짧았고, 장부값이 어떻게 `리아로 가는 실제 길`로 바뀌는지가 아직 추상적으로 남아 있었다.
+- 현재 작업: `Vol_1_Chapter_5.md` 재작성 및 Vol.1 재잠금 4차 체크포인트 고정
+- 다음 작업: `Vol_1_Chapter_6.md`, `Vol_1_Chapter_7.md`를 같은 우선순위 하네스로 재잠금
+- 실행 방식: `오케스트라 총괄 + Dalton/Descartes 진단 반영 + 직접 보정`
+- 총괄: `novel-orchestra-conductor`
+- 전문가:
+  - `Dalton`
+  - `Descartes`
+  - `hook-doctor`
+  - `chapter-inspector`
+- MCP: `none`
+- 스킬:
+  - `novel-orchestra-conductor`
+  - `progress-ledger`
+- 훅:
+  - `serial-retention-hook`
+  - `tone-guard-hook`
+  - `arc-pressure-hook`
+- 하네스: `munpia priority lock`
+- 수정 파일:
+  - `Drafts/Vol_1/Vol_1_Chapter_5.md`
+  - `orchestra/VOL1_RELOCK_BATCH_4_CHECKPOINT_2026-04-16.md`
+  - `orchestra/DRAFTING_PROGRESS_TRACKER.md`
+  - `orchestra/NEXT_DIALOGUE_HANDOFF.md`
+  - `orchestra/SESSION_STATE.md`
+  - `orchestra/EXECUTION_PROGRESS_LEDGER.md`
+- 결과:
+  - `Vol_1_Chapter_5.md`를 공백 제외 `5010자`로 재잠금
+  - Dalton 포인트를 반영해 거래를 `사람값과 비밀값이 처음 뒤집히는 장면`으로 밀고, 표정과 침묵과 가격 조정으로 긴장을 재배치
+  - Descartes 포인트를 반영해 세르칸 장악의 가치가 `현금`, `통행표`, `뒤문 패`, `운반수 추적`으로 구체화되게 보강
+  - 화말을 `다음은 사람이다` 수준에서 멈추지 않고 `저 수레를 끄는 둘 중 하나를 붙잡는다`는 구체 목표로 재잠금
+- 재개 지점:
+  - `제1권 제6화`
+  - `제1권 제7화`
+
+## 2026-04-16 16:18 KST
+
+- 모드: `Vol.1 relock harness`
+- 병목: `Vol_1_Chapter_6.md`는 `기억의 오차`와 `첫 이명`의 소재는 좋았지만 `3653자`로 짧았고, 이상 현상이 실제 추적 진전과 7화 발사대로 이어지는 힘이 약했다.
+- 현재 작업: `Vol_1_Chapter_6.md` 재작성 및 Vol.1 재잠금 5차 체크포인트 고정
+- 다음 작업: `Vol_1_Chapter_7.md`, `Vol_1_Chapter_8.md`를 같은 우선순위 하네스로 재잠금
+- 실행 방식: `오케스트라 총괄 + Dalton/Descartes 진단 반영 + 직접 보정`
+- 총괄: `novel-orchestra-conductor`
+- 전문가:
+  - `Dalton`
+  - `Descartes`
+  - `hook-doctor`
+  - `chapter-inspector`
+- MCP: `none`
+- 스킬:
+  - `novel-orchestra-conductor`
+  - `progress-ledger`
+- 훅:
+  - `serial-retention-hook`
+  - `tone-guard-hook`
+  - `arc-pressure-hook`
+- 하네스: `munpia priority lock`
+- 수정 파일:
+  - `Drafts/Vol_1/Vol_1_Chapter_6.md`
+  - `orchestra/VOL1_RELOCK_BATCH_5_CHECKPOINT_2026-04-16.md`
+  - `orchestra/DRAFTING_PROGRESS_TRACKER.md`
+  - `orchestra/NEXT_DIALOGUE_HANDOFF.md`
+  - `orchestra/SESSION_STATE.md`
+  - `orchestra/EXECUTION_PROGRESS_LEDGER.md`
+- 결과:
+  - `Vol_1_Chapter_6.md`를 공백 제외 `5001자`로 재잠금
+- Dalton 포인트를 반영해 `없어야 할 자리가 없다`는 충격을 더 빨리 전면에 올리고, `소리 없는 칼`이 붙는 순간이 단순 분위기가 아니라 추적값 상승으로 읽히게 재조정
+  - Descartes 포인트를 반영해 6화를 `계획이 틀어지기 시작하는 화`로 바꾸고, 혼자 계산하는 방식의 한계와 `칼을 맡길 손 하나` 필요성을 7화 발사대로 연결
+  - 숨은 문, 철표 구조, 노꾼 습관, 추적자 유입, 별명 형성을 한 화 안에서 실제 전진으로 묶음
+- 재개 지점:
+  - `제1권 제7화`
+  - `제1권 제8화`
+
+## 2026-04-16 17:06 KST
+
+- 모드: `Vol.1 Chapter 1 line correction`
+- 병목: 사용자가 첫 장면의 `감지 못한 눈`, `이번에도 늦으면`을 직접 지적했고, 전자는 기계어처럼 들리고 후자는 회귀/루프 뉘앙스를 만들어 타임트래블 오프닝 결을 흐리고 있었다.
+- 현재 작업: `Vol_1_Chapter_1.md` 첫 장면 문장 교정 및 회귀 냄새 제거
+- 다음 작업: `Vol_1_Chapter_5.md`, `Vol_1_Chapter_6.md` 재점검 재개
+- 실행 방식: `오케스트라 총괄 + Dalton/Descartes 점검 반영 + 직접 보정`
+- 총괄: `novel-orchestra-conductor`
+- 전문가:
+  - `Dalton`
+  - `Descartes`
+  - `tone-guard-hook`
+  - `chapter-inspector`
+- MCP: `none`
+- 스킬:
+  - `novel-orchestra-conductor`
+  - `progress-ledger`
+- 훅:
+  - `serial-retention-hook`
+  - `tone-guard-hook`
+  - `arc-pressure-hook`
+- 하네스: `munpia priority lock`
+- 수정 파일:
+  - `Drafts/Vol_1/Vol_1_Chapter_1.md`
+  - `orchestra/DRAFTING_PROGRESS_TRACKER.md`
+  - `orchestra/NEXT_DIALOGUE_HANDOFF.md`
+  - `orchestra/SESSION_STATE.md`
+  - `orchestra/EXECUTION_PROGRESS_LEDGER.md`
+- 결과:
+  - `Vol_1_Chapter_1.md`를 공백 제외 `5025자` 상태로 미세 재잠금
+  - `감지 못한 눈`을 `그를 알아보지 못한 눈`으로 바꿔 관계 감각을 살리고 기계 어휘를 제거
+  - `이번에도 늦으면`을 걷어내 회귀성 반복 인상을 제거하고 현재 시점 압박으로 정리
+- 재개 지점:
+  - `제1권 제5화`
+  - `제1권 제6화`
+
+## 2026-04-16 13:50 KST
+
+- 모드: `Vol.1 Chapter 1 third Munpia-pressure pass`
+- 병목: 사용자 지시가 `1화부터 다시`였는데 직전 핸드오프 기준으로 `제7화`부터 이어지려던 흐름이 남아 있었다. 본문과 장부 둘 다 `제1화 기준 재시작`으로 다시 맞출 필요가 있었다.
+- 현재 작업: `Vol_1_Chapter_1.md` 3차 재보정 및 재개 순서 교정
+- 다음 작업: `Vol_1_Chapter_2.md` 재오픈, 이어서 `Vol_1_Chapter_3.md` 재점검
+- 실행 방식: `오케스트라 총괄 + Dalton/Descartes 진단 반영 + 직접 보정`
+- 총괄: `novel-orchestra-conductor`
+- 전문가:
+  - `Dalton`
+  - `Descartes`
+  - `hook-doctor`
+  - `chapter-inspector`
+- MCP: `none`
+- 스킬:
+  - `novel-orchestra-conductor`
+  - `progress-ledger`
+- 훅:
+  - `serial-retention-hook`
+  - `tone-guard-hook`
+  - `arc-pressure-hook`
+- 하네스: `munpia priority lock`
+- 수정 파일:
+  - `Drafts/Vol_1/Vol_1_Chapter_1.md`
+  - `orchestra/VOL1_RELOCK_BATCH_1_CHECKPOINT_2026-04-16.md`
+  - `orchestra/DRAFTING_PROGRESS_TRACKER.md`
+  - `orchestra/NEXT_DIALOGUE_HANDOFF.md`
+  - `orchestra/SESSION_STATE.md`
+  - `orchestra/EXECUTION_PROGRESS_LEDGER.md`
+- 결과:
+  - `Vol_1_Chapter_1.md`를 공백 제외 `5023자` 상태로 다시 잠금
+  - 초반 배경 설명부를 더 짧게 눌러 `셋의 순서`, `리아`, `번호 702`, `즉시 위협`의 압력을 유지
+  - `값이 매겨지는 소리`를 더 구체적인 몸 감각으로 정리
+  - 화말을 `리아를 숫자로 부르는 쪽보다 먼저 간다`는 직접 압력으로 재잠금
+- 재개 지점:
+  - `제1권 제2화`
+  - `제1권 제3화`
+
+## 2026-04-16 14:05 KST
+
+- 모드: `Vol.1 Chapter 2 second Munpia-pressure pass`
+- 병목: 제1화 재보정 후 `제2화`가 여전히 기능은 맞지만 초반 해설과 화말 결의문이 약간 정리형으로 남아 있었다. `동전 세 닢`이 실제 거래 압력과 리아 시간표 압박으로 더 또렷하게 읽히게 다시 다듬을 필요가 있었다.
+- 현재 작업: `Vol_1_Chapter_2.md` 2차 재보정 및 재개 순서 유지
+- 다음 작업: `Vol_1_Chapter_3.md` 재오픈, 이어서 `Vol_1_Chapter_4.md` 재점검
+- 실행 방식: `오케스트라 총괄 + Dalton/Descartes 진단 반영 + 직접 보정`
+- 총괄: `novel-orchestra-conductor`
+- 전문가:
+  - `Dalton`
+  - `Descartes`
+  - `hook-doctor`
+  - `chapter-inspector`
+- MCP: `none`
+- 스킬:
+  - `novel-orchestra-conductor`
+  - `progress-ledger`
+- 훅:
+  - `serial-retention-hook`
+  - `tone-guard-hook`
+  - `arc-pressure-hook`
+- 하네스: `munpia priority lock`
+- 수정 파일:
+  - `Drafts/Vol_1/Vol_1_Chapter_2.md`
+  - `orchestra/VOL1_RELOCK_BATCH_1_CHECKPOINT_2026-04-16.md`
+  - `orchestra/DRAFTING_PROGRESS_TRACKER.md`
+  - `orchestra/NEXT_DIALOGUE_HANDOFF.md`
+  - `orchestra/SESSION_STATE.md`
+  - `orchestra/EXECUTION_PROGRESS_LEDGER.md`
+- 결과:
+  - `Vol_1_Chapter_2.md`를 공백 제외 `5002자` 상태로 재잠금
+  - 초반 시간 울림 구간의 해설을 줄이고 `값이 세어지는 감각`으로 정리
+  - 미렐 장면에서 설명보다 거래 태도와 값 매김이 더 먼저 남게 조정
+  - 화말을 `제분소 진입 결의`보다 `세르칸을 늦게 자르면 리아 시간이 밀린다`는 직접 압력으로 재잠금
+- 재개 지점:
+  - `제1권 제3화`
+  - `제1권 제4화`
+
+## 2026-04-16 14:18 KST
+
+- 모드: `Vol.1 Chapter 3 second Munpia-pressure pass`
+- 병목: 제3화는 구조는 튼튼했지만 통로 설명과 함정 판단문이 조금 길어지며 `장애물 공략` 쪽으로 기울 수 있었다. 사용자가 원하는 문피아식 몰입을 위해 `설명`보다 `즉시 들키는 압박`과 `세르칸이 장부부터 챙겨 숨는 시간 공포`를 더 앞세울 필요가 있었다.
+- 현재 작업: `Vol_1_Chapter_3.md` 2차 재보정 및 다음 재개 순서 유지
+- 다음 작업: `Vol_1_Chapter_4.md` 재오픈, 이어서 `Vol_1_Chapter_5.md` 재점검
+- 실행 방식: `오케스트라 총괄 + Dalton/Descartes 진단 반영 + 직접 보정`
+- 총괄: `novel-orchestra-conductor`
+- 전문가:
+  - `Dalton`
+  - `Descartes`
+  - `hook-doctor`
+  - `chapter-inspector`
+- MCP: `none`
+- 스킬:
+  - `novel-orchestra-conductor`
+  - `progress-ledger`
+- 훅:
+  - `serial-retention-hook`
+  - `tone-guard-hook`
+  - `arc-pressure-hook`
+- 하네스: `munpia priority lock`
+- 수정 파일:
+  - `Drafts/Vol_1/Vol_1_Chapter_3.md`
+  - `orchestra/VOL1_RELOCK_BATCH_2_CHECKPOINT_2026-04-16.md`
+  - `orchestra/DRAFTING_PROGRESS_TRACKER.md`
+  - `orchestra/NEXT_DIALOGUE_HANDOFF.md`
+  - `orchestra/SESSION_STATE.md`
+  - `orchestra/EXECUTION_PROGRESS_LEDGER.md`
+- 결과:
+  - `Vol_1_Chapter_3.md`를 공백 제외 `5002자` 상태로 재잠금
+  - 초반 제분소 외형 설명을 더 짧게 눌러 침투 진입 압력을 앞당김
+  - 쥐 떼/함정 구간의 판단 해설을 줄이고 `안 쓰면 여기서 물어뜯긴다`는 반응 압력으로 정리
+  - 화말 직전 선언형 결의문을 덜고 `세르칸과 장부가 바로 앞에 있다`는 감각 뒤에 마지막 감지 대사를 배치
+- 재개 지점:
+  - `제1권 제4화`
+  - `제1권 제5화`
+
+## 2026-04-16 16:42 KST
+
+- 모드: `Vol.1 Chapter 1 second clarity pass`
+- 병목: 사용자가 `막연한 문체`를 다시 짚었고, 제1화 초반/화말에 아직 선언형 추상문과 정리형 마감이 남아 있어 첫 화 상품성을 더 또렷하게 세울 필요가 있었다.
+- 현재 작업: `Vol_1_Chapter_1.md` 새 기준 재검수 및 문체/발사축 보정
+- 다음 작업: `Vol_1_Chapter_7.md`, `Vol_1_Chapter_8.md` 재잠금
+- 실행 방식: `오케스트라 총괄 + Dalton 진단 반영 + 직접 보정`
+- 총괄: `novel-orchestra-conductor`
+- 전문가:
+  - `Dalton`
+  - `Descartes` `direct reply pending`
+  - `hook-doctor`
+  - `chapter-inspector`
+- MCP: `none`
+- 스킬:
+  - `novel-orchestra-conductor`
+  - `progress-ledger`
+- 훅:
+  - `serial-retention-hook`
+  - `tone-guard-hook`
+  - `arc-pressure-hook`
+- 하네스: `munpia priority lock`
+- 수정 파일:
+  - `Drafts/Vol_1/Vol_1_Chapter_1.md`
+  - `orchestra/VOL1_RELOCK_BATCH_1_CHECKPOINT_2026-04-16.md`
+  - `orchestra/DRAFTING_PROGRESS_TRACKER.md`
+  - `orchestra/NEXT_DIALOGUE_HANDOFF.md`
+  - `orchestra/SESSION_STATE.md`
+  - `orchestra/EXECUTION_PROGRESS_LEDGER.md`
+- 결과:
+  - `Vol_1_Chapter_1.md`를 공백 제외 `5055자` 상태로 재잠금 유지
+  - 초반 `잘못 겹쳐졌다`류 선언을 줄이고 `셋의 순서`, `번호 702`, `리아`, `즉시 위협`이 먼저 보이게 정리
+  - 화말을 `앞으로 걸었다`보다 `미렐 -> 세르칸 -> 학회` 발사대가 더 분명한 방향 전환으로 조정
+- 재개 지점:
+  - `제1권 제7화`
+  - `제1권 제8화`
+## 2026-04-17 KST
+
+- 모드: `Vol.1~2 Chapter 22~26 deeplock 5-cycle`
+- 범위:
+  - 전체 22화: `Drafts/Vol_1/Vol_1_Chapter_22.md`
+  - 전체 23화: `Drafts/Vol_1/Vol_1_Chapter_23.md`
+  - 전체 24화: `Drafts/Vol_1/Vol_1_Chapter_24.md`
+  - 전체 25화: `Drafts/Vol_1/Vol_1_Chapter_25.md`
+  - 전체 26화: `Drafts/Vol_2/Vol_2_Chapter_1.md`
+- 실행 방식: `$rttp-lock-cycle` 딥락 5사이클 잠금검수
+- 총괄: `RTTP lock-cycle orchestrator`
+- 전문가:
+  - `hook-pressure-auditor`
+  - `prose-clarity-auditor`
+  - `time-scent-guard`
+  - `motif-repeat-guard`
+  - `canon-continuity-auditor`
+- MCP: `none`
+- 스킬:
+  - `rttp-lock-cycle`
+- 훅:
+  - `first-20-lines-hook`
+  - `ending-click-hook`
+  - `time-travel-not-regression-hook`
+  - `motif-overuse-hook`
+- 수정 파일:
+  - `Drafts/Vol_1/Vol_1_Chapter_22.md`
+  - `Drafts/Vol_1/Vol_1_Chapter_23.md`
+  - `Drafts/Vol_1/Vol_1_Chapter_24.md`
+  - `Drafts/Vol_1/Vol_1_Chapter_25.md`
+  - `Drafts/Vol_2/Vol_2_Chapter_1.md`
+  - `orchestra/VOL1_2_CHAPTER_22_26_DEEPLOCK_CHECKPOINT_2026-04-17.md`
+  - `orchestra/EXECUTION_PROGRESS_LEDGER.md`
+- 결과:
+  - 전체 22화: 공백 제외 4,653자, 5사이클 무수정 통과
+  - 전체 23화: 공백 제외 4,704자, 5사이클 무수정 통과
+  - 전체 24화: 공백 제외 4,511자, 5사이클 무수정 통과
+  - 전체 25화: 공백 제외 4,509자, 5사이클 무수정 통과
+  - 전체 26화: 공백 제외 4,671자, 5사이클 무수정 통과
+  - Strict/Old/Extra/Ending/Motif 최종 5사이클 모두 0
+  - 판정: `잠금 완료`
+- 다음 재개 지점:
+  - 전체 27화~31화
+  - `Drafts/Vol_2/Vol_2_Chapter_2.md` ~ `Drafts/Vol_2/Vol_2_Chapter_6.md`
+## 2026-04-17 KST
+
+- 모드: `Vol.2 Chapter 2~6 deeplock 5-cycle`
+- 범위:
+  - 전체 27화: `Drafts/Vol_2/Vol_2_Chapter_2.md`
+  - 전체 28화: `Drafts/Vol_2/Vol_2_Chapter_3.md`
+  - 전체 29화: `Drafts/Vol_2/Vol_2_Chapter_4.md`
+  - 전체 30화: `Drafts/Vol_2/Vol_2_Chapter_5.md`
+  - 전체 31화: `Drafts/Vol_2/Vol_2_Chapter_6.md`
+- 실행 방식: `$rttp-lock-cycle` 딥락 5사이클 잠금검수
+- 총괄: `RTTP lock-cycle orchestrator`
+- 전문가:
+  - `hook-pressure-auditor`
+  - `prose-clarity-auditor`
+  - `time-scent-guard`
+  - `motif-repeat-guard`
+  - `canon-continuity-auditor`
+- MCP: `none`
+- 스킬:
+  - `rttp-lock-cycle`
+- 훅:
+  - `first-20-lines-hook`
+  - `ending-click-hook`
+  - `time-travel-not-regression-hook`
+  - `motif-overuse-hook`
+  - `munpia-pressure-hook`
+- 수정 파일:
+  - `Drafts/Vol_2/Vol_2_Chapter_2.md`
+  - `Drafts/Vol_2/Vol_2_Chapter_3.md`
+  - `Drafts/Vol_2/Vol_2_Chapter_4.md`
+  - `Drafts/Vol_2/Vol_2_Chapter_5.md`
+  - `Drafts/Vol_2/Vol_2_Chapter_6.md`
+  - `orchestra/VOL2_CHAPTER_2_6_DEEPLOCK_CHECKPOINT_2026-04-17.md`
+  - `orchestra/EXECUTION_PROGRESS_LEDGER.md`
+- 결과:
+  - 전체 27화: 공백 제외 4,601자, 최종 5사이클 무수정 통과
+  - 전체 28화: 공백 제외 4,520자, 최종 5사이클 무수정 통과
+  - 전체 29화: 공백 제외 4,635자, 최종 5사이클 무수정 통과
+  - 전체 30화: 공백 제외 4,600자, 최종 5사이클 무수정 통과
+  - 전체 31화: 공백 제외 4,574자, 최종 5사이클 무수정 통과
+  - 첫 5사이클에서 29화 화말 `알았다.` 계열 종결이 FAIL 처리됨
+  - 화말 문장 보정 후 새 5사이클에서 Strict/Old/Ending/MotifWarn 모두 0
+  - 판정: `잠금 완료`
+- 다음 재개 지점:
+  - 전체 32화~36화
+  - `Drafts/Vol_2/Vol_2_Chapter_7.md` ~ `Drafts/Vol_2/Vol_2_Chapter_11.md`
+
+## 2026-04-17 KST
+
+- 모드: `Vol.1 Chapter 22~25 + Vol.2 Chapter 1 deeplock recheck`
+- 범위:
+  - 전체 22화: `Drafts/Vol_1/Vol_1_Chapter_22.md`
+  - 전체 23화: `Drafts/Vol_1/Vol_1_Chapter_23.md`
+  - 전체 24화: `Drafts/Vol_1/Vol_1_Chapter_24.md`
+  - 전체 25화: `Drafts/Vol_1/Vol_1_Chapter_25.md`
+  - 전체 26화: `Drafts/Vol_2/Vol_2_Chapter_1.md`
+- 실행 방식: `$rttp-lock-cycle` 딥락 5사이클 잠금검수
+- 총괄: `RTTP lock-cycle orchestrator`
+- 전문가:
+  - `hook-pressure-auditor`
+  - `prose-clarity-auditor`
+  - `time-scent-guard`
+  - `motif-repeat-guard`
+  - `canon-continuity-auditor`
+- MCP: `none`
+- 스킬:
+  - `rttp-lock-cycle`
+- 훅:
+  - `first-20-lines-hook`
+  - `ending-click-hook`
+  - `time-travel-not-regression-hook`
+  - `motif-overuse-hook`
+  - `munpia-pressure-hook`
+- 수정 파일:
+  - `Drafts/Vol_1/Vol_1_Chapter_22.md`
+  - `Drafts/Vol_1/Vol_1_Chapter_23.md`
+  - `Drafts/Vol_1/Vol_1_Chapter_24.md`
+  - `Drafts/Vol_1/Vol_1_Chapter_25.md`
+  - `Drafts/Vol_2/Vol_2_Chapter_1.md`
+  - `orchestra/VOL1_2_CHAPTER_22_26_DEEPLOCK_CHECKPOINT_2026-04-17.md`
+  - `orchestra/EXECUTION_PROGRESS_LEDGER.md`
+- 결과:
+  - 전체 22화: 공백 제외 4,677자, 최종 5사이클 무수정 통과
+  - 전체 23화: 공백 제외 4,705자, 최종 5사이클 무수정 통과
+  - 전체 24화: 공백 제외 4,512자, 최종 5사이클 무수정 통과
+  - 전체 25화: 공백 제외 4,522자, 최종 5사이클 무수정 통과
+  - 전체 26화: 공백 제외 4,687자, 최종 5사이클 무수정 통과
+  - 26화 화말 `알았다.` 계열 종결이 추가 FAIL 처리되어 장면형 문장으로 보정됨
+  - 보정 후 새 5사이클에서 Strict/Old/Ending/MotifWarn 모두 0
+  - 판정: `잠금 완료`
+- 다음 재개 지점:
+  - 전체 27화~31화가 이미 별도 딥락 완료되어 있으므로, 다음 작업은 전체 32화~36화
+  - `Drafts/Vol_2/Vol_2_Chapter_7.md` ~ `Drafts/Vol_2/Vol_2_Chapter_11.md`
+## 2026-04-17 KST
+
+- Mode: `context-handoff-rule-lock`
+- User fixed rule: when context gets too long, summarize the work and write the next-window continuation instructions before moving on.
+- Required handoff files:
+  - `orchestra/NEXT_DIALOGUE_HANDOFF.md`
+  - `orchestra/SESSION_STATE.md`
+  - `orchestra/EXECUTION_PROGRESS_LEDGER.md`
+- Handoff must include:
+  - last verified locked range
+  - active incomplete range, if any
+  - changed files
+  - unresolved FAIL items, if any
+  - exact next-window prompt
+- Guard: never call an incomplete range locked because the chat is ending.
+- Current RTTP restart point: 27~40화 locked; next range is 41~45화 under `$rttp-lock-cycle` deeplock 5-cycle gate.
+
+## 2026-04-17 KST - RTTP DeepLock 41~45 Complete
+
+- Mode: `$rttp-lock-cycle` deep-lock 5-cycle gate.
+- Work summary: 41~45화 revised and verified for length floor, time-scent guard, motif repetition, clarity, and ending pressure.
+- Last verified locked range: 27~45화.
+- Active incomplete range: none.
+- Changed files:
+  - `Drafts/Vol_2/Vol_2_Chapter_16.md`
+  - `Drafts/Vol_2/Vol_2_Chapter_17.md`
+  - `Drafts/Vol_2/Vol_2_Chapter_18.md`
+  - `Drafts/Vol_2/Vol_2_Chapter_19.md`
+  - `Drafts/Vol_2/Vol_2_Chapter_20.md`
+  - `orchestra/VOL2_CHAPTER_16_20_DEEPLOCK_CHECKPOINT_2026-04-17.md`
+- Final no-space counts: 41화 4,534 / 42화 4,513 / 43화 4,516 / 44화 4,512 / 45화 4,508.
+- Final gate: 5 cycles, no edits during/after cycles, all PASS.
+- Unresolved FAIL items: none.
+- Next exact prompt: `Rttp Lock Cycle 46~50화 딥락 5사이클 잠금검수. 분량 미달, 시간회귀 냄새, 반복어, 화말 압력까지 고치고 마지막 무수정 통과 전까지 잠금 완료라고 하지 마.`
+
+## 2026-04-17 KST - RTTP DeepLock 46~50 Complete
+
+- Mode: `$rttp-lock-cycle` deep-lock 5-cycle gate.
+- Work summary: 46~50화 revised and verified for length floor, time-scent guard, motif repetition, clarity, and ending pressure.
+- Last verified locked range: 27~50화.
+- Active incomplete range: none.
+- Changed files:
+  - `Drafts/Vol_2/Vol_2_Chapter_21.md`
+  - `Drafts/Vol_2/Vol_2_Chapter_22.md`
+  - `Drafts/Vol_2/Vol_2_Chapter_23.md`
+  - `Drafts/Vol_2/Vol_2_Chapter_24.md`
+  - `Drafts/Vol_2/Vol_2_Chapter_25.md`
+  - `orchestra/VOL2_CHAPTER_21_25_DEEPLOCK_CHECKPOINT_2026-04-17.md`
+- Final no-space counts: 46화 4,617 / 47화 4,668 / 48화 4,508 / 49화 4,600 / 50화 4,516.
+- Final gate: 5 cycles, no edits during/after cycles, all PASS.
+- Unresolved FAIL items: none.
+- Next exact prompt: `Rttp Lock Cycle 51~55화 딥락 5사이클 잠금검수. 분량 미달, 시간회귀 냄새, 반복어, 화말 압력까지 고치고 마지막 무수정 통과 전까지 잠금 완료라고 하지 마.`
+
+## 2026-04-17 KST - RTTP DeepLock 51~55 Complete
+
+- Mode: `$rttp-lock-cycle` deep-lock 5-cycle gate.
+- Work summary: 51~55화 revised and verified for length floor, time-scent guard, motif repetition, clarity, and ending pressure.
+- Last verified locked range: 27~55화.
+- Active incomplete range: none.
+- Changed files:
+  - `Drafts/Vol_3/Vol_3_Chapter_1.md`
+  - `Drafts/Vol_3/Vol_3_Chapter_2.md`
+  - `Drafts/Vol_3/Vol_3_Chapter_3.md`
+  - `Drafts/Vol_3/Vol_3_Chapter_4.md`
+  - `Drafts/Vol_3/Vol_3_Chapter_5.md`
+  - `orchestra/VOL3_CHAPTER_1_5_DEEPLOCK_CHECKPOINT_2026-04-17.md`
+- Final no-space counts: 51화 4,509 / 52화 4,617 / 53화 4,648 / 54화 4,657 / 55화 4,525.
+- Final gate: 5 cycles, no edits during/after cycles, all PASS.
+- Unresolved FAIL items: none.
+- Next exact prompt: `Rttp Lock Cycle 56~60화 딥락 5사이클 잠금검수. 분량 미달, 시간회귀 냄새, 반복어, 화말 압력까지 고치고 마지막 무수정 통과 전까지 잠금 완료라고 하지 마.`
+
+## 2026-04-18 KST - RTTP DeepLock 56~60 Complete
+
+- Mode: `$rttp-lock-cycle` deep-lock 5-cycle gate.
+- Work summary: 56~60화 revised and verified for length floor, time-scent guard, motif repetition, clarity, ending pressure, and `문장어색시 원복`.
+- Last verified locked range: 27~60화.
+- Active incomplete range: none.
+- Changed files:
+  - `Drafts/Vol_3/Vol_3_Chapter_6.md`
+  - `Drafts/Vol_3/Vol_3_Chapter_7.md`
+  - `Drafts/Vol_3/Vol_3_Chapter_8.md`
+  - `Drafts/Vol_3/Vol_3_Chapter_9.md`
+  - `Drafts/Vol_3/Vol_3_Chapter_10.md`
+  - `orchestra/VOL3_CHAPTER_6_10_DEEPLOCK_CHECKPOINT_2026-04-18.md`
+- Final no-space counts: 56화 4,503 / 57화 4,532 / 58화 4,505 / 59화 4,506 / 60화 4,519.
+- Final gate: 5 cycles, no edits during/after cycles, all PASS.
+- Unresolved FAIL items: none.
+- Next exact prompt: `Rttp Lock Cycle 61~65화 딥락 5사이클 잠금검수. 분량 미달, 시간회귀 냄새, 반복어, 화말 압력까지 고치고 마지막 무수정 통과 전까지 잠금 완료라고 하지 마. 문장어색시 원복`
+
+## 2026-04-18 KST - RTTP DeepLock 61~65 Complete
+
+- Mode: `$rttp-lock-cycle` deep-lock 5-cycle gate.
+- Work summary: 61~65화 revised and verified for length floor, time-scent guard, motif repetition, clarity, ending pressure, and `문장어색시 원복`.
+- Last verified locked range: 27~65화
+- Active incomplete range: none.
+- Changed files:
+  - `Drafts/Vol_3/Vol_3_Chapter_11.md`
+  - `Drafts/Vol_3/Vol_3_Chapter_12.md`
+  - `Drafts/Vol_3/Vol_3_Chapter_13.md`
+  - `Drafts/Vol_3/Vol_3_Chapter_14.md`
+  - `Drafts/Vol_3/Vol_3_Chapter_15.md`
+  - `orchestra/VOL3_CHAPTER_11_15_DEEPLOCK_CHECKPOINT_2026-04-18.md`
+- Final no-space counts: 61화 4,524 / 62화 4,506 / 63화 4,626 / 64화 4,506 / 65화 4,508.
+- Final gate: 5 cycles, no edits during/after cycles, all PASS.
+- Unresolved FAIL items: none.
+- Next exact prompt: `Rttp Lock Cycle 66~70화 딥락 5사이클 잠금검수. 분량 미달, 시간회귀 냄새, 반복어, 화말 압력까지 고치고 마지막 무수정 통과 전까지 잠금 완료라고 하지 마. 문장어색시 원복`
+
+## 2026-04-18 KST - RTTP DeepLock 66~70 Complete
+
+- Mode: `$rttp-lock-cycle` deep-lock 5-cycle gate.
+- Work summary: 66~70화 revised and verified for length floor, time-scent guard, motif repetition, clarity, ending pressure, and `문장어색시 원복`.
+- Last verified locked range: 27~70화
+- Active incomplete range: none.
+- Changed files:
+  - `Drafts/Vol_3/Vol_3_Chapter_16.md`
+  - `Drafts/Vol_3/Vol_3_Chapter_17.md`
+  - `Drafts/Vol_3/Vol_3_Chapter_18.md`
+  - `Drafts/Vol_3/Vol_3_Chapter_19.md`
+  - `Drafts/Vol_3/Vol_3_Chapter_20.md`
+  - `orchestra/VOL3_CHAPTER_16_20_DEEPLOCK_CHECKPOINT_2026-04-18.md`
+- Final no-space counts: 66화 4,501 / 67화 4,510 / 68화 4,519 / 69화 4,508 / 70화 4,530.
+- Final gate: 5 cycles, no edits during/after cycles, all PASS.
+- Unresolved FAIL items: none.
+- Next exact prompt: `Rttp Lock Cycle 71~75화 딥락 5사이클 잠금검수. 분량 미달, 시간회귀 냄새, 반복어, 화말 압력까지 고치고 마지막 무수정 통과 전까지 잠금 완료라고 하지 마. 문장어색시 원복`
+
+## 2026-04-18 KST - RTTP DeepLock 71~75 Complete
+
+- Mode: `$rttp-lock-cycle` deep-lock 5-cycle gate.
+- Work summary: 71~75화 revised and verified for length floor, time-scent guard, motif repetition, clarity, ending pressure, and `문장어색시 원복`.
+- Last verified locked range: 27~75화
+- Active incomplete range: none.
+- Changed files:
+  - `Drafts/Vol_3/Vol_3_Chapter_21.md`
+  - `Drafts/Vol_3/Vol_3_Chapter_22.md`
+  - `Drafts/Vol_3/Vol_3_Chapter_23.md`
+  - `Drafts/Vol_3/Vol_3_Chapter_24.md`
+  - `Drafts/Vol_3/Vol_3_Chapter_25.md`
+  - `orchestra/VOL3_CHAPTER_21_25_DEEPLOCK_CHECKPOINT_2026-04-18.md`
+- Final no-space counts: 71화 4,511 / 72화 4,595 / 73화 4,501 / 74화 4,738 / 75화 4,595.
+- Final gate: 5 cycles, no edits during/after cycles, all PASS.
+- Unresolved FAIL items: none.
+- Next exact prompt: `Rttp Lock Cycle 76~80화 딥락 5사이클 잠금검수. 분량 미달, 시간회귀 냄새, 반복어, 화말 압력까지 고치고 마지막 무수정 통과 전까지 잠금 완료라고 하지 마. 문장어색시 원복`
+
+## 2026-04-18 KST - RTTP DeepLock 76~80 Complete
+
+- Mode: `$rttp-lock-cycle` deep-lock 5-cycle gate.
+- Work summary: 76~80화 revised and verified for the corrected 4,800 no-space length floor, time-scent guard, motif repetition, clarity, ending pressure, and `문장어색시 원복`.
+- Last verified locked range: 27~80화.
+- Active incomplete range: none.
+- Changed files:
+  - `Drafts/Vol_4/Vol_4_Chapter_1.md`
+  - `Drafts/Vol_4/Vol_4_Chapter_2.md`
+  - `Drafts/Vol_4/Vol_4_Chapter_3.md`
+  - `Drafts/Vol_4/Vol_4_Chapter_4.md`
+  - `Drafts/Vol_4/Vol_4_Chapter_5.md`
+  - `orchestra/VOL4_CHAPTER_1_5_DEEPLOCK_CHECKPOINT_2026-04-18.md`
+- Final no-space counts: 76화 4,842 / 77화 4,827 / 78화 4,940 / 79화 5,191 / 80화 5,457.
+- Final gate: corrected 4,800-floor 5 cycles, no edits during/after cycles, all PASS.
+- Correction note: previous 4,500-floor verdict was invalid for this range; 76화 was expanded from 4,679 to 4,842 and the final no-edit 5-cycle gate was rerun.
+- Unresolved FAIL items: none.
+- Next exact prompt: `Rttp Lock Cycle 81~85화 딥락 5사이클 잠금검수. 분량 미달, 시간회귀 냄새, 반복어, 화말 압력까지 고치고 마지막 무수정 통과 전까지 잠금 완료라고 하지 마. 문장어색시 원복`
+
+## 2026-04-18 KST - RTTP DeepLock 81~85 Complete
+
+- Mode: `$rttp-lock-cycle` deep-lock 5-cycle gate.
+- Work summary: 81~85화 revised and verified for the 4,800 no-space length floor, time-scent guard, motif repetition, clarity, ending pressure, and `문장어색시 원복`.
+- Last verified locked range: 27~85화.
+- Active incomplete range: none.
+- Changed files:
+  - `Drafts/Vol_4/Vol_4_Chapter_6.md`
+  - `Drafts/Vol_4/Vol_4_Chapter_7.md`
+  - `Drafts/Vol_4/Vol_4_Chapter_8.md`
+  - `Drafts/Vol_4/Vol_4_Chapter_9.md`
+  - `Drafts/Vol_4/Vol_4_Chapter_10.md`
+  - `orchestra/VOL4_CHAPTER_6_10_DEEPLOCK_CHECKPOINT_2026-04-18.md`
+- Final no-space counts: 81화 4,898 / 82화 4,851 / 83화 4,978 / 84화 5,031 / 85화 4,993.
+- Final gate: 4,800-floor 5 cycles, no edits during/after cycles, all PASS.
+- Unresolved FAIL items: none.
+- Next exact prompt: `Rttp Lock Cycle 86~90화 딥락 5사이클 잠금검수. 분량 미달, 시간회귀 냄새, 반복어, 화말 압력까지 고치고 마지막 무수정 통과 전까지 잠금 완료라고 하지 마. 문장어색시 원복`
+
+## 2026-04-18 KST - RTTP DeepLock 86~90 Complete
+
+- Mode: `$rttp-lock-cycle` deep-lock 5-cycle gate.
+- Work summary: 86~90화 revised and verified for the 4,800 no-space length floor, time-scent guard, motif repetition, clarity, ending pressure, and `문장어색시 원복`.
+- Last verified locked range: 27~90화.
+- Active incomplete range: none.
+- Changed files:
+  - `Drafts/Vol_4/Vol_4_Chapter_11.md`
+  - `Drafts/Vol_4/Vol_4_Chapter_12.md`
+  - `Drafts/Vol_4/Vol_4_Chapter_13.md`
+  - `Drafts/Vol_4/Vol_4_Chapter_14.md`
+  - `Drafts/Vol_4/Vol_4_Chapter_15.md`
+  - `orchestra/VOL4_CHAPTER_11_15_DEEPLOCK_CHECKPOINT_2026-04-18.md`
+- Final no-space counts: 86화 4,877 / 87화 4,849 / 88화 4,863 / 89화 4,803 / 90화 4,863.
+- Final gate: 4,800-floor 5 cycles, no edits during/after cycles, all PASS.
+- Unresolved FAIL items: none.
+- Next exact prompt: `Rttp Lock Cycle 91~95화 딥락 5사이클 잠금검수. 분량 미달, 시간회귀 냄새, 반복어, 화말 압력까지 고치고 마지막 무수정 통과 전까지 잠금 완료라고 하지 마. 문장어색시 원복`
+
+## 2026-04-19 KST - RTTP DeepLock 91~95 Complete
+
+- Mode: `$rttp-lock-cycle` deep-lock 5-cycle gate.
+- Work summary: 91~95화 revised and verified for the 4,800 no-space length floor, time-scent guard, motif repetition, clarity, ending pressure, and `문장어색시 원복`.
+- Last verified locked range: 27~95화.
+- Active incomplete range: none.
+- Changed files:
+  - `Drafts/Vol_4/Vol_4_Chapter_16.md`
+  - `Drafts/Vol_4/Vol_4_Chapter_17.md`
+  - `Drafts/Vol_4/Vol_4_Chapter_18.md`
+  - `Drafts/Vol_4/Vol_4_Chapter_19.md`
+  - `Drafts/Vol_4/Vol_4_Chapter_20.md`
+  - `orchestra/VOL4_CHAPTER_16_20_DEEPLOCK_CHECKPOINT_2026-04-19.md`
+- Final no-space counts: 91화 4,833 / 92화 5,012 / 93화 4,950 / 94화 4,827 / 95화 5,029.
+- Final gate: 4,800-floor 5 cycles, no edits during/after cycles, all PASS.
+- Unresolved FAIL items: none.
+- Next exact prompt: `Rttp Lock Cycle 96~100화 딥락 5사이클 잠금검수. 분량 미달, 시간회귀 냄새, 반복어, 화말 압력까지 고치고 마지막 무수정 통과 전까지 잠금 완료라고 하지 마. 문장어색시 원복`
+
+## 2026-04-19 KST - RTTP DeepLock 96~100 Complete
+
+- Mode: `$rttp-lock-cycle` deep-lock 5-cycle gate.
+- Work summary: 96~100화 revised and verified for the 4,800 no-space length floor, time-scent guard, motif repetition, clarity, ending pressure, and `문장어색시 원복`.
+- Last verified locked range: 27~100화.
+- Active incomplete range: none.
+- Changed files:
+  - `Drafts/Vol_4/Vol_4_Chapter_21.md`
+  - `Drafts/Vol_4/Vol_4_Chapter_22.md`
+  - `Drafts/Vol_4/Vol_4_Chapter_23.md`
+  - `Drafts/Vol_4/Vol_4_Chapter_24.md`
+  - `Drafts/Vol_4/Vol_4_Chapter_25.md`
+  - `orchestra/VOL4_CHAPTER_21_25_DEEPLOCK_CHECKPOINT_2026-04-19.md`
+- Final no-space counts: 96화 4,871 / 97화 4,818 / 98화 4,804 / 99화 4,833 / 100화 5,049.
+- Final gate: 4,800-floor 5 cycles, no edits during/after cycles, all PASS.
+- Unresolved FAIL items: none.
+- Next exact prompt: `Rttp Lock Cycle 101~105화 딥락 5사이클 잠금검수. 분량 미달, 시간회귀 냄새, 반복어, 화말 압력까지 고치고 마지막 무수정 통과 전까지 잠금 완료라고 하지 마. 문장어색시 원복`
+
+## 2026-04-19 KST - RTTP DeepLock 101~105 Complete
+
+- Mode: `$rttp-lock-cycle` deep-lock 5-cycle gate.
+- Work summary: 101~105화 revised and verified for the 4,800 no-space length floor, time-scent guard, motif repetition, clarity, ending pressure, and `문장어색시 원복`.
+- Last verified locked range: `27~105화`
+- Active incomplete range: none.
+- Changed files:
+  - `Drafts/Vol_5/Vol_5_Chapter_1.md`
+  - `Drafts/Vol_5/Vol_5_Chapter_2.md`
+  - `Drafts/Vol_5/Vol_5_Chapter_3.md`
+  - `Drafts/Vol_5/Vol_5_Chapter_4.md`
+  - `Drafts/Vol_5/Vol_5_Chapter_5.md`
+  - `orchestra/VOL5_CHAPTER_1_5_DEEPLOCK_CHECKPOINT_2026-04-19.md`
+- Final no-space counts: 101화 4,805 / 102화 4,802 / 103화 4,803 / 104화 4,806 / 105화 4,801.
+- Final gate: 4,800-floor 5 cycles, no edits during/after cycles, all PASS.
+- Unresolved FAIL items: none.
+- Next exact prompt: `Rttp Lock Cycle 106~110화 딥락 5사이클 잠금검수. 분량 미달, 시간회귀 냄새, 반복어, 화말 압력까지 고치고 마지막 무수정 통과 전까지 잠금 완료라고 하지 마. 문장어색시 원복`
+
+## 2026-04-19 KST - RTTP DeepLock 106~110 Complete
+
+- Mode: `$rttp-lock-cycle` deep-lock 5-cycle gate.
+- Work summary: 106~110화 revised and verified for the 4,800 no-space length floor, time-scent guard, motif repetition, clarity, ending pressure, and `문장어색시 원복`.
+- Last verified locked range: `27~110화`
+- Active incomplete range: none.
+- Changed files:
+  - `Drafts/Vol_5/Vol_5_Chapter_6.md`
+  - `Drafts/Vol_5/Vol_5_Chapter_7.md`
+  - `Drafts/Vol_5/Vol_5_Chapter_8.md`
+  - `Drafts/Vol_5/Vol_5_Chapter_9.md`
+  - `Drafts/Vol_5/Vol_5_Chapter_10.md`
+  - `orchestra/VOL5_CHAPTER_6_10_DEEPLOCK_CHECKPOINT_2026-04-19.md`
+- Final no-space counts: 106화 4,819 / 107화 4,810 / 108화 4,802 / 109화 4,800 / 110화 4,803.
+- Final gate: 4,800-floor 5 cycles, no edits during/after cycles, all PASS.
+- Unresolved FAIL items: none.
+- Next exact prompt: `Rttp Lock Cycle 111~115화 딥락 5사이클 잠금검수. 분량 미달, 시간회귀 냄새, 반복어, 화말 압력까지 고치고 마지막 무수정 통과 전까지 잠금 완료라고 하지 마. 문장어색시 원복`
+
+## 2026-04-20 KST - RTTP DeepLock 111~115 Complete
+
+- Mode: `$rttp-lock-cycle` deep-lock 5-cycle gate.
+- Work summary: 111~115화 revised and verified for the 4,800 no-space length floor, time-scent guard, motif repetition, clarity, ending pressure, and `문장어색시 원복`.
+- Last verified locked range: `27~115화`
+- Active incomplete range: none.
+- Changed files:
+  - `Drafts/Vol_5/Vol_5_Chapter_11.md`
+  - `Drafts/Vol_5/Vol_5_Chapter_12.md`
+  - `Drafts/Vol_5/Vol_5_Chapter_13.md`
+  - `Drafts/Vol_5/Vol_5_Chapter_14.md`
+  - `Drafts/Vol_5/Vol_5_Chapter_15.md`
+  - `orchestra/VOL5_CHAPTER_11_15_DEEPLOCK_CHECKPOINT_2026-04-20.md`
+- Latest checkpoint: `orchestra/VOL5_CHAPTER_11_15_DEEPLOCK_CHECKPOINT_2026-04-20.md`
+- Final no-space counts: 111화 5,033 / 112화 5,133 / 113화 4,859 / 114화 4,833 / 115화 4,919.
+- Final gate: 4,800-floor 5 cycles, no edits during/after cycles, all PASS.
+- Unresolved FAIL items: none.
+- Next exact prompt: `Rttp Lock Cycle 116~120화 딥락 5사이클 잠금검수. 분량 미달, 시간회귀 냄새, 반복어, 화말 압력까지 고치고 마지막 무수정 통과 전까지 잠금 완료라고 하지 마. 문장어색시 원복`
+
+## 2026-04-20 KST - RTTP Re-DeepLock 1~5 Complete
+
+- Mode: `$rttp-lock-cycle` deep-lock 5-cycle gate, reopened under the current 10-point gate.
+- Work summary: 1~5화 reopened because the old opening checkpoint predated the current commercial gate; all five were fully reread, given a fresh FAIL ledger, revised for title meta / repeat residue / ending pressure, reread again, and then passed a final no-edit 5-cycle verification with `문장어색시 원복` preserved.
+- Last verified locked range: `27~115화`
+- Reopened verified range: `1~5화`
+- Active incomplete range: none.
+- Changed files:
+  - `Drafts/Vol_1/Vol_1_Chapter_1.md`
+  - `Drafts/Vol_1/Vol_1_Chapter_2.md`
+  - `Drafts/Vol_1/Vol_1_Chapter_3.md`
+  - `Drafts/Vol_1/Vol_1_Chapter_4.md`
+  - `Drafts/Vol_1/Vol_1_Chapter_5.md`
+  - `orchestra/VOL1_CHAPTER_1_5_REDEEPLOCK_CHECKPOINT_2026-04-20.md`
+- Latest checkpoint: `orchestra/VOL1_CHAPTER_1_5_REDEEPLOCK_CHECKPOINT_2026-04-20.md`
+- Final no-space counts: 1화 4,919 / 2화 4,979 / 3화 5,017 / 4화 4,932 / 5화 4,966.
+- Final gate: 4,800-floor 5 cycles, no edits during/after cycles, all PASS.
+- Unresolved FAIL items: none.
+- Next reopened exact prompt: `Rttp Lock Cycle 6~10화 딥락 5사이클 잠금검수. 분량 미달, 시간회귀 냄새, 반복어, 화말 압력까지 고치고 마지막 무수정 통과 전까지 잠금 완료라고 하지 마. 문장어색시 원복`
+- Forward queue preserved: `Rttp Lock Cycle 116~120화 딥락 5사이클 잠금검수. 분량 미달, 시간회귀 냄새, 반복어, 화말 압력까지 고치고 마지막 무수정 통과 전까지 잠금 완료라고 하지 마. 문장어색시 원복`
+
+## 2026-04-20 KST - RTTP Re-DeepLock 6~10 Complete
+
+- Mode: `$rttp-lock-cycle` deep-lock 5-cycle gate, reopened under the current 10-point gate.
+- Work summary: 6~10화 reopened because the old opening checkpoint predated the current commercial gate; all five were fully reread, given a fresh FAIL ledger, revised for title meta / repeat residue / length floor / ending pressure, reread again, and then passed a final no-edit 5-cycle verification with `문장어색시 원복` preserved.
+- Last verified locked range: `27~115화`
+- Reopened verified range: `1~10화`
+- Active incomplete range: none.
+- Changed files:
+  - `Drafts/Vol_1/Vol_1_Chapter_6.md`
+  - `Drafts/Vol_1/Vol_1_Chapter_7.md`
+  - `Drafts/Vol_1/Vol_1_Chapter_8.md`
+  - `Drafts/Vol_1/Vol_1_Chapter_9.md`
+  - `Drafts/Vol_1/Vol_1_Chapter_10.md`
+  - `orchestra/VOL1_CHAPTER_6_10_REDEEPLOCK_CHECKPOINT_2026-04-20.md`
+- Latest checkpoint: `orchestra/VOL1_CHAPTER_6_10_REDEEPLOCK_CHECKPOINT_2026-04-20.md`
+- Final no-space counts: 6화 4,994 / 7화 5,364 / 8화 4,845 / 9화 4,814 / 10화 4,812.
+- Final gate: 4,800-floor 5 cycles, no edits during/after cycles, all PASS.
+- Unresolved FAIL items: none.
+- Next reopened exact prompt: `Rttp Lock Cycle 11~15화 딥락 5사이클 잠금검수. 분량 미달, 시간회귀 냄새, 반복어, 화말 압력까지 고치고 마지막 무수정 통과 전까지 잠금 완료라고 하지 마. 문장어색시 원복`
+- Forward queue preserved: `Rttp Lock Cycle 116~120화 딥락 5사이클 잠금검수. 분량 미달, 시간회귀 냄새, 반복어, 화말 압력까지 고치고 마지막 무수정 통과 전까지 잠금 완료라고 하지 마. 문장어색시 원복`
+- 2026-04-20 Vol.1 Chapters 11~15 were reopened under the current 10-point gate, revised narrowly, fully reread, and passed a fresh no-edit 5-cycle deeplock gate
+- 2026-04-20 reopened verified range is `1~15화`; if the reopening pass continues, the next reopened range is `16~20화` while the forward queue remains `116~120화`
+- 2026-04-20 Vol.1 Chapters 16~20 were reopened under the current 10-point gate, revised narrowly, fully reread, and passed a fresh no-edit 5-cycle deeplock gate
+- 2026-04-20 reopened verified range is `1~20화`; if the reopening pass continues, the next reopened range is `21~25화` while the forward queue remains `116~120화`
+- 2026-04-20 Vol.1 Chapters 11~15 were re-audited against the live files under the current 10-point gate; Chapters 11~14 held on reread, Chapter 15 took one anti-time-scent clarity repair, briefly failed at `4,774` no-space chars, was restored to `4,811`, reread, and then repassed a fresh no-edit 5-cycle deeplock gate
+- 2026-04-20 reopened verified range remains `1~20화`; the next reopened range is `21~25화` and the forward queue remains `116~120화`
+- 2026-04-21 Vol.1 Chapters 16~20 were re-audited on live files because the user explicitly requested `16~21화`; 17~20 held on reread and 16 took one residual time-scent cleanup before the new packet verification
+- 2026-04-21 Vol.1 Chapter 21 received the actual revision pass for route-opening regression smell, predictive cognition overload, repeated `정답` wording, and Aresion's memory-coded line, then passed full reread plus fresh no-edit 5-cycle deeplock verification
+- 2026-04-21 reopened verified range is now `1~21화`; the next reopened range is `22~25화` and the forward queue remains `116~120화`
