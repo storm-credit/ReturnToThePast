@@ -14,6 +14,35 @@
 
 ## 2026-05-13 KST
 
+- Mode: `rttp style-harness recast Vol.2 Chapter 19`
+- Scope note: continuing the new style-recast loop; this is not the prior Vol.6/overall-147 continuation queue.
+- Current work: `Vol.2 Chapter 19` style-harness lock complete.
+- Next work: `Vol.2 Chapter 20`; aggregate `Vol.2 Chapters 16~20` is due after Vol.2 Chapter 20 passes.
+- Execution mode: `orchestra-conductor lock pass with read-only specialist subagents`
+- Primary agent: `Codex`
+- Specialists: `Hook/first-screen + Mid-pressure`, `Ending-click/next-episode-force`, `Time-scent/regression-route + Motif/style`, `Clarity/canon-continuity`, plus conductor Length/format gate.
+- MCP: `none`
+- Skills:
+  - `rttp-lock-cycle`
+- Automations: `rttp-style-harness-ch1-loop`
+- Automation push policy:
+  - After each successful chapter or aggregate packet, stage only relevant changed files, commit clearly, and push the current branch to origin.
+- Length policy:
+  - From `Vol.1 Chapter 22` onward and for the continuing style queue, enforce no-space floor `4,800` and target around `5,000`; do not retroactively revise prior chapters for length unless explicitly requested.
+- Edits:
+  - `Drafts/Vol_2/Vol_2_Chapter_19.md`
+  - `orchestra/VOL2_CHAPTER_19_STYLE_HARNESS_CHECKPOINT_2026-05-13.md`
+  - `orchestra/SESSION_STATE.md`
+  - `orchestra/NEXT_DIALOGUE_HANDOFF.md`
+  - `orchestra/EXECUTION_PROGRESS_LEDGER.md`
+- Manuscript note:
+  - Chapter 19 normalized to `# 빈자리의 온도`, rebuilt the opening around the 구리잔 hand-stop, cleared target time/replay surfaces and backticks, narrowed the price to the emperor's lost `잘했다` memory, and converted the Ch20 bridge into 즉위식 물잔 / 남문 하역선 / 통행패 pressure.
+- Final verification:
+  - Chapter 19 held five no-edit cycles at `nospace=4,810`, hard/meta/time-scent hits `0`, hash `F61EBADED6E1EE3D403F1A2CD0ACECF0E4EB8EC260FA527B13D3F0611520A983`.
+- Result: `Vol.1 Chapters 1~25; Vol.2 Chapters 1~19` style-harness verified. Aggregate remains verified through `Vol.1 Chapters 1~25; Vol.2 Chapters 1~15`.
+
+## 2026-05-13 KST
+
 - Mode: `rttp style-harness recast Vol.2 Chapter 18`
 - Scope note: continuing the new style-recast loop; this is not the prior Vol.6/overall-147 continuation queue.
 - Current work: `Vol.2 Chapter 18` style-harness lock complete.
