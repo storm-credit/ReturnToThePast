@@ -1,20 +1,20 @@
 # 다음 대화 인수인계
 
-## 2026-05-12 KST - RTTP Style-Harness Recast Queue Active
+## 2026-05-13 KST - RTTP Style-Harness Recast Queue Active
 
-- Work summary: sample-derived style rules have been added to the RTTP harness, and `Vol.1 Chapters 1~25` plus `Vol.2 Chapters 1~13` are now style-locked complete with aggregate `Vol.1 Chapters 1~25`, `Vol.2 Chapters 1~5`, and `Vol.2 Chapters 6~10` verification complete.
+- Work summary: sample-derived style rules have been added to the RTTP harness, and `Vol.1 Chapters 1~25` plus `Vol.2 Chapters 1~14` are now style-locked complete with aggregate `Vol.1 Chapters 1~25`, `Vol.2 Chapters 1~5`, and `Vol.2 Chapters 6~10` verification complete.
 - Scope: this is a new style-recast queue starting from `Vol.1 Chapter 1`; it is separate from the older Vol.6/overall-147 re-deep-lock queue.
-- Current target: `Drafts/Vol_2/Vol_2_Chapter_14.md`.
-- Current status: Vol.1 Chapters 1~25 and Vol.2 Chapters 1~13 are style-locked complete under the new sample-derived style harness.
-- Last verified style-harness range: `Vol.1 Chapters 1~25; Vol.2 Chapters 1~13`.
+- Current target: `Drafts/Vol_2/Vol_2_Chapter_15.md`.
+- Current status: Vol.1 Chapters 1~25 and Vol.2 Chapters 1~14 are style-locked complete under the new sample-derived style harness.
+- Last verified style-harness range: `Vol.1 Chapters 1~25; Vol.2 Chapters 1~14`.
 - Last verified aggregate style-harness range: `Vol.1 Chapters 1~25; Vol.2 Chapters 1~10`.
 - Active incomplete style-harness range: `none`.
-- Latest checkpoint: `orchestra/VOL2_CHAPTER_13_STYLE_HARNESS_CHECKPOINT_2026-05-12.md`.
+- Latest checkpoint: `orchestra/VOL2_CHAPTER_14_STYLE_HARNESS_CHECKPOINT_2026-05-13.md`.
 - Latest aggregate checkpoint: `orchestra/VOL2_CHAPTER_6_10_STYLE_HARNESS_AGGREGATE_CHECKPOINT_2026-05-11.md`.
 - Style rules now active: `칼날형 입구`, `단계식 오차 확인`, `관계 압력 우선`, `저강도 역전`, `주변 반응 증명`, `분노/폭력 억제`, `시간여행/인과부채 감각`.
 - Length policy: from `Vol.1 Chapter 22` onward, enforce no-space floor `4,800` and target around `5,000`; do not retroactively revise Chapters 1~21 for length unless explicitly requested.
 - Automation push policy: after each successful chapter or aggregate packet, stage only relevant changed files, commit clearly, and push the current branch to origin.
-- Exact next prompt override: `RTTP Style-Harness Recast Vol.2 Chapter 14 진행. 기존 Vol.6/147 큐가 아니라 새 style-recast queue다. Process exactly one chapter only: Drafts/Vol_2/Vol_2_Chapter_14.md. Read SESSION_STATE, target draft, Vol.2 outline/timeline, RTTP_ENGINE, Chapter_Audit_Checklist, Prompt_Quick_Reference, Writing_Prompt_Template, relevant pressure grid if available, tone/style guidance, and relevant canon/setting context. Apply the sample-derived style harness: blade-like opening rhythm, stepwise wrongness confirmation, relationship-pressure before exposition, low-intensity reversal, surrounding-character reaction proof, restrained violence/anger, and RTTP time-travel/causal-debt framing rather than regression/game-route framing. Enforce no-space floor 4,800 and target around 5,000; do not backfill prior chapters for length unless explicitly requested. Run full read -> FAIL ledger(Hook/Mid-pressure/Ending click/Time-scent/Motif overuse/Clarity/Style-harness fit/Length) -> narrow fixes only -> full reread -> final no-edit 5-cycle verification. Do not call style-locked complete unless all five verification cycles hold. After success, update state/handoff/ledger, stage only relevant changed files, commit clearly, and push current branch to origin. Next aggregate packet is Vol.2 Chapters 11~15 and is due only after Vol.2 Chapter 15 passes.`
+- Exact next prompt override: `RTTP Style-Harness Recast Vol.2 Chapter 15 진행. 기존 Vol.6/147 큐가 아니라 새 style-recast queue다. Process exactly one chapter only: Drafts/Vol_2/Vol_2_Chapter_15.md. Read SESSION_STATE, target draft, Vol.2 outline/timeline, RTTP_ENGINE, Chapter_Audit_Checklist, Prompt_Quick_Reference, Writing_Prompt_Template, relevant pressure grid if available, tone/style guidance, and relevant canon/setting context. Apply the sample-derived style harness: blade-like opening rhythm, stepwise wrongness confirmation, relationship-pressure before exposition, low-intensity reversal, surrounding-character reaction proof, restrained violence/anger, and RTTP time-travel/causal-debt framing rather than regression/game-route framing. Enforce no-space floor 4,800 and target around 5,000; do not backfill prior chapters for length unless explicitly requested. Run full read -> FAIL ledger(Hook/Mid-pressure/Ending click/Time-scent/Motif overuse/Clarity/Style-harness fit/Length) -> narrow fixes only -> full reread -> final no-edit 5-cycle verification. Do not call style-locked complete unless all five verification cycles hold. After Chapter 15 passes, run aggregate Vol.2 Chapters 11~15 packet no-edit 5-cycle verification before advancing. After success, update state/handoff/ledger, stage only relevant changed files, commit clearly, and push current branch to origin.`
 
 ## 2026-05-10 KST - RTTP Re-DeepLock 146 Complete
 
