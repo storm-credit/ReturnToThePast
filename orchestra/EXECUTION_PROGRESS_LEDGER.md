@@ -14,6 +14,34 @@
 
 ## 2026-05-13 KST
 
+- Mode: `rttp style-harness recast aggregate Vol.2 Chapters 21~25`
+- Scope note: due aggregate packet after Vol.2 Chapter 25; this is not the prior Vol.6/overall-147 continuation queue.
+- Current work: aggregate `Vol.2 Chapters 21~25` style-harness verification complete.
+- Next work: `Vol.3 Chapter 1`.
+- Execution mode: `orchestra-conductor aggregate lock pass`
+- Primary agent: `Codex`
+- Specialists: `Cross-chapter paid-click continuity`, `Ending/next-volume force`, `Time-scent/regression-route`, `Motif/style`, `Clarity/canon-continuity`, `Length/format`, plus conductor final integration.
+- MCP: `none`
+- Skills:
+  - `rttp-lock-cycle`
+- Automations: `rttp-style-harness-ch1-loop`
+- Automation push policy:
+  - After each successful chapter or aggregate packet, stage only relevant changed files, commit clearly, and push the current branch to origin.
+- Edits:
+  - `orchestra/VOL2_CHAPTER_21_25_STYLE_HARNESS_AGGREGATE_CHECKPOINT_2026-05-13.md`
+  - `orchestra/SESSION_STATE.md`
+  - `orchestra/NEXT_DIALOGUE_HANDOFF.md`
+  - `orchestra/EXECUTION_PROGRESS_LEDGER.md`
+- Aggregate note:
+  - Packet flow holds as `Balthazar causal lesson -> gray plague pressure -> academy exploitation -> too-many-lines warning -> north-gate/logistics bridge`, with Ch24's yellow-seal order paid in Ch25 and Ch25's ending leading into Vol.3 Chapter 1's north-gate blockade pressure.
+- Final verification:
+  - Aggregate `Vol.2 Chapters 21~25` held five no-edit cycles at `total_nospace=24,560`, `total_body_nospace=24,506`, hard/meta/time-scent hits `0`, hash `189AD4AAF47DFB33916073897334399F4A340CE0DA877D9C4ABEBED41AD80023`.
+- Result:
+  - Aggregate style-harness verified range advances to `Vol.1 Chapters 1~25; Vol.2 Chapters 1~25`.
+  - Next single-chapter target is `Vol.3 Chapter 1`.
+
+## 2026-05-13 KST
+
 - Mode: `rttp style-harness recast Vol.2 Chapter 25`
 - Scope note: continuing the new style-recast loop; this is not the prior Vol.6/overall-147 continuation queue.
 - Current work: `Vol.2 Chapter 25` style-harness lock complete.
