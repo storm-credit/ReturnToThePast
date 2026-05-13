@@ -14,6 +14,37 @@
 
 ## 2026-05-13 KST
 
+- Mode: `rttp style-harness recast Vol.2 Chapter 20 + aggregate 16~20`
+- Scope note: continuing the new style-recast loop; this is not the prior Vol.6/overall-147 continuation queue.
+- Current work: `Vol.2 Chapter 20` style-harness lock complete, followed by due aggregate `Vol.2 Chapters 16~20` verification.
+- Next work: `Vol.2 Chapter 21`; next aggregate `Vol.2 Chapters 21~25` is due after Vol.2 Chapter 25 passes.
+- Execution mode: `orchestra-conductor lock pass with read-only specialist subagents`
+- Primary agent: `Codex`
+- Specialists: `Hook/first-screen + Mid-pressure`, `Ending-click/next-episode-force`, `Time-scent/regression-route + Motif/style`, `Clarity/canon-continuity + Length/format`, plus conductor final integration.
+- MCP: `none`
+- Skills:
+  - `rttp-lock-cycle`
+- Automations: `rttp-style-harness-ch1-loop`
+- Automation push policy:
+  - After each successful chapter or aggregate packet, stage only relevant changed files, commit clearly, and push the current branch to origin.
+- Length policy:
+  - From `Vol.1 Chapter 22` onward and for the continuing style queue, enforce no-space floor `4,800` and target around `5,000`; do not retroactively revise prior chapters for length unless explicitly requested.
+- Edits:
+  - `Drafts/Vol_2/Vol_2_Chapter_20.md`
+  - `orchestra/VOL2_CHAPTER_20_STYLE_HARNESS_CHECKPOINT_2026-05-13.md`
+  - `orchestra/VOL2_CHAPTER_16_20_STYLE_HARNESS_AGGREGATE_CHECKPOINT_2026-05-13.md`
+  - `orchestra/SESSION_STATE.md`
+  - `orchestra/NEXT_DIALOGUE_HANDOFF.md`
+  - `orchestra/EXECUTION_PROGRESS_LEDGER.md`
+- Manuscript note:
+  - Chapter 20 normalized to `# 새 황제`, rebuilt the opening around the `잔 수` mismatch and servant ledger exposure, moved Cassia into the record line, added `제3 하역문` exit friction, separated 아이리스 연락선 from 리아 은신축, and ended on the 북수로 / 발타자르 bridge into Chapter 21.
+- Final verification:
+  - Chapter 20 held five no-edit cycles at `nospace=4,867`, hard/meta/time-scent hits `0`, hash `e1c527b08d8454a611f8f81bd45627ea491f48f85cb67ae485c5aa90732914ce`.
+  - Aggregate `Vol.2 Chapters 16~20` held five no-edit cycles at `total_nospace=24,445`, `total_hard=0`, `soft_legacy=21`, hash `95c96e08876cb66e02e8c97da6e1def57a10eba8cf10fc75091c6eefe11e4081`.
+- Result: `Vol.1 Chapters 1~25; Vol.2 Chapters 1~20` style-harness verified, including aggregate packets through `Vol.2 Chapters 16~20`.
+
+## 2026-05-13 KST
+
 - Mode: `rttp style-harness recast Vol.2 Chapter 19`
 - Scope note: continuing the new style-recast loop; this is not the prior Vol.6/overall-147 continuation queue.
 - Current work: `Vol.2 Chapter 19` style-harness lock complete.
