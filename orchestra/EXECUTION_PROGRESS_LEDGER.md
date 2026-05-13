@@ -14,6 +14,35 @@
 
 ## 2026-05-13 KST
 
+- Mode: `rttp style-harness recast Vol.2 Chapter 22`
+- Scope note: continuing the new style-recast loop; this is not the prior Vol.6/overall-147 continuation queue.
+- Current work: `Vol.2 Chapter 22` style-harness lock complete.
+- Next work: `Vol.2 Chapter 23`; aggregate `Vol.2 Chapters 21~25` is due after Vol.2 Chapter 25 passes.
+- Execution mode: `orchestra-conductor lock pass with read-only specialist subagents`
+- Primary agent: `Codex`
+- Specialists: `Hook/first-screen + Mid-pressure`, `Ending-click/next-episode-force`, `Time-scent/regression-route + Motif/style`, `Clarity/canon-continuity + Length/format`, plus conductor final integration.
+- MCP: `none`
+- Skills:
+  - `rttp-lock-cycle`
+- Automations: `rttp-style-harness-ch1-loop`
+- Automation push policy:
+  - After each successful chapter or aggregate packet, stage only relevant changed files, commit clearly, and push the current branch to origin.
+- Length policy:
+  - From `Vol.1 Chapter 22` onward and for the continuing style queue, enforce no-space floor `4,800` and target around `5,000`; do not retroactively revise prior chapters for length unless explicitly requested.
+- Edits:
+  - `Drafts/Vol_2/Vol_2_Chapter_22.md`
+  - `orchestra/VOL2_CHAPTER_22_STYLE_HARNESS_CHECKPOINT_2026-05-13.md`
+  - `orchestra/SESSION_STATE.md`
+  - `orchestra/NEXT_DIALOGUE_HANDOFF.md`
+  - `orchestra/EXECUTION_PROGRESS_LEDGER.md`
+- Manuscript note:
+  - Chapter 22 normalized to `# 역병의 냄새`, rebuilt the opening around the dry cough and north-sluice route to Ria's hidden room, turned the plague pressure into water/medicine/checkpoint access problems, cleared time-scent/backtick/title surfaces, and ended on clean wax smell as the academy bridge without over-answering Chapter 23.
+- Final verification:
+  - Chapter 22 held five no-edit cycles at `nospace=5,126`, hard/meta/time-scent hits `0`, hash `FD3AF0A7E4A2ECC44F39EDDB5D7BA6F7000ECC42650440C262806DE5A107CBF1`.
+- Result: `Vol.1 Chapters 1~25; Vol.2 Chapters 1~22` style-harness verified. Aggregate remains verified through `Vol.1 Chapters 1~25; Vol.2 Chapters 1~20`.
+
+## 2026-05-13 KST
+
 - Mode: `rttp style-harness recast Vol.2 Chapter 21`
 - Scope note: continuing the new style-recast loop; this is not the prior Vol.6/overall-147 continuation queue.
 - Current work: `Vol.2 Chapter 21` style-harness lock complete.
