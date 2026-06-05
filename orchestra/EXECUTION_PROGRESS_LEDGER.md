@@ -14,6 +14,37 @@
 
 ## 2026-06-06 KST
 
+- Mode: `rttp style-harness recast Vol.3 Chapter 24`
+- Scope note: continuing the new style-recast loop; this is not the prior Vol.6/overall-147 continuation queue.
+- Current work: `Vol.3 Chapter 24` style-harness lock complete.
+- Next work: `Vol.3 Chapter 25`; aggregate `Vol.3 Chapters 21~25` is due immediately after Vol.3 Chapter 25 passes and must be processed as its own one-unit run before advancing to Vol.4.
+- Execution mode: `orchestra-conductor lock pass; two read-only specialist subagents plus conductor final integration`
+- Primary agent: `Codex`
+- Specialists: `Hook/first-screen`, `Mid-pressure/scene-causality`, `Ending-click/next-episode-force`, `Time-scent/regression-route`, `Motif/style`, `Clarity/canon-continuity`, `Style-harness fit`, `Length/format`, plus conductor final integration.
+- MCP: `multi_agent_v1 read-only specialist checks`
+- Skills:
+  - `rttp-lock-cycle`
+- Automations: `rttp-style-harness-completion-loop`
+- Automation push policy:
+  - After each successful chapter or aggregate packet, stage only relevant changed files, commit clearly, and push the current branch to origin.
+- Length policy:
+  - From `Vol.1 Chapter 22` onward and for the continuing style queue, enforce no-space floor `4,800` and target around `5,000`; do not retroactively revise prior chapters for length unless explicitly requested.
+- Edits:
+  - `Drafts/Vol_3/Vol_3_Chapter_24.md`
+  - `orchestra/VOL3_CHAPTER_24_STYLE_HARNESS_CHECKPOINT_2026-06-06.md`
+  - `orchestra/SESSION_STATE.md`
+  - `orchestra/NEXT_DIALOGUE_HANDOFF.md`
+  - `orchestra/EXECUTION_PROGRESS_LEDGER.md`
+- Manuscript note:
+  - Chapter 24 now locks Lia's letter as delayed-emotion pressure rather than an immediate melodrama: the letter proves body memory remains while conscious memory is gone, Aiden initially feels nothing, the small flower promise finally brings shallow pain, his reply is deferred because every sentence would lie, and the north-gate bell delay opens the runway for Chapter 25's sky fissure.
+- Final verification:
+  - `nospace=4,821`, `body_nospace=4,808`, hard/meta/time-scent hits `0`, BOM count `0`, title fails `0`, extra EOF blank `false`, hash `EA23D92C2F67C631B38DFBA0815F25DADDAAEF5707110A05C54629D66EDF1B01`.
+- Result:
+  - Style-harness verified range advances to `Vol.1 Chapters 1~25; Vol.2 Chapters 1~25; Vol.3 Chapters 1~24`.
+  - Aggregate style-harness verified range remains `Vol.1 Chapters 1~25; Vol.2 Chapters 1~25; Vol.3 Chapters 1~20`.
+
+## 2026-06-06 KST
+
 - Mode: `rttp style-harness recast Vol.3 Chapter 23`
 - Scope note: continuing the new style-recast loop; this is not the prior Vol.6/overall-147 continuation queue.
 - Current work: `Vol.3 Chapter 23` style-harness lock complete.
