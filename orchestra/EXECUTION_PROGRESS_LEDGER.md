@@ -14,6 +14,38 @@
 
 ## 2026-06-06 KST
 
+- Mode: `rttp style-harness recast aggregate Vol.3 Chapters 21~25`
+- Scope note: continuing the new style-recast loop; this is not the prior Vol.6/overall-147 continuation queue.
+- Current work: aggregate `Vol.3 Chapters 21~25` style-harness verification complete.
+- Next work: `Vol.4 Chapter 1`; aggregate `Vol.4 Chapters 1~5` becomes due after Vol.4 Chapter 5 passes.
+- Execution mode: `orchestra-conductor aggregate lock pass; specialist lenses run sequentially by conductor`
+- Primary agent: `Codex`
+- Specialists: `Cross-chapter hook/pressure ladder`, `Scene-causality`, `Ending-click into Vol.4`, `Time-scent/regression-route`, `Motif/style`, `Clarity/canon-continuity`, `Style-harness fit`, `Length/format`, plus conductor final integration.
+- MCP: `none`
+- Skills:
+  - `rttp-lock-cycle`
+- Automations: `rttp-style-harness-completion-loop`
+- Automation push policy:
+  - After each successful chapter or aggregate packet, stage only relevant changed files, commit clearly, and push the current branch to origin.
+- Length policy:
+  - From `Vol.1 Chapter 22` onward and for the continuing style queue, enforce no-space floor `4,800` and target around `5,000`; do not retroactively revise prior chapters for length unless explicitly requested.
+- Edits:
+  - `orchestra/VOL3_CHAPTER_21_25_STYLE_HARNESS_AGGREGATE_CHECKPOINT_2026-06-06.md`
+  - `orchestra/SESSION_STATE.md`
+  - `orchestra/NEXT_DIALOGUE_HANDOFF.md`
+  - `orchestra/EXECUTION_PROGRESS_LEDGER.md`
+- Manuscript note:
+  - No manuscript edits were required. The packet holds as `escaped south-gate rat -> Balthazar body-structure warning -> afterimage/voice pressure -> Lia letter delayed feeling -> sky fissure/north-gate messenger runway`.
+- Verification note:
+  - A broad calibration scan flagged contextual words such as `그때`, `결국`, and `어제`; conductor review classified them as scene-native, non-blocking usage. The blocking banned-surface/game-route/meta scan returned zero hits.
+- Final verification:
+  - `total_nospace=24,093`, `total_body_nospace=24,026`, blocking hard/meta/time-scent hits `0`, context watch hits `6`, BOM count `0`, title fails `0`, extra EOF blank `false`, hash `E75E7CF69314E470F4EF0A3441E43CC7FA82564C7339A793B6F112F50CF0E692`.
+- Result:
+  - Aggregate style-harness verified range advances to `Vol.1 Chapters 1~25; Vol.2 Chapters 1~25; Vol.3 Chapters 1~25`.
+  - Next unit is `Vol.4 Chapter 1`.
+
+## 2026-06-06 KST
+
 - Mode: `rttp style-harness recast Vol.3 Chapter 25`
 - Scope note: continuing the new style-recast loop; this is not the prior Vol.6/overall-147 continuation queue.
 - Current work: `Vol.3 Chapter 25` style-harness lock complete.
