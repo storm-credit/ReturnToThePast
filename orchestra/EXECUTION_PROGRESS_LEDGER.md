@@ -14,6 +14,36 @@
 
 ## 2026-06-06 KST
 
+- Mode: `rttp style-harness recast Vol.3 Chapters 16~20 aggregate`
+- Scope note: continuing the new style-recast loop; this is not the prior Vol.6/overall-147 continuation queue.
+- Current work: aggregate `Vol.3 Chapters 16~20` style-harness verification complete.
+- Next work: `Vol.3 Chapter 21`; aggregate `Vol.3 Chapters 21~25` is due after Vol.3 Chapter 25 passes.
+- Execution mode: `orchestra-conductor aggregate lock pass; specialist lenses run sequentially by conductor`
+- Primary agent: `Codex`
+- Specialists: `Cross-chapter hook/pressure ladder`, `Scene-causality`, `Ending-click ladder into Chapter 21`, `Time-scent/regression-route`, `Motif/style`, `Clarity/canon-continuity`, `Style-harness fit`, `Length/format`, plus conductor final integration.
+- MCP: `none`
+- Skills:
+  - `rttp-lock-cycle`
+- Automations: `rttp-style-harness-completion-loop`
+- Automation push policy:
+  - After each successful chapter or aggregate packet, stage only relevant changed files, commit clearly, and push the current branch to origin.
+- Length policy:
+  - From `Vol.1 Chapter 22` onward and for the continuing style queue, enforce no-space floor `4,800` and target around `5,000`; do not retroactively revise prior chapters for length unless explicitly requested.
+- Edits:
+  - `orchestra/VOL3_CHAPTER_16_20_STYLE_HARNESS_AGGREGATE_CHECKPOINT_2026-06-06.md`
+  - `orchestra/SESSION_STATE.md`
+  - `orchestra/NEXT_DIALOGUE_HANDOFF.md`
+  - `orchestra/EXECUTION_PROGRESS_LEDGER.md`
+- Manuscript note:
+  - No manuscript edits were required. The packet holds as `market grief -> public trial -> storehouse purge -> Aresion death -> dirty aftermath/south-gate doorstep pressure`, preserving an incomplete victory and a live Chapter 21 runway.
+- Final aggregate verification:
+  - `total_nospace=24,249`, `total_body_nospace=24,187`, hard/meta/time-scent hits `0`, BOM count `0`, title fails `0`, aggregate hash `9E3AABA466474E9191454D084F6E03F8FC09DFB826E35CEFCE24C562185D5906`.
+- Result:
+  - Aggregate style-harness verified range advances to `Vol.1 Chapters 1~25; Vol.2 Chapters 1~25; Vol.3 Chapters 1~20`.
+  - Next single-chapter target is `Vol.3 Chapter 21`.
+
+## 2026-06-06 KST
+
 - Mode: `rttp style-harness recast Vol.3 Chapter 20`
 - Scope note: continuing the new style-recast loop; this is not the prior Vol.6/overall-147 continuation queue.
 - Current work: `Vol.3 Chapter 20` style-harness lock complete.

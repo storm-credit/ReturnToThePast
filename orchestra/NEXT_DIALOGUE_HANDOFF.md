@@ -1,16 +1,16 @@
 # 다음 대화 인수인계
 
-## 2026-06-05 KST - RTTP Style-Harness Recast Queue Active
+## 2026-06-06 KST - RTTP Style-Harness Recast Queue Active
 
-- Work summary: sample-derived style rules have been added to the RTTP harness, and `Vol.1 Chapters 1~25`, `Vol.2 Chapters 1~25`, plus `Vol.3 Chapters 1~20` are now style-locked complete with aggregate `Vol.1 Chapters 1~25`, `Vol.2 Chapters 1~5`, `Vol.2 Chapters 6~10`, `Vol.2 Chapters 11~15`, `Vol.2 Chapters 16~20`, `Vol.2 Chapters 21~25`, `Vol.3 Chapters 1~5`, `Vol.3 Chapters 6~10`, and `Vol.3 Chapters 11~15` verification complete.
+- Work summary: sample-derived style rules have been added to the RTTP harness, and `Vol.1 Chapters 1~25`, `Vol.2 Chapters 1~25`, plus `Vol.3 Chapters 1~20` are now style-locked complete with aggregate `Vol.1 Chapters 1~25`, `Vol.2 Chapters 1~5`, `Vol.2 Chapters 6~10`, `Vol.2 Chapters 11~15`, `Vol.2 Chapters 16~20`, `Vol.2 Chapters 21~25`, `Vol.3 Chapters 1~5`, `Vol.3 Chapters 6~10`, `Vol.3 Chapters 11~15`, and `Vol.3 Chapters 16~20` verification complete.
 - Scope: this is a new style-recast queue starting from `Vol.1 Chapter 1`; it is separate from the older Vol.6/overall-147 re-deep-lock queue.
-- Current target: aggregate `Vol.3 Chapters 16~20`.
-- Current status: Vol.1 Chapters 1~25, Vol.2 Chapters 1~25, and Vol.3 Chapters 1~20 are style-locked complete under the new sample-derived style harness; aggregate `Vol.3 Chapters 1~5`, `Vol.3 Chapters 6~10`, and `Vol.3 Chapters 11~15` are complete, so the next unit is aggregate verification for Vol.3 Chapters 16~20. Do not advance to Vol.3 Chapter 21 until this aggregate passes.
+- Current target: `Vol.3 Chapter 21`.
+- Current status: Vol.1 Chapters 1~25, Vol.2 Chapters 1~25, and Vol.3 Chapters 1~20 are style-locked complete under the new sample-derived style harness; aggregate `Vol.3 Chapters 1~5`, `Vol.3 Chapters 6~10`, `Vol.3 Chapters 11~15`, and `Vol.3 Chapters 16~20` are complete, so the next unit is single-chapter lock Vol.3 Chapter 21.
 - Last verified style-harness range: `Vol.1 Chapters 1~25; Vol.2 Chapters 1~25; Vol.3 Chapters 1~20`.
-- Last verified aggregate style-harness range: `Vol.1 Chapters 1~25; Vol.2 Chapters 1~25; Vol.3 Chapters 1~15`.
+- Last verified aggregate style-harness range: `Vol.1 Chapters 1~25; Vol.2 Chapters 1~25; Vol.3 Chapters 1~20`.
 - Active incomplete style-harness range: `none`.
 - Latest checkpoint: `orchestra/VOL3_CHAPTER_20_STYLE_HARNESS_CHECKPOINT_2026-06-06.md`.
-- Latest aggregate checkpoint: `orchestra/VOL3_CHAPTER_11_15_STYLE_HARNESS_AGGREGATE_CHECKPOINT_2026-06-05.md`.
+- Latest aggregate checkpoint: `orchestra/VOL3_CHAPTER_16_20_STYLE_HARNESS_AGGREGATE_CHECKPOINT_2026-06-06.md`.
 - Style rules now active: `칼날형 입구`, `단계식 오차 확인`, `관계 압력 우선`, `저강도 역전`, `주변 반응 증명`, `분노/폭력 억제`, `시간여행/인과부채 감각`.
 - Length policy: from `Vol.1 Chapter 22` onward, enforce no-space floor `4,800` and target around `5,000`; do not retroactively revise Chapters 1~21 for length unless explicitly requested.
 - Automation push policy: after each successful chapter or aggregate packet, stage only relevant changed files, commit clearly, and push the current branch to origin.
@@ -19,7 +19,7 @@
 
 -->
 - Supersession note: use the final exact next prompt override in this active block; any earlier Chapter 8 prompt line in this block is stale historical text.
-- Exact next prompt override: `RTTP Style-Harness Recast Vol.3 Chapters 16~20 aggregate proceed. Existing Vol.6/147 queue is not the active queue; continue the style-recast queue. Process exactly one unit only: aggregate verification for Drafts/Vol_3/Vol_3_Chapter_16.md through Drafts/Vol_3/Vol_3_Chapter_20.md. Read SESSION_STATE, NEXT_DIALOGUE_HANDOFF, the five target drafts, Drafts/Vol_3/Vol_3_Chapter_15.md as left edge, Drafts/Vol_3/Vol_3_Chapter_21.md as right edge if present, Vol.3 outline/timeline, RTTP_ENGINE, Chapter_Audit_Checklist, Prompt_Quick_Reference, Writing_Prompt_Template, relevant pressure grid if available, tone/style guidance, the latest Vol.3 Chapter 16/17/18/19/20 checkpoints, the latest Vol.3 Chapters 11~15 aggregate checkpoint, and relevant canon/setting context. Run aggregate full reread, specialist aggregate FAIL ledger with cross-chapter hook/pressure ladder, scene-causality, ending-click ladder into Chapter 21, time-scent/regression-route guard, motif/style guard, clarity/canon-continuity guard, style-harness fit, and length/format. Apply narrow repairs only if the aggregate fails, reread the affected packet in full, and run final no-edit 5-cycle aggregate verification. Do not advance to Vol.3 Chapter 21 until the aggregate Vol.3 Chapters 16~20 pass holds. After success, update the aggregate checkpoint, SESSION_STATE, NEXT_DIALOGUE_HANDOFF, and EXECUTION_PROGRESS_LEDGER, stage only relevant changed files, commit clearly, and push current branch to origin.`
+- Exact next prompt override: `RTTP Style-Harness Recast Vol.3 Chapter 21 proceed. Existing Vol.6/147 queue is not the active queue; continue the style-recast queue. Process exactly one chapter only: Drafts/Vol_3/Vol_3_Chapter_21.md. Read SESSION_STATE, NEXT_DIALOGUE_HANDOFF, Drafts/Vol_3/Vol_3_Chapter_20.md, Drafts/Vol_3/Vol_3_Chapter_21.md, Drafts/Vol_3/Vol_3_Chapter_22.md if present, Vol.3 outline/timeline, RTTP_ENGINE, Chapter_Audit_Checklist, Prompt_Quick_Reference, Writing_Prompt_Template, relevant pressure grid if available, tone/style guidance, the latest Vol.3 Chapter 20 checkpoint, the latest Vol.3 Chapters 16~20 aggregate checkpoint, and relevant canon/setting context. Run full read, specialist FAIL ledger with Hook/first-screen, Mid-pressure/scene-causality, Ending click, Time-scent/regression-route guard, Motif-overuse/style guard, Clarity/canon-continuity guard, Style-harness fit, and Length/format, then narrow fixes only, full reread, and final no-edit 5-cycle verification. Do not mark Chapter 21 style-locked complete unless all five verification cycles hold. After success, update the Chapter 21 checkpoint, SESSION_STATE, NEXT_DIALOGUE_HANDOFF, and EXECUTION_PROGRESS_LEDGER, stage only relevant changed files, commit clearly, and push current branch to origin. Aggregate Vol.3 Chapters 21~25 is due after Vol.3 Chapter 25 passes.`
 
 ## 2026-05-10 KST - RTTP Re-DeepLock 146 Complete
 
