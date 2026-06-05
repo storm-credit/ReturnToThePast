@@ -14,6 +14,39 @@
 
 ## 2026-06-06 KST
 
+- Mode: `rttp style-harness recast Vol.4 Chapter 3`
+- Scope note: continuing the new style-recast loop; this is not the prior Vol.6/overall-147 continuation queue.
+- Current work: `Vol.4 Chapter 3` style-harness lock complete.
+- Next work: `Vol.4 Chapter 4`; aggregate `Vol.4 Chapters 1~5` becomes due after Vol.4 Chapter 5 passes.
+- Execution mode: `orchestra-conductor lock pass; specialist lenses run sequentially by conductor`
+- Primary agent: `Codex`
+- Specialists: `Hook/first-screen`, `Mid-pressure/scene-causality`, `Ending-click/next-episode-force`, `Time-scent/regression-route`, `Motif/style`, `Clarity/canon-continuity`, `Style-harness fit`, `Length/format`, plus conductor final integration.
+- MCP: `none`
+- Skills:
+  - `rttp-lock-cycle`
+- Automations: `rttp-style-harness-completion-loop`
+- Automation push policy:
+  - After each successful chapter or aggregate packet, stage only relevant changed files, commit clearly, and push the current branch to origin.
+- Length policy:
+  - From `Vol.1 Chapter 22` onward and for the continuing style queue, enforce no-space floor `4,800` and target around `5,000`; do not retroactively revise prior chapters for length unless explicitly requested.
+- Edits:
+  - `Drafts/Vol_4/Vol_4_Chapter_3.md`
+  - `orchestra/VOL4_CHAPTER_3_STYLE_HARNESS_CHECKPOINT_2026-06-06.md`
+  - `orchestra/SESSION_STATE.md`
+  - `orchestra/NEXT_DIALOGUE_HANDOFF.md`
+  - `orchestra/EXECUTION_PROGRESS_LEDGER.md`
+- Manuscript note:
+  - Chapter 3 now locks the first active breach fight: Iris receives Chapter 2's threshold count, Aiden reads the anomaly through water/mud/wheel/smoke/stab repetition, the silver plate and drain push collapse one shape without ending the spread, and the north/east bells force a move toward the Chapter 4 quarantine and summons runway.
+- Verification note:
+  - Blocking banned-surface/game-route/meta scan returned zero hits. Context watch terms `후영`, `시간`, `이제`, `처음`, `모른다`, `늦`, `흔적`, and `해답` were reviewed as canon/scene-native pressure terms.
+- Final verification:
+  - `nospace=4,941`, `body_nospace=4,929`, blocking hard/meta/time-scent hits `0`, context watch hits `45`, BOM count `0`, title fails `0`, extra EOF blank `false`, backticks `0`, hash `58AA3EA4E09EE525887120653F934BCA0A1B53A802FCCB04181F26BD51CE09C0`.
+- Result:
+  - Style-harness verified range advances to `Vol.1 Chapters 1~25; Vol.2 Chapters 1~25; Vol.3 Chapters 1~25; Vol.4 Chapters 1~3`.
+  - Aggregate style-harness verified range remains `Vol.1 Chapters 1~25; Vol.2 Chapters 1~25; Vol.3 Chapters 1~25`.
+
+## 2026-06-06 KST
+
 - Mode: `rttp style-harness recast Vol.4 Chapter 2`
 - Scope note: continuing the new style-recast loop; this is not the prior Vol.6/overall-147 continuation queue.
 - Current work: `Vol.4 Chapter 2` style-harness lock complete.
