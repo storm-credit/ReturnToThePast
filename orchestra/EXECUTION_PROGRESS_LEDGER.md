@@ -14,6 +14,37 @@
 
 ## 2026-06-05 KST
 
+- Mode: `rttp style-harness recast Vol.3 Chapter 10`
+- Scope note: continuing the new style-recast loop; this is not the prior Vol.6/overall-147 continuation queue.
+- Current work: `Vol.3 Chapter 10` style-harness lock complete.
+- Next work: aggregate `Vol.3 Chapters 6~10`; do not advance to `Vol.3 Chapter 11` before that packet passes.
+- Execution mode: `orchestra-conductor lock pass; specialist lenses run sequentially by conductor`
+- Primary agent: `Codex`
+- Specialists: `Hook/first-screen`, `Mid-pressure/scene-causality`, `Ending-click/next-episode-force`, `Time-scent/regression-route`, `Motif/style`, `Clarity/canon-continuity`, `Length/format`, plus conductor final integration.
+- MCP: `none`
+- Skills:
+  - `rttp-lock-cycle`
+- Automations: `rttp-style-harness-completion-loop`
+- Automation push policy:
+  - After each successful chapter or aggregate packet, stage only relevant changed files, commit clearly, and push the current branch to origin.
+- Length policy:
+  - From `Vol.1 Chapter 22` onward and for the continuing style queue, enforce no-space floor `4,800` and target around `5,000`; do not retroactively revise prior chapters for length unless explicitly requested.
+- Edits:
+  - `Drafts/Vol_3/Vol_3_Chapter_10.md`
+  - `orchestra/VOL3_CHAPTER_10_STYLE_HARNESS_CHECKPOINT_2026-06-05.md`
+  - `orchestra/SESSION_STATE.md`
+  - `orchestra/NEXT_DIALOGUE_HANDOFF.md`
+  - `orchestra/EXECUTION_PROGRESS_LEDGER.md`
+- Manuscript note:
+  - Chapter 10 now states the memory-vs-calculation law through drainage pressure, Iris's wound, Balthazar's weight reading, and the hidden hand outside the visible three shadows; it bridges directly into Chapter 11's plague-truth warehouse without route/game scent.
+- Final verification:
+  - `nospace=4,818`, `body_nospace=4,804`, hard/meta/time-scent hits `0`, hash `3799C17817FBDD2B08B7911DF81AC978ABB24C4D3066C8D91D4A240A903F8ADC`.
+- Result:
+  - Style-harness verified range advances to `Vol.1 Chapters 1~25; Vol.2 Chapters 1~25; Vol.3 Chapters 1~10`.
+  - Aggregate style-harness verified range remains `Vol.1 Chapters 1~25; Vol.2 Chapters 1~25; Vol.3 Chapters 1~5`.
+
+## 2026-06-05 KST
+
 - Mode: `rttp style-harness recast Vol.3 Chapter 9`
 - Scope note: continuing the new style-recast loop; this is not the prior Vol.6/overall-147 continuation queue.
 - Current work: `Vol.3 Chapter 9` style-harness lock complete.
