@@ -14,6 +14,36 @@
 
 ## 2026-06-05 KST
 
+- Mode: `rttp style-harness recast Vol.3 Chapters 11~15 aggregate`
+- Scope note: continuing the new style-recast loop; this aggregate was processed as one unit before advancing beyond Vol.3 Chapter 15.
+- Current work: aggregate `Vol.3 Chapters 11~15` style-harness verification complete.
+- Next work: `Vol.3 Chapter 16`; aggregate `Vol.3 Chapters 16~20` is due after Vol.3 Chapter 20 passes.
+- Execution mode: `orchestra-conductor aggregate lock pass; specialist aggregate lenses run sequentially by conductor`
+- Primary agent: `Codex`
+- Specialists: `Cross-chapter hook/pressure ladder`, `Scene causality`, `Ending-click ladder`, `Time-scent/regression-route`, `Motif/style`, `Clarity/canon-continuity`, `Style-harness fit`, `Length/format`, plus conductor final integration.
+- MCP: `none`
+- Skills:
+  - `rttp-lock-cycle`
+- Automations: `rttp-style-harness-completion-loop`
+- Automation push policy:
+  - After each successful chapter or aggregate packet, stage only relevant changed files, commit clearly, and push the current branch to origin.
+- Length policy:
+  - From `Vol.1 Chapter 22` onward and for the continuing style queue, enforce no-space floor `4,800` and target around `5,000`; do not retroactively revise prior chapters for length unless explicitly requested.
+- Edits:
+  - `orchestra/VOL3_CHAPTER_11_15_STYLE_HARNESS_AGGREGATE_CHECKPOINT_2026-06-05.md`
+  - `orchestra/SESSION_STATE.md`
+  - `orchestra/NEXT_DIALOGUE_HANDOFF.md`
+  - `orchestra/EXECUTION_PROGRESS_LEDGER.md`
+- Manuscript note:
+  - No manuscript edits were required. The Ch11~15 packet holds as `plague deployment matrix -> Balthazar decode -> three-track diversion -> regicide frame -> imperfect evidence bundle`.
+- Final verification:
+  - `total_nospace=24,269`, `total_body_nospace=24,205`, hard/meta/time-scent hits `0`, BOM count `0`, title fails `0`, hash `0414D223297290FC79496A925E9DE15E99A3BEC5FA636B298F3DCB07239D148C`.
+- Result:
+  - Aggregate style-harness verified range advances to `Vol.1 Chapters 1~25; Vol.2 Chapters 1~25; Vol.3 Chapters 1~15`.
+  - Next single-chapter target is `Vol.3 Chapter 16`.
+
+## 2026-06-05 KST
+
 - Mode: `rttp style-harness recast Vol.3 Chapter 15`
 - Scope note: continuing the new style-recast loop; this is not the prior Vol.6/overall-147 continuation queue.
 - Current work: `Vol.3 Chapter 15` style-harness lock complete.
