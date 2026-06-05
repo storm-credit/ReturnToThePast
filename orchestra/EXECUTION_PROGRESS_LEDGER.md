@@ -14,6 +14,37 @@
 
 ## 2026-06-06 KST
 
+- Mode: `rttp style-harness recast Vol.3 Chapter 23`
+- Scope note: continuing the new style-recast loop; this is not the prior Vol.6/overall-147 continuation queue.
+- Current work: `Vol.3 Chapter 23` style-harness lock complete.
+- Next work: `Vol.3 Chapter 24`; aggregate `Vol.3 Chapters 21~25` is due after Vol.3 Chapter 25 passes.
+- Execution mode: `orchestra-conductor lock pass; two read-only specialist subagents plus conductor final integration`
+- Primary agent: `Codex`
+- Specialists: `Hook/first-screen`, `Mid-pressure/scene-causality`, `Ending-click/next-episode-force`, `Time-scent/regression-route`, `Motif/style`, `Clarity/canon-continuity`, `Style-harness fit`, `Length/format`, plus conductor final integration.
+- MCP: `multi_agent_v1 read-only specialist checks`
+- Skills:
+  - `rttp-lock-cycle`
+- Automations: `rttp-style-harness-completion-loop`
+- Automation push policy:
+  - After each successful chapter or aggregate packet, stage only relevant changed files, commit clearly, and push the current branch to origin.
+- Length policy:
+  - From `Vol.1 Chapter 22` onward and for the continuing style queue, enforce no-space floor `4,800` and target around `5,000`; do not retroactively revise prior chapters for length unless explicitly requested.
+- Edits:
+  - `Drafts/Vol_3/Vol_3_Chapter_23.md`
+  - `orchestra/VOL3_CHAPTER_23_STYLE_HARNESS_CHECKPOINT_2026-06-06.md`
+  - `orchestra/SESSION_STATE.md`
+  - `orchestra/NEXT_DIALOGUE_HANDOFF.md`
+  - `orchestra/EXECUTION_PROGRESS_LEDGER.md`
+- Manuscript note:
+  - Chapter 23 now locks the afterimage/voice escalation as the consequence of Chapter 22's failed night search: Aiden reaches the south-gate line but cannot enter the outside record route, returns to Lia's room, hears the afterimages sharpen, refuses to numb the signal, and ends with the false belief that the latest-arriving thing will be the voice, bridging into Chapter 24's letter.
+- Final verification:
+  - `nospace=4,814`, `body_nospace=4,800`, hard/meta/time-scent hits `0`, BOM count `0`, title fails `0`, extra EOF blank `false`, hash `C55C260F8077286CFF2317F4505C5E5A1D52420E14E5476430A6F15A4225CFA7`.
+- Result:
+  - Style-harness verified range advances to `Vol.1 Chapters 1~25; Vol.2 Chapters 1~25; Vol.3 Chapters 1~23`.
+  - Aggregate style-harness verified range remains `Vol.1 Chapters 1~25; Vol.2 Chapters 1~25; Vol.3 Chapters 1~20`.
+
+## 2026-06-06 KST
+
 - Mode: `rttp style-harness recast Vol.3 Chapter 22`
 - Scope note: continuing the new style-recast loop; this is not the prior Vol.6/overall-147 continuation queue.
 - Current work: `Vol.3 Chapter 22` style-harness lock complete.
