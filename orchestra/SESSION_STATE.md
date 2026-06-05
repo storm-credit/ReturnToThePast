@@ -5,13 +5,13 @@
 - Automation: `rttp-style-harness-completion-loop`
 - Queue type: `style-harness recast`, separate from the prior Vol.6/overall-147 re-deep-lock queue.
 - Start target: `Vol.1 Chapter 1`
-- Current single-chapter target: `Vol.3 Chapter 22`
-- Current style-harness verified range: `Vol.1 Chapters 1~25; Vol.2 Chapters 1~25; Vol.3 Chapters 1~21`
+- Current single-chapter target: `Vol.3 Chapter 23`
+- Current style-harness verified range: `Vol.1 Chapters 1~25; Vol.2 Chapters 1~25; Vol.3 Chapters 1~22`
 - Current aggregate style-harness verified range: `Vol.1 Chapters 1~25; Vol.2 Chapters 1~25; Vol.3 Chapters 1~20`
 - Active incomplete style-harness range: `none`
-- Latest style checkpoint: `orchestra/VOL3_CHAPTER_21_STYLE_HARNESS_CHECKPOINT_2026-06-06.md`
+- Latest style checkpoint: `orchestra/VOL3_CHAPTER_22_STYLE_HARNESS_CHECKPOINT_2026-06-06.md`
 - Latest aggregate style checkpoint: `orchestra/VOL3_CHAPTER_16_20_STYLE_HARNESS_AGGREGATE_CHECKPOINT_2026-06-06.md`
-- Important status note: Vol.1 Chapters 1~25, Vol.2 Chapters 1~25, and Vol.3 Chapters 1~21 are style-locked complete under the new sample-derived style harness after full read, FAIL ledger, narrow repair/full reread where needed, and final no-edit 5-cycle verification. Aggregate `Vol.1 Chapters 1~25`, `Vol.2 Chapters 1~5`, `Vol.2 Chapters 6~10`, `Vol.2 Chapters 11~15`, `Vol.2 Chapters 16~20`, `Vol.2 Chapters 21~25`, `Vol.3 Chapters 1~5`, `Vol.3 Chapters 6~10`, `Vol.3 Chapters 11~15`, and `Vol.3 Chapters 16~20` packet verification are also complete; the next unit is single-chapter lock `Vol.3 Chapter 22`.
+- Important status note: Vol.1 Chapters 1~25, Vol.2 Chapters 1~25, and Vol.3 Chapters 1~22 are style-locked complete under the new sample-derived style harness after full read, FAIL ledger, narrow repair/full reread where needed, and final no-edit 5-cycle verification. Aggregate `Vol.1 Chapters 1~25`, `Vol.2 Chapters 1~5`, `Vol.2 Chapters 6~10`, `Vol.2 Chapters 11~15`, `Vol.2 Chapters 16~20`, `Vol.2 Chapters 21~25`, `Vol.3 Chapters 1~5`, `Vol.3 Chapters 6~10`, `Vol.3 Chapters 11~15`, and `Vol.3 Chapters 16~20` packet verification are also complete; the next unit is single-chapter lock `Vol.3 Chapter 23`.
 - Length policy: from `Vol.1 Chapter 22` onward, enforce no-space floor `4,800` and target around `5,000`; do not retroactively revise Chapters 1~21 for length unless explicitly requested.
 - Style harness now requires: `칼날형 입구`, `단계식 오차 확인`, `관계 압력 우선`, `저강도 역전`, `주변 반응 증명`, `분노/폭력 억제`, and `회귀/게임 루트가 아닌 시간여행/인과부채 감각`.
 - Old queue preservation: prior reopened queue remains recorded through overall `146`; do not continue old `147 (Vol.6 Chapter 22)` from this new automation unless explicitly instructed.
@@ -30,6 +30,18 @@
 - Latest changed files added by Vol.3 Chapter 20 pass: `Drafts/Vol_3/Vol_3_Chapter_20.md`, `orchestra/VOL3_CHAPTER_20_STYLE_HARNESS_CHECKPOINT_2026-06-06.md`, `orchestra/SESSION_STATE.md`, `orchestra/NEXT_DIALOGUE_HANDOFF.md`, `orchestra/EXECUTION_PROGRESS_LEDGER.md`.
 - Latest changed files added by Vol.3 Chapters 16~20 aggregate pass: `orchestra/VOL3_CHAPTER_16_20_STYLE_HARNESS_AGGREGATE_CHECKPOINT_2026-06-06.md`, `orchestra/SESSION_STATE.md`, `orchestra/NEXT_DIALOGUE_HANDOFF.md`, `orchestra/EXECUTION_PROGRESS_LEDGER.md`.
 - Latest changed files added by Vol.3 Chapter 21 pass: `Drafts/Vol_3/Vol_3_Chapter_21.md`, `orchestra/VOL3_CHAPTER_21_STYLE_HARNESS_CHECKPOINT_2026-06-06.md`, `orchestra/SESSION_STATE.md`, `orchestra/NEXT_DIALOGUE_HANDOFF.md`, `orchestra/EXECUTION_PROGRESS_LEDGER.md`.
+- Latest changed files added by Vol.3 Chapter 22 pass: `Drafts/Vol_3/Vol_3_Chapter_22.md`, `orchestra/VOL3_CHAPTER_22_STYLE_HARNESS_CHECKPOINT_2026-06-06.md`, `orchestra/SESSION_STATE.md`, `orchestra/NEXT_DIALOGUE_HANDOFF.md`, `orchestra/EXECUTION_PROGRESS_LEDGER.md`.
+
+## 2026-06-06 KST RTTP Style-Harness Decisions - Vol.3 Chapter 22
+
+- `Drafts/Vol_3/Vol_3_Chapter_22.md` was fully read, repaired narrowly, reread in full, and passed a fresh no-edit 5-cycle verification.
+- Primary repairs: normalized the title, removed the hidden BOM, removed in-world backticks, cleared residual `오늘/다음/먼저/이미` route-scent surfaces, expanded the reclassification mark into record-function pressure, smoothed the final chase/structure handoff, and removed the extra blank EOF lines.
+- Chapter function holds as `Ch21 evidence table -> Balthazar closed-bowl structure diagram -> Aresion spell similarity -> Balthazar theory leak -> academy/outside/Consistory record hand -> Aiden body-structure warning -> palace-record name chase`.
+- Final verification held at `nospace=4,820`, `body_nospace=4,805`, hard/meta/time-scent hits `0`, BOM count `0`, title fails `0`, extra EOF blank `false`, hash `7B3C427B5D104EEEA13FB3342F6AB3596C81F515F9F1242711E521C19D4211FA`.
+- Style-harness verified range advances to `Vol.1 Chapters 1~25; Vol.2 Chapters 1~25; Vol.3 Chapters 1~22`.
+- Aggregate style-harness verified range remains `Vol.1 Chapters 1~25; Vol.2 Chapters 1~25; Vol.3 Chapters 1~20`.
+- Next single-chapter target is `Vol.3 Chapter 23`; aggregate `Vol.3 Chapters 21~25` is due after Vol.3 Chapter 25 passes.
+- Latest changed files added by this pass: `Drafts/Vol_3/Vol_3_Chapter_22.md`, `orchestra/VOL3_CHAPTER_22_STYLE_HARNESS_CHECKPOINT_2026-06-06.md`, `orchestra/SESSION_STATE.md`, `orchestra/NEXT_DIALOGUE_HANDOFF.md`, `orchestra/EXECUTION_PROGRESS_LEDGER.md`.
 
 ## 2026-06-06 KST RTTP Style-Harness Decisions - Vol.3 Chapter 21
 
