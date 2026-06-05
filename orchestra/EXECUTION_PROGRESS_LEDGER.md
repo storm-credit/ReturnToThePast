@@ -14,6 +14,37 @@
 
 ## 2026-06-06 KST
 
+- Mode: `rttp style-harness recast Vol.3 Chapter 21`
+- Scope note: continuing the new style-recast loop; this is not the prior Vol.6/overall-147 continuation queue.
+- Current work: `Vol.3 Chapter 21` style-harness lock complete.
+- Next work: `Vol.3 Chapter 22`; aggregate `Vol.3 Chapters 21~25` is due after Vol.3 Chapter 25 passes.
+- Execution mode: `orchestra-conductor lock pass; specialist lenses run sequentially by conductor`
+- Primary agent: `Codex`
+- Specialists: `Hook/first-screen`, `Mid-pressure/scene-causality`, `Ending-click/next-episode-force`, `Time-scent/regression-route`, `Motif/style`, `Clarity/canon-continuity`, `Style-harness fit`, `Length/format`, plus conductor final integration.
+- MCP: `none`
+- Skills:
+  - `rttp-lock-cycle`
+- Automations: `rttp-style-harness-completion-loop`
+- Automation push policy:
+  - After each successful chapter or aggregate packet, stage only relevant changed files, commit clearly, and push the current branch to origin.
+- Length policy:
+  - From `Vol.1 Chapter 22` onward and for the continuing style queue, enforce no-space floor `4,800` and target around `5,000`; do not retroactively revise prior chapters for length unless explicitly requested.
+- Edits:
+  - `Drafts/Vol_3/Vol_3_Chapter_21.md`
+  - `orchestra/VOL3_CHAPTER_21_STYLE_HARNESS_CHECKPOINT_2026-06-06.md`
+  - `orchestra/SESSION_STATE.md`
+  - `orchestra/NEXT_DIALOGUE_HANDOFF.md`
+  - `orchestra/EXECUTION_PROGRESS_LEDGER.md`
+- Manuscript note:
+  - Chapter 21 now locks the escaped-rat chase as a record-line escalation: south-gate residue leads to ledger powder, palace-record cover, overstamp tool, porter thread, and a live clerk/porter handoff near the palace.
+- Final verification:
+  - `nospace=4,812`, `body_nospace=4,800`, hard/meta/time-scent hits `0`, BOM count `0`, title fails `0`, extra EOF blank `false`, hash `B6A762D17ED9747454CFFF50C4D1EB42BFBA726692FEDE072765E3CD4F7B027C`.
+- Result:
+  - Style-harness verified range advances to `Vol.1 Chapters 1~25; Vol.2 Chapters 1~25; Vol.3 Chapters 1~21`.
+  - Aggregate style-harness verified range remains `Vol.1 Chapters 1~25; Vol.2 Chapters 1~25; Vol.3 Chapters 1~20`.
+
+## 2026-06-06 KST
+
 - Mode: `rttp style-harness recast Vol.3 Chapters 16~20 aggregate`
 - Scope note: continuing the new style-recast loop; this is not the prior Vol.6/overall-147 continuation queue.
 - Current work: aggregate `Vol.3 Chapters 16~20` style-harness verification complete.
