@@ -2,14 +2,14 @@
 
 ## 2026-06-06 KST - RTTP Style-Harness Recast Queue Active
 
-- Work summary: sample-derived style rules have been added to the RTTP harness, and `Vol.1 Chapters 1~25`, `Vol.2 Chapters 1~25`, plus `Vol.3 Chapters 1~25` are now style-locked complete with aggregate verification complete through `Vol.3 Chapters 21~25`.
+- Work summary: sample-derived style rules have been added to the RTTP harness, and `Vol.1 Chapters 1~25`, `Vol.2 Chapters 1~25`, `Vol.3 Chapters 1~25`, plus `Vol.4 Chapter 1` are now style-locked complete with aggregate verification complete through `Vol.3 Chapters 21~25`.
 - Scope: this is a new style-recast queue starting from `Vol.1 Chapter 1`; it is separate from the older Vol.6/overall-147 re-deep-lock queue.
-- Current target: `Vol.4 Chapter 1`.
-- Current status: Vol.1 Chapters 1~25, Vol.2 Chapters 1~25, and Vol.3 Chapters 1~25 are style-locked complete under the new sample-derived style harness; aggregate `Vol.1 Chapters 1~25`, `Vol.2 Chapters 1~25`, and `Vol.3 Chapters 1~25` verification are complete, so the next unit is the first single-chapter lock of Vol.4.
-- Last verified style-harness range: `Vol.1 Chapters 1~25; Vol.2 Chapters 1~25; Vol.3 Chapters 1~25`.
+- Current target: `Vol.4 Chapter 2`.
+- Current status: Vol.1 Chapters 1~25, Vol.2 Chapters 1~25, Vol.3 Chapters 1~25, and Vol.4 Chapter 1 are style-locked complete under the new sample-derived style harness; aggregate `Vol.1 Chapters 1~25`, `Vol.2 Chapters 1~25`, and `Vol.3 Chapters 1~25` verification are complete, so the next unit is `Vol.4 Chapter 2`.
+- Last verified style-harness range: `Vol.1 Chapters 1~25; Vol.2 Chapters 1~25; Vol.3 Chapters 1~25; Vol.4 Chapter 1`.
 - Last verified aggregate style-harness range: `Vol.1 Chapters 1~25; Vol.2 Chapters 1~25; Vol.3 Chapters 1~25`.
-- Active incomplete style-harness range: `Vol.4 Chapter 1`.
-- Latest checkpoint: `orchestra/VOL3_CHAPTER_25_STYLE_HARNESS_CHECKPOINT_2026-06-06.md`.
+- Active incomplete style-harness range: `Vol.4 Chapter 2`.
+- Latest checkpoint: `orchestra/VOL4_CHAPTER_1_STYLE_HARNESS_CHECKPOINT_2026-06-06.md`.
 - Latest aggregate checkpoint: `orchestra/VOL3_CHAPTER_21_25_STYLE_HARNESS_AGGREGATE_CHECKPOINT_2026-06-06.md`.
 - Style rules now active: `칼날형 입구`, `단계식 오차 확인`, `관계 압력 우선`, `저강도 역전`, `주변 반응 증명`, `분노/폭력 억제`, `시간여행/인과부채 감각`.
 - Length policy: from `Vol.1 Chapter 22` onward, enforce no-space floor `4,800` and target around `5,000`; do not retroactively revise Chapters 1~21 for length unless explicitly requested.
@@ -19,7 +19,7 @@
 
 -->
 - Supersession note: use the final exact next prompt override in this active block; any earlier Chapter 8 or Vol.3 aggregate prompt line in this block is stale historical text.
-- Exact next prompt override: `RTTP Style-Harness Recast Vol.4 Chapter 1 proceed. Existing Vol.6/147 queue is not the active queue; continue the style-recast queue. Process exactly one chapter only: Drafts/Vol_4/Vol_4_Chapter_1.md. Read SESSION_STATE, NEXT_DIALOGUE_HANDOFF, Drafts/Vol_3/Vol_3_Chapter_25.md as left edge, Drafts/Vol_4/Vol_4_Chapter_1.md, Drafts/Vol_4/Vol_4_Chapter_2.md if present as right edge, Vol.4 outline/timeline, RTTP_ENGINE, Chapter_Audit_Checklist, Prompt_Quick_Reference, Writing_Prompt_Template, relevant pressure grid if available, tone/style guidance, latest Vol.3 Chapters 21~25 aggregate checkpoint, and relevant canon/setting context. Run full read, specialist FAIL ledger with Hook/first-screen, Mid-pressure/scene-causality, Ending click/next-episode force, Time-scent/regression-route guard, Motif-overuse/style guard, Clarity/canon-continuity guard, Style-harness fit, and Length/format. Apply narrow fixes only, reread the full chapter, then run final no-edit 5-cycle verification. Do not mark Chapter 1 style-locked complete unless all five verification cycles hold. After success, create/update the Vol.4 Chapter 1 checkpoint, SESSION_STATE, NEXT_DIALOGUE_HANDOFF, and EXECUTION_PROGRESS_LEDGER, stage only relevant changed files, commit clearly, and push current branch to origin. Aggregate Vol.4 Chapters 1~5 is due after Vol.4 Chapter 5 passes.`
+- Exact next prompt override: `RTTP Style-Harness Recast Vol.4 Chapter 2 proceed. Existing Vol.6/147 queue is not the active queue; continue the style-recast queue. Process exactly one chapter only: Drafts/Vol_4/Vol_4_Chapter_2.md. Read SESSION_STATE, NEXT_DIALOGUE_HANDOFF, Drafts/Vol_4/Vol_4_Chapter_1.md as left edge, Drafts/Vol_4/Vol_4_Chapter_2.md, Drafts/Vol_4/Vol_4_Chapter_3.md if present as right edge, Vol.4 outline/timeline, RTTP_ENGINE, Chapter_Audit_Checklist, Prompt_Quick_Reference, Writing_Prompt_Template, relevant pressure grid if available, tone/style guidance, latest Vol.4 Chapter 1 checkpoint, latest Vol.3 Chapters 21~25 aggregate checkpoint, and relevant canon/setting context. Run full read, specialist FAIL ledger with Hook/first-screen, Mid-pressure/scene-causality, Ending click/next-episode force, Time-scent/regression-route guard, Motif-overuse/style guard, Clarity/canon-continuity guard, Style-harness fit, and Length/format. Apply narrow fixes only, reread the full chapter, then run final no-edit 5-cycle verification. Do not mark Chapter 2 style-locked complete unless all five verification cycles hold. After success, create/update the Vol.4 Chapter 2 checkpoint, SESSION_STATE, NEXT_DIALOGUE_HANDOFF, and EXECUTION_PROGRESS_LEDGER, stage only relevant changed files, commit clearly, and push current branch to origin. Aggregate Vol.4 Chapters 1~5 is due after Vol.4 Chapter 5 passes.`
 
 ## 2026-05-10 KST - RTTP Re-DeepLock 146 Complete
 
