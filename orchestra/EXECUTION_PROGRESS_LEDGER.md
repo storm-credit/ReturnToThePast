@@ -14,6 +14,39 @@
 
 ## 2026-06-06 KST
 
+- Mode: `rttp style-harness recast Vol.4 Chapter 6`
+- Scope note: continuing the new style-recast loop; this is not the prior Vol.6/overall-147 continuation queue.
+- Current work: `Vol.4 Chapter 6` style-harness lock complete.
+- Next work: `Vol.4 Chapter 7`; aggregate `Vol.4 Chapters 6~10` becomes due after Vol.4 Chapter 10 passes.
+- Execution mode: `orchestra-conductor lock pass; read-only specialist subagents plus conductor final integration`
+- Primary agent: `Codex`
+- Specialists: `Hook/first-screen`, `Mid-pressure/scene-causality`, `Ending-click/next-episode-force`, `Time-scent/regression-route`, `Motif/style`, `Clarity/canon-continuity`, `Style-harness fit`, `Length/format`, plus conductor final integration.
+- MCP: `multi_agent_v1 read-only specialist checks`
+- Skills:
+  - `rttp-lock-cycle`
+- Automations: `rttp-style-harness-completion-loop`
+- Automation push policy:
+  - After each successful chapter or aggregate packet, stage only relevant changed files, commit clearly, and push the current branch to origin.
+- Length policy:
+  - From `Vol.1 Chapter 22` onward and for the continuing style queue, enforce no-space floor `4,800` and target around `5,000`; do not retroactively revise prior chapters for length unless explicitly requested.
+- Edits:
+  - `Drafts/Vol_4/Vol_4_Chapter_6.md`
+  - `orchestra/VOL4_CHAPTER_6_STYLE_HARNESS_CHECKPOINT_2026-06-06.md`
+  - `orchestra/SESSION_STATE.md`
+  - `orchestra/NEXT_DIALOGUE_HANDOFF.md`
+  - `orchestra/EXECUTION_PROGRESS_LEDGER.md`
+- Manuscript note:
+  - Chapter 6 now locks the outer-front function: Ch5's city-maintenance order reaches the northeast front, the battlefield proves that the enemy cuts transport/message/purification lines rather than simply bodies, and the ending turns the conventional-method failure into the concrete Ch7 handoff for an unlit room and Balthazar's box.
+- Verification note:
+  - Initial specialist and format passes found title/BOM/backtick/EOF failures, a `게임` surface, and ending-click/style drift in the back third. Narrow repairs normalized the title, removed hard surfaces and backticks, and shifted the ending from explanatory meeting summary to `불을 끌 수 있는 방`.
+- Final verification:
+  - Five no-edit cycles all PASS at `nospace=4,891`, `body_nospace=4,882`, blocking hard/meta/time-scent hits `0`, BOM count `0`, title fails `0`, extra EOF blank `false`, backticks `0`, hash `A7066D1330EE136967FA832789CB7C953955B691A187BDC002DB5773734E08E4`.
+- Result:
+  - Style-harness verified range advances to `Vol.1 Chapters 1~25; Vol.2 Chapters 1~25; Vol.3 Chapters 1~25; Vol.4 Chapters 1~6`.
+  - Aggregate style-harness verified range remains `Vol.1 Chapters 1~25; Vol.2 Chapters 1~25; Vol.3 Chapters 1~25; Vol.4 Chapters 1~5`.
+
+## 2026-06-06 KST
+
 - Mode: `rttp style-harness recast aggregate Vol.4 Chapters 1~5`
 - Scope note: continuing the new style-recast loop; this is not the prior Vol.6/overall-147 continuation queue.
 - Current work: aggregate `Vol.4 Chapters 1~5` style-harness verification complete.
