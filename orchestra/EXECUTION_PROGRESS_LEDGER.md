@@ -14,6 +14,40 @@
 
 ## 2026-06-06 KST
 
+- Mode: `rttp style-harness recast Vol.4 Chapter 9`
+- Scope note: continuing the new style-recast loop; this is not the prior Vol.6/overall-147 continuation queue.
+- Current work: `Vol.4 Chapter 9` style-harness lock complete.
+- Next work: `Vol.4 Chapter 10`; aggregate `Vol.4 Chapters 6~10` becomes due immediately after Vol.4 Chapter 10 passes.
+- Execution mode: `orchestra-conductor lock pass; read-only specialist subagents plus conductor final integration`
+- Primary agent: `Codex`
+- Specialists: `Hook/first-screen`, `Mid-pressure/scene-causality`, `Ending-click/next-episode-force`, `Time-scent/regression-route`, `Motif/style`, `Clarity/canon-continuity`, `Style-harness fit`, `Length/format`, plus conductor final integration.
+- MCP: `multi_agent_v1 read-only specialist checks`
+- Skills:
+  - `rttp-lock-cycle`
+- Automations: `rttp-style-harness-completion-loop`
+- Automation push policy:
+  - After each successful chapter or aggregate packet, stage only relevant changed files, commit clearly, and push the current branch to origin.
+- Length policy:
+  - From `Vol.1 Chapter 22` onward and for the continuing style queue, enforce no-space floor `4,800` and target around `5,000`; do not retroactively revise prior chapters for length unless explicitly requested.
+- Edits:
+  - `Drafts/Vol_4/Vol_4_Chapter_9.md`
+  - `orchestra/VOL4_CHAPTER_9_STYLE_HARNESS_CHECKPOINT_2026-06-06.md`
+  - `orchestra/SESSION_STATE.md`
+  - `orchestra/NEXT_DIALOGUE_HANDOFF.md`
+  - `orchestra/EXECUTION_PROGRESS_LEDGER.md`
+- Manuscript note:
+  - Chapter 9 now locks Iris's resistance as a logistics-pressure confrontation: Ch8's workroom/daily symptom record and Iris refusal become a corridor argument, Ria's record-duty insistence, and a western-wall report that pushes directly into Ch10's alliance/logistics meeting.
+- Verification note:
+  - Initial specialist and format passes found a delayed first accusation, hidden BOM/EOF residue, in-world backticks, Ch8 symptom-board continuity drift, repeated self-sacrifice explanation, soft route/door motif surfaces, and an ending that buried the external pressure too early. Narrow repairs normalized format, tightened the first screen, aligned the symptom-record continuity, compressed repeated argument beats, thinned motif surfaces, and moved the external report pressure to the final click.
+- Final verification:
+  - Five no-edit cycles all PASS at `nospace=4,863`, `body_nospace=4,849`, blocking hard/meta/time-scent hits `0`, BOM count `0`, title fails `0`, extra EOF blank `false`, foreign-script hits `0`, backticks `0`, hash `8126F80F8A2609DAD39E4856700DA4C5BDD46449202DF140B1E10FB7933CCFEC`.
+- Result:
+  - Style-harness verified range advances to `Vol.1 Chapters 1~25; Vol.2 Chapters 1~25; Vol.3 Chapters 1~25; Vol.4 Chapters 1~9`.
+  - Aggregate style-harness verified range remains `Vol.1 Chapters 1~25; Vol.2 Chapters 1~25; Vol.3 Chapters 1~25; Vol.4 Chapters 1~5`.
+  - Next target is `Vol.4 Chapter 10`; after Chapter 10 passes, run aggregate `Vol.4 Chapters 6~10` before advancing to Chapter 11.
+
+## 2026-06-06 KST
+
 - Mode: `rttp style-harness recast Vol.4 Chapter 8`
 - Scope note: continuing the new style-recast loop; this is not the prior Vol.6/overall-147 continuation queue.
 - Current work: `Vol.4 Chapter 8` style-harness lock complete.
