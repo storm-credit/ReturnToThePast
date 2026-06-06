@@ -7,6 +7,19 @@
 - Skill: `rttp-lock-cycle`
 - Specialist mode: sequential conductor lenses; no subagents were spawned because the repairs were narrow format/surface fixes and final integration stayed in one pass.
 
+## 2026-06-06 KST Aggregate Repair Addendum
+
+- Reason: the later aggregate `Vol.4 Chapters 1~5` pass found a blocking left-edge replay against `Drafts/Vol_3/Vol_3_Chapter_25.md`. The first screen and closing rhythm repeated the prior chapter's sky-fissure setup too closely.
+- Repair scope: `Drafts/Vol_4/Vol_4_Chapter_1.md` only.
+- Repair summary: replaced the replayed sky-observation launch with a direct continuation from the north-gate rider, moved the `외곽 열두 번째 관측초소 폐쇄` report into the first screen, added the contact/ledger/quarantine decision chain, and replaced the repeated closing cadence with a living-name / room-check click into Chapter 2.
+- Post-repair status: `style-harness locked complete`, reconfirmed inside aggregate `Vol.4 Chapters 1~5`.
+- Supersession note: the live-file metrics below supersede the earlier single-chapter metrics later in this file.
+- Live no-space: `4,986`
+- Live body no-space: `4,974`
+- Live SHA-256: `F632E42994BA35E488932AB5344DC8015114AA42822BD8614BF8119E9F9D48E5`
+- Left-edge repeat check: `Vol.3 Chapter 25` to repaired `Vol.4 Chapter 1` exact 5-line duplicate windows `0`.
+- Aggregate final no-edit cycles: all five cycles PASS under `orchestra/VOL4_CHAPTER_1_5_STYLE_HARNESS_AGGREGATE_CHECKPOINT_2026-06-06.md`.
+
 ## Context Read
 
 - `orchestra/SESSION_STATE.md`

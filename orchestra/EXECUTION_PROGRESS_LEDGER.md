@@ -14,6 +14,40 @@
 
 ## 2026-06-06 KST
 
+- Mode: `rttp style-harness recast aggregate Vol.4 Chapters 1~5`
+- Scope note: continuing the new style-recast loop; this is not the prior Vol.6/overall-147 continuation queue.
+- Current work: aggregate `Vol.4 Chapters 1~5` style-harness verification complete.
+- Next work: `Vol.4 Chapter 6`; aggregate `Vol.4 Chapters 6~10` becomes due after Vol.4 Chapter 10 passes.
+- Execution mode: `orchestra-conductor aggregate lock pass; read-only specialist subagents plus conductor final integration`
+- Primary agent: `Codex`
+- Specialists: `Cross-chapter hook/pressure ladder`, `Scene-causality`, `Ending-click into Vol.4 Chapter 6`, `Time-scent/regression-route`, `Motif/style`, `Clarity/canon-continuity`, `Style-harness fit`, `Length/format`, plus conductor final integration.
+- MCP: `multi_agent_v1 read-only specialist checks`
+- Skills:
+  - `rttp-lock-cycle`
+- Automations: `rttp-style-harness-completion-loop`
+- Automation push policy:
+  - After each successful chapter or aggregate packet, stage only relevant changed files, commit clearly, and push the current branch to origin.
+- Length policy:
+  - From `Vol.1 Chapter 22` onward and for the continuing style queue, enforce no-space floor `4,800` and target around `5,000`; do not retroactively revise prior chapters for length unless explicitly requested.
+- Edits:
+  - `Drafts/Vol_4/Vol_4_Chapter_1.md`
+  - `orchestra/VOL4_CHAPTER_1_STYLE_HARNESS_CHECKPOINT_2026-06-06.md`
+  - `orchestra/VOL4_CHAPTER_1_5_STYLE_HARNESS_AGGREGATE_CHECKPOINT_2026-06-06.md`
+  - `orchestra/SESSION_STATE.md`
+  - `orchestra/NEXT_DIALOGUE_HANDOFF.md`
+  - `orchestra/EXECUTION_PROGRESS_LEDGER.md`
+- Manuscript note:
+  - Initial aggregate specialist checks found a blocking Ch1 left-edge replay against Vol.3 Ch25. Ch1 was repaired only at that boundary: it now starts from the arriving north-gate rider and missing outpost report, routes the pressure through contact/ledger/quarantine, and closes toward Lia's room without repeating the prior chapter's sky-fissure cadence.
+- Verification note:
+  - Blocking banned-surface/game-route/meta scan returned zero hits. Exact 5-line duplicate windows between `Vol.3 Chapter 25` and repaired `Vol.4 Chapter 1` returned `0`.
+- Final verification:
+  - Five no-edit aggregate cycles all PASS at `total_nospace=25,564`, `total_body_nospace=25,508`, blocking hard/meta/time-scent hits `0`, BOM count `0`, title fails `0`, extra EOF blank `false`, backticks `0`, aggregate text hash `07CCE0AFEA58633785A81FD6772C8BD2220801A8589C6EF02A80D183F0A068F6`.
+  - Per-chapter hashes: Ch1 `F632E42994BA35E488932AB5344DC8015114AA42822BD8614BF8119E9F9D48E5`; Ch2 `2F85C2B9246B0008EF2C95761D3A3AE43197D30D8B03C9940863FA5`; Ch3 `58AA3EA4E09EE525887120653F934BCA0A1B53A802FCCB04181F26BD51CE09C0`; Ch4 `063CA6A0D3FA491103D7ECC0A1D1A948ECD5B245D51EC61B1A26A7F234245F8F`; Ch5 `AD29AD654C5A3B5F58DF19A96A61A2ED22B631B662776524422A34AD2045ED58`.
+- Result:
+  - Aggregate style-harness verified range advances to `Vol.1 Chapters 1~25; Vol.2 Chapters 1~25; Vol.3 Chapters 1~25; Vol.4 Chapters 1~5`.
+
+## 2026-06-06 KST
+
 - Mode: `rttp style-harness recast Vol.4 Chapter 5`
 - Scope note: continuing the new style-recast loop; this is not the prior Vol.6/overall-147 continuation queue.
 - Current work: `Vol.4 Chapter 5` style-harness lock complete.
