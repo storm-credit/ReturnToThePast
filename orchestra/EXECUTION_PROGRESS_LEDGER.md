@@ -14,6 +14,40 @@
 
 ## 2026-06-06 KST
 
+- Mode: `rttp style-harness recast Vol.4 Chapter 13`
+- Scope note: continuing the new style-recast loop; this is not the prior Vol.6/overall-147 continuation queue.
+- Current work: `Vol.4 Chapter 13` style-harness lock complete.
+- Next work: `Vol.4 Chapter 14`; aggregate `Vol.4 Chapters 11~15` becomes due immediately after Vol.4 Chapter 15 passes.
+- Execution mode: `orchestra-conductor lock pass; read-only specialist subagents plus conductor final integration`
+- Primary agent: `Codex`
+- Specialists: `Hook/first-screen`, `Mid-pressure/scene-causality`, `Ending-click/next-episode-force`, `Time-scent/regression-route`, `Motif/style`, `Clarity/canon-continuity`, `Style-harness fit`, `Length/format`, plus conductor final integration.
+- MCP: `multi_agent_v1 read-only specialist checks`
+- Skills:
+  - `rttp-lock-cycle`
+- Automations: `rttp-style-harness-completion-loop`
+- Automation push policy:
+  - After each successful chapter or aggregate packet, stage only relevant changed files, commit clearly, and push the current branch to origin.
+- Length policy:
+  - From `Vol.1 Chapter 22` onward and for the continuing style queue, enforce no-space floor `4,800` and target around `5,000`; do not retroactively revise prior chapters for length unless explicitly requested.
+- Edits:
+  - `Drafts/Vol_4/Vol_4_Chapter_13.md`
+  - `orchestra/VOL4_CHAPTER_13_STYLE_HARNESS_CHECKPOINT_2026-06-06.md`
+  - `orchestra/SESSION_STATE.md`
+  - `orchestra/NEXT_DIALOGUE_HANDOFF.md`
+  - `orchestra/EXECUTION_PROGRESS_LEDGER.md`
+- Manuscript note:
+  - Chapter 13 now locks the sacrifice-prep function: Ch12's blank symptom-board cell enters the first screen, the ritual room turns `what will be taken` into object diagnostics, `수명 3년` becomes body/sense/memory instability rather than a clean number, and the final witness-device line pushes into Ch14's door activation.
+- Verification note:
+  - Initial specialist and format passes found old/bare title residue, in-world backticks, extra EOF blank, gore/checklist surfaces, a pre-activation causality blur, loaded `귀환 후` symptom wording, and a repeated medicine phrase. Narrow repairs normalized format, removed markup/residue, softened the body-comparison surface, tied symptoms to diagnostic exposure, changed the record to `숙소 복귀 후`, and sharpened the final Ch14 runway.
+- Final verification:
+  - Five no-edit cycles all PASS at `nospace=4,924`, `body_nospace=4,914`, blocking hard/watch hits `0`, BOM count `0`, title fails `0`, extra EOF blank `false`, foreign-script hits `0`, backticks `0`, duplicate exact 5-line windows `0`, hash `3BE256B7C37663F41E4A1F2F714334DE1405673509892E55C00A2BDB74014F0C`.
+- Result:
+  - Style-harness verified range advances to `Vol.1 Chapters 1~25; Vol.2 Chapters 1~25; Vol.3 Chapters 1~25; Vol.4 Chapters 1~13`.
+  - Aggregate style-harness verified range remains `Vol.1 Chapters 1~25; Vol.2 Chapters 1~25; Vol.3 Chapters 1~25; Vol.4 Chapters 1~10`.
+  - Next target is `Vol.4 Chapter 14`.
+
+## 2026-06-06 KST
+
 - Mode: `rttp style-harness recast Vol.4 Chapter 12`
 - Scope note: continuing the new style-recast loop; this is not the prior Vol.6/overall-147 continuation queue.
 - Current work: `Vol.4 Chapter 12` style-harness lock complete.
