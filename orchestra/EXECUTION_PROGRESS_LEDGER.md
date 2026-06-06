@@ -14,6 +14,39 @@
 
 ## 2026-06-06 KST
 
+- Mode: `rttp style-harness recast Vol.4 Chapter 7`
+- Scope note: continuing the new style-recast loop; this is not the prior Vol.6/overall-147 continuation queue.
+- Current work: `Vol.4 Chapter 7` style-harness lock complete.
+- Next work: `Vol.4 Chapter 8`; aggregate `Vol.4 Chapters 6~10` becomes due after Vol.4 Chapter 10 passes.
+- Execution mode: `orchestra-conductor lock pass; read-only specialist subagents plus conductor final integration`
+- Primary agent: `Codex`
+- Specialists: `Hook/first-screen`, `Mid-pressure/scene-causality`, `Ending-click/next-episode-force`, `Time-scent/regression-route`, `Motif/style`, `Clarity/canon-continuity`, `Style-harness fit`, `Length/format`, plus conductor final integration.
+- MCP: `multi_agent_v1 read-only specialist checks`
+- Skills:
+  - `rttp-lock-cycle`
+- Automations: `rttp-style-harness-completion-loop`
+- Automation push policy:
+  - After each successful chapter or aggregate packet, stage only relevant changed files, commit clearly, and push the current branch to origin.
+- Length policy:
+  - From `Vol.1 Chapter 22` onward and for the continuing style queue, enforce no-space floor `4,800` and target around `5,000`; do not retroactively revise prior chapters for length unless explicitly requested.
+- Edits:
+  - `Drafts/Vol_4/Vol_4_Chapter_7.md`
+  - `orchestra/VOL4_CHAPTER_7_STYLE_HARNESS_CHECKPOINT_2026-06-06.md`
+  - `orchestra/SESSION_STATE.md`
+  - `orchestra/NEXT_DIALOGUE_HANDOFF.md`
+  - `orchestra/EXECUTION_PROGRESS_LEDGER.md`
+- Manuscript note:
+  - Chapter 7 now locks the taboo-door function: Ch6's unlit-room handoff becomes Balthazar's sealed-room proposal, the ruined-future weapon axis is named without pulling the exact Chapter 8~13 payment forward, and the ending leaves the box, wax crack, and outside bell as the runway into Ch8 preparation.
+- Verification note:
+  - Initial specialist and format passes found a bare title, hidden BOM, in-world backticks, extra EOF blank, a foreign-script typo, question punctuation drift, `정화문` continuity drift, and over-thick `문` / `금기는 늘` / `비어 나간다` motifs. Narrow repairs normalized format, removed markup/foreign contamination, aligned terminology, anchored the weapon reveal, and shifted motif pressure back to object/body action.
+- Final verification:
+  - Five no-edit cycles all PASS at `nospace=4,887`, `body_nospace=4,876`, blocking hard/meta/time-scent hits `0`, BOM count `0`, title fails `0`, extra EOF blank `false`, foreign-script hits `0`, backticks `0`, hash `44A978F3B1F9ED6AC83826E5B232AA5914A578E5141D817A351B252DD6946252`.
+- Result:
+  - Style-harness verified range advances to `Vol.1 Chapters 1~25; Vol.2 Chapters 1~25; Vol.3 Chapters 1~25; Vol.4 Chapters 1~7`.
+  - Aggregate style-harness verified range remains `Vol.1 Chapters 1~25; Vol.2 Chapters 1~25; Vol.3 Chapters 1~25; Vol.4 Chapters 1~5`.
+
+## 2026-06-06 KST
+
 - Mode: `rttp style-harness recast Vol.4 Chapter 6`
 - Scope note: continuing the new style-recast loop; this is not the prior Vol.6/overall-147 continuation queue.
 - Current work: `Vol.4 Chapter 6` style-harness lock complete.
