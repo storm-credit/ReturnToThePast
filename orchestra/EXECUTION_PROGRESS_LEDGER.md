@@ -14,6 +14,39 @@
 
 ## 2026-06-06 KST
 
+- Mode: `rttp style-harness recast Vol.4 Chapters 6~10 aggregate`
+- Scope note: continuing the new style-recast loop; this is not the prior Vol.6/overall-147 continuation queue.
+- Current work: aggregate `Vol.4 Chapters 6~10` style-harness lock complete.
+- Next work: `Vol.4 Chapter 11`.
+- Execution mode: `orchestra-conductor aggregate lock pass; read-only specialist subagents plus conductor final integration`
+- Primary agent: `Codex`
+- Specialists: `Hook/first-screen`, `Mid-pressure/scene-causality`, `Ending-click/next-episode-force`, `Time-scent/regression-route`, `Motif/style`, `Clarity/canon-continuity`, `Style-harness fit`, `Length/format`, plus conductor final integration.
+- MCP: `multi_agent_v1 read-only specialist checks`
+- Skills:
+  - `rttp-lock-cycle`
+- Automations: `rttp-style-harness-completion-loop`
+- Automation push policy:
+  - After each successful chapter or aggregate packet, stage only relevant changed files, commit clearly, and push the current branch to origin.
+- Length policy:
+  - From `Vol.1 Chapter 22` onward and for the continuing style queue, enforce no-space floor `4,800` and target around `5,000`; do not retroactively revise prior chapters for length unless explicitly requested.
+- Edits:
+  - `orchestra/VOL4_CHAPTER_6_10_STYLE_HARNESS_AGGREGATE_CHECKPOINT_2026-06-06.md`
+  - `orchestra/SESSION_STATE.md`
+  - `orchestra/NEXT_DIALOGUE_HANDOFF.md`
+  - `orchestra/EXECUTION_PROGRESS_LEDGER.md`
+- Manuscript note:
+  - No manuscript edits were needed in Ch6~10 during this aggregate pass. The packet holds as Ch6 outer-front line failure, Ch7 taboo door, Ch8 anchor/preparation/symptom board, Ch9 Iris/Ria shared-cost confrontation, and Ch10 alliance logistics into Ch11's front-line proof runway.
+- Verification note:
+  - Read-only specialist passes found no blocking aggregate FAIL in Ch6~10. Ch11 has right-edge-only watch items: bare title, in-world backticks, and possible north-east geography echo.
+- Final verification:
+  - Five no-edit aggregate cycles all PASS at `body_total=24,330`, `total_no_space=24,388`, hard hits `0`, duplicate 5-line windows `0`, byte BOM files `0`, backticks `0`, foreign-script hits `0`, title failures `0`, extra EOF blank files `0`, packet hash `133E23D1F701D5AE05D1621098BEFF06F640FAE105B890D4CB057492898BAF8F`.
+- Result:
+  - Style-harness verified range remains `Vol.1 Chapters 1~25; Vol.2 Chapters 1~25; Vol.3 Chapters 1~25; Vol.4 Chapters 1~10`.
+  - Aggregate style-harness verified range advances to `Vol.1 Chapters 1~25; Vol.2 Chapters 1~25; Vol.3 Chapters 1~25; Vol.4 Chapters 1~10`.
+  - Next target is `Vol.4 Chapter 11`.
+
+## 2026-06-06 KST
+
 - Mode: `rttp style-harness recast Vol.4 Chapter 10`
 - Scope note: continuing the new style-recast loop; this is not the prior Vol.6/overall-147 continuation queue.
 - Current work: `Vol.4 Chapter 10` style-harness lock complete.
