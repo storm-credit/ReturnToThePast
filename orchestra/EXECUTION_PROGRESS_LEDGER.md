@@ -14,6 +14,40 @@
 
 ## 2026-06-06 KST
 
+- Mode: `rttp style-harness recast Vol.4 Chapter 14`
+- Scope note: continuing the new style-recast loop; this is not the prior Vol.6/overall-147 continuation queue.
+- Current work: `Vol.4 Chapter 14` style-harness lock complete.
+- Next work: `Vol.4 Chapter 15`; aggregate `Vol.4 Chapters 11~15` becomes due immediately after Vol.4 Chapter 15 passes.
+- Execution mode: `orchestra-conductor lock pass; read-only specialist subagents plus conductor final integration`
+- Primary agent: `Codex`
+- Specialists: `Hook/first-screen`, `Mid-pressure/scene-causality`, `Ending-click/next-episode-force`, `Time-scent/regression-route`, `Motif/style`, `Clarity/canon-continuity`, `Style-harness fit`, `Length/format`, plus conductor final integration.
+- MCP: `multi_agent_v1 read-only specialist checks`
+- Skills:
+  - `rttp-lock-cycle`
+- Automations: `rttp-style-harness-completion-loop`
+- Automation push policy:
+  - After each successful chapter or aggregate packet, stage only relevant changed files, commit clearly, and push the current branch to origin.
+- Length policy:
+  - From `Vol.1 Chapter 22` onward and for the continuing style queue, enforce no-space floor `4,800` and target around `5,000`; do not retroactively revise prior chapters for length unless explicitly requested.
+- Edits:
+  - `Drafts/Vol_4/Vol_4_Chapter_14.md`
+  - `orchestra/VOL4_CHAPTER_14_STYLE_HARNESS_CHECKPOINT_2026-06-06.md`
+  - `orchestra/SESSION_STATE.md`
+  - `orchestra/NEXT_DIALOGUE_HANDOFF.md`
+  - `orchestra/EXECUTION_PROGRESS_LEDGER.md`
+- Manuscript note:
+  - Chapter 14 now locks the door-activation/contact function: Ch13's return-place pressure enters the first screen, the ritual door stays a 차단/측정/대가 procedure, the ruined time-line is reached as anchored sensory contact rather than clean portal travel, and the ending leaves Ch15 with `도착 아님. 접촉.` plus a live threat.
+- Verification note:
+  - Initial specialist and format passes found old/bare title residue, in-world backticks, extra EOF blank, the `회회색` typo, a gore-leaning texture comparison, a Baltazar position ambiguity, over-concentrated `늦/박자` and smell clusters, Ch15 runway over-disclosure, and a thin length margin. Narrow repairs normalized format, clarified the anchored-contact mechanism, repaired the position/canon continuity, thinned repeated motifs, and protected Ch15's ruined-world reveal.
+- Final verification:
+  - Five no-edit cycles all PASS at `nospace=4,827`, `body_nospace=4,814`, blocking hard/watch hits `0`, BOM count `0`, title fails `0`, extra EOF blank `false`, foreign-script hits `0`, backticks `0`, duplicate exact 5-line windows `0`, hash `F345E1C3E7634B9370A63A160E0EAAED34E24C9EE6F664EF0F77A25F87578296`.
+- Result:
+  - Style-harness verified range advances to `Vol.1 Chapters 1~25; Vol.2 Chapters 1~25; Vol.3 Chapters 1~25; Vol.4 Chapters 1~14`.
+  - Aggregate style-harness verified range remains `Vol.1 Chapters 1~25; Vol.2 Chapters 1~25; Vol.3 Chapters 1~25; Vol.4 Chapters 1~10`.
+  - Next target is `Vol.4 Chapter 15`.
+
+## 2026-06-06 KST
+
 - Mode: `rttp style-harness recast Vol.4 Chapter 13`
 - Scope note: continuing the new style-recast loop; this is not the prior Vol.6/overall-147 continuation queue.
 - Current work: `Vol.4 Chapter 13` style-harness lock complete.
