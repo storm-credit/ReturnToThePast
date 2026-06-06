@@ -14,6 +14,39 @@
 
 ## 2026-06-06 KST
 
+- Mode: `rttp style-harness recast Vol.4 Chapter 5`
+- Scope note: continuing the new style-recast loop; this is not the prior Vol.6/overall-147 continuation queue.
+- Current work: `Vol.4 Chapter 5` style-harness lock complete.
+- Next work: aggregate `Vol.4 Chapters 1~5`; do not advance to `Vol.4 Chapter 6` until that aggregate packet passes as its own one-unit run.
+- Execution mode: `orchestra-conductor lock pass; read-only specialist subagents plus conductor final integration`
+- Primary agent: `Codex`
+- Specialists: `Hook/first-screen`, `Mid-pressure/scene-causality`, `Ending-click/next-episode-force`, `Time-scent/regression-route`, `Motif/style`, `Clarity/canon-continuity`, `Style-harness fit`, `Length/format`, plus conductor final integration.
+- MCP: `multi_agent_v1 read-only specialist checks`
+- Skills:
+  - `rttp-lock-cycle`
+- Automations: `rttp-style-harness-completion-loop`
+- Automation push policy:
+  - After each successful chapter or aggregate packet, stage only relevant changed files, commit clearly, and push the current branch to origin.
+- Length policy:
+  - From `Vol.1 Chapter 22` onward and for the continuing style queue, enforce no-space floor `4,800` and target around `5,000`; do not retroactively revise prior chapters for length unless explicitly requested.
+- Edits:
+  - `Drafts/Vol_4/Vol_4_Chapter_5.md`
+  - `orchestra/VOL4_CHAPTER_5_STYLE_HARNESS_CHECKPOINT_2026-06-06.md`
+  - `orchestra/SESSION_STATE.md`
+  - `orchestra/NEXT_DIALOGUE_HANDOFF.md`
+  - `orchestra/EXECUTION_PROGRESS_LEDGER.md`
+- Manuscript note:
+  - Chapter 5 now locks the war-council inversion: the outside-post loss lands in the first screen, Aiden is used as an unnamed field witness rather than a public hero, the three-point city-maintenance doctrine stays clear, and the ending sends him to verify the northeast outer front before Chapter 6.
+- Verification note:
+  - Blocking banned-surface/game-route/meta scan returned zero hits. Context watch terms `후영`, `그때`, `처음`, and `늦` were reviewed as canon/scene-native pressure terms.
+- Final verification:
+  - `nospace=5,557`, `body_nospace=5,546`, blocking hard/meta/time-scent hits `0`, context watch hits `18`, BOM count `0`, title fails `0`, extra EOF blank `false`, backticks `0`, hash `AD29AD654C5A3B5F58DF19A96A61A2ED22B631B662776524422A34AD2045ED58`.
+- Result:
+  - Style-harness verified range advances to `Vol.1 Chapters 1~25; Vol.2 Chapters 1~25; Vol.3 Chapters 1~25; Vol.4 Chapters 1~5`.
+  - Aggregate style-harness verified range remains `Vol.1 Chapters 1~25; Vol.2 Chapters 1~25; Vol.3 Chapters 1~25`.
+
+## 2026-06-06 KST
+
 - Mode: `rttp style-harness recast Vol.4 Chapter 4`
 - Scope note: continuing the new style-recast loop; this is not the prior Vol.6/overall-147 continuation queue.
 - Current work: `Vol.4 Chapter 4` style-harness lock complete.
