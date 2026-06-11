@@ -12,6 +12,24 @@
 - 상세 누적 진행도는 `SETTING_PROGRESS_TRACKER.md`, `DRAFTING_PROGRESS_TRACKER.md`를 따른다.
 - 현재 즉시 재개 지점은 `SESSION_STATE.md`를 따른다.
 
+## 2026-06-11 KST
+
+- Mode: `rttp style-harness recast Vol.4 Chapters 11~15 aggregate`
+- Scope: aggregate lock pass for `Drafts/Vol_4/Vol_4_Chapter_11.md` through `Drafts/Vol_4/Vol_4_Chapter_15.md`, with `Drafts/Vol_4/Vol_4_Chapter_10.md` as prior edge and `Drafts/Vol_4/Vol_4_Chapter_16.md` as right edge.
+- Current work: Vol.4 Chapters 11~15 aggregate is style-harness locked complete.
+- Next work: `Vol.4 Chapter 16`.
+- Execution mode: orchestra-conductor aggregate lock pass; conductor read-only specialist lenses plus final integration.
+- MCP: none; no multi-agent worker was spawned because this pass did not require explicit delegation.
+- Skills: `rttp-lock-cycle`.
+- Automations: none.
+- Edits: checkpoint/state/handoff/ledger only. No manuscript edits were made.
+- Manuscript note: the aggregate packet held without changes: Ch10 north-east/front-line proof -> Ch11 front-line losses and conventional limits -> Ch12 inner-room decision -> Ch13 sacrifice-cost preparation -> Ch14 anchored contact -> Ch15 ruined-world leakage bridge -> Ch16 return/leakage opening.
+- Specialist FAIL ledger: no blocking aggregate FAIL. Hook/pressure ladder, mid-pressure causality, ending click, time-scent/regression-route guard, motif/style guard, clarity/canon-continuity, style-harness fit, and length/format all PASS.
+- Metrics: body total `24,828`; total non-space `24,885`; packet hash `72AC0F95E152291E56E00A38F8D5A76BEFF9132E9ABF5A0A992C910DE37FABA9`.
+- Mechanical gates: duplicate 5-line windows `0`; BOM files `0`; backticks `0`; foreign-script hits `0`; title failures `0`; extra EOF blank files `0`; banned surface hits `0`.
+- Final verification: five no-edit cycles PASS with unchanged metrics and packet hash.
+- Result: style-harness verified range remains `Vol.1 Chapters 1~25; Vol.2 Chapters 1~25; Vol.3 Chapters 1~25; Vol.4 Chapters 1~15`; aggregate verified range advances through `Vol.4 Chapters 11~15`; next target is `Vol.4 Chapter 16`.
+
 ## 2026-06-06 KST
 
 - Mode: `rttp style-harness recast Vol.4 Chapter 15`
