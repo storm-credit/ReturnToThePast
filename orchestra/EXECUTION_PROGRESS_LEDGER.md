@@ -14,6 +14,40 @@
 
 ## 2026-06-06 KST
 
+- Mode: `rttp style-harness recast Vol.4 Chapter 15`
+- Scope note: continuing the new style-recast loop; this is not the prior Vol.6/overall-147 continuation queue.
+- Current work: `Vol.4 Chapter 15` style-harness lock complete.
+- Next work: aggregate `Vol.4 Chapters 11~15`; do not advance to `Vol.4 Chapter 16` until the aggregate packet passes.
+- Execution mode: `orchestra-conductor lock pass; read-only specialist subagents plus conductor final integration`
+- Primary agent: `Codex`
+- Specialists: `Hook/first-screen`, `Mid-pressure/scene-causality`, `Ending-click/next-episode-force`, `Time-scent/regression-route`, `Motif/style`, `Clarity/canon-continuity`, `Style-harness fit`, `Length/format`, plus conductor final integration.
+- MCP: `multi_agent_v1 read-only specialist checks`
+- Skills:
+  - `rttp-lock-cycle`
+- Automations: `rttp-style-harness-completion-loop`
+- Automation push policy:
+  - After each successful chapter or aggregate packet, stage only relevant changed files, commit clearly, and push the current branch to origin.
+- Length policy:
+  - From `Vol.1 Chapter 22` onward and for the continuing style queue, enforce no-space floor `4,800` and target around `5,000`; do not retroactively revise prior chapters for length unless explicitly requested.
+- Edits:
+  - `Drafts/Vol_4/Vol_4_Chapter_15.md`
+  - `orchestra/VOL4_CHAPTER_15_STYLE_HARNESS_CHECKPOINT_2026-06-06.md`
+  - `orchestra/SESSION_STATE.md`
+  - `orchestra/NEXT_DIALOGUE_HANDOFF.md`
+  - `orchestra/EXECUTION_PROGRESS_LEDGER.md`
+- Manuscript note:
+  - Chapter 15 now locks the ruined-world exploration function: Ch14's anchored contact is preserved through the Seraphim tether, the ruined world proves itself through delayed body-time and empty administrative procedures, the 해방자 threshold reads as a bigger value rather than reward, and the ending bridges into Ch16's leakage pressure with a black mark on Ria's blank record and a late metal-shard sound.
+- Verification note:
+  - Initial specialist and conductor passes found old/bare title residue, byte BOM/EOF/backtick format failures, arrival wording that conflicted with `도착 아님. 접촉.`, reader-facing volume wording, dense smell/late-time motif surfaces, and a soft ending click. Narrow repairs normalized format, clarified anchored contact, softened smell/gore surfaces, removed meta/backtick surfaces, added the Seraphim tether, and sharpened the ending into a Ch16 leakage bridge.
+- Final verification:
+  - Five no-edit cycles all PASS at `nospace=5,027`, `body_nospace=5,014`, blocking hard/watch hits `0`, byte BOM `false`, title fails `0`, extra EOF blank `false`, foreign-script hits `0`, backticks `0`, duplicate exact 5-line windows `0`, hash `BA29CAB8B59AA1BF66764734E523D86B1632F2AAB3134D6E734A3122FDA090D7`.
+- Result:
+  - Style-harness verified range advances to `Vol.1 Chapters 1~25; Vol.2 Chapters 1~25; Vol.3 Chapters 1~25; Vol.4 Chapters 1~15`.
+  - Aggregate style-harness verified range remains `Vol.1 Chapters 1~25; Vol.2 Chapters 1~25; Vol.3 Chapters 1~25; Vol.4 Chapters 1~10`.
+  - Next target is aggregate `Vol.4 Chapters 11~15`.
+
+## 2026-06-06 KST
+
 - Mode: `rttp style-harness recast Vol.4 Chapter 14`
 - Scope note: continuing the new style-recast loop; this is not the prior Vol.6/overall-147 continuation queue.
 - Current work: `Vol.4 Chapter 14` style-harness lock complete.
