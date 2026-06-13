@@ -14,6 +14,28 @@
 
 ## 2026-06-14 KST
 
+- Mode: `rttp style-harness recast Vol.5 Chapter 21`
+- Scope: single-chapter lock pass for `Drafts/Vol_5/Vol_5_Chapter_21.md`, with `Drafts/Vol_5/Vol_5_Chapter_20.md` as prior edge and `Drafts/Vol_5/Vol_5_Chapter_22.md` as right edge.
+- Current work: `Vol.5 Chapter 21` style-harness lock complete.
+- Next work: `Vol.5 Chapter 22`.
+- Execution mode: heartbeat-triggered orchestra-conductor lock pass; conductor read-only specialist lenses plus final integration.
+- MCP: none; no multi-agent worker was spawned because this heartbeat pass did not require explicit delegation.
+- Skills: `rttp-lock-cycle`.
+- Automations: `rttp-style-harness-completion-loop`.
+- Edits:
+  - `Drafts/Vol_5/Vol_5_Chapter_21.md`
+  - `orchestra/VOL5_CHAPTER_21_STYLE_HARNESS_CHECKPOINT_2026-06-14.md`
+  - `orchestra/SESSION_STATE.md`
+  - `orchestra/NEXT_DIALOGUE_HANDOFF.md`
+  - `orchestra/EXECUTION_PROGRESS_LEDGER.md`
+- Manuscript note: repaired only lock-surface, format residue, Ch22-boundary leakage, and active body floor by setting the clean title `빚의 폭풍`, removing the in-world record-line backticks, ending on Ria's empty-role recognition rather than actual sky-holding, and adding one short Ch21-native loss-list pressure beat. Ch22 was read as right edge only and left unstaged.
+- Specialist FAIL ledger: no structural hook, mid-pressure, ending, time-scent, motif, clarity, or style blocker after repair. Ch21 carries Ch20's `개문`, battlefield immediate response, Liberator use, and overload prelude into antibody mass intervention, Liberator overload, warm-memory erosion, and descending-sky pressure without spending Ch22's rift-holding, final severing, sky-closing, or Ch23 aftermath/no-cheer payload.
+- Final verification: five no-edit cycles all PASS at `body_nospace=4,801`, `total_no_space=4,805`, byte BOM `false`, backticks `0`, extra EOF blank `false`, Latin hits `0`, title fail `false`, duplicate exact 5-line windows `0`, banned hits `0`, meta hits `0`, hash `73B72F784C5D827E3B32314663D766DF32DA09188F9702E3342E5268355ECA0A`.
+- Result:
+  - Style-harness verified range advances to `Vol.1 Chapters 1~25; Vol.2 Chapters 1~25; Vol.3 Chapters 1~25; Vol.4 Chapters 1~25; Vol.5 Chapters 1~21`.
+  - Aggregate style-harness verified range remains `Vol.1 Chapters 1~25; Vol.2 Chapters 1~25; Vol.3 Chapters 1~25; Vol.4 Chapters 1~25; Vol.5 Chapters 1~15`.
+  - Next target is `Vol.5 Chapter 22`.
+
 - Mode: `rttp style-harness recast Vol.5 Chapter 20`
 - Scope: single-chapter lock pass for `Drafts/Vol_5/Vol_5_Chapter_20.md`, with `Drafts/Vol_5/Vol_5_Chapter_19.md` as prior edge and `Drafts/Vol_5/Vol_5_Chapter_21.md` as right edge.
 - Current work: `Vol.5 Chapter 20` style-harness lock complete.
