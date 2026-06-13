@@ -14,6 +14,28 @@
 
 ## 2026-06-14 KST
 
+- Mode: `rttp style-harness recast Vol.5 Chapter 15`
+- Scope: single-chapter lock pass for `Drafts/Vol_5/Vol_5_Chapter_15.md`, with `Drafts/Vol_5/Vol_5_Chapter_14.md` as prior edge and `Drafts/Vol_5/Vol_5_Chapter_16.md` as right edge.
+- Current work: `Vol.5 Chapter 15` style-harness lock complete.
+- Next work: aggregate `Vol.5 Chapters 11~15`; do not advance to `Vol.5 Chapter 16` before that aggregate passes.
+- Execution mode: heartbeat-triggered orchestra-conductor lock pass; conductor read-only specialist lenses plus final integration.
+- MCP: none; no multi-agent worker was spawned because this heartbeat pass did not require explicit delegation.
+- Skills: `rttp-lock-cycle`.
+- Automations: `rttp-style-harness-completion-loop`.
+- Edits:
+  - `Drafts/Vol_5/Vol_5_Chapter_15.md`
+  - `orchestra/VOL5_CHAPTER_15_STYLE_HARNESS_CHECKPOINT_2026-06-14.md`
+  - `orchestra/SESSION_STATE.md`
+  - `orchestra/NEXT_DIALOGUE_HANDOFF.md`
+  - `orchestra/EXECUTION_PROGRESS_LEDGER.md`
+- Manuscript note: repaired only lock-surface and format residue by adding the missing title `폐허의 메아리` and removing fourteen in-world record-line backtick pairs. Ch16 was read as right edge only and left unstaged.
+- Specialist FAIL ledger: no structural hook, mid-pressure, ending, time-scent, motif, clarity, or style blocker after repair. Ch15 carries Ch14's threshold and signal-reflection bridge into echo mismatch, vanished-structure reaction, body-first future residue, and surface-noise dependency without spending Ch16's cold-command payload.
+- Final verification: five no-edit cycles all PASS at `body_nospace=4,884`, `total_no_space=4,890`, byte BOM `false`, backticks `0`, extra EOF blank `false`, Latin hits `0`, title fail `false`, duplicate exact 5-line windows `0`, banned hits `0`, meta hits `0`, hash `EB89B1578E0FB8B02B7EE9697D749FB078DAA7D72592898EA0F00DEA35B71683`.
+- Result:
+  - Style-harness verified range advances to `Vol.1 Chapters 1~25; Vol.2 Chapters 1~25; Vol.3 Chapters 1~25; Vol.4 Chapters 1~25; Vol.5 Chapters 1~15`.
+  - Aggregate style-harness verified range remains `Vol.1 Chapters 1~25; Vol.2 Chapters 1~25; Vol.3 Chapters 1~25; Vol.4 Chapters 1~25; Vol.5 Chapters 1~10`.
+  - Next target is aggregate `Vol.5 Chapters 11~15`.
+
 - Mode: `rttp style-harness recast Vol.5 Chapter 14`
 - Scope: single-chapter lock pass for `Drafts/Vol_5/Vol_5_Chapter_14.md`, with `Drafts/Vol_5/Vol_5_Chapter_13.md` as prior edge and `Drafts/Vol_5/Vol_5_Chapter_15.md` as right edge.
 - Current work: `Vol.5 Chapter 14` style-harness lock complete.
