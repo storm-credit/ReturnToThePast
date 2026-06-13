@@ -5,13 +5,13 @@
 - Automation: `rttp-style-harness-completion-loop`
 - Queue type: `style-harness recast`, separate from the prior Vol.6/overall-147 re-deep-lock queue.
 - Start target: `Vol.1 Chapter 1`
-- Current single-chapter target: `Vol.5 Chapter 19`
-- Current style-harness verified range: `Vol.1 Chapters 1~25; Vol.2 Chapters 1~25; Vol.3 Chapters 1~25; Vol.4 Chapters 1~25; Vol.5 Chapters 1~18`
+- Current single-chapter target: `Vol.5 Chapter 20`
+- Current style-harness verified range: `Vol.1 Chapters 1~25; Vol.2 Chapters 1~25; Vol.3 Chapters 1~25; Vol.4 Chapters 1~25; Vol.5 Chapters 1~19`
 - Current aggregate style-harness verified range: `Vol.1 Chapters 1~25; Vol.2 Chapters 1~25; Vol.3 Chapters 1~25; Vol.4 Chapters 1~25; Vol.5 Chapters 1~15`
 - Active incomplete style-harness range: `none`
-- Latest style checkpoint: `orchestra/VOL5_CHAPTER_18_STYLE_HARNESS_CHECKPOINT_2026-06-14.md`
+- Latest style checkpoint: `orchestra/VOL5_CHAPTER_19_STYLE_HARNESS_CHECKPOINT_2026-06-14.md`
 - Latest aggregate style checkpoint: `orchestra/VOL5_CHAPTER_11_15_STYLE_HARNESS_AGGREGATE_CHECKPOINT_2026-06-14.md`
-- Important status note: Vol.1 Chapters 1~25, Vol.2 Chapters 1~25, Vol.3 Chapters 1~25, Vol.4 Chapters 1~25, and Vol.5 Chapters 1~18 are style-locked complete under the new sample-derived style harness after full read, FAIL ledger, narrow repair/full reread where needed, and final no-edit 5-cycle verification. Aggregate verification is complete through `Vol.5 Chapters 1~15`; the next one-unit run is `Vol.5 Chapter 19`.
+- Important status note: Vol.1 Chapters 1~25, Vol.2 Chapters 1~25, Vol.3 Chapters 1~25, Vol.4 Chapters 1~25, and Vol.5 Chapters 1~19 are style-locked complete under the new sample-derived style harness after full read, FAIL ledger, narrow repair/full reread where needed, and final no-edit 5-cycle verification. Aggregate verification is complete through `Vol.5 Chapters 1~15`; the next one-unit run is `Vol.5 Chapter 20`.
 - Length policy: from `Vol.1 Chapter 22` onward, enforce no-space floor `4,800` and target around `5,000`; do not retroactively revise Chapters 1~21 for length unless explicitly requested.
 - Style harness now requires: `칼날형 입구`, `단계식 오차 확인`, `관계 압력 우선`, `저강도 역전`, `주변 반응 증명`, `분노/폭력 억제`, and `회귀/게임 루트가 아닌 시간여행/인과부채 감각`.
 - Old queue preservation: prior reopened queue remains recorded through overall `146`; do not continue old `147 (Vol.6 Chapter 22)` from this new automation unless explicitly instructed.
@@ -86,6 +86,17 @@
 - Latest changed files added by Vol.5 Chapter 16 pass: `Drafts/Vol_5/Vol_5_Chapter_16.md`, `orchestra/VOL5_CHAPTER_16_STYLE_HARNESS_CHECKPOINT_2026-06-14.md`, `orchestra/SESSION_STATE.md`, `orchestra/NEXT_DIALOGUE_HANDOFF.md`, `orchestra/EXECUTION_PROGRESS_LEDGER.md`.
 - Latest changed files added by Vol.5 Chapter 17 pass: `Drafts/Vol_5/Vol_5_Chapter_17.md`, `orchestra/VOL5_CHAPTER_17_STYLE_HARNESS_CHECKPOINT_2026-06-14.md`, `orchestra/SESSION_STATE.md`, `orchestra/NEXT_DIALOGUE_HANDOFF.md`, `orchestra/EXECUTION_PROGRESS_LEDGER.md`.
 - Latest changed files added by Vol.5 Chapter 18 pass: `Drafts/Vol_5/Vol_5_Chapter_18.md`, `orchestra/VOL5_CHAPTER_18_STYLE_HARNESS_CHECKPOINT_2026-06-14.md`, `orchestra/SESSION_STATE.md`, `orchestra/NEXT_DIALOGUE_HANDOFF.md`, `orchestra/EXECUTION_PROGRESS_LEDGER.md`.
+- Latest changed files added by Vol.5 Chapter 19 pass: `Drafts/Vol_5/Vol_5_Chapter_19.md`, `orchestra/VOL5_CHAPTER_19_STYLE_HARNESS_CHECKPOINT_2026-06-14.md`, `orchestra/SESSION_STATE.md`, `orchestra/NEXT_DIALOGUE_HANDOFF.md`, `orchestra/EXECUTION_PROGRESS_LEDGER.md`.
+
+## 2026-06-14 KST RTTP Style-Harness Decisions - Vol.5 Chapter 19
+
+- `Drafts/Vol_5/Vol_5_Chapter_19.md` was fully read with `Drafts/Vol_5/Vol_5_Chapter_18.md` as prior edge, `Drafts/Vol_5/Vol_5_Chapter_20.md` as right edge, Vol.5 outline/timeline, harness guidance, banned ledger, time-travel frame, tone/canon references, latest Vol.5 Chapter 18 checkpoint, and latest Vol.5 Chapters 11~15 aggregate checkpoint.
+- Blocking structural FAIL after full packet read: none. Ch19 carries Ch18's cold-savior survival procedure, no-smile chill, Iris's remaining-hand signal, and coreward pull into `심연의 심지`, where the core is proven as a dead-timeline nail rather than a simple door.
+- Initial narrow FAIL: live Ch19 needed clean outline-title surface, had three in-world record lines wrapped in backticks, and used the meta phrase `제20화 전체의 재앙`.
+- Narrow repair applied: set the title to `심연의 심지`, removed only the six record-line backticks, and replaced the meta phrase with `다음 재앙의 문을 미리 열었다.` No plot rewrite, staging rewrite, new mechanic, character retarget, Ch18 edit, Ch20 opening import, or right-edge retarget was introduced.
+- Full reread after repair held: Ch19 still makes the dead-timeline nail/core confrontation, Aiden/Liberator resonance, Iris's one-armed body pressure, and the open-before-cut conclusion primary, without spending Ch20's actual `개문`.
+- Final no-edit 5-cycle verification: PASS all five cycles at `body_nospace=4,816`, `total_no_space=4,821`, byte BOM `false`, backticks `0`, extra EOF blank `false`, Latin hits `0`, title fail `false`, duplicate exact 5-line windows `0`, banned hits `0`, meta hits `0`, hash `F8C24A63FF2F7AE935A110A218868ECD5326DDFE595E04EB034010ED72BC6429`.
+- `Vol.5 Chapter 19` is style-locked complete. Style-harness verified range advances through `Vol.5 Chapters 1~19`; aggregate style-harness verified range remains through `Vol.5 Chapters 1~15`; next one-unit target is `Vol.5 Chapter 20`.
 
 ## 2026-06-14 KST RTTP Style-Harness Decisions - Vol.5 Chapter 18
 
