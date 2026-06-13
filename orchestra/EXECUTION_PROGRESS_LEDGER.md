@@ -14,6 +14,31 @@
 
 ## 2026-06-13 KST
 
+- Mode: `rttp style-harness recast Vol.4 Chapter 17`
+- Scope: single-chapter lock pass for `Drafts/Vol_4/Vol_4_Chapter_17.md`, with `Drafts/Vol_4/Vol_4_Chapter_16.md` as prior edge and `Drafts/Vol_4/Vol_4_Chapter_18.md` as right edge.
+- Current work: `Vol.4 Chapter 17` style-harness lock complete.
+- Next work: `Vol.4 Chapter 18`.
+- Execution mode: heartbeat-triggered orchestra-conductor lock pass; conductor read-only specialist lenses plus final integration.
+- MCP: none; no multi-agent worker was spawned because this heartbeat pass did not require explicit delegation.
+- Skills: `rttp-lock-cycle`.
+- Automations: `rttp-style-harness-completion-loop`.
+- Edits:
+  - `Drafts/Vol_4/Vol_4_Chapter_17.md`
+  - `orchestra/VOL4_CHAPTER_17_STYLE_HARNESS_CHECKPOINT_2026-06-13.md`
+  - `orchestra/SESSION_STATE.md`
+  - `orchestra/NEXT_DIALOGUE_HANDOFF.md`
+  - `orchestra/EXECUTION_PROGRESS_LEDGER.md`
+- Manuscript note: current worktree draft already carried the style-recast direction from old `92화`/future-route surfaces into present-world failed rescue and north-gate 봉쇄 pressure; this pass repaired only remaining format residue by removing backticks around the in-world record/name lines and trimming extra EOF blank space.
+- Specialist FAIL ledger: no structural hook, mid-pressure, ending, time-scent, motif, clarity, or style blocker. Initial format blockers were backticks `4` and extra EOF blank `true`; both were fixed before full reread.
+- Final verification: five no-edit cycles all PASS at `body_nospace=4,996`, `total_no_space=5,002`, byte BOM `false`, backticks `0`, extra EOF blank `false`, foreign-script hits `0`, title fail `0`, duplicate exact 5-line windows `0`, banned hits `0`, hash `62F11E05956D55A09A8DC7138E48C4F2F321A2EDB6E5C46F5D68CE288A78D0F2`.
+- Result:
+  - Style-harness verified range advances to `Vol.1 Chapters 1~25; Vol.2 Chapters 1~25; Vol.3 Chapters 1~25; Vol.4 Chapters 1~17`.
+  - Aggregate style-harness verified range remains `Vol.1 Chapters 1~25; Vol.2 Chapters 1~25; Vol.3 Chapters 1~25; Vol.4 Chapters 1~15`.
+  - Next target is `Vol.4 Chapter 18`.
+  - Aggregate `Vol.4 Chapters 16~20` is due after Vol.4 Chapter 20 passes.
+
+## 2026-06-13 KST
+
 - Mode: `rttp style-harness recast Vol.4 Chapter 16`
 - Scope: single-chapter lock pass for `Drafts/Vol_4/Vol_4_Chapter_16.md`, with `Drafts/Vol_4/Vol_4_Chapter_15.md` as prior edge and `Drafts/Vol_4/Vol_4_Chapter_17.md` as right edge.
 - Current work: `Vol.4 Chapter 16` style-harness lock complete.
