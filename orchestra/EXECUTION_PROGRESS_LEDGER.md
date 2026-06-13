@@ -14,6 +14,30 @@
 
 ## 2026-06-13 KST
 
+- Mode: `rttp style-harness recast Vol.5 Chapter 2`
+- Scope: single-chapter lock pass for `Drafts/Vol_5/Vol_5_Chapter_2.md`, with `Drafts/Vol_5/Vol_5_Chapter_1.md` as prior edge and `Drafts/Vol_5/Vol_5_Chapter_3.md` as right edge.
+- Current work: `Vol.5 Chapter 2` style-harness lock complete.
+- Next work: `Vol.5 Chapter 3`.
+- Execution mode: heartbeat-triggered orchestra-conductor lock pass; conductor read-only specialist lenses plus final integration.
+- MCP: none; no multi-agent worker was spawned because this heartbeat pass did not require explicit delegation.
+- Skills: `rttp-lock-cycle`.
+- Automations: `rttp-style-harness-completion-loop`.
+- Edits:
+  - `Drafts/Vol_5/Vol_5_Chapter_2.md`
+  - `orchestra/VOL5_CHAPTER_2_STYLE_HARNESS_CHECKPOINT_2026-06-13.md`
+  - `orchestra/SESSION_STATE.md`
+  - `orchestra/NEXT_DIALOGUE_HANDOFF.md`
+  - `orchestra/EXECUTION_PROGRESS_LEDGER.md`
+- Manuscript note: repaired only lock-surface and clarity residue by removing the file BOM, removing three in-world record-line backtick pairs, clarifying `해방자 2차 실전` as `해방자 현장 사용`, changing `3후송선` to `셋째 후송선`, and keeping the 4,800 floor through already staged 공포/시선 and 사용자 확인 pressure.
+- Specialist FAIL ledger: no structural hook, mid-pressure, ending, time-scent, motif, clarity, or style blocker after repair. Ch2 carries Ch1's 후송선-cut criterion into first practical 해방자 use, immediate body/name/orientation cost, 회복선 and person-guard requirement, and public/tool gaze without turning 해방자 into a clean answer.
+- Final verification: five no-edit cycles all PASS at `body_nospace=4,804`, `total_no_space=4,807`, byte BOM `false`, backticks `0`, extra EOF blank `false`, foreign-script hits `0`, title fail `0`, duplicate exact 5-line windows `0`, banned hits `0`, hash `9D222BB0D2D7A5567C22AEECE16D37E475C0933DF7D6F6E3E27131EFD74ECC04`.
+- Result:
+  - Style-harness verified range advances to `Vol.1 Chapters 1~25; Vol.2 Chapters 1~25; Vol.3 Chapters 1~25; Vol.4 Chapters 1~25; Vol.5 Chapters 1~2`.
+  - Aggregate style-harness verified range remains `Vol.1 Chapters 1~25; Vol.2 Chapters 1~25; Vol.3 Chapters 1~25; Vol.4 Chapters 1~25`.
+  - Next target is `Vol.5 Chapter 3`.
+
+## 2026-06-13 KST
+
 - Mode: `rttp style-harness recast Vol.5 Chapter 1`
 - Scope: single-chapter lock pass for `Drafts/Vol_5/Vol_5_Chapter_1.md`, with `Drafts/Vol_4/Vol_4_Chapter_25.md` as prior edge and `Drafts/Vol_5/Vol_5_Chapter_2.md` as right edge.
 - Current work: `Vol.5 Chapter 1` style-harness lock complete.
