@@ -5,13 +5,13 @@
 - Automation: `rttp-style-harness-completion-loop`
 - Queue type: `style-harness recast`, separate from the prior Vol.6/overall-147 re-deep-lock queue.
 - Start target: `Vol.1 Chapter 1`
-- Current single-chapter target: `Vol.5 Chapters 1~5 aggregate`
+- Current single-chapter target: `Vol.5 Chapter 6`
 - Current style-harness verified range: `Vol.1 Chapters 1~25; Vol.2 Chapters 1~25; Vol.3 Chapters 1~25; Vol.4 Chapters 1~25; Vol.5 Chapters 1~5`
-- Current aggregate style-harness verified range: `Vol.1 Chapters 1~25; Vol.2 Chapters 1~25; Vol.3 Chapters 1~25; Vol.4 Chapters 1~25`
+- Current aggregate style-harness verified range: `Vol.1 Chapters 1~25; Vol.2 Chapters 1~25; Vol.3 Chapters 1~25; Vol.4 Chapters 1~25; Vol.5 Chapters 1~5`
 - Active incomplete style-harness range: `none`
 - Latest style checkpoint: `orchestra/VOL5_CHAPTER_5_STYLE_HARNESS_CHECKPOINT_2026-06-13.md`
-- Latest aggregate style checkpoint: `orchestra/VOL4_CHAPTER_21_25_STYLE_HARNESS_AGGREGATE_CHECKPOINT_2026-06-13.md`
-- Important status note: Vol.1 Chapters 1~25, Vol.2 Chapters 1~25, Vol.3 Chapters 1~25, Vol.4 Chapters 1~25, and Vol.5 Chapters 1~5 are style-locked complete under the new sample-derived style harness after full read, FAIL ledger, narrow repair/full reread where needed, and final no-edit 5-cycle verification. Aggregate verification remains complete through `Vol.4 Chapters 21~25`; the next one-unit run is aggregate `Vol.5 Chapters 1~5`, and Vol.5 Chapter 6 must not begin until that aggregate passes.
+- Latest aggregate style checkpoint: `orchestra/VOL5_CHAPTER_1_5_STYLE_HARNESS_AGGREGATE_CHECKPOINT_2026-06-13.md`
+- Important status note: Vol.1 Chapters 1~25, Vol.2 Chapters 1~25, Vol.3 Chapters 1~25, Vol.4 Chapters 1~25, and Vol.5 Chapters 1~5 are style-locked complete under the new sample-derived style harness after full read, FAIL ledger, narrow repair/full reread where needed, and final no-edit 5-cycle verification. Aggregate verification is complete through `Vol.5 Chapters 1~5`; the next one-unit run is `Vol.5 Chapter 6`.
 - Length policy: from `Vol.1 Chapter 22` onward, enforce no-space floor `4,800` and target around `5,000`; do not retroactively revise Chapters 1~21 for length unless explicitly requested.
 - Style harness now requires: `칼날형 입구`, `단계식 오차 확인`, `관계 압력 우선`, `저강도 역전`, `주변 반응 증명`, `분노/폭력 억제`, and `회귀/게임 루트가 아닌 시간여행/인과부채 감각`.
 - Old queue preservation: prior reopened queue remains recorded through overall `146`; do not continue old `147 (Vol.6 Chapter 22)` from this new automation unless explicitly instructed.
@@ -70,6 +70,17 @@
 - Latest changed files added by Vol.5 Chapter 3 pass: `Drafts/Vol_5/Vol_5_Chapter_3.md`, `orchestra/VOL5_CHAPTER_3_STYLE_HARNESS_CHECKPOINT_2026-06-13.md`, `orchestra/SESSION_STATE.md`, `orchestra/NEXT_DIALOGUE_HANDOFF.md`, `orchestra/EXECUTION_PROGRESS_LEDGER.md`.
 - Latest changed files added by Vol.5 Chapter 4 pass: `Drafts/Vol_5/Vol_5_Chapter_4.md`, `orchestra/VOL5_CHAPTER_4_STYLE_HARNESS_CHECKPOINT_2026-06-13.md`, `orchestra/SESSION_STATE.md`, `orchestra/NEXT_DIALOGUE_HANDOFF.md`, `orchestra/EXECUTION_PROGRESS_LEDGER.md`.
 - Latest changed files added by Vol.5 Chapter 5 pass: `Drafts/Vol_5/Vol_5_Chapter_5.md`, `orchestra/VOL5_CHAPTER_5_STYLE_HARNESS_CHECKPOINT_2026-06-13.md`, `orchestra/SESSION_STATE.md`, `orchestra/NEXT_DIALOGUE_HANDOFF.md`, `orchestra/EXECUTION_PROGRESS_LEDGER.md`.
+- Latest changed files added by Vol.5 Chapters 1~5 aggregate pass: `orchestra/VOL5_CHAPTER_1_5_STYLE_HARNESS_AGGREGATE_CHECKPOINT_2026-06-13.md`, `orchestra/SESSION_STATE.md`, `orchestra/NEXT_DIALOGUE_HANDOFF.md`, `orchestra/EXECUTION_PROGRESS_LEDGER.md`.
+
+## 2026-06-13 KST RTTP Style-Harness Decisions - Vol.5 Chapters 1~5 aggregate
+
+- `Drafts/Vol_5/Vol_5_Chapter_1.md` through `Drafts/Vol_5/Vol_5_Chapter_5.md` were fully read with Vol.4 Ch25 as prior edge, Vol.5 Ch6 as right edge, Vol.5 outline/timeline, harness guidance, banned ledger, time-travel frame, tone/canon references, latest Vol.5 Chapter 1~5 checkpoints, and latest Vol.4 Chapters 21~25 aggregate checkpoint.
+- Blocking aggregate FAIL after full packet read: none. Ch1 field entry and no-use criterion -> Ch2 first `해방자` use/recovery/public gaze -> Ch3 monster/antibody distinction and `피난선` priority -> Ch4 civilian triage/name cost/left-slope loss -> Ch5 Barkan-surface/Aiden-shadow command and black-night bridge.
+- Narrow manuscript repair: none. The aggregate pass did not modify any draft file.
+- Packet function holds: Vol.4 rear-line black signal becomes Vol.5's field/rear-line pressure, while Ch5's empty-tent bait and widened night spacing feed directly into Ch6's night antibody swarm.
+- Final verification held five no-edit aggregate cycles at `body_total=24,076`, `total_no_space=24,096`, all mechanical gates zero/false, packet hash `C5D926168ECE439C45A91E38E02240710CB1F760F1BDD5CB15A642F36EAE949F`.
+- Aggregate style-harness verified range advances through `Vol.5 Chapters 1~5`.
+- Next one-unit target is `Vol.5 Chapter 6`.
 
 ## 2026-06-13 KST RTTP Style-Harness Decisions - Vol.5 Chapter 5
 
