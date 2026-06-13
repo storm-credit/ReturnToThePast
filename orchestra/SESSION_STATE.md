@@ -5,13 +5,13 @@
 - Automation: `rttp-style-harness-completion-loop`
 - Queue type: `style-harness recast`, separate from the prior Vol.6/overall-147 re-deep-lock queue.
 - Start target: `Vol.1 Chapter 1`
-- Current single-chapter target: `Vol.5 Chapter 14`
-- Current style-harness verified range: `Vol.1 Chapters 1~25; Vol.2 Chapters 1~25; Vol.3 Chapters 1~25; Vol.4 Chapters 1~25; Vol.5 Chapters 1~13`
+- Current single-chapter target: `Vol.5 Chapter 15`
+- Current style-harness verified range: `Vol.1 Chapters 1~25; Vol.2 Chapters 1~25; Vol.3 Chapters 1~25; Vol.4 Chapters 1~25; Vol.5 Chapters 1~14`
 - Current aggregate style-harness verified range: `Vol.1 Chapters 1~25; Vol.2 Chapters 1~25; Vol.3 Chapters 1~25; Vol.4 Chapters 1~25; Vol.5 Chapters 1~10`
 - Active incomplete style-harness range: `none`
-- Latest style checkpoint: `orchestra/VOL5_CHAPTER_13_STYLE_HARNESS_CHECKPOINT_2026-06-14.md`
+- Latest style checkpoint: `orchestra/VOL5_CHAPTER_14_STYLE_HARNESS_CHECKPOINT_2026-06-14.md`
 - Latest aggregate style checkpoint: `orchestra/VOL5_CHAPTER_6_10_STYLE_HARNESS_AGGREGATE_CHECKPOINT_2026-06-14.md`
-- Important status note: Vol.1 Chapters 1~25, Vol.2 Chapters 1~25, Vol.3 Chapters 1~25, Vol.4 Chapters 1~25, and Vol.5 Chapters 1~13 are style-locked complete under the new sample-derived style harness after full read, FAIL ledger, narrow repair/full reread where needed, and final no-edit 5-cycle verification. Aggregate verification is complete through `Vol.5 Chapters 1~10`; the next one-unit run is `Vol.5 Chapter 14`.
+- Important status note: Vol.1 Chapters 1~25, Vol.2 Chapters 1~25, Vol.3 Chapters 1~25, Vol.4 Chapters 1~25, and Vol.5 Chapters 1~14 are style-locked complete under the new sample-derived style harness after full read, FAIL ledger, narrow repair/full reread where needed, and final no-edit 5-cycle verification. Aggregate verification is complete through `Vol.5 Chapters 1~10`; the next one-unit run is `Vol.5 Chapter 15`.
 - Length policy: from `Vol.1 Chapter 22` onward, enforce no-space floor `4,800` and target around `5,000`; do not retroactively revise Chapters 1~21 for length unless explicitly requested.
 - Style harness now requires: `칼날형 입구`, `단계식 오차 확인`, `관계 압력 우선`, `저강도 역전`, `주변 반응 증명`, `분노/폭력 억제`, and `회귀/게임 루트가 아닌 시간여행/인과부채 감각`.
 - Old queue preservation: prior reopened queue remains recorded through overall `146`; do not continue old `147 (Vol.6 Chapter 22)` from this new automation unless explicitly instructed.
@@ -80,6 +80,17 @@
 - Latest changed files added by Vol.5 Chapter 11 pass: `Drafts/Vol_5/Vol_5_Chapter_11.md`, `orchestra/VOL5_CHAPTER_11_STYLE_HARNESS_CHECKPOINT_2026-06-14.md`, `orchestra/SESSION_STATE.md`, `orchestra/NEXT_DIALOGUE_HANDOFF.md`, `orchestra/EXECUTION_PROGRESS_LEDGER.md`.
 - Latest changed files added by Vol.5 Chapter 12 pass: `Drafts/Vol_5/Vol_5_Chapter_12.md`, `orchestra/VOL5_CHAPTER_12_STYLE_HARNESS_CHECKPOINT_2026-06-14.md`, `orchestra/SESSION_STATE.md`, `orchestra/NEXT_DIALOGUE_HANDOFF.md`, `orchestra/EXECUTION_PROGRESS_LEDGER.md`.
 - Latest changed files added by Vol.5 Chapter 13 pass: `Drafts/Vol_5/Vol_5_Chapter_13.md`, `orchestra/VOL5_CHAPTER_13_STYLE_HARNESS_CHECKPOINT_2026-06-14.md`, `orchestra/SESSION_STATE.md`, `orchestra/NEXT_DIALOGUE_HANDOFF.md`, `orchestra/EXECUTION_PROGRESS_LEDGER.md`.
+- Latest changed files added by Vol.5 Chapter 14 pass: `Drafts/Vol_5/Vol_5_Chapter_14.md`, `orchestra/VOL5_CHAPTER_14_STYLE_HARNESS_CHECKPOINT_2026-06-14.md`, `orchestra/SESSION_STATE.md`, `orchestra/NEXT_DIALOGUE_HANDOFF.md`, `orchestra/EXECUTION_PROGRESS_LEDGER.md`.
+
+## 2026-06-14 KST RTTP Style-Harness Decisions - Vol.5 Chapter 14
+
+- `Drafts/Vol_5/Vol_5_Chapter_14.md` was fully read with `Drafts/Vol_5/Vol_5_Chapter_13.md` as prior edge, `Drafts/Vol_5/Vol_5_Chapter_15.md` as right edge, Vol.5 outline/timeline, harness guidance, banned ledger, time-travel frame, tone/canon references, latest Vol.5 Chapter 13 checkpoint, and latest Vol.5 Chapters 6~10 aggregate checkpoint.
+- Blocking structural FAIL after full packet read: none. Ch14 carries Ch13's dead-star path, surface-pressure dependency, departure timing, and pre-entry detection into the actual threshold entry without spending Ch15's full `폐허의 메아리` / 후영 payload.
+- Initial narrow FAIL: live Ch14 opened without the outline title `문턱`, had nine in-world record lines wrapped in backticks, and after title/body separation the body floor was `4,798`.
+- Narrow repair applied: added the missing title, removed only those nine backtick pairs, and added only `겨우` to Baltazar's final judgment line to restore the active title-excluded `4,800` floor. No plot rewrite, staging rewrite, new mechanic, character retarget, or right-edge retarget was introduced.
+- Full reread after repair held: Ch14 still makes threshold entry, current/ruin overlap, split perception, and signal reflection primary, ending on partial admission so Ch15 can escalate the echo and future-residue pressure.
+- Final no-edit 5-cycle verification: PASS all five cycles at `body_nospace=4,800`, `total_no_space=4,802`, byte BOM `false`, backticks `0`, extra EOF blank `false`, Latin hits `0`, title fail `false`, duplicate exact 5-line windows `0`, banned hits `0`, meta hits `0`, hash `793E92D8A90AAE973BF4E3C089762D08AA98466251DA0EF2E72EB0860472D1A1`.
+- `Vol.5 Chapter 14` is style-locked complete. Style-harness verified range advances through `Vol.5 Chapters 1~14`; aggregate style-harness verified range remains through `Vol.5 Chapters 1~10`; next one-unit target is `Vol.5 Chapter 15`.
 
 ## 2026-06-14 KST RTTP Style-Harness Decisions - Vol.5 Chapter 13
 
