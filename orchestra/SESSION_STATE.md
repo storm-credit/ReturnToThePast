@@ -5,13 +5,13 @@
 - Automation: `rttp-style-harness-completion-loop`
 - Queue type: `style-harness recast`, separate from the prior Vol.6/overall-147 re-deep-lock queue.
 - Start target: `Vol.1 Chapter 1`
-- Current single-chapter target: `Vol.5 Chapter 22`
-- Current style-harness verified range: `Vol.1 Chapters 1~25; Vol.2 Chapters 1~25; Vol.3 Chapters 1~25; Vol.4 Chapters 1~25; Vol.5 Chapters 1~21`
+- Current single-chapter target: `Vol.5 Chapter 23`
+- Current style-harness verified range: `Vol.1 Chapters 1~25; Vol.2 Chapters 1~25; Vol.3 Chapters 1~25; Vol.4 Chapters 1~25; Vol.5 Chapters 1~22`
 - Current aggregate style-harness verified range: `Vol.1 Chapters 1~25; Vol.2 Chapters 1~25; Vol.3 Chapters 1~25; Vol.4 Chapters 1~25; Vol.5 Chapters 1~15`
 - Active incomplete style-harness range: `none`
-- Latest style checkpoint: `orchestra/VOL5_CHAPTER_21_STYLE_HARNESS_CHECKPOINT_2026-06-14.md`
+- Latest style checkpoint: `orchestra/VOL5_CHAPTER_22_STYLE_HARNESS_CHECKPOINT_2026-06-14.md`
 - Latest aggregate style checkpoint: `orchestra/VOL5_CHAPTER_11_15_STYLE_HARNESS_AGGREGATE_CHECKPOINT_2026-06-14.md`
-- Important status note: Vol.1 Chapters 1~25, Vol.2 Chapters 1~25, Vol.3 Chapters 1~25, Vol.4 Chapters 1~25, and Vol.5 Chapters 1~21 are style-locked complete under the new sample-derived style harness after full read, FAIL ledger, narrow repair/full reread where needed, and final no-edit 5-cycle verification. Aggregate verification is complete through `Vol.5 Chapters 1~15`; the next one-unit run is `Vol.5 Chapter 22`.
+- Important status note: Vol.1 Chapters 1~25, Vol.2 Chapters 1~25, Vol.3 Chapters 1~25, Vol.4 Chapters 1~25, and Vol.5 Chapters 1~22 are style-locked complete under the new sample-derived style harness after full read, FAIL ledger, narrow repair/full reread where needed, and final no-edit 5-cycle verification. Aggregate verification is complete through `Vol.5 Chapters 1~15`; the next one-unit run is `Vol.5 Chapter 23`.
 - Length policy: from `Vol.1 Chapter 22` onward, enforce no-space floor `4,800` and target around `5,000`; do not retroactively revise Chapters 1~21 for length unless explicitly requested.
 - Style harness now requires: `칼날형 입구`, `단계식 오차 확인`, `관계 압력 우선`, `저강도 역전`, `주변 반응 증명`, `분노/폭력 억제`, and `회귀/게임 루트가 아닌 시간여행/인과부채 감각`.
 - Old queue preservation: prior reopened queue remains recorded through overall `146`; do not continue old `147 (Vol.6 Chapter 22)` from this new automation unless explicitly instructed.
@@ -89,6 +89,17 @@
 - Latest changed files added by Vol.5 Chapter 19 pass: `Drafts/Vol_5/Vol_5_Chapter_19.md`, `orchestra/VOL5_CHAPTER_19_STYLE_HARNESS_CHECKPOINT_2026-06-14.md`, `orchestra/SESSION_STATE.md`, `orchestra/NEXT_DIALOGUE_HANDOFF.md`, `orchestra/EXECUTION_PROGRESS_LEDGER.md`.
 - Latest changed files added by Vol.5 Chapter 20 pass: `Drafts/Vol_5/Vol_5_Chapter_20.md`, `orchestra/VOL5_CHAPTER_20_STYLE_HARNESS_CHECKPOINT_2026-06-14.md`, `orchestra/SESSION_STATE.md`, `orchestra/NEXT_DIALOGUE_HANDOFF.md`, `orchestra/EXECUTION_PROGRESS_LEDGER.md`.
 - Latest changed files added by Vol.5 Chapter 21 pass: `Drafts/Vol_5/Vol_5_Chapter_21.md`, `orchestra/VOL5_CHAPTER_21_STYLE_HARNESS_CHECKPOINT_2026-06-14.md`, `orchestra/SESSION_STATE.md`, `orchestra/NEXT_DIALOGUE_HANDOFF.md`, `orchestra/EXECUTION_PROGRESS_LEDGER.md`.
+- Latest changed files added by Vol.5 Chapter 22 pass: `Drafts/Vol_5/Vol_5_Chapter_22.md`, `orchestra/VOL5_CHAPTER_22_STYLE_HARNESS_CHECKPOINT_2026-06-14.md`, `orchestra/SESSION_STATE.md`, `orchestra/NEXT_DIALOGUE_HANDOFF.md`, `orchestra/EXECUTION_PROGRESS_LEDGER.md`.
+
+## 2026-06-14 KST RTTP Style-Harness Decisions - Vol.5 Chapter 22
+
+- `Drafts/Vol_5/Vol_5_Chapter_22.md` was fully read with `Drafts/Vol_5/Vol_5_Chapter_21.md` as prior edge, `Drafts/Vol_5/Vol_5_Chapter_23.md` as right edge, Vol.5 outline/timeline, harness guidance, banned ledger, time-travel frame, tone/canon references, latest Vol.5 Chapter 21 checkpoint, and latest Vol.5 Chapters 11~15 aggregate checkpoint.
+- Blocking structural FAIL after full packet read: none after boundary repair. Ch22 carries Ch21's descending-sky pressure, Ria's empty-role recognition, Liberator overload, antibody mass intervention aftermath, and warm-memory erosion into `꺼지는 하늘`.
+- Initial narrow FAIL: live Ch22 needed clean outline-title surface and its ending overran into Ch23 by spending aftermath/no-cheer cleanup with victory language, post-battle checks, record-board verdict, and field silence.
+- Narrow repair applied: set the title to `꺼지는 하늘`, replaced the Ch23-like tail with Ch22-native immediate sky-closing pressure, and neutralized residual victory/cheer surface. No Ch21 edit, Ch23 edit, field-morgue scene, post-battle tally expansion, plot retarget, or new mechanic was introduced.
+- Full reread after repair held: Ch22 now makes Ria's rift-holding, Iris/alliance time-buying, Aiden's final severing calculation, and the sky-closing start primary, while deferring Ch23's `승전 없는 새벽`, casualty sorting, treatment smell, severed-arm aftermath, and no-cheer cleanup.
+- Final no-edit 5-cycle verification: PASS all five cycles at `body_nospace=4,940`, `total_no_space=4,945`, byte BOM `false`, backticks `0`, extra EOF blank `false`, Latin hits `0`, title fail `false`, duplicate exact 5-line windows `0`, banned hits `0`, meta hits `0`, hash `CA0583A7F2550918CCB215470585BB535CFF5F45EF6FA3F90B3BADD4DF08D664`.
+- `Vol.5 Chapter 22` is style-locked complete. Style-harness verified range advances through `Vol.5 Chapters 1~22`; aggregate style-harness verified range remains through `Vol.5 Chapters 1~15`; next one-unit target is `Vol.5 Chapter 23`.
 
 ## 2026-06-14 KST RTTP Style-Harness Decisions - Vol.5 Chapter 21
 

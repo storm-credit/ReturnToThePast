@@ -14,6 +14,28 @@
 
 ## 2026-06-14 KST
 
+- Mode: `rttp style-harness recast Vol.5 Chapter 22`
+- Scope: single-chapter lock pass for `Drafts/Vol_5/Vol_5_Chapter_22.md`, with `Drafts/Vol_5/Vol_5_Chapter_21.md` as prior edge and `Drafts/Vol_5/Vol_5_Chapter_23.md` as right edge.
+- Current work: `Vol.5 Chapter 22` style-harness lock complete.
+- Next work: `Vol.5 Chapter 23`.
+- Execution mode: heartbeat-triggered orchestra-conductor lock pass; conductor read-only specialist lenses plus final integration.
+- MCP: none; no multi-agent worker was spawned because this heartbeat pass did not require explicit delegation.
+- Skills: `rttp-lock-cycle`.
+- Automations: `rttp-style-harness-completion-loop`.
+- Edits:
+  - `Drafts/Vol_5/Vol_5_Chapter_22.md`
+  - `orchestra/VOL5_CHAPTER_22_STYLE_HARNESS_CHECKPOINT_2026-06-14.md`
+  - `orchestra/SESSION_STATE.md`
+  - `orchestra/NEXT_DIALOGUE_HANDOFF.md`
+  - `orchestra/EXECUTION_PROGRESS_LEDGER.md`
+- Manuscript note: repaired only lock-surface and Ch23-boundary leakage by setting the clean title `꺼지는 하늘`, replacing the aftermath/no-cheer tail with immediate sky-closing pressure, and neutralizing residual victory/cheer surface. Ch21 and Ch23 were read as edges only and left unstaged.
+- Specialist FAIL ledger: no structural hook, mid-pressure, time-scent, motif, clarity, or style blocker after repair. Ch22 carries Ch21's descending-sky pressure and empty-role recognition into Ria holding the rift, Iris/alliance buying time, Aiden's final severing calculation, and the sky-closing start without spending Ch23's aftermath cleanup, field-morgue/no-cheer silence, casualty sorting, or treatment-zone smell.
+- Final verification: five no-edit cycles all PASS at `body_nospace=4,940`, `total_no_space=4,945`, byte BOM `false`, backticks `0`, extra EOF blank `false`, Latin hits `0`, title fail `false`, duplicate exact 5-line windows `0`, banned hits `0`, meta hits `0`, hash `CA0583A7F2550918CCB215470585BB535CFF5F45EF6FA3F90B3BADD4DF08D664`.
+- Result:
+  - Style-harness verified range advances to `Vol.1 Chapters 1~25; Vol.2 Chapters 1~25; Vol.3 Chapters 1~25; Vol.4 Chapters 1~25; Vol.5 Chapters 1~22`.
+  - Aggregate style-harness verified range remains `Vol.1 Chapters 1~25; Vol.2 Chapters 1~25; Vol.3 Chapters 1~25; Vol.4 Chapters 1~25; Vol.5 Chapters 1~15`.
+  - Next target is `Vol.5 Chapter 23`.
+
 - Mode: `rttp style-harness recast Vol.5 Chapter 21`
 - Scope: single-chapter lock pass for `Drafts/Vol_5/Vol_5_Chapter_21.md`, with `Drafts/Vol_5/Vol_5_Chapter_20.md` as prior edge and `Drafts/Vol_5/Vol_5_Chapter_22.md` as right edge.
 - Current work: `Vol.5 Chapter 21` style-harness lock complete.
