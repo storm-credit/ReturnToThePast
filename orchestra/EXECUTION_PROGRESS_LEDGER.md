@@ -14,6 +14,30 @@
 
 ## 2026-06-13 KST
 
+- Mode: `rttp style-harness recast Vol.4 Chapters 16~20 aggregate`
+- Scope: aggregate lock pass for `Drafts/Vol_4/Vol_4_Chapter_16.md` through `Drafts/Vol_4/Vol_4_Chapter_20.md`, with `Drafts/Vol_4/Vol_4_Chapter_15.md` as prior edge and `Drafts/Vol_4/Vol_4_Chapter_21.md` as right edge.
+- Current work: `Vol.4 Chapters 16~20 aggregate` style-harness lock complete.
+- Next work: `Vol.4 Chapter 21`.
+- Execution mode: heartbeat-triggered orchestra-conductor aggregate lock pass; conductor read-only specialist lenses plus final integration.
+- MCP: none; no multi-agent worker was spawned because this heartbeat pass did not require explicit delegation.
+- Skills: `rttp-lock-cycle`.
+- Automations: `rttp-style-harness-completion-loop`.
+- Edits:
+  - `orchestra/VOL4_CHAPTER_16_20_STYLE_HARNESS_AGGREGATE_CHECKPOINT_2026-06-13.md`
+  - `orchestra/SESSION_STATE.md`
+  - `orchestra/NEXT_DIALOGUE_HANDOFF.md`
+  - `orchestra/EXECUTION_PROGRESS_LEDGER.md`
+- Manuscript note: no manuscript edits were made. The five-chapter packet already held after the Ch16~20 single-chapter repairs.
+- Specialist FAIL ledger: no blocking aggregate FAIL. Ch16 present-world leakage -> Ch17 first human casualty/north-gate 봉쇄 -> Ch18 항체 tracking -> Ch19 city-wide 전장/logistics collapse -> Ch20 first 해방자 deployment holds as one cost ladder.
+- Final verification: five no-edit cycles all PASS at aggregate `body_total=24,567`, `total_no_space=24,585`, byte BOM files `0`, backticks `0`, extra EOF blank files `0`, foreign-script hits `0`, title failures `0`, duplicate exact 5-line windows `0`, banned hit files `0`, packet hash `F7BCCB11AB91BC39B32B994D2AF949AA2C00836C81FD95D7AE17FDB43FBDC66C`.
+- Result:
+  - Style-harness verified range remains `Vol.1 Chapters 1~25; Vol.2 Chapters 1~25; Vol.3 Chapters 1~25; Vol.4 Chapters 1~20`.
+  - Aggregate style-harness verified range advances to `Vol.1 Chapters 1~25; Vol.2 Chapters 1~25; Vol.3 Chapters 1~25; Vol.4 Chapters 1~20`.
+  - Next target is `Vol.4 Chapter 21`.
+  - Aggregate `Vol.4 Chapters 21~25` is due after Vol.4 Chapter 25 passes.
+
+## 2026-06-13 KST
+
 - Mode: `rttp style-harness recast Vol.4 Chapter 20`
 - Scope: single-chapter lock pass for `Drafts/Vol_4/Vol_4_Chapter_20.md`, with `Drafts/Vol_4/Vol_4_Chapter_19.md` as prior edge and `Drafts/Vol_4/Vol_4_Chapter_21.md` as right edge.
 - Current work: `Vol.4 Chapter 20` style-harness lock complete.
