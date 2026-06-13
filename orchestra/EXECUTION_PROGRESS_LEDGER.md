@@ -14,6 +14,28 @@
 
 ## 2026-06-13 KST
 
+- Mode: `rttp style-harness recast Vol.5 Chapter 9`
+- Scope: single-chapter lock pass for `Drafts/Vol_5/Vol_5_Chapter_9.md`, with `Drafts/Vol_5/Vol_5_Chapter_8.md` as prior edge and `Drafts/Vol_5/Vol_5_Chapter_10.md` as right edge.
+- Current work: `Vol.5 Chapter 9` style-harness lock complete.
+- Next work: `Vol.5 Chapter 10`.
+- Execution mode: heartbeat-triggered orchestra-conductor lock pass; conductor read-only specialist lenses plus final integration.
+- MCP: none; no multi-agent worker was spawned because this heartbeat pass did not require explicit delegation.
+- Skills: `rttp-lock-cycle`.
+- Automations: `rttp-style-harness-completion-loop`.
+- Edits:
+  - `Drafts/Vol_5/Vol_5_Chapter_9.md`
+  - `orchestra/VOL5_CHAPTER_9_STYLE_HARNESS_CHECKPOINT_2026-06-13.md`
+  - `orchestra/SESSION_STATE.md`
+  - `orchestra/NEXT_DIALOGUE_HANDOFF.md`
+  - `orchestra/EXECUTION_PROGRESS_LEDGER.md`
+- Manuscript note: repaired only lock-surface and format residue by adding the missing title and removing seven in-world record/quotation backtick pairs.
+- Specialist FAIL ledger: no structural hook, mid-pressure, ending, time-scent, motif, clarity, or style blocker after repair. Ch9 carries Ch8's rear-defense line-cutting into contaminated allied-squad person-cutting, companion fear, and the bridge to Ch10 blockade-line pressure.
+- Final verification: five no-edit cycles all PASS at `body_nospace=4,867`, `total_no_space=4,874`, byte BOM `false`, backticks `0`, extra EOF blank `false`, foreign-script hits `0`, title fail `false`, duplicate exact 5-line windows `0`, banned hits `0`, hash `8F5ABB6F4D097778D58FFBBB9843097058A7A2724CD8B068D605A23D77C6A9E5`.
+- Result:
+  - Style-harness verified range advances to `Vol.1 Chapters 1~25; Vol.2 Chapters 1~25; Vol.3 Chapters 1~25; Vol.4 Chapters 1~25; Vol.5 Chapters 1~9`.
+  - Aggregate style-harness verified range remains `Vol.1 Chapters 1~25; Vol.2 Chapters 1~25; Vol.3 Chapters 1~25; Vol.4 Chapters 1~25; Vol.5 Chapters 1~5`.
+  - Next target is `Vol.5 Chapter 10`.
+
 - Mode: `rttp style-harness recast Vol.5 Chapter 8`
 - Scope: single-chapter lock pass for `Drafts/Vol_5/Vol_5_Chapter_8.md`, with `Drafts/Vol_5/Vol_5_Chapter_7.md` as prior edge and `Drafts/Vol_5/Vol_5_Chapter_9.md` as right edge.
 - Current work: `Vol.5 Chapter 8` style-harness lock complete.
