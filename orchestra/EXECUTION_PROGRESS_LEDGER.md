@@ -14,6 +14,28 @@
 
 ## 2026-06-14 KST
 
+- Mode: `rttp style-harness recast Vol.5 Chapter 20`
+- Scope: single-chapter lock pass for `Drafts/Vol_5/Vol_5_Chapter_20.md`, with `Drafts/Vol_5/Vol_5_Chapter_19.md` as prior edge and `Drafts/Vol_5/Vol_5_Chapter_21.md` as right edge.
+- Current work: `Vol.5 Chapter 20` style-harness lock complete.
+- Next work: `Vol.5 Chapter 21`.
+- Execution mode: heartbeat-triggered orchestra-conductor lock pass; conductor read-only specialist lenses plus final integration.
+- MCP: none; no multi-agent worker was spawned because this heartbeat pass did not require explicit delegation.
+- Skills: `rttp-lock-cycle`.
+- Automations: `rttp-style-harness-completion-loop`.
+- Edits:
+  - `Drafts/Vol_5/Vol_5_Chapter_20.md`
+  - `orchestra/VOL5_CHAPTER_20_STYLE_HARNESS_CHECKPOINT_2026-06-14.md`
+  - `orchestra/SESSION_STATE.md`
+  - `orchestra/NEXT_DIALOGUE_HANDOFF.md`
+  - `orchestra/EXECUTION_PROGRESS_LEDGER.md`
+- Manuscript note: repaired only lock-surface, meta/code residue, Ch21-boundary leakage, and active body floor by setting the clean title `개문`, removing in-world record-line backticks, replacing the meta-facing `18화` phrase, narrowing warm-memory erosion into overload prelude, and adding one Ch20-native outside-battle pull beat. Ch21 was read as right edge only and left unstaged.
+- Specialist FAIL ledger: no structural hook, mid-pressure, ending, time-scent, motif, clarity, or style blocker after repair. Ch20 carries Ch19's open-before-cut conclusion into the actual `개문`, battlefield recognition, final offensive pull, Liberator use, and visible overload prelude, without spending Ch21's antibody mass intervention or warm-memory erosion payload.
+- Final verification: five no-edit cycles all PASS at `body_nospace=4,842`, `total_no_space=4,844`, byte BOM `false`, backticks `0`, extra EOF blank `false`, Latin hits `0`, title fail `false`, duplicate exact 5-line windows `0`, banned hits `0`, meta hits `0`, hash `751B93A8BBBE3424AFA36CD540357D94662C11360DCDADACE271D6AFC2441BA1`.
+- Result:
+  - Style-harness verified range advances to `Vol.1 Chapters 1~25; Vol.2 Chapters 1~25; Vol.3 Chapters 1~25; Vol.4 Chapters 1~25; Vol.5 Chapters 1~20`.
+  - Aggregate style-harness verified range remains `Vol.1 Chapters 1~25; Vol.2 Chapters 1~25; Vol.3 Chapters 1~25; Vol.4 Chapters 1~25; Vol.5 Chapters 1~15`.
+  - Next target is `Vol.5 Chapter 21`.
+
 - Mode: `rttp style-harness recast Vol.5 Chapter 19`
 - Scope: single-chapter lock pass for `Drafts/Vol_5/Vol_5_Chapter_19.md`, with `Drafts/Vol_5/Vol_5_Chapter_18.md` as prior edge and `Drafts/Vol_5/Vol_5_Chapter_20.md` as right edge.
 - Current work: `Vol.5 Chapter 19` style-harness lock complete.
