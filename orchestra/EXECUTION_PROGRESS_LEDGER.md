@@ -14,6 +14,28 @@
 
 ## 2026-06-14 KST
 
+- Mode: `rttp style-harness recast Vol.5 Chapter 25`
+- Scope: single-chapter lock pass for `Drafts/Vol_5/Vol_5_Chapter_25.md`, with `Drafts/Vol_5/Vol_5_Chapter_24.md` as prior edge and `Drafts/Vol_6/Vol_6_Chapter_1.md` as next-volume right edge.
+- Current work: `Vol.5 Chapter 25` style-harness lock complete.
+- Next work: `Vol.5 Chapters 21~25 aggregate`.
+- Execution mode: heartbeat-triggered orchestra-conductor lock pass; conductor read-only specialist lenses plus final integration.
+- MCP: none; no multi-agent worker was spawned because this heartbeat pass did not require explicit delegation.
+- Skills: `rttp-lock-cycle`.
+- Automations: `rttp-style-harness-completion-loop`.
+- Edits:
+  - `Drafts/Vol_5/Vol_5_Chapter_25.md`
+  - `orchestra/VOL5_CHAPTER_25_STYLE_HARNESS_CHECKPOINT_2026-06-14.md`
+  - `orchestra/SESSION_STATE.md`
+  - `orchestra/NEXT_DIALOGUE_HANDOFF.md`
+  - `orchestra/EXECUTION_PROGRESS_LEDGER.md`
+- Manuscript note: repaired only lock-surface, meta-facing record wording, and Vol.6-boundary leakage by adding the clean title `살아남은 자들`, changing `권말 기록` to `전후 기록`, softening the `고립 시작` phrase, and replacing the `다음 날` / `불신과 고립` / `다음 싸움` tail with a Ch25-native back-alley/record-blank ending. Ch24 and Vol.6 Ch1 were read as edges only and left otherwise unstaged.
+- Specialist FAIL ledger: no structural mid-pressure, time-scent, motif, clarity, or style blocker after repair. Ch25 carries Ch24's `빈 눈` silence into survivor/hero-refusal pressure and Aiden's colder back-alley removal without spending Vol.6 Ch1's one-week-after rumor ecology, `영웅의 뒷면`, or broader unit-mistrust lifestyle.
+- Final verification: five no-edit cycles all PASS at `body_nospace=4,856`, `total_no_space=4,862`, byte BOM `false`, backticks `0`, extra EOF blank `false`, Latin hits `0`, title fail `false`, duplicate exact 5-line windows `0`, banned/meta hits `0`, Vol.6 reserved hits `0`, hash `E31887632A75BC81986F5D2A3ED3D4CF9879EBBEE93ACC84A4D07A4672CACE76`.
+- Result:
+  - Style-harness verified range advances to `Vol.1 Chapters 1~25; Vol.2 Chapters 1~25; Vol.3 Chapters 1~25; Vol.4 Chapters 1~25; Vol.5 Chapters 1~25`.
+  - Aggregate style-harness verified range remains `Vol.1 Chapters 1~25; Vol.2 Chapters 1~25; Vol.3 Chapters 1~25; Vol.4 Chapters 1~25; Vol.5 Chapters 1~15`.
+  - Next target is `Vol.5 Chapters 21~25 aggregate`.
+
 - Mode: `rttp style-harness recast Vol.5 Chapter 24`
 - Scope: single-chapter lock pass for `Drafts/Vol_5/Vol_5_Chapter_24.md`, with `Drafts/Vol_5/Vol_5_Chapter_23.md` as prior edge and `Drafts/Vol_5/Vol_5_Chapter_25.md` as right edge.
 - Current work: `Vol.5 Chapter 24` style-harness lock complete.
