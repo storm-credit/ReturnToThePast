@@ -14,6 +14,28 @@
 
 ## 2026-06-14 KST
 
+- Mode: `rttp style-harness recast Vol.5 Chapter 17`
+- Scope: single-chapter lock pass for `Drafts/Vol_5/Vol_5_Chapter_17.md`, with `Drafts/Vol_5/Vol_5_Chapter_16.md` as prior edge and `Drafts/Vol_5/Vol_5_Chapter_18.md` as right edge.
+- Current work: `Vol.5 Chapter 17` style-harness lock complete.
+- Next work: `Vol.5 Chapter 18`.
+- Execution mode: heartbeat-triggered orchestra-conductor lock pass; conductor read-only specialist lenses plus final integration.
+- MCP: none; no multi-agent worker was spawned because this heartbeat pass did not require explicit delegation.
+- Skills: `rttp-lock-cycle`.
+- Automations: `rttp-style-harness-completion-loop`.
+- Edits:
+  - `Drafts/Vol_5/Vol_5_Chapter_17.md`
+  - `orchestra/VOL5_CHAPTER_17_STYLE_HARNESS_CHECKPOINT_2026-06-14.md`
+  - `orchestra/SESSION_STATE.md`
+  - `orchestra/NEXT_DIALOGUE_HANDOFF.md`
+  - `orchestra/EXECUTION_PROGRESS_LEDGER.md`
+- Manuscript note: repaired only lock-surface and format residue by adding the missing title `오른팔` and removing six in-world record-line backticks. Ch18 was read as right edge only and left unstaged.
+- Specialist FAIL ledger: no structural hook, mid-pressure, ending, time-scent, motif, clarity, or style blocker after repair. Ch17 carries Ch16's open path, Barkan fracture, outside voices, and Aiden's path-first coldness into Iris's right-arm loss, emergency tourniquet/cautery, and collar-grip ending, without spending Ch18's full recovery or Ch19's core-confrontation payload.
+- Final verification: five no-edit cycles all PASS at `body_nospace=4,803`, `total_no_space=4,806`, byte BOM `false`, backticks `0`, extra EOF blank `false`, Latin hits `0`, title fail `false`, duplicate exact 5-line windows `0`, banned hits `0`, meta hits `0`, hash `BE776428259F001848FB0842FEDC78BBCAD22EDD8FDEABA0C2F5396F6BDBF43B`.
+- Result:
+  - Style-harness verified range advances to `Vol.1 Chapters 1~25; Vol.2 Chapters 1~25; Vol.3 Chapters 1~25; Vol.4 Chapters 1~25; Vol.5 Chapters 1~17`.
+  - Aggregate style-harness verified range remains `Vol.1 Chapters 1~25; Vol.2 Chapters 1~25; Vol.3 Chapters 1~25; Vol.4 Chapters 1~25; Vol.5 Chapters 1~15`.
+  - Next target is `Vol.5 Chapter 18`.
+
 - Mode: `rttp style-harness recast Vol.5 Chapter 16`
 - Scope: single-chapter lock pass for `Drafts/Vol_5/Vol_5_Chapter_16.md`, with `Drafts/Vol_5/Vol_5_Chapter_15.md` as prior edge and `Drafts/Vol_5/Vol_5_Chapter_17.md` as right edge.
 - Current work: `Vol.5 Chapter 16` style-harness lock complete.
