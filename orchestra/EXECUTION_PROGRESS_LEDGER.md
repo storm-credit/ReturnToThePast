@@ -14,6 +14,28 @@
 
 ## 2026-06-14 KST
 
+- Mode: `rttp style-harness recast Vol.6 Chapter 10`
+- Scope: single-chapter lock pass for `Drafts/Vol_6/Vol_6_Chapter_10.md`, with `Drafts/Vol_6/Vol_6_Chapter_9.md` as prior edge and `Drafts/Vol_6/Vol_6_Chapter_11.md` as right edge.
+- Current work: `Vol.6 Chapter 10` style-harness lock complete.
+- Next work: aggregate `Vol.6 Chapters 6~10`; do not resume the older Vol.6/overall-147 re-deep-lock queue and do not advance to Ch11 before this aggregate passes.
+- Execution mode: heartbeat-triggered orchestra-conductor lock pass; conductor read-only specialist lenses plus final integration.
+- MCP: none; no multi-agent worker was spawned because this heartbeat pass did not require explicit delegation.
+- Skills: `rttp-lock-cycle`.
+- Automations: `rttp-style-harness-completion-loop`.
+- Edits:
+  - `Drafts/Vol_6/Vol_6_Chapter_10.md`
+  - `orchestra/VOL6_CHAPTER_10_STYLE_HARNESS_CHECKPOINT_2026-06-14.md`
+  - `orchestra/SESSION_STATE.md`
+  - `orchestra/NEXT_DIALOGUE_HANDOFF.md`
+  - `orchestra/EXECUTION_PROGRESS_LEDGER.md`
+- Manuscript note: `Drafts/Vol_6/Vol_6_Chapter_10.md` was already dirty on entry and was audited as live text; this pass repaired the missing clean title `마지막 순찰` and added only a narrow Ch10-internal procedural-record pressure block at Barkan's command tent. No prior edge, right edge, plot event, character position, Ch11 Iris sword payload, or later-chapter reveal was rewritten.
+- Specialist FAIL ledger: title/format and length blockers. The body already held Ch9's failed-but-recorded opposition into the recovery tent, temporary morgue, Ria, Barkan, command-record, messenger, and ruined-front patrol path while preserving Ch11's sword/farewell payload; it initially lacked a clean title and sat below the `4,800` body no-space floor at `4,622`.
+- Final verification: full post-repair reread plus five no-edit cycles all PASS at `body_nospace=4,819`, `total_no_space=4,824`, duplicate exact 5-line windows `0`, backticks `0`, Latin hits `0`, title fail `false`, banned/meta hits `0`, Ch11 reserved hits `0`, hash `CDDA10C3A395F556A3B4BD4B10FD08BF83C6ED2493DDC701AAAD320E61E04CA5`.
+- Result:
+  - Style-harness verified range advances to `Vol.1 Chapters 1~25; Vol.2 Chapters 1~25; Vol.3 Chapters 1~25; Vol.4 Chapters 1~25; Vol.5 Chapters 1~25; Vol.6 Chapters 1~10`.
+  - Aggregate style-harness verified range remains contiguous through `Vol.6 Chapters 1~5`.
+  - Next target is aggregate `Vol.6 Chapters 6~10`.
+
 - Mode: `rttp style-harness recast Vol.6 Chapter 9`
 - Scope: single-chapter lock pass for `Drafts/Vol_6/Vol_6_Chapter_9.md`, with `Drafts/Vol_6/Vol_6_Chapter_8.md` as prior edge and `Drafts/Vol_6/Vol_6_Chapter_10.md` as right edge.
 - Current work: `Vol.6 Chapter 9` style-harness lock complete.
