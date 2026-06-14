@@ -14,6 +14,28 @@
 
 ## 2026-06-14 KST
 
+- Mode: `rttp style-harness recast Vol.6 Chapter 8`
+- Scope: single-chapter lock pass for `Drafts/Vol_6/Vol_6_Chapter_8.md`, with `Drafts/Vol_6/Vol_6_Chapter_7.md` as prior edge and `Drafts/Vol_6/Vol_6_Chapter_9.md` as right edge.
+- Current work: `Vol.6 Chapter 8` style-harness lock complete.
+- Next work: `Vol.6 Chapter 9`; do not resume the older Vol.6/overall-147 re-deep-lock queue.
+- Execution mode: heartbeat-triggered orchestra-conductor lock pass; conductor read-only specialist lenses plus final integration.
+- MCP: none; no multi-agent worker was spawned because this heartbeat pass did not require explicit delegation.
+- Skills: `rttp-lock-cycle`.
+- Automations: `rttp-style-harness-completion-loop`.
+- Edits:
+  - `Drafts/Vol_6/Vol_6_Chapter_8.md`
+  - `orchestra/VOL6_CHAPTER_8_STYLE_HARNESS_CHECKPOINT_2026-06-14.md`
+  - `orchestra/SESSION_STATE.md`
+  - `orchestra/NEXT_DIALOGUE_HANDOFF.md`
+  - `orchestra/EXECUTION_PROGRESS_LEDGER.md`
+- Manuscript note: `Drafts/Vol_6/Vol_6_Chapter_8.md` was already dirty on entry and was audited as live text; this pass repaired only the missing clean title `감정 없는 결심`. No body sentence, Ch9 right edge, plot event, or character position was rewritten.
+- Specialist FAIL ledger: title/format blocker only. The body already held Ch7's forbidden whisper becoming formal decision pressure, Aiden's too-calm logic, recovery-tent and water-bucket reaction proof, memorial-board inversion, and Baltazar's preparation-threshold warning while leaving Ch9's deeper opposition payload unspent.
+- Final verification: full post-repair reread plus five no-edit cycles all PASS at `body_nospace=5,371`, `total_no_space=5,377`, duplicate exact 5-line windows `0`, backticks `0`, Latin hits `0`, title fail `false`, banned/meta hits `0`, Ch9 reserved hits `0`, hash `334EF4ABB689FAE5F67494376902239C6F6054B648FF9985E50D7420E8368530`.
+- Result:
+  - Style-harness verified range advances to `Vol.1 Chapters 1~25; Vol.2 Chapters 1~25; Vol.3 Chapters 1~25; Vol.4 Chapters 1~25; Vol.5 Chapters 1~25; Vol.6 Chapters 1~8`.
+  - Aggregate style-harness verified range remains contiguous through `Vol.6 Chapters 1~5`.
+  - Next target is `Vol.6 Chapter 9`.
+
 - Mode: `rttp style-harness recast Vol.6 Chapter 7`
 - Scope: single-chapter lock pass for `Drafts/Vol_6/Vol_6_Chapter_7.md`, with `Drafts/Vol_6/Vol_6_Chapter_6.md` as prior edge and `Drafts/Vol_6/Vol_6_Chapter_8.md` as right edge.
 - Current work: `Vol.6 Chapter 7` style-harness lock complete.
