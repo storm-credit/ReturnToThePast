@@ -14,6 +14,27 @@
 
 ## 2026-06-14 KST
 
+- Mode: `rttp style-harness recast Vol.5 Chapters 21~25 aggregate`
+- Scope: aggregate lock pass for `Drafts/Vol_5/Vol_5_Chapter_21.md` through `Drafts/Vol_5/Vol_5_Chapter_25.md`, with `Drafts/Vol_5/Vol_5_Chapter_20.md` as prior edge and `Drafts/Vol_6/Vol_6_Chapter_1.md` as next-volume right edge.
+- Current work: `Vol.5 Chapters 21~25 aggregate` style-harness lock complete.
+- Next work: `Vol.5 Chapters 16~20 aggregate` backfill before any Vol.6 advance.
+- Execution mode: heartbeat-triggered orchestra-conductor aggregate lock pass; conductor read-only specialist lenses plus final integration.
+- MCP: none; no multi-agent worker was spawned because this heartbeat pass did not require explicit delegation.
+- Skills: `rttp-lock-cycle`.
+- Automations: `rttp-style-harness-completion-loop`.
+- Edits:
+  - `orchestra/VOL5_CHAPTER_21_25_STYLE_HARNESS_AGGREGATE_CHECKPOINT_2026-06-14.md`
+  - `orchestra/SESSION_STATE.md`
+  - `orchestra/NEXT_DIALOGUE_HANDOFF.md`
+  - `orchestra/EXECUTION_PROGRESS_LEDGER.md`
+- Manuscript note: no draft repair was required. Ch21~25 held the endgame descent from overload and memory erosion to sky-closing aftermath, no-cheer survival, Iris/Aiden empty-eye silence, survivor hero-refusal, and the back-alley bridge. Vol.6 Ch1 was read as right edge only and left unstaged.
+- Specialist FAIL ledger: no aggregate structural, repeated-device, time-scent, bridge, style, clarity, or length blocker. Ch23's single `불신` line functions as the Vol.5 first-public-mistrust seed, not as Vol.6 Ch1's one-week rumor ecology or isolation lifestyle payload.
+- Final verification: five no-edit aggregate cycles all PASS at `body_total=24,268`, `total_no_space=24,291`, duplicate exact 5-line windows `0`, backticks `0`, Latin hits `0`, title failures `0`, banned/meta hits `0`, Vol.6 reserved hits `0`, BOM files `0`, EOF blank files `0`, hash `5F4F7AEE0B8E0291AA9EC305C4AB781585D663806AFDB754061458AE72C051F6`.
+- Result:
+  - Style-harness verified range remains `Vol.1 Chapters 1~25; Vol.2 Chapters 1~25; Vol.3 Chapters 1~25; Vol.4 Chapters 1~25; Vol.5 Chapters 1~25`.
+  - Aggregate style-harness verified range now includes `Vol.5 Chapters 21~25` but remains non-contiguous because `Vol.5 Chapters 16~20 aggregate` has no checkpoint in the current repo state.
+  - Next target is `Vol.5 Chapters 16~20 aggregate`.
+
 - Mode: `rttp style-harness recast Vol.5 Chapter 25`
 - Scope: single-chapter lock pass for `Drafts/Vol_5/Vol_5_Chapter_25.md`, with `Drafts/Vol_5/Vol_5_Chapter_24.md` as prior edge and `Drafts/Vol_6/Vol_6_Chapter_1.md` as next-volume right edge.
 - Current work: `Vol.5 Chapter 25` style-harness lock complete.
