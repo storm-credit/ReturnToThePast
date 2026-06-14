@@ -14,6 +14,28 @@
 
 ## 2026-06-14 KST
 
+- Mode: `rttp style-harness recast Vol.6 Chapter 3`
+- Scope: single-chapter lock pass for `Drafts/Vol_6/Vol_6_Chapter_3.md`, with `Drafts/Vol_6/Vol_6_Chapter_2.md` as prior edge and `Drafts/Vol_6/Vol_6_Chapter_4.md` as right edge.
+- Current work: `Vol.6 Chapter 3` style-harness lock complete.
+- Next work: `Vol.6 Chapter 4` style-harness recast; do not resume the older Vol.6/overall-147 re-deep-lock queue.
+- Execution mode: heartbeat-triggered orchestra-conductor lock pass; conductor read-only specialist lenses plus final integration.
+- MCP: none; no multi-agent worker was spawned because this heartbeat pass did not require explicit delegation.
+- Skills: `rttp-lock-cycle`.
+- Automations: `rttp-style-harness-completion-loop`.
+- Edits:
+  - `Drafts/Vol_6/Vol_6_Chapter_3.md`
+  - `orchestra/VOL6_CHAPTER_3_STYLE_HARNESS_CHECKPOINT_2026-06-14.md`
+  - `orchestra/SESSION_STATE.md`
+  - `orchestra/NEXT_DIALOGUE_HANDOFF.md`
+  - `orchestra/EXECUTION_PROGRESS_LEDGER.md`
+- Manuscript note: repaired only the missing clean title `괴물`. No body sentence, Ch4 right edge, plot event, or character position was rewritten.
+- Specialist FAIL ledger: title/format blocker only. The chapter body already held Ch2's private empty-eye rupture into Barkan's public confrontation, Aiden's `모르겠다`, Ria's record pressure, and the camp's social naming of `괴물`, without spending Ch4's broader `균열` payload.
+- Final verification: full post-repair reread plus five no-edit cycles all PASS at `body_nospace=4,800`, `total_no_space=4,802`, duplicate exact 5-line windows `0`, backticks `0`, Latin hits `0`, title fail `false`, banned/meta hits `0`, hash `D392A19D6F7D401D14E24DC6E5B6C62B7B398AB8155B5093F2EDB7F182E32C25`.
+- Result:
+  - Style-harness verified range advances to `Vol.1 Chapters 1~25; Vol.2 Chapters 1~25; Vol.3 Chapters 1~25; Vol.4 Chapters 1~25; Vol.5 Chapters 1~25; Vol.6 Chapters 1~3`.
+  - Aggregate style-harness verified range remains contiguous through `Vol.5 Chapters 1~25`.
+  - Next target is `Vol.6 Chapter 4`.
+
 - Mode: `rttp style-harness recast Vol.6 Chapter 2`
 - Scope: single-chapter lock pass for `Drafts/Vol_6/Vol_6_Chapter_2.md`, with `Drafts/Vol_6/Vol_6_Chapter_1.md` as prior edge and `Drafts/Vol_6/Vol_6_Chapter_3.md` as right edge.
 - Current work: `Vol.6 Chapter 2` style-harness lock complete.
