@@ -14,6 +14,28 @@
 
 ## 2026-06-14 KST
 
+- Mode: `rttp style-harness recast Vol.6 Chapter 4`
+- Scope: single-chapter lock pass for `Drafts/Vol_6/Vol_6_Chapter_4.md`, with `Drafts/Vol_6/Vol_6_Chapter_3.md` as prior edge and `Drafts/Vol_6/Vol_6_Chapter_5.md` as right edge.
+- Current work: `Vol.6 Chapter 4` style-harness lock complete.
+- Next work: `Vol.6 Chapter 5` style-harness recast; do not resume the older Vol.6/overall-147 re-deep-lock queue.
+- Execution mode: heartbeat-triggered orchestra-conductor lock pass; conductor read-only specialist lenses plus final integration.
+- MCP: none; no multi-agent worker was spawned because this heartbeat pass did not require explicit delegation.
+- Skills: `rttp-lock-cycle`.
+- Automations: `rttp-style-harness-completion-loop`.
+- Edits:
+  - `Drafts/Vol_6/Vol_6_Chapter_4.md`
+  - `orchestra/VOL6_CHAPTER_4_STYLE_HARNESS_CHECKPOINT_2026-06-14.md`
+  - `orchestra/SESSION_STATE.md`
+  - `orchestra/NEXT_DIALOGUE_HANDOFF.md`
+  - `orchestra/EXECUTION_PROGRESS_LEDGER.md`
+- Manuscript note: repaired only the missing clean title `균열`. No body sentence, Ch5 right edge, plot event, or character position was rewritten.
+- Specialist FAIL ledger: title/format blocker only. The chapter body already held Ch3's public `괴물` naming pressure into quiet formation refusal, small procedural distance, a saved soldier's fear, Ria's blank record category, Iris's restrained witness line, and a Ch5-safe private-question bridge.
+- Final verification: full post-repair reread plus five no-edit cycles all PASS at `body_nospace=4,801`, `total_no_space=4,803`, duplicate exact 5-line windows `0`, backticks `0`, Latin hits `0`, title fail `false`, banned/meta hits `0`, hash `5DBB89536E86C92A6D4254D57D9BF1A91DB11F79E99BF2C819BA0D07D075D628`.
+- Result:
+  - Style-harness verified range advances to `Vol.1 Chapters 1~25; Vol.2 Chapters 1~25; Vol.3 Chapters 1~25; Vol.4 Chapters 1~25; Vol.5 Chapters 1~25; Vol.6 Chapters 1~4`.
+  - Aggregate style-harness verified range remains contiguous through `Vol.5 Chapters 1~25`.
+  - Next target is `Vol.6 Chapter 5`.
+
 - Mode: `rttp style-harness recast Vol.6 Chapter 3`
 - Scope: single-chapter lock pass for `Drafts/Vol_6/Vol_6_Chapter_3.md`, with `Drafts/Vol_6/Vol_6_Chapter_2.md` as prior edge and `Drafts/Vol_6/Vol_6_Chapter_4.md` as right edge.
 - Current work: `Vol.6 Chapter 3` style-harness lock complete.
