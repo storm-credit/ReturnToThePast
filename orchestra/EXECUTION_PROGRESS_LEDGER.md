@@ -12,6 +12,30 @@
 - 상세 누적 진행도는 `SETTING_PROGRESS_TRACKER.md`, `DRAFTING_PROGRESS_TRACKER.md`를 따른다.
 - 현재 즉시 재개 지점은 `SESSION_STATE.md`를 따른다.
 
+## 2026-06-18 KST
+
+- Mode: `rttp style-harness recast Vol.6 Chapter 11`
+- Scope: single-chapter lock pass for `Drafts/Vol_6/Vol_6_Chapter_11.md`, with `Drafts/Vol_6/Vol_6_Chapter_10.md` as prior edge and `Drafts/Vol_6/Vol_6_Chapter_12.md` as right edge.
+- Current work: `Vol.6 Chapter 11` style-harness lock complete.
+- Next work: `Vol.6 Chapter 12`; do not resume the older Vol.6/overall-147 re-deep-lock queue. Aggregate `Vol.6 Chapters 11~15` is due only after Chapter 15 passes.
+- Execution mode: heartbeat-triggered orchestra-conductor single-chapter lock pass; conductor read-only specialist lenses plus final integration.
+- MCP: none; no multi-agent worker was spawned because this heartbeat pass did not require explicit delegation.
+- Skills: `rttp-lock-cycle`.
+- Automations: `rttp-style-harness-completion-loop`.
+- Edits:
+  - `Drafts/Vol_6/Vol_6_Chapter_11.md`
+  - `orchestra/VOL6_CHAPTER_11_STYLE_HARNESS_CHECKPOINT_2026-06-18.md`
+  - `orchestra/SESSION_STATE.md`
+  - `orchestra/NEXT_DIALOGUE_HANDOFF.md`
+  - `orchestra/EXECUTION_PROGRESS_LEDGER.md`
+- Manuscript note: `Drafts/Vol_6/Vol_6_Chapter_11.md` was already dirty on entry and was treated as the live target. Repair stayed narrow: added the clean title `아이리스에게` and one Iris pressure block that makes Aiden's sorting/measurement gaze explicit without spending Ch12's Ria record-tent or blank-page payload.
+- Specialist FAIL ledger: title/format and length were hard blockers on entry; mid-pressure needed one targeted support block. Hook/first-screen, time-scent, motif integrity, anti-absolution pressure, edge continuity, and ending click held after repair.
+- Final verification: full post-repair reread plus five no-edit cycles all PASS at `body_nospace=4,826`, `total_no_space=4,832`, duplicate exact 5-line windows `0`, backticks `0`, Latin hits `0`, title fail `false`, banned/meta hits `0`, Ch12 reserved hits `0`, BOM `false`, EOF extra blank `false`, hash `5BA3649035AA0C5D4D89F7EC6E92E44E6AE366452403A62BD50EC5B4C342DA33`.
+- Result:
+  - Style-harness verified range advances to `Vol.1 Chapters 1~25; Vol.2 Chapters 1~25; Vol.3 Chapters 1~25; Vol.4 Chapters 1~25; Vol.5 Chapters 1~25; Vol.6 Chapters 1~11`.
+  - Aggregate style-harness verified range remains `Vol.1 Chapters 1~25; Vol.2 Chapters 1~25; Vol.3 Chapters 1~25; Vol.4 Chapters 1~25; Vol.5 Chapters 1~25; Vol.6 Chapters 1~10`.
+  - Next target is `Vol.6 Chapter 12`.
+
 ## 2026-06-14 KST
 
 - Mode: `rttp style-harness recast Vol.6 Chapters 6~10 aggregate`
