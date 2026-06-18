@@ -14,6 +14,28 @@
 
 ## 2026-06-19 KST
 
+- Mode: `rttp style-harness recast Vol.6 Chapter 24`
+- Scope: single-chapter lock pass for `Drafts/Vol_6/Vol_6_Chapter_24.md`, with `Drafts/Vol_6/Vol_6_Chapter_23.md` as prior edge and `Drafts/Vol_6/Vol_6_Chapter_25.md` as right edge.
+- Current work: `Vol.6 Chapter 24` style-harness lock complete.
+- Next work: `Vol.6 Chapter 25`; do not resume the older Vol.6/overall-147 re-deep-lock queue.
+- Execution mode: heartbeat-triggered orchestra-conductor single-chapter lock pass; conductor read-only specialist lenses plus final integration.
+- MCP: none; no multi-agent worker was spawned because this heartbeat pass did not require explicit delegation.
+- Skills: `rttp-lock-cycle`.
+- Automations: `rttp-style-harness-completion-loop`.
+- Edits:
+  - `Drafts/Vol_6/Vol_6_Chapter_24.md`
+  - `orchestra/VOL6_CHAPTER_24_STYLE_HARNESS_CHECKPOINT_2026-06-19.md`
+  - `orchestra/SESSION_STATE.md`
+  - `orchestra/NEXT_DIALOGUE_HANDOFF.md`
+  - `orchestra/EXECUTION_PROGRESS_LEDGER.md`
+- Manuscript note: Ch24 was clean on entry and was treated as the live target. This pass normalized title `변절자의 길`, removed thirty backticks, and converted modern/administrative surface around `실무`, `공식`, `최종 이탈 추정`, `전선 재편 우선`, `접속`, `기념품`, `복권`, `업무`, and `사용법` into older-register in-world record prose. Ch25 was read as right edge only and left outside this pass.
+- Specialist FAIL ledger: format/surface was the blocker on entry. Hook/first-screen, Ch23 post-Hyoo-young name-call pressure, Baltazar/tower threshold, `변절자의 길`, decision agency, false ordinary-morning lure, Ch25 boundary, time-scent, motif integrity, and ending click held after repair.
+- Final verification: full post-repair reread plus five no-edit cycles all PASS at `body_nospace=6,012`, `total_no_space=6,017`, duplicate nonempty 5-line windows `0`, backticks `0`, Latin hits `0`, title `변절자의 길`, banned hits `0`, surface hits `0`, Ch25 reserved hits `0`, required hits `변절자의 길=7; 문턱 앞에서는 기억보다 감각을 먼저 믿을 것=1; 변절 혐의자=4; 요주의 이탈자=1; 다녀오지=1; 가능하면=2; 평범한 아침 냄새=3; 자기 발로=2; 문턱=17; 발타자르=19`, BOM `false`, EOF extra blank `false`, hash `3A097876AF8C3F93878CA94358EAF451CD3E11281BC5B42BF20E40A845ADBC61`.
+- Result:
+  - Style-harness verified range advances to `Vol.1 Chapters 1~25; Vol.2 Chapters 1~25; Vol.3 Chapters 1~25; Vol.4 Chapters 1~25; Vol.5 Chapters 1~25; Vol.6 Chapters 1~24`.
+  - Aggregate style-harness verified range remains `Vol.1 Chapters 1~25; Vol.2 Chapters 1~25; Vol.3 Chapters 1~25; Vol.4 Chapters 1~25; Vol.5 Chapters 1~25; Vol.6 Chapters 1~20`.
+  - Next target is `Vol.6 Chapter 25`.
+
 - Mode: `rttp style-harness recast Vol.6 Chapter 23`
 - Scope: single-chapter lock pass for `Drafts/Vol_6/Vol_6_Chapter_23.md`, with `Drafts/Vol_6/Vol_6_Chapter_22.md` as prior edge and `Drafts/Vol_6/Vol_6_Chapter_24.md` as right edge.
 - Current work: `Vol.6 Chapter 23` style-harness lock complete.
