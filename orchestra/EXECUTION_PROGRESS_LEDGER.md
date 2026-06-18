@@ -14,6 +14,29 @@
 
 ## 2026-06-18 KST
 
+- Mode: `rttp style-harness recast Vol.6 Chapters 11~15 aggregate`
+- Scope: aggregate lock pass for `Drafts/Vol_6/Vol_6_Chapter_11.md` through `Drafts/Vol_6/Vol_6_Chapter_15.md`, with `Drafts/Vol_6/Vol_6_Chapter_10.md` as prior edge and `Drafts/Vol_6/Vol_6_Chapter_16.md` as right edge.
+- Current work: aggregate `Vol.6 Chapters 11~15` style-harness lock complete.
+- Next work: `Vol.6 Chapter 16`; do not resume the older Vol.6/overall-147 re-deep-lock queue.
+- Execution mode: heartbeat-triggered orchestra-conductor aggregate lock pass; conductor read-only specialist lenses plus final integration.
+- MCP: none; no multi-agent worker was spawned because this heartbeat pass did not require explicit delegation.
+- Skills: `rttp-lock-cycle`.
+- Automations: `rttp-style-harness-completion-loop`.
+- Edits:
+  - `orchestra/VOL6_CHAPTER_11_15_STYLE_HARNESS_AGGREGATE_CHECKPOINT_2026-06-18.md`
+  - `orchestra/SESSION_STATE.md`
+  - `orchestra/NEXT_DIALOGUE_HANDOFF.md`
+  - `orchestra/EXECUTION_PROGRESS_LEDGER.md`
+- Manuscript note: no draft repair was required. Ch11~Ch15 held the aggregate ladder from Iris sword/farewell through Ria record blank, forbidden overwrite execution, daylight recognition failure, and official/public betrayal classification. Ch10 and Ch16 were read as edges only and left unstaged.
+- Specialist FAIL ledger: no aggregate blocker. Names, hands, records, blank spaces, lists, objects, public notices, and rumor recur with changed function; the packet does not turn memory erasure into clean heroism or absolution, and Ch16's lone-night combat plus `개입자 확인 불가`/`유령` payload remains unspent.
+- Final verification: five no-edit aggregate cycles all PASS at `body_total=24,235`, `total_no_space=24,260`, duplicate exact 5-line windows `0`, backticks `0`, Latin hits `0`, title failures `0`, banned/meta hits `0`, Ch16 reserved hits `0`, BOM files `0`, EOF blank files `0`, packet hash `74F97E7540E7CD973760895DF0A1FA2FF5AC01F51785F9F21D74545D6E715FE6`.
+- Result:
+  - Style-harness verified range remains `Vol.1 Chapters 1~25; Vol.2 Chapters 1~25; Vol.3 Chapters 1~25; Vol.4 Chapters 1~25; Vol.5 Chapters 1~25; Vol.6 Chapters 1~15`.
+  - Aggregate style-harness verified range advances to `Vol.1 Chapters 1~25; Vol.2 Chapters 1~25; Vol.3 Chapters 1~25; Vol.4 Chapters 1~25; Vol.5 Chapters 1~25; Vol.6 Chapters 1~15`.
+  - Next target is `Vol.6 Chapter 16`.
+
+## 2026-06-18 KST
+
 - Mode: `rttp style-harness recast Vol.6 Chapter 15`
 - Scope: single-chapter lock pass for `Drafts/Vol_6/Vol_6_Chapter_15.md`, with `Drafts/Vol_6/Vol_6_Chapter_14.md` as prior edge and `Drafts/Vol_6/Vol_6_Chapter_16.md` as right edge.
 - Current work: `Vol.6 Chapter 15` style-harness lock complete.
