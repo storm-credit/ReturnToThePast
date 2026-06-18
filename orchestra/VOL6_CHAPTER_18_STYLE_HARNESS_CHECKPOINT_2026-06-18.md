@@ -89,3 +89,10 @@
 - Current style-harness verified range advances to `Vol.1 Chapters 1~25; Vol.2 Chapters 1~25; Vol.3 Chapters 1~25; Vol.4 Chapters 1~25; Vol.5 Chapters 1~25; Vol.6 Chapters 1~18`.
 - Current aggregate style-harness verified range remains `Vol.1 Chapters 1~25; Vol.2 Chapters 1~25; Vol.3 Chapters 1~25; Vol.4 Chapters 1~25; Vol.5 Chapters 1~25; Vol.6 Chapters 1~15`.
 - Next one-unit target is `Vol.6 Chapter 19`.
+
+## Aggregate Surface Repair Addendum - 2026-06-18 KST
+
+- During aggregate `Vol.6 Chapters 16~20`, two aggregate-level surface repairs were made in this chapter: `목소리 톤이 높고 짧은 놈이 하나,` -> `목소리 결이 높고 짧은 놈이 하나,`; `전투 패턴이 먼저 자기 형체를 잡아 주는 상태.` -> `싸움의 결이 먼저 자기 형체를 잡아 주는 상태.`
+- Full Ch18 reread completed after the repairs; the enemy-base destruction, unnamed-weapon pressure, Ch19 boundary, and style-harness result still hold.
+- Revised final metrics after aggregate repair: `body_nospace=5,235`, `total_no_space=5,240`, hash `B0BFFFF9C9D3D2C663C067DAE707A8E4B0DB364A97468BCC7D105456051520B8`.
+- The aggregate checkpoint `orchestra/VOL6_CHAPTER_16_20_STYLE_HARNESS_AGGREGATE_CHECKPOINT_2026-06-18.md` supersedes the older hash for packet-level verification.

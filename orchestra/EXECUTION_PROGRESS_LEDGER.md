@@ -14,6 +14,33 @@
 
 ## 2026-06-18 KST
 
+- Mode: `rttp style-harness recast Vol.6 Chapters 16~20 aggregate`
+- Scope: aggregate lock pass for `Drafts/Vol_6/Vol_6_Chapter_16.md` through `Drafts/Vol_6/Vol_6_Chapter_20.md`, with `Drafts/Vol_6/Vol_6_Chapter_15.md` as prior edge and `Drafts/Vol_6/Vol_6_Chapter_21.md` as right edge.
+- Current work: aggregate `Vol.6 Chapters 16~20` style-harness lock complete.
+- Next work: `Vol.6 Chapter 21`; do not resume the older Vol.6/overall-147 re-deep-lock queue.
+- Execution mode: heartbeat-triggered orchestra-conductor aggregate lock pass; conductor read-only specialist lenses plus final integration.
+- MCP: none; no multi-agent worker was spawned because this heartbeat pass did not require explicit delegation.
+- Skills: `rttp-lock-cycle`.
+- Automations: `rttp-style-harness-completion-loop`.
+- Edits:
+  - `Drafts/Vol_6/Vol_6_Chapter_17.md`
+  - `Drafts/Vol_6/Vol_6_Chapter_18.md`
+  - `orchestra/VOL6_CHAPTER_17_STYLE_HARNESS_CHECKPOINT_2026-06-18.md`
+  - `orchestra/VOL6_CHAPTER_18_STYLE_HARNESS_CHECKPOINT_2026-06-18.md`
+  - `orchestra/VOL6_CHAPTER_16_20_STYLE_HARNESS_AGGREGATE_CHECKPOINT_2026-06-18.md`
+  - `orchestra/SESSION_STATE.md`
+  - `orchestra/NEXT_DIALOGUE_HANDOFF.md`
+  - `orchestra/EXECUTION_PROGRESS_LEDGER.md`
+- Manuscript note: Ch17 and Ch18 received aggregate-level surface-only repairs. Ch17 `밤마다 같은 패턴으로 사람이 사라지면` became `밤마다 같은 순서로 사람이 사라지면`; Ch18 `목소리 톤이 높고 짧은 놈이 하나,` became `목소리 결이 높고 짧은 놈이 하나,`; Ch18 `전투 패턴이 먼저 자기 형체를 잡아 주는 상태.` became `싸움의 결이 먼저 자기 형체를 잡아 주는 상태.` Ch20's required `무주체 절단 패턴` was preserved, and Ch21 was read as right edge only.
+- Specialist FAIL ledger: aggregate surface consistency was the only blocker after full packet read. The Ch16 lone-night/no-gratitude rescue, Ch17 ghost-war report ladder, Ch18 unnamed-weapon/base-destruction pressure, Ch19 Baltazar memory/unreadable-name proof, and Ch20 enemy trap/capture-reading all held as one pressure ladder after repair.
+- Final verification: full Ch17/Ch18 reread after repair plus five no-edit aggregate cycles all PASS at `body_total=25,580`, `total_no_space=25,605`, duplicate exact 5-line windows `0`, backticks `0`, Latin hits `0`, title failures `0`, banned/meta hits `0`, non-required `패턴` hits `0`, Ch21+ reserved title hits `0`, BOM files `0`, EOF blank files `0`, packet hash `AC32D2669B38F1B26680C67636307B4E4F22B7CB66944F0135F6CF4C7B8F726A`.
+- Result:
+  - Style-harness verified range remains `Vol.1 Chapters 1~25; Vol.2 Chapters 1~25; Vol.3 Chapters 1~25; Vol.4 Chapters 1~25; Vol.5 Chapters 1~25; Vol.6 Chapters 1~20`.
+  - Aggregate style-harness verified range advances to `Vol.1 Chapters 1~25; Vol.2 Chapters 1~25; Vol.3 Chapters 1~25; Vol.4 Chapters 1~25; Vol.5 Chapters 1~25; Vol.6 Chapters 1~20`.
+  - Next target is `Vol.6 Chapter 21`.
+
+## 2026-06-18 KST
+
 - Mode: `rttp style-harness recast Vol.6 Chapter 20`
 - Scope: single-chapter lock pass for `Drafts/Vol_6/Vol_6_Chapter_20.md`, with `Drafts/Vol_6/Vol_6_Chapter_19.md` as prior edge and `Drafts/Vol_6/Vol_6_Chapter_21.md` as right edge.
 - Current work: `Vol.6 Chapter 20` style-harness lock complete.

@@ -89,3 +89,10 @@
 - Current style-harness verified range advances to `Vol.1 Chapters 1~25; Vol.2 Chapters 1~25; Vol.3 Chapters 1~25; Vol.4 Chapters 1~25; Vol.5 Chapters 1~25; Vol.6 Chapters 1~17`.
 - Current aggregate style-harness verified range remains `Vol.1 Chapters 1~25; Vol.2 Chapters 1~25; Vol.3 Chapters 1~25; Vol.4 Chapters 1~25; Vol.5 Chapters 1~25; Vol.6 Chapters 1~15`.
 - Next one-unit target is `Vol.6 Chapter 18`.
+
+## Aggregate Surface Repair Addendum - 2026-06-18 KST
+
+- During aggregate `Vol.6 Chapters 16~20`, one aggregate-level surface repair was made in this chapter: `밤마다 같은 패턴으로 사람이 사라지면` -> `밤마다 같은 순서로 사람이 사라지면`.
+- Full Ch17 reread completed after the repair; the repeated-night report ladder, enemy adaptation, `유령의 전쟁`, Ch18 boundary, and style-harness result still hold.
+- Revised final metrics after aggregate repair: `body_nospace=5,146`, `total_no_space=5,151`, hash `315205286FC70E5BD910F84AEC57AD869D251E2746AFFBD09CC3924B88AED9AB`.
+- The aggregate checkpoint `orchestra/VOL6_CHAPTER_16_20_STYLE_HARNESS_AGGREGATE_CHECKPOINT_2026-06-18.md` supersedes the older hash for packet-level verification.
