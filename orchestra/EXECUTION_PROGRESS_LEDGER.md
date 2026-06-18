@@ -14,6 +14,30 @@
 
 ## 2026-06-18 KST
 
+- Mode: `rttp style-harness recast Vol.6 Chapter 20`
+- Scope: single-chapter lock pass for `Drafts/Vol_6/Vol_6_Chapter_20.md`, with `Drafts/Vol_6/Vol_6_Chapter_19.md` as prior edge and `Drafts/Vol_6/Vol_6_Chapter_21.md` as right edge.
+- Current work: `Vol.6 Chapter 20` style-harness lock complete.
+- Next work: aggregate `Vol.6 Chapters 16~20`; do not advance to `Vol.6 Chapter 21` and do not resume older Vol.6/overall-147 re-deep-lock queue.
+- Execution mode: heartbeat-triggered orchestra-conductor single-chapter lock pass; conductor read-only specialist lenses plus final integration.
+- MCP: none; no multi-agent worker was spawned because this heartbeat pass did not require explicit delegation.
+- Skills: `rttp-lock-cycle`.
+- Automations: `rttp-style-harness-completion-loop`.
+- Edits:
+  - `Drafts/Vol_6/Vol_6_Chapter_20.md`
+  - `orchestra/VOL6_CHAPTER_20_STYLE_HARNESS_CHECKPOINT_2026-06-18.md`
+  - `orchestra/SESSION_STATE.md`
+  - `orchestra/NEXT_DIALOGUE_HANDOFF.md`
+  - `orchestra/EXECUTION_PROGRESS_LEDGER.md`
+- Manuscript note: `Drafts/Vol_6/Vol_6_Chapter_20.md` was already dirty on entry and was treated as the live target. This pass added clean title `적의 함정`, removed file BOM through encoding-only repair, and replaced modern-leaning surface terms (`데이터`, `콘크리트`, `렌즈`, `펌프실`, `정화조`, `볼트`, `세팅`, `톤`, `벨`, `전력 유형`, non-title `패턴`) with older-register equivalents. Ch21 was read as right edge only and left outside this pass.
+- Specialist FAIL ledger: title/format, file surface/BOM, and modern-leaning terms were blockers on entry. Hook/first-screen, Ch19 `읽히지 않는 이름` trap bridge, enemy-trap payload, capture-reading pressure, time-scent, motif integrity, Ch21 boundary, and ending click held after repair.
+- Final verification: full post-repair reread plus five no-edit cycles all PASS at `body_nospace=5,055`, `total_no_space=5,059`, duplicate non-empty exact 5-line windows `0`, backticks `0`, Latin hits `0`, title `적의 함정`, banned/surface hits `0`, required hits `적의 함정=1; 폐수정장=4; 석궁=4; 은판=8; 포획=3; 무주체 절단 패턴=1; 공백 반응=2; 시간의 탑=1; 사냥=7; 함정=11`, Ch21+ reserved title hits `그림자 사냥=0; 발타자르의 제안=0; 후영의 포효=0; 변절자의 길=0; 그림자 속으로=0`, byte BOM `false`, EOF extra blank `false`, hash `3C2AAD9CC6321609BCE792D26D6B2D75D099420F0AB210A09E971E8B27DC2A51`.
+- Result:
+  - Style-harness verified range advances to `Vol.1 Chapters 1~25; Vol.2 Chapters 1~25; Vol.3 Chapters 1~25; Vol.4 Chapters 1~25; Vol.5 Chapters 1~25; Vol.6 Chapters 1~20`.
+  - Aggregate style-harness verified range remains `Vol.1 Chapters 1~25; Vol.2 Chapters 1~25; Vol.3 Chapters 1~25; Vol.4 Chapters 1~25; Vol.5 Chapters 1~25; Vol.6 Chapters 1~15`.
+  - Next target is aggregate `Vol.6 Chapters 16~20`.
+
+## 2026-06-18 KST
+
 - Mode: `rttp style-harness recast Vol.6 Chapter 19`
 - Scope: single-chapter lock pass for `Drafts/Vol_6/Vol_6_Chapter_19.md`, with `Drafts/Vol_6/Vol_6_Chapter_18.md` as prior edge and `Drafts/Vol_6/Vol_6_Chapter_20.md` as right edge.
 - Current work: `Vol.6 Chapter 19` style-harness lock complete.
