@@ -12,6 +12,30 @@
 - 상세 누적 진행도는 `SETTING_PROGRESS_TRACKER.md`, `DRAFTING_PROGRESS_TRACKER.md`를 따른다.
 - 현재 즉시 재개 지점은 `SESSION_STATE.md`를 따른다.
 
+## 2026-06-19 KST
+
+- Mode: `rttp style-harness recast Vol.6 Chapter 22`
+- Scope: single-chapter lock pass for `Drafts/Vol_6/Vol_6_Chapter_22.md`, with `Drafts/Vol_6/Vol_6_Chapter_21.md` as prior edge and `Drafts/Vol_6/Vol_6_Chapter_23.md` as right edge; `Drafts/Vol_6/Vol_6_Chapter_24.md` was checked as next continuation edge.
+- Current work: `Vol.6 Chapter 22` style-harness lock complete.
+- Next work: `Vol.6 Chapter 23`; do not resume the older Vol.6/overall-147 re-deep-lock queue.
+- Execution mode: heartbeat-triggered orchestra-conductor single-chapter lock pass; conductor read-only specialist lenses plus final integration.
+- MCP: none; no multi-agent worker was spawned because this heartbeat pass did not require explicit delegation.
+- Skills: `rttp-lock-cycle`.
+- Automations: `rttp-style-harness-completion-loop`.
+- Edits:
+  - `Drafts/Vol_6/Vol_6_Chapter_22.md`
+  - `orchestra/VOL6_CHAPTER_22_STYLE_HARNESS_CHECKPOINT_2026-06-19.md`
+  - `orchestra/SESSION_STATE.md`
+  - `orchestra/NEXT_DIALOGUE_HANDOFF.md`
+  - `orchestra/EXECUTION_PROGRESS_LEDGER.md`
+- Manuscript note: Ch22 was clean on entry and was treated as the live target. This pass normalized title `발타자르의 제안`, removed six backticks, replaced `관측 로그` with `관측 기록`, replaced one non-required `패턴` use with `반응의 결`, preserved required continuity phrase `무주체 절단 패턴 장부`, replaced `실무적` with `실제에 가까웠다`, and added narrow agency/silver-plate pressure blocks to clear the active length floor. Ch23 and Ch24 were read as edges only and left outside this pass.
+- Specialist FAIL ledger: length/format and surface were the blockers on entry. Hook/first-screen, Ch21 tower-sketch bridge, Baltazar proposal, time-tower-as-prison explanation, causal-debt cost, threshold-choice agency, time-scent, motif integrity, Ch23/Ch24 boundary, and ending click held after repair.
+- Final verification: full post-repair reread plus five no-edit cycles all PASS at `body_nospace=4,863`, `total_no_space=4,870`, duplicate exact 5-line windows `0`, backticks `0`, Latin hits `0`, title `발타자르의 제안`, banned/surface hits `0`, non-required `패턴` hits `0`, Ch23 reserved hits `0`, required hits `옛 천문탑; 사라진 것; 관측 기록; 인과율의 빚; 시간의 탑; 결핍; 감옥; 빚을 청산하거나; 소멸하거나; 문턱; 찾아라; 은판; 층; 수직 귀환 실패점`, BOM `false`, EOF extra blank `false`, hash `815E8BC2330214E04D3BF572EF897AF6CA04A0E04BA30B17CCD7B1902F478DCD`.
+- Result:
+  - Style-harness verified range advances to `Vol.1 Chapters 1~25; Vol.2 Chapters 1~25; Vol.3 Chapters 1~25; Vol.4 Chapters 1~25; Vol.5 Chapters 1~25; Vol.6 Chapters 1~22`.
+  - Aggregate style-harness verified range remains `Vol.1 Chapters 1~25; Vol.2 Chapters 1~25; Vol.3 Chapters 1~25; Vol.4 Chapters 1~25; Vol.5 Chapters 1~25; Vol.6 Chapters 1~20`.
+  - Next target is `Vol.6 Chapter 23`.
+
 ## 2026-06-18 KST
 
 - Mode: `rttp style-harness recast Vol.6 Chapter 21`
