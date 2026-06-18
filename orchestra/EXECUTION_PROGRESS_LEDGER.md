@@ -14,6 +14,28 @@
 
 ## 2026-06-18 KST
 
+- Mode: `rttp style-harness recast Vol.6 Chapter 18`
+- Scope: single-chapter lock pass for `Drafts/Vol_6/Vol_6_Chapter_18.md`, with `Drafts/Vol_6/Vol_6_Chapter_17.md` as prior edge and `Drafts/Vol_6/Vol_6_Chapter_19.md` as right edge.
+- Current work: `Vol.6 Chapter 18` style-harness lock complete.
+- Next work: `Vol.6 Chapter 19`; do not resume the older Vol.6/overall-147 re-deep-lock queue. Aggregate `Vol.6 Chapters 16~20` is due only after Chapter 20 passes.
+- Execution mode: heartbeat-triggered orchestra-conductor single-chapter lock pass; conductor read-only specialist lenses plus final integration.
+- MCP: none; no multi-agent worker was spawned because this heartbeat pass did not require explicit delegation.
+- Skills: `rttp-lock-cycle`.
+- Automations: `rttp-style-harness-completion-loop`.
+- Edits:
+  - `Drafts/Vol_6/Vol_6_Chapter_18.md`
+  - `orchestra/VOL6_CHAPTER_18_STYLE_HARNESS_CHECKPOINT_2026-06-18.md`
+  - `orchestra/SESSION_STATE.md`
+  - `orchestra/NEXT_DIALOGUE_HANDOFF.md`
+  - `orchestra/EXECUTION_PROGRESS_LEDGER.md`
+- Manuscript note: `Drafts/Vol_6/Vol_6_Chapter_18.md` was already dirty on entry and was treated as the live target. This pass added the clean title `이름 없는 검`; no body repair was required during this pass. Ch19 was read as the right edge only and left outside this pass.
+- Specialist FAIL ledger: title/format was the only blocker on entry. Hook/first-screen, Ch17 report/war naming pressure, enemy-base destruction, identity/object pressure, Ria/Barkan record-side reclassification, Ch19 boundary, time-scent, motif integrity, and ending click held after title repair.
+- Final verification: full post-repair reread plus five no-edit cycles all PASS at `body_nospace=5,235`, `total_no_space=5,240`, duplicate exact 5-line windows `0`, backticks `0`, Latin hits `0`, title `이름 없는 검`, banned/meta hits `0`, required hits `이름 없는 검=3; 거점=13; 표식=6; 고도의 선별 파괴=1; 주체 미상=1; 검 중심 야간 파괴자=1`, Ch19 reserved observer-memory intrusion `0`, BOM `false`, EOF extra blank `false`, hash `55B98B252007A2C3BC4C89372B36A76195E548559C59138EC407F1A6614C1F6E`.
+- Result:
+  - Style-harness verified range advances to `Vol.1 Chapters 1~25; Vol.2 Chapters 1~25; Vol.3 Chapters 1~25; Vol.4 Chapters 1~25; Vol.5 Chapters 1~25; Vol.6 Chapters 1~18`.
+  - Aggregate style-harness verified range remains `Vol.1 Chapters 1~25; Vol.2 Chapters 1~25; Vol.3 Chapters 1~25; Vol.4 Chapters 1~25; Vol.5 Chapters 1~25; Vol.6 Chapters 1~15`.
+  - Next target is `Vol.6 Chapter 19`.
+
 - Mode: `rttp style-harness recast Vol.6 Chapter 17`
 - Scope: single-chapter lock pass for `Drafts/Vol_6/Vol_6_Chapter_17.md`, with `Drafts/Vol_6/Vol_6_Chapter_16.md` as prior edge and `Drafts/Vol_6/Vol_6_Chapter_18.md` as right edge.
 - Current work: `Vol.6 Chapter 17` style-harness lock complete.
