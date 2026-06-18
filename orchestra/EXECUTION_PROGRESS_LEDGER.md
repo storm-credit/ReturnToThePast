@@ -14,6 +14,28 @@
 
 ## 2026-06-19 KST
 
+- Mode: `rttp style-harness recast Vol.6 Chapter 25`
+- Scope: single-chapter lock pass for `Drafts/Vol_6/Vol_6_Chapter_25.md`, with `Drafts/Vol_6/Vol_6_Chapter_24.md` as prior edge and `Drafts/Vol_7/Vol_7_Chapter_1.md` as next-volume right edge.
+- Current work: `Vol.6 Chapter 25` style-harness lock complete.
+- Next work: aggregate `Vol.6 Chapters 21~25`; do not advance to Vol.7 and do not resume the older Vol.6/overall-147 re-deep-lock queue.
+- Execution mode: heartbeat-triggered orchestra-conductor single-chapter lock pass; conductor read-only specialist lenses plus final integration.
+- MCP: none; no multi-agent worker was spawned because this heartbeat pass did not require explicit delegation.
+- Skills: `rttp-lock-cycle`.
+- Automations: `rttp-style-harness-completion-loop`.
+- Edits:
+  - `Drafts/Vol_6/Vol_6_Chapter_25.md`
+  - `orchestra/VOL6_CHAPTER_25_STYLE_HARNESS_CHECKPOINT_2026-06-19.md`
+  - `orchestra/SESSION_STATE.md`
+  - `orchestra/NEXT_DIALOGUE_HANDOFF.md`
+  - `orchestra/EXECUTION_PROGRESS_LEDGER.md`
+- Manuscript note: Ch25 was clean on entry except for format/surface scaffolding and was treated as the live target. This pass normalized title `그림자 속으로`, removed ten backticks, replaced volume-level narrator markers (`제6권`) with in-scene phrasing, and preserved Vol7 Ch1 as right-edge material only.
+- Specialist FAIL ledger: format/surface was the blocker on entry. Hook/first-screen, Ch24 threshold-decision handoff, false ordinary-morning lure, first-cell imprisonment, Baltazar split-observer pressure, time-scent, motif integrity, Vol7 boundary, and ending click held after repair.
+- Final verification: full post-repair reread plus five no-edit cycles all PASS at `body_nospace=6,915`, `total_no_space=6,921`, duplicate nonempty 5-line windows `0`, backticks `0`, Latin hits `0`, title `그림자 속으로`, banned hits `0`, Vol7 reserved hits `0`, required hits `그림자 속으로; 문턱; 밖이 아니; 평범한 아침; 침실; 감옥 첫 칸; 발타자르; 감각을 먼저 믿어라; 시간의 탑; 정확한 수감 절차; 문턱 바깥의 길은 끝났지만`, BOM `false`, EOF extra blank `false`, hash `09096E6DAEABA048863DF5B2CF302B43FC3D6B28EBAD6E2815D1D87A6867200B`.
+- Result:
+  - Style-harness verified range advances to `Vol.1 Chapters 1~25; Vol.2 Chapters 1~25; Vol.3 Chapters 1~25; Vol.4 Chapters 1~25; Vol.5 Chapters 1~25; Vol.6 Chapters 1~25`.
+  - Aggregate style-harness verified range remains `Vol.1 Chapters 1~25; Vol.2 Chapters 1~25; Vol.3 Chapters 1~25; Vol.4 Chapters 1~25; Vol.5 Chapters 1~25; Vol.6 Chapters 1~20`.
+  - Next target is aggregate `Vol.6 Chapters 21~25`.
+
 - Mode: `rttp style-harness recast Vol.6 Chapter 24`
 - Scope: single-chapter lock pass for `Drafts/Vol_6/Vol_6_Chapter_24.md`, with `Drafts/Vol_6/Vol_6_Chapter_23.md` as prior edge and `Drafts/Vol_6/Vol_6_Chapter_25.md` as right edge.
 - Current work: `Vol.6 Chapter 24` style-harness lock complete.
