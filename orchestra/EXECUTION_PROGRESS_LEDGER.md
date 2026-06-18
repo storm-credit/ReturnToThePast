@@ -14,6 +14,30 @@
 
 ## 2026-06-18 KST
 
+- Mode: `rttp style-harness recast Vol.6 Chapter 16`
+- Scope: single-chapter lock pass for `Drafts/Vol_6/Vol_6_Chapter_16.md`, with `Drafts/Vol_6/Vol_6_Chapter_15.md` as prior edge and `Drafts/Vol_6/Vol_6_Chapter_17.md` as right edge.
+- Current work: `Vol.6 Chapter 16` style-harness lock complete.
+- Next work: `Vol.6 Chapter 17`; do not resume the older Vol.6/overall-147 re-deep-lock queue. Aggregate `Vol.6 Chapters 16~20` is due only after Chapter 20 passes.
+- Execution mode: heartbeat-triggered orchestra-conductor single-chapter lock pass; conductor read-only specialist lenses plus final integration.
+- MCP: none; no multi-agent worker was spawned because this heartbeat pass did not require explicit delegation.
+- Skills: `rttp-lock-cycle`.
+- Automations: `rttp-style-harness-completion-loop`.
+- Edits:
+  - `Drafts/Vol_6/Vol_6_Chapter_16.md`
+  - `orchestra/VOL6_CHAPTER_16_STYLE_HARNESS_CHECKPOINT_2026-06-18.md`
+  - `orchestra/SESSION_STATE.md`
+  - `orchestra/NEXT_DIALOGUE_HANDOFF.md`
+  - `orchestra/EXECUTION_PROGRESS_LEDGER.md`
+- Manuscript note: `Drafts/Vol_6/Vol_6_Chapter_16.md` was already dirty on entry and was treated as the live target. This pass added the clean title `혼자의 밤` and one narrow body-floor/cost block after the no-gratitude rescue scene. Ch17 was read as the right edge only and left outside this pass.
+- Specialist FAIL ledger: title/format and length were hard blockers on entry; the lone-night combat chain otherwise held. Hook/first-screen, Ch15 outer-road continuity, poor-district reconnaissance, no-gratitude rescues, `야간 교전 다수`, `개입자 확인 불가`, first unofficial `유령`, time-scent, motif integrity, Ch17 boundary, and ending click held after repair.
+- Final verification: full post-repair reread plus five no-edit cycles all PASS at `body_nospace=4,840`, `total_no_space=4,844`, duplicate exact 5-line windows `0`, backticks `0`, Latin hits `0`, title `혼자의 밤`, banned/meta hits `0`, required hits `야간 교전 다수=1; 개입자 확인 불가=1; 유령=1`, Ch17 `유령의 전쟁` intrusion `0`, BOM `false`, EOF extra blank `false`, hash `705EF197F27F999C88785060298C97BC5C56BBD14C3EAB97842CFFCCCAEBB724`.
+- Result:
+  - Style-harness verified range advances to `Vol.1 Chapters 1~25; Vol.2 Chapters 1~25; Vol.3 Chapters 1~25; Vol.4 Chapters 1~25; Vol.5 Chapters 1~25; Vol.6 Chapters 1~16`.
+  - Aggregate style-harness verified range remains `Vol.1 Chapters 1~25; Vol.2 Chapters 1~25; Vol.3 Chapters 1~25; Vol.4 Chapters 1~25; Vol.5 Chapters 1~25; Vol.6 Chapters 1~15`.
+  - Next target is `Vol.6 Chapter 17`.
+
+## 2026-06-18 KST
+
 - Mode: `rttp style-harness recast Vol.6 Chapters 11~15 aggregate`
 - Scope: aggregate lock pass for `Drafts/Vol_6/Vol_6_Chapter_11.md` through `Drafts/Vol_6/Vol_6_Chapter_15.md`, with `Drafts/Vol_6/Vol_6_Chapter_10.md` as prior edge and `Drafts/Vol_6/Vol_6_Chapter_16.md` as right edge.
 - Current work: aggregate `Vol.6 Chapters 11~15` style-harness lock complete.
