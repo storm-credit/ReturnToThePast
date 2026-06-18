@@ -14,6 +14,30 @@
 
 ## 2026-06-18 KST
 
+- Mode: `rttp style-harness recast Vol.6 Chapter 21`
+- Scope: single-chapter lock pass for `Drafts/Vol_6/Vol_6_Chapter_21.md`, with `Drafts/Vol_6/Vol_6_Chapter_20.md` as prior edge and `Drafts/Vol_6/Vol_6_Chapter_22.md` as right edge.
+- Current work: `Vol.6 Chapter 21` style-harness lock complete.
+- Next work: `Vol.6 Chapter 22`; do not resume the older Vol.6/overall-147 re-deep-lock queue.
+- Execution mode: heartbeat-triggered orchestra-conductor single-chapter lock pass; conductor read-only specialist lenses plus final integration.
+- MCP: none; no multi-agent worker was spawned because this heartbeat pass did not require explicit delegation.
+- Skills: `rttp-lock-cycle`.
+- Automations: `rttp-style-harness-completion-loop`.
+- Edits:
+  - `Drafts/Vol_6/Vol_6_Chapter_21.md`
+  - `orchestra/VOL6_CHAPTER_21_STYLE_HARNESS_CHECKPOINT_2026-06-18.md`
+  - `orchestra/SESSION_STATE.md`
+  - `orchestra/NEXT_DIALOGUE_HANDOFF.md`
+  - `orchestra/EXECUTION_PROGRESS_LEDGER.md`
+- Manuscript note: `Drafts/Vol_6/Vol_6_Chapter_21.md` was already dirty on entry and was treated as the live target. This pass added clean title `그림자 사냥` and replaced non-required modern surface terms (`패턴`, `함수`, `반응 곡선`, `임계점`, `자료`, `전술조`) with older-register equivalents. Ch22 was read as right edge only and left outside this pass.
+- Specialist FAIL ledger: title/format and surface were the blockers on entry. Hook/first-screen, Ch20 enemy-trap/capture-reading handoff, repeated shadow-hunt pressure, fixation/measurement cost, time-scent, motif integrity, Ch22 boundary, and ending click held after repair.
+- Final verification: full post-repair reread plus five no-edit cycles all PASS at `body_nospace=5,494`, `total_no_space=5,499`, duplicate exact 5-line windows `0`, backticks `0`, Latin hits `0`, title `그림자 사냥`, banned/surface hits `0`, required hits `그림자 사냥=2; 함정은 한 번으로 끝나지 않았다=1; 폐수정장=3; 고정낫=1; 사냥=33; 고정됐다=1; 고정용=1; 하얀 가루=4; 밤 안에서만 버티면 진다=1; 탑 모양=1`, Ch22+ reserved hits `0`, BOM `false`, EOF extra blank `false`, hash `A0FDDFE7B6A7413E9BC5D42A946A76E8A021CEC5B230B814394B723FACFC33B4`.
+- Result:
+  - Style-harness verified range advances to `Vol.1 Chapters 1~25; Vol.2 Chapters 1~25; Vol.3 Chapters 1~25; Vol.4 Chapters 1~25; Vol.5 Chapters 1~25; Vol.6 Chapters 1~21`.
+  - Aggregate style-harness verified range remains `Vol.1 Chapters 1~25; Vol.2 Chapters 1~25; Vol.3 Chapters 1~25; Vol.4 Chapters 1~25; Vol.5 Chapters 1~25; Vol.6 Chapters 1~20`.
+  - Next target is `Vol.6 Chapter 22`.
+
+## 2026-06-18 KST
+
 - Mode: `rttp style-harness recast Vol.6 Chapters 16~20 aggregate`
 - Scope: aggregate lock pass for `Drafts/Vol_6/Vol_6_Chapter_16.md` through `Drafts/Vol_6/Vol_6_Chapter_20.md`, with `Drafts/Vol_6/Vol_6_Chapter_15.md` as prior edge and `Drafts/Vol_6/Vol_6_Chapter_21.md` as right edge.
 - Current work: aggregate `Vol.6 Chapters 16~20` style-harness lock complete.
