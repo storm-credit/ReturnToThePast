@@ -14,6 +14,30 @@
 
 ## 2026-06-18 KST
 
+- Mode: `rttp style-harness recast Vol.6 Chapter 17`
+- Scope: single-chapter lock pass for `Drafts/Vol_6/Vol_6_Chapter_17.md`, with `Drafts/Vol_6/Vol_6_Chapter_16.md` as prior edge and `Drafts/Vol_6/Vol_6_Chapter_18.md` as right edge.
+- Current work: `Vol.6 Chapter 17` style-harness lock complete.
+- Next work: `Vol.6 Chapter 18`; do not resume the older Vol.6/overall-147 re-deep-lock queue. Aggregate `Vol.6 Chapters 16~20` is due only after Chapter 20 passes.
+- Execution mode: heartbeat-triggered orchestra-conductor single-chapter lock pass; conductor read-only specialist lenses plus final integration.
+- MCP: none; no multi-agent worker was spawned because this heartbeat pass did not require explicit delegation.
+- Skills: `rttp-lock-cycle`.
+- Automations: `rttp-style-harness-completion-loop`.
+- Edits:
+  - `Drafts/Vol_6/Vol_6_Chapter_17.md`
+  - `orchestra/VOL6_CHAPTER_17_STYLE_HARNESS_CHECKPOINT_2026-06-18.md`
+  - `orchestra/SESSION_STATE.md`
+  - `orchestra/NEXT_DIALOGUE_HANDOFF.md`
+  - `orchestra/EXECUTION_PROGRESS_LEDGER.md`
+- Manuscript note: `Drafts/Vol_6/Vol_6_Chapter_17.md` was already dirty on entry and was treated as the live target. This pass added the clean title `유령의 전쟁`, removed the Ch18-intrusive `이름 없는 검` ending block, replaced it with Ch17-internal report/war pressure, and removed one residual `이미` during post-repair reread. Ch18 was read as the right edge only and left outside this pass.
+- Specialist FAIL ledger: title/format, length, and Ch18 payload intrusion were hard blockers on entry; the repeated-night report ladder otherwise held. Hook/first-screen, Ch16 dawn report continuity, Ria/Barkan record pressure, enemy reaction/adaptation, `유령의 전쟁`, time-scent, motif integrity, Ch18 boundary, and ending click held after repair.
+- Final verification: full post-repair reread plus five no-edit cycles all PASS at `body_nospace=5,147`, `total_no_space=5,152`, duplicate exact 5-line windows `0`, backticks `0`, Latin hits `0`, title `유령의 전쟁`, banned/meta hits `0`, required hits `유령의 전쟁=3; 기록 밖 전투 지속=1; 야간 전장 비가시 개입 지속=1; 유령=8`, Ch18 `이름 없는 검` intrusion `0`, BOM `false`, EOF extra blank `false`, hash `E9475F19511F4BB18F61786E65BA39C2D71F26C5E2FB52C272D9CBDCF1DE0AF7`.
+- Result:
+  - Style-harness verified range advances to `Vol.1 Chapters 1~25; Vol.2 Chapters 1~25; Vol.3 Chapters 1~25; Vol.4 Chapters 1~25; Vol.5 Chapters 1~25; Vol.6 Chapters 1~17`.
+  - Aggregate style-harness verified range remains `Vol.1 Chapters 1~25; Vol.2 Chapters 1~25; Vol.3 Chapters 1~25; Vol.4 Chapters 1~25; Vol.5 Chapters 1~25; Vol.6 Chapters 1~15`.
+  - Next target is `Vol.6 Chapter 18`.
+
+## 2026-06-18 KST
+
 - Mode: `rttp style-harness recast Vol.6 Chapter 16`
 - Scope: single-chapter lock pass for `Drafts/Vol_6/Vol_6_Chapter_16.md`, with `Drafts/Vol_6/Vol_6_Chapter_15.md` as prior edge and `Drafts/Vol_6/Vol_6_Chapter_17.md` as right edge.
 - Current work: `Vol.6 Chapter 16` style-harness lock complete.
