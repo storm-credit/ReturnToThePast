@@ -5,13 +5,13 @@
 - Automation: `rttp-style-harness-completion-loop`
 - Queue type: `style-harness recast`, separate from the prior Vol.6/overall-147 re-deep-lock queue.
 - Start target: `Vol.1 Chapter 1`
-- Current single-chapter target: `Vol.6 Chapter 15`
-- Current style-harness verified range: `Vol.1 Chapters 1~25; Vol.2 Chapters 1~25; Vol.3 Chapters 1~25; Vol.4 Chapters 1~25; Vol.5 Chapters 1~25; Vol.6 Chapters 1~14`
+- Current single-chapter target: `Vol.6 Chapters 11~15 aggregate`
+- Current style-harness verified range: `Vol.1 Chapters 1~25; Vol.2 Chapters 1~25; Vol.3 Chapters 1~25; Vol.4 Chapters 1~25; Vol.5 Chapters 1~25; Vol.6 Chapters 1~15`
 - Current aggregate style-harness verified range: `Vol.1 Chapters 1~25; Vol.2 Chapters 1~25; Vol.3 Chapters 1~25; Vol.4 Chapters 1~25; Vol.5 Chapters 1~25; Vol.6 Chapters 1~10`
-- Active incomplete style-harness range: `Vol.6 Chapter 15`
-- Latest style checkpoint: `orchestra/VOL6_CHAPTER_14_STYLE_HARNESS_CHECKPOINT_2026-06-18.md`
+- Active incomplete style-harness range: `Vol.6 Chapters 11~15 aggregate`
+- Latest style checkpoint: `orchestra/VOL6_CHAPTER_15_STYLE_HARNESS_CHECKPOINT_2026-06-18.md`
 - Latest aggregate style checkpoint: `orchestra/VOL6_CHAPTER_6_10_STYLE_HARNESS_AGGREGATE_CHECKPOINT_2026-06-14.md`
-- Important status note: Vol.1 Chapters 1~25, Vol.2 Chapters 1~25, Vol.3 Chapters 1~25, Vol.4 Chapters 1~25, Vol.5 Chapters 1~25, and Vol.6 Chapters 1~14 are style-locked complete under the new sample-derived style harness after full read, FAIL ledger, narrow repair/full reread where needed, and final no-edit 5-cycle verification. Aggregate verification is contiguous through `Vol.6 Chapters 1~10`; the next one-unit run is `Vol.6 Chapter 15` in the style-harness recast queue, not aggregate `Vol.6 Chapters 11~15` yet and not the older Vol.6/overall-147 re-deep-lock queue. After `Vol.6 Chapter 15` passes, run aggregate `Vol.6 Chapters 11~15` before advancing to `Vol.6 Chapter 16`.
+- Important status note: Vol.1 Chapters 1~25, Vol.2 Chapters 1~25, Vol.3 Chapters 1~25, Vol.4 Chapters 1~25, Vol.5 Chapters 1~25, and Vol.6 Chapters 1~15 are style-locked complete under the new sample-derived style harness after full read, FAIL ledger, narrow repair/full reread where needed, and final no-edit 5-cycle verification. Aggregate verification is contiguous through `Vol.6 Chapters 1~10`; the next one-unit run is aggregate `Vol.6 Chapters 11~15` in the style-harness recast queue, not `Vol.6 Chapter 16` and not the older Vol.6/overall-147 re-deep-lock queue. Do not advance to `Vol.6 Chapter 16` until aggregate `Vol.6 Chapters 11~15` passes.
 - Length policy: from `Vol.1 Chapter 22` onward, enforce no-space floor `4,800` and target around `5,000`; do not retroactively revise Chapters 1~21 for length unless explicitly requested.
 - Style harness now requires: `칼날형 입구`, `단계식 오차 확인`, `관계 압력 우선`, `저강도 역전`, `주변 반응 증명`, `분노/폭력 억제`, and `회귀/게임 루트가 아닌 시간여행/인과부채 감각`.
 - Old queue preservation: prior reopened queue remains recorded through overall `146`; do not continue old `147 (Vol.6 Chapter 22)` from this new automation unless explicitly instructed.
@@ -111,6 +111,15 @@
 - Latest changed files added by Vol.6 Chapter 12 pass: `Drafts/Vol_6/Vol_6_Chapter_12.md`, `orchestra/VOL6_CHAPTER_12_STYLE_HARNESS_CHECKPOINT_2026-06-18.md`, `orchestra/SESSION_STATE.md`, `orchestra/NEXT_DIALOGUE_HANDOFF.md`, `orchestra/EXECUTION_PROGRESS_LEDGER.md`.
 - Latest changed files added by Vol.6 Chapter 13 pass: `Drafts/Vol_6/Vol_6_Chapter_13.md`, `orchestra/VOL6_CHAPTER_13_STYLE_HARNESS_CHECKPOINT_2026-06-18.md`, `orchestra/SESSION_STATE.md`, `orchestra/NEXT_DIALOGUE_HANDOFF.md`, `orchestra/EXECUTION_PROGRESS_LEDGER.md`.
 - Latest changed files added by Vol.6 Chapter 14 pass: `Drafts/Vol_6/Vol_6_Chapter_14.md`, `orchestra/VOL6_CHAPTER_14_STYLE_HARNESS_CHECKPOINT_2026-06-18.md`, `orchestra/SESSION_STATE.md`, `orchestra/NEXT_DIALOGUE_HANDOFF.md`, `orchestra/EXECUTION_PROGRESS_LEDGER.md`.
+- Latest changed files added by Vol.6 Chapter 15 pass: `Drafts/Vol_6/Vol_6_Chapter_15.md`, `orchestra/VOL6_CHAPTER_15_STYLE_HARNESS_CHECKPOINT_2026-06-18.md`, `orchestra/SESSION_STATE.md`, `orchestra/NEXT_DIALOGUE_HANDOFF.md`, `orchestra/EXECUTION_PROGRESS_LEDGER.md`.
+
+## 2026-06-18 KST RTTP Style-Harness Decisions - Vol.6 Chapter 15
+- Work summary: `Vol.6 Chapter 15` was style-locked with Vol.6 Ch14 as prior edge and Vol.6 Ch16 as right edge.
+- Verified style range advances through `Vol.6 Chapters 1~15`; aggregate verification remains contiguous through `Vol.6 Chapters 1~10`.
+- FAIL ledger: title/format and length blockers. The live target was already dirty on entry, opened without the clean title `변절자`, and initially held `body_nospace=4,562`, below the active `4,800` floor. The body already held command-tent formalization, `변절 혐의 개입자`, public `변절 혐의자 수배`, rumor spread, Iris/Ria discomfort, and Aiden's exit while preserving Ch16's lone-night combat and `유령` payload.
+- Narrow repair: added the clean title `변절자` and one narrow Ch15-internal report/posting support block clarifying why `혐의` vanishes behind public `변절`. No prior edge, right edge, plot event, character position, Ch16 combat, Ch16 `개입자 확인 불가`, or Ch16 `유령` payload was rewritten.
+- Final gate: full post-repair reread plus five no-edit cycles all PASS at `body_nospace=4,828`, `total_no_space=4,831`, duplicate exact 5-line windows `0`, backticks `0`, Latin hits `0`, title fail `false`, banned/meta hits `0`, Ch16 reserved hits `0`, BOM `false`, EOF extra blank `false`, hash `97879BF1BA2F1D34B4E8D70FFC3F0A41D88A25F5834153E5375A11C60127F5EE`.
+- Next one-unit target: aggregate `Vol.6 Chapters 11~15`. Do not advance to `Vol.6 Chapter 16` until the aggregate passes.
 
 ## 2026-06-18 KST RTTP Style-Harness Decisions - Vol.6 Chapter 14
 - Work summary: `Vol.6 Chapter 14` was style-locked with Vol.6 Ch13 as prior edge and Vol.6 Ch15 as right edge; Vol.6 Ch16 was read for next handoff edge only.
