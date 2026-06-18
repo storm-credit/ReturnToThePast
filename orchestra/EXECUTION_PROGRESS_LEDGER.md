@@ -14,6 +14,30 @@
 
 ## 2026-06-18 KST
 
+- Mode: `rttp style-harness recast Vol.6 Chapter 14`
+- Scope: single-chapter lock pass for `Drafts/Vol_6/Vol_6_Chapter_14.md`, with `Drafts/Vol_6/Vol_6_Chapter_13.md` as prior edge and `Drafts/Vol_6/Vol_6_Chapter_15.md` as right edge; `Drafts/Vol_6/Vol_6_Chapter_16.md` was read for next handoff edge only.
+- Current work: `Vol.6 Chapter 14` style-harness lock complete.
+- Next work: `Vol.6 Chapter 15`; do not resume the older Vol.6/overall-147 re-deep-lock queue. Aggregate `Vol.6 Chapters 11~15` is due immediately after Chapter 15 passes and before Chapter 16.
+- Execution mode: heartbeat-triggered orchestra-conductor single-chapter lock pass; conductor read-only specialist lenses plus final integration.
+- MCP: none; no multi-agent worker was spawned because this heartbeat pass did not require explicit delegation.
+- Skills: `rttp-lock-cycle`.
+- Automations: `rttp-style-harness-completion-loop`.
+- Edits:
+  - `Drafts/Vol_6/Vol_6_Chapter_14.md`
+  - `orchestra/VOL6_CHAPTER_14_STYLE_HARNESS_CHECKPOINT_2026-06-18.md`
+  - `orchestra/SESSION_STATE.md`
+  - `orchestra/NEXT_DIALOGUE_HANDOFF.md`
+  - `orchestra/EXECUTION_PROGRESS_LEDGER.md`
+- Manuscript note: `Drafts/Vol_6/Vol_6_Chapter_14.md` was already dirty on entry and was treated as the live target. Repair stayed narrow: added the clean title `아무도 모르는 사내` and one missing-list/object-proof block that makes Aiden's remaining traces fail to prove a person without name, witness, or institutional place.
+- Specialist FAIL ledger: title/format and length were hard blockers on entry; the post-erasure camp verification ladder otherwise held. Hook/first-screen, camp-entry recognition failure, Iris/Ria/Barkan witness chain, missing-list/object evidence, time-scent, motif integrity, edge continuity, and ending click held after repair.
+- Final verification: full post-repair reread plus five no-edit cycles all PASS at `body_nospace=4,847`, `total_no_space=4,855`, duplicate exact 5-line windows `0`, backticks `0`, Latin hits `0`, title fail `false`, banned/meta hits `0`, Ch15 reserved hits `0`, BOM `false`, EOF extra blank `false`, hash `256A9AA1F9197F48D3B5A52BC26D74308A1E7F6AB72F5D1000C0D8D31EE44EDA`.
+- Result:
+  - Style-harness verified range advances to `Vol.1 Chapters 1~25; Vol.2 Chapters 1~25; Vol.3 Chapters 1~25; Vol.4 Chapters 1~25; Vol.5 Chapters 1~25; Vol.6 Chapters 1~14`.
+  - Aggregate style-harness verified range remains `Vol.1 Chapters 1~25; Vol.2 Chapters 1~25; Vol.3 Chapters 1~25; Vol.4 Chapters 1~25; Vol.5 Chapters 1~25; Vol.6 Chapters 1~10`.
+  - Next target is `Vol.6 Chapter 15`.
+
+## 2026-06-18 KST
+
 - Mode: `rttp style-harness recast Vol.6 Chapter 13`
 - Scope: single-chapter lock pass for `Drafts/Vol_6/Vol_6_Chapter_13.md`, with `Drafts/Vol_6/Vol_6_Chapter_12.md` as prior edge and `Drafts/Vol_6/Vol_6_Chapter_14.md` as right edge.
 - Current work: `Vol.6 Chapter 13` style-harness lock complete.
