@@ -14,6 +14,27 @@
 
 ## 2026-06-19 KST
 
+- Mode: `rttp style-harness recast Vol.6 Chapters 21~25 aggregate`
+- Scope: aggregate lock pass for `Drafts/Vol_6/Vol_6_Chapter_21.md` through `Drafts/Vol_6/Vol_6_Chapter_25.md`, with `Drafts/Vol_6/Vol_6_Chapter_20.md` as prior edge and `Drafts/Vol_7/Vol_7_Chapter_1.md` as next-volume right edge.
+- Current work: aggregate `Vol.6 Chapters 21~25` style-harness lock complete.
+- Next work: `Vol.7 Chapter 1`; do not resume the older Vol.6/overall-147 re-deep-lock queue.
+- Execution mode: heartbeat-triggered orchestra-conductor aggregate lock pass; conductor read-only specialist lenses plus final integration.
+- MCP: none; no multi-agent worker was spawned because this heartbeat pass did not require explicit delegation.
+- Skills: `rttp-lock-cycle`.
+- Automations: `rttp-style-harness-completion-loop`.
+- Edits:
+  - `orchestra/VOL6_CHAPTER_21_25_STYLE_HARNESS_AGGREGATE_CHECKPOINT_2026-06-19.md`
+  - `orchestra/SESSION_STATE.md`
+  - `orchestra/NEXT_DIALOGUE_HANDOFF.md`
+  - `orchestra/EXECUTION_PROGRESS_LEDGER.md`
+- Manuscript note: no draft edits were required in the aggregate pass. Ch21 through Ch25 kept the individual-lock text and preserved Vol7 Ch1 as right-edge material only.
+- Specialist FAIL ledger: no new aggregate FAILs. The packet ladder holds as Ch21 shadow-hunt measurement -> Ch22 Baltazar proposal/time-tower prison -> Ch23 Hyoo-young name-call pressure -> Ch24 threshold decision -> Ch25 false ordinary-morning lure and first tower cell. Repeated motifs change function, genre grain stays time-travel/paradox/existence-debt, and Ch25 does not spend Vol7's `빌린 아침` loop.
+- Final verification: full packet read plus five no-edit cycles all PASS at `body_total=28,120`, `total_no_space=28,148`, duplicate nonempty 5-line windows `0`, title failures `0`, backticks `0`, Latin hits `0`, banned/surface hits `0`, Vol7 reserved hits `0`, BOM files `0`, EOF extra blank files `0`, packet hash `2DAD474E7AD4AB93F50091FF5B3EBC54782CE7F2E7A99C01C49902F1A00A4982`.
+- Result:
+  - Style-harness verified range remains `Vol.1 Chapters 1~25; Vol.2 Chapters 1~25; Vol.3 Chapters 1~25; Vol.4 Chapters 1~25; Vol.5 Chapters 1~25; Vol.6 Chapters 1~25`.
+  - Aggregate style-harness verified range advances to `Vol.1 Chapters 1~25; Vol.2 Chapters 1~25; Vol.3 Chapters 1~25; Vol.4 Chapters 1~25; Vol.5 Chapters 1~25; Vol.6 Chapters 1~25`.
+  - Next target is `Vol.7 Chapter 1`.
+
 - Mode: `rttp style-harness recast Vol.6 Chapter 25`
 - Scope: single-chapter lock pass for `Drafts/Vol_6/Vol_6_Chapter_25.md`, with `Drafts/Vol_6/Vol_6_Chapter_24.md` as prior edge and `Drafts/Vol_7/Vol_7_Chapter_1.md` as next-volume right edge.
 - Current work: `Vol.6 Chapter 25` style-harness lock complete.
