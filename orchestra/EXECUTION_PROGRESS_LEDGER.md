@@ -12,6 +12,30 @@
 - 상세 누적 진행도는 `SETTING_PROGRESS_TRACKER.md`, `DRAFTING_PROGRESS_TRACKER.md`를 따른다.
 - 현재 즉시 재개 지점은 `SESSION_STATE.md`를 따른다.
 
+## 2026-06-25 KST
+
+- Mode: `rttp style-harness recast Vol.7 Chapter 4`
+- Scope: single-chapter lock pass for `Drafts/Vol_7/Vol_7_Chapter_4.md`, with `Drafts/Vol_7/Vol_7_Chapter_3.md` as prior edge and `Drafts/Vol_7/Vol_7_Chapter_5.md` as right edge.
+- Current work: `Vol.7 Chapter 4` style-harness lock complete.
+- Next work: `Vol.7 Chapter 5`; do not resume the older Vol.6/overall-147 re-deep-lock queue.
+- Execution mode: heartbeat-triggered orchestra-conductor single-chapter lock pass; conductor read-only specialist lenses plus final integration.
+- MCP: none; no multi-agent worker was spawned because this heartbeat pass did not require explicit delegation.
+- Skills: `rttp-lock-cycle`.
+- Automations: `rttp-style-harness-completion-loop`.
+- Edits:
+  - `Drafts/Vol_7/Vol_7_Chapter_4.md`
+  - `orchestra/VOL7_CHAPTER_4_STYLE_HARNESS_CHECKPOINT_2026-06-25.md`
+  - `orchestra/SESSION_STATE.md`
+  - `orchestra/NEXT_DIALOGUE_HANDOFF.md`
+  - `orchestra/EXECUTION_PROGRESS_LEDGER.md`
+- Specialist FAIL ledger: initial length/format/meta-surface FAIL was repaired: title normalized from `154화 탈출 시도 #1`, 18 backticks removed, body expanded from `4,011` to `4,999` no-space characters, the meta `타임트래블` surface was replaced, and the first boundary-attempt mechanics were strengthened without importing Ch5 repeated-attempt material.
+- Verification note: the first final gate attempt caught one Ch5-reserved scent, `열다섯`, in a walking-distance phrase. It was replaced with `스무`, the full chapter was reread, and the five-cycle gate was restarted from zero.
+- Final verification: full target reread plus five no-edit cycles all PASS at `body_nospace=4,999`, `total_no_space=5,005`, duplicate nonempty 5-line windows `0`, numeric episode title failures `0`, backticks `0`, Latin hits `0`, banned/surface hits `0`, Ch5-reserved hits `0`, required misses `0`, BOM `0`, EOF extra blank `0`, hash `4A05DAC989E29F4E7A8BDEB16695C687C8CA37B84106FFB85EA236BE3965A431`.
+- Result:
+  - Style-harness verified range advances through `Vol.7 Chapter 4`.
+  - Aggregate style-harness verified range remains `Vol.1 Chapters 1~25; Vol.2 Chapters 1~25; Vol.3 Chapters 1~25; Vol.4 Chapters 1~25; Vol.5 Chapters 1~25; Vol.6 Chapters 1~25`.
+  - Next target is `Vol.7 Chapter 5`.
+
 ## 2026-06-20 KST
 
 - Mode: `rttp style-harness recast Vol.7 Chapter 3`
