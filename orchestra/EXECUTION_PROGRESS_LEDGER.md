@@ -14,6 +14,28 @@
 
 ## 2026-06-25 KST
 
+- Mode: `rttp style-harness recast Vol.7 Chapter 5`
+- Scope: single-chapter lock pass for `Drafts/Vol_7/Vol_7_Chapter_5.md`, with `Drafts/Vol_7/Vol_7_Chapter_4.md` as prior edge and `Drafts/Vol_7/Vol_7_Chapter_6.md` as right edge.
+- Current work: `Vol.7 Chapter 5` style-harness lock complete.
+- Next work: aggregate `Vol.7 Chapters 1~5`; do not advance to `Vol.7 Chapter 6` and do not resume the older Vol.6/overall-147 re-deep-lock queue.
+- Execution mode: heartbeat-triggered orchestra-conductor single-chapter lock pass; conductor read-only specialist lenses plus final integration.
+- MCP: none; no multi-agent worker was spawned because this heartbeat pass did not require explicit delegation.
+- Skills: `rttp-lock-cycle`.
+- Automations: `rttp-style-harness-completion-loop`.
+- Edits:
+  - `Drafts/Vol_7/Vol_7_Chapter_5.md`
+  - `orchestra/VOL7_CHAPTER_5_STYLE_HARNESS_CHECKPOINT_2026-06-25.md`
+  - `orchestra/SESSION_STATE.md`
+  - `orchestra/NEXT_DIALOGUE_HANDOFF.md`
+  - `orchestra/EXECUTION_PROGRESS_LEDGER.md`
+- Specialist FAIL ledger: initial length/format/attempt-ladder FAIL was repaired: title normalized from `155화 탈출 시도 #14`, 16 backticks removed, body expanded from `3,991` to `4,800` no-space characters, and the repeated-attempt packet was strengthened with sixth/seventh/eighth-morning tests plus an ending failure-list pressure paragraph. Ch6's Baltazar-message/regulation-clue payload, later 89th/324th morning material, and death-loop escalation remain reserved.
+- Verification note: after the context transition, the final no-edit gate was rerun against the live file. One inline-script required phrase was corrected from `열다섯째 아침` to the chapter's actual `열다섯 번째 아침`; no manuscript edit was made for that verifier wording correction.
+- Final verification: full target reread plus five no-edit cycles all PASS at `body_nospace=4,800`, `total_no_space=4,807`, duplicate nonempty 5-line windows `0`, numeric episode title failures `0`, backticks `0`, Latin hits `0`, banned/surface hits `0`, Ch6-message reserved hits `0`, later Vol.7 reserved hits `0`, required misses `0`, BOM `0`, EOF extra blank `0`, hash `4F199C123952588EC09072F538BA3DC36C6017D3299F8D37019FB29B99BF05F4`.
+- Result:
+  - Style-harness verified range advances through `Vol.7 Chapter 5`.
+  - Aggregate style-harness verified range remains `Vol.1 Chapters 1~25; Vol.2 Chapters 1~25; Vol.3 Chapters 1~25; Vol.4 Chapters 1~25; Vol.5 Chapters 1~25; Vol.6 Chapters 1~25`.
+  - Next target is aggregate `Vol.7 Chapters 1~5`.
+
 - Mode: `rttp style-harness recast Vol.7 Chapter 4`
 - Scope: single-chapter lock pass for `Drafts/Vol_7/Vol_7_Chapter_4.md`, with `Drafts/Vol_7/Vol_7_Chapter_3.md` as prior edge and `Drafts/Vol_7/Vol_7_Chapter_5.md` as right edge.
 - Current work: `Vol.7 Chapter 4` style-harness lock complete.
