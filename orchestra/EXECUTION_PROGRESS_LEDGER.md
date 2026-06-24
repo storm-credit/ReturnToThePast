@@ -14,6 +14,28 @@
 
 ## 2026-06-25 KST
 
+- Mode: `rttp style-harness recast Vol.7 Chapter 6`
+- Scope: single-chapter lock pass for `Drafts/Vol_7/Vol_7_Chapter_6.md`, with `Drafts/Vol_7/Vol_7_Chapter_5.md` as prior edge and `Drafts/Vol_7/Vol_7_Chapter_7.md` as right edge.
+- Current work: `Vol.7 Chapter 6` style-harness lock complete.
+- Next work: `Vol.7 Chapter 7`; aggregate style-harness verification remains contiguous through `Vol.7 Chapters 1~5`.
+- Execution mode: heartbeat-triggered orchestra-conductor single-chapter lock pass; conductor read-only specialist lenses plus final integration.
+- MCP: none; no multi-agent worker was spawned because this heartbeat pass did not require explicit delegation.
+- Skills: `rttp-lock-cycle`.
+- Automations: `rttp-style-harness-completion-loop`.
+- Edits:
+  - `Drafts/Vol_7/Vol_7_Chapter_6.md`
+  - `orchestra/VOL7_CHAPTER_6_STYLE_HARNESS_CHECKPOINT_2026-06-25.md`
+  - `orchestra/SESSION_STATE.md`
+  - `orchestra/NEXT_DIALOGUE_HANDOFF.md`
+  - `orchestra/EXECUTION_PROGRESS_LEDGER.md`
+- Specialist FAIL ledger: numeric title, under-floor length, backtick/manual clue surface, one Latin clue mark, missing exact `규칙을 찾아라`, insufficient Baltazar dry-method pressure, and Ch7-reserved rule-application phrasing.
+- Manuscript note: revised narrowly to remove numeric title/backtick/Latin surfaces, add the exact Baltazar clue `규칙을 찾아라`, ground the marks in tower-erasure mechanics, preserve Ch7 rule application as future payload, and restore the chapter to the 4,800 no-space floor.
+- Final verification: full reread after repair plus five no-edit cycles all PASS at `body_nospace=4,800`, `total_no_space=4,808`, duplicate nonempty 5-line windows `0`, numeric title `false`, backticks `0`, Latin hits `0`, non-Korean stray-script hits `0`, banned/surface hits `0`, Ch7 reserved hits `0`, later Vol.7 reserved hits `0`, required misses `0`, hash `97FD81E95BBF8BA3AB309F42A54588F9D9C1BA94D60A3BD4446E33209B1B5FC9`.
+- Result:
+  - Style-harness verified range advances through `Vol.7 Chapters 1~6`.
+  - Aggregate style-harness verified range remains through `Vol.7 Chapters 1~5`.
+  - Next target is `Vol.7 Chapter 7`.
+
 - Mode: `rttp style-harness recast Vol.7 Chapters 1~5 aggregate`
 - Scope: aggregate lock pass for `Drafts/Vol_7/Vol_7_Chapter_1.md` through `Drafts/Vol_7/Vol_7_Chapter_5.md`, with `Drafts/Vol_6/Vol_6_Chapter_25.md` as prior edge and `Drafts/Vol_7/Vol_7_Chapter_6.md` as right edge.
 - Current work: aggregate `Vol.7 Chapters 1~5` style-harness lock complete.
