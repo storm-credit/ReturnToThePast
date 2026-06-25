@@ -14,6 +14,28 @@
 
 ## 2026-06-26 KST
 
+- Mode: `rttp style-harness recast Vol.7 Chapter 25`
+- Scope: single-chapter lock pass for `Drafts/Vol_7/Vol_7_Chapter_25.md`, with `Drafts/Vol_7/Vol_7_Chapter_24.md` as prior edge and `Drafts/Vol_8/Vol_8_Chapter_1.md` as next-volume right edge.
+- Current work: `Vol.7 Chapter 25` style-harness lock complete.
+- Next work: `Vol.7 Chapters 6~10 aggregate`; aggregate style-harness verification remains contiguous through `Vol.7 Chapters 1~5`.
+- Execution mode: heartbeat-triggered orchestra-conductor single-chapter lock pass; conductor read-only specialist lenses plus final integration.
+- MCP: none; no multi-agent worker was spawned because this heartbeat pass did not require explicit delegation.
+- Skills: `rttp-lock-cycle`.
+- Automations: `rttp-style-harness-completion-loop`.
+- Edits:
+  - `Drafts/Vol_7/Vol_7_Chapter_25.md`
+  - `orchestra/VOL7_CHAPTER_25_STYLE_HARNESS_CHECKPOINT_2026-06-26.md`
+  - `orchestra/SESSION_STATE.md`
+  - `orchestra/NEXT_DIALOGUE_HANDOFF.md`
+  - `orchestra/EXECUTION_PROGRESS_LEDGER.md`
+- Specialist FAIL ledger: numeric episode prefix, under-floor length at `3,991` body no-space, 12 backticks/manual note surfaces, soft route-memory residue (`이미=3`, `이번엔=3`, `이번=4`, `루프=2`), missing `준비는 행사다`, missing exact final movement sentence, absent `바깥으로 가져갈 수 없더라도` Ch24 carry, and over-fragmented ending.
+- Manuscript note: revised narrowly to remove the episode prefix/backticks/soft time-scent, add only Ch25-local preparation/body-proof and threshold passage material, restore the Ch24 carry line, add `준비는 행사다`, and rebuild the ending as a clean final movement while reserving Vol.8 Ch1's `1848번째 아침` opening lane.
+- Final verification: full reread after repair plus five no-edit cycles all PASS at `body_nospace=4,811`, `total_no_space=4,818`, line records `415`, duplicate nonempty 5-line windows `0`, episode numeric prefix `false`, backticks `0`, Latin hits `0`, Devanagari/Bengali stray-script hits `0`, banned/surface hits `0`, soft time-scent hits `0`, required misses `0`, Ch24 carry misses `0`, Vol.8 reserved hits `0`, hash `9079A0B2597B3D197E3744DC8D7F5177E076CF80DBC72A4E8DC136371C911235`.
+- Result:
+  - Style-harness verified range advances through `Vol.7 Chapters 1~25`.
+  - Aggregate style-harness verified range remains through `Vol.7 Chapters 1~5`.
+  - Next target is `Vol.7 Chapters 6~10 aggregate`.
+
 - Mode: `rttp style-harness recast Vol.7 Chapter 24`
 - Scope: single-chapter lock pass for `Drafts/Vol_7/Vol_7_Chapter_24.md`, with `Drafts/Vol_7/Vol_7_Chapter_23.md` as prior edge and `Drafts/Vol_7/Vol_7_Chapter_25.md` as right edge; `Drafts/Vol_8/Vol_8_Chapter_1.md` was read after lock for the next handoff.
 - Current work: `Vol.7 Chapter 24` style-harness lock complete.
