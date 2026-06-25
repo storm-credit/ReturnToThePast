@@ -12,6 +12,30 @@
 - 상세 누적 진행도는 `SETTING_PROGRESS_TRACKER.md`, `DRAFTING_PROGRESS_TRACKER.md`를 따른다.
 - 현재 즉시 재개 지점은 `SESSION_STATE.md`를 따른다.
 
+## 2026-06-26 KST
+
+- Mode: `rttp style-harness recast Vol.7 Chapter 17`
+- Scope: single-chapter lock pass for `Drafts/Vol_7/Vol_7_Chapter_17.md`, with `Drafts/Vol_7/Vol_7_Chapter_16.md` as prior edge and `Drafts/Vol_7/Vol_7_Chapter_18.md` as right edge.
+- Current work: `Vol.7 Chapter 17` style-harness lock complete.
+- Next work: `Vol.7 Chapter 18`; aggregate style-harness verification remains contiguous through `Vol.7 Chapters 1~5`.
+- Execution mode: heartbeat-triggered orchestra-conductor single-chapter lock pass; conductor read-only specialist lenses plus final integration.
+- MCP: none; no multi-agent worker was spawned because this heartbeat pass did not require explicit delegation.
+- Skills: `rttp-lock-cycle`.
+- Automations: `rttp-style-harness-completion-loop`.
+- Edits:
+  - `Drafts/Vol_7/Vol_7_Chapter_17.md`
+  - `orchestra/VOL7_CHAPTER_17_STYLE_HARNESS_CHECKPOINT_2026-06-26.md`
+  - `orchestra/SESSION_STATE.md`
+  - `orchestra/NEXT_DIALOGUE_HANDOFF.md`
+  - `orchestra/EXECUTION_PROGRESS_LEDGER.md`
+- Specialist FAIL ledger: numeric title, under-floor length, 2 backticks/manual note surface, soft route-memory residue (`이번엔`/`이미`), Ch18 laughter-surface bleed (`웃음`/`웃고`/`입가`), and under-proved Ch17 condition-setting/surface-mark body proof.
+- Manuscript note: revised narrowly to remove numeric title/backticks/soft time-scent and Ch18 laughter-surface bleed, expand only the Ch17 `역조건` lane with Aiden weaponizing his blank interval, slow approach discipline, record-keeper/surface-mark hand proof, internal split among the three 빈눈회 faces, condition-calibration logic, and official-record/procedure aftershock for `둘째 칸 공백`; preserved Ch16's second-bell refusal proof, Ch18's empty-slot/laughter response lane, Ch19's `대가` revelation lane, and later 1847/1848 endgame material.
+- Final verification: full reread after every repair plus five no-edit cycles all PASS at `body_nospace=5,387`, `total_no_space=5,390`, duplicate nonempty 5-line windows `0`, numeric title `false`, backticks `0`, Latin hits `0`, Bengali stray-script hits `0`, banned/surface hits `0`, soft time-scent hits `0`, Ch18 bleed hits `0`, later Vol.7 reserved hits `0`, required misses `0`, hash `6B6E3D167A3682997842435B8F59DBD351BB566D98D2A15C57E080E50A08E78D`.
+- Result:
+  - Style-harness verified range advances through `Vol.7 Chapters 1~17`.
+  - Aggregate style-harness verified range remains through `Vol.7 Chapters 1~5`.
+  - Next target is `Vol.7 Chapter 18`.
+
 ## 2026-06-25 KST
 
 - Mode: `rttp style-harness recast Vol.7 Chapter 16`
