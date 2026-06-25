@@ -14,6 +14,28 @@
 
 ## 2026-06-25 KST
 
+- Mode: `rttp style-harness recast Vol.7 Chapter 13`
+- Scope: single-chapter lock pass for `Drafts/Vol_7/Vol_7_Chapter_13.md`, with `Drafts/Vol_7/Vol_7_Chapter_12.md` as prior edge and `Drafts/Vol_7/Vol_7_Chapter_14.md` as right edge.
+- Current work: `Vol.7 Chapter 13` style-harness lock complete.
+- Next work: `Vol.7 Chapter 14`; aggregate style-harness verification remains contiguous through `Vol.7 Chapters 1~5`.
+- Execution mode: heartbeat-triggered orchestra-conductor single-chapter lock pass; conductor read-only specialist lenses plus final integration.
+- MCP: none; no multi-agent worker was spawned because this heartbeat pass did not require explicit delegation.
+- Skills: `rttp-lock-cycle`.
+- Automations: `rttp-style-harness-completion-loop`.
+- Edits:
+  - `Drafts/Vol_7/Vol_7_Chapter_13.md`
+  - `orchestra/VOL7_CHAPTER_13_STYLE_HARNESS_CHECKPOINT_2026-06-25.md`
+  - `orchestra/SESSION_STATE.md`
+  - `orchestra/NEXT_DIALOGUE_HANDOFF.md`
+  - `orchestra/EXECUTION_PROGRESS_LEDGER.md`
+- Specialist FAIL ledger: numeric title, under-floor length, 24 backticks/manual note surface, banned `루프` wording, soft route-memory residue (`이번엔`/`이미`), compressed bakery/호명 contact, under-proved first/second naming rule, and insufficient proof that the ending blank slot had already been measured for Aiden rather than merely found.
+- Manuscript note: revised narrowly to remove numeric title/backticks/genre-scent surfaces, expand only the Ch13 bakery/호명 lane with wall-as-measuring-surface pressure, city normalcy cover, bakery woman subject-reading proof, first/second naming rule, `선발` as faceless procedure, habit-level marking, waiting pressure, and final empty-slot proof; preserved Ch14's `응답의 대가` response-price/number-slip follow-through, Ch15's failed-survivor lane, and later 1847/1848 endgame material.
+- Final verification: full reread after every repair plus five no-edit cycles all PASS at `body_nospace=5,417`, `total_no_space=5,419`, duplicate nonempty 5-line windows `0`, numeric title `false`, backticks `0`, Latin hits `0`, banned/surface hits `0`, soft time-scent hits `0`, later Vol.7 reserved hits `0`, required misses `0`, hash `8C04D05D36EEA34856471FDA05693CE55C450FD0DCA68CA1BF751E332D1E6409`.
+- Result:
+  - Style-harness verified range advances through `Vol.7 Chapters 1~13`.
+  - Aggregate style-harness verified range remains through `Vol.7 Chapters 1~5`.
+  - Next target is `Vol.7 Chapter 14`.
+
 - Mode: `rttp style-harness recast Vol.7 Chapter 12`
 - Scope: single-chapter lock pass for `Drafts/Vol_7/Vol_7_Chapter_12.md`, with `Drafts/Vol_7/Vol_7_Chapter_11.md` as prior edge and `Drafts/Vol_7/Vol_7_Chapter_13.md` as right edge.
 - Current work: `Vol.7 Chapter 12` style-harness lock complete.
