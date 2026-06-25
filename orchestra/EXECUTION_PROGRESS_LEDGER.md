@@ -14,6 +14,28 @@
 
 ## 2026-06-26 KST
 
+- Mode: `rttp style-harness recast Vol.7 Chapter 20`
+- Scope: single-chapter lock pass for `Drafts/Vol_7/Vol_7_Chapter_20.md`, with `Drafts/Vol_7/Vol_7_Chapter_19.md` as prior edge and `Drafts/Vol_7/Vol_7_Chapter_21.md` as right edge; `Drafts/Vol_7/Vol_7_Chapter_22.md` was read after lock for the next handoff.
+- Current work: `Vol.7 Chapter 20` style-harness lock complete.
+- Next work: `Vol.7 Chapter 21`; aggregate style-harness verification remains contiguous through `Vol.7 Chapters 1~5`.
+- Execution mode: heartbeat-triggered orchestra-conductor single-chapter lock pass; conductor read-only specialist lenses plus final integration.
+- MCP: none; no multi-agent worker was spawned because this heartbeat pass did not require explicit delegation.
+- Skills: `rttp-lock-cycle`.
+- Automations: `rttp-style-harness-completion-loop`.
+- Edits:
+  - `Drafts/Vol_7/Vol_7_Chapter_20.md`
+  - `orchestra/VOL7_CHAPTER_20_STYLE_HARNESS_CHECKPOINT_2026-06-26.md`
+  - `orchestra/SESSION_STATE.md`
+  - `orchestra/NEXT_DIALOGUE_HANDOFF.md`
+  - `orchestra/EXECUTION_PROGRESS_LEDGER.md`
+- Specialist FAIL ledger: numeric title, under-floor length at `4,063` body no-space, twelve backticks/manual note surfaces, `루프=2` surface hits, soft route-memory residue (`이번엔=3`, `이미=3`, `벌써=1`), one Devanagari stray-script typo, Ch22-adjacent `내일도` surfaces, and an ending-tone warning around `서로 다른 전쟁`.
+- Manuscript note: revised narrowly to remove numeric title/backticks/stray-script/soft time-scent and `루프` surfaces, trim Ch22-adjacent farewell phrasing, expand only the Ch20 explicit-choice lane with ordinary details attaching to Aiden, hand/body proof at the choice line, and wall-list proof; preserved Ch19's sensory-price setup, Ch20's owned list surfaces, and Ch21/Ch22 reserved material.
+- Final verification: full reread after repair plus five no-edit cycles all PASS at `body_nospace=4,911`, `total_no_space=4,913`, line records `533`, duplicate nonempty 5-line windows `0`, numeric title `false`, backticks `0`, Latin hits `0`, Devanagari stray-script hits `0`, Bengali stray-script hits `0`, banned/surface hits `0`, soft time-scent hits `0`, later reserved hits `0`, required misses `0`, hash `547390C00498DC9B487F239D5B54F5F0CAA103E5D20D786A52C2006BB08CACDD`.
+- Result:
+  - Style-harness verified range advances through `Vol.7 Chapters 1~20`.
+  - Aggregate style-harness verified range remains through `Vol.7 Chapters 1~5`.
+  - Next target is `Vol.7 Chapter 21`.
+
 - Mode: `rttp style-harness recast Vol.7 Chapter 19`
 - Scope: single-chapter lock pass for `Drafts/Vol_7/Vol_7_Chapter_19.md`, with `Drafts/Vol_7/Vol_7_Chapter_18.md` as prior edge and `Drafts/Vol_7/Vol_7_Chapter_20.md` as right edge; `Drafts/Vol_7/Vol_7_Chapter_21.md` was read after lock for the next handoff.
 - Current work: `Vol.7 Chapter 19` style-harness lock complete.
