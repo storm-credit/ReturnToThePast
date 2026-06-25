@@ -14,6 +14,28 @@
 
 ## 2026-06-25 KST
 
+- Mode: `rttp style-harness recast Vol.7 Chapter 10`
+- Scope: single-chapter lock pass for `Drafts/Vol_7/Vol_7_Chapter_10.md`, with `Drafts/Vol_7/Vol_7_Chapter_9.md` as prior edge and `Drafts/Vol_7/Vol_7_Chapter_11.md` as right edge.
+- Current work: `Vol.7 Chapter 10` style-harness lock complete.
+- Next work: `Vol.7 Chapter 11`; aggregate style-harness verification remains contiguous through `Vol.7 Chapters 1~5`.
+- Execution mode: heartbeat-triggered orchestra-conductor single-chapter lock pass; conductor read-only specialist lenses plus final integration.
+- MCP: none; no multi-agent worker was spawned because this heartbeat pass did not require explicit delegation.
+- Skills: `rttp-lock-cycle`.
+- Automations: `rttp-style-harness-completion-loop`.
+- Edits:
+  - `Drafts/Vol_7/Vol_7_Chapter_10.md`
+  - `orchestra/VOL7_CHAPTER_10_STYLE_HARNESS_CHECKPOINT_2026-06-25.md`
+  - `orchestra/SESSION_STATE.md`
+  - `orchestra/NEXT_DIALOGUE_HANDOFF.md`
+  - `orchestra/EXECUTION_PROGRESS_LEDGER.md`
+- Specialist FAIL ledger: numeric title, under-floor length, backtick/manual note surface, compressed 324th-morning accumulation, insufficient body-cost proof after Ch9's first-death price tag, insufficient surrounding reaction proof, and a Ch11 bridge that needed more pressure without importing Ch11's card/observer payload.
+- Manuscript note: revised narrowly to remove numeric title/backticks, expand only the Ch10 324th-morning lane with repeated-death body residue, innkeeper and street reaction proof, delayed human recognition, city-as-mechanism pressure, and a small final act of renaming objects back into human use before the one-knock break; preserved Ch11 wrong-rhythm escalation, Ch12~13 325th-morning pivot, and 1847/1848 endgame material.
+- Final verification: full reread after every repair plus five no-edit cycles all PASS at `body_nospace=4,828`, `total_no_space=4,835`, duplicate nonempty 5-line windows `0`, numeric title `false`, backticks `0`, Latin hits `0`, banned/surface hits `0`, later Vol.7 reserved hits `0`, required misses `0`, hash `6BD0FA0645F9E747DFD4D8CB7536ED6AC3F94DFA51C845B9CC4DEEA49EDB35C9`.
+- Result:
+  - Style-harness verified range advances through `Vol.7 Chapters 1~10`.
+  - Aggregate style-harness verified range remains through `Vol.7 Chapters 1~5`.
+  - Next target is `Vol.7 Chapter 11`.
+
 - Mode: `rttp style-harness recast Vol.7 Chapter 9`
 - Scope: single-chapter lock pass for `Drafts/Vol_7/Vol_7_Chapter_9.md`, with `Drafts/Vol_7/Vol_7_Chapter_8.md` as prior edge and `Drafts/Vol_7/Vol_7_Chapter_10.md` as right edge.
 - Current work: `Vol.7 Chapter 9` style-harness lock complete.
