@@ -14,6 +14,28 @@
 
 ## 2026-06-25 KST
 
+- Mode: `rttp style-harness recast Vol.7 Chapter 7`
+- Scope: single-chapter lock pass for `Drafts/Vol_7/Vol_7_Chapter_7.md`, with `Drafts/Vol_7/Vol_7_Chapter_6.md` as prior edge and `Drafts/Vol_7/Vol_7_Chapter_8.md` as right edge.
+- Current work: `Vol.7 Chapter 7` style-harness lock complete.
+- Next work: `Vol.7 Chapter 8`; aggregate style-harness verification remains contiguous through `Vol.7 Chapters 1~5`.
+- Execution mode: heartbeat-triggered orchestra-conductor single-chapter lock pass; conductor read-only specialist lenses plus final integration.
+- MCP: none; no multi-agent worker was spawned because this heartbeat pass did not require explicit delegation.
+- Skills: `rttp-lock-cycle`.
+- Automations: `rttp-style-harness-completion-loop`.
+- Edits:
+  - `Drafts/Vol_7/Vol_7_Chapter_7.md`
+  - `orchestra/VOL7_CHAPTER_7_STYLE_HARNESS_CHECKPOINT_2026-06-25.md`
+  - `orchestra/SESSION_STATE.md`
+  - `orchestra/NEXT_DIALOGUE_HANDOFF.md`
+  - `orchestra/EXECUTION_PROGRESS_LEDGER.md`
+- Specialist FAIL ledger: numeric title, under-floor length, backtick/code-like rule surface, banned `리셋` wording, `루프`/`이번엔` regression-route scent, summary-heavy rule tests, and insufficient dry next-day plan pressure.
+- Manuscript note: revised narrowly to remove numeric title/backtick/genre-scent surfaces, replace banned reset wording with in-world return language, expand only the four existing rule tests and soft/hard layer observation, preserve Ch8's 89th-morning payload and later death/324th/325th/endgame material, and restore the chapter to the 4,800 no-space floor.
+- Final verification: full reread after repair plus five no-edit cycles all PASS at `body_nospace=4,800`, `total_no_space=4,802`, duplicate nonempty 5-line windows `0`, numeric title `false`, backticks `0`, Latin hits `0`, banned/surface hits `0`, regression/surface scent hits `0`, later Vol.7 reserved hits `0`, required misses `0`, hash `16680400A47AED6CAFE42B7F04B181525764BFC5C264E7F435D654A7A0934CE1`.
+- Result:
+  - Style-harness verified range advances through `Vol.7 Chapters 1~7`.
+  - Aggregate style-harness verified range remains through `Vol.7 Chapters 1~5`.
+  - Next target is `Vol.7 Chapter 8`.
+
 - Mode: `rttp style-harness recast Vol.7 Chapter 6`
 - Scope: single-chapter lock pass for `Drafts/Vol_7/Vol_7_Chapter_6.md`, with `Drafts/Vol_7/Vol_7_Chapter_5.md` as prior edge and `Drafts/Vol_7/Vol_7_Chapter_7.md` as right edge.
 - Current work: `Vol.7 Chapter 6` style-harness lock complete.
