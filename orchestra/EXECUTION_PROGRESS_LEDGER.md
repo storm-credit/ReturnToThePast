@@ -14,6 +14,28 @@
 
 ## 2026-06-25 KST
 
+- Mode: `rttp style-harness recast Vol.7 Chapter 9`
+- Scope: single-chapter lock pass for `Drafts/Vol_7/Vol_7_Chapter_9.md`, with `Drafts/Vol_7/Vol_7_Chapter_8.md` as prior edge and `Drafts/Vol_7/Vol_7_Chapter_10.md` as right edge.
+- Current work: `Vol.7 Chapter 9` style-harness lock complete.
+- Next work: `Vol.7 Chapter 10`; aggregate style-harness verification remains contiguous through `Vol.7 Chapters 1~5`.
+- Execution mode: heartbeat-triggered orchestra-conductor single-chapter lock pass; conductor read-only specialist lenses plus final integration.
+- MCP: none; no multi-agent worker was spawned because this heartbeat pass did not require explicit delegation.
+- Skills: `rttp-lock-cycle`.
+- Automations: `rttp-style-harness-completion-loop`.
+- Edits:
+  - `Drafts/Vol_7/Vol_7_Chapter_9.md`
+  - `orchestra/VOL7_CHAPTER_9_STYLE_HARNESS_CHECKPOINT_2026-06-25.md`
+  - `orchestra/SESSION_STATE.md`
+  - `orchestra/NEXT_DIALOGUE_HANDOFF.md`
+  - `orchestra/EXECUTION_PROGRESS_LEDGER.md`
+- Specialist FAIL ledger: numeric title, under-floor length, backtick/manual note surface, banned `리셋`/`루프` wording, compressed first-death setup/aftermath, insufficient surrounding reaction proof, and a too-abrupt price-tag ending.
+- Manuscript note: revised narrowly to remove numeric title/backtick/genre-scent surfaces, replace banned reset/loop wording with in-world day-prison language, expand only the Ch8 erosion-to-first-death lane, add bystander/world indifference and innkeeper reaction proof, preserve Ch10 324th-morning accumulation and later Vol.7 payloads, and restore the chapter above the 4,800 no-space floor.
+- Final verification: full reread after every repair plus five no-edit cycles all PASS at `body_nospace=4,817`, `total_no_space=4,821`, duplicate nonempty 5-line windows `0`, numeric title `false`, backticks `0`, Latin hits `0`, banned/surface hits `0`, later Vol.7 reserved hits `0`, required misses `0`, hash `0194154AF3E66AC7AC7382B94D417C4CEFCB1C4777D4A05281FF9F1B1ED8751D`.
+- Result:
+  - Style-harness verified range advances through `Vol.7 Chapters 1~9`.
+  - Aggregate style-harness verified range remains through `Vol.7 Chapters 1~5`.
+  - Next target is `Vol.7 Chapter 10`.
+
 - Mode: `rttp style-harness recast Vol.7 Chapter 8`
 - Scope: single-chapter lock pass for `Drafts/Vol_7/Vol_7_Chapter_8.md`, with `Drafts/Vol_7/Vol_7_Chapter_7.md` as prior edge and `Drafts/Vol_7/Vol_7_Chapter_9.md` as right edge.
 - Current work: `Vol.7 Chapter 8` style-harness lock complete.
