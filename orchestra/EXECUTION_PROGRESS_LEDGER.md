@@ -14,6 +14,28 @@
 
 ## 2026-06-25 KST
 
+- Mode: `rttp style-harness recast Vol.7 Chapter 16`
+- Scope: single-chapter lock pass for `Drafts/Vol_7/Vol_7_Chapter_16.md`, with `Drafts/Vol_7/Vol_7_Chapter_15.md` as prior edge and `Drafts/Vol_7/Vol_7_Chapter_17.md` as right edge.
+- Current work: `Vol.7 Chapter 16` style-harness lock complete.
+- Next work: `Vol.7 Chapter 17`; aggregate style-harness verification remains contiguous through `Vol.7 Chapters 1~5`.
+- Execution mode: heartbeat-triggered orchestra-conductor single-chapter lock pass; conductor read-only specialist lenses plus final integration.
+- MCP: none; no multi-agent worker was spawned because this heartbeat pass did not require explicit delegation.
+- Skills: `rttp-lock-cycle`.
+- Automations: `rttp-style-harness-completion-loop`.
+- Edits:
+  - `Drafts/Vol_7/Vol_7_Chapter_16.md`
+  - `orchestra/VOL7_CHAPTER_16_STYLE_HARNESS_CHECKPOINT_2026-06-25.md`
+  - `orchestra/SESSION_STATE.md`
+  - `orchestra/NEXT_DIALOGUE_HANDOFF.md`
+  - `orchestra/EXECUTION_PROGRESS_LEDGER.md`
+- Specialist FAIL ledger: numeric title, under-floor length, 14 backticks/manual note surface, soft route-memory residue (`이번에도`/`이번엔`/`이미`), and under-proved cost-of-not-going body proof after the second-bell refusal.
+- Manuscript note: revised narrowly to remove numeric title/backticks/soft time-scent surfaces, expand only the Ch16 refusal-cost lane with finger-gap proof, closed-fist residue, water/cup hesitation, table-spill proof, innkeeper silence, and ordinary-action tax; preserved Ch15's failed-survivor warning, Ch17's `역조건` condition-setting lane via one bridge line, and later 1847/1848 endgame material.
+- Final verification: full reread after every repair plus five no-edit cycles all PASS at `body_nospace=4,800`, `total_no_space=4,804`, duplicate nonempty 5-line windows `0`, numeric title `false`, backticks `0`, Latin hits `0`, Bengali stray-script hits `0`, banned/surface hits `0`, soft time-scent hits `0`, Ch17 hard reserved hits `0`, Ch17 bridge hits `1`, later Vol.7 reserved hits `0`, required misses `0`, hash `4EA43361E5E097033E13C8549B1A278736535D132B8ADFB4A6DA896248680F03`.
+- Result:
+  - Style-harness verified range advances through `Vol.7 Chapters 1~16`.
+  - Aggregate style-harness verified range remains through `Vol.7 Chapters 1~5`.
+  - Next target is `Vol.7 Chapter 17`.
+
 - Mode: `rttp style-harness recast Vol.7 Chapter 15`
 - Scope: single-chapter lock pass for `Drafts/Vol_7/Vol_7_Chapter_15.md`, with `Drafts/Vol_7/Vol_7_Chapter_14.md` as prior edge and `Drafts/Vol_7/Vol_7_Chapter_16.md` as right edge.
 - Current work: `Vol.7 Chapter 15` style-harness lock complete.
