@@ -14,6 +14,28 @@
 
 ## 2026-06-26 KST
 
+- Mode: `rttp style-harness recast Vol.8 Chapter 3`
+- Scope: single-chapter lock pass for `Drafts/Vol_8/Vol_8_Chapter_3.md`, with `Drafts/Vol_8/Vol_8_Chapter_2.md` as prior edge and `Drafts/Vol_8/Vol_8_Chapter_4.md` as right edge.
+- Current work: `Vol.8 Chapter 3` style-harness lock complete.
+- Next work: `Vol.8 Chapter 4`; aggregate style-harness verification remains contiguous through `Vol.7 Chapters 1~25` until Vol.8 Chapters 1~5 aggregate is due.
+- Execution mode: heartbeat-triggered orchestra-conductor single-chapter lock pass; conductor read-only specialist lenses plus final integration.
+- MCP: none; no multi-agent worker was spawned because this heartbeat pass did not require explicit delegation.
+- Skills: `rttp-lock-cycle`.
+- Automations: `rttp-style-harness-completion-loop`.
+- Edits:
+  - `Drafts/Vol_8/Vol_8_Chapter_3.md`
+  - `orchestra/VOL8_CHAPTER_3_STYLE_HARNESS_CHECKPOINT_2026-06-26.md`
+  - `orchestra/SESSION_STATE.md`
+  - `orchestra/NEXT_DIALOGUE_HANDOFF.md`
+  - `orchestra/EXECUTION_PROGRESS_LEDGER.md`
+- Specialist FAIL ledger: initial Ch3 carried numeric title prefix `178화`, under-floor length at `3,992` body no-space, four backticks, strict route-scent residues (`루프=3`, `이번=4`, `이번엔=2`, `이미=1`, `되돌=1`, `되감=1`), body-level meta-volume references, and Ch4 reserved-lane bleed (`술식=3`, `공백=1`, `문을 여는=2`).
+- Manuscript note: revised Ch3 narrowly only, preserving the `마지막 석양` / sunset-color lane while adding Ch3-local city-light observation, color-layer distinction, fading sequence, grass/skin/light sensory storage, and final city-light descent; Ch4's `탈출 술식` execution lane and Ch5's `행복의 대가` payoff remain reserved.
+- Final verification: full reread after repair plus five no-edit cycles all PASS at `body_nospace=5,082`, `total_no_space=5,087`, title failures `0`, backticks `0`, Latin hits `0`, Devanagari/Bengali stray-script hits `0`, banned/surface hits `0`, strict route-scent hits `0`, required misses `0`, reserved future-lane hits `0`, meta-volume hits `0`, duplicate nonempty 5-line windows `0`, hash `AFF43EEC75C1EDB6265E345105101E86952343760389DBBD1E94A84D3FC1C428`.
+- Result:
+  - Style-harness verified range advances through `Vol.8 Chapters 1~3`.
+  - Aggregate style-harness verified range remains through `Vol.7 Chapters 1~25`.
+  - Next target is `Vol.8 Chapter 4`.
+
 - Mode: `rttp style-harness recast Vol.8 Chapter 2`
 - Scope: single-chapter lock pass for `Drafts/Vol_8/Vol_8_Chapter_2.md`, with `Drafts/Vol_8/Vol_8_Chapter_1.md` as prior edge and `Drafts/Vol_8/Vol_8_Chapter_3.md` as right edge.
 - Current work: `Vol.8 Chapter 2` style-harness lock complete.
