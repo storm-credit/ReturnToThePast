@@ -14,6 +14,28 @@
 
 ## 2026-06-26 KST
 
+- Mode: `rttp style-harness recast Vol.8 Chapter 6`
+- Scope: single-chapter lock pass for `Drafts/Vol_8/Vol_8_Chapter_6.md`, with `Drafts/Vol_8/Vol_8_Chapter_5.md` as prior edge and `Drafts/Vol_8/Vol_8_Chapter_7.md` as right edge.
+- Current work: `Vol.8 Chapter 6` style-harness lock complete.
+- Next work: `Vol.8 Chapter 7`; aggregate style-harness verification remains contiguous through `Vol.8 Chapters 1~5`.
+- Execution mode: heartbeat-triggered orchestra-conductor single-chapter lock pass; conductor read-only specialist lenses plus final integration.
+- MCP: none; no multi-agent worker was spawned because this heartbeat pass did not require explicit delegation.
+- Skills: `rttp-lock-cycle`.
+- Automations: `rttp-style-harness-completion-loop`.
+- Edits:
+  - `Drafts/Vol_8/Vol_8_Chapter_6.md`
+  - `orchestra/VOL8_CHAPTER_6_STYLE_HARNESS_CHECKPOINT_2026-06-26.md`
+  - `orchestra/SESSION_STATE.md`
+  - `orchestra/NEXT_DIALOGUE_HANDOFF.md`
+  - `orchestra/EXECUTION_PROGRESS_LEDGER.md`
+- Specialist FAIL ledger: initial Ch6 carried numeric title prefix `181화`, under-floor length at `4,363` body no-space, strict route-scent `루프=6`, and needed more Ch6-local body pressure around the Baltazar apparition/reveal lane before the `시간의 탑` clue.
+- Manuscript note: revised Ch6 narrowly only, preserving the Baltazar apparition/confession lane while cleaning title/route surface and adding threshold-face, paper-smell, shoulder-delay, outside-not-ready knot, and vertical tower-sense proof; Ch7's escape / three-years reality / ruined-capital lane remains reserved.
+- Final verification: full reread after repair plus five no-edit cycles all PASS at `body_nospace=5,011`, `total_no_space=5,018`, title failures `0`, under-floor `0`, backticks `0`, Latin hits `0`, Devanagari/Bengali stray-script hits `0`, banned/surface hits `0`, strict route-scent hits `0`, required misses `0`, reserved future-lane hits `0`, duplicate nonempty 5-line windows `0`, byte-level BOM `0`, EOF missing `0`, hash `5C6811D2D78D5E0AC773377FAD926CC2FC8B4D37140A21EF6817CD52898198E0`.
+- Result:
+  - Style-harness verified range advances through `Vol.8 Chapters 1~6`.
+  - Aggregate style-harness verified range remains through `Vol.8 Chapters 1~5`.
+  - Next target is `Vol.8 Chapter 7`.
+
 - Mode: `rttp style-harness recast Vol.8 Chapters 1~5 aggregate`
 - Scope: aggregate lock pass for `Drafts/Vol_8/Vol_8_Chapter_1.md` through `Drafts/Vol_8/Vol_8_Chapter_5.md`, with `Drafts/Vol_7/Vol_7_Chapter_25.md` as prior edge and `Drafts/Vol_8/Vol_8_Chapter_6.md` as right edge.
 - Current work: `Vol.8 Chapters 1~5 aggregate` style-harness lock complete.
