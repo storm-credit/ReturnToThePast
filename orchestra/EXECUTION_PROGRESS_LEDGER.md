@@ -14,6 +14,27 @@
 
 ## 2026-06-26 KST
 
+- Mode: `rttp style-harness recast Vol.8 Chapters 1~5 aggregate`
+- Scope: aggregate lock pass for `Drafts/Vol_8/Vol_8_Chapter_1.md` through `Drafts/Vol_8/Vol_8_Chapter_5.md`, with `Drafts/Vol_7/Vol_7_Chapter_25.md` as prior edge and `Drafts/Vol_8/Vol_8_Chapter_6.md` as right edge.
+- Current work: `Vol.8 Chapters 1~5 aggregate` style-harness lock complete.
+- Next work: `Vol.8 Chapter 6`; aggregate style-harness verification is now contiguous through `Vol.8 Chapters 1~5`.
+- Execution mode: heartbeat-triggered orchestra-conductor aggregate lock pass; conductor read-only specialist lenses plus final integration.
+- MCP: none; no multi-agent worker was spawned because this heartbeat pass did not require explicit delegation.
+- Skills: `rttp-lock-cycle`.
+- Automations: `rttp-style-harness-completion-loop`.
+- Edits:
+  - `orchestra/VOL8_CHAPTER_1_5_STYLE_HARNESS_AGGREGATE_CHECKPOINT_2026-06-26.md`
+  - `orchestra/SESSION_STATE.md`
+  - `orchestra/NEXT_DIALOGUE_HANDOFF.md`
+  - `orchestra/EXECUTION_PROGRESS_LEDGER.md`
+- Specialist FAIL ledger: no manuscript FAIL required repair. The aggregate ladder held from Vol.7 Ch25 final ordinary-day preparation into Ch1 final morning, Ch2 bread memory, Ch3 sunset memory, Ch4 escape ritual / first snag, and Ch5 paid happiness-cost proof.
+- Manuscript note: no draft files were edited. Ch4's one generic `발타자르` context mention was reviewed and kept because it references prior rule-watching instruction, not Ch6's apparition/reveal lane. Ch6 remains right edge only and owns the live numeric title, below-floor length, strict `루프` surface, and Baltazar reveal repair for the next pass.
+- Final verification: full packet read plus five no-edit aggregate cycles all PASS at `body_total=25,233`, `total_no_space=25,259`, packet hash `DFFA7967120CCD595D47BA4630A5D925E4C2FCA41219FE930BFB040C559C9283`, title failures `0`, under-floor target files `0`, backticks `0`, Latin hits `0`, Devanagari/Bengali stray-script hits `0`, banned/surface files `0`, strict route-scent files `0`, required misses `0`, Ch6 reveal-lane files `0`, duplicate nonempty 5-line windows `0`, byte-level BOM `0`, EOF missing `0`.
+- Result:
+  - Style-harness verified range remains through `Vol.8 Chapters 1~5`.
+  - Aggregate style-harness verified range advances through `Vol.8 Chapters 1~5`.
+  - Next target is `Vol.8 Chapter 6`.
+
 - Mode: `rttp style-harness recast Vol.8 Chapter 5`
 - Scope: single-chapter lock pass for `Drafts/Vol_8/Vol_8_Chapter_5.md`, with `Drafts/Vol_8/Vol_8_Chapter_4.md` as prior edge and `Drafts/Vol_8/Vol_8_Chapter_6.md` as right edge.
 - Current work: `Vol.8 Chapter 5` style-harness lock complete.
