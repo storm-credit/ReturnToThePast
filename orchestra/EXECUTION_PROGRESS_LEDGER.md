@@ -14,6 +14,28 @@
 
 ## 2026-06-26 KST
 
+- Mode: `rttp style-harness recast Vol.8 Chapter 2`
+- Scope: single-chapter lock pass for `Drafts/Vol_8/Vol_8_Chapter_2.md`, with `Drafts/Vol_8/Vol_8_Chapter_1.md` as prior edge and `Drafts/Vol_8/Vol_8_Chapter_3.md` as right edge.
+- Current work: `Vol.8 Chapter 2` style-harness lock complete.
+- Next work: `Vol.8 Chapter 3`; aggregate style-harness verification remains contiguous through `Vol.7 Chapters 1~25` until Vol.8 Chapters 1~5 aggregate is due.
+- Execution mode: heartbeat-triggered orchestra-conductor single-chapter lock pass; conductor read-only specialist lenses plus final integration.
+- MCP: none; no multi-agent worker was spawned because this heartbeat pass did not require explicit delegation.
+- Skills: `rttp-lock-cycle`.
+- Automations: `rttp-style-harness-completion-loop`.
+- Edits:
+  - `Drafts/Vol_8/Vol_8_Chapter_2.md`
+  - `orchestra/VOL8_CHAPTER_2_STYLE_HARNESS_CHECKPOINT_2026-06-26.md`
+  - `orchestra/SESSION_STATE.md`
+  - `orchestra/NEXT_DIALOGUE_HANDOFF.md`
+  - `orchestra/EXECUTION_PROGRESS_LEDGER.md`
+- Specialist FAIL ledger: initial Ch2 carried numeric title prefix `177화`, under-floor length at `3,993` body no-space, strict route-scent `루프=1`, soft route residues (`이번엔=2`, `이번=3`, `이미=4`), and Ch3/Ch4 reserved-lane bleed (`석양=1`, `술식=1`).
+- Manuscript note: revised Ch2 narrowly only, preserving the `마지막 빵` / bread-tasting lane while adding Ch2-local first-pan heat, table placement, touch/temperature decay, second-bite taste order, empty-plate residue, `끝 조각`, and sensory-loss setup; Ch3's sunset lane and Ch4's escape-ritual lane remain reserved.
+- Final verification: full reread after repair plus five no-edit cycles all PASS at `body_nospace=4,881`, `total_no_space=4,885`, title failures `0`, backticks `0`, Latin hits `0`, Devanagari/Bengali stray-script hits `0`, banned/surface hits `0`, strict route-scent hits `0`, required misses `0`, reserved future-lane hits `0`, duplicate nonempty 5-line windows `0`, hash `EC213C92910E6DB14763C3B93BC0FAEB3C36A4695208377A7DFE8285D403860E`.
+- Result:
+  - Style-harness verified range advances through `Vol.8 Chapters 1~2`.
+  - Aggregate style-harness verified range remains through `Vol.7 Chapters 1~25`.
+  - Next target is `Vol.8 Chapter 3`.
+
 - Mode: `rttp style-harness recast Vol.8 Chapter 1`
 - Scope: single-chapter lock pass for `Drafts/Vol_8/Vol_8_Chapter_1.md`, with `Drafts/Vol_7/Vol_7_Chapter_25.md` as prior edge and `Drafts/Vol_8/Vol_8_Chapter_2.md` as right edge.
 - Current work: `Vol.8 Chapter 1` style-harness lock complete.
