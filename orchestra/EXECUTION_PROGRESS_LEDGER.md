@@ -14,6 +14,28 @@
 
 ## 2026-06-26 KST
 
+- Mode: `rttp style-harness recast Vol.8 Chapter 5`
+- Scope: single-chapter lock pass for `Drafts/Vol_8/Vol_8_Chapter_5.md`, with `Drafts/Vol_8/Vol_8_Chapter_4.md` as prior edge and `Drafts/Vol_8/Vol_8_Chapter_6.md` as right edge.
+- Current work: `Vol.8 Chapter 5` style-harness lock complete.
+- Next work: `Vol.8 Chapters 1~5 aggregate`; aggregate style-harness verification remains contiguous through `Vol.7 Chapters 1~25` until the Vol.8 Ch1~5 aggregate passes.
+- Execution mode: heartbeat-triggered orchestra-conductor single-chapter lock pass; conductor read-only specialist lenses plus final integration.
+- MCP: none; no multi-agent worker was spawned because this heartbeat pass did not require explicit delegation.
+- Skills: `rttp-lock-cycle`.
+- Automations: `rttp-style-harness-completion-loop`.
+- Edits:
+  - `Drafts/Vol_8/Vol_8_Chapter_5.md`
+  - `orchestra/VOL8_CHAPTER_5_STYLE_HARNESS_CHECKPOINT_2026-06-26.md`
+  - `orchestra/SESSION_STATE.md`
+  - `orchestra/NEXT_DIALOGUE_HANDOFF.md`
+  - `orchestra/EXECUTION_PROGRESS_LEDGER.md`
+- Specialist FAIL ledger: initial Ch5 carried numeric title prefix `180화`, under-floor length at `4,321` body no-space, strict route-scent `루프=3`, and needed more Ch5-local proof that the paid cost removes happiness rather than memory or perception.
+- Manuscript note: revised Ch5 narrowly only, preserving the `행복의 대가` lane while cleaning title/route surface and adding bread, cat, sunset, and public-laughter bodily-loss proof; Ch4's first escape-ritual snag stays as the prior pressure, and Ch6's Baltazar apparition/reveal lane remains reserved.
+- Final verification: full reread after repair plus five no-edit cycles all PASS at `body_nospace=4,810`, `total_no_space=4,815`, title failures `0`, backticks `0`, Latin hits `0`, Devanagari/Bengali stray-script hits `0`, banned/surface hits `0`, strict route-scent hits `0`, required misses `0`, reserved future-lane hits `0`, meta-volume hits `0`, duplicate nonempty 5-line windows `0`, byte-level BOM `0`, EOF missing `0`, hash `B7035534E231B4E5F51C00BE5129C4D1675E08732AE862B3DF8A993B1DEB7884`.
+- Result:
+  - Style-harness verified range advances through `Vol.8 Chapters 1~5`.
+  - Aggregate style-harness verified range remains through `Vol.7 Chapters 1~25`.
+  - Next target is `Vol.8 Chapters 1~5 aggregate`.
+
 - Mode: `rttp style-harness recast Vol.8 Chapter 4`
 - Scope: single-chapter lock pass for `Drafts/Vol_8/Vol_8_Chapter_4.md`, with `Drafts/Vol_8/Vol_8_Chapter_3.md` as prior edge and `Drafts/Vol_8/Vol_8_Chapter_5.md` as right edge.
 - Current work: `Vol.8 Chapter 4` style-harness lock complete.
