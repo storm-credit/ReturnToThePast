@@ -14,6 +14,28 @@
 
 ## 2026-06-26 KST
 
+- Mode: `rttp style-harness recast Vol.8 Chapter 4`
+- Scope: single-chapter lock pass for `Drafts/Vol_8/Vol_8_Chapter_4.md`, with `Drafts/Vol_8/Vol_8_Chapter_3.md` as prior edge and `Drafts/Vol_8/Vol_8_Chapter_5.md` as right edge.
+- Current work: `Vol.8 Chapter 4` style-harness lock complete.
+- Next work: `Vol.8 Chapter 5`; aggregate style-harness verification remains contiguous through `Vol.7 Chapters 1~25` until Vol.8 Chapters 1~5 aggregate is due.
+- Execution mode: heartbeat-triggered orchestra-conductor single-chapter lock pass; conductor read-only specialist lenses plus final integration.
+- MCP: none; no multi-agent worker was spawned because this heartbeat pass did not require explicit delegation.
+- Skills: `rttp-lock-cycle`.
+- Automations: `rttp-style-harness-completion-loop`.
+- Edits:
+  - `Drafts/Vol_8/Vol_8_Chapter_4.md`
+  - `orchestra/VOL8_CHAPTER_4_STYLE_HARNESS_CHECKPOINT_2026-06-26.md`
+  - `orchestra/SESSION_STATE.md`
+  - `orchestra/NEXT_DIALOGUE_HANDOFF.md`
+  - `orchestra/EXECUTION_PROGRESS_LEDGER.md`
+- Specialist FAIL ledger: initial Ch4 carried numeric title prefix `179화`, under-floor length at `3,995` body no-space, eight backticks, strict route-scent and repeat residues (`루프=11`, `이번엔=1`, `이번=1`, `이미=2`, `반복=7`, `되감=1`), a BOM-format artifact, and an over-fragmented ending.
+- Manuscript note: revised Ch4 narrowly only, preserving the `탈출 술식` / `둘 뒤` / `1848의 공백` execution lane while adding Ch4-local paper indentation, salt/dust tactile anchors, step-delay body procedure, and first-snag pressure; Ch5's `행복의 대가` sensory-loss payoff and Ch6's Baltazar apparition lane remain reserved.
+- Final verification: full reread after repair plus five no-edit cycles all PASS at `body_nospace=5,111`, `total_no_space=5,115`, title failures `0`, backticks `0`, Latin hits `0`, Devanagari/Bengali stray-script hits `0`, banned/surface hits `0`, strict route-scent hits `0`, required misses `0`, reserved future-lane hits `0`, meta-volume hits `0`, duplicate nonempty 5-line windows `0`, byte-level BOM `0`, EOF missing `0`, hash `FA7606940BC3E586D3C39136737CEBB04C3E1D20109A570BFCECFE47DA304A46`.
+- Result:
+  - Style-harness verified range advances through `Vol.8 Chapters 1~4`.
+  - Aggregate style-harness verified range remains through `Vol.7 Chapters 1~25`.
+  - Next target is `Vol.8 Chapter 5`.
+
 - Mode: `rttp style-harness recast Vol.8 Chapter 3`
 - Scope: single-chapter lock pass for `Drafts/Vol_8/Vol_8_Chapter_3.md`, with `Drafts/Vol_8/Vol_8_Chapter_2.md` as prior edge and `Drafts/Vol_8/Vol_8_Chapter_4.md` as right edge.
 - Current work: `Vol.8 Chapter 3` style-harness lock complete.
