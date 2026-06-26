@@ -14,6 +14,28 @@
 
 ## 2026-06-26 KST
 
+- Mode: `rttp style-harness recast Vol.7 Chapters 6~10 aggregate`
+- Scope: aggregate lock pass for `Drafts/Vol_7/Vol_7_Chapter_6.md` through `Drafts/Vol_7/Vol_7_Chapter_10.md`, with `Drafts/Vol_7/Vol_7_Chapter_5.md` as prior edge and `Drafts/Vol_7/Vol_7_Chapter_11.md` as right edge.
+- Current work: `Vol.7 Chapters 6~10 aggregate` style-harness aggregate lock complete.
+- Next work: `Vol.7 Chapters 11~15 aggregate`; aggregate style-harness verification is now contiguous through `Vol.7 Chapters 1~10`.
+- Execution mode: heartbeat-triggered orchestra-conductor aggregate lock pass; conductor read-only specialist lenses plus final integration.
+- MCP: none; no multi-agent worker was spawned because this heartbeat pass did not require explicit delegation.
+- Skills: `rttp-lock-cycle`.
+- Automations: `rttp-style-harness-completion-loop`.
+- Edits:
+  - `Drafts/Vol_7/Vol_7_Chapter_6.md`
+  - `orchestra/VOL7_CHAPTER_6_10_STYLE_HARNESS_AGGREGATE_CHECKPOINT_2026-06-26.md`
+  - `orchestra/SESSION_STATE.md`
+  - `orchestra/NEXT_DIALOGUE_HANDOFF.md`
+  - `orchestra/EXECUTION_PROGRESS_LEDGER.md`
+- Specialist FAIL ledger: Ch6 aggregate-level route-scent surfaces (`루프`, `이번엔`, and one already-did-this `이미`) survived the single-chapter lock; no structural ladder, edge-reservation, format, or length FAILs were found across Ch6~10.
+- Manuscript note: revised Ch6 narrowly only, replacing route/replay wording with tower-prison/body-residue wording while preserving Baltazar's clue payload and the Ch7 rule-map bridge.
+- Final verification: full packet reread after repair plus five no-edit aggregate cycles all PASS at aggregate `body_nospace=24,053`, `total_no_space=24,080`, title failures `0`, backticks `0`, Latin hits `0`, Devanagari/Bengali stray-script hits `0`, banned/surface hits `0`, strict route-scent hits `0`, required misses `0`, Ch11 reserved hits `0`, later reserved hits `0`, duplicate nonempty 5-line windows `0`, aggregate hash `0A666C4BD5566FDAED546E57F7692A706B565117075993635DA74EAA82A096A3`.
+- Result:
+  - Style-harness verified range remains through `Vol.7 Chapters 1~25`.
+  - Aggregate style-harness verified range advances through `Vol.7 Chapters 1~10`.
+  - Next target is `Vol.7 Chapters 11~15 aggregate`.
+
 - Mode: `rttp style-harness recast Vol.7 Chapter 25`
 - Scope: single-chapter lock pass for `Drafts/Vol_7/Vol_7_Chapter_25.md`, with `Drafts/Vol_7/Vol_7_Chapter_24.md` as prior edge and `Drafts/Vol_8/Vol_8_Chapter_1.md` as next-volume right edge.
 - Current work: `Vol.7 Chapter 25` style-harness lock complete.
