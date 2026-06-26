@@ -14,6 +14,28 @@
 
 ## 2026-06-27 KST
 
+- Mode: `rttp style-harness recast Vol.8 Chapter 8`
+- Scope: single-chapter lock pass for `Drafts/Vol_8/Vol_8_Chapter_8.md`, with `Drafts/Vol_8/Vol_8_Chapter_7.md` as prior edge and `Drafts/Vol_8/Vol_8_Chapter_9.md` as right edge.
+- Current work: `Vol.8 Chapter 8` style-harness lock complete.
+- Next work: `Vol.8 Chapter 9`; aggregate style-harness verification remains contiguous through `Vol.8 Chapters 1~5`.
+- Execution mode: heartbeat-triggered orchestra-conductor single-chapter lock pass; conductor read-only specialist lenses plus final integration.
+- MCP: none; no multi-agent worker was spawned because this heartbeat pass did not require explicit delegation.
+- Skills: `rttp-lock-cycle`.
+- Automations: `rttp-style-harness-completion-loop`.
+- Edits:
+  - `Drafts/Vol_8/Vol_8_Chapter_8.md`
+  - `orchestra/VOL8_CHAPTER_8_STYLE_HARNESS_CHECKPOINT_2026-06-27.md`
+  - `orchestra/SESSION_STATE.md`
+  - `orchestra/NEXT_DIALOGUE_HANDOFF.md`
+  - `orchestra/EXECUTION_PROGRESS_LEDGER.md`
+- Specialist FAIL ledger: initial Ch8 carried numeric title prefix `183화`, under-floor length at `4,330` body no-space, eight backticks, strict route-scent `루프=2`, and needed more Ch8-local ruined-capital traversal proof around broken routes, warning marks, recent shelter traces, segmented checkpoints, and first-night shelter logic.
+- Manuscript note: revised Ch8 narrowly only, preserving the first full ruined-capital traversal / day-one survival ecology lane while cleaning title/route/backtick surface and adding route-marking, black-cloth warning interpretation, recent hideout traces, checkpoint mark proof, shelter defense setup, and pain-as-rule ending pressure; Ch9's deeper three-year-gap information-gathering lane and Ch10's Iris lane remain reserved.
+- Final verification: full reread after repair plus five no-edit cycles all PASS at `body_nospace=5,309`, `total_no_space=5,311`, title failures `0`, under-floor `0`, backticks `0`, Latin hits `0`, Devanagari/Bengali stray-script hits `0`, banned/surface hits `0`, strict route-scent hits `0`, required misses `0`, reserved future-lane hits `0`, duplicate nonempty 5-line windows `0`, byte-level BOM `0`, EOF missing `0`, hash `0B4E828ABD61DF8AAF7EC65D9B60B41DDB57DA209FF90323CDE509ECB31BF24F`.
+- Result:
+  - Style-harness verified range advances through `Vol.8 Chapters 1~8`.
+  - Aggregate style-harness verified range remains through `Vol.8 Chapters 1~5`.
+  - Next target is `Vol.8 Chapter 9`.
+
 - Mode: `rttp style-harness recast Vol.8 Chapter 7`
 - Scope: single-chapter lock pass for `Drafts/Vol_8/Vol_8_Chapter_7.md`, with `Drafts/Vol_8/Vol_8_Chapter_6.md` as prior edge and `Drafts/Vol_8/Vol_8_Chapter_8.md` as right edge.
 - Current work: `Vol.8 Chapter 7` style-harness lock complete.
