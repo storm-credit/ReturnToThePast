@@ -12,6 +12,30 @@
 - 상세 누적 진행도는 `SETTING_PROGRESS_TRACKER.md`, `DRAFTING_PROGRESS_TRACKER.md`를 따른다.
 - 현재 즉시 재개 지점은 `SESSION_STATE.md`를 따른다.
 
+## 2026-06-27 KST
+
+- Mode: `rttp style-harness recast Vol.8 Chapter 7`
+- Scope: single-chapter lock pass for `Drafts/Vol_8/Vol_8_Chapter_7.md`, with `Drafts/Vol_8/Vol_8_Chapter_6.md` as prior edge and `Drafts/Vol_8/Vol_8_Chapter_8.md` as right edge.
+- Current work: `Vol.8 Chapter 7` style-harness lock complete.
+- Next work: `Vol.8 Chapter 8`; aggregate style-harness verification remains contiguous through `Vol.8 Chapters 1~5`.
+- Execution mode: heartbeat-triggered orchestra-conductor single-chapter lock pass; conductor read-only specialist lenses plus final integration.
+- MCP: none; no multi-agent worker was spawned because this heartbeat pass did not require explicit delegation.
+- Skills: `rttp-lock-cycle`.
+- Automations: `rttp-style-harness-completion-loop`.
+- Edits:
+  - `Drafts/Vol_8/Vol_8_Chapter_7.md`
+  - `orchestra/VOL8_CHAPTER_7_STYLE_HARNESS_CHECKPOINT_2026-06-27.md`
+  - `orchestra/SESSION_STATE.md`
+  - `orchestra/NEXT_DIALOGUE_HANDOFF.md`
+  - `orchestra/EXECUTION_PROGRESS_LEDGER.md`
+- Specialist FAIL ledger: initial Ch7 carried numeric title prefix `182화`, under-floor length at `4,151` body no-space, strict route-scent `루프=10`, and needed more Ch7-local body proof that escape from the time prison is not clean return but a landing into a three-years-later ruined capital.
+- Manuscript note: revised Ch7 narrowly only, preserving the escape / three-year shock / ruined-capital reveal lane while cleaning title/route surface and adding threshold-body pressure, sand/reality proof, survival-silence reading, physical reaction to `삼 년`, priority ordering, and a trace-based first-step bridge; Ch8's broader ruined-capital exploration and Ch9's information-gathering lane remain reserved.
+- Final verification: full reread after repair plus five no-edit cycles all PASS at `body_nospace=4,893`, `total_no_space=4,895`, title failures `0`, under-floor `0`, backticks `0`, Latin hits `0`, Devanagari/Bengali stray-script hits `0`, banned/surface hits `0`, strict route-scent hits `0`, required misses `0`, reserved Ch8-lane hits `0`, duplicate nonempty 5-line windows `0`, byte-level BOM `0`, EOF missing `0`, hash `A63D98470E4DC68A73C994B9B6ABE7AC8D5C55F1C8DA399456747568CDD8E1FA`.
+- Result:
+  - Style-harness verified range advances through `Vol.8 Chapters 1~7`.
+  - Aggregate style-harness verified range remains through `Vol.8 Chapters 1~5`.
+  - Next target is `Vol.8 Chapter 8`.
+
 ## 2026-06-26 KST
 
 - Mode: `rttp style-harness recast Vol.8 Chapter 6`
