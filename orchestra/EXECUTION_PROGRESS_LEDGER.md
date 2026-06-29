@@ -14,6 +14,28 @@
 
 ## 2026-06-30 KST
 
+- Mode: `rttp style-harness recast Vol.8 Chapter 22`
+- Scope: single-chapter lock pass for `Drafts/Vol_8/Vol_8_Chapter_22.md`, with `Drafts/Vol_8/Vol_8_Chapter_21.md` as prior edge and `Drafts/Vol_8/Vol_8_Chapter_23.md` as right edge.
+- Current work: `Vol.8 Chapter 22` style-harness lock complete.
+- Next work: `Vol.8 Chapter 23`; aggregate style-harness verification remains contiguous through `Vol.8 Chapters 1~5`.
+- Execution mode: heartbeat-triggered orchestra-conductor single-chapter lock pass; conductor read-only specialist lenses plus final integration.
+- MCP: none; no multi-agent worker was spawned because this heartbeat pass did not require explicit delegation.
+- Skills: `rttp-lock-cycle`.
+- Automations: `rttp-style-harness-completion-loop`.
+- Edits:
+  - `Drafts/Vol_8/Vol_8_Chapter_22.md`
+  - `orchestra/VOL8_CHAPTER_22_STYLE_HARNESS_CHECKPOINT_2026-06-30.md`
+  - `orchestra/SESSION_STATE.md`
+  - `orchestra/NEXT_DIALOGUE_HANDOFF.md`
+  - `orchestra/EXECUTION_PROGRESS_LEDGER.md`
+- Specialist FAIL ledger: initial Ch22 carried numeric title prefix `197화`, under-floor length at `3,666` body no-space, 28 artifact backticks, and strict route-scent hits on `이번엔`. The live `남수문` raid was structurally useful, but the outline's `무장` promise was too implicit and needed to become Ch22-owned equipment pressure.
+- Manuscript note: revised Ch22 narrowly only, preserving the live `남수문` operation, three extracted people, `위임 확인`, `동벽 상신`, and the Ch23 interrogation bridge. Changed the title to `무장`, removed backticks/route residue, and added practical north-bin tools plus Aiden's costed armament as lure/eyes, wrong-path 후영, evidence, and a poor but usable final equipment bundle.
+- Final verification: full reread after repair plus five no-edit cycles all PASS at `body_nospace=5,011`, `total_no_space=5,013`, title failures `0`, under-floor `0`, backticks `0`, Latin hits `0`, Arabic/Devanagari/Bengali stray-script hits `0`, banned/surface hits `0`, strict route-scent hits `0`, required misses `0`, reserved Ch23-lane hits `0`, duplicate contiguous nonempty 5-line windows `0`, byte-level BOM `0`, EOF missing `0`, hash `8304381BFE167E16D567928A7E885BC58F9938180AAC62B6C1DDA767B5669C99`.
+- Result:
+  - Style-harness verified range advances through `Vol.8 Chapters 1~22`.
+  - Aggregate style-harness verified range remains through `Vol.8 Chapters 1~5`.
+  - Next target is `Vol.8 Chapter 23`.
+
 - Mode: `rttp style-harness recast Vol.8 Chapter 21`
 - Scope: single-chapter lock pass for `Drafts/Vol_8/Vol_8_Chapter_21.md`, with `Drafts/Vol_8/Vol_8_Chapter_20.md` as prior edge and `Drafts/Vol_8/Vol_8_Chapter_22.md` as right edge.
 - Current work: `Vol.8 Chapter 21` style-harness lock complete.
