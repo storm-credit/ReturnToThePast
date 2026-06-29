@@ -12,6 +12,30 @@
 - 상세 누적 진행도는 `SETTING_PROGRESS_TRACKER.md`, `DRAFTING_PROGRESS_TRACKER.md`를 따른다.
 - 현재 즉시 재개 지점은 `SESSION_STATE.md`를 따른다.
 
+## 2026-06-30 KST
+
+- Mode: `rttp style-harness recast Vol.8 Chapter 21`
+- Scope: single-chapter lock pass for `Drafts/Vol_8/Vol_8_Chapter_21.md`, with `Drafts/Vol_8/Vol_8_Chapter_20.md` as prior edge and `Drafts/Vol_8/Vol_8_Chapter_22.md` as right edge.
+- Current work: `Vol.8 Chapter 21` style-harness lock complete.
+- Next work: `Vol.8 Chapter 22`; aggregate style-harness verification remains contiguous through `Vol.8 Chapters 1~5`.
+- Execution mode: heartbeat-triggered orchestra-conductor single-chapter lock pass; conductor read-only specialist lenses plus final integration.
+- MCP: none; no multi-agent worker was spawned because this heartbeat pass did not require explicit delegation.
+- Skills: `rttp-lock-cycle`.
+- Automations: `rttp-style-harness-completion-loop`.
+- Edits:
+  - `Drafts/Vol_8/Vol_8_Chapter_21.md`
+  - `orchestra/VOL8_CHAPTER_21_STYLE_HARNESS_CHECKPOINT_2026-06-30.md`
+  - `orchestra/SESSION_STATE.md`
+  - `orchestra/NEXT_DIALOGUE_HANDOFF.md`
+  - `orchestra/EXECUTION_PROGRESS_LEDGER.md`
+- Specialist FAIL ledger: initial Ch21 carried numeric title prefix `196화`, under-floor length at `3,196` body no-space, 64 artifact backticks, and two strict route-scent hits (`이번엔`, `정답`). The core deeper `북구획 유입분` ledger reading was correct, but the chapter needed Ch21-owned survivor-consolidation pressure before handing off to Ch22.
+- Manuscript note: revised Ch21 narrowly only, preserving the ledger read, `공백 관측반 교차 확인 후 상신`, `남수문 외곽`, `동벽 하층`, `위임자 확인`, and 후영 as costly letter contamination. Removed numeric title/backticks/route-scent surfaces, added 북빈가's silent signal and route-token response, and made the ending bridge about people outside the ledger rather than Ch22's equipment/action lane.
+- Final verification: full reread after repair plus five no-edit cycles all PASS at `body_nospace=4,887`, `total_no_space=4,893`, title failures `0`, under-floor `0`, backticks `0`, Latin hits `0`, Arabic/Devanagari/Bengali stray-script hits `0`, banned/surface hits `0`, strict route-scent hits `0`, required misses `0`, reserved Ch22-lane hits `0`, duplicate contiguous nonempty 5-line windows `0`, byte-level BOM `0`, EOF missing `0`, hash `CC36F451116217914453868D1821286B093C492CE3932FF6A37745BBA69601CA`.
+- Result:
+  - Style-harness verified range advances through `Vol.8 Chapters 1~21`.
+  - Aggregate style-harness verified range remains through `Vol.8 Chapters 1~5`.
+  - Next target is `Vol.8 Chapter 22`.
+
 ## 2026-06-29 KST
 
 - Mode: `rttp style-harness recast Vol.8 Chapter 20`
