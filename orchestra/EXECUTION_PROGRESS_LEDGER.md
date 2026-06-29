@@ -14,6 +14,28 @@
 
 ## 2026-06-29 KST
 
+- Mode: `rttp style-harness recast Vol.8 Chapter 11`
+- Scope: single-chapter lock pass for `Drafts/Vol_8/Vol_8_Chapter_11.md`, with `Drafts/Vol_8/Vol_8_Chapter_10.md` as prior edge and `Drafts/Vol_8/Vol_8_Chapter_12.md` as right edge.
+- Current work: `Vol.8 Chapter 11` style-harness lock complete.
+- Next work: `Vol.8 Chapter 12`; aggregate style-harness verification remains contiguous through `Vol.8 Chapters 1~5`.
+- Execution mode: heartbeat-triggered orchestra-conductor single-chapter lock pass; conductor read-only specialist lenses plus final integration.
+- MCP: none; no multi-agent worker was spawned because this heartbeat pass did not require explicit delegation.
+- Skills: `rttp-lock-cycle`.
+- Automations: `rttp-style-harness-completion-loop`.
+- Edits:
+  - `Drafts/Vol_8/Vol_8_Chapter_11.md`
+  - `orchestra/VOL8_CHAPTER_11_STYLE_HARNESS_CHECKPOINT_2026-06-29.md`
+  - `orchestra/SESSION_STATE.md`
+  - `orchestra/NEXT_DIALOGUE_HANDOFF.md`
+  - `orchestra/EXECUTION_PROGRESS_LEDGER.md`
+- Specialist FAIL ledger: initial Ch11 carried numeric title prefix `186화`, under-floor length at `4,025` body no-space, four backticks, and a premature Ch12-reserved `유령` naming leak. The name-answer / non-recognition lane was correct but needed stronger public name-risk proof, Iris's survival-logic distrust, the first over-knowledge tripwire around her arm, and a clearer reason the `누구세요` answer must defer behind the incoming record threat.
+- Manuscript note: revised Ch11 narrowly only, preserving the immediate `에이든` name answer, `처음 듣는 이름은 아니네`, `왜 여기 왔지`, `내가 널 안다고 생각하면 오해야`, the one-arm overknowledge slip, `뒤에서 이름 적는 놈부터`, and `살아남으면` ending. Ch12's second-fight execution, `공백 의심` paper proof, empty-slot shelter invitation, and `유령` naming remain reserved.
+- Final verification: full reread after repair plus five no-edit cycles all PASS at `body_nospace=5,266`, `total_no_space=5,268`, title failures `0`, under-floor `0`, backticks `0`, Latin hits `0`, Devanagari/Bengali stray-script hits `0`, banned/surface hits `0`, meta-volume hits `0`, strict route-scent hits `0`, required misses `0`, reserved future-lane hits `0`, duplicate nonempty 5-line windows `0`, byte-level BOM `0`, EOF missing `0`, hash `6349C7BCF14FCF091686CD69F79AE85CBE37C0AA1A6FFB2E8C2DD48E6962F284`.
+- Result:
+  - Style-harness verified range advances through `Vol.8 Chapters 1~11`.
+  - Aggregate style-harness verified range remains through `Vol.8 Chapters 1~5`.
+  - Next target is `Vol.8 Chapter 12`.
+
 - Mode: `rttp style-harness recast Vol.8 Chapter 10`
 - Scope: single-chapter lock pass for `Drafts/Vol_8/Vol_8_Chapter_10.md`, with `Drafts/Vol_8/Vol_8_Chapter_9.md` as prior edge and `Drafts/Vol_8/Vol_8_Chapter_11.md` as right edge.
 - Current work: `Vol.8 Chapter 10` style-harness lock complete.
