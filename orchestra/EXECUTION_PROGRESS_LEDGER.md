@@ -14,6 +14,28 @@
 
 ## 2026-06-29 KST
 
+- Mode: `rttp style-harness recast Vol.8 Chapter 16`
+- Scope: single-chapter lock pass for `Drafts/Vol_8/Vol_8_Chapter_16.md`, with `Drafts/Vol_8/Vol_8_Chapter_15.md` as prior edge and `Drafts/Vol_8/Vol_8_Chapter_17.md` as right edge.
+- Current work: `Vol.8 Chapter 16` style-harness lock complete.
+- Next work: `Vol.8 Chapter 17`; aggregate style-harness verification remains contiguous through `Vol.8 Chapters 1~5`.
+- Execution mode: heartbeat-triggered orchestra-conductor single-chapter lock pass; conductor read-only specialist lenses plus final integration.
+- MCP: none; no multi-agent worker was spawned because this heartbeat pass did not require explicit delegation.
+- Skills: `rttp-lock-cycle`.
+- Automations: `rttp-style-harness-completion-loop`.
+- Edits:
+  - `Drafts/Vol_8/Vol_8_Chapter_16.md`
+  - `orchestra/VOL8_CHAPTER_16_STYLE_HARNESS_CHECKPOINT_2026-06-29.md`
+  - `orchestra/SESSION_STATE.md`
+  - `orchestra/NEXT_DIALOGUE_HANDOFF.md`
+  - `orchestra/EXECUTION_PROGRESS_LEDGER.md`
+- Specialist FAIL ledger: initial Ch16 carried numeric title prefix `191화`, under-floor length at `4,191` body no-space, 22 artifact backticks, one meta-title hit, and five strict route/answer-key scent hits under the final detector. The core `추적` / north-bin exit / `회색 외투` / record-transfer / `보류실` lane was correct but needed stronger why-now pressure, clearer evidence causality, and a Ch16-owned 발타자르-to-시간의 탑 bridge without pulling Ch17's 후영 lane forward.
+- Manuscript note: revised Ch16 narrowly only, preserving the active pursuit out of 북빈가, Iris/Aiden body-rhythm, hidden lower passage, record-transfer infrastructure, and 보류실 chase. Removed numeric title/backticks/route-scent surfaces, expanded same-day record urgency and side-route reaction proof, clarified `동벽/북빈/임시` as a city-wide classification chain, and added 발타자르 margin-mark plus faint tower-seal evidence to point toward `시간의 탑`.
+- Final verification: full reread after repair plus five no-edit cycles all PASS at `body_nospace=4,809`, `total_no_space=4,811`, title failures `0`, under-floor `0`, backticks `0`, Latin hits `0`, Arabic/Devanagari/Bengali stray-script hits `0`, banned/surface hits `0`, meta-title hits `0`, strict route-scent hits `0`, required misses `0`, reserved Ch17-lane hits `0`, duplicate contiguous nonempty 5-line windows `0`, byte-level BOM `0`, EOF missing `0`, hash `E9169AA52C1EBA183150EE84F87BE5A9581DA2969C523A03DC936D93054D18C2`.
+- Result:
+  - Style-harness verified range advances through `Vol.8 Chapters 1~16`.
+  - Aggregate style-harness verified range remains through `Vol.8 Chapters 1~5`.
+  - Next target is `Vol.8 Chapter 17`.
+
 - Mode: `rttp style-harness recast Vol.8 Chapter 15`
 - Scope: single-chapter lock pass for `Drafts/Vol_8/Vol_8_Chapter_15.md`, with `Drafts/Vol_8/Vol_8_Chapter_14.md` as prior edge and `Drafts/Vol_8/Vol_8_Chapter_16.md` as right edge.
 - Current work: `Vol.8 Chapter 15` style-harness lock complete.
