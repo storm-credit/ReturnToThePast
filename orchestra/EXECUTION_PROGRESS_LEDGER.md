@@ -14,6 +14,28 @@
 
 ## 2026-06-29 KST
 
+- Mode: `rttp style-harness recast Vol.8 Chapter 18`
+- Scope: single-chapter lock pass for `Drafts/Vol_8/Vol_8_Chapter_18.md`, with `Drafts/Vol_8/Vol_8_Chapter_17.md` as prior edge and `Drafts/Vol_8/Vol_8_Chapter_19.md` as right edge.
+- Current work: `Vol.8 Chapter 18` style-harness lock complete.
+- Next work: `Vol.8 Chapter 19`; aggregate style-harness verification remains contiguous through `Vol.8 Chapters 1~5`.
+- Execution mode: heartbeat-triggered orchestra-conductor single-chapter lock pass; conductor read-only specialist lenses plus final integration.
+- MCP: none; no multi-agent worker was spawned because this heartbeat pass did not require explicit delegation.
+- Skills: `rttp-lock-cycle`.
+- Automations: `rttp-style-harness-completion-loop`.
+- Edits:
+  - `Drafts/Vol_8/Vol_8_Chapter_18.md`
+  - `orchestra/VOL8_CHAPTER_18_STYLE_HARNESS_CHECKPOINT_2026-06-29.md`
+  - `orchestra/SESSION_STATE.md`
+  - `orchestra/NEXT_DIALOGUE_HANDOFF.md`
+  - `orchestra/EXECUTION_PROGRESS_LEDGER.md`
+- Specialist FAIL ledger: initial Ch18 carried numeric title prefix `193화`, under-floor length at `3,968` body no-space, 24 artifact backticks, one meta-title hit, and two strict route-scent hits under detector counting. The core 보류실 confrontation / `임시 보류` mark / north-bin transfer lane was correct but needed clearer first-screen proof that the room is a low tower-threshold intake, stronger body-lag cost causality, and an ending click that points upward without stealing Ch19's inner-room consequence or declaration lane.
+- Manuscript note: revised Ch18 narrowly only, preserving the immediate continuation from Ch17, Iris/Aiden tactical rhythm, the 보류실 confrontation, `임시 보류` mark, and `북구획 / 빈자리 보충안`. Removed numeric title/backticks/route-scent surfaces, expanded the tower-lower-threshold function, made 먹가루 and the mark worsen Aiden's delayed body rhythm, and added torn-record evidence that the 보류실 is the first link toward `시간의 탑` while leaving Ch19's aftermath lane reserved.
+- Final verification: full reread after repair plus five no-edit cycles all PASS at `body_nospace=4,807`, `total_no_space=4,810`, title failures `0`, under-floor `0`, backticks `0`, Latin hits `0`, Arabic/Devanagari/Bengali stray-script hits `0`, banned/surface hits `0`, meta-title hits `0`, strict route-scent hits `0`, required misses `0`, reserved Ch19-lane hits `0`, duplicate contiguous nonempty 5-line windows `0`, byte-level BOM `0`, EOF missing `0`, hash `27EC48259B43F623E2D2F2891E7798CEA8A37A57BAA9B42F278E0A54FBAFBCE1`.
+- Result:
+  - Style-harness verified range advances through `Vol.8 Chapters 1~18`.
+  - Aggregate style-harness verified range remains through `Vol.8 Chapters 1~5`.
+  - Next target is `Vol.8 Chapter 19`.
+
 - Mode: `rttp style-harness recast Vol.8 Chapter 17`
 - Scope: single-chapter lock pass for `Drafts/Vol_8/Vol_8_Chapter_17.md`, with `Drafts/Vol_8/Vol_8_Chapter_16.md` as prior edge and `Drafts/Vol_8/Vol_8_Chapter_18.md` as right edge.
 - Current work: `Vol.8 Chapter 17` style-harness lock complete.
