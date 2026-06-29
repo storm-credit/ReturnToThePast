@@ -12,6 +12,30 @@
 - 상세 누적 진행도는 `SETTING_PROGRESS_TRACKER.md`, `DRAFTING_PROGRESS_TRACKER.md`를 따른다.
 - 현재 즉시 재개 지점은 `SESSION_STATE.md`를 따른다.
 
+## 2026-06-29 KST
+
+- Mode: `rttp style-harness recast Vol.8 Chapter 10`
+- Scope: single-chapter lock pass for `Drafts/Vol_8/Vol_8_Chapter_10.md`, with `Drafts/Vol_8/Vol_8_Chapter_9.md` as prior edge and `Drafts/Vol_8/Vol_8_Chapter_11.md` as right edge.
+- Current work: `Vol.8 Chapter 10` style-harness lock complete.
+- Next work: `Vol.8 Chapter 11`; aggregate style-harness verification remains contiguous through `Vol.8 Chapters 1~5`.
+- Execution mode: heartbeat-triggered orchestra-conductor single-chapter lock pass; conductor read-only specialist lenses plus final integration.
+- MCP: none; no multi-agent worker was spawned because this heartbeat pass did not require explicit delegation.
+- Skills: `rttp-lock-cycle`.
+- Automations: `rttp-style-harness-completion-loop`.
+- Edits:
+  - `Drafts/Vol_8/Vol_8_Chapter_10.md`
+  - `orchestra/VOL8_CHAPTER_10_STYLE_HARNESS_CHECKPOINT_2026-06-29.md`
+  - `orchestra/SESSION_STATE.md`
+  - `orchestra/NEXT_DIALOGUE_HANDOFF.md`
+  - `orchestra/EXECUTION_PROGRESS_LEDGER.md`
+- Specialist FAIL ledger: initial Ch10 carried numeric title prefix `185화`, under-floor length at `4,119` body no-space, six backticks, and needed stronger Ch10-local proof of 북빈가's threshold rules, living district pressure, name-ledger threat, Iris's one-arm protection cost, and the immediate name-threshold ending.
+- Manuscript note: revised Ch10 narrowly only, preserving the 북빈가 entry / Iris discovery / one-arm reveal / public protection / `누구 편이야` / name-threshold lane while cleaning title/backtick surface and adding hand-rule compliance, small survival habits, the ledger scribe as pressure, Iris's physical cost, public dependence on her, and a firmer name-liability ending. Ch11's actual name answer and non-recognition conversation remain reserved; Ch12's second-fight and `유령` lane remain reserved.
+- Final verification: full reread after repair plus five no-edit cycles all PASS at `body_nospace=4,988`, `total_no_space=4,995`, title failures `0`, under-floor `0`, backticks `0`, Latin hits `0`, Devanagari/Bengali stray-script hits `0`, banned/surface hits `0`, meta-volume hits `0`, strict route-scent hits `0`, required misses `0`, reserved future-lane hits `0`, duplicate nonempty 5-line windows `0`, byte-level BOM `0`, EOF missing `0`, hash `54CC7217FC02238F3E82FB50CD4C0B2D5745222CF7553DAED26EF414647D3A73`.
+- Result:
+  - Style-harness verified range advances through `Vol.8 Chapters 1~10`.
+  - Aggregate style-harness verified range remains through `Vol.8 Chapters 1~5`.
+  - Next target is `Vol.8 Chapter 11`.
+
 ## 2026-06-27 KST
 
 - Mode: `rttp style-harness recast Vol.8 Chapter 9`
