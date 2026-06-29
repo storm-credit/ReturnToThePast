@@ -14,6 +14,28 @@
 
 ## 2026-06-29 KST
 
+- Mode: `rttp style-harness recast Vol.8 Chapter 17`
+- Scope: single-chapter lock pass for `Drafts/Vol_8/Vol_8_Chapter_17.md`, with `Drafts/Vol_8/Vol_8_Chapter_16.md` as prior edge and `Drafts/Vol_8/Vol_8_Chapter_18.md` as right edge.
+- Current work: `Vol.8 Chapter 17` style-harness lock complete.
+- Next work: `Vol.8 Chapter 18`; aggregate style-harness verification remains contiguous through `Vol.8 Chapters 1~5`.
+- Execution mode: heartbeat-triggered orchestra-conductor single-chapter lock pass; conductor read-only specialist lenses plus final integration.
+- MCP: none; no multi-agent worker was spawned because this heartbeat pass did not require explicit delegation.
+- Skills: `rttp-lock-cycle`.
+- Automations: `rttp-style-harness-completion-loop`.
+- Edits:
+  - `Drafts/Vol_8/Vol_8_Chapter_17.md`
+  - `orchestra/VOL8_CHAPTER_17_STYLE_HARNESS_CHECKPOINT_2026-06-29.md`
+  - `orchestra/SESSION_STATE.md`
+  - `orchestra/NEXT_DIALOGUE_HANDOFF.md`
+  - `orchestra/EXECUTION_PROGRESS_LEDGER.md`
+- Specialist FAIL ledger: initial Ch17 carried numeric title prefix `192화`, under-floor length at `3,332` body no-space, 30 artifact backticks, one meta-title hit, four strict route/answer-key scent hits under detector counting, and one required marker miss because the outline-owned `올라와라` pressure was absent. The core `후영의 강화` / pursuit from `동벽 임시 보류실` / residual-shadow symptom lane was correct but needed clearer same-scene stakes, current evidence causality, body-cost pressure, and an ending click that did not pull Ch18's tower-entry structure forward.
+- Manuscript note: revised Ch17 narrowly only, preserving the Ch16 handoff from the `동벽 임시 보류실` plate, Iris/Aiden tactical rhythm, 후영 as failed-time residue, and the empty `임시 보류` tag. Removed numeric title/backticks/route-scent surfaces, expanded the live removal-procedure stakes, added lower-route people-as-cargo evidence, made 후영 delay Aiden's body rather than guide him, added current wheel-trace proof over failed residues, and introduced `올라와라` as a costly pull from inside Aiden's delayed rhythm without revealing Ch18's `탑의 입구` / `인과의 실` lane.
+- Final verification: full reread after repair plus five no-edit cycles all PASS at `body_nospace=5,213`, `total_no_space=5,218`, title failures `0`, under-floor `0`, backticks `0`, Latin hits `0`, Arabic/Devanagari/Bengali stray-script hits `0`, banned/surface hits `0`, meta-title hits `0`, strict route-scent hits `0`, required misses `0`, reserved Ch18-lane hits `0`, duplicate contiguous nonempty 5-line windows `0`, byte-level BOM `0`, EOF missing `0`, hash `7E3F6452BC67CC5FEFB2E67E0C0292EA10AC0F70580F8A239AA51C85902E0A66`.
+- Result:
+  - Style-harness verified range advances through `Vol.8 Chapters 1~17`.
+  - Aggregate style-harness verified range remains through `Vol.8 Chapters 1~5`.
+  - Next target is `Vol.8 Chapter 18`.
+
 - Mode: `rttp style-harness recast Vol.8 Chapter 16`
 - Scope: single-chapter lock pass for `Drafts/Vol_8/Vol_8_Chapter_16.md`, with `Drafts/Vol_8/Vol_8_Chapter_15.md` as prior edge and `Drafts/Vol_8/Vol_8_Chapter_17.md` as right edge.
 - Current work: `Vol.8 Chapter 16` style-harness lock complete.
