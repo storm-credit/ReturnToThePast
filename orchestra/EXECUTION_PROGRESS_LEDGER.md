@@ -14,6 +14,28 @@
 
 ## 2026-06-29 KST
 
+- Mode: `rttp style-harness recast Vol.8 Chapter 12`
+- Scope: single-chapter lock pass for `Drafts/Vol_8/Vol_8_Chapter_12.md`, with `Drafts/Vol_8/Vol_8_Chapter_11.md` as prior edge and `Drafts/Vol_8/Vol_8_Chapter_13.md` as right edge.
+- Current work: `Vol.8 Chapter 12` style-harness lock complete.
+- Next work: `Vol.8 Chapter 13`; aggregate style-harness verification remains contiguous through `Vol.8 Chapters 1~5`.
+- Execution mode: heartbeat-triggered orchestra-conductor single-chapter lock pass; conductor read-only specialist lenses plus final integration.
+- MCP: none; no multi-agent worker was spawned because this heartbeat pass did not require explicit delegation.
+- Skills: `rttp-lock-cycle`.
+- Automations: `rttp-style-harness-completion-loop`.
+- Edits:
+  - `Drafts/Vol_8/Vol_8_Chapter_12.md`
+  - `orchestra/VOL8_CHAPTER_12_STYLE_HARNESS_CHECKPOINT_2026-06-29.md`
+  - `orchestra/SESSION_STATE.md`
+  - `orchestra/NEXT_DIALOGUE_HANDOFF.md`
+  - `orchestra/EXECUTION_PROGRESS_LEDGER.md`
+- Specialist FAIL ledger: initial Ch12 carried numeric title prefix `187화`, under-floor length at about `3,995` body no-space, artifact backticks, Ch13-reserved Baltazar/record-office trace bleed in the ending, and one replay-scent attacker-return phrase. The core second-fight / `유령` / `공백 의심` / shelter-slot lane was correct but needed stronger Ch12-local proof of paper-first triage, public reaction, functional trust, and monitored shelter rules.
+- Manuscript note: revised Ch12 narrowly only, preserving the second-fight execution, `기록부터`, `공백 의심`, `그거 내놔`, `오늘 밤만`, empty-slot shelter invitation, Iris's delayed-familiarity irritation, `유령` naming, and `멈추지 않고` ending. Removed numeric title/backticks, removed Ch13 trace bleed, added paper-proof/public-reaction/shelter-slot pressure, and replaced the `이번에도 다시` attacker-return phrasing with in-world escalation language. Ch13's Baltazar record trace remains reserved; Ch14's `유령의 칼` lane remains reserved.
+- Final verification: full reread after repair plus five no-edit cycles all PASS at `body_nospace=4,835`, `total_no_space=4,837`, title failures `0`, under-floor `0`, backticks `0`, Latin hits `0`, Devanagari/Bengali stray-script hits `0`, banned/surface hits `0`, meta-volume hits `0`, strict route-scent hits `0`, required misses `0`, reserved future-lane hits `0`, duplicate nonempty 5-line windows `0`, byte-level BOM `0`, EOF missing `0`, hash `C1A18E4D94ABD1CD4BB41359BFEF0A7D76ED9F489767244C878DD96BCDBD4CC9`.
+- Result:
+  - Style-harness verified range advances through `Vol.8 Chapters 1~12`.
+  - Aggregate style-harness verified range remains through `Vol.8 Chapters 1~5`.
+  - Next target is `Vol.8 Chapter 13`.
+
 - Mode: `rttp style-harness recast Vol.8 Chapter 11`
 - Scope: single-chapter lock pass for `Drafts/Vol_8/Vol_8_Chapter_11.md`, with `Drafts/Vol_8/Vol_8_Chapter_10.md` as prior edge and `Drafts/Vol_8/Vol_8_Chapter_12.md` as right edge.
 - Current work: `Vol.8 Chapter 11` style-harness lock complete.
