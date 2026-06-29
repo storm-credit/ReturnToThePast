@@ -14,6 +14,28 @@
 
 ## 2026-06-30 KST
 
+- Mode: `rttp style-harness recast Vol.8 Chapter 25`
+- Scope: single-chapter lock pass for `Drafts/Vol_8/Vol_8_Chapter_25.md`, with `Drafts/Vol_8/Vol_8_Chapter_24.md` as prior edge and `Drafts/Vol_9/Vol_9_Chapter_1.md` as right edge.
+- Current work: `Vol.8 Chapter 25` style-harness lock complete.
+- Next work: `Vol.8 Chapters 6~10 aggregate`; aggregate style-harness verification remains contiguous through `Vol.8 Chapters 1~5`.
+- Execution mode: heartbeat-triggered orchestra-conductor single-chapter lock pass; conductor read-only specialist lenses plus final integration.
+- MCP: none; no multi-agent worker was spawned because this heartbeat pass did not require explicit delegation.
+- Skills: `rttp-lock-cycle`.
+- Automations: `rttp-style-harness-completion-loop`.
+- Edits:
+  - `Drafts/Vol_8/Vol_8_Chapter_25.md`
+  - `orchestra/VOL8_CHAPTER_25_STYLE_HARNESS_CHECKPOINT_2026-06-30.md`
+  - `orchestra/SESSION_STATE.md`
+  - `orchestra/NEXT_DIALOGUE_HANDOFF.md`
+  - `orchestra/EXECUTION_PROGRESS_LEDGER.md`
+- Specialist FAIL ledger: initial Ch25 carried numeric title prefix `200화`, under-floor length at `2,988` body no-space, 56 artifact backticks, and strict route-scent residue on repeated `이미`. The core return-to-Northbin/counterread lane was structurally correct, but needed clearer first-screen survival pressure, name-vs-use logic, `재검` as upward procedure, and a boundary-controlled `결손 1` handoff that did not turn Vol.9's pursuit lane into a repeat.
+- Manuscript note: revised Ch25 narrowly only, preserving the return to Northbin, `활용 검토`, `오독`, `북구획 이탈`, `활용 보류`, `재검`, `결손 1`, `결손 1 확인 필요`, and `외벽 3-1`. Removed numeric title/backticks/strict residue, added Northbin being read around Aiden, clarified `결손 1` as a vacant function/seat, added `재검` as a ledger procedure, and sharpened the ending pressure around the possible seat Aiden may enter.
+- Final verification: full reread after repair plus five no-edit cycles all PASS at `body_nospace=4,933`, `total_no_space=4,937`, title failures `0`, under-floor `0`, backticks `0`, Latin hits `0`, stray-script hits `0`, banned/surface hits `0`, strict route/meta hits `0`, required misses `0`, duplicate contiguous nonempty 5-line windows `0`, byte-level BOM `0`, EOF missing `0`, hash `E0197B37CAA030941694CDBC8EBBE57891E6DC74E26920465BD67114CEACA00D`.
+- Result:
+  - Individual style-harness verified range advances through `Vol.8 Chapters 1~25`.
+  - Aggregate style-harness verified range remains through `Vol.8 Chapters 1~5`.
+  - Next target is `Vol.8 Chapters 6~10 aggregate`.
+
 - Mode: `rttp style-harness recast Vol.8 Chapter 24`
 - Scope: single-chapter lock pass for `Drafts/Vol_8/Vol_8_Chapter_24.md`, with `Drafts/Vol_8/Vol_8_Chapter_23.md` as prior edge and `Drafts/Vol_8/Vol_8_Chapter_25.md` as right edge.
 - Current work: `Vol.8 Chapter 24` style-harness lock complete.
