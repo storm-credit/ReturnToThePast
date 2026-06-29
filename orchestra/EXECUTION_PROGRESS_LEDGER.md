@@ -14,6 +14,28 @@
 
 ## 2026-06-29 KST
 
+- Mode: `rttp style-harness recast Vol.8 Chapter 13`
+- Scope: single-chapter lock pass for `Drafts/Vol_8/Vol_8_Chapter_13.md`, with `Drafts/Vol_8/Vol_8_Chapter_12.md` as prior edge and `Drafts/Vol_8/Vol_8_Chapter_14.md` as right edge. `Drafts/Vol_8/Vol_8_Chapter_15.md` was also read as the next handoff boundary.
+- Current work: `Vol.8 Chapter 13` style-harness lock complete.
+- Next work: `Vol.8 Chapter 14`; aggregate style-harness verification remains contiguous through `Vol.8 Chapters 1~5`.
+- Execution mode: heartbeat-triggered orchestra-conductor single-chapter lock pass; conductor read-only specialist lenses plus final integration.
+- MCP: none; no multi-agent worker was spawned because this heartbeat pass did not require explicit delegation.
+- Skills: `rttp-lock-cycle`.
+- Automations: `rttp-style-harness-completion-loop`.
+- Edits:
+  - `Drafts/Vol_8/Vol_8_Chapter_13.md`
+  - `orchestra/VOL8_CHAPTER_13_STYLE_HARNESS_CHECKPOINT_2026-06-29.md`
+  - `orchestra/SESSION_STATE.md`
+  - `orchestra/NEXT_DIALOGUE_HANDOFF.md`
+  - `orchestra/EXECUTION_PROGRESS_LEDGER.md`
+- Specialist FAIL ledger: initial Ch13 carried numeric title prefix `188화`, under-floor length at about `3,994` body no-space, artifact backticks, direct `루프` time-scent, and needed more Ch13-local proof that the record office is an active classification machine. The core Baltazar trace / `기록원 터` / `공백 대조` / `올라오면 안다` lane was correct but needed stronger public consequence, name-risk, record-authority, and lower-archive threshold pressure.
+- Manuscript note: revised Ch13 narrowly only, preserving the Baltazar trace, Iris's warning, record-office entry, `공백 대조`, `특이 기록 보류`, `올라오면 안다`, and lower-archive coordinate. Removed numeric title/backticks, replaced direct `루프` wording with in-world time-prison language, added record-office public consequence and selection-authority pressure, and sharpened the ending around the lower-archive permission test. Ch14's `유령의 칼` / solo-removal lane and Ch15's `이름 없는 폭력` / Iris blade-trace recognition aftermath remain reserved.
+- Final verification: full reread after repair plus five no-edit cycles all PASS at `body_nospace=4,805`, `total_no_space=4,812`, title failures `0`, under-floor `0`, backticks `0`, Latin hits `0`, Arabic/Devanagari/Bengali stray-script hits `0`, banned/surface hits `0`, meta-volume hits `0`, strict route-scent hits `0`, required misses `0`, reserved future-lane hits `0`, duplicate contiguous nonempty 5-line windows `0`, byte-level BOM `0`, EOF missing `0`, hash `5FB002173DF11D2FC3C2F3C3703ABB43DE0370EC6901F5145C9CA930C97D7115`.
+- Result:
+  - Style-harness verified range advances through `Vol.8 Chapters 1~13`.
+  - Aggregate style-harness verified range remains through `Vol.8 Chapters 1~5`.
+  - Next target is `Vol.8 Chapter 14`.
+
 - Mode: `rttp style-harness recast Vol.8 Chapter 12`
 - Scope: single-chapter lock pass for `Drafts/Vol_8/Vol_8_Chapter_12.md`, with `Drafts/Vol_8/Vol_8_Chapter_11.md` as prior edge and `Drafts/Vol_8/Vol_8_Chapter_13.md` as right edge.
 - Current work: `Vol.8 Chapter 12` style-harness lock complete.
