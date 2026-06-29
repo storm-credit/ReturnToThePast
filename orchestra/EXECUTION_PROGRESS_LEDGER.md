@@ -14,6 +14,28 @@
 
 ## 2026-06-30 KST
 
+- Mode: `rttp style-harness recast Vol.8 Chapter 23`
+- Scope: single-chapter lock pass for `Drafts/Vol_8/Vol_8_Chapter_23.md`, with `Drafts/Vol_8/Vol_8_Chapter_22.md` as prior edge and `Drafts/Vol_8/Vol_8_Chapter_24.md` as right edge.
+- Current work: `Vol.8 Chapter 23` style-harness lock complete.
+- Next work: `Vol.8 Chapter 24`; aggregate style-harness verification remains contiguous through `Vol.8 Chapters 1~5`.
+- Execution mode: heartbeat-triggered orchestra-conductor single-chapter lock pass; conductor read-only specialist lenses plus final integration.
+- MCP: none; no multi-agent worker was spawned because this heartbeat pass did not require explicit delegation.
+- Skills: `rttp-lock-cycle`.
+- Automations: `rttp-style-harness-completion-loop`.
+- Edits:
+  - `Drafts/Vol_8/Vol_8_Chapter_23.md`
+  - `orchestra/VOL8_CHAPTER_23_STYLE_HARNESS_CHECKPOINT_2026-06-30.md`
+  - `orchestra/SESSION_STATE.md`
+  - `orchestra/NEXT_DIALOGUE_HANDOFF.md`
+  - `orchestra/EXECUTION_PROGRESS_LEDGER.md`
+- Specialist FAIL ledger: initial Ch23 carried numeric title prefix `198화`, under-floor length at `3,918` body no-space, 32 artifact backticks, strict route/meta hits on `이번엔`, repeated `이미`, and `작품`, plus a missing outline lane for Iris' `왜 이렇게 익숙하죠?` recognition pressure.
+- Manuscript note: revised Ch23 narrowly only, preserving the captured 위임자 interrogation, `위임자는 직책이 아니라 상태`, `남수문`/`동벽 상신` continuity, `공백 관측반`, `동벽 외벽 하층`, and `빈자리 보는 쪽` as a discovered phrase. Changed the title to `아이리스의 감`, removed backticks/route residue, added Iris familiarity pressure and Aiden's cover answer, clarified transferable-state stakes, and strengthened the captive-as-route ending without pulling Ch24's storage-layer confrontation forward.
+- Final verification: full reread after repair plus five no-edit cycles all PASS at `body_nospace=5,089`, `total_no_space=5,095`, title failures `0`, under-floor `0`, backticks `0`, Latin hits `0`, Arabic/Devanagari/Bengali stray-script hits `0`, banned/surface hits `0`, strict route/meta hits `0`, required misses `0`, Ch24 reserved storage-confrontation hits `0`, duplicate contiguous nonempty 5-line windows `0`, byte-level BOM `0`, EOF missing `0`, hash `AB4997F4C378E94207C01159EB163DD4A0F32D6EB7941E8A4DE88F098A3DDFD1`.
+- Result:
+  - Style-harness verified range advances through `Vol.8 Chapters 1~23`.
+  - Aggregate style-harness verified range remains through `Vol.8 Chapters 1~5`.
+  - Next target is `Vol.8 Chapter 24`.
+
 - Mode: `rttp style-harness recast Vol.8 Chapter 22`
 - Scope: single-chapter lock pass for `Drafts/Vol_8/Vol_8_Chapter_22.md`, with `Drafts/Vol_8/Vol_8_Chapter_21.md` as prior edge and `Drafts/Vol_8/Vol_8_Chapter_23.md` as right edge.
 - Current work: `Vol.8 Chapter 22` style-harness lock complete.
