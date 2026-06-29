@@ -14,6 +14,28 @@
 
 ## 2026-06-29 KST
 
+- Mode: `rttp style-harness recast Vol.8 Chapter 14`
+- Scope: single-chapter lock pass for `Drafts/Vol_8/Vol_8_Chapter_14.md`, with `Drafts/Vol_8/Vol_8_Chapter_13.md` as prior edge and `Drafts/Vol_8/Vol_8_Chapter_15.md` as right edge.
+- Current work: `Vol.8 Chapter 14` style-harness lock complete.
+- Next work: `Vol.8 Chapter 15`; aggregate style-harness verification remains contiguous through `Vol.8 Chapters 1~5`.
+- Execution mode: heartbeat-triggered orchestra-conductor single-chapter lock pass; conductor read-only specialist lenses plus final integration.
+- MCP: none; no multi-agent worker was spawned because this heartbeat pass did not require explicit delegation.
+- Skills: `rttp-lock-cycle`.
+- Automations: `rttp-style-harness-completion-loop`.
+- Edits:
+  - `Drafts/Vol_8/Vol_8_Chapter_14.md`
+  - `orchestra/VOL8_CHAPTER_14_STYLE_HARNESS_CHECKPOINT_2026-06-29.md`
+  - `orchestra/SESSION_STATE.md`
+  - `orchestra/NEXT_DIALOGUE_HANDOFF.md`
+  - `orchestra/EXECUTION_PROGRESS_LEDGER.md`
+- Specialist FAIL ledger: initial Ch14 carried numeric title prefix `189화`, severe under-floor length at `2,619` body no-space, two artifact backticks, a meta-title hit, one stray-script violence artifact, and a Ch15-reserved `검흔` ending surface. The core `유령의 칼` / solo strike / `염색공방` / record-board breakage lane was correct but needed fuller west-side/internal-war pressure, record-board proof, dry body-level scene causality, and a sharper ending that stopped before Iris's recognition aftermath.
+- Manuscript note: revised Ch14 narrowly only, preserving the post-record-office drive, the west-side `염색공방` strike, `회색 외투` / `기록원 보류실` linkage, `이관 전 임시 보류`, record-board destruction, and the `유령의 칼` ending. Removed numeric title/backticks/stray-script text, removed Ch15-reserved `검흔`, expanded north-bin name-fear and west-side record-board pressure, added the bound errand child as consequence proof without public hero framing, and trimmed one reread-caught `이번엔` repeat-scent phrase before the final gate.
+- Final verification: full reread after repair plus five no-edit cycles all PASS at `body_nospace=5,248`, `total_no_space=5,252`, title failures `0`, under-floor `0`, backticks `0`, Latin hits `0`, Arabic/Devanagari/Bengali stray-script hits `0`, banned/surface hits `0`, meta-volume hits `0`, strict route-scent hits `0`, required misses `0`, reserved future-lane hits `0`, duplicate contiguous nonempty 5-line windows `0`, byte-level BOM `0`, EOF missing `0`, hash `25D73AD97397BAD68C0005159ABF44CE8DAD7C4F7886ACF7A556FF5EF38D5BF6`.
+- Result:
+  - Style-harness verified range advances through `Vol.8 Chapters 1~14`.
+  - Aggregate style-harness verified range remains through `Vol.8 Chapters 1~5`.
+  - Next target is `Vol.8 Chapter 15`.
+
 - Mode: `rttp style-harness recast Vol.8 Chapter 13`
 - Scope: single-chapter lock pass for `Drafts/Vol_8/Vol_8_Chapter_13.md`, with `Drafts/Vol_8/Vol_8_Chapter_12.md` as prior edge and `Drafts/Vol_8/Vol_8_Chapter_14.md` as right edge. `Drafts/Vol_8/Vol_8_Chapter_15.md` was also read as the next handoff boundary.
 - Current work: `Vol.8 Chapter 13` style-harness lock complete.
