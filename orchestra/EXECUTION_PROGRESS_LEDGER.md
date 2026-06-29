@@ -14,6 +14,28 @@
 
 ## 2026-06-30 KST
 
+- Mode: `rttp style-harness recast Vol.8 Chapter 24`
+- Scope: single-chapter lock pass for `Drafts/Vol_8/Vol_8_Chapter_24.md`, with `Drafts/Vol_8/Vol_8_Chapter_23.md` as prior edge and `Drafts/Vol_8/Vol_8_Chapter_25.md` as right edge.
+- Current work: `Vol.8 Chapter 24` style-harness lock complete.
+- Next work: `Vol.8 Chapter 25`; aggregate style-harness verification remains contiguous through `Vol.8 Chapters 1~5`.
+- Execution mode: heartbeat-triggered orchestra-conductor single-chapter lock pass; conductor read-only specialist lenses plus final integration.
+- MCP: none; no multi-agent worker was spawned because this heartbeat pass did not require explicit delegation.
+- Skills: `rttp-lock-cycle`.
+- Automations: `rttp-style-harness-completion-loop`.
+- Edits:
+  - `Drafts/Vol_8/Vol_8_Chapter_24.md`
+  - `orchestra/VOL8_CHAPTER_24_STYLE_HARNESS_CHECKPOINT_2026-06-30.md`
+  - `orchestra/SESSION_STATE.md`
+  - `orchestra/NEXT_DIALOGUE_HANDOFF.md`
+  - `orchestra/EXECUTION_PROGRESS_LEDGER.md`
+- Specialist FAIL ledger: initial Ch24 carried numeric title prefix `199화`, under-floor length at `4,400` body no-space, 26 artifact backticks, strict route/meta hits on `이번엔`, `정답`, and repeated `이미`; the live storage-layer encounter was structurally useful but needed clearer position-first proof, 후영 cost, and a colder return bridge.
+- Manuscript note: revised Ch24 narrowly only, preserving the `빈자리 보는 쪽` storage-layer encounter, `외벽 저장층`, `활용 가능`, `활용 검토`, the face/seat logic, and failed 위임자 weak-link tactic. Changed the title to `빈자리 보는 쪽`, removed all backticks/route residue, added Aiden's vacant-seat classification consequence, added 후영 delayed-pain cost, sharpened the woman's table/report reaction, and strengthened the retreat with the `활용 검토` plate without pulling Ch25's counterread lane forward.
+- Final verification: full reread after repair plus five no-edit cycles all PASS at `body_nospace=4,810`, `total_no_space=4,816`, title failures `0`, under-floor `0`, backticks `0`, Latin hits `0`, stray-script hits `0`, banned/surface hits `0`, strict route/meta hits `0`, required misses `0`, Ch25 reserved-lane hits `0`, duplicate contiguous nonempty 5-line windows `0`, byte-level BOM `0`, EOF missing `0`, hash `DFA703358A9D481C84971A9EED9AD74FE30CB1C482C894182A0FF4425D0743BD`.
+- Result:
+  - Style-harness verified range advances through `Vol.8 Chapters 1~24`.
+  - Aggregate style-harness verified range remains through `Vol.8 Chapters 1~5`.
+  - Next target is `Vol.8 Chapter 25`.
+
 - Mode: `rttp style-harness recast Vol.8 Chapter 23`
 - Scope: single-chapter lock pass for `Drafts/Vol_8/Vol_8_Chapter_23.md`, with `Drafts/Vol_8/Vol_8_Chapter_22.md` as prior edge and `Drafts/Vol_8/Vol_8_Chapter_24.md` as right edge.
 - Current work: `Vol.8 Chapter 23` style-harness lock complete.
