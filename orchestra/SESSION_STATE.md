@@ -5,17 +5,18 @@
 - Automation: `rttp-style-harness-completion-loop`
 - Queue type: `style-harness recast`, separate from the prior Vol.6/overall-147 re-deep-lock queue.
 - Start target: `Vol.1 Chapter 1`
-- Current single-chapter target: `Vol.9 Chapter 2`
-- Current style-harness verified range: `Vol.1 Chapters 1~25; Vol.2 Chapters 1~25; Vol.3 Chapters 1~25; Vol.4 Chapters 1~25; Vol.5 Chapters 1~25; Vol.6 Chapters 1~25; Vol.7 Chapters 1~25; Vol.8 Chapters 1~25; Vol.9 Chapter 1`
+- Current single-chapter target: `Vol.9 Chapter 3`
+- Current style-harness verified range: `Vol.1 Chapters 1~25; Vol.2 Chapters 1~25; Vol.3 Chapters 1~25; Vol.4 Chapters 1~25; Vol.5 Chapters 1~25; Vol.6 Chapters 1~25; Vol.7 Chapters 1~25; Vol.8 Chapters 1~25; Vol.9 Chapters 1~2`
 - Current aggregate style-harness verified range: `Vol.1 Chapters 1~25; Vol.2 Chapters 1~25; Vol.3 Chapters 1~25; Vol.4 Chapters 1~25; Vol.5 Chapters 1~25; Vol.6 Chapters 1~25; Vol.7 Chapters 1~25; Vol.8 Chapters 1~25`
-- Active incomplete style-harness range: `Vol.9 Chapter 2`
-- Latest style checkpoint: `orchestra/VOL9_CHAPTER_1_STYLE_HARNESS_CHECKPOINT_2026-06-30.md`
+- Active incomplete style-harness range: `Vol.9 Chapter 3`
+- Latest style checkpoint: `orchestra/VOL9_CHAPTER_2_STYLE_HARNESS_CHECKPOINT_2026-06-30.md`
 - Latest aggregate style checkpoint: `orchestra/VOL8_CHAPTER_21_25_STYLE_HARNESS_AGGREGATE_CHECKPOINT_2026-06-30.md`
-- Important status note: Vol.1 Chapters 1~25, Vol.2 Chapters 1~25, Vol.3 Chapters 1~25, Vol.4 Chapters 1~25, Vol.5 Chapters 1~25, Vol.6 Chapters 1~25, Vol.7 Chapters 1~25, Vol.8 Chapters 1~25, and Vol.9 Chapter 1 are style-locked complete under the new sample-derived style harness after full read, FAIL ledger, narrow repair/full reread where needed, and final no-edit 5-cycle verification. Aggregate verification is contiguous through `Vol.8 Chapters 1~25`; the next required unit is `Vol.9 Chapter 2` in the style-harness recast queue, not the older Vol.6/overall-147 re-deep-lock queue.
+- Important status note: Vol.1 Chapters 1~25, Vol.2 Chapters 1~25, Vol.3 Chapters 1~25, Vol.4 Chapters 1~25, Vol.5 Chapters 1~25, Vol.6 Chapters 1~25, Vol.7 Chapters 1~25, Vol.8 Chapters 1~25, and Vol.9 Chapters 1~2 are style-locked complete under the new sample-derived style harness after full read, FAIL ledger, narrow repair/full reread where needed, and final no-edit 5-cycle verification. Aggregate verification is contiguous through `Vol.8 Chapters 1~25`; the next required unit is `Vol.9 Chapter 3` in the style-harness recast queue, not the older Vol.6/overall-147 re-deep-lock queue.
 - Length policy: from `Vol.1 Chapter 22` onward, enforce no-space floor `4,800` and target around `5,000`; do not retroactively revise Chapters 1~21 for length unless explicitly requested.
 - Style harness now requires: `칼날형 입구`, `단계식 오차 확인`, `관계 압력 우선`, `저강도 역전`, `주변 반응 증명`, `분노/폭력 억제`, and `회귀/게임 루트가 아닌 시간여행/인과부채 감각`.
 - Old queue preservation: prior reopened queue remains recorded through overall `146`; do not continue old `147 (Vol.6 Chapter 22)` from this new automation unless explicitly instructed.
 - Automation push policy: after each successful chapter or aggregate packet, stage only relevant changed files, commit clearly, and push the current branch to origin.
+- Latest changed files added by Vol.9 Chapter 2 pass: `Drafts/Vol_9/Vol_9_Chapter_2.md`, `orchestra/VOL9_CHAPTER_2_STYLE_HARNESS_CHECKPOINT_2026-06-30.md`, `orchestra/SESSION_STATE.md`, `orchestra/NEXT_DIALOGUE_HANDOFF.md`, `orchestra/EXECUTION_PROGRESS_LEDGER.md`.
 - Latest changed files added by Vol.9 Chapter 1 pass: `Drafts/Vol_9/Vol_9_Chapter_1.md`, `orchestra/VOL9_CHAPTER_1_STYLE_HARNESS_CHECKPOINT_2026-06-30.md`, `orchestra/SESSION_STATE.md`, `orchestra/NEXT_DIALOGUE_HANDOFF.md`, `orchestra/EXECUTION_PROGRESS_LEDGER.md`.
 - Latest changed files added by Vol.8 Chapters 21~25 aggregate pass: `orchestra/VOL8_CHAPTER_21_25_STYLE_HARNESS_AGGREGATE_CHECKPOINT_2026-06-30.md`, `orchestra/SESSION_STATE.md`, `orchestra/NEXT_DIALOGUE_HANDOFF.md`, `orchestra/EXECUTION_PROGRESS_LEDGER.md`.
 - Latest changed files added by Vol.8 Chapters 16~20 aggregate pass: `orchestra/VOL8_CHAPTER_16_20_STYLE_HARNESS_AGGREGATE_CHECKPOINT_2026-06-30.md`, `orchestra/SESSION_STATE.md`, `orchestra/NEXT_DIALOGUE_HANDOFF.md`, `orchestra/EXECUTION_PROGRESS_LEDGER.md`.
