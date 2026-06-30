@@ -14,6 +14,27 @@
 
 ## 2026-06-30 KST
 
+- Mode: `rttp style-harness recast Vol.8 Chapters 16~20 aggregate`
+- Scope: aggregate lock pass for `Drafts/Vol_8/Vol_8_Chapter_16.md` through `Drafts/Vol_8/Vol_8_Chapter_20.md`, with `Drafts/Vol_8/Vol_8_Chapter_15.md` as prior edge and `Drafts/Vol_8/Vol_8_Chapter_21.md` as right edge.
+- Current work: `Vol.8 Chapters 16~20 aggregate` style-harness aggregate lock complete.
+- Next work: `Vol.8 Chapters 21~25 aggregate`; aggregate style-harness verification is now contiguous through `Vol.8 Chapters 1~20`.
+- Execution mode: heartbeat-triggered orchestra-conductor aggregate lock pass; conductor read-only specialist lenses plus final integration.
+- MCP: none; no multi-agent worker was spawned because this heartbeat pass did not require explicit delegation.
+- Skills: `rttp-lock-cycle`.
+- Automations: `rttp-style-harness-completion-loop`.
+- Edits:
+  - `orchestra/VOL8_CHAPTER_16_20_STYLE_HARNESS_AGGREGATE_CHECKPOINT_2026-06-30.md`
+  - `orchestra/SESSION_STATE.md`
+  - `orchestra/NEXT_DIALOGUE_HANDOFF.md`
+  - `orchestra/EXECUTION_PROGRESS_LEDGER.md`
+- Specialist FAIL ledger: no manuscript FAIL survived the aggregate pass. The packet cleanly carries Ch15's nameless-violence/`검흔` accountability into Ch16 direct pursuit, Ch17 `후영의 강화`, Ch18 보류실 as the tower-intake threshold, Ch19 temporary-hold/resolve pressure, and Ch20 read-person/last-alliance pressure while reserving Ch21's deeper ledger and survivor-consolidation lane.
+- Manuscript note: no draft edits were required. The live Ch18 title is `보류실`; aggregate boundary control treated it as the manuscript's tower-entry threshold because the chapter explicitly establishes `시간의 탑 하부 접수` and lower-intake procedure without jumping to the later tower-entry endpoint.
+- Final verification: full reread plus five no-edit aggregate cycles all PASS at `aggregate_body_nospace=25,286`, `aggregate_total_no_space=25,304`, title failures `0`, under-floor files `0`, backticks `0`, Latin hits `0`, stray-script hits `0`, banned/surface files `0`, strict route-scent files `0`, meta files `0`, required misses `0`, Ch21 reserved-lane files `0`, duplicate contiguous nonempty 5-line windows `0`, byte-level BOM `0`, EOF missing `0`, packet hash `F26BDF14C017723376FA32EE378828FC8860143FA126FB74BFDDA7AC1D54E8A9`.
+- Result:
+  - Individual style-harness verified range remains through `Vol.8 Chapters 1~25`.
+  - Aggregate style-harness verified range advances through `Vol.8 Chapters 1~20`.
+  - Next target is `Vol.8 Chapters 21~25 aggregate`.
+
 - Mode: `rttp style-harness recast Vol.8 Chapters 11~15 aggregate`
 - Scope: aggregate lock pass for `Drafts/Vol_8/Vol_8_Chapter_11.md` through `Drafts/Vol_8/Vol_8_Chapter_15.md`, with `Drafts/Vol_8/Vol_8_Chapter_10.md` as prior edge and `Drafts/Vol_8/Vol_8_Chapter_16.md` as right edge.
 - Current work: `Vol.8 Chapters 11~15 aggregate` style-harness aggregate lock complete.
