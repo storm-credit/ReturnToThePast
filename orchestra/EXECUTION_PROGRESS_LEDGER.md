@@ -12,6 +12,30 @@
 - 상세 누적 진행도는 `SETTING_PROGRESS_TRACKER.md`, `DRAFTING_PROGRESS_TRACKER.md`를 따른다.
 - 현재 즉시 재개 지점은 `SESSION_STATE.md`를 따른다.
 
+## 2026-07-01 KST
+
+- Mode: `rttp style-harness recast Vol.9 Chapter 9`
+- Scope: single-chapter lock pass for `Drafts/Vol_9/Vol_9_Chapter_9.md`, with `Drafts/Vol_9/Vol_9_Chapter_8.md` as prior edge and `Drafts/Vol_9/Vol_9_Chapter_10.md` as right edge; `Drafts/Vol_9/Vol_9_Chapter_11.md` was read for the next handoff boundary.
+- Current work: `Vol.9 Chapter 9` style-harness lock complete.
+- Next work: `Vol.9 Chapter 10`; individual style-harness verification is now contiguous through `Vol.9 Chapters 1~9`, and aggregate style-harness verification remains contiguous through `Vol.8 Chapters 1~25`.
+- Execution mode: heartbeat-triggered orchestra-conductor single-chapter lock pass; conductor read-only specialist lenses plus final integration.
+- MCP: none; no multi-agent worker was spawned because this heartbeat pass did not require explicit delegation.
+- Skills: `rttp-lock-cycle`.
+- Automations: `rttp-style-harness-completion-loop`.
+- Edits:
+  - `Drafts/Vol_9/Vol_9_Chapter_9.md`
+  - `orchestra/VOL9_CHAPTER_9_STYLE_HARNESS_CHECKPOINT_2026-07-01.md`
+  - `orchestra/SESSION_STATE.md`
+  - `orchestra/NEXT_DIALOGUE_HANDOFF.md`
+  - `orchestra/EXECUTION_PROGRESS_LEDGER.md`
+- Specialist FAIL ledger: initial target failed on numeric title, artifact backticks, strict route-scent residue, under-floor length, underdeveloped Ch8-to-Ch9 causality, and risk of bleeding into Ch10's `자리 없는 판정` lane. First repair still failed the floor and `순간` cleanup, so the final narrow repair expanded only the Ch9-owned disposal-line pressure and removed those residual hits.
+- Manuscript note: title changed from `209화 폐기선` to `폐기선`; body no-space length now holds at `4,897`. Ch10's exact `자리 없는 판정` and `없어진 자리` lane remains absent from Ch9.
+- Final verification: full reread after target-only repair plus cleanup/length reread, then five no-edit cycles all PASS at `body_nospace=4,897`, `total_no_space=4,900`, `lines=430`, `chars=6,733`, title failures `0`, under-floor `0`, backticks `0`, strict route-scent hits `0`, required misses `0`, Ch10 reserved-lane hits `0`, hash `3AF8DD59A3B1976B2CDABC96C08E5ECD8A84E8AFA2C5A4988576F21E3A8A465F`.
+- Result:
+  - Individual style-harness verified range advances through `Vol.9 Chapters 1~9`.
+  - Aggregate style-harness verified range remains contiguous through `Vol.8 Chapters 1~25`.
+  - Next target is `Vol.9 Chapter 10`.
+
 ## 2026-06-30 KST
 
 - Mode: `rttp style-harness recast Vol.9 Chapter 8`
