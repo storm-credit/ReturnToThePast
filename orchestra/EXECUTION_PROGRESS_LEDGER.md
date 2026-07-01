@@ -14,6 +14,28 @@
 
 ## 2026-07-01 KST
 
+- Mode: `rttp style-harness recast Vol.9 Chapter 13`
+- Scope: single-chapter lock pass for `Drafts/Vol_9/Vol_9_Chapter_13.md`, with `Drafts/Vol_9/Vol_9_Chapter_12.md` as prior edge and `Drafts/Vol_9/Vol_9_Chapter_14.md` as right edge; `Drafts/Vol_9/Vol_9_Chapter_15.md` was checked for the next handoff boundary.
+- Current work: `Vol.9 Chapter 13` style-harness lock complete.
+- Next work: `Vol.9 Chapter 14`; individual style-harness verification is now contiguous through `Vol.9 Chapters 1~13`, and aggregate style-harness verification remains contiguous through `Vol.8 Chapters 1~25`.
+- Execution mode: heartbeat-triggered orchestra-conductor single-chapter lock pass; conductor read-only specialist lenses plus final integration.
+- MCP: none; no multi-agent worker was spawned because this heartbeat pass did not require explicit delegation.
+- Skills: `rttp-lock-cycle`.
+- Automations: `rttp-style-harness-completion-loop`.
+- Edits:
+  - `Drafts/Vol_9/Vol_9_Chapter_13.md`
+  - `orchestra/VOL9_CHAPTER_13_STYLE_HARNESS_CHECKPOINT_2026-07-01.md`
+  - `orchestra/SESSION_STATE.md`
+  - `orchestra/NEXT_DIALOGUE_HANDOFF.md`
+  - `orchestra/EXECUTION_PROGRESS_LEDGER.md`
+- Specialist FAIL ledger: initial target failed on numeric title, artifact backticks, strict route-scent residue, one stray non-Korean script scar, under-floor length, compressed record-line proof, and Ch14 watcher-lane leakage risk. The final repair cleared title/backticks/strict surface, corrected the scar, expanded only Ch13-owned `기록선`/`결`/`필사방`/`제분소` proof, and preserved Ch14's exact `멀리서 보는 자` lane.
+- Manuscript note: title changed from `213화 기록선` to `기록선`; body no-space length now holds at `5,041`. Ch14's exact `멀리서 보는 자` title/lane remains absent from Ch13.
+- Final verification: full reread after target-only repair plus cleanup reread, then five no-edit cycles all PASS at `body_nospace=5,041`, `total_no_space=5,044`, `lines=450`, `chars=6,887`, title failures `0`, under-floor `0`, backticks `0`, strict route-scent hits `0`, stray-script hits `0`, required misses `0`, Ch14 reserved-lane hits `0`, hash `5D31047DB75CF9F50A0A6C03C5EE5057C6A1AC746E092655C4C6E6DA4DBCB2A8`.
+- Result:
+  - Individual style-harness verified range advances through `Vol.9 Chapters 1~13`.
+  - Aggregate style-harness verified range remains contiguous through `Vol.8 Chapters 1~25`.
+  - Next target is `Vol.9 Chapter 14`.
+
 - Mode: `rttp style-harness recast Vol.9 Chapter 12`
 - Scope: single-chapter lock pass for `Drafts/Vol_9/Vol_9_Chapter_12.md`, with `Drafts/Vol_9/Vol_9_Chapter_11.md` as prior edge and `Drafts/Vol_9/Vol_9_Chapter_13.md` as right edge; `Drafts/Vol_9/Vol_9_Chapter_14.md` was checked for the next handoff boundary.
 - Current work: `Vol.9 Chapter 12` style-harness lock complete.
