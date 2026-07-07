@@ -12,6 +12,30 @@
 - 상세 누적 진행도는 `SETTING_PROGRESS_TRACKER.md`, `DRAFTING_PROGRESS_TRACKER.md`를 따른다.
 - 현재 즉시 재개 지점은 `SESSION_STATE.md`를 따른다.
 
+## 2026-07-08 KST
+
+- Mode: `rttp style-harness recast Vol.10 Chapter 3`
+- Scope: single-chapter lock pass for `Drafts/Vol_10/Vol_10_Chapter_3.md`, with `Drafts/Vol_10/Vol_10_Chapter_2.md` as prior edge, `Drafts/Vol_10/Vol_10_Chapter_4.md` as right edge, and `Drafts/Vol_10/Vol_10_Chapter_5.md` as next-right boundary.
+- Current work: `Vol.10 Chapter 3` style-harness lock complete.
+- Next work: `Vol.10 Chapter 4`; individual style-harness verification is contiguous through `Vol.10 Chapter 3`, and aggregate style-harness verification remains contiguous through `Vol.9 Chapters 1~25`.
+- Execution mode: heartbeat-triggered orchestra-conductor single-chapter lock pass; conductor read-only specialist lenses plus final integration.
+- MCP: none; no multi-agent worker was spawned because this heartbeat pass did not require explicit delegation.
+- Skills: `rttp-lock-cycle`.
+- Automations: `rttp-style-harness-completion-loop`.
+- Edits:
+  - `Drafts/Vol_10/Vol_10_Chapter_3.md`
+  - `orchestra/VOL10_CHAPTER_3_STYLE_HARNESS_CHECKPOINT_2026-07-08.md`
+  - `orchestra/SESSION_STATE.md`
+  - `orchestra/NEXT_DIALOGUE_HANDOFF.md`
+  - `orchestra/EXECUTION_PROGRESS_LEDGER.md`
+- Specialist FAIL ledger: Hook/format FAIL from numeric title and artifact backticks; length FAIL below active `4,800` no-space floor; time-scent FAIL through `이번엔`, `이번`, `이미`, and `순간`; right-edge leakage FAIL through exact `50회차`; mid-pressure FAIL because the raw confrontation needed clearer proof that Ch3 owns the first tried-to-save-Ria crying failure and tower-recorded breath/footwork distortion; ending-click FAIL because the raw ending fused lines and named Ch4's later face too directly.
+- Narrow repair: title changed to `10회차`; backticks removed; strict route-scent terms cleared; Ch3 expanded only around the `10회차` failed-self confrontation, first Ria rescue vow, crying-as-failure pressure, body mechanics of crying without stopping, 10회차 tear/shard residue, and next-face pressure; exact `50회차` and `100회차` remain absent to reserve Ch4 and Ch5 title lanes.
+- Final verification: full reread after edits, then five no-edit cycles all PASS at `body_nospace=4,801`, `total_nospace=4,805`, title `10회차`, lines `562`, chars `6,512`, backticks `0`, strict route hits `0`, reserved hits `50회차=0/100회차=0`, required misses `0`, duplicate exact five-line windows `0`, BOM `false`, EOF missing `false`, hash `D8C94279FCF19839659EEABF0A882F668E8272F12B5D0B4DF922BD8B06EEA4C6`.
+- Result:
+  - Individual style-harness verified range advances through `Vol.10 Chapter 3`.
+  - Aggregate style-harness verified range remains contiguous through `Vol.9 Chapters 1~25`.
+  - Next target is `Vol.10 Chapter 4`.
+
 ## 2026-07-07 KST
 
 - Mode: `rttp style-harness recast Vol.10 Chapter 2`
