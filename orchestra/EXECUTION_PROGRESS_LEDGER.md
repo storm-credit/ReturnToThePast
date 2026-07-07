@@ -14,6 +14,28 @@
 
 ## 2026-07-07 KST
 
+- Mode: `rttp style-harness recast Vol.10 Chapter 2`
+- Scope: single-chapter lock pass for `Drafts/Vol_10/Vol_10_Chapter_2.md`, with `Drafts/Vol_10/Vol_10_Chapter_1.md` as prior edge, `Drafts/Vol_10/Vol_10_Chapter_3.md` as right edge, `Drafts/Vol_10/Vol_10_Chapter_4.md` as next-right boundary, and `Drafts/Vol_10/Vol_10_Chapter_5.md` checked for the next handoff.
+- Current work: `Vol.10 Chapter 2` style-harness lock complete.
+- Next work: `Vol.10 Chapter 3`; individual style-harness verification is contiguous through `Vol.10 Chapter 2`, and aggregate style-harness verification remains contiguous through `Vol.9 Chapters 1~25`.
+- Execution mode: heartbeat-triggered orchestra-conductor single-chapter lock pass; conductor read-only specialist lenses plus final integration.
+- MCP: none; no multi-agent worker was spawned because this heartbeat pass did not require explicit delegation.
+- Skills: `rttp-lock-cycle`.
+- Automations: `rttp-style-harness-completion-loop`.
+- Edits:
+  - `Drafts/Vol_10/Vol_10_Chapter_2.md`
+  - `orchestra/VOL10_CHAPTER_2_STYLE_HARNESS_CHECKPOINT_2026-07-07.md`
+  - `orchestra/SESSION_STATE.md`
+  - `orchestra/NEXT_DIALOGUE_HANDOFF.md`
+  - `orchestra/EXECUTION_PROGRESS_LEDGER.md`
+- Specialist FAIL ledger: Hook/format FAIL from numeric title and artifact backticks; length FAIL below active `4,800` no-space floor; time-scent FAIL through `이번엔`, `이번`, `이미`, and `순간`; right-edge leakage FAIL through exact `10회차`; next-right boundary FAIL through exact `50회차`; mid-pressure FAIL because the raw confrontation needed clearer proof that the tower reads question-before-fear, hesitation, mercy, and objectification cost; ending-click FAIL because the raw ending fused lines and named the later-face sequence too directly.
+- Narrow repair: title changed to `1회차`; backticks removed; strict route-scent terms cleared; Ch2 expanded only around the first failed-self confrontation, Ria question, mercy/cost/body-recording pressure, first leftover shard, and next-face pressure; exact `10회차` and `50회차` removed from Ch2 to reserve Ch3 and Ch4 title lanes; ending cleaned to stop on next-blow pressure without explaining later faces.
+- Final verification: full reread after edits, then five no-edit cycles all PASS at `body_nospace=4,813`, `total_nospace=4,816`, title `1회차`, lines `625`, chars `6,666`, backticks `0`, strict route hits `0`, reserved hits `10회차=0/50회차=0`, required misses `0`, duplicate five-line windows `0`, BOM `false`, EOF missing `false`, hash `1BE6780C35196E8633827D36733C50B28AC98FF0248CBF8F8A97B0B97F7C958F`.
+- Result:
+  - Individual style-harness verified range advances through `Vol.10 Chapter 2`.
+  - Aggregate style-harness verified range remains contiguous through `Vol.9 Chapters 1~25`.
+  - Next target is `Vol.10 Chapter 3`.
+
 - Mode: `rttp style-harness recast Vol.10 Chapter 1`
 - Scope: single-chapter lock pass for `Drafts/Vol_10/Vol_10_Chapter_1.md`, with `Drafts/Vol_9/Vol_9_Chapter_25.md` as prior edge, `Drafts/Vol_10/Vol_10_Chapter_2.md` as right edge, `Drafts/Vol_10/Vol_10_Chapter_3.md` as next-right boundary, and `Drafts/Vol_10/Vol_10_Chapter_4.md` checked for the next handoff.
 - Current work: `Vol.10 Chapter 1` style-harness lock complete.
