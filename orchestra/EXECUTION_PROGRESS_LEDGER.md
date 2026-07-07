@@ -14,6 +14,28 @@
 
 ## 2026-07-07 KST
 
+- Mode: `rttp style-harness recast Vol.10 Chapter 1`
+- Scope: single-chapter lock pass for `Drafts/Vol_10/Vol_10_Chapter_1.md`, with `Drafts/Vol_9/Vol_9_Chapter_25.md` as prior edge, `Drafts/Vol_10/Vol_10_Chapter_2.md` as right edge, `Drafts/Vol_10/Vol_10_Chapter_3.md` as next-right boundary, and `Drafts/Vol_10/Vol_10_Chapter_4.md` checked for the next handoff.
+- Current work: `Vol.10 Chapter 1` style-harness lock complete.
+- Next work: `Vol.10 Chapter 2`; individual style-harness verification is contiguous through `Vol.10 Chapter 1`, and aggregate style-harness verification remains contiguous through `Vol.9 Chapters 1~25`.
+- Execution mode: heartbeat-triggered orchestra-conductor single-chapter lock pass; conductor read-only specialist lenses plus final integration.
+- MCP: none; no multi-agent worker was spawned because this heartbeat pass did not require explicit delegation.
+- Skills: `rttp-lock-cycle`.
+- Automations: `rttp-style-harness-completion-loop`.
+- Edits:
+  - `Drafts/Vol_10/Vol_10_Chapter_1.md`
+  - `orchestra/VOL10_CHAPTER_1_STYLE_HARNESS_CHECKPOINT_2026-07-07.md`
+  - `orchestra/SESSION_STATE.md`
+  - `orchestra/NEXT_DIALOGUE_HANDOFF.md`
+  - `orchestra/EXECUTION_PROGRESS_LEDGER.md`
+- Specialist FAIL ledger: Hook/format FAIL from numeric title and artifact backticks; length FAIL below active `4,800` no-space floor; time-scent FAIL through `이번엔`, `이번`, `이미`, and `순간`; right-edge leakage FAIL through exact `1회차`; next-right boundary risk through later failure-count lanes; mid-pressure FAIL because the raw room imagery needed clearer proof that the tower reads fear/order/failed choices before combat; ending-click FAIL because the raw ending fused lines and pushed too far into Ch2's confrontation.
+- Narrow repair: title changed to `탑의 시련`; backticks removed; strict route-scent terms cleared; Ch1 expanded only around upper-room atmosphere, tower-rule detection, choice/order/fear reading, and first failed-face setup; exact `1회차`, `10회차`, and `50회차` removed from Ch1 to reserve Ch2/Ch3/Ch4 lanes; ending cleaned to stop on the first failed face asking `누구세요`.
+- Final verification: full reread after edits, then five no-edit cycles all PASS at `body_nospace=4,968`, `total_nospace=4,972`, title `탑의 시련`, lines `528`, chars `6,790`, backticks `0`, strict route hits `0`, reserved hits `1회차=0/10회차=0/50회차=0`, required misses `0`, duplicate five-line windows `0`, BOM `false`, EOF missing `false`, hash `DEAA8B7409578DED9C2AFA29723D687DEC76C969397AFD9982B14B94587BBE29`.
+- Result:
+  - Individual style-harness verified range advances through `Vol.10 Chapter 1`.
+  - Aggregate style-harness verified range remains contiguous through `Vol.9 Chapters 1~25`.
+  - Next target is `Vol.10 Chapter 2`.
+
 - Mode: `rttp style-harness recast Vol.9 Chapters 21~25 aggregate`
 - Scope: aggregate lock pass for `Drafts/Vol_9/Vol_9_Chapter_21.md` through `Drafts/Vol_9/Vol_9_Chapter_25.md`, with `Drafts/Vol_9/Vol_9_Chapter_20.md` as prior edge, `Drafts/Vol_10/Vol_10_Chapter_1.md` as right edge, and `Drafts/Vol_10/Vol_10_Chapter_2.md` as next-right boundary; `Drafts/Vol_10/Vol_10_Chapter_3.md` and Vol.10 outline/timeline were checked for the next handoff.
 - Current work: `Vol.9 Chapters 21~25 aggregate` style-harness lock complete.
