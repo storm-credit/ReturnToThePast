@@ -14,6 +14,27 @@
 
 ## 2026-07-07 KST
 
+- Mode: `rttp style-harness recast Vol.9 Chapters 21~25 aggregate`
+- Scope: aggregate lock pass for `Drafts/Vol_9/Vol_9_Chapter_21.md` through `Drafts/Vol_9/Vol_9_Chapter_25.md`, with `Drafts/Vol_9/Vol_9_Chapter_20.md` as prior edge, `Drafts/Vol_10/Vol_10_Chapter_1.md` as right edge, and `Drafts/Vol_10/Vol_10_Chapter_2.md` as next-right boundary; `Drafts/Vol_10/Vol_10_Chapter_3.md` and Vol.10 outline/timeline were checked for the next handoff.
+- Current work: `Vol.9 Chapters 21~25 aggregate` style-harness lock complete.
+- Next work: `Vol.10 Chapter 1`; individual style-harness verification is contiguous through `Vol.9 Chapters 1~25`, and aggregate style-harness verification is now contiguous through `Vol.9 Chapters 1~25`.
+- Execution mode: heartbeat-triggered orchestra-conductor aggregate lock pass; conductor read-only specialist lenses plus final integration.
+- MCP: none; no multi-agent worker was spawned because this heartbeat pass did not require explicit delegation.
+- Skills: `rttp-lock-cycle`.
+- Automations: `rttp-style-harness-completion-loop`.
+- Edits:
+  - `orchestra/VOL9_CHAPTER_21_25_STYLE_HARNESS_AGGREGATE_CHECKPOINT_2026-07-07.md`
+  - `orchestra/SESSION_STATE.md`
+  - `orchestra/NEXT_DIALOGUE_HANDOFF.md`
+  - `orchestra/EXECUTION_PROGRESS_LEDGER.md`
+- Specialist FAIL ledger: no manuscript FAIL after full aggregate read. Hook/packet entry, pressure ladder, scene causality, ending bridge, time-scent/regression-route, motif/style, clarity/canon continuity, style-harness fit, and length/format all held. The active risk was aggregate drift: proving Ch20 `위 사람` pressure -> Ch21 `공모 구조` -> Ch22 `둘을 하나로` -> Ch23 `긴 문장` -> Ch24 `미봉 누적` -> Ch25 `꼭대기를 향해`/`상층 대조실` threshold without importing Vol10's exact `탑의 시련` mechanics. The packet held without edits.
+- Manuscript note: no draft files changed in this aggregate pass.
+- Final verification: full packet reread, then five no-edit aggregate cycles all PASS at `aggregate_body_nospace=24,229`, `aggregate_total_no_space=24,251`, title failures `0`, under-floor files `0`, backticks `0`, strict route files `0`, reserved `탑의 시련` hits `0`, required misses `0`, duplicate five-line windows `0`, BOM `0`, EOF missing `0`, packet hash `7BA766BC3471E999DDFB9DE382044F9156BC3254CAD4B06C2E60552E1D98471C`.
+- Result:
+  - Individual style-harness verified range remains through `Vol.9 Chapters 1~25`.
+  - Aggregate style-harness verified range advances through `Vol.9 Chapters 1~25`.
+  - Next target is `Vol.10 Chapter 1`.
+
 - Mode: `rttp style-harness recast Vol.9 Chapter 25`
 - Scope: single-chapter lock pass for `Drafts/Vol_9/Vol_9_Chapter_25.md`, with `Drafts/Vol_9/Vol_9_Chapter_24.md` as prior edge, `Drafts/Vol_10/Vol_10_Chapter_1.md` as right edge, and `Drafts/Vol_10/Vol_10_Chapter_2.md` as next-right boundary.
 - Current work: `Vol.9 Chapter 25` style-harness lock complete.
