@@ -14,6 +14,28 @@
 
 ## 2026-07-07 KST
 
+- Mode: `rttp style-harness recast Vol.9 Chapter 25`
+- Scope: single-chapter lock pass for `Drafts/Vol_9/Vol_9_Chapter_25.md`, with `Drafts/Vol_9/Vol_9_Chapter_24.md` as prior edge, `Drafts/Vol_10/Vol_10_Chapter_1.md` as right edge, and `Drafts/Vol_10/Vol_10_Chapter_2.md` as next-right boundary.
+- Current work: `Vol.9 Chapter 25` style-harness lock complete.
+- Next work: `Vol.9 Chapters 21~25 aggregate`; individual style-harness verification is now contiguous through `Vol.9 Chapters 1~25`, and aggregate style-harness verification remains contiguous through `Vol.8 Chapters 1~25`.
+- Execution mode: heartbeat-triggered orchestra-conductor single-chapter lock pass; conductor read-only specialist lenses plus final integration.
+- MCP: none; no multi-agent worker was spawned because this heartbeat pass did not require explicit delegation.
+- Skills: `rttp-lock-cycle`.
+- Automations: `rttp-style-harness-completion-loop`.
+- Edits:
+  - `Drafts/Vol_9/Vol_9_Chapter_25.md`
+  - `orchestra/VOL9_CHAPTER_25_STYLE_HARNESS_CHECKPOINT_2026-07-07.md`
+  - `orchestra/SESSION_STATE.md`
+  - `orchestra/NEXT_DIALOGUE_HANDOFF.md`
+  - `orchestra/EXECUTION_PROGRESS_LEDGER.md`
+- Specialist FAIL ledger: initial target failed on numeric title, artifact backticks, strict route-scent residue, under-floor length, Ch24 exact-title leakage through `미봉 누적`, Ch23 exact-title leakage through `긴 문장`, compressed borrowed-label cost, and a soft Vol10 `탑의 시련` reservation risk. The final repair cleared title/backticks/strict surface, removed Ch24/Ch23 exact-title leakage, expanded only Ch25-owned `꼭대기를 향해` pressure through large-covering notice, borrowed-label cost, procedural blindness, upper-docket fatigue, responsibility trapped between upper and lower lines, and threshold coldness, while keeping Vol10's exact `탑의 시련` absent.
+- Manuscript note: title changed from `225화 꼭대기를 향해` to `꼭대기를 향해`; body no-space length now holds at `4,836`. Ch24's exact `미봉 누적`, Ch23's exact `긴 문장`, Ch22's exact `둘을 하나로`, and Vol10's exact `탑의 시련` remain absent from Ch25.
+- Final verification: full reread after target-only repair, then five no-edit cycles all PASS at `body_nospace=4,836`, `total_no_space=4,842`, `lines=515`, `chars=6,625`, title failures `0`, under-floor `0`, backticks `0`, strict route-scent hits `0`, required misses `0`, suspicious script `0`, reserved-title/boundary hits `0`, hash `F55ADEB62B69C6978DCA29E4D629C08A2505B35F9A87F0118A91BB8ADB23C87A`.
+- Result:
+  - Individual style-harness verified range advances through `Vol.9 Chapters 1~25`.
+  - Aggregate style-harness verified range remains contiguous through `Vol.8 Chapters 1~25`.
+  - Next target is `Vol.9 Chapters 21~25 aggregate`.
+
 - Mode: `rttp style-harness recast Vol.9 Chapter 24`
 - Scope: single-chapter lock pass for `Drafts/Vol_9/Vol_9_Chapter_24.md`, with `Drafts/Vol_9/Vol_9_Chapter_23.md` as prior edge, `Drafts/Vol_9/Vol_9_Chapter_25.md` as right edge, and `Drafts/Vol_10/Vol_10_Chapter_1.md` as the next-right boundary; `Drafts/Vol_10/Vol_10_Chapter_2.md` was checked for the next handoff boundary.
 - Current work: `Vol.9 Chapter 24` style-harness lock complete.
