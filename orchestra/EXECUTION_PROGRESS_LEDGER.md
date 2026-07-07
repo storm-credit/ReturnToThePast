@@ -14,6 +14,28 @@
 
 ## 2026-07-08 KST
 
+- Mode: `rttp style-harness recast Vol.10 Chapter 5`
+- Scope: single-chapter lock pass for `Drafts/Vol_10/Vol_10_Chapter_5.md`, with `Drafts/Vol_10/Vol_10_Chapter_4.md` as prior edge, `Drafts/Vol_10/Vol_10_Chapter_6.md` as right edge, and `Drafts/Vol_10/Vol_10_Chapter_7.md` as next-right boundary.
+- Current work: `Vol.10 Chapter 5` style-harness lock complete.
+- Next work: `Vol.10 Chapter 6`; individual style-harness verification is contiguous through `Vol.10 Chapter 5`, and aggregate style-harness verification remains contiguous through `Vol.9 Chapters 1~25`.
+- Execution mode: heartbeat-triggered orchestra-conductor single-chapter lock pass; conductor read-only specialist lenses plus final integration.
+- MCP: none; no multi-agent worker was spawned because this heartbeat pass did not require explicit delegation.
+- Skills: `rttp-lock-cycle`.
+- Automations: `rttp-style-harness-completion-loop`.
+- Edits:
+  - `Drafts/Vol_10/Vol_10_Chapter_5.md`
+  - `orchestra/VOL10_CHAPTER_5_STYLE_HARNESS_CHECKPOINT_2026-07-08.md`
+  - `orchestra/SESSION_STATE.md`
+  - `orchestra/NEXT_DIALOGUE_HANDOFF.md`
+  - `orchestra/EXECUTION_PROGRESS_LEDGER.md`
+- Specialist FAIL ledger: Hook/format FAIL from numeric title and artifact backticks; length FAIL below active `4,800` no-space floor; time-scent FAIL through `이번엔`, `이번`, `이미`, and `순간`; text-integrity FAIL from one non-Korean stray token; mid-pressure FAIL because the raw confrontation needed clearer proof that Ch5 owns the near-current `100회차` empty-efficiency mirror rather than another generic cold-self duel; ending-click FAIL because raw wording risked consuming Ch6's combined-failure title lane.
+- Narrow repair: title changed to `100회차`; backticks removed; strict route-scent terms cleared; stray token normalized; Ch5 expanded only around the near-current mirror, role-before-name pressure, Aiden's cost awareness, Iris/Lena witness proof, and unnamed multiple-voice ending bridge; exact `실패의 합창` and `130회차` remain absent.
+- Final verification: full reread after edits, then five no-edit cycles all PASS at `body_nospace=5,150`, `total_nospace=5,155`, title `100회차`, lines `546`, chars `6,992`, backticks `0`, strict route hits `0`, reserved hits `실패의 합창=0/130회차=0`, required misses `0`, duplicate exact five-line windows `0`, BOM `false`, EOF missing `false`, hash `AD2046CF94A5436590CFF53F9C72A53DE95B81A767B23E24CE576BF1D6D7ACBD`.
+- Result:
+  - Individual style-harness verified range advances through `Vol.10 Chapter 5`.
+  - Aggregate style-harness verified range remains contiguous through `Vol.9 Chapters 1~25`.
+  - Next target is `Vol.10 Chapter 6`.
+
 - Mode: `rttp style-harness recast Vol.10 Chapter 4`
 - Scope: single-chapter lock pass for `Drafts/Vol_10/Vol_10_Chapter_4.md`, with `Drafts/Vol_10/Vol_10_Chapter_3.md` as prior edge, `Drafts/Vol_10/Vol_10_Chapter_5.md` as right edge, and `Drafts/Vol_10/Vol_10_Chapter_6.md` as next-right boundary.
 - Current work: `Vol.10 Chapter 4` style-harness lock complete.
