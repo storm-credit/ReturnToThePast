@@ -14,6 +14,28 @@
 
 ## 2026-07-08 KST
 
+- Mode: `rttp style-harness recast Vol.10 Chapter 8`
+- Scope: single-chapter lock pass for `Drafts/Vol_10/Vol_10_Chapter_8.md`, with `Drafts/Vol_10/Vol_10_Chapter_7.md` as prior edge, `Drafts/Vol_10/Vol_10_Chapter_9.md` as right edge, and `Drafts/Vol_10/Vol_10_Chapter_10.md` as next-right boundary; `Drafts/Vol_10/Vol_10_Chapter_11.md` was checked for the next handoff boundary.
+- Current work: `Vol.10 Chapter 8` style-harness lock complete.
+- Next work: `Vol.10 Chapter 9`; individual style-harness verification is contiguous through `Vol.10 Chapter 8`, and aggregate style-harness verification remains contiguous through `Vol.9 Chapters 1~25`.
+- Execution mode: heartbeat-triggered orchestra-conductor single-chapter lock pass; conductor read-only specialist lenses plus final integration.
+- MCP: none; no multi-agent worker was spawned because this heartbeat pass did not require explicit delegation.
+- Skills: `rttp-lock-cycle`.
+- Automations: `rttp-style-harness-completion-loop`.
+- Edits:
+  - `Drafts/Vol_10/Vol_10_Chapter_8.md`
+  - `orchestra/VOL10_CHAPTER_8_STYLE_HARNESS_CHECKPOINT_2026-07-08.md`
+  - `orchestra/SESSION_STATE.md`
+  - `orchestra/NEXT_DIALOGUE_HANDOFF.md`
+  - `orchestra/EXECUTION_PROGRESS_LEDGER.md`
+- Specialist FAIL ledger: Hook/format FAIL from numeric title and artifact backticks; length FAIL below active `4,800` no-space floor; time-scent FAIL through `정답`, `이번엔`, `이번`, `이미`, and `순간`; mid-pressure FAIL because the raw `130회차` lane needed clearer proof that almost succeeding is a trap, not just a stronger duel; ending-click/continuity FAIL because Ch8 needed to hand off to Ch9's closest-failure lane without consuming exact `171회차`.
+- Narrow repair: title changed to `130회차`; backticks removed; strict route-scent terms cleared; Ch8 expanded only around the strongest near-success failure, Iris's field intervention, the worn `거의 닿은 조각`, and the lingering Ria-distance temptation; exact `첫 번째 베기`, `실패의 합창`, `171회차`, `아이리스의 환영`, and `바르칸의 환영` remain absent.
+- Final verification: full reread after edits, then five no-edit cycles all PASS at `body_nospace=4,942`, `total_nospace=4,947`, title `130회차`, lines `526`, chars `6,724`, backticks `0`, strict route hits `0`, reserved hits `첫 번째 베기=0/실패의 합창=0/171회차=0/아이리스의 환영=0/바르칸=0/리아의 환영=0/돌파=0`, required misses `0`, duplicate exact five-line windows `0`, foreign-script residue `0`, BOM `false`, EOF missing `false`, hash `C6DB987C7A6EE139C6CF50037C425849C50217120F410CB62D9ADDE91688CDEF`.
+- Result:
+  - Individual style-harness verified range advances through `Vol.10 Chapter 8`.
+  - Aggregate style-harness verified range remains contiguous through `Vol.9 Chapters 1~25`.
+  - Next target is `Vol.10 Chapter 9`.
+
 - Mode: `rttp style-harness recast Vol.10 Chapter 7`
 - Scope: single-chapter lock pass for `Drafts/Vol_10/Vol_10_Chapter_7.md`, with `Drafts/Vol_10/Vol_10_Chapter_6.md` as prior edge, `Drafts/Vol_10/Vol_10_Chapter_8.md` as right edge, and `Drafts/Vol_10/Vol_10_Chapter_9.md` as next-right boundary; `Drafts/Vol_10/Vol_10_Chapter_10.md` was checked for the next handoff boundary.
 - Current work: `Vol.10 Chapter 7` style-harness lock complete.
