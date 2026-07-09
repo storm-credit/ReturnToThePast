@@ -14,6 +14,28 @@
 
 ## 2026-07-10 KST
 
+- Mode: `rttp style-harness recast Vol.10 Chapter 14`
+- Scope: single-chapter lock pass for `Drafts/Vol_10/Vol_10_Chapter_14.md`, with `Drafts/Vol_10/Vol_10_Chapter_13.md` as prior edge, `Drafts/Vol_10/Vol_10_Chapter_15.md` as right edge, `Drafts/Vol_10/Vol_10_Chapter_16.md` as next-right boundary, and `Drafts/Vol_10/Vol_10_Chapter_17.md` checked for the next handoff boundary.
+- Current work: `Vol.10 Chapter 14` style-harness lock complete.
+- Next work: `Vol.10 Chapter 15`; individual style-harness verification is contiguous through `Vol.10 Chapter 14`, and aggregate style-harness verification remains contiguous through `Vol.9 Chapters 1~25`.
+- Execution mode: heartbeat-triggered orchestra-conductor single-chapter lock pass; conductor read-only specialist lenses plus final integration.
+- MCP: none; no multi-agent worker was spawned because this heartbeat pass did not require explicit delegation.
+- Skills: `rttp-lock-cycle`.
+- Automations: `rttp-style-harness-completion-loop`.
+- Edits:
+  - `Drafts/Vol_10/Vol_10_Chapter_14.md`
+  - `orchestra/VOL10_CHAPTER_14_STYLE_HARNESS_CHECKPOINT_2026-07-10.md`
+  - `orchestra/SESSION_STATE.md`
+  - `orchestra/NEXT_DIALOGUE_HANDOFF.md`
+  - `orchestra/EXECUTION_PROGRESS_LEDGER.md`
+- Specialist FAIL ledger: Hook/format FAIL from numeric title; length FAIL below active `4,800` no-space floor; time-scent FAIL through `정답`, `이번/이번엔`, `이미`, `순간`, and `회차`; foreign-script FAIL from Bengali `এবার`; mid-pressure FAIL because the top-room reveal needed proof that the room sorts people and failed paths rather than merely staging a final confrontation; boundary hygiene FAIL because Ch15's exact `인계 거부`, Ch16's `상층 가동`, and Ch17's `고정의 시험` had to remain reserved; ending-click FAIL because the close needed to bridge to refusal pressure without consuming Ch15's exact title.
+- Narrow repair: title changed to `탑의 꼭대기`; strict route-scent, numeric, and foreign-script residue cleared; Ch14 expanded only around the top record/workroom, Baltazar's human/structure inspection, failure layers as bodily friction, the moral cost of `미봉`, `인계` as a setup word, and Aiden trusting the sounds beside him before the next refusal beat.
+- Final verification: full reread after edits, then five no-edit cycles all PASS at `body_nospace=4,941`, `total_nospace=4,946`, title `탑의 꼭대기`, lines `628`, chars `6,763`, backticks `0`, strict route hits `0`, reserved hits `인계 거부=0/상층 가동=0/고정의 시험=0/돌파=0/리아의 환영=0/아이리스의 환영=0/바르칸의 환영=0/첫 번째 베기=0/실패의 합창=0/130회차=0/171회차=0`, required misses `0`, duplicate exact five-line windows `0`, foreign-script residue `0`, Latin residue `0`, numeric residue `0`, BOM `false`, EOF missing `false`, hash `C67BF802DE82609E7AB44E0B05AB56541ADD8E5E1B328E8842AD64AE964E0439`.
+- Result:
+  - Individual style-harness verified range advances through `Vol.10 Chapter 14`.
+  - Aggregate style-harness verified range remains contiguous through `Vol.9 Chapters 1~25`.
+  - Next target is `Vol.10 Chapter 15`.
+
 - Mode: `rttp style-harness recast Vol.10 Chapter 13`
 - Scope: single-chapter lock pass for `Drafts/Vol_10/Vol_10_Chapter_13.md`, with `Drafts/Vol_10/Vol_10_Chapter_12.md` as prior edge, `Drafts/Vol_10/Vol_10_Chapter_14.md` as right edge, `Drafts/Vol_10/Vol_10_Chapter_15.md` as next-right boundary, and `Drafts/Vol_10/Vol_10_Chapter_16.md` checked for the next handoff boundary.
 - Current work: `Vol.10 Chapter 13` style-harness lock complete.
