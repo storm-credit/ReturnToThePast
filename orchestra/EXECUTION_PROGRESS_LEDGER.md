@@ -12,6 +12,30 @@
 - 상세 누적 진행도는 `SETTING_PROGRESS_TRACKER.md`, `DRAFTING_PROGRESS_TRACKER.md`를 따른다.
 - 현재 즉시 재개 지점은 `SESSION_STATE.md`를 따른다.
 
+## 2026-07-10 KST
+
+- Mode: `rttp style-harness recast Vol.10 Chapter 12`
+- Scope: single-chapter lock pass for `Drafts/Vol_10/Vol_10_Chapter_12.md`, with `Drafts/Vol_10/Vol_10_Chapter_11.md` as prior edge, `Drafts/Vol_10/Vol_10_Chapter_13.md` as right edge, `Drafts/Vol_10/Vol_10_Chapter_14.md` as next-right boundary, and `Drafts/Vol_10/Vol_10_Chapter_15.md` checked for the next handoff boundary.
+- Current work: `Vol.10 Chapter 12` style-harness lock complete.
+- Next work: `Vol.10 Chapter 13`; individual style-harness verification is contiguous through `Vol.10 Chapter 12`, and aggregate style-harness verification remains contiguous through `Vol.9 Chapters 1~25`.
+- Execution mode: heartbeat-triggered orchestra-conductor single-chapter lock pass; conductor read-only specialist lenses plus final integration.
+- MCP: none; no multi-agent worker was spawned because this heartbeat pass did not require explicit delegation.
+- Skills: `rttp-lock-cycle`.
+- Automations: `rttp-style-harness-completion-loop`.
+- Edits:
+  - `Drafts/Vol_10/Vol_10_Chapter_12.md`
+  - `orchestra/VOL10_CHAPTER_12_STYLE_HARNESS_CHECKPOINT_2026-07-10.md`
+  - `orchestra/SESSION_STATE.md`
+  - `orchestra/NEXT_DIALOGUE_HANDOFF.md`
+  - `orchestra/EXECUTION_PROGRESS_LEDGER.md`
+- Specialist FAIL ledger: Hook/format FAIL from numeric title; length FAIL below active `4,800` no-space floor; artifact/time-scent FAIL through backticks plus `정답`, `이번엔`, `이번`, `이미`, `순간`, `원래`, and reread residue `회차`; mid-pressure FAIL because Ria's blank-space wound needed protection from being reduced to Aiden's guilt; ending-click FAIL because the raw close leaned backward instead of handing forward to Ch13's combined mirror voices.
+- Narrow repair: title changed to `리아의 환영`; backticks and strict route-scent terms cleared; one `회차` residue, one `리어` typo, and one meta-facing `이 화의 시련` phrase corrected; Ch12 expanded only around Ria's rescue-cost/blank-space lane, her remaining time outside Aiden's debt, Iris's proof that Ria is more than Aiden's 죄책감, the thin empty seventh fragment, and a forward bridge to multiple failure voices without consuming exact `돌파`, `탑의 꼭대기`, or `인계 거부`.
+- Final verification: full reread after edits, then five no-edit cycles all PASS at `body_nospace=5,179`, `total_nospace=5,184`, title `리아의 환영`, lines `532`, chars `7,078`, backticks `0`, strict route hits `0`, reserved hits `아이리스의 환영=0/바르칸의 환영=0/돌파=0/탑의 꼭대기=0/인계 거부=0/130회차=0/171회차=0/첫 번째 베기=0/실패의 합창=0`, required misses `0`, duplicate exact five-line windows `0`, foreign-script residue `0`, numeric residue `0`, BOM `false`, EOF missing `false`, hash `C0B67439558F28848F092945DEE92110C1ED019DDECDDCB98CED83E0D198A278`.
+- Result:
+  - Individual style-harness verified range advances through `Vol.10 Chapter 12`.
+  - Aggregate style-harness verified range remains contiguous through `Vol.9 Chapters 1~25`.
+  - Next target is `Vol.10 Chapter 13`.
+
 ## 2026-07-09 KST
 
 - Mode: `rttp style-harness recast Vol.10 Chapter 11`
