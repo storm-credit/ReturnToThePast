@@ -14,6 +14,28 @@
 
 ## 2026-07-10 KST
 
+- Mode: `rttp style-harness recast Vol.10 Chapter 21`
+- Scope: single-chapter lock pass for `Drafts/Vol_10/Vol_10_Chapter_21.md`, with `Drafts/Vol_10/Vol_10_Chapter_20.md` as prior edge, `Drafts/Vol_10/Vol_10_Chapter_22.md` as right edge, `Drafts/Vol_10/Vol_10_Chapter_23.md` as next-right boundary, and `Drafts/Vol_10/Vol_10_Chapter_24.md` checked for the following handoff boundary.
+- Current work: `Vol.10 Chapter 21` style-harness lock complete.
+- Next work: `Vol.10 Chapter 22`; individual style-harness verification is contiguous through `Vol.10 Chapter 21`, and aggregate style-harness verification remains contiguous through `Vol.9 Chapters 1~25`.
+- Execution mode: heartbeat-triggered orchestra-conductor single-chapter lock pass; conductor read-only specialist lenses plus final integration.
+- MCP: none; no multi-agent worker was spawned because this heartbeat pass did not require explicit delegation.
+- Skills: `rttp-lock-cycle`.
+- Automations: `rttp-style-harness-completion-loop`.
+- Edits:
+  - `Drafts/Vol_10/Vol_10_Chapter_21.md`
+  - `orchestra/VOL10_CHAPTER_21_STYLE_HARNESS_CHECKPOINT_2026-07-10.md`
+  - `orchestra/SESSION_STATE.md`
+  - `orchestra/NEXT_DIALOGUE_HANDOFF.md`
+  - `orchestra/EXECUTION_PROGRESS_LEDGER.md`
+- Specialist FAIL ledger: Hook/format FAIL from numeric title and artifact backticks; length FAIL below active `4,800` no-space floor; time-scent FAIL through `정답`, `이번엔`, `이번`, `이미`, `순간`, and `원래`; boundary hygiene FAIL because Ch21 could own `구조의 안쪽` but had to reserve Ch20's `셋을 갈라놓는 것`, Ch19's `더 깊은 층`, Ch22's `남은 자리`, Ch23's `핵심`, and Ch24's `푸른 결`; mid-pressure FAIL because the inner-structure lane needed physical proof in the center groove, confirmation order, floor, wrist, and throat tests; ending-click FAIL because the raw close spent Ch22's exact title.
+- Narrow repair: title changed to `구조의 안쪽`; backticks, numeric residue, and strict route-scent terms cleared; Ch21 expanded only around inner-structure pressure, center-groove measurement, bodily confirmation, and the shared `증언 -> 교정 -> 고정` order under inner load; ending now stops before taking Ch22's exact title.
+- Final verification: full reread after edits and cleanup rereads, then five no-edit cycles all PASS at `body_nospace=4,965`, `total_nospace=4,970`, title `구조의 안쪽`, lines `733`, chars `6,872`, backticks `0`, strict route hits `0`, own title hits `구조의 안쪽=1`, reserved hits `0`, required misses `0`, duplicate exact five-line windows `0`, Latin residue `0`, numeric residue `0`, BOM `false`, EOF missing `false`, hash `35AED3FA32B584D30CF8E0DD7C661A9C50ADA4B5DE7033BCF0383946172483C5`.
+- Result:
+  - Individual style-harness verified range advances through `Vol.10 Chapter 21`.
+  - Latest checkpoint: `orchestra/VOL10_CHAPTER_21_STYLE_HARNESS_CHECKPOINT_2026-07-10.md`.
+  - Handoff updated so the exact next unit is `Vol.10 Chapter 22`.
+
 - Mode: `rttp style-harness recast Vol.10 Chapter 20`
 - Scope: single-chapter lock pass for `Drafts/Vol_10/Vol_10_Chapter_20.md`, with `Drafts/Vol_10/Vol_10_Chapter_19.md` as prior edge, `Drafts/Vol_10/Vol_10_Chapter_21.md` as right edge, `Drafts/Vol_10/Vol_10_Chapter_22.md` as next-right boundary, and `Drafts/Vol_10/Vol_10_Chapter_23.md` checked for the following handoff boundary.
 - Current work: `Vol.10 Chapter 20` style-harness lock complete.
