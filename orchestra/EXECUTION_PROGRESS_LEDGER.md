@@ -14,6 +14,28 @@
 
 ## 2026-07-10 KST
 
+- Mode: `rttp style-harness recast Vol.11 Chapter 2`
+- Scope: single-chapter lock pass for `Drafts/Vol_11/Vol_11_Chapter_2.md`, with `Drafts/Vol_11/Vol_11_Chapter_1.md` as prior edge, `Drafts/Vol_11/Vol_11_Chapter_3.md` as right edge, `Drafts/Vol_11/Vol_11_Chapter_4.md` as next-right boundary, `Drafts/Vol_11/Vol_11_Chapter_5.md` as following handoff boundary, and `Drafts/Vol_11/Vol_11_Chapter_6.md` checked for next handoff continuity.
+- Current work: `Vol.11 Chapter 2` style-harness lock complete.
+- Next work: `Vol.11 Chapter 3`; individual style-harness verification is contiguous through `Vol.11 Chapter 2`, and aggregate style-harness verification remains contiguous through `Vol.9 Chapters 1~25`.
+- Execution mode: heartbeat-triggered orchestra-conductor single-chapter lock pass; conductor read-only specialist lenses plus final integration.
+- MCP: none; no multi-agent worker was spawned because this heartbeat pass did not require explicit delegation.
+- Skills: `rttp-lock-cycle`.
+- Automations: `rttp-style-harness-completion-loop`.
+- Edits:
+  - `Drafts/Vol_11/Vol_11_Chapter_2.md`
+  - `orchestra/VOL11_CHAPTER_2_STYLE_HARNESS_CHECKPOINT_2026-07-10.md`
+  - `orchestra/SESSION_STATE.md`
+  - `orchestra/NEXT_DIALOGUE_HANDOFF.md`
+  - `orchestra/EXECUTION_PROGRESS_LEDGER.md`
+- Specialist FAIL ledger: Hook/format FAIL from numeric title `252화 숨길 수 없는 균열` and artifact backticks; length FAIL below active `4,800` no-space floor; time-scent FAIL through `이번엔`, `이번`, `이미`, `순간`, and `원래`; boundary hygiene FAIL because Ch2 could own `숨길 수 없는 균열` but had to reserve Ch1 `금이 보이는 하늘`, Ch3 `1차 목격 진술`, Ch4 `금을 보는 사람들`, and Ch5 `먼저 내려온 사람`; Ch1 continuity FAIL because raw Ch2 reopened arrival/setup pressure after locked Ch1 already placed Aiden/Iris/Rena into evidence-vs-ledger pressure; mid-pressure FAIL because the public/social lane needed daily-life, gate, record, rumor, and evidence-pressure integration; clarity/canon FAIL because Baltazar had to remain dead and only present through dirty evidence; ending-click FAIL because the close needed to push into Ch3's formal questioning lane without taking Ch3's exact title.
+- Narrow repair: title changed to `숨길 수 없는 균열`; backticks, numeric residue, strict route-scent terms, Latin residue, and adjacent exact-title leakage were cleared; Ch2 was recast around morning public undeniability, ordinary-life/gate/ledger reactions, Aiden/Iris/Rena's carried evidence, and the three names entering a blank record line; one reread residue `시간` was removed and the chapter was reread before final verification.
+- Final verification: full reread after edits and residue cleanup reread, then five no-edit cycles all PASS at `body_nospace=4,830`, `total_nospace=4,837`, title `숨길 수 없는 균열`, lines `604`, chars `6,813`, backticks `0`, strict route hits `0`, own title hits `숨길 수 없는 균열=2`, reserved hits `0`, required misses `0`, duplicate exact five-line windows `0`, Latin residue `0`, numeric residue `0`, BOM `false`, EOF missing `false`, hash `336FDF0994C050DE7C8545AC9438FE4996C6838FA02A511BC7344C628FF54B1B`.
+- Result:
+  - Individual style-harness verified range advances through `Vol.11 Chapter 2`.
+  - Latest checkpoint: `orchestra/VOL11_CHAPTER_2_STYLE_HARNESS_CHECKPOINT_2026-07-10.md`.
+  - Handoff updated so the exact next unit is `Vol.11 Chapter 3`.
+
 - Mode: `rttp style-harness recast Vol.11 Chapter 1`
 - Scope: single-chapter lock pass for `Drafts/Vol_11/Vol_11_Chapter_1.md`, with `Drafts/Vol_10/Vol_10_Chapter_25.md` as prior edge, `Drafts/Vol_11/Vol_11_Chapter_2.md` as right edge, `Drafts/Vol_11/Vol_11_Chapter_3.md` as next-right boundary, and `Drafts/Vol_11/Vol_11_Chapter_4.md` checked as the following handoff boundary.
 - Current work: `Vol.11 Chapter 1` style-harness lock complete.
