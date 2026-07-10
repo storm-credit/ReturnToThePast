@@ -14,6 +14,28 @@
 
 ## 2026-07-10 KST
 
+- Mode: `rttp style-harness recast Vol.11 Chapter 1`
+- Scope: single-chapter lock pass for `Drafts/Vol_11/Vol_11_Chapter_1.md`, with `Drafts/Vol_10/Vol_10_Chapter_25.md` as prior edge, `Drafts/Vol_11/Vol_11_Chapter_2.md` as right edge, `Drafts/Vol_11/Vol_11_Chapter_3.md` as next-right boundary, and `Drafts/Vol_11/Vol_11_Chapter_4.md` checked as the following handoff boundary.
+- Current work: `Vol.11 Chapter 1` style-harness lock complete.
+- Next work: `Vol.11 Chapter 2`; individual style-harness verification is contiguous through `Vol.11 Chapter 1`, and aggregate style-harness verification remains contiguous through `Vol.9 Chapters 1~25`.
+- Execution mode: heartbeat-triggered orchestra-conductor single-chapter lock pass; conductor read-only specialist lenses plus final integration.
+- MCP: none; no multi-agent worker was spawned because this heartbeat pass did not require explicit delegation.
+- Skills: `rttp-lock-cycle`.
+- Automations: `rttp-style-harness-completion-loop`.
+- Edits:
+  - `Drafts/Vol_11/Vol_11_Chapter_1.md`
+  - `orchestra/VOL11_CHAPTER_1_STYLE_HARNESS_CHECKPOINT_2026-07-10.md`
+  - `orchestra/SESSION_STATE.md`
+  - `orchestra/NEXT_DIALOGUE_HANDOFF.md`
+  - `orchestra/EXECUTION_PROGRESS_LEDGER.md`
+- Specialist FAIL ledger: Hook/format FAIL from numeric title `251화 금이 보이는 하늘` and artifact backticks; length FAIL below active `4,800` no-space floor; time-scent FAIL through `이번엔`, `이번`, `이미`, `순간`, and `원래`; boundary hygiene FAIL because Ch1 could own `금이 보이는 하늘` but had to reserve Ch25 `남기는 것`, Ch2 `숨길 수 없는 균열`, Ch3 `1차 목격 진술`, and Ch4 `금을 보는 사람들`; mid-pressure FAIL because raw Ch1 over-spent later public/social lanes before Aiden's party appeared; ending-click FAIL because the close needed a direct evidence-vs-ledger collision.
+- Narrow repair: title changed to `금이 보이는 하늘`; backticks, numeric residue, strict route-scent terms, Latin residue, and adjacent exact-title leakage were cleared; Ch1 was recast around first sky witness -> Northbin rumor/control pressure -> Aiden/Iris/Rena emerging with Ch25's evidence -> blank-ledger institutional pressure; one reread residue `순간` was removed and the chapter was reread before final verification.
+- Final verification: full reread after edits and residue cleanup reread, then five no-edit cycles all PASS at `body_nospace=5,420`, `total_nospace=5,427`, title `금이 보이는 하늘`, lines `520`, chars `7,554`, backticks `0`, strict route hits `0`, own title hits `금이 보이는 하늘=2`, reserved hits `0`, required misses `0`, duplicate exact five-line windows `0`, Latin residue `0`, numeric residue `0`, BOM `false`, EOF missing `false`, hash `3E4EF10E639A45BA68413E99AF8BC8F9FE471E5CAC5EE10CDD0F89DEEE7A3B4E`.
+- Result:
+  - Individual style-harness verified range advances through `Vol.11 Chapter 1`.
+  - Latest checkpoint: `orchestra/VOL11_CHAPTER_1_STYLE_HARNESS_CHECKPOINT_2026-07-10.md`.
+  - Handoff updated so the exact next unit is `Vol.11 Chapter 2`.
+
 - Mode: `rttp style-harness recast Vol.10 Chapter 25`
 - Scope: single-chapter lock pass for `Drafts/Vol_10/Vol_10_Chapter_25.md`, with `Drafts/Vol_10/Vol_10_Chapter_24.md` as prior edge, `Drafts/Vol_11/Vol_11_Chapter_1.md` as right edge, `Drafts/Vol_11/Vol_11_Chapter_2.md` as next-right boundary, and `Drafts/Vol_11/Vol_11_Chapter_3.md` checked as the following handoff boundary.
 - Current work: `Vol.10 Chapter 25` style-harness lock complete.
