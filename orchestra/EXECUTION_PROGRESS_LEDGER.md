@@ -14,6 +14,28 @@
 
 ## 2026-07-10 KST
 
+- Mode: `rttp style-harness recast Vol.10 Chapter 24`
+- Scope: single-chapter lock pass for `Drafts/Vol_10/Vol_10_Chapter_24.md`, with `Drafts/Vol_10/Vol_10_Chapter_23.md` as prior edge, `Drafts/Vol_10/Vol_10_Chapter_25.md` as right edge, `Drafts/Vol_11/Vol_11_Chapter_1.md` as next-right boundary, and `Drafts/Vol_11/Vol_11_Chapter_2.md` checked as the following handoff boundary.
+- Current work: `Vol.10 Chapter 24` style-harness lock complete.
+- Next work: `Vol.10 Chapter 25`; individual style-harness verification is contiguous through `Vol.10 Chapter 24`, and aggregate style-harness verification remains contiguous through `Vol.9 Chapters 1~25`.
+- Execution mode: heartbeat-triggered orchestra-conductor single-chapter lock pass; conductor read-only specialist lenses plus final integration.
+- MCP: none; no multi-agent worker was spawned because this heartbeat pass did not require explicit delegation.
+- Skills: `rttp-lock-cycle`.
+- Automations: `rttp-style-harness-completion-loop`.
+- Edits:
+  - `Drafts/Vol_10/Vol_10_Chapter_24.md`
+  - `orchestra/VOL10_CHAPTER_24_STYLE_HARNESS_CHECKPOINT_2026-07-10.md`
+  - `orchestra/SESSION_STATE.md`
+  - `orchestra/NEXT_DIALOGUE_HANDOFF.md`
+  - `orchestra/EXECUTION_PROGRESS_LEDGER.md`
+- Specialist FAIL ledger: Hook/format FAIL from numeric title and artifact backticks; length FAIL below active `4,800` no-space floor; time-scent FAIL through `이번엔`, `이번`, `이미`, `순간`, and `회차`; boundary hygiene FAIL because Ch24 could own `푸른 결` but had to reserve Ch23's `핵심`, Ch22's `남은 자리`, Ch25's `남기는 것`, Vol.11 Ch1's `금이 보이는 하늘`, and Vol.11 Ch2's `숨길 수 없는 균열`; clarity/canon FAIL because raw Ch24 gave active speech to dead Baltazar; mid-pressure FAIL because the blue texture needed physical proof as false comfort and criterion-change pressure; ending-click FAIL because raw Ch24 spent too much of Ch25's preserving/remaining lane; motif overuse FAIL after the first repair because exact `푸른 결` repeated too heavily.
+- Narrow repair: title changed to `푸른 결`; backticks, numeric residue, strict route-scent terms, and adjacent exact-title leakage were cleared; Baltazar remains dead and present only through corpse, broken artificial eye, blood trace, and guide absence; Ch24 expanded only around the blue texture as false comfort, Iris/Rena/Aiden's body-first resistance, and the shared `증언 -> 교정 -> 고정` order under criterion-change pressure; exact-title motif hits were reduced from `28` to `6`.
+- Final verification: full reread after edits and motif cleanup reread, then five no-edit cycles all PASS at `body_nospace=5,208`, `total_nospace=5,211`, title `푸른 결`, lines `676`, chars `7,324`, backticks `0`, strict route hits `0`, own title hits `푸른 결=6`, reserved hits `0`, required misses `0`, duplicate exact five-line windows `0`, Latin residue `0`, numeric residue `0`, BOM `false`, EOF missing `false`, hash `523298FE688EF61994B3602F0D2001D910E00AF1A52211995004FD280C4D1CA9`.
+- Result:
+  - Individual style-harness verified range advances through `Vol.10 Chapter 24`.
+  - Latest checkpoint: `orchestra/VOL10_CHAPTER_24_STYLE_HARNESS_CHECKPOINT_2026-07-10.md`.
+  - Handoff updated so the exact next unit is `Vol.10 Chapter 25`.
+
 - Mode: `rttp style-harness recast Vol.10 Chapter 23`
 - Scope: single-chapter lock pass for `Drafts/Vol_10/Vol_10_Chapter_23.md`, with `Drafts/Vol_10/Vol_10_Chapter_22.md` as prior edge, `Drafts/Vol_10/Vol_10_Chapter_24.md` as right edge, `Drafts/Vol_10/Vol_10_Chapter_25.md` as next-right boundary, and `Drafts/Vol_11/Vol_11_Chapter_1.md` checked as the following handoff boundary.
 - Current work: `Vol.10 Chapter 23` style-harness lock complete.
