@@ -14,6 +14,28 @@
 
 ## 2026-07-10 KST
 
+- Mode: `rttp style-harness recast Vol.10 Chapter 18`
+- Scope: single-chapter lock pass for `Drafts/Vol_10/Vol_10_Chapter_18.md`, with `Drafts/Vol_10/Vol_10_Chapter_17.md` as prior edge, `Drafts/Vol_10/Vol_10_Chapter_19.md` as right edge, `Drafts/Vol_10/Vol_10_Chapter_20.md` as next-right boundary, and `Drafts/Vol_10/Vol_10_Chapter_21.md`/`Drafts/Vol_10/Vol_10_Chapter_22.md` checked for later handoff boundaries.
+- Current work: `Vol.10 Chapter 18` style-harness lock complete.
+- Next work: `Vol.10 Chapter 19`; individual style-harness verification is contiguous through `Vol.10 Chapter 18`, and aggregate style-harness verification remains contiguous through `Vol.9 Chapters 1~25`.
+- Execution mode: heartbeat-triggered orchestra-conductor single-chapter lock pass; conductor read-only specialist lenses plus final integration.
+- MCP: none; no multi-agent worker was spawned because this heartbeat pass did not require explicit delegation.
+- Skills: `rttp-lock-cycle`.
+- Automations: `rttp-style-harness-completion-loop`.
+- Edits:
+  - `Drafts/Vol_10/Vol_10_Chapter_18.md`
+  - `orchestra/VOL10_CHAPTER_18_STYLE_HARNESS_CHECKPOINT_2026-07-10.md`
+  - `orchestra/SESSION_STATE.md`
+  - `orchestra/NEXT_DIALOGUE_HANDOFF.md`
+  - `orchestra/EXECUTION_PROGRESS_LEDGER.md`
+- Specialist FAIL ledger: Hook/format FAIL from numeric title and artifact backticks; length FAIL below active `4,800` no-space floor; time-scent FAIL through `정답`, `이번엔`, `이번`, `순간`, and `원래`; boundary hygiene FAIL because Ch18 could own `셋의 박자` but had to reserve Ch19's `더 깊은 층`, Ch20's `셋을 갈라놓는 것`, and Ch21's `구조의 안쪽`; mid-pressure FAIL because the shared rhythm needed physical proof of who names first, who cuts copy, how the center holds the interval, and what cost coordination imposes; ending-click FAIL because the raw close named the next deeper-layer lane too directly.
+- Narrow repair: title changed to `셋의 박자`; backticks, numeric residue, and strict route-scent terms cleared; Ch18 expanded only around shared-rhythm order, Iris naming first, Rena cutting copied errors, Aiden holding the interval without taking over, and the bodily cost of keeping three roles coordinated; Ch19 exact-title leakage was removed, and the ending now stops on below-rising pressure rather than naming the next layer.
+- Final verification: full reread after edits and cleanup rereads, then five no-edit cycles all PASS at `body_nospace=4,815`, `total_nospace=4,819`, title `셋의 박자`, lines `564`, chars `6,643`, backticks `0`, strict route hits `0`, own title hits `셋의 박자=3`, reserved hits `0`, required misses `0`, duplicate exact five-line windows `0`, Latin residue `0`, numeric residue `0`, BOM `false`, EOF missing `false`, hash `01FB8DF3DBCF19B24D0B7C31F71DE815D49988650C5295EF24227BE5567A4C6A`.
+- Result:
+  - Individual style-harness verified range advances through `Vol.10 Chapter 18`.
+  - Aggregate style-harness verified range remains contiguous through `Vol.9 Chapters 1~25`.
+  - Next target is `Vol.10 Chapter 19`.
+
 - Mode: `rttp style-harness recast Vol.10 Chapter 17`
 - Scope: single-chapter lock pass for `Drafts/Vol_10/Vol_10_Chapter_17.md`, with `Drafts/Vol_10/Vol_10_Chapter_16.md` as prior edge, `Drafts/Vol_10/Vol_10_Chapter_18.md` as right edge, `Drafts/Vol_10/Vol_10_Chapter_19.md` as next-right boundary, and `Drafts/Vol_10/Vol_10_Chapter_20.md`/`Drafts/Vol_10/Vol_10_Chapter_21.md` checked for later handoff boundaries.
 - Current work: `Vol.10 Chapter 17` style-harness lock complete.
