@@ -14,6 +14,28 @@
 
 ## 2026-07-11 KST
 
+- Mode: `rttp style-harness recast Vol.11 Chapter 5`
+- Scope: single-chapter lock pass for `Drafts/Vol_11/Vol_11_Chapter_5.md`, with `Drafts/Vol_11/Vol_11_Chapter_4.md` as prior edge, `Drafts/Vol_11/Vol_11_Chapter_6.md` as right edge, `Drafts/Vol_11/Vol_11_Chapter_7.md` as next-right boundary, `Drafts/Vol_11/Vol_11_Chapter_8.md` as following boundary, and `Drafts/Vol_11/Vol_11_Chapter_9.md` checked for next handoff continuity.
+- Current work: `Vol.11 Chapter 5` style-harness lock complete.
+- Next work: `Vol.11 Chapter 6`; individual style-harness verification is contiguous through `Vol.11 Chapter 5`, and aggregate style-harness verification remains contiguous through `Vol.9 Chapters 1~25`.
+- Execution mode: heartbeat-triggered orchestra-conductor single-chapter lock pass; conductor read-only specialist lenses plus final integration.
+- MCP: none; no multi-agent worker was spawned because this heartbeat pass did not require explicit delegation.
+- Skills: `rttp-lock-cycle`.
+- Automations: `rttp-style-harness-completion-loop`.
+- Edits:
+  - `Drafts/Vol_11/Vol_11_Chapter_5.md`
+  - `orchestra/VOL11_CHAPTER_5_STYLE_HARNESS_CHECKPOINT_2026-07-11.md`
+  - `orchestra/SESSION_STATE.md`
+  - `orchestra/NEXT_DIALOGUE_HANDOFF.md`
+  - `orchestra/EXECUTION_PROGRESS_LEDGER.md`
+- Specialist FAIL ledger: Hook/format FAIL from numeric episode title and artifact backticks; length FAIL below active `4,800` no-space floor; time-scent FAIL through `정답`, `이번엔`, `이번`, `이미`, `순간`, and `시간`; boundary hygiene FAIL because Ch5 could own `먼저 내려온 사람` but had to reserve Ch4 `금을 보는 사람들`, Ch6 `도시가 붙인 이름`, Ch7 `다른 진술`, and Ch8 `먼저 붙는 죄목`; Ch4 continuity FAIL because raw Ch5 underused the locked citywide category-drift/role-prewriting handoff; mid-pressure FAIL because Aiden's first-face burden needed to become record pressure; ending-click FAIL because the close needed to push into Ch6 without taking Ch6's exact title.
+- Narrow repair: title changed to `먼저 내려온 사람`; backticks, strict route-scent terms, Latin residue, numeric residue, and adjacent exact-title leakage were cleared; Ch5 was recast around tower-exit first-face pressure, Aiden's delayed body rhythm, disarmament, low command to Iris/Rena, and the way soldiers and crowd turn order into responsibility; one full-reread pass found two `이미` residues and under-floor length, then a second full-reread pass found the body still short, so a final short bridge raised it above floor and the whole chapter was reread again.
+- Final verification: full reread after edits, residue cleanup reread, length bridge reread, then five no-edit cycles all PASS at `body_nospace=4,834`, `total_nospace=4,841`, title `먼저 내려온 사람`, lines `628`, chars `6,692`, backticks `0`, strict route hits `0`, own title hits `먼저 내려온 사람=3`, reserved hits `0`, required misses `0`, duplicate exact five-line windows `0`, Latin residue `0`, numeric residue `0`, BOM `false`, EOF missing `false`, hash `04B529FD59F37E54EA1DFBF9719AB99B7543B1C60449C4A61CF47462C52EFD15`.
+- Result:
+  - Individual style-harness verified range advances through `Vol.11 Chapter 5`.
+  - Latest checkpoint: `orchestra/VOL11_CHAPTER_5_STYLE_HARNESS_CHECKPOINT_2026-07-11.md`.
+  - Handoff updated so the exact next unit is `Vol.11 Chapter 6`.
+
 - Mode: `rttp style-harness recast Vol.11 Chapter 4`
 - Scope: single-chapter lock pass for `Drafts/Vol_11/Vol_11_Chapter_4.md`, with `Drafts/Vol_11/Vol_11_Chapter_3.md` as prior edge, `Drafts/Vol_11/Vol_11_Chapter_5.md` as right edge, `Drafts/Vol_11/Vol_11_Chapter_6.md` as next-right boundary, `Drafts/Vol_11/Vol_11_Chapter_7.md` as following boundary, and `Drafts/Vol_11/Vol_11_Chapter_8.md` checked for next handoff continuity.
 - Current work: `Vol.11 Chapter 4` style-harness lock complete.
