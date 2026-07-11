@@ -14,6 +14,28 @@
 
 ## 2026-07-11 KST
 
+- Mode: `rttp style-harness recast Vol.11 Chapter 10`
+- Scope: single-chapter lock pass for `Drafts/Vol_11/Vol_11_Chapter_10.md`, with `Drafts/Vol_11/Vol_11_Chapter_9.md` as prior edge, `Drafts/Vol_11/Vol_11_Chapter_11.md` as right edge, `Drafts/Vol_11/Vol_11_Chapter_12.md` as next-right boundary, `Drafts/Vol_11/Vol_11_Chapter_13.md` as following boundary, and `Drafts/Vol_11/Vol_11_Chapter_14.md` checked for next handoff continuity.
+- Current work: `Vol.11 Chapter 10` style-harness lock complete.
+- Next work: `Vol.11 Chapter 11`; individual style-harness verification is contiguous through `Vol.11 Chapter 10`, and aggregate style-harness verification remains contiguous through `Vol.9 Chapters 1~25`.
+- Execution mode: heartbeat-triggered orchestra-conductor single-chapter lock pass; conductor read-only specialist lenses plus final integration.
+- MCP: none; no multi-agent worker was spawned because this heartbeat pass did not require explicit delegation.
+- Skills: `rttp-lock-cycle`.
+- Automations: `rttp-style-harness-completion-loop`.
+- Edits:
+  - `Drafts/Vol_11/Vol_11_Chapter_10.md`
+  - `orchestra/VOL11_CHAPTER_10_STYLE_HARNESS_CHECKPOINT_2026-07-11.md`
+  - `orchestra/SESSION_STATE.md`
+  - `orchestra/NEXT_DIALOGUE_HANDOFF.md`
+  - `orchestra/EXECUTION_PROGRESS_LEDGER.md`
+- Specialist FAIL ledger: Hook/format FAIL from numeric episode title and artifact backticks; length FAIL below active `4,800` no-space floor; time-scent FAIL through `이번엔`, `이번`, `이미`, `순간`, and `원래`; boundary hygiene FAIL because Ch10 could own `셋을 가르는 질문` but had to reserve Ch9 `보류된 이름`, Ch11 `대면 전야`, Ch12 `같은 사건, 다른 자리`, and Ch13 `다시 쓰이는 진술`; Ch9 continuity FAIL because raw Ch10 underused the locked withheld-name/temporary-category handoff; mid-pressure FAIL because split questions needed to alter room behavior, water placement, guard posture, public shorthand, and record handling; ending-click FAIL because the close needed to hand into Ch11's arrangement lane without taking Ch11's exact title; style/clarity FAIL because one reread found a meta-facing `검수 지시` surface.
+- Narrow repair: title changed to `셋을 가르는 질문`; backticks, strict route-scent terms, Latin residue, numeric residue, and adjacent exact-title leakage were cleared; Ch10 was recast around the city turning Ch9's empty naming columns into three question axes for Aiden/Iris/Rena, then full reread found and corrected the diegetic-surface issue before another full reread.
+- Final verification: full reread after edits and surface cleanup, then five no-edit cycles all PASS at `body_nospace=4,951`, `total_nospace=4,958`, title `셋을 가르는 질문`, lines `674`, chars `6,844`, backticks `0`, strict route hits `0`, own title hits `셋을 가르는 질문=2`, reserved hits `0`, required misses `0`, duplicate exact five-line windows `0`, Latin residue `0`, numeric residue `0`, BOM `false`, EOF missing `false`, hash `407F67B222C70B7D126DEA3A36E807078FE058BBAACFA6FC428ECF45CCAFB6AA`.
+- Result:
+  - Individual style-harness verified range advances through `Vol.11 Chapter 10`.
+  - Latest checkpoint: `orchestra/VOL11_CHAPTER_10_STYLE_HARNESS_CHECKPOINT_2026-07-11.md`.
+  - Handoff updated so the exact next unit is `Vol.11 Chapter 11`.
+
 - Mode: `rttp style-harness recast Vol.11 Chapter 9`
 - Scope: single-chapter lock pass for `Drafts/Vol_11/Vol_11_Chapter_9.md`, with `Drafts/Vol_11/Vol_11_Chapter_8.md` as prior edge, `Drafts/Vol_11/Vol_11_Chapter_10.md` as right edge, `Drafts/Vol_11/Vol_11_Chapter_11.md` as next-right boundary, `Drafts/Vol_11/Vol_11_Chapter_12.md` as following boundary, and `Drafts/Vol_11/Vol_11_Chapter_13.md` checked for next handoff continuity.
 - Current work: `Vol.11 Chapter 9` style-harness lock complete.
