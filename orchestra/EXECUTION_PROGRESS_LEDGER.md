@@ -12,6 +12,30 @@
 - 상세 누적 진행도는 `SETTING_PROGRESS_TRACKER.md`, `DRAFTING_PROGRESS_TRACKER.md`를 따른다.
 - 현재 즉시 재개 지점은 `SESSION_STATE.md`를 따른다.
 
+## 2026-07-11 KST
+
+- Mode: `rttp style-harness recast Vol.11 Chapter 4`
+- Scope: single-chapter lock pass for `Drafts/Vol_11/Vol_11_Chapter_4.md`, with `Drafts/Vol_11/Vol_11_Chapter_3.md` as prior edge, `Drafts/Vol_11/Vol_11_Chapter_5.md` as right edge, `Drafts/Vol_11/Vol_11_Chapter_6.md` as next-right boundary, `Drafts/Vol_11/Vol_11_Chapter_7.md` as following boundary, and `Drafts/Vol_11/Vol_11_Chapter_8.md` checked for next handoff continuity.
+- Current work: `Vol.11 Chapter 4` style-harness lock complete.
+- Next work: `Vol.11 Chapter 5`; individual style-harness verification is contiguous through `Vol.11 Chapter 4`, and aggregate style-harness verification remains contiguous through `Vol.9 Chapters 1~25`.
+- Execution mode: heartbeat-triggered orchestra-conductor single-chapter lock pass; conductor read-only specialist lenses plus final integration.
+- MCP: none; no multi-agent worker was spawned because this heartbeat pass did not require explicit delegation.
+- Skills: `rttp-lock-cycle`.
+- Automations: `rttp-style-harness-completion-loop`.
+- Edits:
+  - `Drafts/Vol_11/Vol_11_Chapter_4.md`
+  - `orchestra/VOL11_CHAPTER_4_STYLE_HARNESS_CHECKPOINT_2026-07-11.md`
+  - `orchestra/SESSION_STATE.md`
+  - `orchestra/NEXT_DIALOGUE_HANDOFF.md`
+  - `orchestra/EXECUTION_PROGRESS_LEDGER.md`
+- Specialist FAIL ledger: Hook/format FAIL from numeric episode title and artifact backticks; length FAIL below active `4,800` no-space floor; time-scent FAIL through `정답`, `이미`, `순간`, `원래`, and `시간`; boundary hygiene FAIL because Ch4 could own `금을 보는 사람들` but had to reserve Ch3 `1차 목격 진술`, Ch5 `먼저 내려온 사람`, Ch6 `도시가 붙인 이름`, and Ch7 `다른 진술`; Ch3 continuity FAIL because raw Ch4 did not fully use the first-witness-packet/category-drift handoff; mid-pressure FAIL because citywide interpretation needed to become pressure on whoever appeared from the tower; ending-click FAIL because the close needed to push into Ch5 without taking Ch5's exact title.
+- Narrow repair: title changed to `금을 보는 사람들`; backticks, strict route-scent terms, Latin residue, numeric residue, and adjacent exact-title leakage were cleared; Ch4 was expanded around South Gate category language, citywide practical commands, the unofficial `숨기는 쪽` lane, and the way the city pre-writes tower-exit roles before the three figures are identified; one full-reread residue cleanup removed remaining `순간` and `이미` hits, followed by another full reread.
+- Final verification: full reread after edits and focused cleanup reread, then five no-edit cycles all PASS at `body_nospace=4,960`, `total_nospace=4,967`, title `금을 보는 사람들`, lines `537`, chars `6,786`, backticks `0`, strict route hits `0`, own title hits `금을 보는 사람들=2`, reserved hits `0`, required misses `0`, duplicate exact five-line windows `0`, Latin residue `0`, numeric residue `0`, BOM `false`, EOF missing `false`, hash `870998B4D66C4E1DB9003B473DB7FD9374D59BBE09E496D02B77F1B2E5AB3613`.
+- Result:
+  - Individual style-harness verified range advances through `Vol.11 Chapter 4`.
+  - Latest checkpoint: `orchestra/VOL11_CHAPTER_4_STYLE_HARNESS_CHECKPOINT_2026-07-11.md`.
+  - Handoff updated so the exact next unit is `Vol.11 Chapter 5`.
+
 ## 2026-07-10 KST
 
 - Mode: `rttp style-harness recast Vol.11 Chapter 3`
