@@ -14,6 +14,28 @@
 
 ## 2026-07-11 KST
 
+- Mode: `rttp style-harness recast Vol.11 Chapter 11`
+- Scope: single-chapter lock pass for `Drafts/Vol_11/Vol_11_Chapter_11.md`, with `Drafts/Vol_11/Vol_11_Chapter_10.md` as prior edge, `Drafts/Vol_11/Vol_11_Chapter_12.md` as right edge, `Drafts/Vol_11/Vol_11_Chapter_13.md` as next-right boundary, `Drafts/Vol_11/Vol_11_Chapter_14.md` as following boundary, and `Drafts/Vol_11/Vol_11_Chapter_15.md` checked for next handoff continuity.
+- Current work: `Vol.11 Chapter 11` style-harness lock complete.
+- Next work: `Vol.11 Chapter 12`; individual style-harness verification is contiguous through `Vol.11 Chapter 11`, and aggregate style-harness verification remains contiguous through `Vol.9 Chapters 1~25`.
+- Execution mode: heartbeat-triggered orchestra-conductor single-chapter lock pass; conductor read-only specialist lenses plus final integration.
+- MCP: none; no multi-agent worker was spawned because this heartbeat pass did not require explicit delegation.
+- Skills: `rttp-lock-cycle`.
+- Automations: `rttp-style-harness-completion-loop`.
+- Edits:
+  - `Drafts/Vol_11/Vol_11_Chapter_11.md`
+  - `orchestra/VOL11_CHAPTER_11_STYLE_HARNESS_CHECKPOINT_2026-07-11.md`
+  - `orchestra/SESSION_STATE.md`
+  - `orchestra/NEXT_DIALOGUE_HANDOFF.md`
+  - `orchestra/EXECUTION_PROGRESS_LEDGER.md`
+- Specialist FAIL ledger: Hook/format FAIL from numeric episode title, artifact backticks, Latin labels, and numeric residue; length FAIL below active `4,800` no-space floor; time-scent FAIL through `이미`, `순간`, and `시간`; boundary hygiene FAIL because Ch11 could own `대면 전야` but had to reserve Ch10 `셋을 가르는 질문`, Ch12 `같은 사건, 다른 자리`, Ch13 `다시 쓰이는 진술`, and Ch14 `첫 공식 호명`; Ch10 continuity FAIL because raw Ch11 needed a cleaner handoff from question axes into room/seat/water/record-board preparation; mid-pressure FAIL because pre-confrontation setup needed to physically alter room behavior, guard movement, water placement, record handling, hallway labels, and public shorthand; ending-click FAIL because the close needed to stop at door-handle/seat-arrangement pressure without entering Ch12's actual shared-room confrontation; style/clarity FAIL because the first repair was under floor and the second repair introduced strict route-scent residue.
+- Narrow repair: title changed to `대면 전야`; backticks, numeric title residue, Latin labels, Arabic numeric residue, strict route-scent terms, and adjacent exact-title leakage were cleared; Ch11 was recast around the night before the shared confrontation, with three folded question sheets becoming three room lanes for Aiden/Iris/Rena; first full reread found a length FAIL at `4,013`, focused procedural expansion raised it above floor, second full reread found strict residues, and a final narrow cleanup removed them before another full reread.
+- Final verification: full reread after edits, length repair, and strict-scent cleanup, then five no-edit cycles all PASS at `body_nospace=5,277`, `total_nospace=5,281`, title `대면 전야`, lines `750`, chars `7,319`, backticks `0`, strict route hits `0`, own title hits `대면 전야=3`, reserved hits `0`, required misses `0`, duplicate exact five-line windows `0`, Latin residue `0`, numeric residue `0`, BOM `false`, EOF missing `false`, hash `798131B621C7F332FFA1B28C34C43E78EA9228F940E45DAC8C92F153C7AC2F53`.
+- Result:
+  - Individual style-harness verified range advances through `Vol.11 Chapter 11`.
+  - Latest checkpoint: `orchestra/VOL11_CHAPTER_11_STYLE_HARNESS_CHECKPOINT_2026-07-11.md`.
+  - Handoff updated so the exact next unit is `Vol.11 Chapter 12`.
+
 - Mode: `rttp style-harness recast Vol.11 Chapter 10`
 - Scope: single-chapter lock pass for `Drafts/Vol_11/Vol_11_Chapter_10.md`, with `Drafts/Vol_11/Vol_11_Chapter_9.md` as prior edge, `Drafts/Vol_11/Vol_11_Chapter_11.md` as right edge, `Drafts/Vol_11/Vol_11_Chapter_12.md` as next-right boundary, `Drafts/Vol_11/Vol_11_Chapter_13.md` as following boundary, and `Drafts/Vol_11/Vol_11_Chapter_14.md` checked for next handoff continuity.
 - Current work: `Vol.11 Chapter 10` style-harness lock complete.
