@@ -14,6 +14,28 @@
 
 ## 2026-07-12 KST
 
+- Mode: `rttp style-harness recast Vol.11 Chapter 18`
+- Scope: single-chapter lock pass for `Drafts/Vol_11/Vol_11_Chapter_18.md`, with `Drafts/Vol_11/Vol_11_Chapter_17.md` as prior edge, `Drafts/Vol_11/Vol_11_Chapter_19.md` as right edge, `Drafts/Vol_11/Vol_11_Chapter_20.md` as next-right boundary, `Drafts/Vol_11/Vol_11_Chapter_21.md` as following boundary, and `Drafts/Vol_11/Vol_11_Chapter_22.md` checked for next handoff continuity.
+- Current work: `Vol.11 Chapter 18` style-harness lock complete.
+- Next work: `Vol.11 Chapter 19`; individual style-harness verification is contiguous through `Vol.11 Chapter 18`, and aggregate style-harness verification remains contiguous through `Vol.9 Chapters 1~25`.
+- Execution mode: heartbeat-triggered orchestra-conductor single-chapter lock pass; conductor read-only specialist lenses plus final integration.
+- MCP: none; no multi-agent worker was spawned because this heartbeat pass did not require explicit delegation.
+- Skills: `rttp-lock-cycle`.
+- Automations: `rttp-style-harness-completion-loop`.
+- Edits:
+  - `Drafts/Vol_11/Vol_11_Chapter_18.md`
+  - `orchestra/VOL11_CHAPTER_18_STYLE_HARNESS_CHECKPOINT_2026-07-12.md`
+  - `orchestra/SESSION_STATE.md`
+  - `orchestra/NEXT_DIALOGUE_HANDOFF.md`
+  - `orchestra/EXECUTION_PROGRESS_LEDGER.md`
+- Specialist FAIL ledger: Hook/format FAIL from numeric episode title, artifact backticks, raw administrative notes, Arabic digit residue, and code-style record surfaces; length FAIL below the active `4,800` no-space floor; time-scent FAIL through `이번엔`, `이번`, `이미`, `시간`, and `순간`; boundary hygiene FAIL because Ch18 could own `두 번째 분류` but had to reserve Ch17 `길들여진 질문`, Ch19 `임시 지침`, Ch20 `셋으로 남는 법`, Ch21 `조사실 밖의 규칙`, Ch16 `첫 재대조`, Ch15 `이름으로 묶인 밤`, Ch14 `첫 공식 호명`, and Ch13 `다시 쓰이는 진술`; continuity FAIL because Ch18 needed to carry Ch17's question-conditioning handoff into formal split without repeating Ch17's informal spread or taking Ch19's operating-instruction lane; mid-pressure FAIL because the split needed concrete proof through seating, water/meal handling, question packets, record angles, guard reactions, and distinct Aiden/Iris/Rena traps; ending-click FAIL because the close needed to bridge into Ch19's temporary operating text without using the exact Ch19 title or beginning field-rule application; motif/style FAIL because classification/question/record language needed procedural function; clarity/canon FAIL because Aiden, Iris, and Rena needed distinct lanes while still tied to one incident.
+- Narrow repair: title changed to `두 번째 분류`; numeric and backticked administrative labels were converted into diegetic no-digit lines; strict route-scent terms, Latin residue, numeric residue, artifact backticks, and adjacent exact-title leakage were cleared; focused expansion strengthened the formal meeting's practical effects on seating, question packet order, water and meal handling, corridor distance, record angle, and guard reactions; Aiden's lane now centers on `판단 선행성`, chair placement, and refusal to let "first" become "sole cause"; Iris's lane centers on relation-bias pressure, the empty chair, and refusal to turn shared survival into emotional distortion; Rena's lane centers on independent-observer pressure, two summary sheets, and refusal to become an outside measuring tool; the ending hands into a next-morning `잠정 운영문` without using Ch19's exact title.
+- Final verification: full reread after edits, strict cleanup with full reread, exact-window duplicate check, then five no-edit cycles all PASS at `body_nospace=5,073`, `total_nospace=5,078`, title `두 번째 분류`, lines `594`, chars `6,994`, backticks `0`, strict route hits `0`, own title hits `두 번째 분류=1`, own title body hits `0`, reserved hits `0`, required misses `0`, duplicate exact five-line windows `0`, Latin residue `0`, numeric residue `0`, BOM `false`, EOF missing `false`, required continuity hits `전날 기록=2`, `질문 틀=2`, `개입 선행군=3`, `상호 종속 관찰군=3`, `탑 출구 관련 세 사람=1`, `면담선 두 갈래=1`, `잠정 운영문=1`, `에이든=16`, `아이리스=10`, `레나=10`, hash `C66CAB42F206AC1BB53BAAD005948D70DB6402AA288E35CB97D4E2DCF3531B83`.
+- Result:
+  - Individual style-harness verified range advances through `Vol.11 Chapter 18`.
+  - Latest checkpoint: `orchestra/VOL11_CHAPTER_18_STYLE_HARNESS_CHECKPOINT_2026-07-12.md`.
+  - Handoff updated so the exact next unit is `Vol.11 Chapter 19`.
+
 - Mode: `rttp style-harness recast Vol.11 Chapter 17`
 - Scope: single-chapter lock pass for `Drafts/Vol_11/Vol_11_Chapter_17.md`, with `Drafts/Vol_11/Vol_11_Chapter_16.md` as prior edge, `Drafts/Vol_11/Vol_11_Chapter_18.md` as right edge, `Drafts/Vol_11/Vol_11_Chapter_19.md` as next-right boundary, `Drafts/Vol_11/Vol_11_Chapter_20.md` as following boundary, and `Drafts/Vol_11/Vol_11_Chapter_21.md` checked for next handoff continuity.
 - Current work: `Vol.11 Chapter 17` style-harness lock complete.
