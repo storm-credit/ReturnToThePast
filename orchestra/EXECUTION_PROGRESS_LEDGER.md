@@ -14,6 +14,28 @@
 
 ## 2026-07-11 KST
 
+- Mode: `rttp style-harness recast Vol.11 Chapter 14`
+- Scope: single-chapter lock pass for `Drafts/Vol_11/Vol_11_Chapter_14.md`, with `Drafts/Vol_11/Vol_11_Chapter_13.md` as prior edge, `Drafts/Vol_11/Vol_11_Chapter_15.md` as right edge, `Drafts/Vol_11/Vol_11_Chapter_16.md` as next-right boundary, `Drafts/Vol_11/Vol_11_Chapter_17.md` as following boundary, and `Drafts/Vol_11/Vol_11_Chapter_18.md` checked for next handoff continuity.
+- Current work: `Vol.11 Chapter 14` style-harness lock complete.
+- Next work: `Vol.11 Chapter 15`; individual style-harness verification is contiguous through `Vol.11 Chapter 14`, and aggregate style-harness verification remains contiguous through `Vol.9 Chapters 1~25`.
+- Execution mode: heartbeat-triggered orchestra-conductor single-chapter lock pass; conductor read-only specialist lenses plus final integration.
+- MCP: none; no multi-agent worker was spawned because this heartbeat pass did not require explicit delegation.
+- Skills: `rttp-lock-cycle`.
+- Automations: `rttp-style-harness-completion-loop`.
+- Edits:
+  - `Drafts/Vol_11/Vol_11_Chapter_14.md`
+  - `orchestra/VOL11_CHAPTER_14_STYLE_HARNESS_CHECKPOINT_2026-07-11.md`
+  - `orchestra/SESSION_STATE.md`
+  - `orchestra/NEXT_DIALOGUE_HANDOFF.md`
+  - `orchestra/EXECUTION_PROGRESS_LEDGER.md`
+- Specialist FAIL ledger: Hook/format FAIL from numeric episode title, artifact backticks, Arabic numeral residue, blank-line raw format, and repeated own-title surface; length FAIL below active `4,800` no-space floor; time-scent FAIL through `이미` and `순간`; boundary hygiene FAIL because Ch14 could own `첫 공식 호명` but had to reserve Ch13 `다시 쓰이는 진술`, Ch15 `이름으로 묶인 밤`, Ch16 `첫 재대조`, and Ch17 `길들여진 질문`; Ch13 continuity FAIL because raw Ch14 needed a stronger bridge from the locked blank procedural-name envelope into the official naming meeting; mid-pressure FAIL because official naming needed to physically alter meeting behavior, document routing, guard speech, lower-floor signage, and the three characters' immediate status; ending-click FAIL because the close needed to hand into Ch15's body-level application without taking Ch15's night routine or Ch16's first re-check; motif/style FAIL because repeated name/officialness language needed concrete administrative function; clarity/canon FAIL because Aiden/Iris/Rena needed distinct response lanes under one imposed label.
+- Narrow repair: title changed to `첫 공식 호명`; Ch14 was recast around the upper meeting room's official label decision, moving from Ch13's blank envelope into candidate labels, formal wording, guard transmission, lower-floor signage, and Aiden/Iris/Rena's first reactions; raw `3인`/numeric label residue was replaced with `탑 출구 관련 세 사람, 진술 재대조 대상`; backticks, numeric title residue, Arabic numeric residue, strict route-scent terms, Latin residue, and adjacent exact-title leakage were cleared. Full reread after recast found clean surfaces but an oversized body; two focused compression passes removed duplicate administrative echoes and were followed by full reread.
+- Final verification: full reread after edits and compression, then five no-edit cycles all PASS at `body_nospace=5,263`, `total_nospace=5,268`, title `첫 공식 호명`, lines `536`, chars `7,094`, backticks `0`, strict route hits `0`, own title hits `첫 공식 호명=1`, reserved hits `0`, required misses `0`, duplicate exact five-line windows `0`, Latin residue `0`, numeric residue `0`, BOM `false`, EOF missing `false`, hash `9D9EE2C894D90D63F0A54B9B5E5DF2352E25E3AAC1403FA68C6F4BE7B38AEE7D`.
+- Result:
+  - Individual style-harness verified range advances through `Vol.11 Chapter 14`.
+  - Latest checkpoint: `orchestra/VOL11_CHAPTER_14_STYLE_HARNESS_CHECKPOINT_2026-07-11.md`.
+  - Handoff updated so the exact next unit is `Vol.11 Chapter 15`.
+
 - Mode: `rttp style-harness recast Vol.11 Chapter 13`
 - Scope: single-chapter lock pass for `Drafts/Vol_11/Vol_11_Chapter_13.md`, with `Drafts/Vol_11/Vol_11_Chapter_12.md` as prior edge, `Drafts/Vol_11/Vol_11_Chapter_14.md` as right edge, `Drafts/Vol_11/Vol_11_Chapter_15.md` as next-right boundary, `Drafts/Vol_11/Vol_11_Chapter_16.md` as following boundary, and `Drafts/Vol_11/Vol_11_Chapter_17.md` checked for next handoff continuity.
 - Current work: `Vol.11 Chapter 13` style-harness lock complete.
