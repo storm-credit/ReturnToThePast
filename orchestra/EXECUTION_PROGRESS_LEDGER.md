@@ -14,6 +14,28 @@
 
 ## 2026-07-11 KST
 
+- Mode: `rttp style-harness recast Vol.11 Chapter 8`
+- Scope: single-chapter lock pass for `Drafts/Vol_11/Vol_11_Chapter_8.md`, with `Drafts/Vol_11/Vol_11_Chapter_7.md` as prior edge, `Drafts/Vol_11/Vol_11_Chapter_9.md` as right edge, `Drafts/Vol_11/Vol_11_Chapter_10.md` as next-right boundary, `Drafts/Vol_11/Vol_11_Chapter_11.md` as following boundary, and `Drafts/Vol_11/Vol_11_Chapter_12.md` checked for next handoff continuity.
+- Current work: `Vol.11 Chapter 8` style-harness lock complete.
+- Next work: `Vol.11 Chapter 9`; individual style-harness verification is contiguous through `Vol.11 Chapter 8`, and aggregate style-harness verification remains contiguous through `Vol.9 Chapters 1~25`.
+- Execution mode: heartbeat-triggered orchestra-conductor single-chapter lock pass; conductor read-only specialist lenses plus final integration.
+- MCP: none; no multi-agent worker was spawned because this heartbeat pass did not require explicit delegation.
+- Skills: `rttp-lock-cycle`.
+- Automations: `rttp-style-harness-completion-loop`.
+- Edits:
+  - `Drafts/Vol_11/Vol_11_Chapter_8.md`
+  - `orchestra/VOL11_CHAPTER_8_STYLE_HARNESS_CHECKPOINT_2026-07-11.md`
+  - `orchestra/SESSION_STATE.md`
+  - `orchestra/NEXT_DIALOGUE_HANDOFF.md`
+  - `orchestra/EXECUTION_PROGRESS_LEDGER.md`
+- Specialist FAIL ledger: Hook/format FAIL from numeric episode title and artifact backticks; length FAIL below active `4,800` no-space floor; time-scent FAIL through `이미`, `순간`, `원래`, and `시간`; boundary hygiene FAIL because Ch8 could own `먼저 붙는 죄목` but had to reserve Ch7 `다른 진술`, Ch9 `보류된 이름`, Ch10 `셋을 가르는 질문`, and Ch11 `대면 전야`; Ch7 continuity FAIL because raw Ch8 leaked Ch7's exact title phrase; mid-pressure FAIL because accusation labels needed to alter room distance, guard posture, record routing, market speech, and question framing; ending-click FAIL because the close dissolved into repeated one-word tail lines instead of handing into Ch9's naming-withheld lane.
+- Narrow repair: title changed to `먼저 붙는 죄목`; backticks, strict route-scent terms, Latin residue, numeric residue, and adjacent exact-title leakage were cleared; Ch8 was recast around accusation labels attaching before proof, public/market/religious/guard pressure, record-room procedural language, and the way cold classification isolates Aiden/Iris/Rena before any formal verdict; first reread found under-floor length and one `순간` residue, then focused repair cleared that residue and raised length before a second full reread.
+- Final verification: full reread after edits and focused length/residue repair, then five no-edit cycles all PASS at `body_nospace=5,188`, `total_nospace=5,194`, title `먼저 붙는 죄목`, lines `523`, chars `7,094`, backticks `0`, strict route hits `0`, own title hits `먼저 붙는 죄목=2`, reserved hits `0`, required misses `0`, duplicate exact five-line windows `0`, Latin residue `0`, numeric residue `0`, BOM `false`, EOF missing `false`, hash `E79C255F2767615EB0D1E5EADAA5F03BDA4AAECF07D49FAE7D9E6E81EAC70E02`.
+- Result:
+  - Individual style-harness verified range advances through `Vol.11 Chapter 8`.
+  - Latest checkpoint: `orchestra/VOL11_CHAPTER_8_STYLE_HARNESS_CHECKPOINT_2026-07-11.md`.
+  - Handoff updated so the exact next unit is `Vol.11 Chapter 9`.
+
 - Mode: `rttp style-harness recast Vol.11 Chapter 7`
 - Scope: single-chapter lock pass for `Drafts/Vol_11/Vol_11_Chapter_7.md`, with `Drafts/Vol_11/Vol_11_Chapter_6.md` as prior edge, `Drafts/Vol_11/Vol_11_Chapter_8.md` as right edge, `Drafts/Vol_11/Vol_11_Chapter_9.md` as next-right boundary, `Drafts/Vol_11/Vol_11_Chapter_10.md` as following boundary, and `Drafts/Vol_11/Vol_11_Chapter_11.md` checked for next handoff continuity.
 - Current work: `Vol.11 Chapter 7` style-harness lock complete.
