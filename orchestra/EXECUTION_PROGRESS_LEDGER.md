@@ -12,6 +12,30 @@
 - 상세 누적 진행도는 `SETTING_PROGRESS_TRACKER.md`, `DRAFTING_PROGRESS_TRACKER.md`를 따른다.
 - 현재 즉시 재개 지점은 `SESSION_STATE.md`를 따른다.
 
+## 2026-07-12 KST
+
+- Mode: `rttp style-harness recast Vol.11 Chapter 16`
+- Scope: single-chapter lock pass for `Drafts/Vol_11/Vol_11_Chapter_16.md`, with `Drafts/Vol_11/Vol_11_Chapter_15.md` as prior edge, `Drafts/Vol_11/Vol_11_Chapter_17.md` as right edge, `Drafts/Vol_11/Vol_11_Chapter_18.md` as next-right boundary, `Drafts/Vol_11/Vol_11_Chapter_19.md` as following boundary, and `Drafts/Vol_11/Vol_11_Chapter_20.md` checked for next handoff continuity.
+- Current work: `Vol.11 Chapter 16` style-harness lock complete.
+- Next work: `Vol.11 Chapter 17`; individual style-harness verification is contiguous through `Vol.11 Chapter 16`, and aggregate style-harness verification remains contiguous through `Vol.9 Chapters 1~25`.
+- Execution mode: heartbeat-triggered orchestra-conductor single-chapter lock pass; conductor read-only specialist lenses plus final integration.
+- MCP: none; no multi-agent worker was spawned because this heartbeat pass did not require explicit delegation.
+- Skills: `rttp-lock-cycle`.
+- Automations: `rttp-style-harness-completion-loop`.
+- Edits:
+  - `Drafts/Vol_11/Vol_11_Chapter_16.md`
+  - `orchestra/VOL11_CHAPTER_16_STYLE_HARNESS_CHECKPOINT_2026-07-12.md`
+  - `orchestra/SESSION_STATE.md`
+  - `orchestra/NEXT_DIALOGUE_HANDOFF.md`
+  - `orchestra/EXECUTION_PROGRESS_LEDGER.md`
+- Specialist FAIL ledger: Hook/format FAIL from numeric episode title, artifact backticks, raw `3인`, `1차`, `2차`, and `3차` surfaces, Arabic digit residue, and code-style record-note formatting; time-scent FAIL through `이번엔`, `이번`, `이미`, `시간`, and `순간`; boundary hygiene FAIL because Ch16 could own `첫 재대조` but had to reserve Ch15 `이름으로 묶인 밤`, Ch17 `길들여진 질문`, Ch18 `두 번째 분류`, Ch19 `임시 지침`, Ch14 `첫 공식 호명`, and Ch13 `다시 쓰이는 진술`; Ch15 continuity FAIL because the first record call needed the locked official label subterms while not repeating the night body-level lane; mid-pressure FAIL because interrogation pressure needed to remain in seating, record wording, role traps, guard reactions, and three active corrections; ending-click FAIL because the close needed to hand into Ch17's question-conditioning lane without taking Ch17's exact title or Ch18's classification lane; motif/style FAIL because record/question/rearrangement language needed concrete procedural function; clarity/canon FAIL because Aiden/Iris/Rena needed distinct resistance lanes while keeping one incident intact.
+- Narrow repair: title changed to `첫 재대조`; raw numbered and backticked record labels were converted into diegetic no-digit administrative lines; `3인` and numeric progression surfaces were replaced with `세 사람`, `새벽`, `추가`, and plain role wording; strict route-scent terms, Latin residue, numeric residue, artifact backticks, and body-level exact-title repeats were cleared; a final continuity insertion carried `진술 재대조 대상` into the opening record call after reread showed the subterm missing.
+- Final verification: full reread after edits and continuity insertion, then five no-edit cycles all PASS at `body_nospace=4,879`, `total_nospace=4,883`, title `첫 재대조`, lines `578`, chars `6,702`, backticks `0`, strict route hits `0`, own title hits `첫 재대조=1`, own title body hits `0`, reserved hits `0`, required misses `0`, duplicate exact five-line windows `0`, Latin residue `0`, numeric residue `0`, BOM `false`, EOF missing `false`, required continuity hits `같은 사건=7`, `탑 출구 관련 세 사람=2`, `진술 재대조 대상=1`, hash `C3C5C5CC841429B41CBE19E2A408B06E3080FB512EDDA0381F4B32C0C742142A`.
+- Result:
+  - Individual style-harness verified range advances through `Vol.11 Chapter 16`.
+  - Latest checkpoint: `orchestra/VOL11_CHAPTER_16_STYLE_HARNESS_CHECKPOINT_2026-07-12.md`.
+  - Handoff updated so the exact next unit is `Vol.11 Chapter 17`.
+
 ## 2026-07-11 KST
 
 - Mode: `rttp style-harness recast Vol.11 Chapter 15`
