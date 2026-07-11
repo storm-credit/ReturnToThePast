@@ -14,6 +14,28 @@
 
 ## 2026-07-11 KST
 
+- Mode: `rttp style-harness recast Vol.11 Chapter 13`
+- Scope: single-chapter lock pass for `Drafts/Vol_11/Vol_11_Chapter_13.md`, with `Drafts/Vol_11/Vol_11_Chapter_12.md` as prior edge, `Drafts/Vol_11/Vol_11_Chapter_14.md` as right edge, `Drafts/Vol_11/Vol_11_Chapter_15.md` as next-right boundary, `Drafts/Vol_11/Vol_11_Chapter_16.md` as following boundary, and `Drafts/Vol_11/Vol_11_Chapter_17.md` checked for next handoff continuity.
+- Current work: `Vol.11 Chapter 13` style-harness lock complete.
+- Next work: `Vol.11 Chapter 14`; individual style-harness verification is contiguous through `Vol.11 Chapter 13`, and aggregate style-harness verification remains contiguous through `Vol.9 Chapters 1~25`.
+- Execution mode: heartbeat-triggered orchestra-conductor single-chapter lock pass; conductor read-only specialist lenses plus final integration.
+- MCP: none; no multi-agent worker was spawned because this heartbeat pass did not require explicit delegation.
+- Skills: `rttp-lock-cycle`.
+- Automations: `rttp-style-harness-completion-loop`.
+- Edits:
+  - `Drafts/Vol_11/Vol_11_Chapter_13.md`
+  - `orchestra/VOL11_CHAPTER_13_STYLE_HARNESS_CHECKPOINT_2026-07-11.md`
+  - `orchestra/SESSION_STATE.md`
+  - `orchestra/NEXT_DIALOGUE_HANDOFF.md`
+  - `orchestra/EXECUTION_PROGRESS_LEDGER.md`
+- Specialist FAIL ledger: Hook/format FAIL from numeric episode title, artifact backticks, blank-line/raw formatting, and Arabic numeral residue; length FAIL below active `4,800` no-space floor; time-scent FAIL through `이미`, `순간`, `원래`, and `시간`; boundary hygiene FAIL because Ch13 could own `다시 쓰이는 진술` but had to reserve Ch12 `같은 사건, 다른 자리`, Ch14 `첫 공식 호명`, Ch15 `이름으로 묶인 밤`, and Ch16 `첫 재대조`; Ch12 continuity FAIL because raw Ch13 needed a stronger bridge from locked shared-room confrontation and paper-bundle handoff into actual record recasting; mid-pressure FAIL because revised statements needed to alter revision columns, direct-read restriction, guard movement, and clerk routing; ending-click FAIL because the close needed to hand into Ch14's official naming lane without taking Ch14's exact title; motif/style FAIL because record/same/different language needed concrete procedural function; clarity/canon FAIL because Aiden/Iris/Rena lanes had to remain distinct without entering Ch16's first re-check beat.
+- Narrow repair: title changed to `다시 쓰이는 진술`; Ch13 was recast around record-room pressure where Ch12's paper bundles become revision marks, copied statements, access restriction, and a blank procedural/public-name handoff; backticks, numeric title residue, Arabic numeric residue, strict route-scent terms, and adjacent exact-title leakage were cleared. First full reread after recast found three strict residues (`이번`, `순간`, `이미`); focused cleanup removed them and the chapter was reread in full again.
+- Final verification: full reread after edits and strict cleanup, then five no-edit cycles all PASS at `body_nospace=4,909`, `total_nospace=4,916`, title `다시 쓰이는 진술`, lines `454`, chars `6,631`, backticks `0`, strict route hits `0`, own title hits `다시 쓰이는 진술=1`, reserved hits `0`, required misses `0`, duplicate exact five-line windows `0`, Latin residue `0`, numeric residue `0`, BOM `false`, EOF missing `false`, hash `29280E94A7A0113EFFDC4FF4CBCE11608168D1068CF5A87251E9636F2DA21378`.
+- Result:
+  - Individual style-harness verified range advances through `Vol.11 Chapter 13`.
+  - Latest checkpoint: `orchestra/VOL11_CHAPTER_13_STYLE_HARNESS_CHECKPOINT_2026-07-11.md`.
+  - Handoff updated so the exact next unit is `Vol.11 Chapter 14`.
+
 - Mode: `rttp style-harness recast Vol.11 Chapter 12`
 - Scope: single-chapter lock pass for `Drafts/Vol_11/Vol_11_Chapter_12.md`, with `Drafts/Vol_11/Vol_11_Chapter_11.md` as prior edge, `Drafts/Vol_11/Vol_11_Chapter_13.md` as right edge, `Drafts/Vol_11/Vol_11_Chapter_14.md` as next-right boundary, `Drafts/Vol_11/Vol_11_Chapter_15.md` as following boundary, and `Drafts/Vol_11/Vol_11_Chapter_16.md` checked for next handoff continuity.
 - Current work: `Vol.11 Chapter 12` style-harness lock complete.
