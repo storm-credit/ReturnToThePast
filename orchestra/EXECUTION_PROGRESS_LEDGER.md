@@ -14,6 +14,28 @@
 
 ## 2026-07-12 KST
 
+- Mode: `rttp style-harness recast Vol.12 Chapter 2`
+- Scope: single-chapter lock pass for `Drafts/Vol_12/Vol_12_Chapter_2.md`, with `Drafts/Vol_12/Vol_12_Chapter_1.md` as prior edge, `Drafts/Vol_12/Vol_12_Chapter_3.md` as right edge, and `Drafts/Vol_12/Vol_12_Chapter_4.md` checked as next handoff lookahead.
+- Current work: `Vol.12 Chapter 2` style-harness lock complete.
+- Next work: `Vol.12 Chapter 3`; individual style-harness verification is contiguous through `Vol.12 Chapter 2`, and aggregate style-harness verification remains contiguous through `Vol.9 Chapters 1~25`.
+- Execution mode: heartbeat-triggered orchestra-conductor single-chapter lock pass; conductor read-only specialist lenses plus final integration.
+- MCP: none; no multi-agent worker was spawned because this heartbeat pass did not require explicit delegation.
+- Skills: `rttp-lock-cycle`.
+- Automations: `rttp-style-harness-completion-loop`.
+- Edits:
+  - `Drafts/Vol_12/Vol_12_Chapter_2.md`
+  - `orchestra/VOL12_CHAPTER_2_STYLE_HARNESS_CHECKPOINT_2026-07-12.md`
+  - `orchestra/SESSION_STATE.md`
+  - `orchestra/NEXT_DIALOGUE_HANDOFF.md`
+  - `orchestra/EXECUTION_PROGRESS_LEDGER.md`
+- Specialist FAIL ledger: Hook/format FAIL from numeric episode title, artifact backticks, abstract naming opening, and body-level exact-title risk; length FAIL below the active `4,800` no-space floor; time-scent FAIL through `정답`, `이번엔`, `이번`, `이미`, and `순간`; boundary hygiene FAIL because Ch2 had to own only `더 큰 이름` and `잔류 공명군` internal naming escalation while preserving Ch1's direct upper-intervention lane and reserving Ch3 `이름의 바깥`; continuity FAIL because Ch2 needed concrete carryover from `현장 판단 유보`, `직접 인계 대상`, `현장 보류 대상`, `상층 직속 정리반`, `현장 재량 과부하`, `잠정 운영문`, `탑 출구 관련 세 사람`, `예외 대기`, `재낭독 후 이동`, `낭독 종료`, `이동 대기`, `예외 반응 발생 시 임시 정지`, `위치 보존`, `표식 충돌`, `분리 배식`, `선행선`, `선행 판단 확인선`, `교차 관찰선`, `시선 교차 금지 구간`, `교차 구간`, `단독 확인 후`, and `공동 반응군`; mid-pressure FAIL because the larger name needed to move through signs, ledgers, placement, and living records rather than explanation; ending-click FAIL because the close needed to hand into Ch3's contact/report spread without consuming it; motif/style FAIL because the name needed procedural function; clarity/canon FAIL because Aiden, Iris, and Rena needed distinct lanes under the same category.
+- Narrow repair: title changed to `더 큰 이름`; numeric title residue, Arabic digits, Latin residue, artifact backticks, strict residue, and body-level exact-title repeats were cleared; focused expansion raised the chapter above the length floor through `잔류 공명군 관리 규정 초안`, `개별 명칭 사용 제한`, lower-record rearrangement, meal/living-record pressure, and counter-lines; Ch1 continuity anchors were carried through all required terms; Aiden preserved sequence and causality, Iris preserved lived procedure under the category, and Rena preserved body/place proof; the ending leaves `접촉선`, `보고선`, and `연결 가능성` blank for Ch3.
+- Final verification: full UTF-8 reread after recast, strict-residue cleanup with another full reread, duplicate non-empty exact-window check, then five no-edit cycles all PASS at `body_nospace=5,085`, `total_nospace=5,089`, lines `831`, chars `7,118`, backticks `0`, strict route hits `0`, own title hits `1`, own title body hits `0`, own name hits `잔류 공명군=14`, reserved adjacent hits `0`, required misses `0`, duplicate non-empty five-line windows `0`, Latin residue `0`, numeric residue `0`, BOM `false`, EOF missing `false`, hash `9CE342806B04FCD482FA27D1057A79F8C478728E2F5B6FEAFC2C54097F1C6390`.
+- Result:
+  - Individual style-harness verified range advances through `Vol.12 Chapter 2`.
+  - Latest checkpoint: `orchestra/VOL12_CHAPTER_2_STYLE_HARNESS_CHECKPOINT_2026-07-12.md`.
+  - Handoff updated so the exact next unit is `Vol.12 Chapter 3`.
+
 - Mode: `rttp style-harness recast Vol.12 Chapter 1`
 - Scope: single-chapter lock pass for `Drafts/Vol_12/Vol_12_Chapter_1.md`, with `Drafts/Vol_11/Vol_11_Chapter_25.md` as prior edge, `Drafts/Vol_12/Vol_12_Chapter_2.md` as right edge, and `Drafts/Vol_12/Vol_12_Chapter_3.md` checked as next handoff lookahead.
 - Current work: `Vol.12 Chapter 1` style-harness lock complete.
