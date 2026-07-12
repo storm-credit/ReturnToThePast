@@ -14,6 +14,28 @@
 
 ## 2026-07-12 KST
 
+- Mode: `rttp style-harness recast Vol.11 Chapter 25`
+- Scope: single-chapter lock pass for `Drafts/Vol_11/Vol_11_Chapter_25.md`, with `Drafts/Vol_11/Vol_11_Chapter_24.md` as prior edge, `Drafts/Vol_12/Vol_12_Chapter_1.md` as following bridge, and `Drafts/Vol_12/Vol_12_Chapter_2.md` checked as next handoff lookahead.
+- Current work: `Vol.11 Chapter 25` style-harness lock complete.
+- Next work: `Vol.12 Chapter 1`; individual style-harness verification is contiguous through `Vol.11 Chapter 25`, and aggregate style-harness verification remains contiguous through `Vol.9 Chapters 1~25`.
+- Execution mode: heartbeat-triggered orchestra-conductor single-chapter lock pass; conductor read-only specialist lenses plus final integration.
+- MCP: none; no multi-agent worker was spawned because this heartbeat pass did not require explicit delegation.
+- Skills: `rttp-lock-cycle`.
+- Automations: `rttp-style-harness-completion-loop`.
+- Edits:
+  - `Drafts/Vol_11/Vol_11_Chapter_25.md`
+  - `orchestra/VOL11_CHAPTER_25_STYLE_HARNESS_CHECKPOINT_2026-07-12.md`
+  - `orchestra/SESSION_STATE.md`
+  - `orchestra/NEXT_DIALOGUE_HANDOFF.md`
+  - `orchestra/EXECUTION_PROGRESS_LEDGER.md`
+- Specialist FAIL ledger: Hook/format FAIL from numeric episode title, artifact backticks, abstract mechanism-first opening, and weak first-screen operational pressure; length FAIL below the active `4,800` no-space floor; time-scent FAIL through `이미`, `순간`, and `시간`; boundary hygiene FAIL because Ch25 had to own only `먼저 찢어질 자리` while preserving Ch24's temporary operating-measure burden and reserving Vol.12 Ch1 `위에서 내려온 손`; continuity FAIL because the first-tear lane needed concrete carryover from Ch24's wrong-label, split confirmation, meal/name, position, and field-procedure anchors; mid-pressure FAIL because the raw target needed proof through wrong label movement, forbidden naming leaking into speech, conflicting ledgers, staff hesitation, and report evidence; ending-click FAIL because the close needed to hand into Vol.12 Ch1's upper intervention without enacting it; motif/style FAIL because first-tear language needed procedural function; clarity/canon FAIL because Aiden, Iris, and Rena needed distinct lanes under one weak-line discovery.
+- Narrow repair: title changed to `먼저 찢어질 자리`; numeric title residue, Arabic digits, Latin residue, artifact backticks, strict residue, and body-level exact-title repeats were cleared; focused expansion raised the chapter above the length floor through the wrong `예외 대기` label replacing `재낭독 후 이동`, Aiden preserving wrong-label causality, Iris making the forbidden `공동 반응군` leak remain as field evidence, Rena preserving `표식 충돌`, and the report line `현장 재량 과부하`; Ch24 continuity anchors were carried through `잠정 운영문`, `탑 출구 관련 세 사람`, `분리 배식`, `선행선`, `선행 판단 확인선`, `교차 관찰선`, `시선 교차 금지 구간`, `교차 구간`, `단독 확인 후`, `공동 반응군`, `동일 사건선`, `상호 보완 가능성`, `재낭독 후 이동`, `사전 확인 대기`, `예외 반응 발생 시 임시 정지`, `위치 보존`, `낭독 종료`, and `이동 대기`; the ending leaves the upper intervention for Vol.12 Ch1.
+- Final verification: full UTF-8 reread after recast, floor repair with another full reread, duplicate non-empty exact-window check, then five no-edit cycles all PASS at `body_nospace=5,305`, `total_nospace=5,312`, lines `924`, chars `7,473`, backticks `0`, strict route hits `0`, own title hits `1`, own title body hits `0`, reserved hits `0`, required misses `0`, duplicate non-empty five-line windows `0`, Latin residue `0`, numeric residue `0`, BOM `false`, EOF missing `false`, hash `CBECA248839B06014E073AB78B235E1BF9EAAD88BD9891F463A8EDE50F2F91EC`.
+- Result:
+  - Individual style-harness verified range advances through `Vol.11 Chapter 25`.
+  - Latest checkpoint: `orchestra/VOL11_CHAPTER_25_STYLE_HARNESS_CHECKPOINT_2026-07-12.md`.
+  - Handoff updated so the exact next unit is `Vol.12 Chapter 1`.
+
 - Mode: `rttp style-harness recast Vol.11 Chapter 24`
 - Scope: single-chapter lock pass for `Drafts/Vol_11/Vol_11_Chapter_24.md`, with `Drafts/Vol_11/Vol_11_Chapter_23.md` as prior edge, `Drafts/Vol_11/Vol_11_Chapter_25.md` as right edge and volume-end boundary, and `Drafts/Vol_12/Vol_12_Chapter_1.md` checked as optional following bridge.
 - Current work: `Vol.11 Chapter 24` style-harness lock complete.
