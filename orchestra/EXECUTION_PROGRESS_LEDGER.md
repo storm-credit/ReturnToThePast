@@ -12,6 +12,30 @@
 - 상세 누적 진행도는 `SETTING_PROGRESS_TRACKER.md`, `DRAFTING_PROGRESS_TRACKER.md`를 따른다.
 - 현재 즉시 재개 지점은 `SESSION_STATE.md`를 따른다.
 
+## 2026-07-13 KST
+
+- Mode: `rttp style-harness recast Vol.12 Chapter 3`
+- Scope: single-chapter lock pass for `Drafts/Vol_12/Vol_12_Chapter_3.md`, with `Drafts/Vol_12/Vol_12_Chapter_2.md` as prior edge, `Drafts/Vol_12/Vol_12_Chapter_4.md` as right edge, and `Drafts/Vol_12/Vol_12_Chapter_5.md` checked as lookahead boundary.
+- Current work: `Vol.12 Chapter 3` style-harness lock complete.
+- Next work: `Vol.12 Chapter 4`; individual style-harness verification is contiguous through `Vol.12 Chapter 3`, and aggregate style-harness verification remains contiguous through `Vol.9 Chapters 1~25`.
+- Execution mode: heartbeat-triggered orchestra-conductor single-chapter lock pass; conductor read-only specialist lenses plus final integration.
+- MCP: none; no multi-agent worker was spawned because this heartbeat pass did not require explicit delegation.
+- Skills: `rttp-lock-cycle`.
+- Automations: `rttp-style-harness-completion-loop`.
+- Edits:
+  - `Drafts/Vol_12/Vol_12_Chapter_3.md`
+  - `orchestra/VOL12_CHAPTER_3_STYLE_HARNESS_CHECKPOINT_2026-07-13.md`
+  - `orchestra/SESSION_STATE.md`
+  - `orchestra/NEXT_DIALOGUE_HANDOFF.md`
+  - `orchestra/EXECUTION_PROGRESS_LEDGER.md`
+- Specialist FAIL ledger: Hook/format FAIL from numeric episode title, artifact backticks, and abstract widening opening; length FAIL below the active `4,800` no-space floor; time-scent FAIL through `이미` and `순간`; boundary hygiene FAIL because Ch3 had to own only `이름의 바깥` while preserving Ch2's `더 큰 이름` title-only lock and `잔류 공명군` internal naming escalation, and reserving Ch4 `인계 문장` plus Ch5 `도장이 먼저 말하는 곳`; continuity FAIL because the outward contact/report spread needed concrete carryover from `현장 판단 유보`, `직접 인계 대상`, `현장 보류 대상`, `탑 출구 관련 세 사람`, `분리 배식`, `위치 보존`, `표식 충돌`, `교차 관찰선`, `공동 반응군`, `선행선`, `선행 판단 확인선`, `교차 구간`, `낭독 종료`, `이동 대기`, and `예외 반응 발생 시 임시 정지`; mid-pressure FAIL because contact/report pressure needed to move through `접촉선`, `보고선`, `연결 가능성`, `직접 대상`, `초기 보고 경로`, `관련자`, `접촉자`, and `보고선 포함 검토` rather than explanation; ending-click FAIL because the close needed to hand into Ch4's quiet direct-handoff execution without consuming it; motif/style FAIL because the outward name needed procedural function; clarity/canon FAIL because Aiden, Iris, and Rena needed distinct lanes under the same spread.
+- Narrow repair: title changed to `이름의 바깥`; numeric title residue, Arabic digits, Latin residue, artifact backticks, strict residue, body-level exact-title repeats, and adjacent-title leakage were cleared; focused expansion raised the chapter above the length floor through contact/report ledgers, meal-line procedure, ordinary signs turning people into contact units, Rena's seen/handed/moved/heard map, and Aiden's counter-record that contact/report/connection are not responsibility; Ch2 continuity anchors were carried through all required terms; Aiden preserved counter-record causality, Iris preserved ordinary procedure pressure, and Rena preserved body/place proof; the ending leaves `직접 인계 대상 이동 준비`, `현장 보류 대상 분리 유지`, and `관련 기록 봉함 대기` for Ch4.
+- Final verification: full UTF-8 reread after recast, strict-residue cleanup with another full reread, floor expansion with another full reread, duplicate non-empty exact-window check, then five no-edit cycles all PASS at `body_nospace=4,842`, `total_nospace=4,847`, lines `867`, chars `6,865`, backticks `0`, strict route hits `0`, own title hits `1`, own title body hits `0`, reserved adjacent body hits `0`, required misses `0`, duplicate non-empty five-line windows `0`, Latin residue `0`, numeric residue `0`, BOM `false`, EOF missing `false`, hash `D28CE99CB5EDB3A595342ED82FDF5EB9E05FE3B3E9A7C02009EE893114C7422F`.
+- Result:
+  - Individual style-harness verified range advances through `Vol.12 Chapter 3`.
+  - Latest checkpoint: `orchestra/VOL12_CHAPTER_3_STYLE_HARNESS_CHECKPOINT_2026-07-13.md`.
+  - Handoff updated so the exact next unit is `Vol.12 Chapter 4`.
+
 ## 2026-07-12 KST
 
 - Mode: `rttp style-harness recast Vol.12 Chapter 2`
