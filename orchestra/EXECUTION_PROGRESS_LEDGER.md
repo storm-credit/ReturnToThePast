@@ -14,6 +14,28 @@
 
 ## 2026-07-13 KST
 
+- Mode: `rttp style-harness recast Vol.12 Chapter 4`
+- Scope: single-chapter lock pass for `Drafts/Vol_12/Vol_12_Chapter_4.md`, with `Drafts/Vol_12/Vol_12_Chapter_3.md` as prior edge, `Drafts/Vol_12/Vol_12_Chapter_5.md` as right edge, and `Drafts/Vol_12/Vol_12_Chapter_6.md` checked as lookahead boundary.
+- Current work: `Vol.12 Chapter 4` style-harness lock complete.
+- Next work: `Vol.12 Chapter 5`; individual style-harness verification is contiguous through `Vol.12 Chapter 4`, and aggregate style-harness verification remains contiguous through `Vol.9 Chapters 1~25`.
+- Execution mode: heartbeat-triggered orchestra-conductor single-chapter lock pass; conductor read-only specialist lenses plus final integration.
+- MCP: none; no multi-agent worker was spawned because this heartbeat pass did not require explicit delegation.
+- Skills: `rttp-lock-cycle`.
+- Automations: `rttp-style-harness-completion-loop`.
+- Edits:
+  - `Drafts/Vol_12/Vol_12_Chapter_4.md`
+  - `orchestra/VOL12_CHAPTER_4_STYLE_HARNESS_CHECKPOINT_2026-07-13.md`
+  - `orchestra/SESSION_STATE.md`
+  - `orchestra/NEXT_DIALOGUE_HANDOFF.md`
+  - `orchestra/EXECUTION_PROGRESS_LEDGER.md`
+- Specialist FAIL ledger: Hook/format FAIL from numeric episode title, artifact backticks, abstract opening, and body-level exact-title risk; length FAIL below the active `4,800` no-space floor; time-scent FAIL through `이미` and `순간`; boundary hygiene FAIL because Ch4 had to own only `인계 문장`, preserve Ch3's outward `접촉선`, `보고선`, and `연결 가능성` spread, and reserve Ch5 `도장이 먼저 말하는 곳` plus Ch6 `남겨진 쪽의 시간`; continuity FAIL because the quiet handoff lane needed proof through `직접 인계 대상`, `직접 대상`, `고지 확인`, `현장 분리`, `상층 직인계`, `직접 인계 건`, `첫 건`, `다음 칸`, `후속 판정 전 유지`, and `중심 기록 요구`; mid-pressure FAIL because the raw target needed to make remaining people and records change status, not only move Aiden; ending-click FAIL because the empty next line needed to become next-unit force; motif/style FAIL because the chapter had to avoid Ch5's stamp-first mechanics; clarity/canon FAIL because Aiden, Iris, and Rena needed distinct lanes under one handoff board.
+- Narrow repair: title changed to `인계 문장`; numeric title residue, Arabic digits, Latin residue, artifact backticks, strict residue, and body-level exact-title repeats were cleared; focused expansion raised the chapter above the length floor through direct-target versus handoff-target pressure, Aiden's counter-records, Iris noticing polite administrative cruelty, Rena mapping the split movement lines, and the empty next-case line; Ch3 continuity anchors were carried through required contact/report terms; Ch5's exact title and inner-zone stamp mechanics were reserved.
+- Final verification: full UTF-8 reread after recast, `직접 대상` and floor repair with another full reread, one-character floor repair with another full reread, duplicate non-empty exact-window check, then five no-edit cycles all PASS at `body_nospace=4,801`, `total_nospace=4,805`, lines `881`, chars `6,761`, backticks `0`, strict route hits `0`, own title hits `1`, own title body hits `0`, reserved adjacent body hits `0`, required misses `0`, duplicate non-empty five-line windows `0`, Latin residue `0`, numeric residue `0`, BOM `false`, EOF missing `false`, hash `B51CFE4C46BFA0CBFF1435A736416F8B542CF30ED539068A8437C45C098735D0`.
+- Result:
+  - Individual style-harness verified range advances through `Vol.12 Chapter 4`.
+  - Latest checkpoint: `orchestra/VOL12_CHAPTER_4_STYLE_HARNESS_CHECKPOINT_2026-07-13.md`.
+  - Handoff updated so the exact next unit is `Vol.12 Chapter 5`.
+
 - Mode: `rttp style-harness recast Vol.12 Chapter 3`
 - Scope: single-chapter lock pass for `Drafts/Vol_12/Vol_12_Chapter_3.md`, with `Drafts/Vol_12/Vol_12_Chapter_2.md` as prior edge, `Drafts/Vol_12/Vol_12_Chapter_4.md` as right edge, and `Drafts/Vol_12/Vol_12_Chapter_5.md` checked as lookahead boundary.
 - Current work: `Vol.12 Chapter 3` style-harness lock complete.
