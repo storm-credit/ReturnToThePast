@@ -1,13 +1,13 @@
 # Pre-Writing Gate Status
 
-Status: **PAUSED — HUMAN PROSE RECALIBRATION REQUIRED**  
+Status: **PAUSED — E001 AUTHOR PROSE REVIEW**  
 Effective: 2026-08-07  
 Author Feedback: `1화를 읽어봤는데 AI 티가 너무 난다.`  
-Current Production Unit: E001–E002 prose recalibration
+Current Production Unit: E001 human-prose revision review
 
 ## Reason for Pause
 
-D10의 정본·작법·연속성 검사는 통과했지만, 실제 원고에서 다음 인간문체 차단 문제가 발견됐다.
+D10의 정본·작법·연속성 검사는 통과했지만, 기존 원고에서 다음 인간문체 차단 문제가 발견됐다.
 
 - 짧은 격언형 마감문장의 과다
 - `A가 아니었다. B였다.` 대조구문의 반복
@@ -20,25 +20,32 @@ D10의 정본·작법·연속성 검사는 통과했지만, 실제 원고에서 
 
 이 문제는 사건·세계관·정본 충돌이 아니라 원고 구현과 인간적 질감의 문제다.
 
+## Active Human-Prose System
+
+- Skill: `.agent/skills/human-prose-audit/SKILL.md`
+- Registry: `.agent/skills/README.md`
+- Rule: AI는 `AUTHOR REVIEW READY`까지만 판정
+- Final `HUMAN PROSE PASS`: 작가 승인 필수
+
 ## Production State
 
 ### E001
 
-- PR: #24
-- Merge SHA: `97d9195913a53eba96d7cde4360429125ee7c69b`
-- Main file: 존재
+- Original PR: #24
+- Original Merge SHA: `97d9195913a53eba96d7cde4360429125ee7c69b`
 - Structural/Canon Audit: PASS
-- Human Prose Audit: **FAIL / RECALIBRATION REQUIRED**
-- Status: **PROVISIONAL MANUSCRIPT — NOT STYLE LOCKED**
+- Original Human Prose Audit: FAIL
+- Human-Prose Revision: COMPLETE ON REVIEW BRANCH
+- Revision Report: `manuscript/quality/E001-human-prose-revision-report.md`
+- Current Status: **AUTHOR REVIEW READY — NOT HUMAN-PROSE APPROVED**
 
 ### E002
 
 - PR: #27
 - Merge SHA: `f33141d42634e0d7f634ae5886a0b63ad3a8b88f`
-- Main file: 존재
 - Structural/Canon Audit: PASS
-- Human Prose Audit: **PENDING, 동일 생성규칙으로 인해 재검토 필수**
-- Status: **PROVISIONAL MANUSCRIPT — NOT STYLE LOCKED**
+- Human Prose Audit: PENDING
+- Status: **PROVISIONAL MANUSCRIPT — REAUDIT / REVISION REQUIRED**
 
 ### E003
 
@@ -47,19 +54,22 @@ D10의 정본·작법·연속성 검사는 통과했지만, 실제 원고에서 
 - Reason: E001 author prose feedback before merge
 - Branch draft is reference only and cannot become canon without recalibration
 
-## Revised Gate
+## E001 Revision Boundary
 
-새 원고 집필은 다음이 완료될 때까지 중단한다.
+다음 정본과 사건은 변경하지 않았다.
 
-1. 인간문체·AI 패턴 감사 기준 등록
-2. E001 문장 단위 감사
-3. 사건·설정 변경 없이 E001 문체 재수술
-4. 작가 낭독·체감 확인
-5. E002 동일 기준 재감사·재수술
-6. 주인공·리아·총감·기관 실무자의 대사 음성 분리
-7. 설명 제거 뒤에도 시간법칙과 장면 인과가 이해되는지 검사
-8. 상징·격언·대조구문 밀도 제한
-9. S0/S1 정본감사와 별도로 Human Prose PASS 획득
+- 제칠 방벽 붕괴와 주소 연결 상실
+- 구조표식 5개 조회 실패
+- 방벽 진입 거부와 구조 가능 인원 감소
+- 도시 생존시한 127일 / 계절 동기화 156일
+- 서부 구조대 31명 연락두절
+- 시간 파견 제안
+- 세렌 바일과 9일·12일·17일 기록 충돌
+- 세렌 제거 시 19만 생존증가 예측
+- 증언자 5번·13번 공백
+- 기록 접근실과 삭제 잔문 `세`
+
+수정 범위는 문장·대사·호흡·정보 제시·생활 디테일이다.
 
 ## Human Prose Hard Stops
 
@@ -74,12 +84,11 @@ D10의 정본·작법·연속성 검사는 통과했지만, 실제 원고에서 
 - 감정이 행동으로 드러난 뒤 다시 추상어로 설명됨
 - 의미 없는 생활 디테일과 우연한 행동이 전혀 없음
 
-## Canon Boundary
-
-- 사건 순서, 세계관, 인물 의도, 결말, 상태장부는 유지한다.
-- 문장·대사·묘사·호흡·정보 제시 순서만 재수술할 수 있다.
-- E001·E002가 main에 있다는 사실만으로 최종 문체 정본으로 보지 않는다.
-
 ## Resume Condition
 
-작가가 E001 재수술본을 읽고 인간적인 문장과 인물 목소리가 충분하다고 판단한 뒤에만 E003 이후 집필을 재개한다.
+1. 작가가 E001 재수술본을 직접 읽는다.
+2. 충분히 자연스럽다고 판단하면 E001을 `HUMAN PROSE PASS`로 승격한다.
+3. E002를 동일 기준으로 전면 재감사·재수술한다.
+4. E001·E002 모두 작가 승인 후 E003 이후 집필을 재개한다.
+
+작가 승인 전에는 새 회차 집필과 병합을 진행하지 않는다.

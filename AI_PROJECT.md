@@ -69,8 +69,11 @@ Project: 《왕국은 과거를 먹고 산다》 (`ReturnToThePast`)
 - `.agent/skills/storycraft-orchestrator/SKILL.md`
 - `.agent/skills/context-pack-compiler/SKILL.md`
 - `.agent/skills/sentence-narrator/SKILL.md`
+- `.agent/skills/human-prose-audit/SKILL.md`
 
 Skill은 반복 절차다. 설정·사건·결말을 독자적으로 승인하거나 변경할 수 없다.
+
+`human-prose-audit`은 AI 자체로 `AUTHOR REVIEW READY`까지만 판정할 수 있다. 최종 `HUMAN PROSE PASS`는 작가가 실제 원고를 읽고 승인한 경우에만 기록한다.
 
 ## 7. Context Pack Rule
 
@@ -92,7 +95,9 @@ CP는 원본 경로, 기준 commit/ref, 추출한 사실, 정보상한, 현재 �
 
 실행 순서:
 
-`Authority Resolve → CP Compile → Domain Readiness → Craft Manifest → POV/Scene Architecture → Draft/Design → Prose Audit → Canon/Continuity → Reader/Red Team → GitHub Verification → State Mutation`
+`Authority Resolve → CP Compile → Domain Readiness → Craft Manifest → POV/Scene Architecture → Draft/Design → Sentence/Prose Audit → Human Prose Audit → Canon/Continuity → Reader/Red Team → Author Review → GitHub Verification → State Mutation`
+
+작가가 AI 티를 지적한 원고는 구조·정본 검사를 통과했더라도 다음 화로 진행하지 않는다.
 
 ## 9. Current State
 
@@ -116,6 +121,9 @@ CP는 원본 경로, 기준 commit/ref, 추출한 사실, 정보상한, 현재 �
 - POV 정보상한·재합류 상태 부재
 - 상태장부 갱신계획 부재
 - S0 또는 S1 미해결
+- Human Prose Audit 미실행
+- 작가가 AI 티를 지적한 원고의 재검토 미완료
+- 이전 화가 `AUTHOR REVIEW READY`에 도달하지 못함
 - branch가 main보다 뒤처짐
 
 ## 11. GitHub Rule

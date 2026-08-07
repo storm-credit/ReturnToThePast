@@ -62,6 +62,23 @@ Required companions:
 - `pronunciation-lexicon.md`
 - `prose-quality-checklist.md`
 
+### human-prose-audit
+
+Path: `.agent/skills/human-prose-audit/SKILL.md`
+
+Purpose:
+
+- 문장별 문법검사를 통과했지만 화 전체가 AI처럼 지나치게 정돈된 문제 감지
+- 격언형 마감·대칭 대조·의미 재해설·균일한 대사·과기능 묘사 차단
+- 사건·설정·인물 의도 변경 없이 문장·대사·호흡·정보 제시 순서 재수술
+- 생활의 마찰과 인물별 불완전한 반응 복원
+- 다음 화 진행 전 이전 화의 Human Prose 상태 확인
+
+Authority:
+
+- AI는 `AUTHOR REVIEW READY`까지만 판정 가능
+- `HUMAN PROSE PASS`는 작가 승인 후에만 기록
+
 ## Required Order for Manuscript
 
 1. `context-pack-compiler`
@@ -70,9 +87,13 @@ Required companions:
 4. POV·장면 설계
 5. A18 원고 구현
 6. `sentence-narrator`
-7. Canon·Continuity·Reader·Red Team 감사
+7. `human-prose-audit`
+8. Canon·Continuity·Reader·Red Team 감사
+9. 작가 Human Prose 승인
 
 순서를 바꾸거나 CP 없이 A18을 호출하지 않는다.
+
+작가가 AI 티를 지적한 원고는 구조·정본 PASS만으로 다음 화를 진행하지 않는다.
 
 ## Disabled
 
