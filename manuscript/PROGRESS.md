@@ -15,43 +15,40 @@ Protocol: one episode per branch, PR and squash merge
 |---|---|---:|---|---|---|---|---|---|
 | E001 | 마지막 도시의 다른 날짜 | 10,377 | READY / RETRO | READY / RETRO | PASS + D10 PASS | #24 | `97d9195913a53eba96d7cde4360429125ee7c69b` | YES |
 | E002 | 여섯 개의 승인 | 7,000+ | READY | READY | PASS | #27 | `f33141d42634e0d7f634ae5886a0b63ad3a8b88f` | YES |
-| E003 | 창시자의 증거 | — | READY | READY | NOT WRITTEN | — | — | — |
+| E003 | 창시자의 증거 | 약 9,681 | READY | READY | PASS | PENDING | PENDING | PENDING |
+| E004 | 지연의 사망자 | — | NOT PREPARED | NOT PREPARED | NOT WRITTEN | — | — | — |
 
-## E002 Exit State
+## E003 Exit State
 
-- 여섯 권한은 모두 제한·조건부 상태로 연결
-- 에이든: 불완전 기록·귀환위험 인지 아래 조건부 서명
-- 리아: 감사대상 상태에서 제한검증 승인
-- 귀환석: 중심층 3갈래 균열
-- 예상 현지 체류: 5시간 17분
-- 최대 도착오차: 18km
-- 강제복귀: 1회
-- 현지 조사·환자 증언: 부목표
-- 제칠 방벽 마지막 표시 구조 가능 인원: 1,312명
-- 서부 구조대 31명: 연락두절 지속
-- 미확인 토양: 현재 아르켄·목표시대 네르바 표준 불일치, 달력 잔향 분류 불가, 귀환석 제작일보다 오래됨
-- 토양 보관: 관측탑·귀환원 공동봉인, 기록소 공동접근 요청
+- 세렌 관련 금지 도구의 실제 사용흔적 확인
+- 시설손상·사망·실종 피해는 실제이며 전부 조작된 숫자가 아님
+- 세렌 단독 책임과 왕실·치안대·시설붕괴 책임은 아직 분리되지 않음
+- 사건 전 발부된 왕실 체포·폐쇄·압수 명령의 실제성 확인
+- 19만 생존증가 모델은 한계가 있으나 현재 임무를 중단시킬 만큼 무너지지 않음
+- 미등록자·주소불안정자·백지권·외부 피난민의 비용은 불완전
+- 에이든: 임무효과 모델 현재 유효 / 현지 추가검증 유지
+- 다섯 번째 증언자 사망등록: 안개월 9일
+- 세렌 범행일: 안개월 12일
+- 회색 재앙 최초 발생일: 안개월 17일
+- 증언자 정체·삭제 주체·틀린 날짜는 미확정
+- 성당 재검사: 신체 동기화 조건부 적합 유지 / 출발 가능
+- 실제 시간여행 출발: 아직 발생하지 않음
 
-## Next — E003
+## Next — E004
 
-- Title: 창시자의 증거
+- Title: 지연의 사망자
 - POV: 에이든 로엔 근접 3인칭
-- Scene Density: S형 3장면
-- Primary Craft: 경쟁하는 증거사다리
-- Secondary Craft: 합리적 오답 강화 / 숫자와 구체 피해의 윤리 압박 / 증거 후 반응
-- Core Function: 압수품·희생자·왕실명령·19만 생존증가 계산이 세렌 제거를 합리적으로 설득
-- Opposition: 삭제 증언자 사망일이 세렌의 범행일보다 앞선다는 시간모순
-- Reader Reward: 세렌의 혐의가 완전한 날조가 아니며 실제 불법행위·피해를 포함함을 확인
-- Hook: 삭제 증언자의 사망일과 범행일 충돌
+- Core Function: 추가검증을 기다린 시간이 현재 사람의 약품·난방·구조기회를 직접 빼앗는다는 사실을 개인 단위로 제시
+- Central Choice: 더 확인할 것인가, 누락 위험을 인지하고 출발할 것인가
+- Required Before Draft:
+  - E004 Episode Context Pack
+  - E004 Storycraft Manifest
+  - E003 merge/main verification
 - Anti-Repeat:
-  - 승인기관 순회 금지
-  - 숫자 카운트다운을 중심 훅으로 반복 금지
-  - 귀환석 토양을 즉시 정답화 금지
-  - 압수품 전체 조작 반전 금지
-- Required Files:
-  - `.agent/context-packs/episodes/E003-context-pack.md`
-  - `docs/10_story_architecture/craft-manifests/E003-storycraft-manifest.md`
-- Status: READY FOR A18 AFTER STATUS MERGE
+  - E003 증거실·계산실 재방문 금지
+  - 19만 숫자를 중심 압박으로 반복 금지
+  - 승인기관 설명 반복 금지
+  - 새 증거로 세렌 무죄·유죄를 확정하지 않음
 
 ## Per-Episode Completion Rule
 
