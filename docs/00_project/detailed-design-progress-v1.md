@@ -25,8 +25,8 @@ Manuscript: BLOCKED
 | V03 | E051–E075 | 2/2 | 4/4 | 25/25 | PASS | yes — PR #7 |
 | V04 | E076–E100 | 2/2 | 4/4 | 25/25 | PASS | yes — PR #8 |
 | V05 | E101–E125 | 2/2 | 4/4 | 25/25 | PASS | yes — PR #9 |
-| V06 | E126–E150 | 2/2 | 4/4 | 25/25 | PASS | PR pending |
-| V07 | E151–E175 | 0/2 | functional only | 0/25 | pending | no |
+| V06 | E126–E150 | 2/2 | 4/4 | 25/25 | PASS | yes — PR #10 |
+| V07 | E151–E175 | 2/2 | 4/4 | 25/25 | PASS | PR pending |
 | V08 | E176–E200 | 0/2 | functional only | 0/25 | pending | no |
 | V09 | E201–E225 | 0/2 | functional only | 0/25 | pending | no |
 | V10 | E226–E250 | 0/2 | functional only | 0/25 | pending | no |
@@ -40,14 +40,14 @@ Manuscript: BLOCKED
 
 - Grand Acts: 5/5 functional complete
 - Volume Acts: 15/15 functional complete
-- Arc dossiers: 12/30
-- Expanded Subact dossiers: 24/60
-- D6 Scene-Ready Cards: 150/375
-- Volume Detail Audits: 6/15
+- Arc dossiers: 14/30
+- Expanded Subact dossiers: 28/60
+- D6 Scene-Ready Cards: 175/375
+- Volume Detail Audits: 7/15
 - Final D7 Cross-Audit: not started
 
 ## Next Automatic Volume
 
-V07 — 왕관 이전의 세계 — E151–E175
+V08 — 아홉 상처의 거짓 성인들 — E176–E200
 
-The next branch must start from the actual merged `main` after V06 PR verification.
+The next branch must start from the actual merged `main` after V07 PR verification.
