@@ -1,88 +1,94 @@
-# Full Design Cross-Audit v1
+# Full Functional Design Cross-Audit v1
 
-Status: PASS — DESIGN COMPLETE / AUTHOR REVIEW  
+Status: PASS — FUNCTIONAL DESIGN COMPLETE / DETAILED DESIGN INCOMPLETE  
 Owner: A02–A17  
 Date: 2026-08-07
 
-## Scope
+## Scope Audited
 
 - Source methodology compliance
 - Canon and legacy conflicts
-- World Bible
+- World Bible functional rules
 - Character/Faction/Institution Bible
-- Collection/Reward
-- 5 Grand Acts / 15 Volumes / 60 Subacts
-- E001–E375 design registries
+- Collection/Reward system
+- 5 Grand Acts / 15 Volume Acts / 60 functional Subacts
+- E001–E375 functional episode registries
 - Mystery/MacGuffin/Loss/State ledgers
 - Anti-repeat and reference similarity
 - Ending causal closure
 
-## Fatal / Blocking Findings
+## Fatal / Blocking Findings for Functional Design
 
 - S0: **0 open**
 - S1: **0 open**
 
-Closed S1 items:
+Closed functional blockers:
 
-1. 왕국 밖 세계·국경·외교 → World Scope & Geography
-2. 지도·거리·이동 → 권역·이동 기준과 Volume locations
-3. 일반 마법과 시간여행 분리 → Mana & Common Magic
-4. 마나열병 규칙 → 5단계·진단·치료·정치
-5. 종족 사회·내부파벌 → Peoples & Cultures
-6. 신화 4층 → Nine Wounds
-7. Era O/N/F 생활 차이 → Daily Life & Era Contrast
-8. 행정·세금·기록 비용 → Political Economy / Civic Engine
-9. 시간선 변화 후 법·소유권 → Record Law / V13
-10. 15권 사건 반복 → Mission Anti-Repeat + 60 Subacts
-11. 기존 회귀 정본 충돌 → `00_CANON.md` DEPRECATED
-12. 구형 원고 생성 스킬 충돌 → `chrono-weaver` DISABLED
-13. 결말과 초반 단절 → 첫 표적·빈 장부·회색 종·귀환패가 V13–V15에서 재사용
-14. 회차 누락·중복 → E001–E375 coverage PASS
+1. 왕국 밖 세계·국경·외교
+2. 지도·거리·이동
+3. 일반 마법과 시간여행 분리
+4. 마나열병 규칙
+5. 종족 사회·내부파벌
+6. 신화 4층
+7. Era O/N/F 생활 차이
+8. 행정·세금·기록 비용
+9. 시간선 변화 후 법·소유권
+10. 15권 사건 반복
+11. 기존 회귀 정본 충돌
+12. 구형 원고 생성 스킬 충돌
+13. 결말과 초반 인과 연결
+14. E001–E375 번호 누락·중복
 
-## Major Nonblocking Risks
+## Detail-Level Correction
 
-### S2-01 — 최종 제목·고유명사
+이 감사는 세계 규칙과 전체 인과가 성립하는지 검사한 **기능 설계 감사**다.
 
-- 《왕국은 과거를 먹고 산다》는 권장 작업 제목.
-- 에이든·리아·아이리스·발타자르와 종족명은 SOFT LOCK.
-- 영향: 플롯 기능 없음. 최종 플랫폼·검색성·음운 감사 후 변경 가능.
+다음을 완료했다는 뜻은 아니다.
 
-### S2-02 — 플랫폼과 회차당 글자수
+- 30개 Arc 독립 dossier
+- 60개 Subact의 장면·등장인물·동선·정보·자산 필드 확장
+- 375화의 3–7개 scene beats
+- 화별 등장인물 목적과 거부 가능성
+- 장면별 공간·전술·보급 논리
+- 화별 감정곡선과 대사 목적
+- 375화 전체 scene-ready 연속성 감사
 
-- 375화 구조는 고정 설계 목표이나 플랫폼·유료화 구간·회차당 글자수 미확정.
-- 영향: 사건 순서가 아니라 1화 장면량·권별 유료화 훅 조정 대상.
+따라서 이전의 `DESIGN COMPLETE`는 `FUNCTIONAL DESIGN COMPLETE`로 정정한다.
 
-### S2-03 — 로맨스 비중
+## Remaining Detail Blockers
 
-- 에이든–아이리스 또는 에이든–리아 관계는 현재 윤리·정치·기억 축으로 작동.
-- 로맨스 채택 여부가 핵심 인과를 바꾸지 않도록 설계됨.
+상세 설계 D7 완료를 위해 다음이 필요하다.
 
-### S2-04 — 세부 신수 외형·생태
+1. 30 Arc dossiers
+2. 60 expanded Subact dossiers
+3. E001–E375 D6 scene-ready episode cards
+4. 화별 상태 장부 동기화
+5. 장면 단위 anti-repeat / distance / information audit
+6. 최종 D7 cross-audit
 
-- 기능·권리·플롯 슬롯은 있으나 종별 외형·번식·정확한 이름은 작가 미승인.
-- 회차 인과를 막지 않으며 집필 전 비주얼 Bible에서 확정.
+이 항목들은 원고 Gate의 상세 준비조건이며 아직 완료되지 않았다.
 
 ## Causal Ending Audit
 
-- 첫 임무의 잘못된 기록 → 중앙 부담배분 은폐 → 건국 협약 왜곡 → 경쟁 시간산업 → 중앙 정지 → 시민권·분산 운영으로 이어진다.
+- 첫 임무의 잘못된 기록 → 중앙 부담배분 은폐 → 건국 협약 왜곡 → 경쟁 시간산업 → 중앙 정지 → 시민권·분산 운영으로 연결된다.
 - 최종 해결은 초반의 기록·주소·귀환·대가 문제를 같은 규칙으로 해결한다.
 - 새 시간법칙이 결말 직전에 추가되지 않는다.
-- F0·첫 표적·지휘관·Ria 기억·변경도시·에이든 주소 손실이 남는다.
+- F0·첫 표적·지휘관·리아의 기억·변경도시·에이든 주소 손실이 남는다.
 
 ## Protagonist Power Audit
 
 - 에이든은 임무 승인·좌표·주소·귀환·감사·부담을 독점하지 않는다.
-- 최종 전환에도 지역·종족·기관·시민·외국의 동의가 필요하다.
-- 다른 인물이 거부·이탈·독자 선택을 실제로 행사한다.
+- 최종 전환에는 지역·종족·기관·시민·외국의 동의가 필요하다.
+- 다른 인물은 거부·이탈·독자 선택을 행사한다.
 
 ## Collection Audit
 
-- 주요 유산 12개는 두 Grand Acts 이상에서 재사용 또는 최종 상태가 있다.
+- 주요 유산 12개는 두 Grand Acts 이상에서 재사용되거나 최종 상태가 있다.
 - 전투력 보상이 연속되지 않는다.
 - 신수는 소유되지 않고 계약·거부·이탈한다.
-- 절검·경계갑·무관 등은 최종적으로 파괴·분해·분산되어 수집 완료가 곧 독점이 되지 않는다.
+- 유산은 파괴·분해·분산·공공기록화될 수 있다.
 
-## Anti-Repeat Audit
+## Anti-Repeat Audit at Functional Level
 
 - V1 암살/오판
 - V2 기록추리
@@ -100,8 +106,14 @@ Closed S1 items:
 - V14 기록·동의
 - V15 인프라 전환·희생
 
-같은 핵심 임무·공간·보상·권말 훅의 연속 반복 없음.
+장면 단위 반복 검사는 D6 카드 작성 후 다시 수행한다.
 
 ## Verdict
 
-세계관·설정집·15권 설계도는 **DESIGN COMPLETE / AUTHOR REVIEW** 상태다. 이는 원고 작성 허가가 아니다. Pre-Writing Gate는 CLOSED이고 A18 Prose Agent는 비활성이다.
+- 세계관·설정집: **FUNCTIONAL BIBLE COMPLETE / DETAIL EXPANSION AND AUTHOR REVIEW REQUIRED**
+- 5 Grand Acts / 15 Volume Acts: **COMPLETE**
+- 60 Subacts: **FUNCTIONAL COMPLETE / EXPANSION REQUIRED**
+- E001–E375: **FUNCTIONAL CARDS COMPLETE / SCENE-READY CARDS NOT COMPLETE**
+- Full detailed design D7: **NOT COMPLETE**
+- Pre-Writing Gate: **CLOSED**
+- A18 Prose Agent: **DISABLED**
