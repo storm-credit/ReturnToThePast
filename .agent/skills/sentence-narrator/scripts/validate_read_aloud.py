@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 from __future__ import annotations
+
 import argparse
 import re
 import sys
@@ -33,6 +34,7 @@ REQUIRED_CLARITY = [
     "허가 없이 삭제 흔적에 접근",
 ]
 
+
 def body_without_frontmatter(text: str) -> str:
     if text.startswith("---\n"):
         end = text.find("\n---\n", 4)
@@ -40,10 +42,12 @@ def body_without_frontmatter(text: str) -> str:
             return text[end + 5 :]
     return text
 
+
 def main() -> int:
     parser = argparse.ArgumentParser()
     parser.add_argument("path", type=Path)
     args = parser.parse_args()
+
     text = args.path.read_text(encoding="utf-8")
     body = body_without_frontmatter(text)
     failures: list[str] = []
@@ -84,8 +88,10 @@ def main() -> int:
             print(f"FAIL: {item}")
         print(f"[READ-ALOUD] RESULT=FAIL ({len(failures)})")
         return 1
+
     print("[READ-ALOUD] RESULT=PASS")
     return 0
+
 
 if __name__ == "__main__":
     sys.exit(main())
