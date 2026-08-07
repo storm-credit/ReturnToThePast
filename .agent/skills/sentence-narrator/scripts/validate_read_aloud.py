@@ -1,6 +1,5 @@
 #!/usr/bin/env python3
 from __future__ import annotations
-
 import argparse
 import re
 import sys
@@ -19,10 +18,11 @@ BLOCKED = [
     "등록흔",
     "검은 유리구",
     "사본끼리 우선순위",
+    "사람의 등록 기록과 현재 위치가 서로 맞지 않습니다.",
 ]
 
 REQUIRED_CLARITY = [
-    "사람의 등록 기록과 현재 위치가 서로 맞지 않습니다.",
+    "등록 정보와 위치 신호가 계속 어긋납니다.",
     "등록 인원 위치 확인 불가.",
     "구조 신호 확인해.",
     "도시를 붙드는 고정망",
@@ -33,7 +33,6 @@ REQUIRED_CLARITY = [
     "허가 없이 삭제 흔적에 접근",
 ]
 
-
 def body_without_frontmatter(text: str) -> str:
     if text.startswith("---\n"):
         end = text.find("\n---\n", 4)
@@ -41,12 +40,10 @@ def body_without_frontmatter(text: str) -> str:
             return text[end + 5 :]
     return text
 
-
 def main() -> int:
     parser = argparse.ArgumentParser()
     parser.add_argument("path", type=Path)
     args = parser.parse_args()
-
     text = args.path.read_text(encoding="utf-8")
     body = body_without_frontmatter(text)
     failures: list[str] = []
@@ -87,10 +84,8 @@ def main() -> int:
             print(f"FAIL: {item}")
         print(f"[READ-ALOUD] RESULT=FAIL ({len(failures)})")
         return 1
-
     print("[READ-ALOUD] RESULT=PASS")
     return 0
-
 
 if __name__ == "__main__":
     sys.exit(main())
