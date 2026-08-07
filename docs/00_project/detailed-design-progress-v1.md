@@ -33,21 +33,35 @@ Manuscript: BLOCKED
 | V11 | E251–E275 | 2/2 | 4/4 | 25/25 | PASS | yes — PR #15 |
 | V12 | E276–E300 | 2/2 | 4/4 | 25/25 | PASS | yes — PR #16 |
 | V13 | E301–E325 | 2/2 | 4/4 | 25/25 | PASS | yes — PR #17 |
-| V14 | E326–E350 | 2/2 | 4/4 | 25/25 | PASS | PR pending |
-| V15 | E351–E375 | 0/2 | functional only | 0/25 | pending | no |
+| V14 | E326–E350 | 2/2 | 4/4 | 25/25 | PASS | yes — PR #18 |
+| V15 | E351–E375 | 2/2 | 4/4 | 25/25 | PASS | PR pending |
 
 ## Current Totals
 
-- Grand Acts: 5/5 functional complete
-- Volume Acts: 15/15 functional complete
-- Arc dossiers: 28/30
-- Expanded Subact dossiers: 56/60
-- D6 Scene-Ready Cards: 350/375
-- Volume Detail Audits: 14/15
-- Final D7 Cross-Audit: not started
+- Grand Acts: 5/5 complete
+- Volume Acts: 15/15 complete
+- Arc dossiers: 30/30
+- Expanded Subact dossiers: 60/60
+- D6 Scene-Ready Cards: 375/375
+- Volume Detail Audits: 15/15
+- Final D7 Cross-Audit: PASS
+- S0: 0 open
+- S1: 0 open
+- Manuscript files modified: 0
 
-## Next Automatic Volume
+## Current State
 
-V15 — 돌아갈 미래가 없다 — E351–E375
+- Detailed Architecture: D7 DESIGN COMPLETE / AUTHOR REVIEW
+- World Bible / Setting Bible: DESIGN COMPLETE / AUTHOR REVIEW
+- Pre-Writing Gate: CLOSED
+- Prose Agent: DISABLED
 
-The next branch must start from the actual merged `main` after V14 PR verification.
+## Remaining Nonblocking Author Review
+
+1. Final title and names
+2. Platform and final minimum manuscript character count
+3. Romance proportion
+4. Maps and visual bible
+5. Platform-specific paid-conversion spacing
+
+V15 and this final state must be verified as actually merged into `main` before the final completion report.
