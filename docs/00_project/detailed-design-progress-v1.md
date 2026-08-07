@@ -21,8 +21,8 @@ Manuscript: BLOCKED
 | Volume | Episodes | Arcs | Subacts | D6 Cards | Audit | Main |
 |---:|---:|---:|---:|---:|---|---|
 | V01 | E001–E025 | 2/2 | 4/4 | 25/25 | PASS | yes — PR #5 |
-| V02 | E026–E050 | 2/2 | 4/4 | 25/25 | PASS | PR pending |
-| V03 | E051–E075 | 0/2 | functional only | 0/25 | pending | no |
+| V02 | E026–E050 | 2/2 | 4/4 | 25/25 | PASS | yes — PR #6 |
+| V03 | E051–E075 | 2/2 | 4/4 | 25/25 | PASS | PR pending |
 | V04 | E076–E100 | 0/2 | functional only | 0/25 | pending | no |
 | V05 | E101–E125 | 0/2 | functional only | 0/25 | pending | no |
 | V06 | E126–E150 | 0/2 | functional only | 0/25 | pending | no |
@@ -40,14 +40,14 @@ Manuscript: BLOCKED
 
 - Grand Acts: 5/5 functional complete
 - Volume Acts: 15/15 functional complete
-- Arc dossiers: 4/30
-- Expanded Subact dossiers: 8/60
-- D6 Scene-Ready Cards: 50/375
-- Volume Detail Audits: 2/15
+- Arc dossiers: 6/30
+- Expanded Subact dossiers: 12/60
+- D6 Scene-Ready Cards: 75/375
+- Volume Detail Audits: 3/15
 - Final D7 Cross-Audit: not started
 
 ## Next Automatic Volume
 
-V03 — 죽인 자가 재앙을 막고 있었다 — E051–E075
+V04 — 존재하지 않는 도시 — E076–E100
 
-The next branch must start from the actual merged `main` after V02 PR verification.
+The next branch must start from the actual merged `main` after V03 PR verification.
