@@ -36,16 +36,21 @@ Applies To: repository-wide Codex work
 - A16: S0/S1 Red Team
 - A17: GitHub 상태검증
 
+명명 작업은 A00+A02+영향 Domain+A15+A19+A16+A17 라우트를 사용한다.
+
 ## Active Skills
 
 - `.agent/skills/storycraft-orchestrator/SKILL.md`
 - `.agent/skills/context-pack-compiler/SKILL.md`
 - `.agent/skills/sentence-narrator/SKILL.md`
 - `.agent/skills/human-prose-audit/SKILL.md`
+- `.agent/skills/naming-audit/SKILL.md`
 
 Skill은 절차이고 정본 승인권이 없다.
 
 `human-prose-audit`은 AI가 `AUTHOR REVIEW READY`까지만 판정한다. `HUMAN PROSE PASS`는 작가 승인 없이는 기록하지 않는다.
+
+`naming-audit`은 한국 웹소설 판타지 명명 규칙과 외국어 어감 일관성을 검사하며, 작가 승인 전 정본 이름을 확정하거나 일괄 치환하지 않는다.
 
 ## Harness
 
@@ -60,6 +65,8 @@ Skill은 절차이고 정본 승인권이 없다.
 3. Canon / Continuity / Reader / Red Team
 4. 작가 Human Prose 검토
 
+명칭 생성·교체가 포함되면 `naming-audit`을 문장 감사 전에 실행한다.
+
 작가가 AI 티를 지적한 원고는 구조·정본 PASS만으로 다음 화를 진행하지 않는다.
 
 ## Repository Boundaries
@@ -71,6 +78,7 @@ Skill은 절차이고 정본 승인권이 없다.
 - 첫 등장 인물·아이템·종교·기관은 해당 dossier를 확인
 - S0/S1이 있으면 푸시·병합 금지
 - Human Prose Audit 미완료 상태에서는 다음 화 집필 금지
+- 명명 감사 S1이 남은 상태에서는 관련 새 이름을 원고에 확장하지 않음
 
 ## GitHub Workflow
 
