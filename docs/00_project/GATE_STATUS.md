@@ -1,103 +1,85 @@
 # Pre-Writing Gate Status
 
-Status: **OPEN — D10 ORCHESTRATION READY**  
+Status: **PAUSED — HUMAN PROSE RECALIBRATION REQUIRED**  
 Effective: 2026-08-07  
-Author Directive: `스킬등록후 끝까지 써줘. 한편마다 푸쉬해주고.`  
-Current Production Unit: E003
+Author Feedback: `1화를 읽어봤는데 AI 티가 너무 난다.`  
+Current Production Unit: E001–E002 prose recalibration
 
-## Authorization
+## Reason for Pause
 
-작가는 낭독·한국어 문체 스킬을 등록한 뒤 E001부터 E375까지 순차 집필하고, 한 화마다 별도 PR로 푸시하도록 명시적으로 승인했다.
+D10의 정본·작법·연속성 검사는 통과했지만, 실제 원고에서 다음 인간문체 차단 문제가 발견됐다.
 
-이 승인은 원고 제작에만 적용된다. 다음 사항을 조용히 바꿀 권한은 아니다.
+- 짧은 격언형 마감문장의 과다
+- `A가 아니었다. B였다.` 대조구문의 반복
+- 대사마다 주제와 설정이 지나치게 정확히 전달됨
+- 모든 묘사가 상징·복선·세계관 설명을 동시에 수행함
+- 문단 끝마다 의미를 해설해 독자 해석 여백이 적음
+- 인물별 말투가 달라도 모두 같은 수준으로 정제되고 영리함
+- 인물의 생활감·우연·머뭇거림보다 설계기능이 전면에 보임
+- 장면 구조와 독자 보상 장치가 원고 표면에 노출됨
 
-- Canon Constitution
-- 결말과 영구손실
-- 인물 정체·사망·관계
-- 시간법칙·연대·인과
-- 15권·375화의 핵심 사건
+이 문제는 사건·세계관·정본 충돌이 아니라 원고 구현과 인간적 질감의 문제다.
 
-## D10 Infrastructure
-
-- PR: #25
-- Status: MERGED / MAIN VERIFIED
-- Merge SHA: `a34113d538f9ec22b396fdf0193dd82ab19328ec`
-- S0: 0
-- S1: 0
-
-## Per-Episode Operating Condition
-
-원고 승인은 유효하지만 각 회차는 다음 D10 조건을 개별 통과해야 한다.
-
-1. 최신 main 기준 Episode Context Pack READY
-2. 필요한 Domain Bible의 장면 상세도 READY
-3. Storycraft Manifest READY
-4. POV·정보상한·주인공 부재 행동 확인
-5. 이전 화 상태와 State Mutation Plan 확인
-6. S0=0 / S1=0
-7. A18 원고 작성
-8. A19 문장·낭독·이름·호칭·행동 검사
-9. A13/A14/A16 교차감사
-10. 한 화당 branch / PR / squash merge / main 재확인
-
-CP·Skill·Harness는 정본을 덮어쓸 수 없다.
-
-## Current State
+## Production State
 
 ### E001
 
-- Title: 마지막 도시의 다른 날짜
 - PR: #24
 - Merge SHA: `97d9195913a53eba96d7cde4360429125ee7c69b`
-- D10 Retro-Audit: PASS
-- Status: **CANON MANUSCRIPT / COMPLETE**
+- Main file: 존재
+- Structural/Canon Audit: PASS
+- Human Prose Audit: **FAIL / RECALIBRATION REQUIRED**
+- Status: **PROVISIONAL MANUSCRIPT — NOT STYLE LOCKED**
 
 ### E002
 
-- Title: 여섯 개의 승인
 - PR: #27
 - Merge SHA: `f33141d42634e0d7f634ae5886a0b63ad3a8b88f`
-- Context Pack: READY
-- Storycraft Manifest: READY
-- Quality: PASS
-- Main manuscript: VERIFIED
-- Status: **CANON MANUSCRIPT / COMPLETE**
+- Main file: 존재
+- Structural/Canon Audit: PASS
+- Human Prose Audit: **PENDING, 동일 생성규칙으로 인해 재검토 필수**
+- Status: **PROVISIONAL MANUSCRIPT — NOT STYLE LOCKED**
 
 ### E003
 
-- Title: 창시자의 증거
-- Episode CP: READY
-- Storycraft Manifest: READY
-- POV: 에이든 단일 근접 3인칭
-- Scene Density: S형 3장면
-- Primary Craft: 경쟁하는 증거사다리
-- Status: **READY FOR A18 AFTER STATUS MERGE**
+- PR: #29
+- Status: CLOSED / NOT MERGED
+- Reason: E001 author prose feedback before merge
+- Branch draft is reference only and cannot become canon without recalibration
 
-## Active Agents
+## Revised Gate
 
-- A00 Story Orchestrator: ENABLED
-- A02 Canon Controller: ENABLED
-- A18 Prose Agent: ENABLED PER READY EPISODE
-- A19 Sentence Narration & Korean Prose Audit: ENABLED
-- A20 Storycraft Director: ENABLED
-- A21 Context Pack Compiler & Harness Runner: ENABLED
+새 원고 집필은 다음이 완료될 때까지 중단한다.
 
-## Length
+1. 인간문체·AI 패턴 감사 기준 등록
+2. E001 문장 단위 감사
+3. 사건·설정 변경 없이 E001 문체 재수술
+4. 작가 낭독·체감 확인
+5. E002 동일 기준 재감사·재수술
+6. 주인공·리아·총감·기관 실무자의 대사 음성 분리
+7. 설명 제거 뒤에도 시간법칙과 장면 인과가 이해되는지 검사
+8. 상징·격언·대조구문 밀도 제한
+9. S0/S1 정본감사와 별도로 Human Prose PASS 획득
 
-- 원고 최소 공백 포함 7,000자
-- 상한 없음
-- 분량을 맞추기 위한 반복설명·무의미한 이동·대화 늘리기 금지
+## Human Prose Hard Stops
 
-## Pause Conditions
+다음이 반복되면 PASS 금지한다.
 
-다음 중 하나라도 발생하면 해당 화만 PAUSED로 전환한다.
+- 한 장면에서 격언처럼 인용 가능한 문장 2개 초과
+- `A가 아니라 B`, `A가 아니었다. B였다.`의 기계적 반복
+- 대사 뒤 서술이 방금 말한 의미를 다시 해설
+- 모든 단락이 훅·반전·주제문으로 종료
+- 인물 전원이 짧고 정확하고 영리하게만 말함
+- 설정어가 실제 감각·행동보다 먼저 제시됨
+- 감정이 행동으로 드러난 뒤 다시 추상어로 설명됨
+- 의미 없는 생활 디테일과 우연한 행동이 전혀 없음
 
-- 정본 충돌
-- stale 또는 출처 없는 CP
-- 필요한 인물·아이템·종교·기관 상세 부재
-- 보조 POV 정보상한·재합류 상태 부재
-- 새 설정의 즉석 생성 필요
-- S0 또는 S1
-- branch가 main보다 뒤처짐
+## Canon Boundary
 
-전체 Gate를 다시 닫지 않고 문제 회차와 영향범위만 차단한다.
+- 사건 순서, 세계관, 인물 의도, 결말, 상태장부는 유지한다.
+- 문장·대사·묘사·호흡·정보 제시 순서만 재수술할 수 있다.
+- E001·E002가 main에 있다는 사실만으로 최종 문체 정본으로 보지 않는다.
+
+## Resume Condition
+
+작가가 E001 재수술본을 읽고 인간적인 문장과 인물 목소리가 충분하다고 판단한 뒤에만 E003 이후 집필을 재개한다.
