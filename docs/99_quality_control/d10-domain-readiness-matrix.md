@@ -1,8 +1,8 @@
 # D10 분야별 상세도·원고호출 준비도 감사
 
-Status: ACTIVE AUDIT  
+Status: **PASS — D10 ORCHESTRATION READY**  
 Owner: A00 / A02 / A16 / A21  
-Purpose: 문서 존재 여부가 아니라 실제 원고 장면에 호출 가능한 깊이인지 판정
+Purpose: 문서 존재 여부가 아니라 실제 원고 장면에 호출 가능한 깊이와 라우팅을 판정
 
 ## 판정 기준
 
@@ -12,72 +12,111 @@ Purpose: 문서 존재 여부가 아니라 실제 원고 장면에 호출 가능
 
 ## 종합표
 
-| 분야 | 주요 정본 | 현재 판정 | 발견 사항 | 조치 |
-|---|---|---|---|---|
-| 권한·정본 계층 | Constitution / Amendment / Decision Log | BLOCKED→REPAIRING | Constitution이 `CLAUDE.md`에 의존한다고 표기, Router와 Canon 혼재 | D10 Governance, Constitution·CLAUDE 교정 |
-| 시간여행·기억·인과 | `docs/03_systems/` | READY | 출발·귀환·인과전파·기억·기능분리·상한 존재 | Episode CP에서 관련 규칙만 추출 |
-| 지리·도시·공간 | Atlas / Capital / World Geography | READY | 권역·수도구역·거리·보급·접근경계 존재 | 장면별 이동·출입·피난 CP 필수 |
-| 생활문화·언어·달력 | Culture / Language / Era Contrast | READY | 음식·복식·가족·장례·언어·달력 기반 존재 | 시대·지역별 선택 추출 |
-| 인구·경제·직업·가격 | Demographic / Economy | READY | 인구·병력·가격·직업·세금 기준 존재 | 수치 사용 시 A13 검증 |
-| 군사·외교·물류 | Military Bibles | READY | 편제·보급·통신·봉쇄·부상 후과 존재 | 전투 CP에서 공간·보급 동시 호출 |
-| 종족·문화 | Peoples & Cultures | READY | 사회·가족·직업·내부차이 존재 | 종족 전체 동일반응 금지 |
-| 종교·신화 | Nine Wounds / Culture | CONDITIONAL / S1 | 네 층 진실과 5분파는 있으나 성직계급·실제 의례 순서·축일·금기·성물·재판·일상 신앙의 장면용 상세가 부족 | Religion Ritual & Clergy Encyclopedia v2 필요 |
-| 기관·법·행정 | `docs/08_institutions/` | READY | 조직·절차·소유권·시간권한·경제 존재 | 승인자·소요시간·우회로 CP 필수 |
-| 세력·대립자 | `docs/04_factions/` | READY | 세력 atlas·합리성·대립자 사다리 존재 | 권/회차별 활성파벌 추출 |
-| 핵심 인물 C01–C10 | Character Bible | READY WITH NORMALIZATION | 욕망·거짓믿음·한계·독립선택 존재, 일부 옛 이름·SOFT LOCK 표기 잔존 | D9 정식명과 ID 기준으로 CP 정규화 |
-| 조연 C11–C30 | Cast Encyclopedia | CONDITIONAL / S1 | 역할·욕망·결함은 있으나 신체·말투·배경·관계·등장권·상태전환이 균등하지 않음 | Supporting Cast Dossiers v2 필요 |
-| 관계·목소리 | Voice/Relationship Bible | READY for core | 핵심 관계·호칭·말투 존재 | 조연 dossier와 연결 필요 |
-| 연대유산 R01–R12 | Relic Encyclopedia | READY | 기원·기능·소유권·거부·상태·최종 사용 존재 | 회차별 현재 소유·보관 추출 |
-| 주권신수 B01–B05 | Beast Encyclopedia | READY | 생태·계약·거부권·정치 의미 존재 | 직접 POV 금지, 행동·증언 사용 |
-| 일반 소품·문서·의약·도구 | Daily Life / Economy / Institution | CONDITIONAL / S2 | 재료는 분산되어 있으나 장면용 통합 prop index 없음 | CP가 분야문서에서 추출; 반복 시 별도 index 생성 |
-| 미스터리·복선·맥거핀 | M01–M17 / Reinforcement Ladder | READY | 단서·오답·재점화·추론·회수 존재 | 회차 공개상한 강제 |
-| 영구손실 | Loss Ledger | READY | 회복 금지와 시점 존재 | 매 회차 활성 손실 CP 포함 |
-| Grand Act·권·Subact 인과 | Architecture | READY | Goal/Choice/Cost/State/Next Cause 연결 | Arc 독립표와 craft map 보강 |
-| 장면밀도·훅 | D9 Overlay | READY | Q/S/E/X와 훅 7종 존재 | 작법 Manifest 연결 |
-| 상황별 작법 선택 | 흩어진 규칙 | BLOCKED→REPAIRING | 통합 선택 스킬 부재 | `storycraft-orchestrator` 등록 |
-| 보조 POV 실제 배치 | POV 허용 규칙 | BLOCKED / S1 | 허용 인물은 있으나 375화 후보 배치표 없음 | Secondary POV Allocation v1 필요 |
-| Context Pack | 없음 | BLOCKED→REPAIRING | 회차별 정본 호출 묶음 없음 | A21·CP Compiler·template 등록 |
-| Writing Harness | 기존 간략 절차 | BLOCKED→REPAIRING | 도메인 호출·작법·Hook·상태갱신 연결 부족 | Orchestration Harness v2 등록 |
-| E001 원고 | Manuscript + Quality | PROVISIONAL | CP·Craft Manifest 이전에 작성됨 | D10 기준 역감사 후 PASS/수정 결정 |
+| 분야 | 주요 정본·운영문서 | 최종 판정 | D10 조치 |
+|---|---|---|---|
+| 권한·정본 계층 | Constitution / Amendment / Decision Log / Governance | READY | Constitution의 `CLAUDE.md` 의존 제거, 모델중립 권한계층 확정 |
+| 모델별 진입점 | `AI_PROJECT.md` / `CLAUDE.md` / `AGENTS.md` | READY | 공통 정본을 가리키는 NON-CANON 얇은 라우터로 분리 |
+| 시간여행·기억·인과 | `docs/03_systems/` | READY | CP에서 회차 관련 규칙만 추출, 새 규칙 후출 차단 |
+| 지리·도시·공간 | Atlas / Capital / Geography | READY | 이동·출입·피난·보급을 Episode CP 필수 필드화 |
+| 생활문화·언어·달력 | Culture / Language / Era Contrast | READY | 시대·지역에 필요한 항목만 선택 호출 |
+| 인구·경제·직업·가격 | Demographic / Economy | READY | 수치 사용 시 A13 검증 |
+| 군사·외교·물류 | Military Bibles | READY | 전투 CP에서 공간·통신·보급·부상 후과 동시 호출 |
+| 종족·문화 | Peoples & Cultures | READY | 종족 전체 동일반응 금지 유지 |
+| 종교·신화 | Nine Wounds + `religion-ritual-clergy-encyclopedia-v2.md` | READY | 성직계급·의례순서·축일·금기·성물·구휼·재판·생활 신앙 보강 |
+| 기관·법·행정 | `docs/08_institutions/` | READY | 승인자·소요시간·우회로·실제 효용을 CP 필수화 |
+| 세력·대립자 | `docs/04_factions/` | READY | 권/회차별 활성파벌과 독립행동 추출 |
+| 핵심 인물 C01–C10 | Character Bibles | READY | D9 정식명과 ID 기준 정규화 |
+| 조연 C11–C20 | `supporting-cast-dossiers-c11-c20-v2.md` | READY | 외형·배경·말투·관계·부재 중 행동·전환·금지 보강 |
+| 조연 C21–C30 | `supporting-cast-dossiers-c21-c30-v2.md` | READY | 장면용 독립 dossier 완성, C30 익명성 잠금 |
+| 관계·목소리 | Voice/Relationship Bible | READY | 핵심·조연 dossier와 CP 연결 |
+| 연대유산 R01–R12 | Relic Encyclopedia | READY | 현재 소유·보관·접근·파손상태 추출 |
+| 주권신수 B01–B05 | Beast Encyclopedia | READY | 생태·계약·거부권·정치 의미 호출 |
+| 일반 소품·문서·의약·도구 | Daily Life / Economy / Institution | READY BY CP | 회차별 추출, 반복 사용 시 별도 prop index 승격 |
+| 미스터리·복선·맥거핀 | M01–M17 / Reinforcement Ladder | READY | 공개상한·재점화·독자추론 시점 강제 |
+| 영구손실 | Loss Ledger | READY | 매 회차 활성 손실과 회복금지 포함 |
+| Grand Act·권·Subact 인과 | Architecture | READY | 국소완결→비용→Next Cause 유지 |
+| 장면밀도·훅 | D9 Overlay | READY | Q/S/E/X와 훅 7종을 Craft Manifest에 연결 |
+| 상황별 작법 선택 | `storycraft-orchestrator` | READY | 중심 작법 1개+보조 최대 2개, 부적합 작법·반복검사 |
+| 보조 POV 실제 배치 | `secondary-pov-and-offscreen-action-allocation-v1.md` | READY | P1 30화, P2 15화, P3 8개 삽입과 재합류·정보상한 고정 |
+| Context Pack | A21 / Compiler / Template / E001·E002 CP | READY | 원본경로·기준 ref·상태·stale Hook 확정 |
+| Writing Harness | `orchestration-harness-v2.md` | READY | Authority→CP→Domain→Craft→POV→Draft→Audit→GitHub→State 연결 |
+| E001 원고 | Manuscript / CP / Manifest / Retro Audit | READY / PASS | 사건·문장 재작성 없이 D10 소급감사 통과 |
+| E002 준비 | E002 CP / Manifest | READY | D10 merge 후 A18 호출 가능 |
 
-## 현재 차단항목
+## 최초 차단항목과 종결
 
 ### S1-01 — Canon Router 혼동
-`CLAUDE.md`가 Constitution의 상위 의존성처럼 적혀 있다.
+
+- 발견: Constitution이 `CLAUDE.md`를 상위 의존성처럼 사용
+- 수정: 권한계층 분리, `AI_PROJECT.md` 모델중립 라우터, Claude/Codex 얇은 라우터
+- 상태: **CLOSED**
 
 ### S1-02 — 종교 장면 상세도
-교리 기능은 있으나 의례·계급·성물·금기·구휼·재판을 장면으로 구현할 상세가 부족하다.
+
+- 발견: 네 층 진실과 분파는 있으나 장면용 의례·계급·성물·금기·구휼·재판 부족
+- 수정: `religion-ritual-clergy-encyclopedia-v2.md`
+- 상태: **CLOSED**
 
 ### S1-03 — 조연 dossier 불균형
-C11–C30이 역할 슬롯 수준에서 멈춘 부분이 있다.
+
+- 발견: C11–C30 일부가 역할·욕망 수준
+- 수정: C11–C20, C21–C30 독립 장면용 dossier
+- 상태: **CLOSED**
 
 ### S1-04 — 보조 POV 배치 부재
-허용 원칙만 있고 회차별 기능·정보상한·재합류 상태가 없다.
+
+- 발견: 허용 원칙만 있고 회차별 목적·정보상한·재합류가 없음
+- 수정: P1/P2/P3 회차 배치와 주인공 부재 행동 장부
+- 상태: **CLOSED**
 
 ### S1-05 — Context Pack 부재
-원고 에이전트가 필요한 분야 정본을 누락 없이 읽었다는 증거가 없다.
+
+- 발견: 원고 에이전트가 필요한 정본을 읽었다는 증거 없음
+- 수정: A21, CP Compiler, template, E001 소급 CP, E002 선행 CP
+- 상태: **CLOSED**
 
 ### S1-06 — 상황별 작법 선택 체계 부재
-결말 역산·맥거핀 등 일부 규칙은 있으나 회차 상황별 작법 조합 규칙이 없다.
+
+- 발견: 결말 역산·맥거핀·장면 기능 규칙이 흩어져 있고 선택조건이 없음
+- 수정: `storycraft-orchestrator`, Craft Manifest, E001/E002 적용
+- 상태: **CLOSED**
+
+## 오케스트라 권한 분리 결과
+
+- A00: 총괄 라우팅, 정본 독단승인 금지
+- A02: 정본·충돌·변경관리
+- A20: 상황별 작법 선택, 사건 추가 금지
+- A21: 정본 묶음·하네스, CP 정본화 금지
+- A18: 승인된 설계 원고화, 즉석 설정 금지
+- A19: 문장·낭독·이름·호칭·행동 품질
+- A16: S0/S1 차단
+- A17: GitHub 실재 검증
 
 ## 집필 상태 판정
 
-- Gate: OPEN 유지
-- Manuscript Authorization: 유효
-- E001: PROVISIONAL
-- E002+: PAUSED
-- 재개 조건: S1-01~06 모두 CLOSED, E001 CP 역감사 PASS
+- Gate Authorization: OPEN
+- D10 Infrastructure: READY
+- E001: CANON MANUSCRIPT / D10 PASS
+- E002: CP READY / CRAFT READY / A18 NEXT
+- E003+: 회차별 CP와 Manifest를 선행 생성한 뒤 진행
 
-## 완료 정의
+## 완료 정의 충족
 
-D10 READY는 문서 수가 많다는 뜻이 아니다.
+1. 필요한 분야 상세 존재 — PASS
+2. 권한 계층 명확 — PASS
+3. Episode CP가 원본 출처·상태를 묶음 — PASS
+4. Craft Manifest가 상황별로 선택됨 — PASS
+5. 보조 POV와 주인공 부재 행동 추적 — PASS
+6. Hook가 누락·충돌·stale을 차단 — PASS
+7. 원고 후 상태 장부 갱신 경로 존재 — PASS
 
-1. 필요한 분야 상세가 존재
-2. 권한 계층이 명확
-3. Episode CP가 원본 출처와 상태를 묶음
-4. 작법 Manifest가 상황별로 선택됨
-5. 보조 POV와 주인공 부재 행동이 추적됨
-6. Hook가 누락·충돌을 차단
-7. 원고 후 상태 장부가 갱신됨
+## Final Severity
 
-이 일곱 조건을 모두 만족해야 오케스트라가 설정을 실제로 사용 가능한 구조로 본다.
+- S0: 0
+- S1: 0
+- S2: 2
+  - 실제 집필에서 보조 POV 빈도·리듬 조정 가능
+  - 일반 소품이 반복되면 prop index 분리 필요
+- S3: 지속 개선
+
+**D10 판정: PASS — 모델중립 정본 우선 오케스트라가 설계·세계관·설정집을 회차 원고에 호출할 수 있는 구조로 준비됨.**
