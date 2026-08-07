@@ -41,6 +41,8 @@ Codex는 `/AGENTS.md`, ChatGPT 프로젝트는 `/AI_PROJECT.md`를 진입점으�
 - A16 Red Team: S0/S1 차단
 - A17 GitHub Verifier: 실제 PR·merge·SHA 확인
 
+명명 작업은 A00+A02+영향 Domain+A15+A19+A16+A17 라우트를 사용한다.
+
 전체 역할과 승인범위는 `.agent/orchestra/agent-registry.md`를 따른다.
 
 ## Active Skills
@@ -48,8 +50,11 @@ Codex는 `/AGENTS.md`, ChatGPT 프로젝트는 `/AI_PROJECT.md`를 진입점으�
 - `.agent/skills/context-pack-compiler/SKILL.md`
 - `.agent/skills/storycraft-orchestrator/SKILL.md`
 - `.agent/skills/sentence-narrator/SKILL.md`
+- `.agent/skills/naming-audit/SKILL.md`
 
 Skill은 절차이며 정본 승인권이 없다.
+
+`naming-audit`은 한국 웹소설 판타지 명명 규칙을 검사하며 기존 정본 이름을 작가 승인 없이 변경하지 않는다.
 
 ## Context Packs
 
@@ -66,6 +71,8 @@ Episode CP가 READY가 아니면 A18을 호출하지 않는다. CP는 정본이 
 
 `Authority Resolve → CP Compile → Domain Readiness → Craft Manifest → POV/Scene Architecture → Draft/Design → Prose Audit → Canon/Continuity → Reader/Red Team → GitHub Verification → State Mutation`
 
+명칭 생성·교체가 포함되면 `naming-audit`을 Prose Audit 전에 실행한다.
+
 ## Production State
 
 정확한 상태는 `docs/00_project/GATE_STATUS.md`만 따른다. 이 파일의 요약과 Gate 문서가 다르면 Gate 문서가 우선한다.
@@ -78,4 +85,5 @@ Episode CP가 READY가 아니면 A18을 호출하지 않는다. CP는 정본이 
 - 정본 변경은 Amendment와 Decision Log 필요
 - CP 안에서 새 설정 생성 금지
 - S0/S1 또는 stale CP가 있으면 집필·병합 중단
+- 명명 감사 S1이 남은 상태에서는 관련 새 이름을 원고에 확장하지 않음
 - GitHub 완료는 A17이 main에서 재확인한 상태만 보고
