@@ -98,7 +98,11 @@ CP는 원본 경로, 기준 commit/ref, 추출한 사실, 정보상한, 현재 �
 
 정확한 생산상태는 `docs/00_project/GATE_STATUS.md`만 따른다.
 
-D10 감사 중에는 E001을 PROVISIONAL로 보존하며, E002 이후 집필은 Domain Readiness, Secondary POV Allocation, CP 역감사가 완료될 때까지 진행하지 않는다.
+- D10 모델중립 정본 우선 오케스트라: MERGED / MAIN VERIFIED
+- D10 PR: #25
+- D10 Merge SHA: `a34113d538f9ec22b396fdf0193dd82ab19328ec`
+- E001: CANON MANUSCRIPT / D10 PASS
+- E002: Context Pack READY / Storycraft Manifest READY / A18 NEXT
 
 ## 10. Hard Stops
 
