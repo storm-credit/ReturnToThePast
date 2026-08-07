@@ -21,26 +21,56 @@ Last Updated: 2026-08-07
 - 유산·주권신수·소유권 규칙
 - 핵심 인물·관계·세력·기관 Bible
 - 결말 역산
-- 5 Grand Acts / 15 Volumes / 60 Subacts
-- E001–E375 기능 설계 레지스트리
+- 5 Grand Acts
+- 15 Volume Acts
+- 60개 기능형 Subact 인과
+- E001–E375 기능형 Episode Registry
 - Mystery M01–M17
 - 주요 유산 R01–R12 / 신수 후보 B01–B05
 - 미래·인물·기관·자산·손실 상태 장부
-- 번호·경계·반복·유사성·전체 교차감사
-- Pre-Writing 준비 문서
+- 번호·경계·반복·유사성 기능 설계 감사
+- 최저 글자수만 검사하고 상한을 두지 않는 정책
 
-## Completion State
+## Honest Detail Status
 
-- World Bible: DESIGN COMPLETE / AUTHOR REVIEW
-- Character/Faction/Institution: DESIGN COMPLETE / AUTHOR REVIEW
-- Collection/Reward: DESIGN COMPLETE / AUTHOR REVIEW
-- Macro Architecture: DESIGN COMPLETE / AUTHOR REVIEW
-- E001–E375 Functional Cards: COMPLETE
-- Cross Audit: PASS
-- S0: 0 open
-- S1: 0 open
-- S2: final title/names, platform/episode length, romance ratio, beast visuals
-- Manuscript files modified: 0
+- World / Canon Bible: D1 FUNCTIONAL COMPLETE / AUTHOR REVIEW
+- 5 Grand Acts: D2 COMPLETE
+- 15 Volume Acts: D3 VOLUME COMPLETE
+- 30 Arc dossiers: NOT COMPLETE
+- 60 Subacts: D4 FUNCTIONAL DRAFT COMPLETE; expanded dossiers required
+- E001–E375 functional cards: D5 COMPLETE
+- E001–E375 scene-ready cards: D6 NOT COMPLETE
+- Full detailed design: D7 NOT COMPLETE
+
+앞선 `DESIGN COMPLETE` 표기는 `FUNCTIONAL DESIGN COMPLETE`로 정정한다.
+
+## Episode Length Policy
+
+- Working minimum: `[ASSUMPTION]` 공백 포함 7,000자
+- Maximum: 없음
+- 내용에 필요하면 길어져도 허용
+- 최저치 충족을 위한 반복·군더더기 금지
+- 플랫폼 확정 뒤 더 높은 최저치가 있으면 그 기준 적용
+- 글자수 검사는 Gate 개방 뒤 원고에만 적용
+
+## Required Detailed Completion
+
+각 권을 다음 단위로 상세화하고 PR 병합한다.
+
+1. Volume Act dossier
+2. 2 Arc dossiers
+3. 4 expanded Subact dossiers
+4. 25 scene-ready episode cards
+5. character / institution / asset / mystery / loss state updates
+6. Red Team and continuity audit
+7. squash merge and main verification
+
+총 목표:
+
+- 30 Arc dossiers
+- 60 expanded Subact dossiers
+- 375 scene-ready cards
+- final D7 cross-audit
 
 ## Current Gate
 
@@ -48,12 +78,10 @@ Last Updated: 2026-08-07
 - Manuscript: BLOCKED
 - Prose Agent: DISABLED
 
-## Author Review Items
+## Nonblocking Author Review Items
 
-1. 최종 제목: 권장안 《왕국은 과거를 먹고 산다》
+1. 최종 제목
 2. 에이든 호출명 유지와 출생명
-3. 플랫폼·회차당 글자수
+3. 플랫폼과 실제 최저 글자수
 4. 로맨스 비중
 5. 종족·신수 최종 고유명사·비주얼
-
-이 항목들은 현재 대서사 인과를 차단하지 않는다.
