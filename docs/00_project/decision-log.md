@@ -80,3 +80,40 @@ Publishing Unit: 한 화마다 `agent/manuscript-eNNN` 브랜치, 원고 1개, �
 Length: 공백 포함 최소 7,000자, 상한 없음, 분량 채우기 금지  
 Author Approval: APPROVED — “스킬등록후 끝까지 써줘. 한편마다 푸쉬해주고.”  
 Scope Limit: 원고 제작 승인이지 정본·결말·영구손실의 무단 변경 승인이 아니다.
+
+## DEC-013 — D10 모델중립 정본 우선 오케스트라
+
+Date: 2026-08-07  
+Problem: `CLAUDE.md`가 정본처럼 비대해지고, 상황별 장편 작법·회차별 Context Pack·보조 POV 실제 배치·조연/종교 장면 상세가 원고 하네스와 분리되어 있었다.  
+Compared Options:
+
+1. 도구별 파일에 전체 규칙 복제
+2. ChatGPT/Claude 프로젝트 지침에 전체 규칙 집중
+3. 단일 거대 오케스트라 프롬프트
+4. 모델중립 정본 우선 계층형 오케스트라
+
+Selected: **4안 — 모델중립 정본 우선 계층형 오케스트라**
+
+Structure:
+
+- `/AI_PROJECT.md`: 모델중립 NON-CANON 진입점
+- `/CLAUDE.md`: Claude Code 전용 얇은 라우터
+- `/AGENTS.md`: Codex 전용 얇은 라우터
+- Canon / Amendment / Decision Log / State Ledger: 실제 권한
+- Domain Bible: 세계관·인물·종교·기관·자산의 사실 원본
+- A00: 총괄 라우팅, 정본 독단 승인 금지
+- A20: 상황별 작법 선택과 Craft Manifest
+- A21: Context Pack 컴파일과 Harness 실행
+- Skills: 반복 절차, 정본 승인권 없음
+- CP: 읽기 묶음, 원본 대체 금지
+- Harness: Authority→CP→Domain→Craft→POV/Scene→Draft→Audit→GitHub→State 순서 강제
+
+Additional Completion:
+
+- 종교 의례·성직계급·생활 기능 상세화
+- C11–C30 장면용 조연 dossier 확장
+- E001–E375 보조 POV·주인공 부재 행동 배치
+- E001 소급 Context Pack·Craft Manifest·D10 재감사
+
+Author Direction: APPROVED BY CONTINUATION — “클라우드성 MD는 클라우드 거잖아… 따로 또 만들어야 돼?”, “이어서 진행”  
+Canon Effect: 정본 사실 변경이 아니라 권한·호출·검증 구조의 운영 변경. 기존 결말·사건·영구손실 유지.
