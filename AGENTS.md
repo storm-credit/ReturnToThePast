@@ -72,4 +72,8 @@ Skill은 절차이고 정본 승인권이 없다.
 
 ## Current Production
 
-정확한 상태는 `docs/00_project/GATE_STATUS.md`를 따른다. D10 설계·작법·CP 감사 중 E001은 PROVISIONAL이며 E002 이후 원고는 일시정지될 수 있다.
+정확한 상태는 `docs/00_project/GATE_STATUS.md`를 따른다.
+
+- D10 orchestration: MERGED / MAIN VERIFIED
+- E001: COMPLETE / D10 PASS
+- E002: Context Pack READY / Storycraft Manifest READY / next manuscript unit
