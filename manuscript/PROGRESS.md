@@ -14,32 +14,38 @@ Protocol: one episode per branch, PR and squash merge
 | Episode | Title | Body Characters | Context Pack | Craft Manifest | Quality | PR | Merge SHA | Main Verified |
 |---|---|---:|---|---|---|---|---|---|
 | E001 | 마지막 도시의 다른 날짜 | 10,377 | READY / RETRO | READY / RETRO | PASS + D10 PASS | #24 | `97d9195913a53eba96d7cde4360429125ee7c69b` | YES |
-| E002 | 여섯 개의 승인 | — | READY | READY | NOT WRITTEN | — | — | — |
+| E002 | 여섯 개의 승인 | 7,000+ | READY | READY | PASS | PENDING | PENDING | PENDING |
 
-## E001 Locked Carryover
+## E002 Exit State
 
-- 제칠 방벽 구조 가능 인원 감소
-- 서부 구조대 31명 연락두절
-- 동일 사건의 세 날짜: 구일·십이 일·십칠 일
-- 증언자 두 자리 공백
-- 삭제 실패 잔문 `세`
-- 에이든: 브리핑 수령 / 임무 동의 보류
-- 리아: 비인가 잔문 접근 감지
-- 19만 증가는 생존선별실 예측값이며 객관적 진실 아님
+- 여섯 권한은 모두 제한·조건부 상태로 연결
+- 에이든: 불완전 기록·귀환위험 인지 아래 조건부 서명
+- 리아: 감사대상 상태에서 제한검증 승인
+- 귀환석: 중심층 3갈래 균열
+- 예상 현지 체류: 5시간 17분
+- 최대 도착오차: 18km
+- 강제복귀: 1회
+- 현지 조사·환자 증언: 부목표
+- 제칠 방벽 마지막 표시 구조 가능 인원: 1,312명
+- 서부 구조대 31명: 연락두절 지속
+- 미확인 토양: 현재 아르켄·목표시대 네르바 표준 불일치, 달력 잔향 분류 불가, 귀환석 제작일보다 오래됨
+- 토양 보관: 관측탑·귀환원 공동봉인, 기록소 공동접근 요청
 
-## Next — E002
+## Next — E003
 
-- Title: 여섯 개의 승인
+- Title: 창시자의 증거
 - POV: 에이든 로엔 근접 3인칭
-- Scene Density: S형 3장면
-- Primary Craft: 제한자원 선택
-- Secondary Craft: 절차적 긴장 / 시도–실패–학습 / 물질 단서
-- Central Conflict: 기록 검증을 기다리는 동안 구조인원과 귀환창이 함께 줄어듦
-- Hook: 귀환석 내부에 출발지와 다른 시대의 흙
-- Required Files:
-  - `.agent/context-packs/episodes/E002-context-pack.md`
-  - `docs/10_story_architecture/craft-manifests/E002-storycraft-manifest.md`
-- Status: READY FOR A18 NOW
+- Core Function: 압수품·희생자·왕실명령·생존증가 계산이 세렌 제거를 합리적으로 설득
+- Opposition: 삭제 증언자 사망일과 범행일의 모순
+- Reader Reward: 세렌의 혐의가 조작만이 아니라 실제 불법행위와 피해를 포함함을 확인
+- Anti-Repeat:
+  - 승인기관 순회 금지
+  - 숫자 카운트다운을 중심 훅으로 반복 금지
+  - 귀환석 토양을 즉시 정답화 금지
+- Required Before Draft:
+  - E003 Episode CP
+  - E003 Storycraft Manifest
+  - E002 merge/main verification
 
 ## Per-Episode Completion Rule
 
