@@ -30,8 +30,8 @@ Manuscript: BLOCKED
 | V08 | E176–E200 | 2/2 | 4/4 | 25/25 | PASS | yes — PR #12 |
 | V09 | E201–E225 | 2/2 | 4/4 | 25/25 | PASS | yes — PR #13 |
 | V10 | E226–E250 | 2/2 | 4/4 | 25/25 | PASS | yes — PR #14 |
-| V11 | E251–E275 | 2/2 | 4/4 | 25/25 | PASS | PR pending |
-| V12 | E276–E300 | 0/2 | functional only | 0/25 | pending | no |
+| V11 | E251–E275 | 2/2 | 4/4 | 25/25 | PASS | yes — PR #15 |
+| V12 | E276–E300 | 2/2 | 4/4 | 25/25 | PASS | PR pending |
 | V13 | E301–E325 | 0/2 | functional only | 0/25 | pending | no |
 | V14 | E326–E350 | 0/2 | functional only | 0/25 | pending | no |
 | V15 | E351–E375 | 0/2 | functional only | 0/25 | pending | no |
@@ -40,14 +40,14 @@ Manuscript: BLOCKED
 
 - Grand Acts: 5/5 functional complete
 - Volume Acts: 15/15 functional complete
-- Arc dossiers: 22/30
-- Expanded Subact dossiers: 44/60
-- D6 Scene-Ready Cards: 275/375
-- Volume Detail Audits: 11/15
+- Arc dossiers: 24/30
+- Expanded Subact dossiers: 48/60
+- D6 Scene-Ready Cards: 300/375
+- Volume Detail Audits: 12/15
 - Final D7 Cross-Audit: not started
 
 ## Next Automatic Volume
 
-V12 — 세 시대의 감사 — E276–E300
+V13 — 이름 없는 사람들의 나라 — E301–E325
 
-The next branch must start from the actual merged `main` after V11 PR verification.
+The next branch must start from the actual merged `main` after V12 PR verification.
