@@ -35,7 +35,9 @@ D10의 정본·작법·연속성 검사는 통과했지만, 기존 원고에서 
 - Original Merge SHA: `97d9195913a53eba96d7cde4360429125ee7c69b`
 - Structural/Canon Audit: PASS
 - Original Human Prose Audit: FAIL
-- Human-Prose Revision: COMPLETE ON REVIEW BRANCH
+- Human-Prose Revision PR: #31
+- Human-Prose Revision Merge SHA: `9272c6e500a77262368ae930ae440532932288b4`
+- Human-Prose Revision: MERGED / MAIN VERIFIED
 - Revision Report: `manuscript/quality/E001-human-prose-revision-report.md`
 - Current Status: **AUTHOR REVIEW READY — NOT HUMAN-PROSE APPROVED**
 
