@@ -96,13 +96,14 @@ CP는 원본 경로, 기준 commit/ref, 추출한 사실, 정보상한, 현재 �
 
 ## 9. Current State
 
-정확한 생산상태는 `docs/00_project/GATE_STATUS.md`만 따른다.
-
 - D10 모델중립 정본 우선 오케스트라: MERGED / MAIN VERIFIED
 - D10 PR: #25
 - D10 Merge SHA: `a34113d538f9ec22b396fdf0193dd82ab19328ec`
-- E001: CANON MANUSCRIPT / D10 PASS
-- E002: Context Pack READY / Storycraft Manifest READY / A18 NEXT
+- 정확한 현재 집필 회차·완료 PR·다음 작업은 다음 두 파일만 따른다.
+  - `docs/00_project/GATE_STATUS.md`
+  - `manuscript/PROGRESS.md`
+
+이 라우터에는 회차별 상태를 중복 기록하지 않는다.
 
 ## 10. Hard Stops
 
