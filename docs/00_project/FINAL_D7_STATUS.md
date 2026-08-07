@@ -1,21 +1,26 @@
 # FINAL D7 DESIGN STATUS
 
-Status: D7 DESIGN COMPLETE / AUTHOR REVIEW  
+Status: D7 STORY ARCHITECTURE COMPLETE / AUTHOR REVIEW  
 Recorded: 2026-08-07  
 Repository: `storm-credit/ReturnToThePast`  
 Final Detailed-Design PR: #19  
-Verified Merge SHA: `724a19a3a8463cc3fcc6e0bb9c1c1822e7d3c22b`  
+Verified Merge SHA: `dfc8275c8b914570cc0d1b4ef50795f3bda2bae5`  
 Pre-Writing Gate: CLOSED  
 Manuscript: BLOCKED  
 Prose Agent: DISABLED
 
+## Correction Notice
+
+The previously recorded SHA `724a19a3a8463cc3fcc6e0bb9c1c1822e7d3c22b` was incorrect and did not resolve to a repository commit. PR #19 was actually squash-merged as `dfc8275c8b914570cc0d1b4ef50795f3bda2bae5`.
+
 ## Superseding Status Notice
 
-This file is the latest authoritative completion-status document for detailed architecture. Any older progress row that says `V15 PR pending`, `functional design only`, or `D7 not started` is superseded by this file and by `docs/99_quality_control/final-d7-cross-audit-v1.md`.
+This file remains authoritative for D7 story architecture. World/Setting encyclopedia completion is tracked separately by `docs/00_project/FINAL_D8_WORLD_STATUS.md` and `docs/99_quality_control/world-encyclopedia-d8-audit-v1.md`.
+
+Any older progress row that says `V15 PR pending`, `functional design only`, or `D7 not started` is superseded by this file and by `docs/99_quality_control/final-d7-cross-audit-v1.md`.
 
 ## Verified Completion
 
-- World Bible / Setting Bible: DESIGN COMPLETE / AUTHOR REVIEW
 - 5 Grand Acts: 5/5
 - Volume Acts: 15/15
 - Arc dossiers: 30/30
@@ -59,16 +64,32 @@ This file is the latest authoritative completion-status document for detailed ar
 - The ending rejects a new saint/king/founder cult.
 - The first crisis of the new order is solved through present resources, appeal, burden sharing, and international assistance—not reopened time travel.
 
-## Remaining Nonblocking Author Review
+## D8 World Expansion
 
-1. Final title and final proper names.
-2. Target platform and final minimum manuscript character count.
-3. Romance proportion.
-4. Maps, architecture, uniforms, relic, people, and sovereign-beast visual bible.
-5. Platform-specific episode and paid-conversion spacing.
+The following former D7 review items were completed in the D8 encyclopedia batch:
 
-These items may adjust wording, names, visuals, and scene distribution. They may not silently alter locked causality, permanent losses, authority distribution, or the ending.
+- final title and canonical naming pack
+- nation, capital, region, institution, and core character names
+- city/region/capital spatial dossiers
+- culture, food, housing, family, education, funeral, and festival details
+- calendar, language, translation, and historical-address rules
+- economy, prices, wages, professions, tax, welfare, and military logistics
+- 14-faction power map and institutional procedures
+- 30-character encyclopedia and relationship/voice bible
+- R01–R12 relic encyclopedia
+- B01–B05 sovereign-beast encyclopedia
+- visual design bible
+- 60-Subact location/worldbuilding crosswalk
+- world-state continuity matrix
+
+## Remaining Production Decisions
+
+1. Target publication platform and platform-specific minimum/paid-conversion pacing.
+2. Final prose voice and delivery test after Gate opening.
+3. Optional external map and concept-art production.
+
+These do not change locked causality, permanent losses, authority distribution, or the ending.
 
 ## Gate Rule
 
-D7 completion does not authorize prose. Only the author can open the Gate with the exact declaration stored in `CLAUDE.md`. Until that declaration, only audit, correction, naming, visual design, and architecture maintenance are allowed.
+D7 and D8 completion do not authorize prose. Only the author can open the Gate with the exact declaration stored in `CLAUDE.md`. Until that declaration, manuscript generation remains prohibited.
