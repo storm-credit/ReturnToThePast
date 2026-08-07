@@ -28,8 +28,8 @@ Manuscript: BLOCKED
 | V06 | E126–E150 | 2/2 | 4/4 | 25/25 | PASS | yes — PR #10 |
 | V07 | E151–E175 | 2/2 | 4/4 | 25/25 | PASS | yes — PR #11 |
 | V08 | E176–E200 | 2/2 | 4/4 | 25/25 | PASS | yes — PR #12 |
-| V09 | E201–E225 | 2/2 | 4/4 | 25/25 | PASS | PR pending |
-| V10 | E226–E250 | 0/2 | functional only | 0/25 | pending | no |
+| V09 | E201–E225 | 2/2 | 4/4 | 25/25 | PASS | yes — PR #13 |
+| V10 | E226–E250 | 2/2 | 4/4 | 25/25 | PASS | PR pending |
 | V11 | E251–E275 | 0/2 | functional only | 0/25 | pending | no |
 | V12 | E276–E300 | 0/2 | functional only | 0/25 | pending | no |
 | V13 | E301–E325 | 0/2 | functional only | 0/25 | pending | no |
@@ -40,14 +40,14 @@ Manuscript: BLOCKED
 
 - Grand Acts: 5/5 functional complete
 - Volume Acts: 15/15 functional complete
-- Arc dossiers: 18/30
-- Expanded Subact dossiers: 36/60
-- D6 Scene-Ready Cards: 225/375
-- Volume Detail Audits: 9/15
+- Arc dossiers: 20/30
+- Expanded Subact dossiers: 40/60
+- D6 Scene-Ready Cards: 250/375
+- Volume Detail Audits: 10/15
 - Final D7 Cross-Audit: not started
 
 ## Next Automatic Volume
 
-V10 — 내일에서 온 전쟁 — E226–E250
+V11 — 나를 만들지 않는 방법 — E251–E275
 
-The next branch must start from the actual merged `main` after V09 PR verification.
+The next branch must start from the actual merged `main` after V10 PR verification.
