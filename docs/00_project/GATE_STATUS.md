@@ -17,7 +17,15 @@ Current Production Unit: E002
 - 시간법칙·연대·인과
 - 15권·375화의 핵심 사건
 
-## D10 Operating Condition
+## D10 Infrastructure
+
+- PR: #25
+- Status: MERGED / MAIN VERIFIED
+- Merge SHA: `a34113d538f9ec22b396fdf0193dd82ab19328ec`
+- S0: 0
+- S1: 0
+
+## Per-Episode Operating Condition
 
 원고 승인은 유효하지만 각 회차는 다음 D10 조건을 개별 통과해야 한다.
 
@@ -54,7 +62,7 @@ CP·Skill·Harness는 정본을 덮어쓸 수 없다.
 - Storycraft Manifest: READY
 - POV: 에이든 단일 근접 3인칭
 - Scene Density: S형 3장면
-- Status: **READY FOR A18 AFTER D10 MERGE**
+- Status: **READY FOR A18 NOW**
 
 ## Active Agents
 
