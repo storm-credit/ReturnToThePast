@@ -117,3 +117,11 @@ Additional Completion:
 
 Author Direction: APPROVED BY CONTINUATION — “클라우드성 MD는 클라우드 거잖아… 따로 또 만들어야 돼?”, “이어서 진행”  
 Canon Effect: 정본 사실 변경이 아니라 권한·호출·검증 구조의 운영 변경. 기존 결말·사건·영구손실 유지.
+
+## DEC-014 — 검증 통과 후 main 자동 병합
+
+Date: 2026-08-08  
+Changed To: 원고 또는 운영 문서 작업이 완료되고 관련 검증을 통과하면 작업 브랜치에 커밋·푸시하고 PR을 생성한 뒤 `main`까지 squash merge한다.  
+Exception: 검증 실패, 정본 충돌, 미해결 리뷰, 사용자에게 선택이 필요한 내용 변경이 있으면 자동 병합하지 않고 중단 상태를 보고한다.  
+Numeric Style: 원고의 명확한 수량·시간·날짜·서수·시설번호·인원·기간은 아라비아 숫자로 표기하고 한글 숫자와 혼용하지 않는다.  
+Author Approval: APPROVED — “메인까지 다 머지해줘. 앞으론 작성되면 메인까지 머지하도록”
