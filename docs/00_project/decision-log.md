@@ -50,15 +50,33 @@ Changed To: 중앙 연대개입을 폐쇄하고 생활 안정 기능을 지역·
 Permanent Cost: F0 미복원, 에이든 공적 주소·귀환권 소실, Ria 개인기억 손실, 백지권 잔존  
 Reason: 복원/유지/파괴의 단순 3지선을 넘어 초반의 권한·기록·대가 문제를 해결
 
-## DEC-009 — 작업 제목과 인물명
+## DEC-009 — 정식 제목과 인물명
 
-Recommended Working Title: 《왕국은 과거를 먹고 산다》  
-Project Code: 《나는 과거로 간다》 유지 가능  
-Aiden: 호출명 후보 / 출생명 OPEN  
-Status: 작가 최종 승인 전 SOFT LOCK
+Title: 《왕국은 과거를 먹고 산다》  
+Project Code: `ReturnToThePast`  
+Core Names: D9 정본 명명 패키지와 `cast-canon-index-v2.md`를 따른다.  
+Status: CANON WITH ID-PRESERVING REPLACEMENT RULE
 
 ## DEC-010 — 전문가 오케스트라 고정
 
 Changed To: A01–A18 고정 역할·승인 정족수·교차감사 체계  
-Source Basis: 작가가 제공한 3개 MD  
-Gate: Prose A18은 CLOSED 상태에서 비활성
+Source Basis: 작가가 제공한 3개 MD
+
+## DEC-011 — 한 문장 낭독·한국어 문체 스킬
+
+Date: 2026-08-07  
+Changed To: `.agent/skills/sentence-narrator/`를 활성 스킬로 등록  
+Functions: 한 문장 낭독, 자연스러운 한국어, 번역체, 생동감, 행동·공간, 인물별 대사, 이름·호칭·발음, 시점·스포일러 검사  
+Rule: 낭독 모드에서 원문 자동수정 금지. 검토 요청 시에만 최소 교체문장 제시.  
+Author Approval: APPROVED — “한줄씩읽는 낭독스킬”, “자연스러운 문장, 생동감 있는 묘사, 번역체 금지, 이름관련 제대로 부르기”
+
+## DEC-012 — Pre-Writing Gate OPEN 및 편당 푸시
+
+Date: 2026-08-07  
+Previous State: CLOSED / A18 DISABLED  
+Changed To: OPEN / A18 ENABLED / A19 Sentence Narration & Prose Audit ENABLED  
+Start: E001  
+Publishing Unit: 한 화마다 `agent/manuscript-eNNN` 브랜치, 원고 1개, 품질보고서 1개, PR 1개, squash merge  
+Length: 공백 포함 최소 7,000자, 상한 없음, 분량 채우기 금지  
+Author Approval: APPROVED — “스킬등록후 끝까지 써줘. 한편마다 푸쉬해주고.”  
+Scope Limit: 원고 제작 승인이지 정본·결말·영구손실의 무단 변경 승인이 아니다.
