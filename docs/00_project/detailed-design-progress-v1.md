@@ -23,8 +23,8 @@ Manuscript: BLOCKED
 | V01 | E001–E025 | 2/2 | 4/4 | 25/25 | PASS | yes — PR #5 |
 | V02 | E026–E050 | 2/2 | 4/4 | 25/25 | PASS | yes — PR #6 |
 | V03 | E051–E075 | 2/2 | 4/4 | 25/25 | PASS | yes — PR #7 |
-| V04 | E076–E100 | 2/2 | 4/4 | 25/25 | PASS | PR pending |
-| V05 | E101–E125 | 0/2 | functional only | 0/25 | pending | no |
+| V04 | E076–E100 | 2/2 | 4/4 | 25/25 | PASS | yes — PR #8 |
+| V05 | E101–E125 | 2/2 | 4/4 | 25/25 | PASS | PR pending |
 | V06 | E126–E150 | 0/2 | functional only | 0/25 | pending | no |
 | V07 | E151–E175 | 0/2 | functional only | 0/25 | pending | no |
 | V08 | E176–E200 | 0/2 | functional only | 0/25 | pending | no |
@@ -40,14 +40,14 @@ Manuscript: BLOCKED
 
 - Grand Acts: 5/5 functional complete
 - Volume Acts: 15/15 functional complete
-- Arc dossiers: 8/30
-- Expanded Subact dossiers: 16/60
-- D6 Scene-Ready Cards: 100/375
-- Volume Detail Audits: 4/15
+- Arc dossiers: 10/30
+- Expanded Subact dossiers: 20/60
+- D6 Scene-Ready Cards: 125/375
+- Volume Detail Audits: 5/15
 - Final D7 Cross-Audit: not started
 
 ## Next Automatic Volume
 
-V05 — 돌아오는 문을 차지한 자 — E101–E125
+V06 — 미래의 내전 — E126–E150
 
-The next branch must start from the actual merged `main` after V04 PR verification.
+The next branch must start from the actual merged `main` after V05 PR verification.
