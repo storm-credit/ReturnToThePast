@@ -5,6 +5,12 @@ Gate: OPEN
 Target: E001–E375  
 Protocol: one episode per branch, PR and squash merge
 
+## Infrastructure
+
+- D10 Orchestration PR: #25
+- D10 Merge SHA: `a34113d538f9ec22b396fdf0193dd82ab19328ec`
+- Status: MERGED / MAIN VERIFIED
+
 | Episode | Title | Body Characters | Context Pack | Craft Manifest | Quality | PR | Merge SHA | Main Verified |
 |---|---|---:|---|---|---|---|---|---|
 | E001 | 마지막 도시의 다른 날짜 | 10,377 | READY / RETRO | READY / RETRO | PASS + D10 PASS | #24 | `97d9195913a53eba96d7cde4360429125ee7c69b` | YES |
@@ -33,6 +39,7 @@ Protocol: one episode per branch, PR and squash merge
 - Required Files:
   - `.agent/context-packs/episodes/E002-context-pack.md`
   - `docs/10_story_architecture/craft-manifests/E002-storycraft-manifest.md`
+- Status: READY FOR A18 NOW
 
 ## Per-Episode Completion Rule
 
