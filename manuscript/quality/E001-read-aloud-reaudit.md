@@ -2,8 +2,8 @@
 
 Status: PASS FOR PR / AUTHOR REVIEW REQUIRED  
 Episode: E001  
-Branch: `agent/e001-address-layer-fix`  
-Source Main: `42c5323bd57677d62cbcd8e0739503e47da08a54`
+Branch: `agent/e001-registration-signal-wording`  
+Source Main: `57ef1149a0d1aace01023cdfa6e7cdfa8f6cb2b5`
 
 ## 1. 재검수 기준
 
@@ -21,7 +21,8 @@ E001 본문을 처음부터 끝까지 문장 순서대로 읽고 다음을 검�
 
 | 위치 | 기존 문장 | 문제점 | 교체 문장 |
 |---|---|---|---|
-| 관측실 영상 | `사람과 장소를 잇는 주소층이 흔들립니다.` | `주소층`은 정본 용어도 아니고 첫 청취로 뜻을 알 수 없는 내부 조어 | `사람의 등록 기록과 현재 위치가 서로 맞지 않습니다.` |
+| 관측실 영상 | `사람과 장소를 잇는 주소층이 흔들립니다.` | `주소층`은 정본 용어도 아니고 첫 청취로 뜻을 알 수 없는 내부 조어 | `등록 정보와 위치 신호가 계속 어긋납니다.` |
+| 관측실 영상 후속 교정 | `사람의 등록 기록과 현재 위치가 서로 맞지 않습니다.` | `등록 기록`과 `현재 위치`가 직접 대응하지 않고 긴급 보고보다 설명문처럼 들림 | `등록 정보와 위치 신호가 계속 어긋납니다.` |
 | 영상 단절 | `제7방벽 전 구역, 주소 연결 상실.` | 무엇을 확인할 수 없는지 불명확 | `제7방벽 전 구역, 등록 인원 위치 확인 불가.` |
 | 구조 확인 | `구조표식.` | 명령 목적과 대상이 불명확 | `구조 신호 확인해.` |
 | 진입 거부 | `도시 고정망 붕괴 진행 중.` | `고정망`의 기능이 설명되지 않음 | `도시를 붙드는 고정망이 무너지고 있습니다.` |
@@ -65,8 +66,6 @@ E001 본문을 처음부터 끝까지 문장 순서대로 읽고 다음을 검�
 
 ## 5. 검증기 실제 실행
 
-브랜치에 추가한 검증기와 동일한 코드 및 원고 payload로 다음 명령을 실행했다.
-
 ```text
 python -m py_compile validate_read_aloud.py validate_e001_canon.py
 python validate_read_aloud.py E001-revised.md
@@ -76,7 +75,7 @@ python validate_e001_canon.py E001-revised.md
 실행 결과:
 
 ```text
-[READ-ALOUD] chars=10791
+[READ-ALOUD] chars=10785
 [READ-ALOUD] RESULT=PASS
 [CANON] RESULT=PASS
 ```
@@ -85,6 +84,7 @@ python validate_e001_canon.py E001-revised.md
 
 - 공백 포함 7,000자 이상
 - `주소층`, `주소 연결 상실`, `구조표식`, `압력계`, `서부 구조대 로엔` 등 차단 표현 0건
+- `사람의 등록 기록과 현재 위치가 서로 맞지 않습니다.` 0건
 - 첫 등장 전체 이름과 현장·공식 호명 구분
 - 주요 숫자·날짜·인원·복선 문자열 보존
 - 장면 동선 순서 보존
@@ -94,6 +94,6 @@ python validate_e001_canon.py E001-revised.md
 
 ## 6. 판정
 
-**READ-ALOUD REAUDIT PASS — PR 및 main 병합 가능**
+**READ-ALOUD WORDING CORRECTION PASS — PR 및 main 병합 가능**
 
 이 판정은 문장 전달과 정본 보존에 대한 검사 결과다. 작가 최종 승인을 뜻하지 않으며 원고 상태는 `AUTHOR REVIEW`를 유지한다.
