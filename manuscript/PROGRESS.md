@@ -15,7 +15,7 @@ Protocol: one episode per branch, PR and squash merge
 
 | Episode | Title | Structural/Canon | Human Prose | PR | Merge SHA | Current Status |
 |---|---|---|---|---|---|---|
-| E001 | 마지막 도시의 다른 날짜 | PASS | REVISION COMPLETE / AUTHOR REVIEW READY | #24 original | `97d9195913a53eba96d7cde4360429125ee7c69b` original | WAITING FOR AUTHOR REVIEW |
+| E001 | 마지막 도시의 다른 날짜 | PASS | REVISION COMPLETE / AUTHOR REVIEW READY | #31 revision | `9272c6e500a77262368ae930ae440532932288b4` | WAITING FOR AUTHOR REVIEW |
 | E002 | 여섯 개의 승인 | PASS | PENDING — same generator pattern | #27 | `f33141d42634e0d7f634ae5886a0b63ad3a8b88f` | PROVISIONAL / REAUDIT REQUIRED |
 | E003 | 창시자의 증거 | PASS on closed branch | NOT ACCEPTED | #29 closed | not merged | STOPPED |
 
@@ -27,8 +27,10 @@ Protocol: one episode per branch, PR and squash merge
 
 ## E001 Revision
 
-- Branch: `agent/e001-human-prose-surgery`
-- Manuscript: 전면 문체 재수술 완료
+- Original manuscript PR: #24
+- Human-Prose Revision PR: #31
+- Human-Prose Revision Merge SHA: `9272c6e500a77262368ae930ae440532932288b4`
+- Main manuscript: VERIFIED
 - Status in manuscript header: `AUTHOR REVIEW — HUMAN PROSE REVISION`
 - Revision report: `manuscript/quality/E001-human-prose-revision-report.md`
 - Canon/event change: 없음
