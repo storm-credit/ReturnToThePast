@@ -3,7 +3,7 @@
 Status: **OPEN — D10 ORCHESTRATION READY**  
 Effective: 2026-08-07  
 Author Directive: `스킬등록후 끝까지 써줘. 한편마다 푸쉬해주고.`  
-Current Production Unit: E002
+Current Production Unit: E003
 
 ## Authorization
 
@@ -47,22 +47,31 @@ CP·Skill·Harness는 정본을 덮어쓸 수 없다.
 ### E001
 
 - Title: 마지막 도시의 다른 날짜
-- Manuscript: MERGED TO MAIN
 - PR: #24
 - Merge SHA: `97d9195913a53eba96d7cde4360429125ee7c69b`
-- D10 Context Pack: READY
-- D10 Storycraft Manifest: READY
 - D10 Retro-Audit: PASS
 - Status: **CANON MANUSCRIPT / COMPLETE**
 
 ### E002
 
 - Title: 여섯 개의 승인
+- PR: #27
+- Merge SHA: `f33141d42634e0d7f634ae5886a0b63ad3a8b88f`
+- Context Pack: READY
+- Storycraft Manifest: READY
+- Quality: PASS
+- Main manuscript: VERIFIED
+- Status: **CANON MANUSCRIPT / COMPLETE**
+
+### E003
+
+- Title: 창시자의 증거
 - Episode CP: READY
 - Storycraft Manifest: READY
 - POV: 에이든 단일 근접 3인칭
 - Scene Density: S형 3장면
-- Status: **READY FOR A18 NOW**
+- Primary Craft: 경쟁하는 증거사다리
+- Status: **READY FOR A18 AFTER STATUS MERGE**
 
 ## Active Agents
 

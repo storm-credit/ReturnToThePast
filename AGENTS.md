@@ -72,8 +72,9 @@ Skill은 절차이고 정본 승인권이 없다.
 
 ## Current Production
 
-정확한 상태는 `docs/00_project/GATE_STATUS.md`를 따른다.
+정확한 완료 회차와 다음 생산 단위는 다음 파일만 따른다.
 
-- D10 orchestration: MERGED / MAIN VERIFIED
-- E001: COMPLETE / D10 PASS
-- E002: Context Pack READY / Storycraft Manifest READY / next manuscript unit
+- `docs/00_project/GATE_STATUS.md`
+- `manuscript/PROGRESS.md`
+
+이 라우터에는 회차별 상태를 복제하지 않는다.
