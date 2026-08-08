@@ -73,6 +73,12 @@ Episode CP가 READY가 아니면 A18을 호출하지 않는다. CP는 정본이 
 
 명칭 생성·교체가 포함되면 `naming-audit`을 Prose Audit 전에 실행한다.
 
+## Working Process
+
+`docs/13_writing_harness/working-process-and-meta-prompting-v1.md`
+
+착수 전 인터뷰 → 맹점 훑기 → 함정 체크 → 시안 4개 → 참고작 조사 → 이탈 기록, 그리고 메타 프롬프팅 4단계(컨텍스트 덤핑 / 성공조건 명시 / 실행환경 변환 / 결과물 점검)를 따른다. 본문은 위 문서에만 둔다.
+
 ## Production State
 
 정확한 상태는 `docs/00_project/GATE_STATUS.md`만 따른다. 이 파일의 요약과 Gate 문서가 다르면 Gate 문서가 우선한다.
