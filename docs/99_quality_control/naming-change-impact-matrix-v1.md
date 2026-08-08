@@ -116,8 +116,8 @@ E001에는 §1 대상 명칭 외에 현대 외래어 6건(`스피커`·`시스�
 | 정본 | `docs/00_project/canon-naming-pack-v1.md` §6·§7 |
 | Amendment 판정 | `docs/00_project/decision-log.md` (DEC-009 갱신 여부) |
 | Domain Bible | `docs/08_institutions/institution-org-procedure-bible-v1.md`, `docs/02_world/atlas-region-dossiers-v1.md`, `docs/02_world/calendar-language-naming-bible-v1.md` |
-| Architecture | `docs/10_story_architecture/location-world-crosswalk-v1.md`, `detail/v01–v15-scene-ready-design-v1.md` |
-| Context Pack | `.agent/context-packs/episodes/E001–E003-context-pack.md` |
+| Architecture | `docs/10_story_architecture/location-world-crosswalk-v1.md`, `docs/10_story_architecture/detail/` 하위 v01~v15 scene-ready 15종 |
+| Context Pack | `.agent/context-packs/episodes/` 하위 E001~E003 3종 |
 | 원고 | `manuscript/volume-01/E001`, `E002` |
 | 검증기 | `.agent/skills/sentence-narrator/pronunciation-lexicon.md`, `scripts/validate_e001_canon.py` |
 | 품질 보고서 | `manuscript/quality/*` |
