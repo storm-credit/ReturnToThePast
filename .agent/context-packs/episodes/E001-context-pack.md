@@ -46,7 +46,7 @@ Purpose: E001 원고의 정본 호출 누락을 소급 검사하고 E002 인계�
 
 Sources:
 
-- `docs/01_timeline/exact-chronology-and-age-ledger-v1.md`
+- `docs/01_timeline/master-chronology-and-aging-ledger-v1.md`
 - `docs/02_world/demographic-and-scale-ledger-v1.md`
 - `docs/03_systems/causal-propagation-and-memory-protocol-v1.md`
 
