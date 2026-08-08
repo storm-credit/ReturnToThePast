@@ -125,3 +125,24 @@ Changed To: 원고 또는 운영 문서 작업이 완료되고 관련 검증을 
 Exception: 검증 실패, 정본 충돌, 미해결 리뷰, 사용자에게 선택이 필요한 내용 변경이 있으면 자동 병합하지 않고 중단 상태를 보고한다.  
 Numeric Style: 원고의 명확한 수량·시간·날짜·서수·시설번호·인원·기간은 아라비아 숫자로 표기하고 한글 숫자와 혼용하지 않는다.  
 Author Approval: APPROVED — “메인까지 다 머지해줘. 앞으론 작성되면 메인까지 머지하도록”
+
+## DEC-015 — 라베른 정식명 확정
+
+Date: 2026-08-08
+Original: `두겹성 라베른` (D8 명명 패키지 정식명 후보)
+Changed To: **`두 역사의 라베른`**
+Working Alias: `반쪽성` — 검색용으로 보존 (naming-pack §10)
+
+Reason: 이 장소에서 겹치는 것은 성이 아니라 주민의 기억이다. `두겹성`은 `겹`을 구조 수식어로 써서 성이 둘이라는 오독을 만든다. `두 역사의`는 겹치는 대상을 역사로 명시하므로 첫 청취에서 구조 오해가 발생하지 않는다.
+
+Preserved Function: `지도에는 한 성이지만 주민은 서로 다른 두 역사로 기억한다` (atlas R05). V01 1C에서 첫 개혁가의 실제 역할과 지역 대피를 드러내는 무대라는 서사 기능은 변경되지 않는다.
+
+Rejected: `라베른 쌍성`(물리 구조 오도), `라베른 성`(두 역사 중첩이라는 핵심 정체성 삭제 위험)
+
+Scope: 명칭 표층 변경. 장소의 물리 구조·역사·서사 배치·복선은 변경 없음. Canon Constitution의 HARD LOCK 항목이 아니므로 Amendment 없이 Decision Log로 처리한다.
+
+Updated Files: `canon-naming-pack-v1.md` §3, `pronunciation-lexicon.md`, `naming-source-verification-gate-v1.md` §6, `naming-audit-errata-lavern-v1.md` §6, 명명 감사 3종
+
+Manuscript Impact: 없음. E001·E002에 이 장소는 등장하지 않는다.
+
+Author Approval: APPROVED — “두 역사의 라베른 / 가장 직접적. 첫 청취 즉시 이해”

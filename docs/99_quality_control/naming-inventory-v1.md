@@ -68,7 +68,7 @@ Gate: `docs/13_writing_harness/naming-source-verification-gate-v1.md`
 | 작업명 | 정식명 | 서사 배치 | 출처 |
 |---|---|---|---|
 | 회색종 마을 | 벨하임 | V01 1B | naming-pack §3 / atlas R05 / crosswalk V01 |
-| 반쪽성 | 두겹성 라베른 | V01 1C | naming-pack §3 / atlas R05 / crosswalk V01 |
+| 반쪽성 | 두 역사의 라베른 | V01 1C | naming-pack §3 / atlas R05 / crosswalk V01 / DEC-015 |
 | 빈 세금소 | 네르바 제7세무소 | V01 1B | naming-pack §3 / atlas R05 |
 | 절검의 언덕 | 카센 언덕 | V01 1C | naming-pack §3 / atlas R05 |
 | 칠층공방 | 카르바 칠층공방 | V05 5B, V07 7B | naming-pack §3 / atlas R02 |
