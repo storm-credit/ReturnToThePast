@@ -8,6 +8,20 @@ Depends On: `naming-inventory-v1.md`, `naming-source-evidence-matrix-v1.md`
 Gate: `docs/13_writing_harness/naming-source-verification-gate-v1.md`
 Rules: `docs/13_writing_harness/korean-webnovel-fantasy-naming-rules-v1.md`
 
+## 0-A. 초판 정정 (2026-08-08)
+
+초판은 `docs/00_project/terminology-and-addressing-clarification-v1.md`를 확인하지 않았다. 그 결과 다음 3건이 틀렸고 철회한다.
+
+| 초판 기재 | 실제 | 근거 |
+|---|---|---|
+| E001 L101 `성력국은 달력과 병원망을 맡았다`가 institution §3과 충돌 | **충돌 아님.** 정본이 성력국을 "달력·계절·병원 동기화 승인기관"으로 규정 | terminology §2 |
+| `방위지휘부`·`방위총감` 정본 미등재 | **등재되어 있음** | terminology §2 |
+| `지하 진동계`가 현대어 검토 대상 | **정본이 지정한 표현.** `압력계` → `지하 진동계`로 바꾸라고 명시 | terminology §3 |
+
+또한 `회색열`은 `mana-fever-gray-calamity-v1.md` Public Name에 `마나열병`과 함께 등재된 정식 명칭임을 확인했다.
+
+이 정정의 원인은 게이트 §2 필수 원문 확인 순서 2번(`Canon Amendment / Errata`)에서 `CANON CLARIFICATION` 등급 문서를 누락한 것이다. 이후 명명 감사는 `docs/00_project/` 전체를 훑는다.
+
 ## 0. 감사 방향 (작가 지시)
 
 - 기관층 개명 원칙: **외래어풍 고유명 + 익숙한 한국어 조직어 1개**
@@ -39,7 +53,7 @@ Rules: `docs/13_writing_harness/korean-webnovel-fantasy-naming-rules-v1.md`
 | 명명 패키지 §6 | Domain Bible 원문 | 출처 |
 |---|---|---|
 | 왕좌승인원 | **왕실평의회** | institution §2 |
-| 성력국 | **달력국** | institution §3 조직표 |
+| 성력국 | **달력국** (단, terminology §2에 따르면 성력국 **내부 부서명**이지 대체명이 아님) | institution §3 조직표 |
 | 아르켄 중앙관측탑연합 | **마탑 / 총관측회의** | institution §4 |
 | 잔문감사실 | **팔림프세스트 감사실** | institution §5 조직표 |
 | 연대출귀원 | **귀환·출발 관리체계** | institution §6 절 제목 |
@@ -148,11 +162,13 @@ Rules: `docs/13_writing_harness/korean-webnovel-fantasy-naming-rules-v1.md`
 |---|---|
 | 최후 연대국 | 조직 구조 Domain Bible 부재. `방위지휘부`·`미래 본부`와 동일 조직인가 |
 | 연대개입산업연합 | crosswalk V10 한 줄 외 근거 없음 |
-| 방위지휘부 / 방위총감 | 원고 1화 핵심 기관인데 정본 미등재 |
-| 왕좌승인원 ↔ 세르바 왕실평의회 | 포함관계 미확정 |
+| ~~방위지휘부 / 방위총감~~ | **해소 (2026-08-08).** `terminology-and-addressing-clarification-v1.md` §2에 이미 등재. 초판 오류 철회 |
+| 선별실 | 원고(E001 L465)와 E002·E003 CP에만 존재. Domain Bible 미등재 |
+| 대가분산 의식 | E001 L361의 세렌 금지술. 마법·종교 Domain Bible 미등재 |
+| 왕좌승인원 ↔ 세르바 왕실평의회 | 기관 지위는 terminology §2로 확정. 평의회와의 포함관계만 미확정 |
 | 잔문 ↔ 팔림프세스트 | 두 표기의 사용 구분 미확정 |
 | 무명종 자칭 | 집단이 스스로 부르는 이름이 정본에 없음 (행정 분류명·멸칭 `빈칸`만 존재) |
-| 세렌 ↔ 세른 (E001 `세` 단서) | 의도된 중의성인지 작가 확인 |
+| ~~세렌 ↔ 세른 (E001 `세` 단서)~~ | **해소 (2026-08-08).** `v01-scene-ready-design-v1.md` E001 Exit/Hook과 `E001-context-pack.md` §8 Plants가 `세`를 설계된 훅으로 명시. 지시 대상은 `세렌`이며 `세른`과의 중의성은 설계에 없다. 두 이름 다 constitution HARD LOCK이므로 유지하고, 주변 `세/셀` 클러스터를 줄이는 방향으로 처리한다 |
 
 ---
 
@@ -201,7 +217,9 @@ Rules: `docs/13_writing_harness/korean-webnovel-fantasy-naming-rules-v1.md`
 - 현장 대사: `"달력국 승인관이 도착했습니다."`
 - 일상 축약: `"달력국이 아직 답이 없어."`
 
-**부수 정정 필요**: E001 L101 `성력국은 달력과 병원망을 맡았다`는 institution §3의 직무 분리(달력국 ≠ 의료·구휼국)와 충돌한다. 개명과 별개로 원고 정합성 수정 대상.
+**[정정 2026-08-08]** 초판은 E001 L101 `성력국은 달력과 병원망을 맡았다`가 institution §3의 직무 분리와 충돌한다고 기재했다. **오류이며 철회한다.** `terminology-and-addressing-clarification-v1.md` §2가 성력국을 "달력·계절·병원 동기화 승인기관의 공식명"으로 규정하므로 원고가 정본과 일치한다.
+
+같은 문서가 `성력국`(공식 기관명)과 `달력국`(내부 실무부서명)의 **계층 관계**도 확정한다. 따라서 위 후보 중 `달력국` 단독안은 부서명을 기관명으로 승격시키는 것이므로 채택 시 계층 재정의가 필요하다.
 
 ### 4.3 아르켄 중앙관측탑연합
 
@@ -290,7 +308,6 @@ institution §8의 구성이 지역대표·종족직업대표·환자대표·기
 
 | 행 | 표현 |
 |---|---|
-| L23, L25 | 지하 진동계 |
 | L43 | 등록 정보와 위치 신호 |
 | L49, L51 | 신원 등록패 / 등록패 |
 | L57, L59, L69 | 구조 신호 / 구조 신호 번호 |

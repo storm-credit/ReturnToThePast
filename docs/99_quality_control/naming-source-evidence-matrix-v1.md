@@ -25,9 +25,9 @@ Base: `main` @ `06ef0b7c97cfeabdbb5e92dece12c11dce18886d`
 | 역사적 의미 | 세르바 왕조가 Era O 공동협약을 왕권서사로 편집한 결과물 (naming-pack §2). 이름의 `왕좌`는 혈통이 아니라 승인 권좌를 뜻함 |
 | 사용 장면 | E001 L255 임무 인장 5기관 중 첫 문양. L541 `왕좌승인관이 끼어들었다`. V09 9C 승인 다중분할 (crosswalk) |
 | 잠금 수준 | 기능 HARD LOCK (institution 헤더 `권한분리·절차 HARD LOCK`) / 명칭 SOFT LOCK |
-| 확인한 원문 | `institution-org-procedure-bible-v1.md` §2, §10 / `time-travel-ontology-v1.md` Five Distributed Keys / `canon-naming-pack-v1.md` §6 / `E001` L253–L259, L525–L555 |
-| 변경 위험 | 낮음. Domain Bible이 이미 `왕실평의회`라는 별도 명칭을 쓰므로 `왕좌승인원`은 상위 조어층에만 존재한다. 다만 **`왕실평의회`(전체)와 `왕좌승인원`(시간승인 기능)이 같은 것인지 다른 것인지 정본이 명시하지 않음** |
-| 1차 판정 | 개명 검토 + **설정 확인 필요**(두 이름의 포함관계) |
+| 확인한 원문 | `institution-org-procedure-bible-v1.md` §2, §10 / `time-travel-ontology-v1.md` Five Distributed Keys / `canon-naming-pack-v1.md` §6 / `terminology-and-addressing-clarification-v1.md` §2 / `E001` L253–L259, L525–L555 |
+| 변경 위험 | 낮음. `terminology-and-addressing-clarification-v1.md` §2가 `왕좌승인원`을 **"왕실 목적·법적 책임 승인기관"**으로 확정했다. 다만 `세르바 왕실평의회`(전체 통치기구)와의 포함관계는 여전히 명시되지 않았다 |
+| 1차 판정 | 개명 검토. 지위는 확정됐고, 평의회와의 포함관계만 **설정 확인 필요** |
 
 ### A-2. 성력국
 
@@ -40,10 +40,10 @@ Base: `main` @ `06ef0b7c97cfeabdbb5e92dece12c11dce18886d`
 | 역사적 의미 | 천문력·성당력·행정력 3층 중 성당력 담당. 어긋나면 농사 실패·계약분쟁·귀환오차·마나열병 진단오류 발생 (calendar-language §1) |
 | 사용 장면 | E001 L99 진입 공동승인 3기관 중 하나, L101 `성력국은 달력과 병원망을 맡았다`, L525·L557 `성력국 승인관` |
 | 잠금 수준 | 기능 HARD LOCK / 명칭 SOFT LOCK |
-| 확인한 원문 | `institution-org-procedure-bible-v1.md` §3 / `calendar-language-naming-bible-v1.md` §1 / `E001` L99–L103, L525–L559 |
-| 변경 위험 | 낮음. **Domain Bible의 원본 명칭이 이미 `달력국`이다.** `성력국`은 명명 패키지에서만 쓰이는 상위 조어 |
+| 확인한 원문 | `institution-org-procedure-bible-v1.md` §3 / `calendar-language-naming-bible-v1.md` §1 / `terminology-and-addressing-clarification-v1.md` §2 / `E001` L99–L103, L525–L559 |
+| 변경 위험 | 낮음. 단 `달력국`은 Domain Bible의 대체명이 아니라 **성력국 내부 실무부서명**이다 (terminology §2 충돌 해소) |
 | 1차 판정 | 개명 검토 |
-| 비고 | E001 L101이 `성력국은 달력과 **병원망**을 맡았다`고 쓰지만, institution §3은 달력국과 의료·구휼국을 **분리**한다. **원고와 Domain Bible의 권한 배분 불일치** — 개명과 별개로 정합성 수정 필요 |
+| 비고 | **[정정 2026-08-08]** 초판은 E001 L101 `성력국은 달력과 병원망을 맡았다`가 institution §3의 직무 분리와 충돌한다고 기재했다. 이는 오류다. `terminology-and-addressing-clarification-v1.md` §2가 성력국을 **"달력·계절·병원 동기화 승인기관의 공식명"**으로 규정하므로 원고가 정본과 일치한다. 해당 지적을 철회한다. 또한 같은 문서가 `성력국`(공식 기관명)과 `달력국`(내부 부서명)이 서로 다른 기관이 아님을 확정하므로, 개명 시 두 이름의 계층 관계를 보존해야 한다 |
 
 ### A-3. 아르켄 중앙관측탑연합
 
@@ -190,10 +190,11 @@ Base: `main` @ `06ef0b7c97cfeabdbb5e92dece12c11dce18886d`
 | 설정 기능 | 구조 출동 승인. 연대출귀원·성력국과 함께 3기관 공동승인 (E001 L99–L101) |
 | 역사적 의미 | 판단 불가 |
 | 사용 장면 | E001 L99, L119, L133, L175, L525 |
-| 잠금 수준 | **정본 미등재.** naming-pack §6 기관표에 없음 |
-| 확인한 원문 | `E001` 전문 / `canon-naming-pack-v1.md` §6 (부재 확인) / `institution-org-procedure-bible-v1.md` (부재 확인) |
-| 변경 위험 | **높음.** 원고 1화의 핵심 기관인데 정본에 없다. 마르칸 베르의 `최후 연대국 방위사령관`과 같은 조직인지 불명 |
-| 1차 판정 | **설정 확인 필요 + 정본 등재 필요** |
+| 잠금 수준 | **CANON CLARIFICATION 등재됨.** `terminology-and-addressing-clarification-v1.md` §2 |
+| 확인한 원문 | `E001` 전문 / `terminology-and-addressing-clarification-v1.md` §2 / `canon-naming-pack-v1.md` §6 (미등재 확인) / `.agent/context-packs/episodes/E001-context-pack.md` §6 |
+| 변경 위험 | 낮음. `방위지휘부` = "F0 수도의 구조·군사·생존배분 실무 지휘기관", `방위총감` = "E001의 기능인물 직책, 마르칸 베르와 동일 인물 아님, 새 개인 이름을 임의로 붙이지 않는다"로 확정됨 |
+| 1차 판정 | **유지.** 다만 `canon-naming-pack-v1.md` §6 기관표에는 여전히 없으므로 명명 패키지 갱신 시 함께 등재 권고 |
+| 비고 | **[정정 2026-08-08]** 초판은 이 항목을 `정본 미등재 / 설정 확인 필요`로 기재했다. 오류다. `terminology-and-addressing-clarification-v1.md`를 확인하지 않은 결과이며 철회한다 |
 
 ---
 
@@ -329,7 +330,8 @@ Base: `main` @ `06ef0b7c97cfeabdbb5e92dece12c11dce18886d`
 |---|---|
 | 최후 연대국 | 조직 구조를 규정한 Domain Bible 부재. `방위지휘부`·`미래 본부`와의 관계 미확정 |
 | 연대개입산업연합 | crosswalk 한 줄 외 근거 없음 |
-| 방위지휘부 / 방위총감 | 원고 전용 명칭. 정본 미등재 |
-| 선별실 | 원고 전용 명칭 (E001 L465). 정본 미등재 |
-| 왕좌승인원 ↔ 세르바 왕실평의회 | 두 이름의 포함관계 미확정 |
+| ~~방위지휘부 / 방위총감~~ | **해소 (2026-08-08).** `terminology-and-addressing-clarification-v1.md` §2에 등재되어 있었다. 초판의 `정본 미등재` 판정은 오류이며 철회한다 |
+| 선별실 | 원고(E001 L465)와 E002·E003 CP에만 존재. Domain Bible·명명 패키지 미등재 |
+| 대가분산 의식 | 원고(E001 L361)에만 존재. 세렌의 금지술인데 `magic-and-mana-v1.md`·`myth-religion-nine-wounds-v1.md` 미등재 |
+| 왕좌승인원 ↔ 세르바 왕실평의회 | 기관 지위는 terminology §2로 확정. 평의회와의 포함관계만 미확정 |
 | 잔문 ↔ 팔림프세스트 | 두 표기의 사용 구분 미확정 |
