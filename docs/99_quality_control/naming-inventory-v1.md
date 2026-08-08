@@ -21,6 +21,9 @@ Gate: `docs/13_writing_harness/naming-source-verification-gate-v1.md`
 | `docs/00_project/decision-log.md` | DEC-004/006/009/011 명명 관련 결정 |
 | `docs/00_project/canon-naming-pack-v1.md` | 명명 패키지 정식명 원본 |
 | `docs/00_project/source-precedence-and-automation.md` | 잠금 수준과 SOFT LOCK 범위 |
+| `docs/00_project/terminology-and-addressing-clarification-v1.md` | 기관명 교차표와 충돌 해소 **(초판 누락 — 2026-08-08 추가)** |
+| `docs/03_systems/mana-fever-gray-calamity-v1.md` | `마나열병`·`회색열` 공식명 확인 |
+| `docs/00_project/GATE_STATUS.md` | 현재 생산 차단 상태 |
 | `docs/02_world/atlas-region-dossiers-v1.md` | 권역·거점의 물리 구조와 Era 변화 |
 | `docs/02_world/calendar-language-naming-bible-v1.md` | 문화권별 이름 구성 규칙, 진명 |
 | `docs/02_world/peoples-and-cultures-v1.md` | 종족 명칭 잠금 수준 |
