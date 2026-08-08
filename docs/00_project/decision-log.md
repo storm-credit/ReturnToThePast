@@ -146,3 +146,42 @@ Updated Files: `canon-naming-pack-v1.md` §3, `pronunciation-lexicon.md`, `namin
 Manuscript Impact: 없음. E001·E002에 이 장소는 등장하지 않는다.
 
 Author Approval: APPROVED — “두 역사의 라베른 / 가장 직접적. 첫 청취 즉시 이해”
+
+## DEC-016 — 4개 기관 정식명 확정
+
+Date: 2026-08-08
+
+| 기존 | 신규 | 대사 축약 |
+|---|---|---|
+| 아르켄 중앙관측탑연합 | **아스트라 관측탑** | 아스트라 |
+| 연대출귀원 | **앙카 귀환다리** | 앙카 |
+| 성력국 | **솔라 종탑** | 솔라 / 종탑 |
+| 지역 연대감사소 | **아고라 회당** | 아고라 |
+
+Naming Formula: **한국 독자에게 이미 익숙한 외래 어근 + 장면에 실재하는 물건.** `아스트라 관측탑`이 유일하게 통과한 이유를 분석해 나머지 셋에 동일 적용했다. `-국·-원·-회·-소` 접미사를 전부 제거했다.
+
+Reason:
+
+- `연대출귀원`은 `연대`+`출발`+`귀환` 3개 기능어를 압축해 명명규칙 §3.1을 정면 위반했다.
+- `성력국`은 첫 청취에서 `聖力`으로 오독될 수 있고 `-국`이 현대 행정 접미사다.
+- `중앙관측탑연합`은 기능어 4개 압축에 9음절이다.
+- `지역 연대감사소`의 `연대`는 군더더기다.
+
+Source Basis:
+
+- 앙카 — `time-travel-ontology-v1.md`가 국경 고정석을 “돌아올 미래와 육체를 붙잡는 앵커”로 규정. `다리`는 V15 15C 무대 `마지막 귀환다리`와 연결되어 1화와 최종화를 한 단어로 묶는다.
+- 솔라 — `calendar-language-naming-bible-v1.md` §7 속담 “종이 울리기 전에는 날짜를 믿지 마라”. 이 세계에서 종이 곧 달력이다. 태양이 계절을 정한다.
+- 아스트라 — 마탑의 좌표·천문 기능.
+- 아고라 — `institution-org-procedure-bible-v1.md` §8의 지역·종족·환자 대표 공개 합의체 구조.
+
+Scope: 표층 명칭 변경. 기관의 권한 분리·조직도·절차·정족수는 institution 헤더의 HARD LOCK이며 변경하지 않았다. Canon Constitution의 HARD LOCK 항목이 아니므로 Amendment 없이 Decision Log로 처리한다.
+
+Rejected: 귀환청 / 귀환문 / 귀환항 / 귀환원 / 출귀원 / 달력국 / 달력소 / 계절원 / 증언회 / 봉합종 / 빈 의자 회당 / 포룸 감사회 / 테르민 / 폰스 / 호라 / 쿠리아 / 켄소르 — 후보 22개 중 채택 4개.
+
+Not Renamed: `왕좌승인원`, `칼레온 대기록소`, `아홉 상처 대성당`, `세르바 왕실평의회`, `최후 연대국`, `연대개입산업연합`, `잔문감사실`
+
+Updated Files: `canon-naming-pack-v1.md` §6 / `terminology-and-addressing-clarification-v1.md` §2 / `pronunciation-lexicon.md` / `E001-context-pack.md` / `cultural-naming-phonology-v1.md` / E001·E002 원고 / E002 상태·품질 문서 / 명명 감사 5종
+
+Open: 성당 구휼사 `메이라 솔`과 `솔라 종탑`의 음 충돌. 인물과 기관으로 문맥이 달라 유지하되, 한 문장에 함께 쓰지 않는다. 필요 시 별도 승인으로 조연명 변경.
+
+Author Approval: APPROVED — “걍 제안대로하자”
