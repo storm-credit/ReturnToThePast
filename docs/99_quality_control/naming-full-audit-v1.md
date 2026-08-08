@@ -8,6 +8,23 @@ Depends On: `naming-inventory-v1.md`, `naming-source-evidence-matrix-v1.md`
 Gate: `docs/13_writing_harness/naming-source-verification-gate-v1.md`
 Rules: `docs/13_writing_harness/korean-webnovel-fantasy-naming-rules-v1.md`
 
+## 0-Z. 확정 결과 (2026-08-08, DEC-016)
+
+작가 승인으로 4개 기관 정식명이 확정됐다. 아래 §4의 후보 표는 검토 이력으로 보존한다.
+
+| 기존 | 확정 | 대사 축약 |
+|---|---|---|
+| 아르켄 중앙관측탑연합 | **아스트라 관측탑** | 아스트라 |
+| 연대출귀원 | **앙카 귀환다리** | 앙카 |
+| 성력국 | **솔라 종탑** | 솔라 / 종탑 |
+| 지역 연대감사소 | **아고라 회당** | 아고라 |
+
+채택 원칙은 §4의 어느 안도 아니었다. **`아스트라 관측탑`이 유일하게 통과한 이유를 역산해 도출했다** — 한국 독자에게 이미 익숙한 외래 어근 + 장면에 실재하는 물건. `-국·-원·-회·-소` 추상 접미사를 전부 제거했다.
+
+후보 22개 중 4개 채택. 기각 목록은 DEC-016에 있다.
+
+`왕좌승인원`·`칼레온 대기록소`·`아홉 상처 대성당`·`최후 연대국`·`연대개입산업연합`·`잔문감사실`은 변경하지 않았다.
+
 ## 0-A. 초판 정정 (2026-08-08)
 
 초판은 `docs/00_project/terminology-and-addressing-clarification-v1.md`를 확인하지 않았다. 그 결과 다음 3건이 틀렸고 철회한다.
