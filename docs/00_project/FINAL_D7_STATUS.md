@@ -15,9 +15,9 @@ The previously recorded SHA `724a19a3a8463cc3fcc6e0bb9c1c1822e7d3c22b` was incor
 
 ## Superseding Status Notice
 
-This file remains authoritative for D7 story architecture. World/Setting encyclopedia completion is tracked separately by `docs/00_project/FINAL_D8_WORLD_STATUS.md` and `docs/99_quality_control/world-encyclopedia-d8-audit-v1.md`.
+This file remains authoritative for D7 story architecture. World/Setting encyclopedia completion is tracked separately by [`docs/00_project/FINAL_D8_WORLD_STATUS.md`](FINAL_D8_WORLD_STATUS.md) and [`docs/99_quality_control/world-encyclopedia-d8-audit-v1.md`](../99_quality_control/world-encyclopedia-d8-audit-v1.md).
 
-Any older progress row that says `V15 PR pending`, `functional design only`, or `D7 not started` is superseded by this file and by `docs/99_quality_control/final-d7-cross-audit-v1.md`.
+Any older progress row that says `V15 PR pending`, `functional design only`, or `D7 not started` is superseded by this file and by [`docs/99_quality_control/final-d7-cross-audit-v1.md`](../99_quality_control/final-d7-cross-audit-v1.md).
 
 ## Verified Completion
 
@@ -92,4 +92,4 @@ These do not change locked causality, permanent losses, authority distribution, 
 
 ## Gate Rule
 
-D7 and D8 completion do not authorize prose. Only the author can open the Gate with the exact declaration stored in `CLAUDE.md`. Until that declaration, manuscript generation remains prohibited.
+D7 and D8 completion do not authorize prose. Only the author can open the Gate with the exact declaration stored in [`CLAUDE.md`](../../CLAUDE.md). Until that declaration, manuscript generation remains prohibited.

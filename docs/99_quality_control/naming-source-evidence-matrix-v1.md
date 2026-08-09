@@ -1,7 +1,7 @@
 # 명명 원문 검증 증거표 v1
 
 Status: AUDIT ARTIFACT — NO CANON CHANGE
-Gate: `docs/13_writing_harness/naming-source-verification-gate-v1.md` §3
+Gate: [`docs/13_writing_harness/naming-source-verification-gate-v1.md`](../13_writing_harness/naming-source-verification-gate-v1.md) §3
 Branch: `agent/naming-system-full-audit-v1`
 Base: `main` @ `06ef0b7c97cfeabdbb5e92dece12c11dce18886d`
 
@@ -25,8 +25,8 @@ Base: `main` @ `06ef0b7c97cfeabdbb5e92dece12c11dce18886d`
 | 역사적 의미 | 세르바 왕조가 Era O 공동협약을 왕권서사로 편집한 결과물 (naming-pack §2). 이름의 `왕좌`는 혈통이 아니라 승인 권좌를 뜻함 |
 | 사용 장면 | E001 L255 임무 인장 5기관 중 첫 문양. L541 `왕좌승인관이 끼어들었다`. V09 9C 승인 다중분할 (crosswalk) |
 | 잠금 수준 | 기능 HARD LOCK (institution 헤더 `권한분리·절차 HARD LOCK`) / 명칭 SOFT LOCK |
-| 확인한 원문 | `institution-org-procedure-bible-v1.md` §2, §10 / `time-travel-ontology-v1.md` Five Distributed Keys / `canon-naming-pack-v1.md` §6 / `terminology-and-addressing-clarification-v1.md` §2 / `E001` L253–L259, L525–L555 |
-| 변경 위험 | 낮음. `terminology-and-addressing-clarification-v1.md` §2가 `왕좌승인원`을 **"왕실 목적·법적 책임 승인기관"**으로 확정했다. 다만 `세르바 왕실평의회`(전체 통치기구)와의 포함관계는 여전히 명시되지 않았다 |
+| 확인한 원문 | [`institution-org-procedure-bible-v1.md`](../08_institutions/institution-org-procedure-bible-v1.md) §2, §10 / [`time-travel-ontology-v1.md`](../03_systems/time-travel-ontology-v1.md) Five Distributed Keys / [`canon-naming-pack-v1.md`](../00_project/canon-naming-pack-v1.md) §6 / [`terminology-and-addressing-clarification-v1.md`](../00_project/terminology-and-addressing-clarification-v1.md) §2 / `E001` L253–L259, L525–L555 |
+| 변경 위험 | 낮음. [`terminology-and-addressing-clarification-v1.md`](../00_project/terminology-and-addressing-clarification-v1.md) §2가 `왕좌승인원`을 **"왕실 목적·법적 책임 승인기관"**으로 확정했다. 다만 `세르바 왕실평의회`(전체 통치기구)와의 포함관계는 여전히 명시되지 않았다 |
 | 1차 판정 | 개명 검토. 지위는 확정됐고, 평의회와의 포함관계만 **설정 확인 필요** |
 
 ### A-2. 성력국
@@ -40,10 +40,10 @@ Base: `main` @ `06ef0b7c97cfeabdbb5e92dece12c11dce18886d`
 | 역사적 의미 | 천문력·성당력·행정력 3층 중 성당력 담당. 어긋나면 농사 실패·계약분쟁·귀환오차·마나열병 진단오류 발생 (calendar-language §1) |
 | 사용 장면 | E001 L99 진입 공동승인 3기관 중 하나, L101 `성력국은 달력과 병원망을 맡았다`, L525·L557 `성력국 승인관` |
 | 잠금 수준 | 기능 HARD LOCK / 명칭 SOFT LOCK |
-| 확인한 원문 | `institution-org-procedure-bible-v1.md` §3 / `calendar-language-naming-bible-v1.md` §1 / `terminology-and-addressing-clarification-v1.md` §2 / `E001` L99–L103, L525–L559 |
+| 확인한 원문 | [`institution-org-procedure-bible-v1.md`](../08_institutions/institution-org-procedure-bible-v1.md) §3 / [`calendar-language-naming-bible-v1.md`](../02_world/calendar-language-naming-bible-v1.md) §1 / [`terminology-and-addressing-clarification-v1.md`](../00_project/terminology-and-addressing-clarification-v1.md) §2 / `E001` L99–L103, L525–L559 |
 | 변경 위험 | 낮음. 단 `달력국`은 Domain Bible의 대체명이 아니라 **성력국 내부 실무부서명**이다 (terminology §2 충돌 해소) |
 | 1차 판정 | 개명 검토 |
-| 비고 | **[정정 2026-08-08]** 초판은 E001 L101 `성력국은 달력과 병원망을 맡았다`가 institution §3의 직무 분리와 충돌한다고 기재했다. 이는 오류다. `terminology-and-addressing-clarification-v1.md` §2가 성력국을 **"달력·계절·병원 동기화 승인기관의 공식명"**으로 규정하므로 원고가 정본과 일치한다. 해당 지적을 철회한다. 또한 같은 문서가 `성력국`(공식 기관명)과 `달력국`(내부 부서명)이 서로 다른 기관이 아님을 확정하므로, 개명 시 두 이름의 계층 관계를 보존해야 한다 |
+| 비고 | **[정정 2026-08-08]** 초판은 E001 L101 `성력국은 달력과 병원망을 맡았다`가 institution §3의 직무 분리와 충돌한다고 기재했다. 이는 오류다. [`terminology-and-addressing-clarification-v1.md`](../00_project/terminology-and-addressing-clarification-v1.md) §2가 성력국을 **"달력·계절·병원 동기화 승인기관의 공식명"**으로 규정하므로 원고가 정본과 일치한다. 해당 지적을 철회한다. 또한 같은 문서가 `성력국`(공식 기관명)과 `달력국`(내부 부서명)이 서로 다른 기관이 아님을 확정하므로, 개명 시 두 이름의 계층 관계를 보존해야 한다 |
 
 ### A-3. 아르켄 중앙관측탑연합
 
@@ -56,7 +56,7 @@ Base: `main` @ `06ef0b7c97cfeabdbb5e92dece12c11dce18886d`
 | 역사적 의미 | 좌표 계산 7단계에 독립 계산팀 교차검산이 포함됨. 취약점은 `불확실성을 숨기는 숫자권위` (institution §4) |
 | 사용 장면 | E001 L255, L257 `중앙관측탑연합은 좌표를 맡았다` |
 | 잠금 수준 | 기능 HARD LOCK / 명칭 SOFT LOCK |
-| 확인한 원문 | `institution-org-procedure-bible-v1.md` §4 / `time-travel-ontology-v1.md` / `E001` L253–L259 |
+| 확인한 원문 | [`institution-org-procedure-bible-v1.md`](../08_institutions/institution-org-procedure-bible-v1.md) §4 / [`time-travel-ontology-v1.md`](../03_systems/time-travel-ontology-v1.md) / `E001` L253–L259 |
 | 변경 위험 | 낮음. Domain Bible과 명명규칙 §2.4가 모두 `마탑`을 허용어로 인정 |
 | 1차 판정 | 개명 검토 |
 
@@ -71,7 +71,7 @@ Base: `main` @ `06ef0b7c97cfeabdbb5e92dece12c11dce18886d`
 | 역사적 의미 | 문 옆 문구 `기록은 존재를 보호한다` — 마지막 글자 2개가 수리판에 가려짐 (E001 L325). 기관 표어와 실태의 대비 |
 | 사용 장면 | E001 L255·L257·L587, V02 2B 팔림프세스트 금고, V14 14A 세 분산 기록소 |
 | 잠금 수준 | 기능 HARD LOCK / 명칭 SOFT LOCK |
-| 확인한 원문 | `institution-org-procedure-bible-v1.md` §5 / `E001` L255, L323–L327, L585–L589 / `crosswalk` V02·V14 |
+| 확인한 원문 | [`institution-org-procedure-bible-v1.md`](../08_institutions/institution-org-procedure-bible-v1.md) §5 / `E001` L255, L323–L327, L585–L589 / `crosswalk` V02·V14 |
 | 변경 위험 | 낮음 |
 | 1차 판정 | **유지** — `고유명 + 익숙한 조직어` 구조를 이미 충족 |
 
@@ -86,7 +86,7 @@ Base: `main` @ `06ef0b7c97cfeabdbb5e92dece12c11dce18886d`
 | 역사적 의미 | 리아 세른의 직함 `팔림프세스트 기록관`의 소속 근거 (naming-pack §5 C02) |
 | 사용 장면 | **E001에 등장하지 않음.** V02 2B `대기록소·팔림프세스트 금고`가 최초 실사용 |
 | 잠금 수준 | 명칭 SOFT LOCK |
-| 확인한 원문 | `institution-org-procedure-bible-v1.md` §5 / `time-travel-ontology-v1.md` / `canon-naming-pack-v1.md` §5·§6 / `crosswalk` V02 |
+| 확인한 원문 | [`institution-org-procedure-bible-v1.md`](../08_institutions/institution-org-procedure-bible-v1.md) §5 / [`time-travel-ontology-v1.md`](../03_systems/time-travel-ontology-v1.md) / [`canon-naming-pack-v1.md`](../00_project/canon-naming-pack-v1.md) §5·§6 / `crosswalk` V02 |
 | 변경 위험 | **중간.** 내부 부서명이며 명명규칙 §2.1은 `일회성 내부 부서`를 고유명사 비대상으로 본다. 다만 리아의 직함과 연결되어 있어 함께 판단해야 함 |
 | 1차 판정 | 개명 검토 — 단, `잔문`/`팔림프세스트` 두 표기가 병존하는 문제부터 정리 |
 
@@ -101,7 +101,7 @@ Base: `main` @ `06ef0b7c97cfeabdbb5e92dece12c11dce18886d`
 | 역사적 의미 | `강제귀환이 항상 정의롭지 않다` — 현지잔류권이 설정에 명시됨 (institution §6 잔류) |
 | 사용 장면 | E001 L99 진입 공동승인 3기관, L101 `연대출귀원은 요원 등록과 귀환을 맡았다`, L255 임무 인장 |
 | 잠금 수준 | 기능 HARD LOCK / 명칭 SOFT LOCK |
-| 확인한 원문 | `institution-org-procedure-bible-v1.md` §6 / `E001` L97–L103, L253–L259 |
+| 확인한 원문 | [`institution-org-procedure-bible-v1.md`](../08_institutions/institution-org-procedure-bible-v1.md) §6 / `E001` L97–L103, L253–L259 |
 | 변경 위험 | 낮음 |
 | 1차 판정 | **개명 검토 — 최우선.** 기능어 3개(`연대`+`출발`+`귀환`) 압축으로 명명규칙 §3.1 정면 위반 |
 
@@ -116,7 +116,7 @@ Base: `main` @ `06ef0b7c97cfeabdbb5e92dece12c11dce18886d`
 | 역사적 의미 | 한 절점이 붕괴하면 거리·계절·귀환 오차가 양옆으로 확산 (atlas R06). 장기화 시 국경 마을이 비용흡수지로 지정됨 |
 | 사용 장면 | V05 5A 서부절점, V06 6C 민간 고정망, V15 15B 지역망 이전 |
 | 잠금 수준 | 기능 HARD LOCK / 명칭 SOFT LOCK |
-| 확인한 원문 | `atlas-region-dossiers-v1.md` R06 / `institution-org-procedure-bible-v1.md` §7 / `crosswalk` V05·V06·V15 |
+| 확인한 원문 | [`atlas-region-dossiers-v1.md`](../02_world/atlas-region-dossiers-v1.md) R06 / [`institution-org-procedure-bible-v1.md`](../08_institutions/institution-org-procedure-bible-v1.md) §7 / `crosswalk` V05·V06·V15 |
 | 변경 위험 | **중간.** `고정환`은 지리 실체(고리형 네트워크)이고 `관리연합`은 운영 주체다. 하나로 합친 현재 이름이 둘을 뭉갠다. 분리 시 지도·조직 참조가 갈라짐 |
 | 1차 판정 | 개명 검토 — 지리명과 조직명 분리 여부가 선결 |
 
@@ -131,7 +131,7 @@ Base: `main` @ `06ef0b7c97cfeabdbb5e92dece12c11dce18886d`
 | 역사적 의미 | 결말부 분산체제의 핵심기관. DEC-008의 `중앙 연대개입 폐쇄 후 지역·종족·시민 감사 분산망`의 실행체 |
 | 사용 장면 | V04 4D `지역 감사소 원형`, V13 13D, V15 15D |
 | 잠금 수준 | 기능 HARD LOCK / 명칭 SOFT LOCK |
-| 확인한 원문 | `institution-org-procedure-bible-v1.md` §8 / `decision-log.md` DEC-008 / `crosswalk` V04·V13·V15 |
+| 확인한 원문 | [`institution-org-procedure-bible-v1.md`](../08_institutions/institution-org-procedure-bible-v1.md) §8 / [`decision-log.md`](../00_project/decision-log.md) DEC-008 / `crosswalk` V04·V13·V15 |
 | 변경 위험 | 낮음 |
 | 1차 판정 | 개명 검토 — `연대`를 빼면 Domain Bible 원문 `지역 감사소`와 일치 |
 
@@ -146,7 +146,7 @@ Base: `main` @ `06ef0b7c97cfeabdbb5e92dece12c11dce18886d`
 | 역사적 의미 | 아홉 상처는 9인 조직이 아니라 우주 원리 9개 (DEC-004, myth-religion). 후대 왕조가 Era O 공동협약을 신화로 재편한 산물 |
 | 사용 장면 | E001 직접 등장 없음. V08 8A–8C 성인계보 합성 폭로 |
 | 잠금 수준 | 기능 SOFT LOCK pending similarity audit (myth-religion 헤더) |
-| 확인한 원문 | `myth-religion-nine-wounds-v1.md` 전문 / `institution-org-procedure-bible-v1.md` §3 / `decision-log.md` DEC-004 / `crosswalk` V08 |
+| 확인한 원문 | [`myth-religion-nine-wounds-v1.md`](../02_world/myth-religion-nine-wounds-v1.md) 전문 / [`institution-org-procedure-bible-v1.md`](../08_institutions/institution-org-procedure-bible-v1.md) §3 / [`decision-log.md`](../00_project/decision-log.md) DEC-004 / `crosswalk` V08 |
 | 변경 위험 | 낮음 |
 | 1차 판정 | **유지** — 첫 청취에 성당임이 즉시 잡히고 신화 개념을 풀어 쓴 형태. 명명규칙 §4.5의 `9개의 상처에 관한 교리처럼 풀어 쓴다`와 일치 |
 
@@ -161,7 +161,7 @@ Base: `main` @ `06ef0b7c97cfeabdbb5e92dece12c11dce18886d`
 | 역사적 의미 | 부분 확인. `Era F1/F2: 지하 연대국의 잔존부. 지상은 계절붕괴와 중첩 건축으로 위험하다` (atlas R01) |
 | 사용 장면 | E001에 `최후 연대국` 표기는 없고 `방위지휘부`·`미래 본부`가 쓰임 (L99, L353, L373) |
 | 잠금 수준 | 명칭 SOFT LOCK |
-| 확인한 원문 | `canon-naming-pack-v1.md` §5·§6 / `atlas-region-dossiers-v1.md` R01 / `E001` L99, L353, L373 |
+| 확인한 원문 | [`canon-naming-pack-v1.md`](../00_project/canon-naming-pack-v1.md) §5·§6 / [`atlas-region-dossiers-v1.md`](../02_world/atlas-region-dossiers-v1.md) R01 / `E001` L99, L353, L373 |
 | 변경 위험 | 판단 불가 |
 | 1차 판정 | **설정 확인 필요 — 후보 제시 중단.** 조직 구조를 규정한 Domain Bible이 없다. `최후 연대국`/`방위지휘부`/`미래 본부` 3개 호칭의 관계부터 정본화해야 함 |
 
@@ -176,7 +176,7 @@ Base: `main` @ `06ef0b7c97cfeabdbb5e92dece12c11dce18886d`
 | 역사적 의미 | 판단 불가 |
 | 사용 장면 | V10 10A, V09 9D `공개 시간산업 F3` |
 | 잠금 수준 | 명칭 SOFT LOCK |
-| 확인한 원문 | `canon-naming-pack-v1.md` §5·§6 / `location-world-crosswalk-v1.md` V09·V10 |
+| 확인한 원문 | [`canon-naming-pack-v1.md`](../00_project/canon-naming-pack-v1.md) §5·§6 / [`location-world-crosswalk-v1.md`](../10_story_architecture/location-world-crosswalk-v1.md) V09·V10 |
 | 변경 위험 | 판단 불가 |
 | 1차 판정 | **설정 확인 필요 — 후보 제시 중단** |
 
@@ -190,11 +190,11 @@ Base: `main` @ `06ef0b7c97cfeabdbb5e92dece12c11dce18886d`
 | 설정 기능 | 구조 출동 승인. 연대출귀원·성력국과 함께 3기관 공동승인 (E001 L99–L101) |
 | 역사적 의미 | 판단 불가 |
 | 사용 장면 | E001 L99, L119, L133, L175, L525 |
-| 잠금 수준 | **CANON CLARIFICATION 등재됨.** `terminology-and-addressing-clarification-v1.md` §2 |
-| 확인한 원문 | `E001` 전문 / `terminology-and-addressing-clarification-v1.md` §2 / `canon-naming-pack-v1.md` §6 (미등재 확인) / `.agent/context-packs/episodes/E001-context-pack.md` §6 |
+| 잠금 수준 | **CANON CLARIFICATION 등재됨.** [`terminology-and-addressing-clarification-v1.md`](../00_project/terminology-and-addressing-clarification-v1.md) §2 |
+| 확인한 원문 | `E001` 전문 / [`terminology-and-addressing-clarification-v1.md`](../00_project/terminology-and-addressing-clarification-v1.md) §2 / [`canon-naming-pack-v1.md`](../00_project/canon-naming-pack-v1.md) §6 (미등재 확인) / [`.agent/context-packs/episodes/E001-context-pack.md`](../../.agent/context-packs/episodes/E001-context-pack.md) §6 |
 | 변경 위험 | 낮음. `방위지휘부` = "F0 수도의 구조·군사·생존배분 실무 지휘기관", `방위총감` = "E001의 기능인물 직책, 마르칸 베르와 동일 인물 아님, 새 개인 이름을 임의로 붙이지 않는다"로 확정됨 |
-| 1차 판정 | **유지.** 다만 `canon-naming-pack-v1.md` §6 기관표에는 여전히 없으므로 명명 패키지 갱신 시 함께 등재 권고 |
-| 비고 | **[정정 2026-08-08]** 초판은 이 항목을 `정본 미등재 / 설정 확인 필요`로 기재했다. 오류다. `terminology-and-addressing-clarification-v1.md`를 확인하지 않은 결과이며 철회한다 |
+| 1차 판정 | **유지.** 다만 [`canon-naming-pack-v1.md`](../00_project/canon-naming-pack-v1.md) §6 기관표에는 여전히 없으므로 명명 패키지 갱신 시 함께 등재 권고 |
+| 비고 | **[정정 2026-08-08]** 초판은 이 항목을 `정본 미등재 / 설정 확인 필요`로 기재했다. 오류다. [`terminology-and-addressing-clarification-v1.md`](../00_project/terminology-and-addressing-clarification-v1.md)를 확인하지 않은 결과이며 철회한다 |
 
 ---
 
@@ -202,7 +202,7 @@ Base: `main` @ `06ef0b7c97cfeabdbb5e92dece12c11dce18886d`
 
 ### B-1. 두 역사의 라베른 — 확정 (DEC-015)
 
-`naming-audit-errata-lavern-v1.md`가 이미 확정한 내용을 재확인했다. 아래는 게이트 §5 6개 항목 재검증 결과다.
+[`naming-audit-errata-lavern-v1.md`](naming-audit-errata-lavern-v1.md)가 이미 확정한 내용을 재확인했다. 아래는 게이트 §5 6개 항목 재검증 결과다.
 
 | 게이트 §5 검사 | 확인 결과 |
 |---|---|
@@ -216,7 +216,7 @@ Base: `main` @ `06ef0b7c97cfeabdbb5e92dece12c11dce18886d`
 | 항목 | 확인 내용 |
 |---|---|
 | 잠금 수준 | 정식명 `두 역사의 라베른` (DEC-015 확정) / 작업명 별칭 `반쪽성` / atlas 표기 `[WORKING] 반쪽성` |
-| 확인한 원문 | `atlas-region-dossiers-v1.md` R05 / `canon-naming-pack-v1.md` §3 / `location-world-crosswalk-v1.md` V01 1C / `naming-audit-errata-lavern-v1.md` |
+| 확인한 원문 | [`atlas-region-dossiers-v1.md`](../02_world/atlas-region-dossiers-v1.md) R05 / [`canon-naming-pack-v1.md`](../00_project/canon-naming-pack-v1.md) §3 / [`location-world-crosswalk-v1.md`](../10_story_architecture/location-world-crosswalk-v1.md) V01 1C / [`naming-audit-errata-lavern-v1.md`](naming-audit-errata-lavern-v1.md) |
 | 변경 위험 | 높음 → 해소. 물리 구조·역사·서사 배치 변경 없음 |
 | 최종 판정 | **확정.** 폐기 `두겹성 라베른` — 겹치는 대상이 성이 아니라 기억인데 `겹`이 구조를 암시함. `라베른 쌍성`·`라베른 성` 철회 유지 |
 
@@ -229,7 +229,7 @@ Base: `main` @ `06ef0b7c97cfeabdbb5e92dece12c11dce18886d`
 | 역사적 의미 | 작업명 `회색종 마을`의 `회색종`은 **종족이 아니라 종(鐘)**이다. 회색 재앙·회색열과 음이 겹치지만 지시 대상이 다르다 |
 | 사용 장면 | V01 1B (crosswalk) |
 | 잠금 수준 | 정식명 AUTO LOCK / atlas `[WORKING]` |
-| 확인한 원문 | `atlas-region-dossiers-v1.md` R05 / `canon-naming-pack-v1.md` §3 / `crosswalk` V01 |
+| 확인한 원문 | [`atlas-region-dossiers-v1.md`](../02_world/atlas-region-dossiers-v1.md) R05 / [`canon-naming-pack-v1.md`](../00_project/canon-naming-pack-v1.md) §3 / `crosswalk` V01 |
 | 변경 위험 | 중간 |
 | 1차 판정 | 정식명 `벨하임` **유지**. 단 작업명 `회색종 마을`은 `회색 재앙`·`회색열`과 첫 청취 충돌 — 원고에서 작업명 사용 금지 |
 
@@ -241,7 +241,7 @@ Base: `main` @ `06ef0b7c97cfeabdbb5e92dece12c11dce18886d`
 | 설정 기능 | `납세기록은 남았으나 납세자의 존재가 사라진 관청` (atlas R05) |
 | 사용 장면 | V01 1B |
 | 잠금 수준 | 정식명 AUTO LOCK |
-| 확인한 원문 | `atlas-region-dossiers-v1.md` R05 / `canon-naming-pack-v1.md` §3 / `crosswalk` V01 |
+| 확인한 원문 | [`atlas-region-dossiers-v1.md`](../02_world/atlas-region-dossiers-v1.md) R05 / [`canon-naming-pack-v1.md`](../00_project/canon-naming-pack-v1.md) §3 / `crosswalk` V01 |
 | 변경 위험 | 낮음 |
 | 1차 판정 | 개명 검토 — 작업명 `빈 세금소`가 설정 기능(기록만 남고 사람이 사라짐)을 정식명보다 정확히 전달한다. **정식명이 작업명보다 정보량이 적은 역전 사례** |
 
@@ -252,7 +252,7 @@ Base: `main` @ `06ef0b7c97cfeabdbb5e92dece12c11dce18886d`
 | 설정 기능 | `첫 개혁가의 저항과 죽음이 연결된 장소` (atlas R05) |
 | 사용 장면 | V01 1C — 에이든이 표적을 살해하는 무대 |
 | 잠금 수준 | 정식명 AUTO LOCK |
-| 확인한 원문 | `atlas-region-dossiers-v1.md` R05 / `crosswalk` V01 1C |
+| 확인한 원문 | [`atlas-region-dossiers-v1.md`](../02_world/atlas-region-dossiers-v1.md) R05 / `crosswalk` V01 1C |
 | 변경 위험 | **높음 — 음운 충돌.** `카센` vs 수도 `아르켄` vs 인물 `오르바드 카르센` vs 공방 `카르바` |
 | 1차 판정 | 개명 검토 (음운 사유) |
 
@@ -263,7 +263,7 @@ Base: `main` @ `06ef0b7c97cfeabdbb5e92dece12c11dce18886d`
 | 물리 구조 | 남부·동부 역참과 수도 관문 |
 | 설정 기능 | `세금검문·난민등록·마나열 검역이 한곳에서 이루어진다` (atlas R01) |
 | 잠금 수준 | `[WORKING]` — 명명 패키지 미등재 |
-| 확인한 원문 | `atlas-region-dossiers-v1.md` R01 / `canon-naming-pack-v1.md` §3 (부재 확인) |
+| 확인한 원문 | [`atlas-region-dossiers-v1.md`](../02_world/atlas-region-dossiers-v1.md) R01 / [`canon-naming-pack-v1.md`](../00_project/canon-naming-pack-v1.md) §3 (부재 확인) |
 | 변경 위험 | **높음 — 음운 충돌.** `세르나`(도시) vs `세르바`(왕조) vs `세른`(리아) vs `세렌`(표적). 네 이름이 모두 중앙 왕국권 |
 | 1차 판정 | **개명 검토 — 최우선(음운).** 정식명 부여 전이므로 변경 비용이 가장 낮다 |
 
@@ -282,7 +282,7 @@ Base: `main` @ `06ef0b7c97cfeabdbb5e92dece12c11dce18886d`
 | 역사적 의미 | 네 층의 진실(민간 신화 / 성당 교리 / 기술적 해석 / 실제 건국사) 중 **성당 교리층**만 지칭 |
 | 사용 장면 | E001 미등장. V08 8A–8B |
 | 잠금 수준 | SOFT LOCK pending similarity audit |
-| 확인한 원문 | `myth-religion-nine-wounds-v1.md` 전문 / `canon-naming-pack-v1.md` §7 / `decision-log.md` DEC-004 |
+| 확인한 원문 | [`myth-religion-nine-wounds-v1.md`](../02_world/myth-religion-nine-wounds-v1.md) 전문 / [`canon-naming-pack-v1.md`](../00_project/canon-naming-pack-v1.md) §7 / [`decision-log.md`](../00_project/decision-log.md) DEC-004 |
 | 변경 위험 | **낮음 — 이름 불필요 후보.** 명명규칙 §4.5가 `구흔교리처럼 한자를 알아야 뜻이 보이는 축약명은 사용하지 않는다`고 **명시적으로 이 이름을 지목**한다 |
 | 1차 판정 | **이름 불필요.** 정본이 이미 `아홉 상처`를 공식 번역으로 확정했으므로 교리층은 `아홉 상처 교리` 또는 서술로 처리 가능 |
 
@@ -294,7 +294,7 @@ Base: `main` @ `06ef0b7c97cfeabdbb5e92dece12c11dce18886d`
 | 역사적 의미 | 기록소 6종 상태 중 `주소상실본: 사람·장소의 현재 존재는 있으나 과거 연결이 불완전` (institution §5) |
 | 사용 장면 | E001 L437 `소거는 죽음과 달랐다. 사람의 이름과 기록, 그 사람이 있었다는 흔적까지 지워지는 현상이었다` — **원고는 이미 용어 대신 풀어 쓰고 있다** |
 | 잠금 수준 | 기능 HARD LOCK / 명칭 SOFT LOCK |
-| 확인한 원문 | `calendar-language-naming-bible-v1.md` §5 / `institution-org-procedure-bible-v1.md` §5 / `atlas-region-dossiers-v1.md` R08 / `E001` L437 |
+| 확인한 원문 | [`calendar-language-naming-bible-v1.md`](../02_world/calendar-language-naming-bible-v1.md) §5 / [`institution-org-procedure-bible-v1.md`](../08_institutions/institution-org-procedure-bible-v1.md) §5 / [`atlas-region-dossiers-v1.md`](../02_world/atlas-region-dossiers-v1.md) R08 / `E001` L437 |
 | 변경 위험 | 중간 |
 | 1차 판정 | **설정어로 유지 + 원고 노출 최소화.** 명명규칙 §4.8이 `주소상실자`를 자동 채택 금지 대상으로 지목. E001의 처리 방식이 이미 올바른 선례 |
 
@@ -306,7 +306,7 @@ Base: `main` @ `06ef0b7c97cfeabdbb5e92dece12c11dce18886d`
 | 설정 기능 | 미래 본부는 오류, 왕국은 무등록 위험군, 일부 종교는 성인 또는 저주받은 자로 분류 (peoples §6) |
 | 역사적 의미 | 멸칭 `빈칸`이 별도로 존재 (calendar-language §8) |
 | 잠금 수준 | SOFT LOCK |
-| 확인한 원문 | `peoples-and-cultures-v1.md` §6 / `atlas-region-dossiers-v1.md` R08 / `calendar-language-naming-bible-v1.md` §8 / `canon-naming-pack-v1.md` §4 |
+| 확인한 원문 | [`peoples-and-cultures-v1.md`](../02_world/peoples-and-cultures-v1.md) §6 / [`atlas-region-dossiers-v1.md`](../02_world/atlas-region-dossiers-v1.md) R08 / [`calendar-language-naming-bible-v1.md`](../02_world/calendar-language-naming-bible-v1.md) §8 / [`canon-naming-pack-v1.md`](../00_project/canon-naming-pack-v1.md) §4 |
 | 변경 위험 | **높음.** `-종` 접미사가 생물종을 강하게 연상시켜 설정과 정면 충돌한다. 발음사전이 `생물종이 아니라 주소상실 상태다`라고 **주석을 달아야만 하는 이름**이다 |
 | 1차 판정 | **개명 검토 — 최우선.** 이름이 설정을 오독시키는 유일한 사례 |
 
@@ -316,7 +316,7 @@ Base: `main` @ `06ef0b7c97cfeabdbb5e92dece12c11dce18886d`
 |---|---|
 | 설정 기능 | Chronicle Legacy의 공식 번역 (naming-pack §7). DEC-007이 등급 인플레이션·에이든 독점·포획 도감을 거부 |
 | 잠금 수준 | SOFT LOCK. 발음사전 주석 `주인공 전용 장비가 아니다` |
-| 확인한 원문 | `canon-naming-pack-v1.md` §7 / `decision-log.md` DEC-007 / `pronunciation-lexicon.md` |
+| 확인한 원문 | [`canon-naming-pack-v1.md`](../00_project/canon-naming-pack-v1.md) §7 / [`decision-log.md`](../00_project/decision-log.md) DEC-007 / [`pronunciation-lexicon.md`](../../.agent/skills/sentence-narrator/pronunciation-lexicon.md) |
 | 변경 위험 | 중간 |
 | 1차 판정 | 개명 검토 — `연대` 접두어 계열(`연대출귀원`·`최후 연대국`·`연대개입산업연합`·`지역 연대감사소`) 일괄 재설계에 포함 |
 
@@ -330,8 +330,8 @@ Base: `main` @ `06ef0b7c97cfeabdbb5e92dece12c11dce18886d`
 |---|---|
 | 최후 연대국 | 조직 구조를 규정한 Domain Bible 부재. `방위지휘부`·`미래 본부`와의 관계 미확정 |
 | 연대개입산업연합 | crosswalk 한 줄 외 근거 없음 |
-| ~~방위지휘부 / 방위총감~~ | **해소 (2026-08-08).** `terminology-and-addressing-clarification-v1.md` §2에 등재되어 있었다. 초판의 `정본 미등재` 판정은 오류이며 철회한다 |
+| ~~방위지휘부 / 방위총감~~ | **해소 (2026-08-08).** [`terminology-and-addressing-clarification-v1.md`](../00_project/terminology-and-addressing-clarification-v1.md) §2에 등재되어 있었다. 초판의 `정본 미등재` 판정은 오류이며 철회한다 |
 | 선별실 | 원고(E001 L465)와 E002·E003 CP에만 존재. Domain Bible·명명 패키지 미등재 |
-| 대가분산 의식 | 원고(E001 L361)에만 존재. 세렌의 금지술인데 `magic-and-mana-v1.md`·`myth-religion-nine-wounds-v1.md` 미등재 |
+| 대가분산 의식 | 원고(E001 L361)에만 존재. 세렌의 금지술인데 [`magic-and-mana-v1.md`](../03_systems/magic-and-mana-v1.md)·[`myth-religion-nine-wounds-v1.md`](../02_world/myth-religion-nine-wounds-v1.md) 미등재 |
 | 왕좌승인원 ↔ 세르바 왕실평의회 | 기관 지위는 terminology §2로 확정. 평의회와의 포함관계만 미확정 |
 | 잔문 ↔ 팔림프세스트 | 두 표기의 사용 구분 미확정 |

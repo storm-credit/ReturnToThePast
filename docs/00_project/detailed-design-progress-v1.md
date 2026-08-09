@@ -78,7 +78,7 @@ Manuscript: BLOCKED
 ## Verified Merge
 
 - PR #19 actual squash merge SHA: `dfc8275c8b914570cc0d1b4ef50795f3bda2bae5`
-- The former incorrect SHA entry has been corrected in `FINAL_D7_STATUS.md`.
+- The former incorrect SHA entry has been corrected in [`FINAL_D7_STATUS.md`](FINAL_D7_STATUS.md).
 
 ## Episode Length Policy
 

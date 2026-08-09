@@ -1,7 +1,7 @@
 # Volume 01 D9 정합성 보정 오버레이
 
 Status: D9 CANON OVERLAY  
-Applies To: `v01-scene-ready-design-v1.md` E001–E025  
+Applies To: [`v01-scene-ready-design-v1.md`](v01-scene-ready-design-v1.md) E001–E025  
 Reason: 역사주소 앵커와 살아 있는 현지 앵커의 개념 충돌 해소
 
 ## 1. 우선 적용

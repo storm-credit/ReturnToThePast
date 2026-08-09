@@ -20,7 +20,7 @@ description: 《왕국은 과거를 먹고 산다》의 인물·지명·기관·
 
 기준 문서:
 
-`docs/13_writing_harness/korean-webnovel-fantasy-naming-rules-v1.md`
+[`docs/13_writing_harness/korean-webnovel-fantasy-naming-rules-v1.md`](../../../docs/13_writing_harness/korean-webnovel-fantasy-naming-rules-v1.md)
 
 ## 2. 실행 조건
 

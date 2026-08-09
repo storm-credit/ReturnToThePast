@@ -38,9 +38,9 @@ The D6 card provides scene order, location/time, cast intent, information ceilin
 ## 3. Canon Precedence
 
 1. Explicit author-approved decisions
-2. `CLAUDE.md`
+2. [`CLAUDE.md`](../../CLAUDE.md)
 3. Canon Constitution and immutable/hard locks
-4. `FINAL_D7_STATUS.md`
+4. [`FINAL_D7_STATUS.md`](FINAL_D7_STATUS.md)
 5. final state and loss ledgers
 6. World / Character / Institution / Collection Bibles
 7. Grand Act / Volume / Arc / Subact architecture

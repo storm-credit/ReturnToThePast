@@ -14,20 +14,20 @@ Purpose: 문서 존재 여부가 아니라 실제 원고 장면에 호출 가능
 
 | 분야 | 주요 정본·운영문서 | 최종 판정 | D10 조치 |
 |---|---|---|---|
-| 권한·정본 계층 | Constitution / Amendment / Decision Log / Governance | READY | Constitution의 `CLAUDE.md` 의존 제거, 모델중립 권한계층 확정 |
-| 모델별 진입점 | `AI_PROJECT.md` / `CLAUDE.md` / `AGENTS.md` | READY | 공통 정본을 가리키는 NON-CANON 얇은 라우터로 분리 |
+| 권한·정본 계층 | Constitution / Amendment / Decision Log / Governance | READY | Constitution의 [`CLAUDE.md`](../../CLAUDE.md) 의존 제거, 모델중립 권한계층 확정 |
+| 모델별 진입점 | [`AI_PROJECT.md`](../../AI_PROJECT.md) / [`CLAUDE.md`](../../CLAUDE.md) / [`AGENTS.md`](../../AGENTS.md) | READY | 공통 정본을 가리키는 NON-CANON 얇은 라우터로 분리 |
 | 시간여행·기억·인과 | `docs/03_systems/` | READY | CP에서 회차 관련 규칙만 추출, 새 규칙 후출 차단 |
 | 지리·도시·공간 | Atlas / Capital / Geography | READY | 이동·출입·피난·보급을 Episode CP 필수 필드화 |
 | 생활문화·언어·달력 | Culture / Language / Era Contrast | READY | 시대·지역에 필요한 항목만 선택 호출 |
 | 인구·경제·직업·가격 | Demographic / Economy | READY | 수치 사용 시 A13 검증 |
 | 군사·외교·물류 | Military Bibles | READY | 전투 CP에서 공간·통신·보급·부상 후과 동시 호출 |
 | 종족·문화 | Peoples & Cultures | READY | 종족 전체 동일반응 금지 유지 |
-| 종교·신화 | Nine Wounds + `religion-ritual-clergy-encyclopedia-v2.md` | READY | 성직계급·의례순서·축일·금기·성물·구휼·재판·생활 신앙 보강 |
+| 종교·신화 | Nine Wounds + [`religion-ritual-clergy-encyclopedia-v2.md`](../02_world/religion-ritual-clergy-encyclopedia-v2.md) | READY | 성직계급·의례순서·축일·금기·성물·구휼·재판·생활 신앙 보강 |
 | 기관·법·행정 | `docs/08_institutions/` | READY | 승인자·소요시간·우회로·실제 효용을 CP 필수화 |
 | 세력·대립자 | `docs/04_factions/` | READY | 권/회차별 활성파벌과 독립행동 추출 |
 | 핵심 인물 C01–C10 | Character Bibles | READY | D9 정식명과 ID 기준 정규화 |
-| 조연 C11–C20 | `supporting-cast-dossiers-c11-c20-v2.md` | READY | 외형·배경·말투·관계·부재 중 행동·전환·금지 보강 |
-| 조연 C21–C30 | `supporting-cast-dossiers-c21-c30-v2.md` | READY | 장면용 독립 dossier 완성, C30 익명성 잠금 |
+| 조연 C11–C20 | [`supporting-cast-dossiers-c11-c20-v2.md`](../05_characters/supporting-cast-dossiers-c11-c20-v2.md) | READY | 외형·배경·말투·관계·부재 중 행동·전환·금지 보강 |
+| 조연 C21–C30 | [`supporting-cast-dossiers-c21-c30-v2.md`](../05_characters/supporting-cast-dossiers-c21-c30-v2.md) | READY | 장면용 독립 dossier 완성, C30 익명성 잠금 |
 | 관계·목소리 | Voice/Relationship Bible | READY | 핵심·조연 dossier와 CP 연결 |
 | 연대유산 R01–R12 | Relic Encyclopedia | READY | 현재 소유·보관·접근·파손상태 추출 |
 | 주권신수 B01–B05 | Beast Encyclopedia | READY | 생태·계약·거부권·정치 의미 호출 |
@@ -37,9 +37,9 @@ Purpose: 문서 존재 여부가 아니라 실제 원고 장면에 호출 가능
 | Grand Act·권·Subact 인과 | Architecture | READY | 국소완결→비용→Next Cause 유지 |
 | 장면밀도·훅 | D9 Overlay | READY | Q/S/E/X와 훅 7종을 Craft Manifest에 연결 |
 | 상황별 작법 선택 | `storycraft-orchestrator` | READY | 중심 작법 1개+보조 최대 2개, 부적합 작법·반복검사 |
-| 보조 POV 실제 배치 | `secondary-pov-and-offscreen-action-allocation-v1.md` | READY | P1 30화, P2 15화, P3 8개 삽입과 재합류·정보상한 고정 |
+| 보조 POV 실제 배치 | [`secondary-pov-and-offscreen-action-allocation-v1.md`](../10_story_architecture/secondary-pov-and-offscreen-action-allocation-v1.md) | READY | P1 30화, P2 15화, P3 8개 삽입과 재합류·정보상한 고정 |
 | Context Pack | A21 / Compiler / Template / E001·E002 CP | READY | 원본경로·기준 ref·상태·stale Hook 확정 |
-| Writing Harness | `orchestration-harness-v2.md` | READY | Authority→CP→Domain→Craft→POV→Draft→Audit→GitHub→State 연결 |
+| Writing Harness | [`orchestration-harness-v2.md`](../13_writing_harness/orchestration-harness-v2.md) | READY | Authority→CP→Domain→Craft→POV→Draft→Audit→GitHub→State 연결 |
 | E001 원고 | Manuscript / CP / Manifest / Retro Audit | READY / PASS | 사건·문장 재작성 없이 D10 소급감사 통과 |
 | E002 준비 | E002 CP / Manifest | READY | D10 merge 후 A18 호출 가능 |
 
@@ -47,14 +47,14 @@ Purpose: 문서 존재 여부가 아니라 실제 원고 장면에 호출 가능
 
 ### S1-01 — Canon Router 혼동
 
-- 발견: Constitution이 `CLAUDE.md`를 상위 의존성처럼 사용
-- 수정: 권한계층 분리, `AI_PROJECT.md` 모델중립 라우터, Claude/Codex 얇은 라우터
+- 발견: Constitution이 [`CLAUDE.md`](../../CLAUDE.md)를 상위 의존성처럼 사용
+- 수정: 권한계층 분리, [`AI_PROJECT.md`](../../AI_PROJECT.md) 모델중립 라우터, Claude/Codex 얇은 라우터
 - 상태: **CLOSED**
 
 ### S1-02 — 종교 장면 상세도
 
 - 발견: 네 층 진실과 분파는 있으나 장면용 의례·계급·성물·금기·구휼·재판 부족
-- 수정: `religion-ritual-clergy-encyclopedia-v2.md`
+- 수정: [`religion-ritual-clergy-encyclopedia-v2.md`](../02_world/religion-ritual-clergy-encyclopedia-v2.md)
 - 상태: **CLOSED**
 
 ### S1-03 — 조연 dossier 불균형

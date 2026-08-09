@@ -7,20 +7,20 @@ Applies To: repository-wide Codex work
 
 이 파일은 정본이 아니다. Codex 작업을 저장소의 모델중립 구조로 연결하는 진입점이다.
 
-먼저 `/AI_PROJECT.md`를 읽는다. 작품 사실과 변경권한은 다음 순서를 따른다.
+먼저 [`/AI_PROJECT.md`](AI_PROJECT.md)를 읽는다. 작품 사실과 변경권한은 다음 순서를 따른다.
 
 `작가 결정 → Canon Constitution → Amendment/Errata → Decision Log → State Ledger → Domain Bible → Story Architecture → Craft/POV/CP → Manuscript → Legacy`
 
-`AGENTS.md`, `CLAUDE.md`, Skill, Harness, CP는 상위 정본을 덮어쓸 수 없다.
+[`AGENTS.md`](AGENTS.md), [`CLAUDE.md`](CLAUDE.md), Skill, Harness, CP는 상위 정본을 덮어쓸 수 없다.
 
 ## Required Reads
 
-1. `/AI_PROJECT.md`
-2. `docs/00_project/canon-constitution-v1.md`
-3. 최신 Canon Amendment와 `docs/00_project/decision-log.md`
-4. `docs/00_project/GATE_STATUS.md`
-5. `.agent/orchestra/governance-and-routing-v2.md`
-6. `.agent/orchestra/agent-registry.md`
+1. [`/AI_PROJECT.md`](AI_PROJECT.md)
+2. [`docs/00_project/canon-constitution-v1.md`](docs/00_project/canon-constitution-v1.md)
+3. 최신 Canon Amendment와 [`docs/00_project/decision-log.md`](docs/00_project/decision-log.md)
+4. [`docs/00_project/GATE_STATUS.md`](docs/00_project/GATE_STATUS.md)
+5. [`.agent/orchestra/governance-and-routing-v2.md`](.agent/orchestra/governance-and-routing-v2.md)
+6. [`.agent/orchestra/agent-registry.md`](.agent/orchestra/agent-registry.md)
 7. 작업에 필요한 Domain Bible
 8. 관련 Story Architecture
 9. 해당 Context Pack과 Harness
@@ -40,11 +40,11 @@ Applies To: repository-wide Codex work
 
 ## Active Skills
 
-- `.agent/skills/storycraft-orchestrator/SKILL.md`
-- `.agent/skills/context-pack-compiler/SKILL.md`
-- `.agent/skills/sentence-narrator/SKILL.md`
-- `.agent/skills/human-prose-audit/SKILL.md`
-- `.agent/skills/naming-audit/SKILL.md`
+- [`.agent/skills/storycraft-orchestrator/SKILL.md`](.agent/skills/storycraft-orchestrator/SKILL.md)
+- [`.agent/skills/context-pack-compiler/SKILL.md`](.agent/skills/context-pack-compiler/SKILL.md)
+- [`.agent/skills/sentence-narrator/SKILL.md`](.agent/skills/sentence-narrator/SKILL.md)
+- [`.agent/skills/human-prose-audit/SKILL.md`](.agent/skills/human-prose-audit/SKILL.md)
+- [`.agent/skills/naming-audit/SKILL.md`](.agent/skills/naming-audit/SKILL.md)
 
 Skill은 절차이고 정본 승인권이 없다.
 
@@ -54,7 +54,7 @@ Skill은 절차이고 정본 승인권이 없다.
 
 ## Harness
 
-`docs/13_writing_harness/orchestration-harness-v2.md`
+[`docs/13_writing_harness/orchestration-harness-v2.md`](docs/13_writing_harness/orchestration-harness-v2.md)
 
 원고 작업은 READY Episode CP, Storycraft Manifest, POV allocation, State Mutation Plan 없이는 시작하지 않는다.
 
@@ -95,7 +95,7 @@ Skill은 절차이고 정본 승인권이 없다.
 
 정확한 완료 회차와 다음 생산 단위는 다음 파일만 따른다.
 
-- `docs/00_project/GATE_STATUS.md`
-- `manuscript/PROGRESS.md`
+- [`docs/00_project/GATE_STATUS.md`](docs/00_project/GATE_STATUS.md)
+- [`manuscript/PROGRESS.md`](manuscript/PROGRESS.md)
 
 이 라우터에는 회차별 상태를 복제하지 않는다.

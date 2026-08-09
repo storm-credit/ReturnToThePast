@@ -4,13 +4,13 @@
 
 Skill은 반복 작업 절차다. 작품 정본·사건·인물·결말을 독자적으로 만들거나 승인하지 못한다.
 
-정본 권한과 시작 경로는 `/AI_PROJECT.md`와 `.agent/orchestra/governance-and-routing-v2.md`를 따른다.
+정본 권한과 시작 경로는 [`/AI_PROJECT.md`](../../AI_PROJECT.md)와 [`.agent/orchestra/governance-and-routing-v2.md`](../orchestra/governance-and-routing-v2.md)를 따른다.
 
 ## Active
 
 ### storycraft-orchestrator
 
-Path: `.agent/skills/storycraft-orchestrator/SKILL.md`
+Path: [`.agent/skills/storycraft-orchestrator/SKILL.md`](storycraft-orchestrator/SKILL.md)
 
 Purpose:
 
@@ -28,7 +28,7 @@ Cannot:
 
 ### context-pack-compiler
 
-Path: `.agent/skills/context-pack-compiler/SKILL.md`
+Path: [`.agent/skills/context-pack-compiler/SKILL.md`](context-pack-compiler/SKILL.md)
 
 Purpose:
 
@@ -46,7 +46,7 @@ Cannot:
 
 ### sentence-narrator
 
-Path: `.agent/skills/sentence-narrator/SKILL.md`
+Path: [`.agent/skills/sentence-narrator/SKILL.md`](sentence-narrator/SKILL.md)
 
 Purpose:
 
@@ -59,12 +59,12 @@ Purpose:
 
 Required companions:
 
-- `pronunciation-lexicon.md`
-- `prose-quality-checklist.md`
+- [`pronunciation-lexicon.md`](sentence-narrator/pronunciation-lexicon.md)
+- [`prose-quality-checklist.md`](sentence-narrator/prose-quality-checklist.md)
 
 ### human-prose-audit
 
-Path: `.agent/skills/human-prose-audit/SKILL.md`
+Path: [`.agent/skills/human-prose-audit/SKILL.md`](human-prose-audit/SKILL.md)
 
 Purpose:
 

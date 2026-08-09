@@ -5,7 +5,7 @@ Owner: A00 Story Orchestrator / A02 Canon Controller
 
 ## 1. CLAUDE.md의 지위
 
-`CLAUDE.md`는 Bootstrap Router다.
+[`CLAUDE.md`](../../CLAUDE.md)는 Bootstrap Router다.
 
 할 수 있는 일:
 - 시작 시 읽어야 할 핵심 파일을 가리킴
@@ -18,7 +18,7 @@ Owner: A00 Story Orchestrator / A02 Canon Controller
 - 분야별 Bible을 생략하고 요약문만으로 원고 작성
 - 설정 충돌을 자기 해석으로 해결
 
-규칙: 어떤 사실이 `CLAUDE.md`에만 있고 정본 문서에는 없다면 그 사실은 비정본이다.
+규칙: 어떤 사실이 [`CLAUDE.md`](../../CLAUDE.md)에만 있고 정본 문서에는 없다면 그 사실은 비정본이다.
 
 ## 2. 권한 순서
 

@@ -229,7 +229,7 @@ description: 《왕국은 과거를 먹고 산다》 원고를 한 문장씩 낭
 
 ## 11. 고유명사·호칭
 
-고유명사는 `pronunciation-lexicon.md`를 따른다.
+고유명사는 [`pronunciation-lexicon.md`](pronunciation-lexicon.md)를 따른다.
 
 - 원문에 전체 이름이 있으면 전체 이름을 읽는다.
 - 원문에 개인 이름만 있으면 성을 임의로 붙이지 않는다.

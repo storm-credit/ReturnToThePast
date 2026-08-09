@@ -2,7 +2,7 @@
 
 Status: DESIGN READY / GATE CLOSED  
 Date: 2026-08-07  
-Depends On: `FINAL_D7_STATUS.md`, `final-d7-cross-audit-v1.md`  
+Depends On: [`FINAL_D7_STATUS.md`](../00_project/FINAL_D7_STATUS.md), [`final-d7-cross-audit-v1.md`](../99_quality_control/final-d7-cross-audit-v1.md)  
 Manuscript: BLOCKED
 
 ## Resolved Since Earlier Readiness Audits
@@ -37,4 +37,4 @@ Earlier readiness documents were written before the 15-volume D6 pass. The follo
 
 ## Gate Boundary
 
-This addendum corrects stale readiness statements but does not open the Gate. Prose remains prohibited until the author supplies the exact Gate-opening declaration stored in `CLAUDE.md`.
+This addendum corrects stale readiness statements but does not open the Gate. Prose remains prohibited until the author supplies the exact Gate-opening declaration stored in [`CLAUDE.md`](../../CLAUDE.md).

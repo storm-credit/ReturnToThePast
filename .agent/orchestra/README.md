@@ -10,12 +10,12 @@ Manuscript: BLOCKED
 이 실행체계는 작가가 처음 제공한 다음 세 문서를 최상위 방법론으로 사용한다.
 
 1. `CLAUDE_story_project_template_v1.md` — **저장소 미보관**
-2. `story_architecture_master_prompt_v1.md` — 저장소 루트에 보관됨
+2. [`story_architecture_master_prompt_v1.md`](../../story_architecture_master_prompt_v1.md) — 저장소 루트에 보관됨
 3. `story_architecture_os_v1.md` — **저장소 미보관**
 
-1번과 3번은 작가가 제공한 원본이지만 저장소에 커밋되어 있지 않다. 계승 규칙은 `docs/00_project/source-precedence-and-automation.md` `Method Sources`에 요약본만 남아 있으므로, 원본 확인이 필요한 판정에서는 작가에게 파일을 요청한다.
+1번과 3번은 작가가 제공한 원본이지만 저장소에 커밋되어 있지 않다. 계승 규칙은 [`docs/00_project/source-precedence-and-automation.md`](../../docs/00_project/source-precedence-and-automation.md) `Method Sources`에 요약본만 남아 있으므로, 원본 확인이 필요한 판정에서는 작가에게 파일을 요청한다.
 
-저장소의 `CLAUDE.md`는 세 문서를 이 작품에 맞게 적용한 프로젝트 헌법이다. 전문 에이전트는 이 헌법과 Canon Constitution을 거슬러 설정을 확정할 수 없다.
+저장소의 [`CLAUDE.md`](../../CLAUDE.md)는 세 문서를 이 작품에 맞게 적용한 프로젝트 헌법이다. 전문 에이전트는 이 헌법과 Canon Constitution을 거슬러 설정을 확정할 수 없다.
 
 ## Mission
 

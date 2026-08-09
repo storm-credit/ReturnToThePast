@@ -16,7 +16,7 @@ Last Reviewed: 2026-08-07
 
 ### S0-01 — Legacy entry point ordered manuscript production
 - Result: MITIGATED on branch.
-- Evidence: `Start_Here.md` now points to design rules and blocks manuscript work.
+- Evidence: [`Start_Here.md`](../../Start_Here.md) now points to design rules and blocks manuscript work.
 
 ### S0-02 — 380-commit unmerged branch mixes manuscript and canon
 - Result: MITIGATED BY POLICY.
@@ -24,7 +24,7 @@ Last Reviewed: 2026-08-07
 
 ### S1-01 — Regression identity
 - Result: PASS FOR THIS BATCH.
-- Evidence: death reset, repeated starting point, regression count and攻略-style knowledge are prohibited by `CLAUDE.md` and `canon-concept-v1.md`.
+- Evidence: death reset, repeated starting point, regression count and攻略-style knowledge are prohibited by [`CLAUDE.md`](../../CLAUDE.md) and [`canon-concept-v1.md`](../00_project/canon-concept-v1.md).
 
 ### S1-02 — Time travel not yet fully causal at Act level
 - Result: OPEN.

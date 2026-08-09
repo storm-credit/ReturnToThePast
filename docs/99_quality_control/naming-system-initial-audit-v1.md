@@ -7,13 +7,13 @@ Scope: 현재 정본 명명 패키지와 E001에서 드러난 기관·종교·�
 
 ## 1. Authority Sources
 
-- `docs/00_project/canon-constitution-v1.md`
-- `docs/00_project/decision-log.md`
-- `docs/00_project/canon-naming-pack-v1.md`
-- `docs/08_institutions/institution-org-procedure-bible-v1.md`
-- `.agent/orchestra/agent-registry.md`
-- `.agent/orchestra/expert-contracts-v1.md`
-- `docs/13_writing_harness/korean-webnovel-fantasy-naming-rules-v1.md`
+- [`docs/00_project/canon-constitution-v1.md`](../00_project/canon-constitution-v1.md)
+- [`docs/00_project/decision-log.md`](../00_project/decision-log.md)
+- [`docs/00_project/canon-naming-pack-v1.md`](../00_project/canon-naming-pack-v1.md)
+- [`docs/08_institutions/institution-org-procedure-bible-v1.md`](../08_institutions/institution-org-procedure-bible-v1.md)
+- [`.agent/orchestra/agent-registry.md`](../../.agent/orchestra/agent-registry.md)
+- [`.agent/orchestra/expert-contracts-v1.md`](../../.agent/orchestra/expert-contracts-v1.md)
+- [`docs/13_writing_harness/korean-webnovel-fantasy-naming-rules-v1.md`](../13_writing_harness/korean-webnovel-fantasy-naming-rules-v1.md)
 
 ## 2. 에이전트 판정
 

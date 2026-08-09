@@ -3,7 +3,7 @@
 Status: DRAFT  
 Owner: Canon / Story Architecture  
 Last Reviewed: 2026-08-07  
-Depends On: `DEC-001`, `project-charter.md`  
+Depends On: `DEC-001`, [`project-charter.md`](project-charter.md)  
 Open Risks: naming, exact eras, protagonist relationships  
 Canon Level: HARD LOCK for engine; OPEN for names
 

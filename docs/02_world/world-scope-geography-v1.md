@@ -84,4 +84,4 @@ Canon Level: 기능·권역·이동 HARD LOCK / 표현 미세조정 SOFT LOCK
 
 결말에서 칼레온 안정권의 경계는 바뀌며, 중앙이 모든 지역의 역사를 단독 운영하는 구조로 돌아갈 수 없다.
 
-세부 도시·권역·자원·시대변화·보급은 `atlas-region-dossiers-v1.md`를 따른다.
+세부 도시·권역·자원·시대변화·보급은 [`atlas-region-dossiers-v1.md`](atlas-region-dossiers-v1.md)를 따른다.

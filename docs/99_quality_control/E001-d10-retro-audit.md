@@ -17,10 +17,10 @@ E001은 `storycraft-orchestrator`, Context Pack Compiler, 보조 POV 배치표�
 
 ## 2. 검사 입력
 
-- `manuscript/volume-01/E001-마지막-도시의-다른-날짜.md`
-- `manuscript/quality/E001-quality-report.md`
-- `.agent/context-packs/episodes/E001-context-pack.md`
-- `docs/10_story_architecture/craft-manifests/E001-storycraft-manifest.md`
+- [`manuscript/volume-01/E001-마지막-도시의-다른-날짜.md`](../../manuscript/volume-01/E001-마지막-도시의-다른-날짜.md)
+- [`manuscript/quality/E001-quality-report.md`](../../manuscript/quality/E001-quality-report.md)
+- [`.agent/context-packs/episodes/E001-context-pack.md`](../../.agent/context-packs/episodes/E001-context-pack.md)
+- [`docs/10_story_architecture/craft-manifests/E001-storycraft-manifest.md`](../10_story_architecture/craft-manifests/E001-storycraft-manifest.md)
 - GA I / V1 / Subact 1A / E001 설계카드
 - 시간·지리·기관·인물·미스터리·손실 장부
 

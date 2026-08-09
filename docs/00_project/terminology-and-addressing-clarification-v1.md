@@ -3,11 +3,11 @@
 Status: CANON CLARIFICATION — AUTHOR REVIEW  
 Scope: E001 및 후속 원고의 기관명·설정어·인물 호칭  
 Sources:
-- `docs/00_project/canon-naming-pack-v1.md`
-- `docs/08_institutions/institution-org-procedure-bible-v1.md`
-- `docs/05_characters/cast-canon-index-v2.md`
-- `docs/05_characters/voice-relationship-state-bible-v1.md`
-- `.agent/context-packs/episodes/E001-context-pack.md`
+- [`docs/00_project/canon-naming-pack-v1.md`](canon-naming-pack-v1.md)
+- [`docs/08_institutions/institution-org-procedure-bible-v1.md`](../08_institutions/institution-org-procedure-bible-v1.md)
+- [`docs/05_characters/cast-canon-index-v2.md`](../05_characters/cast-canon-index-v2.md)
+- [`docs/05_characters/voice-relationship-state-bible-v1.md`](../05_characters/voice-relationship-state-bible-v1.md)
+- [`.agent/context-packs/episodes/E001-context-pack.md`](../../.agent/context-packs/episodes/E001-context-pack.md)
 
 ## 1. 에이든 로엔 호칭 규칙
 

@@ -2,12 +2,12 @@
 
 Status: D10 SCENE-READY CHARACTER DOSSIERS  
 Owner: A08 Character / A09 Faction / A13 Continuity / A16 Red Team  
-Depends On: `cast-canon-index-v2.md`, `voice-relationship-state-bible-v1.md`, `faction-atlas-v1.md`
+Depends On: [`cast-canon-index-v2.md`](cast-canon-index-v2.md), [`voice-relationship-state-bible-v1.md`](voice-relationship-state-bible-v1.md), [`faction-atlas-v1.md`](../04_factions/faction-atlas-v1.md)
 
 ## 사용 원칙
 
 - 이 문서는 C21–C30을 설명용 슬롯이 아니라 독립적 생활·권리·선택을 가진 장면 주체로 운용한다.
-- 이름과 최종상태는 `cast-canon-index-v2.md`가 우선한다.
+- 이름과 최종상태는 [`cast-canon-index-v2.md`](cast-canon-index-v2.md)가 우선한다.
 - 첫 핵심 등장 전 Episode CP에 해당 인물의 현재 상태와 정보상한을 추출한다.
 - 주인공에게 도움을 주는 장면만으로 인물의 존재를 증명하지 않는다.
 - 외형은 식별을 위한 반복 가능한 단서 2–3개만 사용하고 매 등장마다 전신을 재설명하지 않는다.

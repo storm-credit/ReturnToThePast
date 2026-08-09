@@ -4,35 +4,35 @@ Status: AUDIT ARTIFACT — NO CANON CHANGE
 Task Type: Naming Full Audit / Step 1 Inventory
 Branch: `agent/naming-system-full-audit-v1`
 Base: `main` @ `06ef0b7c97cfeabdbb5e92dece12c11dce18886d`
-Gate: `docs/13_writing_harness/naming-source-verification-gate-v1.md`
+Gate: [`docs/13_writing_harness/naming-source-verification-gate-v1.md`](../13_writing_harness/naming-source-verification-gate-v1.md)
 
 ## 0. 이 문서의 성격
 
 이 문서는 **현재 저장소에 실재하는 고유명사와 설정어를 출처와 함께 나열한 목록**이다.
-판정과 후보는 담지 않는다. 판정은 `naming-full-audit-v1.md`, 증거는 `naming-source-evidence-matrix-v1.md`에 있다.
+판정과 후보는 담지 않는다. 판정은 [`naming-full-audit-v1.md`](naming-full-audit-v1.md), 증거는 [`naming-source-evidence-matrix-v1.md`](naming-source-evidence-matrix-v1.md)에 있다.
 
-`naming-system-initial-audit-v1.md` §5 "다음 단계 1. 대상 ID와 기능을 유지한 전체 명칭 목록 추출"의 실행 결과다.
+[`naming-system-initial-audit-v1.md`](naming-system-initial-audit-v1.md) §5 "다음 단계 1. 대상 ID와 기능을 유지한 전체 명칭 목록 추출"의 실행 결과다.
 
 ## 1. 실제로 읽은 원문
 
 | 파일 | 목적 |
 |---|---|
-| `docs/00_project/canon-constitution-v1.md` | HARD LOCK 인물명·제목·엔진 구성 |
-| `docs/00_project/decision-log.md` | DEC-004/006/009/011 명명 관련 결정 |
-| `docs/00_project/canon-naming-pack-v1.md` | 명명 패키지 정식명 원본 |
-| `docs/00_project/source-precedence-and-automation.md` | 잠금 수준과 SOFT LOCK 범위 |
-| `docs/00_project/terminology-and-addressing-clarification-v1.md` | 기관명 교차표와 충돌 해소 **(초판 누락 — 2026-08-08 추가)** |
-| `docs/03_systems/mana-fever-gray-calamity-v1.md` | `마나열병`·`회색열` 공식명 확인 |
-| `docs/00_project/GATE_STATUS.md` | 현재 생산 차단 상태 |
-| `docs/02_world/atlas-region-dossiers-v1.md` | 권역·거점의 물리 구조와 Era 변화 |
-| `docs/02_world/calendar-language-naming-bible-v1.md` | 문화권별 이름 구성 규칙, 진명 |
-| `docs/02_world/peoples-and-cultures-v1.md` | 종족 명칭 잠금 수준 |
-| `docs/02_world/myth-religion-nine-wounds-v1.md` | 아홉 상처 원리와 교리 구조 |
-| `docs/03_systems/time-travel-ontology-v1.md` | 다섯 분산 권한의 원본 명칭 |
-| `docs/08_institutions/institution-org-procedure-bible-v1.md` | 기관 내부 조직도 원본 명칭 |
-| `docs/10_story_architecture/location-world-crosswalk-v1.md` | V01–V15 장소 실제 사용 장면 |
-| `manuscript/volume-01/E001-마지막-도시의-다른-날짜.md` | 원고에서 실제로 불리는 형태 |
-| `.agent/skills/sentence-narrator/pronunciation-lexicon.md` | 등록된 발음·호칭 |
+| [`docs/00_project/canon-constitution-v1.md`](../00_project/canon-constitution-v1.md) | HARD LOCK 인물명·제목·엔진 구성 |
+| [`docs/00_project/decision-log.md`](../00_project/decision-log.md) | DEC-004/006/009/011 명명 관련 결정 |
+| [`docs/00_project/canon-naming-pack-v1.md`](../00_project/canon-naming-pack-v1.md) | 명명 패키지 정식명 원본 |
+| [`docs/00_project/source-precedence-and-automation.md`](../00_project/source-precedence-and-automation.md) | 잠금 수준과 SOFT LOCK 범위 |
+| [`docs/00_project/terminology-and-addressing-clarification-v1.md`](../00_project/terminology-and-addressing-clarification-v1.md) | 기관명 교차표와 충돌 해소 **(초판 누락 — 2026-08-08 추가)** |
+| [`docs/03_systems/mana-fever-gray-calamity-v1.md`](../03_systems/mana-fever-gray-calamity-v1.md) | `마나열병`·`회색열` 공식명 확인 |
+| [`docs/00_project/GATE_STATUS.md`](../00_project/GATE_STATUS.md) | 현재 생산 차단 상태 |
+| [`docs/02_world/atlas-region-dossiers-v1.md`](../02_world/atlas-region-dossiers-v1.md) | 권역·거점의 물리 구조와 Era 변화 |
+| [`docs/02_world/calendar-language-naming-bible-v1.md`](../02_world/calendar-language-naming-bible-v1.md) | 문화권별 이름 구성 규칙, 진명 |
+| [`docs/02_world/peoples-and-cultures-v1.md`](../02_world/peoples-and-cultures-v1.md) | 종족 명칭 잠금 수준 |
+| [`docs/02_world/myth-religion-nine-wounds-v1.md`](../02_world/myth-religion-nine-wounds-v1.md) | 아홉 상처 원리와 교리 구조 |
+| [`docs/03_systems/time-travel-ontology-v1.md`](../03_systems/time-travel-ontology-v1.md) | 다섯 분산 권한의 원본 명칭 |
+| [`docs/08_institutions/institution-org-procedure-bible-v1.md`](../08_institutions/institution-org-procedure-bible-v1.md) | 기관 내부 조직도 원본 명칭 |
+| [`docs/10_story_architecture/location-world-crosswalk-v1.md`](../10_story_architecture/location-world-crosswalk-v1.md) | V01–V15 장소 실제 사용 장면 |
+| [`manuscript/volume-01/E001-마지막-도시의-다른-날짜.md`](../../manuscript/volume-01/E001-마지막-도시의-다른-날짜.md) | 원고에서 실제로 불리는 형태 |
+| [`.agent/skills/sentence-narrator/pronunciation-lexicon.md`](../../.agent/skills/sentence-narrator/pronunciation-lexicon.md) | 등록된 발음·호칭 |
 
 ## 2. 작품 식별자
 
@@ -87,7 +87,7 @@ Gate: `docs/13_writing_harness/naming-source-verification-gate-v1.md`
 
 ## 6. 주요 장소 — Atlas에만 있고 명명 패키지 미등재
 
-`atlas-region-dossiers-v1.md`는 §0에서 "도시명은 최종 명명감사 전까지 `[WORKING]`이다"라고 선언한다.
+[`atlas-region-dossiers-v1.md`](../02_world/atlas-region-dossiers-v1.md)는 §0에서 "도시명은 최종 명명감사 전까지 `[WORKING]`이다"라고 선언한다.
 아래 항목은 아직 정식명이 부여되지 않았다.
 
 | 권역 | `[WORKING]` 명칭 | 출처 |
@@ -208,7 +208,7 @@ DEC-016 반영본이다. 굵은 글씨가 2026-08-08 확정된 신규 정식명�
 
 ## 11. 다섯 분산 권한 — 원본 명칭
 
-`time-travel-ontology-v1.md` `Five Distributed Keys`. 이 문서의 Canon Level은 **"HARD LOCK for mechanics; names OPEN"**이다.
+[`time-travel-ontology-v1.md`](../03_systems/time-travel-ontology-v1.md) `Five Distributed Keys`. 이 문서의 Canon Level은 **"HARD LOCK for mechanics; names OPEN"**이다.
 
 | 권한 | 원본 명칭 |
 |---|---|
@@ -239,7 +239,7 @@ DEC-016 반영본이다. 굵은 글씨가 2026-08-08 확정된 신규 정식명�
 
 ## 14. 종교 파벌
 
-봉합정통파 / 구휼파 / 증언파 / 종말파 / 달력관료파 — `myth-religion-nine-wounds-v1.md` `Religious Factions`
+봉합정통파 / 구휼파 / 증언파 / 종말파 / 달력관료파 — [`myth-religion-nine-wounds-v1.md`](../02_world/myth-religion-nine-wounds-v1.md) `Religious Factions`
 
 ## 15. 집계
 

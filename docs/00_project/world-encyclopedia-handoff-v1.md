@@ -5,17 +5,17 @@ Date: 2026-08-07
 
 ## Start Here
 
-1. `FINAL_D8_WORLD_STATUS.md`
-2. `../02_world/world-bible-index-v1.md`
-3. `../99_quality_control/world-encyclopedia-d8-audit-v1.md`
-4. `FINAL_D7_STATUS.md`
-5. `../99_quality_control/final-d7-cross-audit-v1.md`
+1. [`FINAL_D8_WORLD_STATUS.md`](FINAL_D8_WORLD_STATUS.md)
+2. [`../02_world/world-bible-index-v1.md`](../02_world/world-bible-index-v1.md)
+3. [`../99_quality_control/world-encyclopedia-d8-audit-v1.md`](../99_quality_control/world-encyclopedia-d8-audit-v1.md)
+4. [`FINAL_D7_STATUS.md`](FINAL_D7_STATUS.md)
+5. [`../99_quality_control/final-d7-cross-audit-v1.md`](../99_quality_control/final-d7-cross-audit-v1.md)
 
 ## Canon Precedence
 
-1. `CLAUDE.md`
+1. [`CLAUDE.md`](../../CLAUDE.md)
 2. Canon Constitution / direct-time-travel ontology
-3. `canon-naming-pack-v1.md`
+3. [`canon-naming-pack-v1.md`](canon-naming-pack-v1.md)
 4. D8 World Bible modules
 5. D7 story architecture and E001–E375 scene-ready cards
 6. state ledgers and cross-audits
@@ -26,32 +26,32 @@ A lower document may not silently override a higher document.
 ## Completed World Modules
 
 ### Geography
-- `atlas-region-dossiers-v1.md`
-- `capital-spatial-bible-v1.md`
-- `visual-design-bible-v1.md`
+- [`atlas-region-dossiers-v1.md`](../02_world/atlas-region-dossiers-v1.md)
+- [`capital-spatial-bible-v1.md`](../02_world/capital-spatial-bible-v1.md)
+- [`visual-design-bible-v1.md`](../02_world/visual-design-bible-v1.md)
 
 ### Culture / Language
-- `culture-daily-life-encyclopedia-v1.md`
-- `calendar-language-naming-bible-v1.md`
-- `canon-naming-pack-v1.md`
+- [`culture-daily-life-encyclopedia-v1.md`](../02_world/culture-daily-life-encyclopedia-v1.md)
+- [`calendar-language-naming-bible-v1.md`](../02_world/calendar-language-naming-bible-v1.md)
+- [`canon-naming-pack-v1.md`](canon-naming-pack-v1.md)
 
 ### Economy / Institutions / Factions
-- `economy-prices-professions-v1.md`
-- `institution-org-procedure-bible-v1.md`
-- `faction-atlas-v1.md`
+- [`economy-prices-professions-v1.md`](../08_institutions/economy-prices-professions-v1.md)
+- [`institution-org-procedure-bible-v1.md`](../08_institutions/institution-org-procedure-bible-v1.md)
+- [`faction-atlas-v1.md`](../04_factions/faction-atlas-v1.md)
 
 ### Characters
-- `cast-encyclopedia-v1.md`
-- `voice-relationship-state-bible-v1.md`
+- [`cast-encyclopedia-v1.md`](../05_characters/cast-encyclopedia-v1.md)
+- [`voice-relationship-state-bible-v1.md`](../05_characters/voice-relationship-state-bible-v1.md)
 
 ### Relics / Beasts / Military
-- `relic-encyclopedia-r01-r12-v1.md`
-- `sovereign-beast-encyclopedia-b01-b05-v1.md`
-- `military-logistics-bible-v1.md`
+- [`relic-encyclopedia-r01-r12-v1.md`](../09_collection/relic-encyclopedia-r01-r12-v1.md)
+- [`sovereign-beast-encyclopedia-b01-b05-v1.md`](../09_collection/sovereign-beast-encyclopedia-b01-b05-v1.md)
+- [`military-logistics-bible-v1.md`](../02_world/military-logistics-bible-v1.md)
 
 ### Story Integration
-- `location-world-crosswalk-v1.md`
-- `world-state-continuity-matrix-v1.md`
+- [`location-world-crosswalk-v1.md`](../10_story_architecture/location-world-crosswalk-v1.md)
+- [`world-state-continuity-matrix-v1.md`](../01_timeline/world-state-continuity-matrix-v1.md)
 
 ## Locked Defaults
 

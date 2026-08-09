@@ -42,7 +42,7 @@ Owner: A00 Story Orchestrator / A01 Architecture PM
 ## A02 Canon Controller
 
 - 작가 결정 → 헌법 → Amendment → Decision Log → 상태 장부 → Bible → 설계도 → CP → 원고 순위를 적용한다.
-- `CLAUDE.md`와 CP를 정본으로 승격하지 않는다.
+- [`CLAUDE.md`](../../CLAUDE.md)와 CP를 정본으로 승격하지 않는다.
 - 회귀·무한 반복·자동 복구의 재도입을 S0로 분류한다.
 - S0/S1이 남은 문서를 CANON으로 올리지 않는다.
 

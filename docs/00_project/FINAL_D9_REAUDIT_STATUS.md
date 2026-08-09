@@ -30,18 +30,18 @@ D7과 D8에서 이야기 설계도와 세계관 백과가 대량으로 작성된
 
 ## 3. 새 정본 문서
 
-- `D9_CANON_AMENDMENT.md`
-- `master-chronology-and-aging-ledger-v1.md`
-- `causal-propagation-and-memory-protocol-v1.md`
-- `demographic-and-scale-ledger-v1.md`
-- `magic-capability-and-counterplay-matrix-v1.md`
-- `engine-dependency-and-separation-protocol-v1.md`
-- `mystery-reinforcement-ladder-v1.md`
-- `scene-density-and-pacing-overlay-v1.md`
-- `antagonist-face-ladder-v1.md`
-- `cast-canon-index-v2.md`
-- `v01-d9-correction-overlay.md`
-- `d9-full-reaudit-v1.md`
+- [`D9_CANON_AMENDMENT.md`](D9_CANON_AMENDMENT.md)
+- [`master-chronology-and-aging-ledger-v1.md`](../01_timeline/master-chronology-and-aging-ledger-v1.md)
+- [`causal-propagation-and-memory-protocol-v1.md`](../03_systems/causal-propagation-and-memory-protocol-v1.md)
+- [`demographic-and-scale-ledger-v1.md`](../02_world/demographic-and-scale-ledger-v1.md)
+- [`magic-capability-and-counterplay-matrix-v1.md`](../03_systems/magic-capability-and-counterplay-matrix-v1.md)
+- [`engine-dependency-and-separation-protocol-v1.md`](../03_systems/engine-dependency-and-separation-protocol-v1.md)
+- [`mystery-reinforcement-ladder-v1.md`](../11_mystery/mystery-reinforcement-ladder-v1.md)
+- [`scene-density-and-pacing-overlay-v1.md`](../10_story_architecture/scene-density-and-pacing-overlay-v1.md)
+- [`antagonist-face-ladder-v1.md`](../04_factions/antagonist-face-ladder-v1.md)
+- [`cast-canon-index-v2.md`](../05_characters/cast-canon-index-v2.md)
+- [`v01-d9-correction-overlay.md`](../10_story_architecture/detail/v01-d9-correction-overlay.md)
+- [`d9-full-reaudit-v1.md`](../99_quality_control/d9-full-reaudit-v1.md)
 
 ## 4. 확정 규모
 

@@ -6,9 +6,9 @@ Manuscript: BLOCKED
 
 ## 최상위 규칙
 
-1. [`CLAUDE.md`](CLAUDE.md)
-2. [`story_architecture_master_prompt_v1.md`](story_architecture_master_prompt_v1.md)
-3. 작가가 승인한 [`docs/00_project/decision-log.md`](docs/00_project/decision-log.md)
+1. [[`CLAUDE.md`](CLAUDE.md)](CLAUDE.md)
+2. [[`story_architecture_master_prompt_v1.md`](story_architecture_master_prompt_v1.md)](story_architecture_master_prompt_v1.md)
+3. 작가가 승인한 [[`docs/00_project/decision-log.md`](docs/00_project/decision-log.md)](docs/00_project/decision-log.md)
 
 충돌 시 위 순서를 따른다.
 
@@ -22,13 +22,13 @@ Manuscript: BLOCKED
 
 ## 현재 필독 설계 문서
 
-- [`project-charter.md`](docs/00_project/project-charter.md)
-- [`trap-check-v1.md`](docs/00_project/trap-check-v1.md)
-- [`four-design-directions-v1.md`](docs/00_project/four-design-directions-v1.md)
-- [`canon-concept-v1.md`](docs/00_project/canon-concept-v1.md)
-- [`reference-deconstruction.md`](docs/00_project/reference-deconstruction.md)
-- [`legacy-migration-policy-v1.md`](docs/00_project/legacy-migration-policy-v1.md)
-- [`progress-status.md`](docs/00_project/progress-status.md)
+- [[`project-charter.md`](docs/00_project/project-charter.md)](docs/00_project/project-charter.md)
+- [[`trap-check-v1.md`](docs/00_project/trap-check-v1.md)](docs/00_project/trap-check-v1.md)
+- [[`four-design-directions-v1.md`](docs/00_project/four-design-directions-v1.md)](docs/00_project/four-design-directions-v1.md)
+- [[`canon-concept-v1.md`](docs/00_project/canon-concept-v1.md)](docs/00_project/canon-concept-v1.md)
+- [[`reference-deconstruction.md`](docs/00_project/reference-deconstruction.md)](docs/00_project/reference-deconstruction.md)
+- [[`legacy-migration-policy-v1.md`](docs/00_project/legacy-migration-policy-v1.md)](docs/00_project/legacy-migration-policy-v1.md)
+- [[`progress-status.md`](docs/00_project/progress-status.md)](docs/00_project/progress-status.md)
 
 ## Legacy 경고
 

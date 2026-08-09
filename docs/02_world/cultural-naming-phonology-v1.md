@@ -3,9 +3,9 @@
 Status: REVIEW — AUTHOR APPROVAL REQUIRED
 Owner: A03 World & Geography / A05 Peoples & Culture / A19 Korean Prose Audit
 Canon Level: 기준 REVIEW / 기존 정본 이름 변경 없음
-Depends On: `docs/00_project/canon-naming-pack-v1.md` §9, `docs/02_world/calendar-language-naming-bible-v1.md` §4
-Rules: `docs/13_writing_harness/korean-webnovel-fantasy-naming-rules-v1.md` §5.5
-Placement Note: 문화권 음운은 `docs/02_world/`의 `peoples-and-cultures-v1.md`·`calendar-language-naming-bible-v1.md`와 같은 층위이므로 `05_characters`가 아니라 여기에 둔다.
+Depends On: [`docs/00_project/canon-naming-pack-v1.md`](../00_project/canon-naming-pack-v1.md) §9, [`docs/02_world/calendar-language-naming-bible-v1.md`](calendar-language-naming-bible-v1.md) §4
+Rules: [`docs/13_writing_harness/korean-webnovel-fantasy-naming-rules-v1.md`](../13_writing_harness/korean-webnovel-fantasy-naming-rules-v1.md) §5.5
+Placement Note: 문화권 음운은 `docs/02_world/`의 [`peoples-and-cultures-v1.md`](peoples-and-cultures-v1.md)·[`calendar-language-naming-bible-v1.md`](calendar-language-naming-bible-v1.md)와 같은 층위이므로 `05_characters`가 아니라 여기에 둔다.
 
 ## 0. 목적
 
@@ -22,7 +22,7 @@ Placement Note: 문화권 음운은 `docs/02_world/`의 `peoples-and-cultures-v1
 
 ## 1. 문화권 배치
 
-`naming-system-initial-audit-v1.md` §3.4의 추천 구조를 승계한다.
+[`naming-system-initial-audit-v1.md`](../99_quality_control/naming-system-initial-audit-v1.md) §3.4의 추천 구조를 승계한다.
 
 | 문화권 | 참고 어감 | 근거 |
 |---|---|---|
@@ -137,7 +137,7 @@ Placement Note: 문화권 음운은 `docs/02_world/`의 `peoples-and-cultures-v1
 
 ## 4. 음운 충돌 지도 (신규 생성 시 회피 대상)
 
-`naming-full-audit-v1.md` §2에서 확인된 과포화 구간이다. **신규 이름은 아래 어두를 사용하지 않는다.**
+[`naming-full-audit-v1.md`](../99_quality_control/naming-full-audit-v1.md) §2에서 확인된 과포화 구간이다. **신규 이름은 아래 어두를 사용하지 않는다.**
 
 | 어두 | 이미 점유한 이름 | 상태 |
 |---|---|---|

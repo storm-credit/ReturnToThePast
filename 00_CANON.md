@@ -2,8 +2,8 @@
 
 Status: DEPRECATED  
 Effective: 2026-08-07  
-Replacement: `docs/00_project/canon-constitution-v1.md`  
-Decision: `docs/00_project/decision-log.md`
+Replacement: [`docs/00_project/canon-constitution-v1.md`](docs/00_project/canon-constitution-v1.md)  
+Decision: [`docs/00_project/decision-log.md`](docs/00_project/decision-log.md)
 
 이 파일의 기존 내용인 끝없는 회귀, 회차 누적, 죽음 리셋과 관련된 규칙은 더 이상 정본이 아니다.
 

@@ -10,7 +10,7 @@ Prose Agent: DISABLED
 
 ## Authoritative Notice
 
-This file is the authoritative completion status for worldbuilding and setting encyclopedia detail. It supplements `FINAL_D7_STATUS.md`, which remains authoritative for the 5-Act / 15-Volume / 375-episode story architecture.
+This file is the authoritative completion status for worldbuilding and setting encyclopedia detail. It supplements [`FINAL_D7_STATUS.md`](FINAL_D7_STATUS.md), which remains authoritative for the 5-Act / 15-Volume / 375-episode story architecture.
 
 D7 answers **what happens and why**. D8 answers **where and how people, institutions, cultures, economies, laws, armies, relics, and nonhuman peoples make those events possible**.
 
@@ -103,7 +103,7 @@ The former working nation name `바레인 왕관령` is deprecated because it co
 ## Corrected D7 Verification
 
 - PR #19 actual squash merge SHA: `dfc8275c8b914570cc0d1b4ef50795f3bda2bae5`
-- The prior non-resolving SHA was corrected in `FINAL_D7_STATUS.md`.
+- The prior non-resolving SHA was corrected in [`FINAL_D7_STATUS.md`](FINAL_D7_STATUS.md).
 
 ## Quality Result
 
@@ -137,4 +137,4 @@ These are not missing setting-bible elements and may not silently change locked 
 
 ## Gate Rule
 
-D8 completion does not authorize manuscript creation. Only the author may open the Pre-Writing Gate with the exact declaration stored in `CLAUDE.md`.
+D8 completion does not authorize manuscript creation. Only the author may open the Pre-Writing Gate with the exact declaration stored in [`CLAUDE.md`](../../CLAUDE.md).
