@@ -54,7 +54,7 @@ Reason: 복원/유지/파괴의 단순 3지선을 넘어 초반의 권한·기�
 
 Title: 《왕국은 과거를 먹고 산다》  
 Project Code: `ReturnToThePast`  
-Core Names: D9 정본 명명 패키지와 `cast-canon-index-v2.md`를 따른다.  
+Core Names: D9 정본 명명 패키지와 [`cast-canon-index-v2.md`](../05_characters/cast-canon-index-v2.md)를 따른다.  
 Status: CANON WITH ID-PRESERVING REPLACEMENT RULE
 
 ## DEC-010 — 전문가 오케스트라 고정
@@ -84,7 +84,7 @@ Scope Limit: 원고 제작 승인이지 정본·결말·영구손실의 무단 �
 ## DEC-013 — D10 모델중립 정본 우선 오케스트라
 
 Date: 2026-08-07  
-Problem: `CLAUDE.md`가 정본처럼 비대해지고, 상황별 장편 작법·회차별 Context Pack·보조 POV 실제 배치·조연/종교 장면 상세가 원고 하네스와 분리되어 있었다.  
+Problem: [`CLAUDE.md`](../../CLAUDE.md)가 정본처럼 비대해지고, 상황별 장편 작법·회차별 Context Pack·보조 POV 실제 배치·조연/종교 장면 상세가 원고 하네스와 분리되어 있었다.  
 Compared Options:
 
 1. 도구별 파일에 전체 규칙 복제
@@ -96,9 +96,9 @@ Selected: **4안 — 모델중립 정본 우선 계층형 오케스트라**
 
 Structure:
 
-- `/AI_PROJECT.md`: 모델중립 NON-CANON 진입점
-- `/CLAUDE.md`: Claude Code 전용 얇은 라우터
-- `/AGENTS.md`: Codex 전용 얇은 라우터
+- [`/AI_PROJECT.md`](../../AI_PROJECT.md): 모델중립 NON-CANON 진입점
+- [`/CLAUDE.md`](../../CLAUDE.md): Claude Code 전용 얇은 라우터
+- [`/AGENTS.md`](../../AGENTS.md): Codex 전용 얇은 라우터
 - Canon / Amendment / Decision Log / State Ledger: 실제 권한
 - Domain Bible: 세계관·인물·종교·기관·자산의 사실 원본
 - A00: 총괄 라우팅, 정본 독단 승인 금지
@@ -141,7 +141,7 @@ Rejected: `라베른 쌍성`(물리 구조 오도), `라베른 성`(두 역사 �
 
 Scope: 명칭 표층 변경. 장소의 물리 구조·역사·서사 배치·복선은 변경 없음. Canon Constitution의 HARD LOCK 항목이 아니므로 Amendment 없이 Decision Log로 처리한다.
 
-Updated Files: `canon-naming-pack-v1.md` §3, `pronunciation-lexicon.md`, `naming-source-verification-gate-v1.md` §6, `naming-audit-errata-lavern-v1.md` §6, 명명 감사 3종
+Updated Files: [`canon-naming-pack-v1.md`](canon-naming-pack-v1.md) §3, [`pronunciation-lexicon.md`](../../.agent/skills/sentence-narrator/pronunciation-lexicon.md), [`naming-source-verification-gate-v1.md`](../13_writing_harness/naming-source-verification-gate-v1.md) §6, [`naming-audit-errata-lavern-v1.md`](../99_quality_control/naming-audit-errata-lavern-v1.md) §6, 명명 감사 3종
 
 Manuscript Impact: 없음. E001·E002에 이 장소는 등장하지 않는다.
 
@@ -169,10 +169,10 @@ Reason:
 
 Source Basis:
 
-- 앙카 — `time-travel-ontology-v1.md`가 국경 고정석을 “돌아올 미래와 육체를 붙잡는 앵커”로 규정. `다리`는 V15 15C 무대 `마지막 귀환다리`와 연결되어 1화와 최종화를 한 단어로 묶는다.
-- 솔라 — `calendar-language-naming-bible-v1.md` §7 속담 “종이 울리기 전에는 날짜를 믿지 마라”. 이 세계에서 종이 곧 달력이다. 태양이 계절을 정한다.
+- 앙카 — [`time-travel-ontology-v1.md`](../03_systems/time-travel-ontology-v1.md)가 국경 고정석을 “돌아올 미래와 육체를 붙잡는 앵커”로 규정. `다리`는 V15 15C 무대 `마지막 귀환다리`와 연결되어 1화와 최종화를 한 단어로 묶는다.
+- 솔라 — [`calendar-language-naming-bible-v1.md`](../02_world/calendar-language-naming-bible-v1.md) §7 속담 “종이 울리기 전에는 날짜를 믿지 마라”. 이 세계에서 종이 곧 달력이다. 태양이 계절을 정한다.
 - 아스트라 — 마탑의 좌표·천문 기능.
-- 아고라 — `institution-org-procedure-bible-v1.md` §8의 지역·종족·환자 대표 공개 합의체 구조.
+- 아고라 — [`institution-org-procedure-bible-v1.md`](../08_institutions/institution-org-procedure-bible-v1.md) §8의 지역·종족·환자 대표 공개 합의체 구조.
 
 Scope: 표층 명칭 변경. 기관의 권한 분리·조직도·절차·정족수는 institution 헤더의 HARD LOCK이며 변경하지 않았다. Canon Constitution의 HARD LOCK 항목이 아니므로 Amendment 없이 Decision Log로 처리한다.
 
@@ -180,7 +180,7 @@ Rejected: 귀환청 / 귀환문 / 귀환항 / 귀환원 / 출귀원 / 달력국 
 
 Not Renamed: `왕좌승인원`, `칼레온 대기록소`, `아홉 상처 대성당`, `세르바 왕실평의회`, `최후 연대국`, `연대개입산업연합`, `잔문감사실`
 
-Updated Files: `canon-naming-pack-v1.md` §6 / `terminology-and-addressing-clarification-v1.md` §2 / `pronunciation-lexicon.md` / `E001-context-pack.md` / `cultural-naming-phonology-v1.md` / E001·E002 원고 / E002 상태·품질 문서 / 명명 감사 5종
+Updated Files: [`canon-naming-pack-v1.md`](canon-naming-pack-v1.md) §6 / [`terminology-and-addressing-clarification-v1.md`](terminology-and-addressing-clarification-v1.md) §2 / [`pronunciation-lexicon.md`](../../.agent/skills/sentence-narrator/pronunciation-lexicon.md) / [`E001-context-pack.md`](../../.agent/context-packs/episodes/E001-context-pack.md) / [`cultural-naming-phonology-v1.md`](../02_world/cultural-naming-phonology-v1.md) / E001·E002 원고 / E002 상태·품질 문서 / 명명 감사 5종
 
 Open: 성당 구휼사 `메이라 솔`과 `솔라 종탑`의 음 충돌. 인물과 기관으로 문맥이 달라 유지하되, 한 문장에 함께 쓰지 않는다. 필요 시 별도 승인으로 조연명 변경.
 

@@ -7,8 +7,8 @@
 ## 🟥 PHASE 0. 기준점 고정 (Foundation Lock) — ✅ `COMPLETE`
 
 - [x] Core Rules 최종 검증 (`rules.json`)
-- [x] 시간여행 법칙 (`Time_Travel_Laws.md`)
-- [x] 회귀 제약 조건 (`Regression_Constraints.md`) — ✅ 172회귀 시스템 반영 완료
+- [x] 시간여행 법칙 ([`Time_Travel_Laws.md`](lore_bible/Time_Travel_Laws.md))
+- [x] 회귀 제약 조건 ([`Regression_Constraints.md`](lore_bible/Regression_Constraints.md)) — ✅ 172회귀 시스템 반영 완료
 
 ---
 
@@ -40,16 +40,16 @@
 
 ## 🟦 PHASE 4. 비밀 관리 (Secret Control) — ✅ `COMPLETE`
 
-- [x] 반전 발동 조건표 (`Secrets_Activation.md`) — ✅ 11개 반전 체계 반영 완료
-- [x] 필수 이벤트 (`Mandatory_Events.md`) — ✅ 15권 기준 반영 완료
+- [x] 반전 발동 조건표 ([`Secrets_Activation.md`](lore_bible/Secrets_Activation.md)) — ✅ 11개 반전 체계 반영 완료
+- [x] 필수 이벤트 ([`Mandatory_Events.md`](lore_bible/Mandatory_Events.md)) — ✅ 15권 기준 반영 완료
 
 ---
 
 ## 🟪 PHASE 5. 엔딩 확정 (Endgame Lock) — ✅ `COMPLETE`
 
-- [x] 정사 엔딩 A: 인간으로의 귀환 (`Ending_A_Canon.md`) — ✅ Vol.14~15 반영 완료
-- [x] 외전 엔딩 B: 영원한 관찰자 (`Ending_B_Alternate.md`) — ✅ 반영 완료
-- [x] 엔딩 시나리오 (`Ending_Scenarios.md`) — ✅ 반영 완료
+- [x] 정사 엔딩 A: 인간으로의 귀환 ([`Ending_A_Canon.md`](lore_bible/Ending_A_Canon.md)) — ✅ Vol.14~15 반영 완료
+- [x] 외전 엔딩 B: 영원한 관찰자 ([`Ending_B_Alternate.md`](lore_bible/Ending_B_Alternate.md)) — ✅ 반영 완료
+- [x] 엔딩 시나리오 ([`Ending_Scenarios.md`](Ending_Scenarios.md)) — ✅ 반영 완료
 
 ---
 
@@ -65,6 +65,6 @@
 
 | 항목 | 상태 |
 |------|------|
-| **기준 문서** | `Series_Roadmap.md` (15권 타임 루프 느와르) |
+| **기준 문서** | [`Series_Roadmap.md`](outline/Series_Roadmap.md) (15권 타임 루프 느와르) |
 | **PHASE 0~6** | ✅ 전부 Roadmap 반영 완료 |
 | **남은 작업** | 구 아카데미판 파일 삭제 (별도 목록 참조) |

@@ -17,9 +17,9 @@ Project: 《왕국은 과거를 먹고 산다》 (`ReturnToThePast`)
 ## 2. Authority Order
 
 1. 현재 작가가 명시적으로 확정한 결정
-2. `docs/00_project/canon-constitution-v1.md`
+2. [`docs/00_project/canon-constitution-v1.md`](docs/00_project/canon-constitution-v1.md)
 3. 최신 Canon Amendment / Errata
-4. `docs/00_project/decision-log.md`
+4. [`docs/00_project/decision-log.md`](docs/00_project/decision-log.md)
 5. 활성 State Ledger와 Gate Status
 6. 분야별 Domain Bible
 7. Story Architecture
@@ -31,8 +31,8 @@ Project: 《왕국은 과거를 먹고 산다》 (`ReturnToThePast`)
 
 ## 3. Tool-Specific Routers
 
-- Claude Code: `/CLAUDE.md`
-- Codex: `/AGENTS.md`
+- Claude Code: [`/CLAUDE.md`](CLAUDE.md)
+- Codex: [`/AGENTS.md`](AGENTS.md)
 - ChatGPT Project: 이 파일과 저장소 정본을 프로젝트 지침에서 참조
 
 도구별 라우터는 이 파일과 Governance를 가리키는 얇은 진입점이어야 한다. 정본 내용을 복사해 별도 버전으로 유지하지 않는다.
@@ -42,11 +42,11 @@ Project: 《왕국은 과거를 먹고 산다》 (`ReturnToThePast`)
 모든 작업은 다음을 확인한다.
 
 1. 이 파일
-2. `docs/00_project/canon-constitution-v1.md`
-3. 최신 Amendment와 `docs/00_project/decision-log.md`
-4. `docs/00_project/GATE_STATUS.md`
-5. `.agent/orchestra/governance-and-routing-v2.md`
-6. `.agent/orchestra/agent-registry.md`
+2. [`docs/00_project/canon-constitution-v1.md`](docs/00_project/canon-constitution-v1.md)
+3. 최신 Amendment와 [`docs/00_project/decision-log.md`](docs/00_project/decision-log.md)
+4. [`docs/00_project/GATE_STATUS.md`](docs/00_project/GATE_STATUS.md)
+5. [`.agent/orchestra/governance-and-routing-v2.md`](.agent/orchestra/governance-and-routing-v2.md)
+6. [`.agent/orchestra/agent-registry.md`](.agent/orchestra/agent-registry.md)
 7. 작업 유형별 Domain Bible
 8. 관련 Story Architecture
 9. Context Pack과 Harness
@@ -62,15 +62,15 @@ Project: 《왕국은 과거를 먹고 산다》 (`ReturnToThePast`)
 - A16 Red Team: S0/S1 차단
 - A17 GitHub State Verifier: branch/PR/merge/SHA/main 실재 확인
 
-전체 역할과 승인범위는 `.agent/orchestra/agent-registry.md`와 `expert-contracts-v1.md`를 따른다.
+전체 역할과 승인범위는 [`.agent/orchestra/agent-registry.md`](.agent/orchestra/agent-registry.md)와 [`expert-contracts-v1.md`](.agent/orchestra/expert-contracts-v1.md)를 따른다.
 
 ## 6. Active Skills
 
-- `.agent/skills/storycraft-orchestrator/SKILL.md`
-- `.agent/skills/context-pack-compiler/SKILL.md`
-- `.agent/skills/sentence-narrator/SKILL.md`
-- `.agent/skills/human-prose-audit/SKILL.md`
-- `.agent/skills/naming-audit/SKILL.md`
+- [`.agent/skills/storycraft-orchestrator/SKILL.md`](.agent/skills/storycraft-orchestrator/SKILL.md)
+- [`.agent/skills/context-pack-compiler/SKILL.md`](.agent/skills/context-pack-compiler/SKILL.md)
+- [`.agent/skills/sentence-narrator/SKILL.md`](.agent/skills/sentence-narrator/SKILL.md)
+- [`.agent/skills/human-prose-audit/SKILL.md`](.agent/skills/human-prose-audit/SKILL.md)
+- [`.agent/skills/naming-audit/SKILL.md`](.agent/skills/naming-audit/SKILL.md)
 
 Skill은 반복 절차다. 설정·사건·결말을 독자적으로 승인하거나 변경할 수 없다.
 
@@ -94,7 +94,7 @@ CP는 원본 경로, 기준 commit/ref, 추출한 사실, 정보상한, 현재 �
 
 주 실행 하네스:
 
-`docs/13_writing_harness/orchestration-harness-v2.md`
+[`docs/13_writing_harness/orchestration-harness-v2.md`](docs/13_writing_harness/orchestration-harness-v2.md)
 
 실행 순서:
 
@@ -108,8 +108,8 @@ CP는 원본 경로, 기준 commit/ref, 추출한 사실, 정보상한, 현재 �
 - D10 PR: #25
 - D10 Merge SHA: `a34113d538f9ec22b396fdf0193dd82ab19328ec`
 - 정확한 현재 집필 회차·완료 PR·다음 작업은 다음 두 파일만 따른다.
-  - `docs/00_project/GATE_STATUS.md`
-  - `manuscript/PROGRESS.md`
+  - [`docs/00_project/GATE_STATUS.md`](docs/00_project/GATE_STATUS.md)
+  - [`manuscript/PROGRESS.md`](manuscript/PROGRESS.md)
 
 이 라우터에는 회차별 상태를 중복 기록하지 않는다.
 

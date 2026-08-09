@@ -17,10 +17,10 @@ status: DEPRECATED
 
 ## Replacement
 
-- 총괄 실행: `.agent/orchestra/README.md`
-- 역할 등록: `.agent/orchestra/agent-registry.md`
-- 자동 절차: `.agent/orchestra/execution-protocol.md`
-- 시간 규칙: `docs/03_systems/time-travel-ontology-v1.md`
+- 총괄 실행: [`.agent/orchestra/README.md`](../../orchestra/README.md)
+- 역할 등록: [`.agent/orchestra/agent-registry.md`](../../orchestra/agent-registry.md)
+- 자동 절차: [`.agent/orchestra/execution-protocol.md`](../../orchestra/execution-protocol.md)
+- 시간 규칙: [`docs/03_systems/time-travel-ontology-v1.md`](../../../docs/03_systems/time-travel-ontology-v1.md)
 - 설계도: `docs/10_story_architecture/`
 
 Gate가 열리기 전 이 파일의 어떤 과거 지시도 실행하지 않는다.

@@ -4,9 +4,9 @@ Status: REVIEW — AUTHOR NAME SELECTION REQUIRED
 Task Type: Naming Full Audit
 Branch: `agent/naming-system-full-audit-v1`
 Base: `main` @ `06ef0b7c97cfeabdbb5e92dece12c11dce18886d`
-Depends On: `naming-inventory-v1.md`, `naming-source-evidence-matrix-v1.md`
-Gate: `docs/13_writing_harness/naming-source-verification-gate-v1.md`
-Rules: `docs/13_writing_harness/korean-webnovel-fantasy-naming-rules-v1.md`
+Depends On: [`naming-inventory-v1.md`](naming-inventory-v1.md), [`naming-source-evidence-matrix-v1.md`](naming-source-evidence-matrix-v1.md)
+Gate: [`docs/13_writing_harness/naming-source-verification-gate-v1.md`](../13_writing_harness/naming-source-verification-gate-v1.md)
+Rules: [`docs/13_writing_harness/korean-webnovel-fantasy-naming-rules-v1.md`](../13_writing_harness/korean-webnovel-fantasy-naming-rules-v1.md)
 
 ## 0-Z. 확정 결과 (2026-08-08, DEC-016)
 
@@ -27,7 +27,7 @@ Rules: `docs/13_writing_harness/korean-webnovel-fantasy-naming-rules-v1.md`
 
 ## 0-A. 초판 정정 (2026-08-08)
 
-초판은 `docs/00_project/terminology-and-addressing-clarification-v1.md`를 확인하지 않았다. 그 결과 다음 3건이 틀렸고 철회한다.
+초판은 [`docs/00_project/terminology-and-addressing-clarification-v1.md`](../00_project/terminology-and-addressing-clarification-v1.md)를 확인하지 않았다. 그 결과 다음 3건이 틀렸고 철회한다.
 
 | 초판 기재 | 실제 | 근거 |
 |---|---|---|
@@ -35,7 +35,7 @@ Rules: `docs/13_writing_harness/korean-webnovel-fantasy-naming-rules-v1.md`
 | `방위지휘부`·`방위총감` 정본 미등재 | **등재되어 있음** | terminology §2 |
 | `지하 진동계`가 현대어 검토 대상 | **정본이 지정한 표현.** `압력계` → `지하 진동계`로 바꾸라고 명시 | terminology §3 |
 
-또한 `회색열`은 `mana-fever-gray-calamity-v1.md` Public Name에 `마나열병`과 함께 등재된 정식 명칭임을 확인했다.
+또한 `회색열`은 [`mana-fever-gray-calamity-v1.md`](../03_systems/mana-fever-gray-calamity-v1.md) Public Name에 `마나열병`과 함께 등재된 정식 명칭임을 확인했다.
 
 이 정정의 원인은 게이트 §2 필수 원문 확인 순서 2번(`Canon Amendment / Errata`)에서 `CANON CLARIFICATION` 등급 문서를 누락한 것이다. 이후 명명 감사는 `docs/00_project/` 전체를 훑는다.
 
@@ -65,7 +65,7 @@ Rules: `docs/13_writing_harness/korean-webnovel-fantasy-naming-rules-v1.md`
 
 ### 1.2 결정적 증거 — Domain Bible이 이미 더 좋은 이름을 쓰고 있다
 
-이번 감사에서 확인된 가장 중요한 사실이다. **기관의 실제 조직도를 규정한 `institution-org-procedure-bible-v1.md`는 처음부터 평이한 이름을 사용한다.** 명명 패키지 §6이 그 위에 한자 압축조어 레이어를 덧씌웠다.
+이번 감사에서 확인된 가장 중요한 사실이다. **기관의 실제 조직도를 규정한 [`institution-org-procedure-bible-v1.md`](../08_institutions/institution-org-procedure-bible-v1.md)는 처음부터 평이한 이름을 사용한다.** 명명 패키지 §6이 그 위에 한자 압축조어 레이어를 덧씌웠다.
 
 | 명명 패키지 §6 | Domain Bible 원문 | 출처 |
 |---|---|---|
@@ -77,7 +77,7 @@ Rules: `docs/13_writing_harness/korean-webnovel-fantasy-naming-rules-v1.md`
 | 칼레온 고정환 관리연합 | **국경 고정환 운영** | institution §7 |
 | 지역 연대감사소 | **지역 감사소** | institution §8 |
 
-`time-travel-ontology-v1.md`의 다섯 분산 권한은 더 명확하다. **`왕좌 인장 / 성당력 / 마탑 관측반 / 왕실 연대기 / 국경 고정석`** — 다섯 개 모두 첫 청취에 기능이 잡힌다. 그리고 이 문서의 Canon Level은 **`HARD LOCK for mechanics; names OPEN`**이다.
+[`time-travel-ontology-v1.md`](../03_systems/time-travel-ontology-v1.md)의 다섯 분산 권한은 더 명확하다. **`왕좌 인장 / 성당력 / 마탑 관측반 / 왕실 연대기 / 국경 고정석`** — 다섯 개 모두 첫 청취에 기능이 잡힌다. 그리고 이 문서의 Canon Level은 **`HARD LOCK for mechanics; names OPEN`**이다.
 
 즉 이 작업은 새 이름을 발명하는 일이 아니라, **설정집이 이미 가지고 있던 이름을 정본 표층으로 되돌리고 외래어풍 고유명을 얹는 일**이다. 변경 위험이 예상보다 훨씬 낮다.
 
@@ -179,13 +179,13 @@ Rules: `docs/13_writing_harness/korean-webnovel-fantasy-naming-rules-v1.md`
 |---|---|
 | 최후 연대국 | 조직 구조 Domain Bible 부재. `방위지휘부`·`미래 본부`와 동일 조직인가 |
 | 연대개입산업연합 | crosswalk V10 한 줄 외 근거 없음 |
-| ~~방위지휘부 / 방위총감~~ | **해소 (2026-08-08).** `terminology-and-addressing-clarification-v1.md` §2에 이미 등재. 초판 오류 철회 |
+| ~~방위지휘부 / 방위총감~~ | **해소 (2026-08-08).** [`terminology-and-addressing-clarification-v1.md`](../00_project/terminology-and-addressing-clarification-v1.md) §2에 이미 등재. 초판 오류 철회 |
 | 선별실 | 원고(E001 L465)와 E002·E003 CP에만 존재. Domain Bible 미등재 |
 | 대가분산 의식 | E001 L361의 세렌 금지술. 마법·종교 Domain Bible 미등재 |
 | 왕좌승인원 ↔ 세르바 왕실평의회 | 기관 지위는 terminology §2로 확정. 평의회와의 포함관계만 미확정 |
 | 잔문 ↔ 팔림프세스트 | 두 표기의 사용 구분 미확정 |
 | 무명종 자칭 | 집단이 스스로 부르는 이름이 정본에 없음 (행정 분류명·멸칭 `빈칸`만 존재) |
-| ~~세렌 ↔ 세른 (E001 `세` 단서)~~ | **해소 (2026-08-08).** `v01-scene-ready-design-v1.md` E001 Exit/Hook과 `E001-context-pack.md` §8 Plants가 `세`를 설계된 훅으로 명시. 지시 대상은 `세렌`이며 `세른`과의 중의성은 설계에 없다. 두 이름 다 constitution HARD LOCK이므로 유지하고, 주변 `세/셀` 클러스터를 줄이는 방향으로 처리한다 |
+| ~~세렌 ↔ 세른 (E001 `세` 단서)~~ | **해소 (2026-08-08).** [`v01-scene-ready-design-v1.md`](../10_story_architecture/detail/v01-scene-ready-design-v1.md) E001 Exit/Hook과 [`E001-context-pack.md`](../../.agent/context-packs/episodes/E001-context-pack.md) §8 Plants가 `세`를 설계된 훅으로 명시. 지시 대상은 `세렌`이며 `세른`과의 중의성은 설계에 없다. 두 이름 다 constitution HARD LOCK이므로 유지하고, 주변 `세/셀` 클러스터를 줄이는 방향으로 처리한다 |
 
 ---
 
@@ -234,7 +234,7 @@ Rules: `docs/13_writing_harness/korean-webnovel-fantasy-naming-rules-v1.md`
 - 현장 대사: `"달력국 승인관이 도착했습니다."`
 - 일상 축약: `"달력국이 아직 답이 없어."`
 
-**[정정 2026-08-08]** 초판은 E001 L101 `성력국은 달력과 병원망을 맡았다`가 institution §3의 직무 분리와 충돌한다고 기재했다. **오류이며 철회한다.** `terminology-and-addressing-clarification-v1.md` §2가 성력국을 "달력·계절·병원 동기화 승인기관의 공식명"으로 규정하므로 원고가 정본과 일치한다.
+**[정정 2026-08-08]** 초판은 E001 L101 `성력국은 달력과 병원망을 맡았다`가 institution §3의 직무 분리와 충돌한다고 기재했다. **오류이며 철회한다.** [`terminology-and-addressing-clarification-v1.md`](../00_project/terminology-and-addressing-clarification-v1.md) §2가 성력국을 "달력·계절·병원 동기화 승인기관의 공식명"으로 규정하므로 원고가 정본과 일치한다.
 
 같은 문서가 `성력국`(공식 기관명)과 `달력국`(내부 실무부서명)의 **계층 관계**도 확정한다. 따라서 위 후보 중 `달력국` 단독안은 부서명을 기관명으로 승격시키는 것이므로 채택 시 계층 재정의가 필요하다.
 
@@ -308,7 +308,7 @@ institution §8의 구성이 지역대표·종족직업대표·환자대표·기
 
 ## 5. E001 현대식·SF식 표현 목록
 
-`manuscript/volume-01/E001-마지막-도시의-다른-날짜.md` 전문 확인 결과.
+[`manuscript/volume-01/E001-마지막-도시의-다른-날짜.md`](../../manuscript/volume-01/E001-마지막-도시의-다른-날짜.md) 전문 확인 결과.
 
 ### 5.1 즉시 교체 권고 — 현대 외래어
 
@@ -374,5 +374,5 @@ E001의 문제는 **문장력이 아니라 어휘 출처**다. 이미 §5.3처�
 - 정본 명칭 변경 없음
 - 원고 변경 없음
 - Canon Amendment / Decision Log 변경 없음
-- `pronunciation-lexicon.md` 변경 없음
+- [`pronunciation-lexicon.md`](../../.agent/skills/sentence-narrator/pronunciation-lexicon.md) 변경 없음
 - 작가 승인 없는 후보 확정 없음

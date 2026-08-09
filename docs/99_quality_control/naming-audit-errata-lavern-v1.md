@@ -15,18 +15,18 @@ Branch: `agent/korean-webnovel-naming-rules`
 
 ## 2. 확인한 원문
 
-### `docs/02_world/atlas-region-dossiers-v1.md`
+### [`docs/02_world/atlas-region-dossiers-v1.md`](../02_world/atlas-region-dossiers-v1.md)
 
 서부 잿빛 변경의 `반쪽성`은 다음과 같이 정의된다.
 
 > 지도에는 한 성이지만 주민은 서로 다른 두 역사로 기억한다.
 
-### `docs/00_project/canon-naming-pack-v1.md`
+### [`docs/00_project/canon-naming-pack-v1.md`](../00_project/canon-naming-pack-v1.md)
 
 - 작업명: `반쪽성`
 - 정식명 후보: `두겹성 라베른`
 
-### `docs/10_story_architecture/location-world-crosswalk-v1.md`
+### [`docs/10_story_architecture/location-world-crosswalk-v1.md`](../10_story_architecture/location-world-crosswalk-v1.md)
 
 V01 Subact 1C의 핵심 무대로 `반쪽성·절검의 언덕`이 배치돼 있으며, 첫 개혁가의 실제 역할과 지역 대피를 드러내는 장소다.
 
@@ -46,7 +46,7 @@ V01 Subact 1C의 핵심 무대로 `반쪽성·절검의 언덕`이 배치돼 있
 
 ## 5. 재발 방지
 
-`docs/13_writing_harness/naming-source-verification-gate-v1.md`를 모든 명명 감사의 선행 게이트로 적용한다.
+[`docs/13_writing_harness/naming-source-verification-gate-v1.md`](../13_writing_harness/naming-source-verification-gate-v1.md)를 모든 명명 감사의 선행 게이트로 적용한다.
 
 후보명 제시 전 다음을 강제한다.
 

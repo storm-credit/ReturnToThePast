@@ -10,7 +10,7 @@ Manuscript: BLOCKED
 - 각 행은 원고가 아니라 회차 기능 카드다.
 - Subact의 국소 해결과 다음 원인을 1화 단위로 내려놓은 설계 레지스트리다.
 - 실제 씬 비트는 20–30화 배치 감사에서 확장하되 사건·선택·손실을 바꾸지 않는다.
-- 모든 행은 `subact-causal-matrix-v1.md`, 해당 Volume Architecture, Mystery/Asset/Loss Ledgers에 종속된다.
+- 모든 행은 [`subact-causal-matrix-v1.md`](../subact-causal-matrix-v1.md), 해당 Volume Architecture, Mystery/Asset/Loss Ledgers에 종속된다.
 
 ## Volume 04 — 존재하지 않는 도시
 

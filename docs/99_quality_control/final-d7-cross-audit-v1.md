@@ -9,7 +9,7 @@ Manuscript: BLOCKED
 ## 1. Audited Scope
 
 - Source-method compliance with the three author-provided architecture MD files
-- Project `CLAUDE.md` and A01–A18 orchestra
+- Project [`CLAUDE.md`](../../CLAUDE.md) and A01–A18 orchestra
 - Canon Constitution and time-travel ontology
 - World Bible: geography, peoples, magic, mana fever, religion, law, economy, institutions, military, daily life, relics, sovereign beasts
 - 5 Grand Acts / 15 Volume Acts

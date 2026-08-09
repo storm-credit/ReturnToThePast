@@ -3,7 +3,7 @@
 Status: SUPERSEDED — FALSE PASS  
 Episode: E001  
 Original Branch: `agent/e001-term-consistency-pass`  
-Superseded By: `manuscript/quality/E001-read-aloud-reaudit.md`
+Superseded By: [`manuscript/quality/E001-read-aloud-reaudit.md`](E001-read-aloud-reaudit.md)
 
 ## 1. 정정 사유
 
@@ -31,4 +31,4 @@ Superseded By: `manuscript/quality/E001-read-aloud-reaudit.md`
 
 **기존 PASS 무효.**
 
-재검수 결과와 실제 수정 내역은 `E001-read-aloud-reaudit.md`를 기준으로 한다. 이 문서는 감사 이력 보존을 위해 삭제하지 않는다.
+재검수 결과와 실제 수정 내역은 [`E001-read-aloud-reaudit.md`](E001-read-aloud-reaudit.md)를 기준으로 한다. 이 문서는 감사 이력 보존을 위해 삭제하지 않는다.

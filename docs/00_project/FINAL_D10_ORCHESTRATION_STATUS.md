@@ -19,7 +19,7 @@ D10 Merge SHA: `a34113d538f9ec22b396fdf0193dd82ab19328ec`
 이유:
 
 - 모델을 바꿔도 같은 정본을 읽는다.
-- `CLAUDE.md`가 최상위 정본이 되는 것을 막는다.
+- [`CLAUDE.md`](../../CLAUDE.md)가 최상위 정본이 되는 것을 막는다.
 - 설정 사실·작법 절차·자료 묶음·원고 구현을 분리한다.
 - 한 에이전트의 오류가 Canon으로 자동 승격되지 않는다.
 - ChatGPT·Codex·Claude Code를 같은 저장소에서 운용할 수 있다.
@@ -48,9 +48,9 @@ D10 Merge SHA: `a34113d538f9ec22b396fdf0193dd82ab19328ec`
 
 다음은 NON-CANON 운영문서다.
 
-- `AI_PROJECT.md`
-- `CLAUDE.md`
-- `AGENTS.md`
+- [`AI_PROJECT.md`](../../AI_PROJECT.md)
+- [`CLAUDE.md`](../../CLAUDE.md)
+- [`AGENTS.md`](../../AGENTS.md)
 - Agent Contract
 - Skill
 - Harness
@@ -58,10 +58,10 @@ D10 Merge SHA: `a34113d538f9ec22b396fdf0193dd82ab19328ec`
 
 ## 3. Model Routers
 
-- `/AI_PROJECT.md`: ChatGPT·Codex·Claude가 공유하는 모델중립 진입점
-- `/CLAUDE.md`: Claude Code 전용 얇은 라우터
-- `/AGENTS.md`: Codex 전용 얇은 라우터
-- ChatGPT Project 지침: `/AI_PROJECT.md`와 저장소 정본을 읽도록 안내
+- [`/AI_PROJECT.md`](../../AI_PROJECT.md): ChatGPT·Codex·Claude가 공유하는 모델중립 진입점
+- [`/CLAUDE.md`](../../CLAUDE.md): Claude Code 전용 얇은 라우터
+- [`/AGENTS.md`](../../AGENTS.md): Codex 전용 얇은 라우터
+- ChatGPT Project 지침: [`/AI_PROJECT.md`](../../AI_PROJECT.md)와 저장소 정본을 읽도록 안내
 
 세 라우터는 정본을 복사하지 않고 같은 원본을 가리킨다.
 
@@ -133,7 +133,7 @@ Episode CP 필수 항목:
 
 Main Harness:
 
-`docs/13_writing_harness/orchestration-harness-v2.md`
+[`docs/13_writing_harness/orchestration-harness-v2.md`](../13_writing_harness/orchestration-harness-v2.md)
 
 Execution:
 
@@ -224,9 +224,9 @@ Final:
 - deletions: 315
 - manuscript prose changed: NO
 - main verified:
-  - `AI_PROJECT.md`
-  - `AGENTS.md`
-  - `CLAUDE.md`
+  - [`AI_PROJECT.md`](../../AI_PROJECT.md)
+  - [`AGENTS.md`](../../AGENTS.md)
+  - [`CLAUDE.md`](../../CLAUDE.md)
   - Agent Registry
   - Storycraft / Context Pack / Sentence Narrator skills
   - E001 / E002 Context Packs

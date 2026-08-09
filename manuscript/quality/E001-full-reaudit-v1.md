@@ -4,11 +4,11 @@ Status: AUDIT ARTIFACT — AUTHOR PROSE APPROVAL STILL PENDING
 Branch: `agent/e001-reaudit-and-naming-errata`
 Base: `main` @ `2381b55dcfec6425efd10ff436eb06534886d2cb`
 Scope: 낭독 스킬 · 설계도 · 설정/세계관 · 디테일 · 라우터(CLAUDE.md)
-Target: `manuscript/volume-01/E001-마지막-도시의-다른-날짜.md`
+Target: [`manuscript/volume-01/E001-마지막-도시의-다른-날짜.md`](../volume-01/E001-마지막-도시의-다른-날짜.md)
 
 ## 0. 먼저 — 현재 실제 차단점
 
-`docs/00_project/GATE_STATUS.md`가 이렇게 되어 있다.
+[`docs/00_project/GATE_STATUS.md`](../../docs/00_project/GATE_STATUS.md)가 이렇게 되어 있다.
 
 > Status: **PAUSED — E001 AUTHOR PROSE REVIEW**
 > Author Feedback: `1화를 읽어봤는데 AI 티가 너무 난다.`
@@ -47,7 +47,7 @@ Resume Condition은 **작가가 E001 재수술본을 직접 읽고 승인**하�
 | Secondary Hook | H4 제도 변화 | 임무 인장 확인란 서명 | PASS |
 | Exit/Hook | "삭제된 증언자의 이름 첫 글자가 회색으로 되살아난다" | L715–L747 | PASS |
 
-`v01-scene-ready-design-v1.md`는 E001을 Scene 1–3으로 적었으나, 이는 `scene-density-and-pacing-overlay-v1.md` §1이 규정한 **기능 비트 3개**이지 실제 장면 수가 아니다. 실제 장면 수는 보정표를 따르며 E001은 E형 4장면이 정답이다. 원고가 맞다.
+[`v01-scene-ready-design-v1.md`](../../docs/10_story_architecture/detail/v01-scene-ready-design-v1.md)는 E001을 Scene 1–3으로 적었으나, 이는 [`scene-density-and-pacing-overlay-v1.md`](../../docs/10_story_architecture/scene-density-and-pacing-overlay-v1.md) §1이 규정한 **기능 비트 3개**이지 실제 장면 수가 아니다. 실제 장면 수는 보정표를 따르며 E001은 E형 4장면이 정답이다. 원고가 맞다.
 
 ### 2.2 장면별 가치 변화 (craft manifest §3 대조)
 
@@ -94,8 +94,8 @@ Resume Condition은 **작가가 E001 재수술본을 직접 읽고 승인**하�
 
 | 용어 | 정본 | 판정 |
 |---|---|---|
-| 회색열 | `mana-fever-gray-calamity-v1.md` Public Name | 정합 |
-| 솔라 종탑이 달력+병원망 담당 | `terminology-and-addressing-clarification-v1.md` §2 | 정합 |
+| 회색열 | [`mana-fever-gray-calamity-v1.md`](../../docs/03_systems/mana-fever-gray-calamity-v1.md) Public Name | 정합 |
+| 솔라 종탑이 달력+병원망 담당 | [`terminology-and-addressing-clarification-v1.md`](../../docs/00_project/terminology-and-addressing-clarification-v1.md) §2 | 정합 |
 | 방위지휘부 / 방위총감 | terminology §2 | 정합 |
 | 지하 진동계 | terminology §3이 지정한 표현 | 정합 |
 | 구조 신호 | terminology §4가 `구조표식` 대신 지정 | 정합 |
@@ -105,7 +105,7 @@ Resume Condition은 **작가가 E001 재수술본을 직접 읽고 승인**하�
 
 | 용어 | 위치 | 문제 |
 |---|---|---|
-| **대가분산 의식** | L361 | 세렌의 금지술. `magic-and-mana-v1.md`·`myth-religion-nine-wounds-v1.md`·명명 패키지 어디에도 없다. 원고에만 존재 |
+| **대가분산 의식** | L361 | 세렌의 금지술. [`magic-and-mana-v1.md`](../../docs/03_systems/magic-and-mana-v1.md)·[`myth-religion-nine-wounds-v1.md`](../../docs/02_world/myth-religion-nine-wounds-v1.md)·명명 패키지 어디에도 없다. 원고에만 존재 |
 | **선별실** | L465 | 생존 예측 담당 부서. E002·E003 CP에는 있으나 Domain Bible·명명 패키지 미등재 |
 
 `대가분산 의식`이 더 중요하다. 세렌의 혐의 핵심이고 V3 이후 반복 회수될 개념인데 마법 설정에 근거가 없다. **정본 등재 또는 기존 마법 체계와의 연결이 필요하다.**
@@ -114,11 +114,11 @@ Resume Condition은 **작가가 E001 재수술본을 직접 읽고 승인**하�
 
 L123 관측병의 증상 — `왼쪽 귀 아래, 피부 속에 박힌 회색 결정`.
 
-`peoples-and-cultures-v1.md` §3은 **결정화를 카르둔의 마나열병 진행 양상**으로 규정한다. 이 관측병의 종족 표시가 없다. 인간에게도 같은 증상이 나타나는지, 아니면 이 인물이 카르둔인지 정본에 근거가 없다.
+[`peoples-and-cultures-v1.md`](../../docs/02_world/peoples-and-cultures-v1.md) §3은 **결정화를 카르둔의 마나열병 진행 양상**으로 규정한다. 이 관측병의 종족 표시가 없다. 인간에게도 같은 증상이 나타나는지, 아니면 이 인물이 카르둔인지 정본에 근거가 없다.
 
 ---
 
-## 4. 낭독 스킬 대조 (`prose-quality-checklist.md`)
+## 4. 낭독 스킬 대조 ([`prose-quality-checklist.md`](../../.agent/skills/sentence-narrator/prose-quality-checklist.md))
 
 ### 4.1 통과
 
@@ -169,7 +169,7 @@ L47·L717은 물리 묘사라 필요하고, L437은 설정 구분이라 필요�
 
 ### 4.3 장면 리듬 — 1건 위반 소지
 
-`scene-density-and-pacing-overlay-v1.md` §6:
+[`scene-density-and-pacing-overlay-v1.md`](../../docs/10_story_architecture/scene-density-and-pacing-overlay-v1.md) §6:
 
 > 회의 장면 뒤에는 반드시 또 다른 회의를 붙이지 않는다. 현장 검증·생활 후과·대립자 행동 중 하나를 배치한다.
 
@@ -194,7 +194,7 @@ L525 이후 브리핑실에 방위총감·왕좌승인관·종탑 승인관이 �
 
 ## 5. 현대 외래어 잔존
 
-`naming-full-audit-v1.md` §5.1에서 지적한 6건 중 정본이 지정한 표현을 제외한 실제 대상.
+[`naming-full-audit-v1.md`](../../docs/99_quality_control/naming-full-audit-v1.md) §5.1에서 지적한 6건 중 정본이 지정한 표현을 제외한 실제 대상.
 
 | 행 | 표현 | 비고 |
 |---|---|---|
@@ -216,7 +216,7 @@ L525 이후 브리핑실에 방위총감·왕좌승인관·종탑 승인관이 �
 | Authority Warning | 정본 계층 9단계 명시. 자기 자신을 계층 밖에 둠 |
 | Start Here 9단계 경로 | 전부 실재 (링크 감사 broken 0) |
 | Active Skills 4개 | 전부 실재 |
-| Harness 실행 흐름 | `orchestration-harness-v2.md`와 일치 |
+| Harness 실행 흐름 | [`orchestration-harness-v2.md`](../../docs/13_writing_harness/orchestration-harness-v2.md)와 일치 |
 | Working Process 포인터 | 신규 추가분 정상 |
 
 ### 문제 1건
@@ -225,9 +225,9 @@ Repository Rules에 이 조항이 있다.
 
 > 명명 감사 S1이 남은 상태에서는 관련 새 이름을 원고에 확장하지 않음
 
-`naming-system-initial-audit-v1.md` §2 A16이 **S1 판정**을 내렸고, 아직 어느 문서도 이를 해소로 선언하지 않았다. 그런데 `GATE_STATUS.md`는 명명 S1을 전혀 추적하지 않는다. 생산 차단 상태가 두 곳에 나뉘어 있고 한쪽이 다른 쪽을 모른다.
+[`naming-system-initial-audit-v1.md`](../../docs/99_quality_control/naming-system-initial-audit-v1.md) §2 A16이 **S1 판정**을 내렸고, 아직 어느 문서도 이를 해소로 선언하지 않았다. 그런데 [`GATE_STATUS.md`](../../docs/00_project/GATE_STATUS.md)는 명명 S1을 전혀 추적하지 않는다. 생산 차단 상태가 두 곳에 나뉘어 있고 한쪽이 다른 쪽을 모른다.
 
-**권고**: `GATE_STATUS.md`에 명명 S1 항목을 추가하거나, 명명 전수 감사 완료 시점에 S1 해소를 명시적으로 선언한다.
+**권고**: [`GATE_STATUS.md`](../../docs/00_project/GATE_STATUS.md)에 명명 S1 항목을 추가하거나, 명명 전수 감사 완료 시점에 S1 해소를 명시적으로 선언한다.
 
 ---
 
@@ -256,7 +256,7 @@ Repository Rules에 이 조항이 있다.
 | 6 | `대가분산 의식` 정본 등재 |
 | 7 | `선별실` Domain Bible 등재 |
 | 8 | 인간의 마나열병 결정화 증상 근거 |
-| 9 | `GATE_STATUS.md`에 명명 S1 추적 추가 |
+| 9 | [`GATE_STATUS.md`](../../docs/00_project/GATE_STATUS.md)에 명명 S1 추적 추가 |
 
 ### 판정
 

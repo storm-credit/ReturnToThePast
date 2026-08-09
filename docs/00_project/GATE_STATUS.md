@@ -22,8 +22,8 @@ D10의 정본·작법·연속성 검사는 통과했지만, 기존 원고에서 
 
 ## Active Human-Prose System
 
-- Skill: `.agent/skills/human-prose-audit/SKILL.md`
-- Registry: `.agent/skills/README.md`
+- Skill: [`.agent/skills/human-prose-audit/SKILL.md`](../../.agent/skills/human-prose-audit/SKILL.md)
+- Registry: [`.agent/skills/README.md`](../../.agent/skills/README.md)
 - Rule: AI는 `AUTHOR REVIEW READY`까지만 판정
 - Final `HUMAN PROSE PASS`: 작가 승인 필수
 
@@ -38,7 +38,7 @@ D10의 정본·작법·연속성 검사는 통과했지만, 기존 원고에서 
 - Human-Prose Revision PR: #31
 - Human-Prose Revision Merge SHA: `9272c6e500a77262368ae930ae440532932288b4`
 - Human-Prose Revision: MERGED / MAIN VERIFIED
-- Revision Report: `manuscript/quality/E001-human-prose-revision-report.md`
+- Revision Report: [`manuscript/quality/E001-human-prose-revision-report.md`](../../manuscript/quality/E001-human-prose-revision-report.md)
 - Current Status: **AUTHOR REVIEW READY — NOT HUMAN-PROSE APPROVED**
 
 ### E002

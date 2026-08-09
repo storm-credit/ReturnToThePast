@@ -26,7 +26,7 @@
 ## ✅ 3. 집필 가이드라인 (Production Guide)
 
 *   **문체**: `Tone_Manner_Guide.md` (글근육 스타일) 제공.
-*   **검수**: `Chapter_Audit_Checklist.md` (자가 진단) 제공.
+*   **검수**: [`Chapter_Audit_Checklist.md`](Guidelines/Chapter_Audit_Checklist.md) (자가 진단) 제공.
 *   **용어**: `Noir_Adaptation_Guide.md` (SF → 판타지 치환) 제공.
 
 ---

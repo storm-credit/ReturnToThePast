@@ -18,17 +18,17 @@ Project: 《왕국은 과거를 먹고 산다》 / `ReturnToThePast`
 
 ## Start Here
 
-1. `/AI_PROJECT.md`
-2. `docs/00_project/canon-constitution-v1.md`
-3. 최신 Canon Amendment와 `docs/00_project/decision-log.md`
-4. `docs/00_project/GATE_STATUS.md`
-5. `.agent/orchestra/governance-and-routing-v2.md`
-6. `.agent/orchestra/agent-registry.md`
+1. [`/AI_PROJECT.md`](AI_PROJECT.md)
+2. [`docs/00_project/canon-constitution-v1.md`](docs/00_project/canon-constitution-v1.md)
+3. 최신 Canon Amendment와 [`docs/00_project/decision-log.md`](docs/00_project/decision-log.md)
+4. [`docs/00_project/GATE_STATUS.md`](docs/00_project/GATE_STATUS.md)
+5. [`.agent/orchestra/governance-and-routing-v2.md`](.agent/orchestra/governance-and-routing-v2.md)
+6. [`.agent/orchestra/agent-registry.md`](.agent/orchestra/agent-registry.md)
 7. 작업 유형에 필요한 Domain Bible
 8. 관련 Story Architecture
 9. 해당 Context Pack과 Harness
 
-Codex는 `/AGENTS.md`, ChatGPT 프로젝트는 `/AI_PROJECT.md`를 진입점으로 사용한다. 세 라우터는 정본을 복사하지 않고 같은 원본을 가리킨다.
+Codex는 [`/AGENTS.md`](AGENTS.md), ChatGPT 프로젝트는 [`/AI_PROJECT.md`](AI_PROJECT.md)를 진입점으로 사용한다. 세 라우터는 정본을 복사하지 않고 같은 원본을 가리킨다.
 
 ## Orchestration
 
@@ -43,14 +43,14 @@ Codex는 `/AGENTS.md`, ChatGPT 프로젝트는 `/AI_PROJECT.md`를 진입점으�
 
 명명 작업은 A00+A02+영향 Domain+A15+A19+A16+A17 라우트를 사용한다.
 
-전체 역할과 승인범위는 `.agent/orchestra/agent-registry.md`를 따른다.
+전체 역할과 승인범위는 [`.agent/orchestra/agent-registry.md`](.agent/orchestra/agent-registry.md)를 따른다.
 
 ## Active Skills
 
-- `.agent/skills/context-pack-compiler/SKILL.md`
-- `.agent/skills/storycraft-orchestrator/SKILL.md`
-- `.agent/skills/sentence-narrator/SKILL.md`
-- `.agent/skills/naming-audit/SKILL.md`
+- [`.agent/skills/context-pack-compiler/SKILL.md`](.agent/skills/context-pack-compiler/SKILL.md)
+- [`.agent/skills/storycraft-orchestrator/SKILL.md`](.agent/skills/storycraft-orchestrator/SKILL.md)
+- [`.agent/skills/sentence-narrator/SKILL.md`](.agent/skills/sentence-narrator/SKILL.md)
+- [`.agent/skills/naming-audit/SKILL.md`](.agent/skills/naming-audit/SKILL.md)
 
 Skill은 절차이며 정본 승인권이 없다.
 
@@ -58,14 +58,14 @@ Skill은 절차이며 정본 승인권이 없다.
 
 ## Context Packs
 
-- `.agent/context-packs/README.md`
-- `.agent/context-packs/templates/episode-context-pack-template.md`
+- [`.agent/context-packs/README.md`](.agent/context-packs/README.md)
+- [`.agent/context-packs/templates/episode-context-pack-template.md`](.agent/context-packs/templates/episode-context-pack-template.md)
 
 Episode CP가 READY가 아니면 A18을 호출하지 않는다. CP는 정본이 아니며 원본 경로와 기준 ref를 반드시 가진다.
 
 ## Harness
 
-`docs/13_writing_harness/orchestration-harness-v2.md`
+[`docs/13_writing_harness/orchestration-harness-v2.md`](docs/13_writing_harness/orchestration-harness-v2.md)
 
 실행 흐름:
 
@@ -75,13 +75,13 @@ Episode CP가 READY가 아니면 A18을 호출하지 않는다. CP는 정본이 
 
 ## Working Process
 
-`docs/13_writing_harness/working-process-and-meta-prompting-v1.md`
+[`docs/13_writing_harness/working-process-and-meta-prompting-v1.md`](docs/13_writing_harness/working-process-and-meta-prompting-v1.md)
 
 착수 전 인터뷰 → 맹점 훑기 → 함정 체크 → 시안 4개 → 참고작 조사 → 이탈 기록, 그리고 메타 프롬프팅 4단계(컨텍스트 덤핑 / 성공조건 명시 / 실행환경 변환 / 결과물 점검)를 따른다. 본문은 위 문서에만 둔다.
 
 ## Production State
 
-정확한 상태는 `docs/00_project/GATE_STATUS.md`만 따른다. 이 파일의 요약과 Gate 문서가 다르면 Gate 문서가 우선한다.
+정확한 상태는 [`docs/00_project/GATE_STATUS.md`](docs/00_project/GATE_STATUS.md)만 따른다. 이 파일의 요약과 Gate 문서가 다르면 Gate 문서가 우선한다.
 
 ## Repository Rules
 

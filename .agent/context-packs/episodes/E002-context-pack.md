@@ -12,15 +12,15 @@ Reference: `agent/d10-storycraft-orchestration`
 
 Required sources:
 
-- `/AI_PROJECT.md`
-- `docs/00_project/canon-constitution-v1.md`
-- `docs/00_project/D9_CANON_AMENDMENT.md`
-- `docs/00_project/decision-log.md`
-- `docs/00_project/GATE_STATUS.md`
-- `docs/10_story_architecture/detail/v01-scene-ready-design-v1.md`
-- `docs/10_story_architecture/detail/ga01-episode-registry-e001-e075.md`
-- `docs/10_story_architecture/subact-causal-matrix-v1.md`
-- `.agent/context-packs/episodes/E001-context-pack.md`
+- [`/AI_PROJECT.md`](../../../AI_PROJECT.md)
+- [`docs/00_project/canon-constitution-v1.md`](../../../docs/00_project/canon-constitution-v1.md)
+- [`docs/00_project/D9_CANON_AMENDMENT.md`](../../../docs/00_project/D9_CANON_AMENDMENT.md)
+- [`docs/00_project/decision-log.md`](../../../docs/00_project/decision-log.md)
+- [`docs/00_project/GATE_STATUS.md`](../../../docs/00_project/GATE_STATUS.md)
+- [`docs/10_story_architecture/detail/v01-scene-ready-design-v1.md`](../../../docs/10_story_architecture/detail/v01-scene-ready-design-v1.md)
+- [`docs/10_story_architecture/detail/ga01-episode-registry-e001-e075.md`](../../../docs/10_story_architecture/detail/ga01-episode-registry-e001-e075.md)
+- [`docs/10_story_architecture/subact-causal-matrix-v1.md`](../../../docs/10_story_architecture/subact-causal-matrix-v1.md)
+- [`.agent/context-packs/episodes/E001-context-pack.md`](E001-context-pack.md)
 
 Episode function:
 
@@ -61,9 +61,9 @@ E002는 E001의 붕괴 장면을 재연하지 않고, 숫자 갱신과 승인 �
 
 Sources:
 
-- `docs/08_institutions/institution-org-procedure-bible-v1.md`
-- `docs/08_institutions/temporal-authority-split-v1.md`
-- `docs/03_systems/time-travel-ontology-v1.md`
+- [`docs/08_institutions/institution-org-procedure-bible-v1.md`](../../../docs/08_institutions/institution-org-procedure-bible-v1.md)
+- [`docs/08_institutions/temporal-authority-split-v1.md`](../../../docs/08_institutions/temporal-authority-split-v1.md)
+- [`docs/03_systems/time-travel-ontology-v1.md`](../../../docs/03_systems/time-travel-ontology-v1.md)
 
 Required functional roles:
 
@@ -85,9 +85,9 @@ Rules:
 
 Sources:
 
-- `docs/03_systems/time-travel-ontology-v1.md`
-- `docs/03_systems/magic-capability-and-counterplay-matrix-v1.md`
-- `docs/09_collection/major-assets-ledger-v1.md`
+- [`docs/03_systems/time-travel-ontology-v1.md`](../../../docs/03_systems/time-travel-ontology-v1.md)
+- [`docs/03_systems/magic-capability-and-counterplay-matrix-v1.md`](../../../docs/03_systems/magic-capability-and-counterplay-matrix-v1.md)
+- [`docs/09_collection/major-assets-ledger-v1.md`](../../../docs/09_collection/major-assets-ledger-v1.md)
 
 Allowed facts:
 

@@ -3,7 +3,7 @@
 Status: DRAFT  
 Owner: Author  
 Last Reviewed: 2026-08-07  
-Depends On: `/CLAUDE.md`, `/story_architecture_master_prompt_v1.md`  
+Depends On: [`/CLAUDE.md`](../../CLAUDE.md), [`/story_architecture_master_prompt_v1.md`](../../story_architecture_master_prompt_v1.md)  
 Used By: all design documents  
 Open Risks: target platform, final episode count, ending tone  
 Canon Level: HARD LOCK except `[ASSUMPTION]`

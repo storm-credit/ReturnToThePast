@@ -30,12 +30,12 @@ Manuscript: BLOCKED
 ### S1-01 — 정본 계층 불일치
 
 **발견**
-- `canon-constitution-v1.md`는 제목·로맨스·최종 적·엔딩·연대간격을 OPEN으로 유지했다.
+- [`canon-constitution-v1.md`](../00_project/canon-constitution-v1.md)는 제목·로맨스·최종 적·엔딩·연대간격을 OPEN으로 유지했다.
 - D8 완료문서는 같은 항목을 확정했다고 선언했다.
 - 초기 DRAFT·REVIEW 문서가 최신 정본을 다시 덮을 위험이 있었다.
 
 **조치**
-- `docs/00_project/D9_CANON_AMENDMENT.md`
+- [`docs/00_project/D9_CANON_AMENDMENT.md`](../00_project/D9_CANON_AMENDMENT.md)
 - 정본 우선순위와 확정값, 남은 제작 OPEN을 분리했다.
 
 **결과**: CLOSED
@@ -49,8 +49,8 @@ Manuscript: BLOCKED
 **조치**
 - 필수인 **역사주소 앵커**와 안전조건인 **살아 있는 현지 앵커**를 분리했다.
 - 첫 임무는 세렌 사건기록·회색 종·서부 장부를 역사주소로 사용한다.
-- `causal-propagation-and-memory-protocol-v1.md`
-- `v01-d9-correction-overlay.md`
+- [`causal-propagation-and-memory-protocol-v1.md`](../03_systems/causal-propagation-and-memory-protocol-v1.md)
+- [`v01-d9-correction-overlay.md`](../10_story_architecture/detail/v01-d9-correction-overlay.md)
 
 **결과**: CLOSED
 
@@ -64,7 +64,7 @@ Manuscript: BLOCKED
 - CY 0 건국협약, Era N CY 640, F0 CY 664, 24년 간격 확정
 - 에이든 출발 41세, 젊은 에이든 17세
 - E001–E375 주관적 경과 1,214일 확정
-- `master-chronology-and-aging-ledger-v1.md`
+- [`master-chronology-and-aging-ledger-v1.md`](../01_timeline/master-chronology-and-aging-ledger-v1.md)
 
 **결과**: CLOSED
 
@@ -78,7 +78,7 @@ Manuscript: BLOCKED
 - 권역·문화권 인구, F0/F1/F2/F3/P1 생존규모
 - 상비군 5.4만, 비상동원·시간요원 상한
 - 회색 재앙과 장치 즉시정지 피해 범위
-- `demographic-and-scale-ledger-v1.md`
+- [`demographic-and-scale-ledger-v1.md`](../02_world/demographic-and-scale-ledger-v1.md)
 
 **결과**: CLOSED
 
@@ -90,7 +90,7 @@ Manuscript: BLOCKED
 **조치**
 - M01–M17 각각 재점화 회차, 오답 강화, 독자 추론 가능 시점 확정
 - 핵심 미스터리 최대 50화 무언급 금지
-- `mystery-reinforcement-ladder-v1.md`
+- [`mystery-reinforcement-ladder-v1.md`](../11_mystery/mystery-reinforcement-ladder-v1.md)
 
 **결과**: CLOSED
 
@@ -104,7 +104,7 @@ Manuscript: BLOCKED
 - 기존 세 장면을 목표·충돌·선택의 기능 비트로 재정의
 - 실제 원고 장면 수 2~6
 - Q/S/E/X 밀도형, 권별 변주 회차, 7개 훅 유형과 연속반복 제한
-- `scene-density-and-pacing-overlay-v1.md`
+- [`scene-density-and-pacing-overlay-v1.md`](../10_story_architecture/scene-density-and-pacing-overlay-v1.md)
 
 **결과**: CLOSED
 
@@ -117,7 +117,7 @@ Manuscript: BLOCKED
 - L0 생활기술~L4 문명장치 구분
 - 계열별 할 수 없는 것·비용·대응
 - 단독 마법사·팀·기관방벽·치료·통신 기준
-- `magic-capability-and-counterplay-matrix-v1.md`
+- [`magic-capability-and-counterplay-matrix-v1.md`](../03_systems/magic-capability-and-counterplay-matrix-v1.md)
 
 **결과**: CLOSED
 
@@ -130,7 +130,7 @@ Manuscript: BLOCKED
 - 생활안정층 A, 주소·부담층 B, 연대운영층 C, 강제개입층 D
 - S1~S7 공개·대피·우선순위 잠금·출발폐쇄·귀환종료·지역복제·감사분산·D층 폐쇄 순서
 - 실패 모드와 유산 분해 역할 확정
-- `engine-dependency-and-separation-protocol-v1.md`
+- [`engine-dependency-and-separation-protocol-v1.md`](../03_systems/engine-dependency-and-separation-protocol-v1.md)
 
 **결과**: CLOSED
 
@@ -142,7 +142,7 @@ Manuscript: BLOCKED
 **조치**
 - C01–C30 정식명, 시대, 핵심 등장권, 최종상태 확정
 - C30만 결말 주제상 의도적으로 익명 유지
-- `cast-canon-index-v2.md`
+- [`cast-canon-index-v2.md`](../05_characters/cast-canon-index-v2.md)
 
 **결과**: CLOSED
 
@@ -158,7 +158,7 @@ Manuscript: BLOCKED
 - GA IV 카시안 로드·젊은 에이든
 - GA V 유나 벨·하렌 세른·레오르 계승축
 - 수장 제거로 체제해결 금지
-- `antagonist-face-ladder-v1.md`
+- [`antagonist-face-ladder-v1.md`](../04_factions/antagonist-face-ladder-v1.md)
 
 **결과**: CLOSED
 

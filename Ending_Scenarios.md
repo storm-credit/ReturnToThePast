@@ -1,6 +1,6 @@
 # 🎭 엔딩 시나리오 — [Roadmap Aligned]
 
-> **기준**: `Series_Roadmap.md` (15권 타임 루프 느와르)
+> **기준**: [`Series_Roadmap.md`](outline/Series_Roadmap.md) (15권 타임 루프 느와르)
 > **엔딩 분기점**: Vol. 14 — 데이터의 바다에서의 선택
 
 ---

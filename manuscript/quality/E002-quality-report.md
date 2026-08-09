@@ -9,8 +9,8 @@ Reviewed By: A00 / A02 / A07 / A08 / A11 / A13 / A14 / A16 / A18 / A19 / A20 / A
 
 확인한 선행자료:
 
-- `.agent/context-packs/episodes/E002-context-pack.md`
-- `docs/10_story_architecture/craft-manifests/E002-storycraft-manifest.md`
+- [`.agent/context-packs/episodes/E002-context-pack.md`](../../.agent/context-packs/episodes/E002-context-pack.md)
+- [`docs/10_story_architecture/craft-manifests/E002-storycraft-manifest.md`](../../docs/10_story_architecture/craft-manifests/E002-storycraft-manifest.md)
 - E001 원고·품질보고서·D10 소급감사
 - V1 D6 장면설계
 - 시간법칙·기관절차·인물·미스터리·손실 장부

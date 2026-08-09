@@ -12,16 +12,16 @@ Reference: `agent/e002-finalize-status`
 
 Required sources:
 
-- `/AI_PROJECT.md`
-- `docs/00_project/canon-constitution-v1.md`
-- `docs/00_project/D9_CANON_AMENDMENT.md`
-- `docs/00_project/decision-log.md`
-- `docs/00_project/GATE_STATUS.md`
-- `docs/10_story_architecture/detail/v01-scene-ready-design-v1.md`
-- `docs/10_story_architecture/detail/ga01-episode-registry-e001-e075.md`
-- `docs/10_story_architecture/subact-causal-matrix-v1.md`
-- `.agent/context-packs/episodes/E002-context-pack.md`
-- `manuscript/state/E002-state-mutation.md`
+- [`/AI_PROJECT.md`](../../../AI_PROJECT.md)
+- [`docs/00_project/canon-constitution-v1.md`](../../../docs/00_project/canon-constitution-v1.md)
+- [`docs/00_project/D9_CANON_AMENDMENT.md`](../../../docs/00_project/D9_CANON_AMENDMENT.md)
+- [`docs/00_project/decision-log.md`](../../../docs/00_project/decision-log.md)
+- [`docs/00_project/GATE_STATUS.md`](../../../docs/00_project/GATE_STATUS.md)
+- [`docs/10_story_architecture/detail/v01-scene-ready-design-v1.md`](../../../docs/10_story_architecture/detail/v01-scene-ready-design-v1.md)
+- [`docs/10_story_architecture/detail/ga01-episode-registry-e001-e075.md`](../../../docs/10_story_architecture/detail/ga01-episode-registry-e001-e075.md)
+- [`docs/10_story_architecture/subact-causal-matrix-v1.md`](../../../docs/10_story_architecture/subact-causal-matrix-v1.md)
+- [`.agent/context-packs/episodes/E002-context-pack.md`](E002-context-pack.md)
+- [`manuscript/state/E002-state-mutation.md`](../../../manuscript/state/E002-state-mutation.md)
 
 Episode function:
 
@@ -83,8 +83,8 @@ Episode function:
 Sources:
 
 - V1 scene-ready design
-- `docs/11_mystery/mystery-reinforcement-ladder-v1.md`
-- `docs/08_institutions/political-economy-record-law-v1.md`
+- [`docs/11_mystery/mystery-reinforcement-ladder-v1.md`](../../../docs/11_mystery/mystery-reinforcement-ladder-v1.md)
+- [`docs/08_institutions/political-economy-record-law-v1.md`](../../../docs/08_institutions/political-economy-record-law-v1.md)
 - 세렌·리아·에이든 character bibles
 
 Evidence types:

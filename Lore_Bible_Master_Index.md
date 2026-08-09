@@ -72,6 +72,6 @@
 
 ---
 **[사용 가이드]**
-1. 집필 전 **`Series_Roadmap.md`**의 해당 권 파트 확인.
-2. 묘사가 막히면 **`Writing_Prompt_Template.md`** 참고.
-3. 챕터 완료 후 **`Chapter_Audit_Checklist.md`**로 자가 점검.
+1. 집필 전 **[`Series_Roadmap.md`](outline/Series_Roadmap.md)**의 해당 권 파트 확인.
+2. 묘사가 막히면 **[`Writing_Prompt_Template.md`](Guidelines/Writing_Prompt_Template.md)** 참고.
+3. 챕터 완료 후 **[`Chapter_Audit_Checklist.md`](Guidelines/Chapter_Audit_Checklist.md)**로 자가 점검.

@@ -15,11 +15,11 @@ D7 이야기 설계와 D8 세계관 백과 완성 뒤 전면 재감사를 실시
 충돌 시 다음 순서로 판정한다.
 
 1. 작가의 현재 명시 지시
-2. `/CLAUDE.md`
-3. 이 `D9_CANON_AMENDMENT.md`
+2. [`/CLAUDE.md`](../../CLAUDE.md)
+3. 이 [`D9_CANON_AMENDMENT.md`](D9_CANON_AMENDMENT.md)
 4. D9 연대·인과·규모·미스터리·리듬 보정 문서
-5. `FINAL_D8_WORLD_STATUS.md` 및 D8 백과 문서
-6. `FINAL_D7_STATUS.md` 및 D7 이야기 설계 문서
+5. [`FINAL_D8_WORLD_STATUS.md`](FINAL_D8_WORLD_STATUS.md) 및 D8 백과 문서
+6. [`FINAL_D7_STATUS.md`](FINAL_D7_STATUS.md) 및 D7 이야기 설계 문서
 7. 초기 기능설계·DRAFT·REVIEW·LEGACY 문서
 
 하위 문서에 옛 이름이나 미확정 표시가 남아 있더라도 상위 D9 정본의 확정값을 사용한다.

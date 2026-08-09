@@ -3,7 +3,7 @@
 Status: REVIEW  
 Owner: Red Team  
 Last Reviewed: 2026-08-07  
-Depends On: `project-charter.md`  
+Depends On: [`project-charter.md`](project-charter.md)  
 Used By: Canon Constitution, World Bible, Macro Architecture  
 Open Risks: S0/S1 unresolved  
 Canon Level: REVIEW
@@ -11,7 +11,7 @@ Canon Level: REVIEW
 ## S0
 
 ### S0-01 — 기존 집필 체계와 Gate 충돌
-- 문제: 기존 `Start_Here.md`와 `Drafts/`는 즉시 원고 생산을 전제한다.
+- 문제: 기존 [`Start_Here.md`](../../Start_Here.md)와 `Drafts/`는 즉시 원고 생산을 전제한다.
 - 원인: 설계와 집필을 분리하지 않은 구형 운영체계.
 - 채택: 기존 원고는 `LEGACY / REFERENCE ONLY`로 동결한다.
 - 파급효과: Pre-Writing Gate 개방 전 신규 작성·재작성·자동 확장 금지.

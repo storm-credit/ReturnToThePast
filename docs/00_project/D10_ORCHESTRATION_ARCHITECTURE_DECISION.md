@@ -9,7 +9,7 @@ Prepared By: A00 Story Orchestrator / A02 Canon Controller / A16 Red Team
 
 현재 저장소에는 세계관·인물·기관·유산·미스터리·375화 설계 문서가 존재하지만 다음 문제가 남아 있었다.
 
-1. `CLAUDE.md`가 부팅 안내서인지 최상위 정본인지 경계가 불명확했다.
+1. [`CLAUDE.md`](../../CLAUDE.md)가 부팅 안내서인지 최상위 정본인지 경계가 불명확했다.
 2. 에이전트·스킬·정본·작법·하네스의 책임이 일부 중복됐다.
 3. 회차 집필 전에 필요한 문서를 자동으로 묶는 Context Pack이 없었다.
 4. 작법은 여러 문서에 흩어져 있었고 상황별 선택 규칙이 없었다.
@@ -18,10 +18,10 @@ Prepared By: A00 Story Orchestrator / A02 Canon Controller / A16 Red Team
 
 ## 비교한 네 가지 방법
 
-### 방법 1 — 단일 `CLAUDE.md` 중심형
+### 방법 1 — 단일 [`CLAUDE.md`](../../CLAUDE.md) 중심형
 
 구조:
-- 모든 규칙·설정·에이전트·작법을 `CLAUDE.md`에 집중
+- 모든 규칙·설정·에이전트·작법을 [`CLAUDE.md`](../../CLAUDE.md)에 집중
 
 장점:
 - 진입점이 하나라 이해가 쉽다.
@@ -29,7 +29,7 @@ Prepared By: A00 Story Orchestrator / A02 Canon Controller / A16 Red Team
 
 문제:
 - 문서가 비대해지고 서로 다른 권한이 섞인다.
-- `CLAUDE.md` 수정 한 번이 정본 전체 변경처럼 작동할 수 있다.
+- [`CLAUDE.md`](../../CLAUDE.md) 수정 한 번이 정본 전체 변경처럼 작동할 수 있다.
 - 세부 설정과 작업절차가 뒤섞여 오래된 내용이 남기 쉽다.
 - 작가 결정·정본 헌법·상태 장부보다 부팅 문서가 위에 서는 오류가 발생한다.
 
@@ -87,7 +87,7 @@ Prepared By: A00 Story Orchestrator / A02 Canon Controller / A16 Red Team
 
 장점:
 - 권한과 실행을 분리한다.
-- `CLAUDE.md`는 얇은 라우터로만 유지된다.
+- [`CLAUDE.md`](../../CLAUDE.md)는 얇은 라우터로만 유지된다.
 - 에이전트는 판단·승인·책임을 맡고, 스킬은 반복 절차를 맡는다.
 - CP가 각 회차에 필요한 정본만 정확히 묶어 컨텍스트 누락과 과부하를 줄인다.
 - 훅과 하네스가 누락·조용한 변경·연속성 오류를 자동 차단한다.
@@ -110,9 +110,9 @@ Prepared By: A00 Story Orchestrator / A02 Canon Controller / A16 Red Team
 충돌 시 다음 순서를 따른다.
 
 0. 작가의 최신 명시 결정
-1. `docs/00_project/canon-constitution-v1.md`
+1. [`docs/00_project/canon-constitution-v1.md`](canon-constitution-v1.md)
 2. 승인된 Canon Amendment / Errata
-3. `docs/00_project/decision-log.md`
+3. [`docs/00_project/decision-log.md`](decision-log.md)
 4. 시간선·인물·기관·자산·미스터리·손실 상태 장부
 5. 분야별 World/System/Character/Faction/Institution/Collection Bible
 6. Grand Act·Volume·Arc·Subact·Episode Architecture
@@ -120,7 +120,7 @@ Prepared By: A00 Story Orchestrator / A02 Canon Controller / A16 Red Team
 8. 원고 및 품질보고서
 9. Legacy Drafts
 
-`CLAUDE.md`는 위 계층에 포함되지 않는다. 그것은 부팅·탐색·라우팅 문서이며 독립적인 정본 권한이 없다.
+[`CLAUDE.md`](../../CLAUDE.md)는 위 계층에 포함되지 않는다. 그것은 부팅·탐색·라우팅 문서이며 독립적인 정본 권한이 없다.
 
 ## 구성요소 구분
 
@@ -157,7 +157,7 @@ Model Context Protocol을 뜻하는 경우 GitHub·파일·외부 도구 연결�
 
 ## 금지
 
-- `CLAUDE.md`에만 존재하는 설정을 정본으로 사용
+- [`CLAUDE.md`](../../CLAUDE.md)에만 존재하는 설정을 정본으로 사용
 - 에이전트 프롬프트 안에만 설정을 숨김
 - CP를 정본처럼 직접 수정
 - 스킬이 작가 결정이나 Canon Constitution을 덮어씀

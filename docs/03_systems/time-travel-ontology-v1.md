@@ -3,7 +3,7 @@
 Status: REVIEW  
 Owner: World / Systems / Timeline  
 Last Reviewed: 2026-08-07  
-Depends On: `docs/00_project/canon-constitution-v1.md`  
+Depends On: [`docs/00_project/canon-constitution-v1.md`](../00_project/canon-constitution-v1.md)  
 Used By: timeline, institutions, episode architecture, mystery ledgers  
 Open Risks: terminology and exact numerical limits  
 Canon Level: HARD LOCK for mechanics; names OPEN

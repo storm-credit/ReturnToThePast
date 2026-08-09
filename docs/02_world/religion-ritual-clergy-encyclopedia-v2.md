@@ -2,7 +2,7 @@
 
 Status: D10 CANON CANDIDATE  
 Owner: A05 Peoples, Culture & Religion / A06 Institution / A04 Magic & Disease  
-Depends On: `myth-religion-nine-wounds-v1.md`, calendar/language, institution procedure, magic/disease bibles
+Depends On: [`myth-religion-nine-wounds-v1.md`](myth-religion-nine-wounds-v1.md), calendar/language, institution procedure, magic/disease bibles
 
 ## 1. 핵심 원리
 

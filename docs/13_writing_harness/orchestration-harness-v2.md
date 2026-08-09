@@ -39,7 +39,7 @@ A02가 다음을 확인한다.
 - Gate
 
 Hook:
-- `CLAUDE.md` 또는 CP에만 있는 사실이면 BLOCK
+- [`CLAUDE.md`](../../CLAUDE.md) 또는 CP에만 있는 사실이면 BLOCK
 - 오래된 하위 문서가 상위 정본과 충돌하면 상위 정본 적용 후 영향 기록
 
 ## H2 — Context Pack Compile

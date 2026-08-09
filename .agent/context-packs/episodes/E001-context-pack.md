@@ -11,21 +11,21 @@ Purpose: E001 원고의 정본 호출 누락을 소급 검사하고 E002 인계�
 
 ## 1. Authority Sources
 
-- `AI_PROJECT.md`
-- `docs/00_project/canon-constitution-v1.md`
-- `docs/00_project/D9_CANON_AMENDMENT.md`
-- `docs/00_project/decision-log.md`
-- `docs/00_project/GATE_STATUS.md`
-- `.agent/orchestra/governance-and-routing-v2.md`
+- [`AI_PROJECT.md`](../../../AI_PROJECT.md)
+- [`docs/00_project/canon-constitution-v1.md`](../../../docs/00_project/canon-constitution-v1.md)
+- [`docs/00_project/D9_CANON_AMENDMENT.md`](../../../docs/00_project/D9_CANON_AMENDMENT.md)
+- [`docs/00_project/decision-log.md`](../../../docs/00_project/decision-log.md)
+- [`docs/00_project/GATE_STATUS.md`](../../../docs/00_project/GATE_STATUS.md)
+- [`.agent/orchestra/governance-and-routing-v2.md`](../../orchestra/governance-and-routing-v2.md)
 
 ## 2. Architecture Sources
 
-- `docs/10_story_architecture/grand-acts-v1.md`
-- `docs/10_story_architecture/15-volume-architecture-v1.md`
-- `docs/10_story_architecture/subact-causal-matrix-v1.md`
-- `docs/10_story_architecture/detail/ga01-episode-registry-e001-e075.md`
-- `docs/10_story_architecture/detail/v01-scene-ready-design-v1.md`
-- `docs/10_story_architecture/scene-density-and-pacing-overlay-v1.md`
+- [`docs/10_story_architecture/grand-acts-v1.md`](../../../docs/10_story_architecture/grand-acts-v1.md)
+- [`docs/10_story_architecture/15-volume-architecture-v1.md`](../../../docs/10_story_architecture/15-volume-architecture-v1.md)
+- [`docs/10_story_architecture/subact-causal-matrix-v1.md`](../../../docs/10_story_architecture/subact-causal-matrix-v1.md)
+- [`docs/10_story_architecture/detail/ga01-episode-registry-e001-e075.md`](../../../docs/10_story_architecture/detail/ga01-episode-registry-e001-e075.md)
+- [`docs/10_story_architecture/detail/v01-scene-ready-design-v1.md`](../../../docs/10_story_architecture/detail/v01-scene-ready-design-v1.md)
+- [`docs/10_story_architecture/scene-density-and-pacing-overlay-v1.md`](../../../docs/10_story_architecture/scene-density-and-pacing-overlay-v1.md)
 
 ### E001 Required Function
 
@@ -46,9 +46,9 @@ Purpose: E001 원고의 정본 호출 누락을 소급 검사하고 E002 인계�
 
 Sources:
 
-- `docs/01_timeline/master-chronology-and-aging-ledger-v1.md`
-- `docs/02_world/demographic-and-scale-ledger-v1.md`
-- `docs/03_systems/causal-propagation-and-memory-protocol-v1.md`
+- [`docs/01_timeline/master-chronology-and-aging-ledger-v1.md`](../../../docs/01_timeline/master-chronology-and-aging-ledger-v1.md)
+- [`docs/02_world/demographic-and-scale-ledger-v1.md`](../../../docs/02_world/demographic-and-scale-ledger-v1.md)
+- [`docs/03_systems/causal-propagation-and-memory-protocol-v1.md`](../../../docs/03_systems/causal-propagation-and-memory-protocol-v1.md)
 
 Extracted state:
 
@@ -65,9 +65,9 @@ Extracted state:
 
 Sources:
 
-- `docs/02_world/capital-spatial-bible-v1.md`
-- `docs/02_world/atlas-region-dossiers-v1.md`
-- `docs/02_world/military-logistics-bible-v1.md`
+- [`docs/02_world/capital-spatial-bible-v1.md`](../../../docs/02_world/capital-spatial-bible-v1.md)
+- [`docs/02_world/atlas-region-dossiers-v1.md`](../../../docs/02_world/atlas-region-dossiers-v1.md)
+- [`docs/02_world/military-logistics-bible-v1.md`](../../../docs/02_world/military-logistics-bible-v1.md)
 
 Active route:
 
@@ -88,11 +88,11 @@ Required physical facts:
 
 Sources:
 
-- `docs/03_systems/time-travel-ontology-v1.md`
-- `docs/03_systems/kingdom-time-engine-civic-operations-v1.md`
-- `docs/03_systems/magic-and-mana-v1.md`
-- `docs/03_systems/mana-fever-gray-calamity-v1.md`
-- `docs/03_systems/magic-capability-and-counterplay-matrix-v1.md`
+- [`docs/03_systems/time-travel-ontology-v1.md`](../../../docs/03_systems/time-travel-ontology-v1.md)
+- [`docs/03_systems/kingdom-time-engine-civic-operations-v1.md`](../../../docs/03_systems/kingdom-time-engine-civic-operations-v1.md)
+- [`docs/03_systems/magic-and-mana-v1.md`](../../../docs/03_systems/magic-and-mana-v1.md)
+- [`docs/03_systems/mana-fever-gray-calamity-v1.md`](../../../docs/03_systems/mana-fever-gray-calamity-v1.md)
+- [`docs/03_systems/magic-capability-and-counterplay-matrix-v1.md`](../../../docs/03_systems/magic-capability-and-counterplay-matrix-v1.md)
 
 Allowed reveals:
 
@@ -114,10 +114,10 @@ Forbidden reveals:
 
 Sources:
 
-- `docs/08_institutions/institution-org-procedure-bible-v1.md`
-- `docs/08_institutions/temporal-authority-split-v1.md`
-- `docs/08_institutions/political-economy-record-law-v1.md`
-- `docs/08_institutions/economy-prices-professions-v1.md`
+- [`docs/08_institutions/institution-org-procedure-bible-v1.md`](../../../docs/08_institutions/institution-org-procedure-bible-v1.md)
+- [`docs/08_institutions/temporal-authority-split-v1.md`](../../../docs/08_institutions/temporal-authority-split-v1.md)
+- [`docs/08_institutions/political-economy-record-law-v1.md`](../../../docs/08_institutions/political-economy-record-law-v1.md)
+- [`docs/08_institutions/economy-prices-professions-v1.md`](../../../docs/08_institutions/economy-prices-professions-v1.md)
 
 Active institutions:
 
@@ -139,10 +139,10 @@ Rule:
 
 Sources:
 
-- `docs/05_characters/cast-canon-index-v2.md`
-- `docs/05_characters/cast-encyclopedia-v1.md`
-- `docs/05_characters/voice-relationship-state-bible-v1.md`
-- `docs/05_characters/character-state-checkpoints-v1.md`
+- [`docs/05_characters/cast-canon-index-v2.md`](../../../docs/05_characters/cast-canon-index-v2.md)
+- [`docs/05_characters/cast-encyclopedia-v1.md`](../../../docs/05_characters/cast-encyclopedia-v1.md)
+- [`docs/05_characters/voice-relationship-state-bible-v1.md`](../../../docs/05_characters/voice-relationship-state-bible-v1.md)
+- [`docs/05_characters/character-state-checkpoints-v1.md`](../../../docs/05_characters/character-state-checkpoints-v1.md)
 
 ### 에이든 로엔
 
@@ -179,8 +179,8 @@ Sources:
 
 Sources:
 
-- `docs/11_mystery/mystery-reinforcement-ladder-v1.md`
-- `docs/09_collection/major-assets-ledger-v1.md`
+- [`docs/11_mystery/mystery-reinforcement-ladder-v1.md`](../../../docs/11_mystery/mystery-reinforcement-ladder-v1.md)
+- [`docs/09_collection/major-assets-ledger-v1.md`](../../../docs/09_collection/major-assets-ledger-v1.md)
 
 Activated mysteries:
 
@@ -208,9 +208,9 @@ Fairness rule:
 
 Sources:
 
-- `.agent/skills/storycraft-orchestrator/SKILL.md`
-- `docs/10_story_architecture/scene-density-and-pacing-overlay-v1.md`
-- `docs/10_story_architecture/secondary-pov-and-offscreen-action-allocation-v1.md`
+- [`.agent/skills/storycraft-orchestrator/SKILL.md`](../../skills/storycraft-orchestrator/SKILL.md)
+- [`docs/10_story_architecture/scene-density-and-pacing-overlay-v1.md`](../../../docs/10_story_architecture/scene-density-and-pacing-overlay-v1.md)
+- [`docs/10_story_architecture/secondary-pov-and-offscreen-action-allocation-v1.md`](../../../docs/10_story_architecture/secondary-pov-and-offscreen-action-allocation-v1.md)
 
 - Scene density: E형 4장면
 - POV: 에이든 단일

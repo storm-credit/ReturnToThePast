@@ -32,7 +32,7 @@ Protocol: one episode per branch, PR and squash merge
 - Human-Prose Revision Merge SHA: `9272c6e500a77262368ae930ae440532932288b4`
 - Main manuscript: VERIFIED
 - Status in manuscript header: `AUTHOR REVIEW — HUMAN PROSE REVISION`
-- Revision report: `manuscript/quality/E001-human-prose-revision-report.md`
+- Revision report: [`manuscript/quality/E001-human-prose-revision-report.md`](quality/E001-human-prose-revision-report.md)
 - Canon/event change: 없음
 - AI verdict: `AUTHOR REVIEW READY`
 - Final verdict: 작가 검토 대기

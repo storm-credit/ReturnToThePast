@@ -3,7 +3,7 @@
 Status: AUDIT ARTIFACT — NO CANON CHANGE
 Branch: `agent/naming-system-full-audit-v1`
 Base: `main` @ `06ef0b7c97cfeabdbb5e92dece12c11dce18886d`
-Depends On: `naming-full-audit-v1.md`
+Depends On: [`naming-full-audit-v1.md`](naming-full-audit-v1.md)
 
 ## 0. 측정 방법
 
@@ -95,15 +95,15 @@ Depends On: `naming-full-audit-v1.md`
 
 | 파일 | 관련 명칭 출현 |
 |---|---:|
-| `manuscript/volume-01/E001-마지막-도시의-다른-날짜.md` | 11 |
-| `manuscript/volume-01/E002-여섯-개의-승인.md` | 1 |
-| `manuscript/quality/E001-read-aloud-reaudit.md` | 1 |
-| `manuscript/quality/E002-quality-report.md` | 1 |
-| `manuscript/state/E002-state-mutation.md` | 2 |
+| [`manuscript/volume-01/E001-마지막-도시의-다른-날짜.md`](../../manuscript/volume-01/E001-마지막-도시의-다른-날짜.md) | 11 |
+| [`manuscript/volume-01/E002-여섯-개의-승인.md`](../../manuscript/volume-01/E002-여섯-개의-승인.md) | 1 |
+| [`manuscript/quality/E001-read-aloud-reaudit.md`](../../manuscript/quality/E001-read-aloud-reaudit.md) | 1 |
+| [`manuscript/quality/E002-quality-report.md`](../../manuscript/quality/E002-quality-report.md) | 1 |
+| [`manuscript/state/E002-state-mutation.md`](../../manuscript/state/E002-state-mutation.md) | 2 |
 
 **원고는 2편뿐이다.** 375화 설계 중 0.5% 지점이므로 개명 실행 시점으로는 최적이다.
 
-E001에는 §1 대상 명칭 외에 현대 외래어 6건(`스피커`·`시스템`·`단말`·`브리핑실`·`조작판`·`화면`)이 별도로 존재한다 — `naming-full-audit-v1.md` §5.1.
+E001에는 §1 대상 명칭 외에 현대 외래어 6건(`스피커`·`시스템`·`단말`·`브리핑실`·`조작판`·`화면`)이 별도로 존재한다 — [`naming-full-audit-v1.md`](naming-full-audit-v1.md) §5.1.
 
 ---
 
@@ -113,13 +113,13 @@ E001에는 §1 대상 명칭 외에 현대 외래어 6건(`스피커`·`시스�
 
 | 계층 | 파일 |
 |---|---|
-| 정본 | `docs/00_project/canon-naming-pack-v1.md` §6·§7 |
-| Amendment 판정 | `docs/00_project/decision-log.md` (DEC-009 갱신 여부) |
-| Domain Bible | `docs/08_institutions/institution-org-procedure-bible-v1.md`, `docs/02_world/atlas-region-dossiers-v1.md`, `docs/02_world/calendar-language-naming-bible-v1.md` |
-| Architecture | `docs/10_story_architecture/location-world-crosswalk-v1.md`, `docs/10_story_architecture/detail/` 하위 v01~v15 scene-ready 15종 |
+| 정본 | [`docs/00_project/canon-naming-pack-v1.md`](../00_project/canon-naming-pack-v1.md) §6·§7 |
+| Amendment 판정 | [`docs/00_project/decision-log.md`](../00_project/decision-log.md) (DEC-009 갱신 여부) |
+| Domain Bible | [`docs/08_institutions/institution-org-procedure-bible-v1.md`](../08_institutions/institution-org-procedure-bible-v1.md), [`docs/02_world/atlas-region-dossiers-v1.md`](../02_world/atlas-region-dossiers-v1.md), [`docs/02_world/calendar-language-naming-bible-v1.md`](../02_world/calendar-language-naming-bible-v1.md) |
+| Architecture | [`docs/10_story_architecture/location-world-crosswalk-v1.md`](../10_story_architecture/location-world-crosswalk-v1.md), `docs/10_story_architecture/detail/` 하위 v01~v15 scene-ready 15종 |
 | Context Pack | `.agent/context-packs/episodes/` 하위 E001~E003 3종 |
 | 원고 | `manuscript/volume-01/E001`, `E002` |
-| 검증기 | `.agent/skills/sentence-narrator/pronunciation-lexicon.md`, `scripts/validate_e001_canon.py` |
+| 검증기 | [`.agent/skills/sentence-narrator/pronunciation-lexicon.md`](../../.agent/skills/sentence-narrator/pronunciation-lexicon.md), `scripts/validate_e001_canon.py` |
 | 품질 보고서 | `manuscript/quality/*` |
 
 `validate_e001_canon.py`가 명칭 문자열을 검사한다면 개명과 동시에 갱신하지 않으면 검증이 깨진다. **개명 PR에서 반드시 스크립트를 함께 확인해야 한다.**
@@ -136,4 +136,4 @@ E001에는 §1 대상 명칭 외에 현대 외래어 6건(`스피커`·`시스�
 | 설정 확인 필요 (중단) | 8 | 37 | 53 |
 | 작가 선택 필요 (음운 충돌) | 4 | 61 | 96 |
 
-**후보가 제시된 6개 대상의 실제 치환 규모는 29개 파일 / 50행이다.** 예상보다 작다. 근거는 `naming-full-audit-v1.md` §1.2 — Domain Bible이 이미 평이한 이름을 사용하고 있어, 명명 패키지 표층만 조정하면 되기 때문이다.
+**후보가 제시된 6개 대상의 실제 치환 규모는 29개 파일 / 50행이다.** 예상보다 작다. 근거는 [`naming-full-audit-v1.md`](naming-full-audit-v1.md) §1.2 — Domain Bible이 이미 평이한 이름을 사용하고 있어, 명명 패키지 표층만 조정하면 되기 때문이다.

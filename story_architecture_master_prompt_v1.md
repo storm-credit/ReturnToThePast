@@ -290,10 +290,10 @@ S0 또는 S1이 있으면 CANON 완료를 선언하지 않는다.
 
 설계가 끝나면 다음을 작성한다.
 
-- `pre-writing-gate-review-v1.md`
-- `pre-writing-readiness-audit-v1.md`
-- `manuscript-production-workflow-v1.md`
-- `first-writing-batch-readiness-v1.md`
+- [`pre-writing-gate-review-v1.md`](docs/13_writing_harness/pre-writing-gate-review-v1.md)
+- [`pre-writing-readiness-audit-v1.md`](docs/13_writing_harness/pre-writing-readiness-audit-v1.md)
+- [`manuscript-production-workflow-v1.md`](docs/13_writing_harness/manuscript-production-workflow-v1.md)
+- [`first-writing-batch-readiness-v1.md`](docs/13_writing_harness/first-writing-batch-readiness-v1.md)
 
 AI가 Gate를 임의로 열지 않는다.
 

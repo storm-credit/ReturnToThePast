@@ -3,11 +3,11 @@
 Status: CANON  
 Owner: A02 Canon Controller  
 Last Reviewed: 2026-08-07 D10  
-Depends On: 작가의 최신 명시 결정, `docs/00_project/canon-concept-v1.md`  
+Depends On: 작가의 최신 명시 결정, [`docs/00_project/canon-concept-v1.md`](canon-concept-v1.md)  
 Amended By: 승인된 Canon Amendment / Errata / Decision Log  
 Used By: all world, system, character, institution, collection, architecture, CP and manuscript documents  
 Canon Level: section locks  
-Authority Note: `CLAUDE.md`, Agent Prompt, Skill, Context Pack은 이 헌법의 상위가 아니며 독립 정본 권한이 없다.
+Authority Note: [`CLAUDE.md`](../../CLAUDE.md), Agent Prompt, Skill, Context Pack은 이 헌법의 상위가 아니며 독립 정본 권한이 없다.
 
 ## Core Proposition
 
@@ -28,7 +28,7 @@ Authority Note: `CLAUDE.md`, Agent Prompt, Skill, Context Pack은 이 헌법의 
 8. Manuscript
 9. Legacy Reference
 
-`CLAUDE.md`는 Bootstrap Router이며 위 계층에 포함되지 않는다. CP는 읽기용 묶음이며 원본 문서보다 낮다.
+[`CLAUDE.md`](../../CLAUDE.md)는 Bootstrap Router이며 위 계층에 포함되지 않는다. CP는 읽기용 묶음이며 원본 문서보다 낮다.
 
 ## IMMUTABLE
 

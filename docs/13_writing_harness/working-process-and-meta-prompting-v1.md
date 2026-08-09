@@ -3,7 +3,7 @@
 Status: AUTHOR-DIRECTED PRODUCTION RULE — REVIEW REQUIRED
 Owner: A00 Story Orchestrator
 Applies To: 신규 설계, 대규모 감사, 원고 배치, 도구·하네스 변경
-Placement Note: `CLAUDE.md`는 DEC-013이 `정본처럼 비대해짐`을 문제로 지목해 얇은 라우터로 유지한다. 따라서 프로세스 본문은 여기에 두고 `CLAUDE.md`에는 포인터만 둔다.
+Placement Note: [`CLAUDE.md`](../../CLAUDE.md)는 DEC-013이 `정본처럼 비대해짐`을 문제로 지목해 얇은 라우터로 유지한다. 따라서 프로세스 본문은 여기에 두고 [`CLAUDE.md`](../../CLAUDE.md)에는 포인터만 둔다.
 
 ## 0. 배경
 
@@ -13,11 +13,11 @@ Placement Note: `CLAUDE.md`는 DEC-013이 `정본처럼 비대해짐`을 문제�
 
 | 항목 | 기존 1회성 사례 |
 |---|---|
-| 함정 체크 | `docs/00_project/trap-check-v1.md` |
-| 시안 4개 | `docs/00_project/four-design-directions-v1.md` |
-| 참고작 조사 | `docs/00_project/reference-deconstruction.md` |
-| 맹점 훑기 | `docs/99_quality_control/world-bible-blindspot-audit-v1.md` |
-| 이탈 기록 | `docs/00_project/decision-log.md` |
+| 함정 체크 | [`docs/00_project/trap-check-v1.md`](../00_project/trap-check-v1.md) |
+| 시안 4개 | [`docs/00_project/four-design-directions-v1.md`](../00_project/four-design-directions-v1.md) |
+| 참고작 조사 | [`docs/00_project/reference-deconstruction.md`](../00_project/reference-deconstruction.md) |
+| 맹점 훑기 | [`docs/99_quality_control/world-bible-blindspot-audit-v1.md`](../99_quality_control/world-bible-blindspot-audit-v1.md) |
+| 이탈 기록 | [`docs/00_project/decision-log.md`](../00_project/decision-log.md) |
 
 **부족한 것은 산출물이 아니라 반복 규칙이다.** 이 문서가 그 규칙이다.
 
@@ -59,7 +59,7 @@ Placement Note: `CLAUDE.md`는 DEC-013이 `정본처럼 비대해짐`을 문제�
 - 이 작업이 **원문을 읽지 않고** 진행될 수 있는 구간은 어디인가
 - 검증기·CP·발음사전 중 **함께 갱신하지 않으면 깨지는** 것은 무엇인가
 
-명명 작업은 이 절 대신 `naming-source-verification-gate-v1.md`가 우선한다.
+명명 작업은 이 절 대신 [`naming-source-verification-gate-v1.md`](naming-source-verification-gate-v1.md)가 우선한다.
 
 ## 4. 시안 4개 — 한눈에
 
@@ -78,7 +78,7 @@ Placement Note: `CLAUDE.md`는 DEC-013이 `정본처럼 비대해짐`을 문제�
 - 4개는 **정도 차이가 아니라 방향 차이**여야 한다
 - 들러리 안을 만들지 않는다. 수를 못 채우면 3개로 제시하고 사유를 쓴다
 - 추천안을 1개 명시한다. 나열만 하고 끝내지 않는다
-- 선택된 안은 `decision-log.md`에 기록한다
+- 선택된 안은 [`decision-log.md`](../00_project/decision-log.md)에 기록한다
 
 ## 5. 참고작 조사
 
@@ -90,7 +90,7 @@ Placement Note: `CLAUDE.md`는 DEC-013이 `정본처럼 비대해짐`을 문제�
 4. 우리가 **의도적으로 다르게 하는 지점**을 명시한다
 5. 직접 차용은 A15 유사성 감사를 통과해야 한다
 
-`docs/00_project/reference-deconstruction.md`에 누적한다. 참고작 이름·설정을 정본으로 승격하지 않는다.
+[`docs/00_project/reference-deconstruction.md`](../00_project/reference-deconstruction.md)에 누적한다. 참고작 이름·설정을 정본으로 승격하지 않는다.
 
 ## 6. 이탈 기록
 
@@ -105,7 +105,7 @@ Placement Note: `CLAUDE.md`는 DEC-013이 `정본처럼 비대해짐`을 문제�
 | 영향 | 이 이탈이 뒤 단계에 남기는 것 |
 | 미해결 | 아직 답 없는 것 |
 
-정본 방향이 바뀌면 `decision-log.md`에, 작업 내부 이탈이면 해당 감사 문서 말미에 남긴다.
+정본 방향이 바뀌면 [`decision-log.md`](../00_project/decision-log.md)에, 작업 내부 이탈이면 해당 감사 문서 말미에 남긴다.
 
 ---
 
@@ -152,7 +152,7 @@ AI에게 넣을 프롬프트를 AI에게 만들게 하는 절차다.
 3. **확인하지 않은 것을 확인한 것처럼** 쓰지 않았는가
 4. 완료·푸시·병합 주장이 **실제 상태와 일치**하는가 (A17)
 
-`docs/13_writing_harness/naming-source-verification-gate-v1.md` §4와 `.agent/orchestra/completion-gates.md`가 이 절의 강제 장치다.
+[`docs/13_writing_harness/naming-source-verification-gate-v1.md`](naming-source-verification-gate-v1.md) §4와 [`.agent/orchestra/completion-gates.md`](../../.agent/orchestra/completion-gates.md)가 이 절의 강제 장치다.
 
 ---
 

@@ -19,57 +19,57 @@ Canon Level: 기능·인과·권한·영구손실 HARD LOCK / 표현 미세조�
 - 주인공: 에이든 로엔
 - 핵심 용어: 아홉 상처 / 마나열병 / 회색 재앙 / 역사주소 / 연대유산 / 주권신수
 
-정식 매핑은 `docs/00_project/canon-naming-pack-v1.md`를 따른다.
+정식 매핑은 [`docs/00_project/canon-naming-pack-v1.md`](../00_project/canon-naming-pack-v1.md)를 따른다.
 
 ## Module Map
 
 ### A. 세계 범위·지리·공간
-1. `world-scope-geography-v1.md` — 세계 범위, 외부국, 기초 권역·이동
-2. `atlas-region-dossiers-v1.md` — 8권역·도시·자원·시대변화·보급 상세
-3. `capital-spatial-bible-v1.md` — 아르켄 수도·왕궁·성당·기록소·마탑·엔진 동선
-4. `visual-design-bible-v1.md` — 지도·건축·복식·종족·기관·마법의 시각언어
+1. [`world-scope-geography-v1.md`](world-scope-geography-v1.md) — 세계 범위, 외부국, 기초 권역·이동
+2. [`atlas-region-dossiers-v1.md`](atlas-region-dossiers-v1.md) — 8권역·도시·자원·시대변화·보급 상세
+3. [`capital-spatial-bible-v1.md`](capital-spatial-bible-v1.md) — 아르켄 수도·왕궁·성당·기록소·마탑·엔진 동선
+4. [`visual-design-bible-v1.md`](visual-design-bible-v1.md) — 지도·건축·복식·종족·기관·마법의 시각언어
 
 ### B. 문화·생활·언어
-5. `daily-life-language-era-contrast-v1.md` — 기존 세 시대 비교
-6. `culture-daily-life-encyclopedia-v1.md` — 음식·복식·주거·가족·교육·장례·축제
-7. `calendar-language-naming-bible-v1.md` — 달력·언어·번역·진명·역사주소·말투
+5. [`daily-life-language-era-contrast-v1.md`](daily-life-language-era-contrast-v1.md) — 기존 세 시대 비교
+6. [`culture-daily-life-encyclopedia-v1.md`](culture-daily-life-encyclopedia-v1.md) — 음식·복식·주거·가족·교육·장례·축제
+7. [`calendar-language-naming-bible-v1.md`](calendar-language-naming-bible-v1.md) — 달력·언어·번역·진명·역사주소·말투
 
 ### C. 종족·신화·외교
-8. `peoples-and-cultures-v1.md` — 종족·문화·내부파벌 기초
-9. `myth-religion-nine-wounds-v1.md` — 아홉 상처 4층 신화
-10. `military-foreign-powers-v1.md` — 외국·군사 기초
-11. `military-logistics-bible-v1.md` — 편제·보급·치안·공성·부상·미래군 상세
+8. [`peoples-and-cultures-v1.md`](peoples-and-cultures-v1.md) — 종족·문화·내부파벌 기초
+9. [`myth-religion-nine-wounds-v1.md`](myth-religion-nine-wounds-v1.md) — 아홉 상처 4층 신화
+10. [`military-foreign-powers-v1.md`](military-foreign-powers-v1.md) — 외국·군사 기초
+11. [`military-logistics-bible-v1.md`](military-logistics-bible-v1.md) — 편제·보급·치안·공성·부상·미래군 상세
 
 ### D. 마법·질병·시간장치
-12. `../03_systems/magic-and-mana-v1.md` — 일반 마법과 마나
-13. `../03_systems/mana-fever-gray-calamity-v1.md` — 마나열병·회색 재앙
-14. `../03_systems/time-travel-ontology-v1.md` — 직접 시간여행·변형귀환·주소법칙
-15. `../03_systems/kingdom-time-engine-civic-operations-v1.md` — 시민행정과 장치 연결
+12. [`../03_systems/magic-and-mana-v1.md`](../03_systems/magic-and-mana-v1.md) — 일반 마법과 마나
+13. [`../03_systems/mana-fever-gray-calamity-v1.md`](../03_systems/mana-fever-gray-calamity-v1.md) — 마나열병·회색 재앙
+14. [`../03_systems/time-travel-ontology-v1.md`](../03_systems/time-travel-ontology-v1.md) — 직접 시간여행·변형귀환·주소법칙
+15. [`../03_systems/kingdom-time-engine-civic-operations-v1.md`](../03_systems/kingdom-time-engine-civic-operations-v1.md) — 시민행정과 장치 연결
 
 ### E. 경제·법·기관·세력
-16. `../08_institutions/political-economy-record-law-v1.md` — 정치경제·기록법 기초
-17. `../08_institutions/economy-prices-professions-v1.md` — 화폐·물가·임금·직업·세금·복지
-18. `../08_institutions/temporal-authority-split-v1.md` — 시간권한 분할
-19. `../08_institutions/institution-org-procedure-bible-v1.md` — 기관 조직도·정족수·절차
-20. `../04_factions/antagonist-system-v1.md` — 적대시스템 기초
-21. `../04_factions/faction-atlas-v1.md` — 14개 세력·내부파벌·지지기반·자원
+16. [`../08_institutions/political-economy-record-law-v1.md`](../08_institutions/political-economy-record-law-v1.md) — 정치경제·기록법 기초
+17. [`../08_institutions/economy-prices-professions-v1.md`](../08_institutions/economy-prices-professions-v1.md) — 화폐·물가·임금·직업·세금·복지
+18. [`../08_institutions/temporal-authority-split-v1.md`](../08_institutions/temporal-authority-split-v1.md) — 시간권한 분할
+19. [`../08_institutions/institution-org-procedure-bible-v1.md`](../08_institutions/institution-org-procedure-bible-v1.md) — 기관 조직도·정족수·절차
+20. [`../04_factions/antagonist-system-v1.md`](../04_factions/antagonist-system-v1.md) — 적대시스템 기초
+21. [`../04_factions/faction-atlas-v1.md`](../04_factions/faction-atlas-v1.md) — 14개 세력·내부파벌·지지기반·자원
 
 ### F. 인물·관계
-22. `../05_characters/character-faction-institution-bible-v1.md` — 핵심 캐릭터 기초
-23. `../05_characters/cast-encyclopedia-v1.md` — 핵심·조연 30 인물슬롯
-24. `../05_characters/voice-relationship-state-bible-v1.md` — 말투·관계단계·정보상한·감정곡선
-25. `../05_characters/character-state-checkpoints-v1.md` — 상태 체크포인트
+22. [`../05_characters/character-faction-institution-bible-v1.md`](../05_characters/character-faction-institution-bible-v1.md) — 핵심 캐릭터 기초
+23. [`../05_characters/cast-encyclopedia-v1.md`](../05_characters/cast-encyclopedia-v1.md) — 핵심·조연 30 인물슬롯
+24. [`../05_characters/voice-relationship-state-bible-v1.md`](../05_characters/voice-relationship-state-bible-v1.md) — 말투·관계단계·정보상한·감정곡선
+25. [`../05_characters/character-state-checkpoints-v1.md`](../05_characters/character-state-checkpoints-v1.md) — 상태 체크포인트
 
 ### G. 유산·신수
-26. `../09_collection/relics-beasts-ownership-v1.md` — 소유·동의·상실 원칙
-27. `../09_collection/relic-encyclopedia-r01-r12-v1.md` — 연대유산 R01–R12 상세
-28. `../09_collection/sovereign-beast-encyclopedia-b01-b05-v1.md` — 주권신수 B01–B05 상세
-29. `../09_collection/asset-state-checkpoints-v1.md` — 자산 상태장부
+26. [`../09_collection/relics-beasts-ownership-v1.md`](../09_collection/relics-beasts-ownership-v1.md) — 소유·동의·상실 원칙
+27. [`../09_collection/relic-encyclopedia-r01-r12-v1.md`](../09_collection/relic-encyclopedia-r01-r12-v1.md) — 연대유산 R01–R12 상세
+28. [`../09_collection/sovereign-beast-encyclopedia-b01-b05-v1.md`](../09_collection/sovereign-beast-encyclopedia-b01-b05-v1.md) — 주권신수 B01–B05 상세
+29. [`../09_collection/asset-state-checkpoints-v1.md`](../09_collection/asset-state-checkpoints-v1.md) — 자산 상태장부
 
 ### H. 375화 연결·연속성
-30. `../10_story_architecture/location-world-crosswalk-v1.md` — 60 Subact 장소·세계관 사용처
-31. `../01_timeline/world-state-continuity-matrix-v1.md` — O0/O1/N/F0/F1/F2/F3/P1 연속성
-32. `../99_quality_control/world-encyclopedia-d8-audit-v1.md` — 최종 맹점·반복·고유성 감사
+30. [`../10_story_architecture/location-world-crosswalk-v1.md`](../10_story_architecture/location-world-crosswalk-v1.md) — 60 Subact 장소·세계관 사용처
+31. [`../01_timeline/world-state-continuity-matrix-v1.md`](../01_timeline/world-state-continuity-matrix-v1.md) — O0/O1/N/F0/F1/F2/F3/P1 연속성
+32. [`../99_quality_control/world-encyclopedia-d8-audit-v1.md`](../99_quality_control/world-encyclopedia-d8-audit-v1.md) — 최종 맹점·반복·고유성 감사
 
 ## Canon Rules
 

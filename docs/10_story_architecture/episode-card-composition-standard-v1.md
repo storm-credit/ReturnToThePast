@@ -8,7 +8,7 @@ Owner: Grand Architecture / Continuity
 E001–E375 각 회차 카드는 다음 네 자료를 합성한 하나의 설계 카드로 본다.
 
 1. `detail/gaXX-episode-registry-...md`의 해당 Episode 행
-2. `subact-causal-matrix-v1.md`의 해당 Subact
+2. [`subact-causal-matrix-v1.md`](subact-causal-matrix-v1.md)의 해당 Subact
 3. 이 문서의 권별 공통 Context
 4. 인물·기관·자산·미스터리·손실 상태 장부
 
