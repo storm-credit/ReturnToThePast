@@ -26,3 +26,249 @@ Owner: Mystery & MacGuffin
 ## MacGuffin Rule
 
 맥거핀은 이동 이유를 제공하지만 단독으로 문제를 해결하지 않는다. 시리즈의 '최초 연대기'는 최종적으로 한 물건이 아니라 복수 기록과 절차로 해체된다.
+
+---
+
+# 회차 추적 확장 (Plant → Payoff Tracking)
+
+Added: 2026-08-13
+Scope: 위 §표의 M01–M17을 회차·권·Grand Act 축으로 전개
+Derived From: `mystery-reinforcement-ladder-v1.md` §2, `15-volume-architecture-v1.md`, `grand-acts-v1.md`, E001–E003 Context Pack
+Rule: 이 절은 새 미스터리·새 회차를 만들지 않는다. 위 §표와 사다리에 이미 있는 회차만 배치·집계한다.
+
+## A. 회차 → 권 → Grand Act 환산 기준
+
+| Grand Act | 권 | 회차 |
+|---|---|---|
+| GA I — 잘못된 치료 | V1–V3 | E001–E075 |
+| GA II — 살아남은 미래의 권리 | V4–V6 | E076–E150 |
+| GA III — 건국의 아홉 상처 | V7–V9 | E151–E225 |
+| GA IV — 세 시대의 전쟁 | V10–V12 | E226–E300 |
+| GA V — 남길 역사 | V13–V15 | E301–E375 |
+
+권 경계는 25화 단위(V1 E001–E025 … V15 E351–E375)다. 아래 모든 권 표기는 이 기준으로 산출한 값이며 새 배정이 아니다.
+
+## B. M01–M17 심기·회수 추적표
+
+`심기` = 위 §표 First Clue = 사다리 첫 계단.
+`중간 반전` = 위 §표 Mid Reveal.
+`추론 가능` = 사다리의 **독자 추론 가능** 계단.
+`회수` = 위 §표 Final Truth / Payoff.
+
+| ID | 질문 | 심기 | 권 | 중간 반전 | 권 | 추론 가능 | 권 | 회수 | 권 | GA | 심기→회수 |
+|---|---|---|---|---|---|---|---|---|---|---|---:|
+| M01 | 마나열병은 전염병인가 | E008 | V1 | E058 | V3 | E176 | V8 | E205 | V9 | III | 197화 |
+| M02 | 세렌 바일은 왜 창시자로 기록됐나 | E014 | V1 | E061 | V3 | E061 | V3 | E072 | V3 | I | 58화 |
+| M03 | 리아 세른은 왜 F0를 기억하나 | E028 | V2 | E116 | V5 | E260 | V11 | E337 | V14 | V | 309화 |
+| M04 | F0 귀환좌표는 남아 있는가 | E033 | V2 | E122 | V5 | E303 | V13 | E349 | V14 | V | 316화 |
+| M05 | 빈 세금장부에 무엇이 있었나 | E036 | V2 | E060 | V3 | E173 | V7 | E305 | V13 | V | 269화 |
+| M06 | 칼레온 고정환은 왜 안정적인가 | E083 | V4 | E109 | V5 | E286 | V12 | E360 | V15 | V | 277화 |
+| M07 | 시간장치를 누가 만들었나 | E140 | V6 | E165 | V7 | E186 | V8 | E214 | V9 | III | 74화 |
+| M08 | 아홉 상처는 9인 성인인가 | E178 | V8 | E186 | V8 | E190 | V8 | E198 | V8 | III | 20화 |
+| M09 | 몸과 대가는 왜 좌가 없는가 | E190 | V8 | E212 | V9 | E286 | V12 | E367 | V15 | V | 177화 |
+| M10 | 출생 원인이 사라져도 에이든은 왜 남나 | E045 | V2 | E260 | V11 | E275 | V11 | E365 | V15 | V | 320화 |
+| M11 | 젊은 에이든을 누가 요원으로 만들었나 | E252 | V11 | E266 | V11 | E266 | V11 | E274 | V11 | IV | 22화 |
+| M12 | 최종 흑막은 누구인가 | E070 | V3 | E230 | V10 | E298 | V12 | E348 | V14 | V | 278화 |
+| M13 | 움브라는 어디서 왔나 | E089 | V4 | E173 | V7 | E173 | V7 | E310 | V13 | V | 221화 |
+| M14 | 원래 시간선이 진짜인가 | E027 | V2 | E220 | V9 | E220 | V9 | E341 | V14 | V | 314화 |
+| M15 | 최초 연대기는 어디 있나 | E016 | V1 | E332 | V14 | E332 | V14 | E346 | V14 | V | 330화 |
+| M16 | 회색 종은 무엇을 감지하나 | E009 | V1 | E092 | V4 | E092 | V4 | E304 | V13 | V | 295화 |
+| M17 | 최종 감사인장은 만능 정지키인가 | E137 | V6 | E286 | V12 | E344 | V14 | E356 | V15 | V | 219화 |
+
+### B-1. 회수 후 재확인 계단
+
+회수 회차 뒤에도 사다리에 계단이 남아 있는 미스터리다. 이 계단은 새 진실이 아니라 이미 확정된 진실의 대가·기원을 재확인하는 자리다.
+
+| ID | 회수 | 회수 후 계단 | 권 | 기능 |
+|---|---|---|---|---|
+| M01 | E205 | E286 | V12 | 장치 정지로도 즉시 낫지 않음을 재확인 |
+| M02 | E072 | E165 | V7 | 건국기 비용감사 전통과 세렌의 방법을 연결 |
+
+M03–M17에는 회수 후 계단이 없다. 회수 회차가 각 사다리의 마지막 계단이다.
+
+### B-2. 추론 가능 시점과 회수 시점의 간격
+
+사다리 §1은 인물의 정답 인지와 독자의 추론 시점을 분리할 수 있다고 규정한다. 아래는 독자가 먼저 알고 원고가 뒤에 확정하는 구간의 길이다.
+
+| 구간 길이 | 미스터리 |
+|---|---|
+| 0–10화 | M02(11), M08(8), M11(8) |
+| 11–40화 | M07(28), M13… 해당 없음, M17(12) |
+| 41–100화 | M01(29), M04(46), M14(21), M15(14), M16… 해당 없음, M03(77) |
+| 100화 초과 | M05(132), M06(74)… 해당 없음, M09(81), M10(90), M12(50), M13(137), M16(212) |
+
+정확한 값은 다음과 같다. M01 29 / M02 11 / M03 77 / M04 46 / M05 132 / M06 74 / M07 28 / M08 8 / M09 81 / M10 90 / M11 8 / M12 50 / M13 137 / M14 121 / M15 14 / M16 212 / M17 12.
+
+`[ASSUMPTION]` M13·M16의 200화 안팎 대기 구간은 정본이 명시적으로 허용하거나 금지한 바 없다. 사다리 §4가 금지하는 것은 "50화 넘게 아무 언급 없이 방치"이므로, 긴 대기 자체가 아니라 그 사이의 재점화 유무가 판정 기준이라고 읽었다.
+
+## C. 50화 재점화 규칙 간격 점검
+
+사다리 §1: 첫 단서 뒤 **최대 50화 이내**에 직접 또는 변형된 재점화 단서를 둔다.
+아래는 사다리에 **명시된 계단 사이**의 간격이 50화를 넘는 구간이다. 계산값이며 새 단서 배치가 아니다.
+
+| ID | 초과 구간 | 간격 | 권 이동 |
+|---|---|---:|---|
+| M01 | E087 → E176 | 89 | V4 → V8 |
+| M03 | E049 → E116 | 67 | V2 → V5 |
+| M03 | E116 → E188 | 72 | V5 → V8 |
+| M03 | E188 → E260 | 72 | V8 → V11 |
+| M03 | E260 → E337 | 77 | V11 → V14 |
+| M04 | E050 → E122 | 72 | V2 → V5 |
+| M04 | E149 → E226 | 77 | V6 → V10 |
+| M04 | E226 → E303 | 77 | V10 → V13 |
+| M05 | E095 → E173 | 78 | V4 → V7 |
+| M05 | E173 → E305 | 132 | V7 → V13 |
+| M06 | E145 → E224 | 79 | V6 → V9 |
+| M06 | E224 → E286 | 62 | V9 → V12 |
+| M06 | E286 → E360 | 74 | V12 → V15 |
+| M09 | E212 → E286 | 74 | V9 → V12 |
+| M09 | E286 → E367 | 81 | V12 → V15 |
+| M10 | E045 → E125 | 80 | V2 → V5 |
+| M10 | E125 → E226 | 101 | V5 → V10 |
+| M10 | E275 → E365 | 90 | V11 → V15 |
+| M12 | E070 → E126 | 56 | V3 → V6 |
+| M12 | E126 → E230 | 104 | V6 → V10 |
+| M12 | E230 → E298 | 68 | V10 → V12 |
+| M13 | E173 → E301 | 128 | V7 → V13 |
+| M14 | E027 → E116 | 89 | V2 → V5 |
+| M14 | E116 → E220 | 104 | V5 → V9 |
+| M14 | E220 → E275 | 55 | V9 → V11 |
+| M14 | E275 → E341 | 66 | V11 → V14 |
+| M15 | E016 → E072 | 56 | V1 → V3 |
+| M15 | E072 → E165 | 93 | V3 → V7 |
+| M15 | E165 → E230 | 65 | V7 → V10 |
+| M15 | E230 → E332 | 102 | V10 → V14 |
+| M16 | E092 → E176 | 84 | V4 → V8 |
+| M16 | E176 → E304 | 128 | V8 → V13 |
+| M17 | E137 → E225 | 88 | V6 → V9 |
+| M17 | E225 → E286 | 61 | V9 → V12 |
+| M17 | E286 → E344 | 58 | V12 → V14 |
+
+- 초과 구간 총 35개, 해당 미스터리 13개.
+- 전 구간 50화 이내를 만족하는 미스터리: **M02 · M07 · M08 · M11** (4개).
+- 최장 구간: M05 E173→E305 (132화), M16 E176→E304 (128화), M13 E173→E301 (128화).
+- M12 E298→E348은 정확히 50화이므로 규칙을 충족한다.
+
+`[ASSUMPTION]` 위 표는 "규칙 위반 목록"이 아니라 "사다리에 계단이 기재되지 않은 구간"이다. 사다리 §2는 주요 계단만 싣는 형식이므로, 초과 구간에는 이미 기재되지 않은 재점화가 있을 수도 있고 없을 수도 있다고 판단했다. 해소 방법은 사다리에 중간 계단을 추가 기재하거나, 사다리 §3의 여섯 가지 환기 방식 중 하나를 해당 구간 회차 카드에 등재하는 것이다.
+
+## D. 권별 미스터리 부하표
+
+| 권 | 회차 | 심기 | 회수 | 권말 미회수 |
+|---|---|---|---|---:|
+| V1 | E001–E025 | M01 M02 M15 M16 | — | 4 |
+| V2 | E026–E050 | M03 M04 M05 M10 M14 | — | 9 |
+| V3 | E051–E075 | M12 | M02 | 9 |
+| V4 | E076–E100 | M06 M13 | — | 11 |
+| V5 | E101–E125 | — | — | 11 |
+| V6 | E126–E150 | M07 M17 | — | 13 |
+| V7 | E151–E175 | — | — | 13 |
+| V8 | E176–E200 | M08 M09 | M08 | 14 |
+| V9 | E201–E225 | — | M01 M07 | 12 |
+| V10 | E226–E250 | — | — | 12 |
+| V11 | E251–E275 | M11 | M11 | 12 |
+| V12 | E276–E300 | — | — | 12 |
+| V13 | E301–E325 | — | M05 M13 M16 | 9 |
+| V14 | E326–E350 | — | M03 M04 M12 M14 M15 | 4 |
+| V15 | E351–E375 | — | M06 M09 M10 M17 | 0 |
+
+### D-1. Grand Act 집계
+
+| GA | 심기 | 회수 |
+|---|---:|---:|
+| GA I | 10 | 1 |
+| GA II | 4 | 0 |
+| GA III | 2 | 3 |
+| GA IV | 1 | 1 |
+| GA V | 0 | 12 |
+
+- 심기는 GA I–II에 14/17이 몰려 있고, 회수는 GA V에 12/17이 몰려 있다.
+- V5·V7·V10·V12는 심기도 회수도 없는 권이다. 이 네 권에서 미스터리는 사다리 중간 계단으로만 진행한다.
+- V8은 미회수 14개로 최대 부하 지점이다. 동시에 M08 한 건이 같은 권 안에서 심기–회수를 모두 끝내는 유일한 자기완결 구간이다(E178→E198, 20화).
+- V14–V15에서 9건이 회수된다. 사다리 §4의 "최종 회수 직전 새 핵심단서 추가" 금지가 가장 강하게 걸리는 구간이다.
+
+## E. 회차 심기 카드 표기 규약
+
+Episode CP에 미스터리를 등재할 때 아래 네 칸을 채운다. 형식은 E001 CP §8이 이미 쓰고 있는 것을 그대로 규약화한 것이다.
+
+| 칸 | 내용 | 근거 |
+|---|---|---|
+| Activated mysteries | 그 회차에서 살아 있는 M-ID 목록 | E001 CP §8, E003 CP §6 |
+| Plants | 독자가 물리적으로 볼 수 있는 단서 오브젝트 | E001 CP §8 |
+| Reveal ceiling / Reader must not know | 그 회차에서 확정 금지 항목 | E002 CP §7, E003 CP §6 |
+| Fairness rule | 독자가 추론 가능한 범위와 불가능한 범위의 경계 | E001 CP §8 |
+
+### E-1. 등재 실례 (E001–E003)
+
+| 회차 | 활성 M-ID | 심은 물리 단서 | 확정 금지 |
+|---|---|---|---|
+| E001 | M01 M02 M03 M12 M16 | 구일·십이 일·십칠 일 세 날짜 / 존재하지 않는 증언자 순번 / 삭제된 이름 첫 글자 `세` / 이름 없는 등록패 / 세렌의 불법행위가 소거 속도를 늦춘 기록 | 세렌의 실제 기능, 위조 주체, 개인 흑막 암시 |
+| E002 | M-ID 미표기 | 귀환석의 흙이 목표 시대가 아닌 다른 층에서 옴 | 흙의 연대·지역, 장치가 이미 여러 번 과거를 수정했다는 최종진실, 승인기관 중 배신자 지정 |
+| E003 | M02 M05 M12 | 삭제된 증언자의 사망일이 세렌의 범행일보다 앞섬 | 세렌이 지방 소거를 늦췄다는 전체 기능, 책임 전도의 주체, 증언자 정체, 주범 기관, 19만 계산의 오류구조 |
+
+### E-2. 활성과 첫 단서의 구분
+
+`[ASSUMPTION]` CP의 `Activated`와 이 장부의 `First Clue`는 다른 층이라고 읽었다. E001은 M01·M02·M03·M12·M16을 활성으로 적지만, 이 장부의 첫 단서 회차는 각각 E008·E014·E028·E070·E009다. E003도 M05(첫 단서 E036)·M12(첫 단서 E070)를 활성으로 적는다. 두 값이 모두 정본이므로, `활성`은 질문이 화면에 있는 상태이고 `첫 단서`는 그 질문에 증거가 등재되는 회차라고 해석했다. 이 해석이 틀리면 E001·E003 CP와 이 장부 중 하나를 고쳐야 한다.
+
+## F. 회수 성립 조건
+
+회차 배치와 별개로, 아래를 만족하지 못하면 그 회차는 회수 회차가 될 수 없다.
+
+| 조건 | 기준 | 근거 |
+|---|---|---|
+| 증거 종류 | 기록·물질·인물행동·제도결과·생태반응 중 **3종 이상** | 사다리 §1 |
+| 지식 범주 | K0–K4 중 **2종 이상**이 일치해야 REVIEW 진실로 승격 | Knowledge-Holder Ledger, Mystery Safety Rules |
+| 단독 증언 | 리아 세른 또는 오르바드 카르센 한 명의 증언으로 확정 금지 | 사다리 §4 |
+| 반전 다양성 | 모든 미스터리가 '기록이 조작됐다'로 귀결 금지 | 사다리 §4 |
+| 후출 금지 | 최종 회수 직전 새 핵심단서 추가 금지 | 사다리 §4, Canon Constitution IMMUTABLE 10 |
+| 맥거핀 | 회수 회차에서도 물건 하나가 문제를 해결하지 않는다 | 위 MacGuffin Rule, Canon Constitution 금지항목 |
+
+어떤 인물도 K5(작가만 아는 정본 진실) 전체에 접근하지 않으므로, 회수 회차의 확정 주체는 인물이 아니라 대조된 증거다.
+
+## G. 확인 필요 불일치
+
+| 항목 | 내용 | 영향 |
+|---|---|---|
+| E003 vs E033 | 「삭제된 증언자의 사망일이 세렌의 범행일보다 앞섬」이 E003 CP의 Final hook이자 사다리 M02의 E033 계단이다. 같은 단서가 두 회차에 배정돼 있다 | M02 사다리의 두 번째 계단 회차가 E003인지 E033인지 확정 필요 |
+| E002 M-ID 미표기 | E002 CP §7은 세 개의 질문을 산문으로만 적고 M-ID를 달지 않았다. 세 질문 중 「이전에 누군가 같은 장치·좌표를 사용했는가」는 M14, 「승인체계는 실제 안전장치인가」는 M12·M17 계열로 보이나 정본 표기가 없다 | 추적표에 E002를 등재할 수 없음 |
+| M17 범위 | 확장 의뢰는 M01–M16이었으나 이 장부와 사다리 모두 M17을 정본으로 싣고 있어 함께 전개했다 | 없음. 누락 방지 |
+| M06 명칭 | 이 장부 본문은 「왕국 국경」, 사다리는 「칼레온 국경」으로 적는다. 국경망 정식명은 `칼레온 고정환`이다 | 추적표는 정식명을 따랐다. 본문 표기 통일 여부는 별도 결정 |
+
+## H. 근거 파일
+
+- `docs/11_mystery/mystery-macguffin-ledger-v1.md` — M01–M17의 First Clue / Mid Reveal / Final Payoff 회차, MacGuffin Rule
+- `docs/11_mystery/mystery-reinforcement-ladder-v1.md` — §1 운용 규칙, §2 미스터리별 사다리 전 계단과 독자 추론 가능 시점, §3 기억 환기 방식, §4 훼손 금지
+- `docs/11_mystery/knowledge-holder-ledger-v1.md` — K0–K5 지식 범주, 기억 상태, Mystery Safety Rules
+- `docs/11_mystery/future-variation-ledger-v1.md` — F0·F1 공개역사와 은폐현실, 이전 미래 기억 보유자
+- `docs/10_story_architecture/15-volume-architecture-v1.md` — V1–V15 회차 범위와 권별 MacGuffin·Major Turn
+- `docs/10_story_architecture/grand-acts-v1.md` — GA I–V 회차·권 범위
+- `.agent/context-packs/episodes/E001-context-pack.md` §8 — 활성 미스터리, Plants, Fairness rule
+- `.agent/context-packs/episodes/E002-context-pack.md` §7 — Active questions, Reveal ceiling
+- `.agent/context-packs/episodes/E003-context-pack.md` §6 — Active mysteries, Reader may/must-not know, Final hook
+- `docs/00_project/canon-constitution-v1.md` — IMMUTABLE 10(설정 후출 금지), Prohibited Convenient Solutions
+- `docs/00_project/canon-naming-pack-v1.md` — 기관·권역·인물 정식명
+- `docs/05_characters/cast-canon-index-v2.md` — C01–C30 정식명과 첫·마지막 핵심권
+
+### 근거 문서
+
+- C:/Users/Storm Credit/Desktop/Novel/너라는운율/project/ReturnToThePast/docs/11_mystery/mystery-macguffin-ledger-v1.md
+- C:/Users/Storm Credit/Desktop/Novel/너라는운율/project/ReturnToThePast/docs/11_mystery/mystery-reinforcement-ladder-v1.md
+- C:/Users/Storm Credit/Desktop/Novel/너라는운율/project/ReturnToThePast/docs/11_mystery/knowledge-holder-ledger-v1.md
+- C:/Users/Storm Credit/Desktop/Novel/너라는운율/project/ReturnToThePast/docs/11_mystery/future-variation-ledger-v1.md
+- C:/Users/Storm Credit/Desktop/Novel/너라는운율/project/ReturnToThePast/docs/00_project/canon-constitution-v1.md
+- C:/Users/Storm Credit/Desktop/Novel/너라는운율/project/ReturnToThePast/docs/00_project/canon-naming-pack-v1.md
+- C:/Users/Storm Credit/Desktop/Novel/너라는운율/project/ReturnToThePast/docs/05_characters/cast-canon-index-v2.md
+- C:/Users/Storm Credit/Desktop/Novel/너라는운율/project/ReturnToThePast/docs/10_story_architecture/15-volume-architecture-v1.md
+- C:/Users/Storm Credit/Desktop/Novel/너라는운율/project/ReturnToThePast/docs/10_story_architecture/grand-acts-v1.md
+- C:/Users/Storm Credit/Desktop/Novel/너라는운율/project/ReturnToThePast/.agent/context-packs/episodes/E001-context-pack.md
+- C:/Users/Storm Credit/Desktop/Novel/너라는운율/project/ReturnToThePast/.agent/context-packs/episodes/E002-context-pack.md
+- C:/Users/Storm Credit/Desktop/Novel/너라는운율/project/ReturnToThePast/.agent/context-packs/episodes/E003-context-pack.md
+
+### 정본 근거가 없어 채우지 못한 항목
+
+- E002 CP §7은 미스터리를 M-ID 없이 산문 질문 세 개로만 적어, E002를 추적표에 등재할 정본 근거가 없다. 세 질문의 M-ID 귀속은 추정하지 않았다.
+- E004~E375의 Episode Context Pack이 존재하지 않는다(.agent/context-packs/episodes에는 E001~E003만 있음). 따라서 사다리에 기재된 계단 회차 외에 '실제로 심긴 물리 단서 오브젝트'를 회차별로 채울 정본 근거가 없다. E절 실례표가 E001~E003에서 멈추는 이유다.
+- 「삭제된 증언자의 사망일이 세렌의 범행일보다 앞섬」이 E003 CP의 Final hook이자 사다리 M02의 E033 계단으로 이중 배정돼 있다. 어느 쪽이 정본인지 판단할 상위 근거를 찾지 못해 G절에 불일치로만 남겼다.
+- 각 미스터리 회수 회차가 사다리 §1의 '증거 3종(기록·물질·인물행동·제도결과·생태반응)'을 실제로 어떤 조합으로 충족하는지는 정본에 회차별로 적혀 있지 않다. F절에 조건만 표로 남기고 미스터리별 충족 조합표는 만들지 않았다.
+- future-variation-ledger에는 F0·F1 항목만 채워져 있고 F2·F3 항목이 없다. M04(E226 F3 계단)·M12·M14가 F2·F3 상태와 어떻게 연결되는지 대조할 정본이 없어 미래변형↔미스터리 연결표를 만들지 않았다.
+- knowledge-holder-ledger의 보유자는 KH-01~KH-05 다섯뿐이고 M-ID와의 연결이 문서에 없다. 미스터리별 '누가 이 단서를 합법적으로 볼 수 있는가' 표는 추정 없이 만들 수 없어 제외했다.
+- M13·M16의 추론 가능 시점과 회수 시점 사이 137화·212화 공백을 메울 중간 계단이 사다리에 없다. 새 회차를 만들지 않기 위해 비워 두었다.
