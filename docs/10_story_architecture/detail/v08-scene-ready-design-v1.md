@@ -4,8 +4,22 @@ Status: REVIEW — D6 SCENE-READY
 Owner: A04 / A05 / A06 / A08 / A11 / A12 / A13 / A14 / A15 / A16  
 Episodes: E176–E200  
 Length Policy: 원고 단계 최소 공백 포함 7,000자 / 상한 없음  
-Pre-Writing Gate: CLOSED  
-Manuscript: BLOCKED
+Pre-Writing Gate: `docs/00_project/GATE_STATUS.md` 를 따른다 — 이 문서에 상태를 복사하지 않는다
+Manuscript: 게이트 상태에 종속
+
+> ## 이 문서의 `Scene 1/2/3` 은 실제 장면 수가 아니다 `[DEC-021]`
+>
+> 아래 회차 절의 `Scene 1`·`Scene 2`·`Scene 3` 은 **기능 비트**다.
+>
+> 1. 진입·목표 설정
+> 2. 충돌·오판·압박
+> 3. 선택·상태변화·훅
+>
+> **실제 장면 수는 [`scene-density-and-pacing-overlay-v1.md`](../scene-density-and-pacing-overlay-v1.md) 의 밀도표를 따른다.** Q형 2장면 / S형 3장면 / E형 4장면 / X형 5~6장면.
+>
+> 이 구분이 없으면 375화가 모두 3장면 같은 호흡으로 나온다. overlay §1이 지목한 위험이다.
+>
+> **실례**: E001은 이 문서에 Scene 3개로 적혀 있으나 밀도표상 **E형 4장면**이고 원고도 4장면으로 쓰였다. 설계의 3비트를 4장면으로 펼친 것이며 어긋난 것이 아니다.
 
 ## Volume Promise
 
