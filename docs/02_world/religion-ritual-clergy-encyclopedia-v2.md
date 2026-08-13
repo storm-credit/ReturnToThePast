@@ -100,7 +100,7 @@ Depends On: [`myth-religion-nine-wounds-v1.md`](myth-religion-nine-wounds-v1.md)
 ### 증언파
 
 - 지워진 이름과 상충기록을 예배에 포함
-- 실제 장점: 무명종·소거지역 권리 보존
+- 실제 장점: 움브라·소거지역 권리 보존
 - 위험: 검증되지 않은 증언권력이 새로운 독점이 될 수 있음
 
 ### 종말파
@@ -152,7 +152,7 @@ Depends On: [`myth-religion-nine-wounds-v1.md`](myth-religion-nine-wounds-v1.md)
 출생 7~30일 사이 공동체가 이름을 공적으로 사용한다.
 
 - 이름은 소유권이 아니라 관계망의 약속
-- 입양·난민·무명종에게 재이름을 강요하지 않음
+- 입양·난민·움브라에게 재이름을 강요하지 않음
 - 시간선 충돌 시 복수 이름을 병기할 수 있음
 
 ### 장면 갈등
@@ -160,7 +160,7 @@ Depends On: [`myth-religion-nine-wounds-v1.md`](myth-religion-nine-wounds-v1.md)
 - 기록과 가족 증언이 다름
 - 같은 아이의 두 출생일
 - 이름 변경이 상속권·귀환권을 바꿈
-- 무명종 아이의 현재 생활이 과거 혈통보다 우선하는가
+- 움브라 아이의 현재 생활이 과거 혈통보다 우선하는가
 
 ## 7. 혼인·가족·공동체 서약
 

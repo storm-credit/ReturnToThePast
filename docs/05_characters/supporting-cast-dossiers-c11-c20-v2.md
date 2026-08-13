@@ -11,7 +11,7 @@ Owner: A08 Character & Relationship / A05 / A06 / A09 / A13
 
 ---
 
-## C11 마탑 계산원 — 테아 론드
+## C11 마탑 계산원 — 테온 리브
 
 ### 기본
 - 시대: N→F2/F3
@@ -52,7 +52,7 @@ Owner: A08 Character & Relationship / A05 / A06 / A09 / A13
 
 ---
 
-## C12 지방 기록관 — 미라 벤
+## C12 지방 기록관 — 엘사 네르
 
 ### 기본
 - 시대: N 중심
@@ -92,7 +92,7 @@ Owner: A08 Character & Relationship / A05 / A06 / A09 / A13
 
 ---
 
-## C13 북부 카르둔 공방대표 — 도르칸 헤즈
+## C13 북부 카르둔 공방대표 — 도르칸 카르바
 
 ### 기본
 - 시대: O/N/F 변형
@@ -132,7 +132,7 @@ Owner: A08 Character & Relationship / A05 / A06 / A09 / A13
 
 ---
 
-## C14 라하크 길잡이 — 사라크 네이
+## C14 라하크 길잡이 — 사하드 렌
 
 ### 기본
 - 시대: O 중심, 후대 기록 잔향
@@ -171,7 +171,7 @@ Owner: A08 Character & Relationship / A05 / A06 / A09 / A13
 
 ---
 
-## C15 네바르 장례판관 — 벨라 니움
+## C15 네바르 장례판관 — 베사르 움
 
 ### 기본
 - 시대: O/N/P1
@@ -211,7 +211,7 @@ Owner: A08 Character & Relationship / A05 / A06 / A09 / A13
 
 ---
 
-## C16 자유해안 공증인 — 에마르 솔
+## C16 자유해안 공증인 — 마리엔 레바
 
 ### 기본
 - 시대: N/F2/F3
@@ -330,7 +330,7 @@ Owner: A08 Character & Relationship / A05 / A06 / A09 / A13
 
 ---
 
-## C19 외국 해상대표 — 리세나 마르
+## C19 외국 해상대표 — 에스라 마레사
 
 ### 기본
 - 시대: N/F2/F3
@@ -369,7 +369,7 @@ Owner: A08 Character & Relationship / A05 / A06 / A09 / A13
 
 ---
 
-## C20 왕실 실무안정파 관료 — 하렌 세른
+## C20 왕실 실무안정파 관료 — 오렐 바스
 
 ### 기본
 - 시대: N→P1

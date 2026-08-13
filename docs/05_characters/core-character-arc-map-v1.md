@@ -24,7 +24,7 @@ Owner: Character & Relationship
 ## Iris — Era N Local Anchor
 
 - Start Belief: 미래 명분은 현재인을 도구화하므로 눈앞의 사람만 지키면 된다.
-- Development: 자신의 선택도 후대 외부국·난민·무명종에 비용을 넘길 수 있음을 배움.
+- Development: 자신의 선택도 후대 외부국·난민·움브라에 비용을 넘길 수 있음을 배움.
 - Autonomy: 주민 희생 임무에는 귀환표식을 끊을 권리를 실제 행사.
 - Final: 지역 거부권과 공동 감사제도의 설계자 후보. 에이든과의 관계는 로맨스 여부와 무관하게 동등한 정치·윤리 축.
 
