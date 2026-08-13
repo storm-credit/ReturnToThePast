@@ -8,6 +8,29 @@ Depends On: [`naming-inventory-v1.md`](naming-inventory-v1.md), [`naming-source-
 Gate: [`docs/13_writing_harness/naming-source-verification-gate-v1.md`](../13_writing_harness/naming-source-verification-gate-v1.md)
 Rules: [`docs/13_writing_harness/korean-webnovel-fantasy-naming-rules-v1.md`](../13_writing_harness/korean-webnovel-fantasy-naming-rules-v1.md)
 
+## 0-X. 미해결 항목 전량 종결 (2026-08-09, DEC-017)
+
+이 문서가 남겨 둔 미해결·설정확인필요 항목을 전부 닫았다. **새 고유명은 하나도 만들지 않았다.**
+
+| 항목 | 종결 방식 |
+|---|---|
+| 세르나 / 세라트 / 셀린 / 카센 | 고유명 제거 또는 작업명 승격 → 관문도시 · 동쪽 구휼원 · 백유리 협곡 · 절검의 언덕 |
+| 마레이 ↔ 마레사 | `마레이` 제거 → 조류도시연맹 · 밀물항 |
+| 네르바 ↔ 네바르 | 권역 정식명에서 `네르바` 제거 + 양쪽 단독 사용 금지 규칙 |
+| 메이라 솔 ↔ 솔라 종탑 | 대사 축약을 `종탑`으로 고정. 이름 변경 0 |
+| 왕좌승인원 ↔ 왕실평의회 | 포함관계 확정 (평의회 ⊃ 승인원) |
+| 잔문 ↔ 팔림프세스트 | 원고=잔문 / 설정=팔림프세스트. `겹흔적` 폐기 |
+| 잔문감사실 | 폐기. 대기록소 내부 부서 `팔림프세스트 감사실` |
+| 최후 연대국 | institution §12.1 등재 |
+| 연대개입산업연합 | institution §12.2 등재 |
+| 무명종 자칭 | peoples §6 등재 — 당사자는 총칭으로 자칭하지 않는다 |
+| 회색개화 단계 정합 | mana-fever 4단계 국소 발현 조항 등재 |
+| 음운 기준 Status REVIEW | ACTIVE STANDARD 승격 |
+
+§3.4 `설정 확인 필요` 표와 §6 `남은 작가 결정` 목록은 이력으로 보존한다. 현행 상태는 이 절과 DEC-017이다.
+
+**남은 것 3건**: 종족 `네바르` 개명 여부 / atlas `[WORKING]` 장소 11개 / `로엔` 단독 호출 규칙. 셋 다 신규 회차 집필을 막지 않는다.
+
 ## 0-Y. 개명 후 재점검 — 맹점 5축 (2026-08-09)
 
 DEC-016 반영 뒤 `working-process-and-meta-prompting-v1.md` §2의 5축으로 명명 상태를 재훑었다.
