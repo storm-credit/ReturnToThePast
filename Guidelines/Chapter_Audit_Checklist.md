@@ -1,5 +1,23 @@
 # 🕵️ 1화 검수 체크리스트 (Chapter Audit Checklist) — [Final Ver.]
 
+> ## ⛔ RETIRED — 이 문서를 집필·검수에 쓰지 않는다 (DEC-022)
+>
+> 이전 판본의 문서다. 현재 정본과 **정면으로 충돌**한다.
+>
+> | 이 문서 | 현재 정본 |
+> |---|---|
+> | 문장을 반드시 짧게 끊어라(**단문 위주**) | **단문금지 · 자연스러운 문장** — 작가 원칙 |
+> | 1~2문장 단위로 잦은 줄바꿈 | 위와 같음 |
+> | 공백 제외 4,000~4,500자 | 공백 포함 **최소 7,000자** |
+> | 아이리스 = 나른한 소녀 톤 | [`voice-relationship-state-bible-v1.md`](../docs/05_characters/voice-relationship-state-bible-v1.md) |
+> | `lore_bible/style/` 경로 | 존재하지 않음 |
+>
+> 대체 문서: [`sentence-narrator/SKILL.md`](../.agent/skills/sentence-narrator/SKILL.md) §5.3 ·
+> [`prose-quality-checklist.md`](../.agent/skills/sentence-narrator/prose-quality-checklist.md) ·
+> [`GATE_STATUS.md`](../docs/00_project/GATE_STATUS.md)
+>
+> 기록 보존용으로만 남긴다. 아래 내용은 **정본이 아니다.**
+
 > **적용 대상**: 매 챕터 (생성 후 필수 확인)
 > **목표**: "글근육" 스타일(건조한 느와르) + "인과의 등가교환" 테마 준수 + **최신 웹소설 트렌드에 맞는 압도적인 가독성(Readability) 확보**.
 

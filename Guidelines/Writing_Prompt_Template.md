@@ -1,5 +1,16 @@
 # 🤖 집필용 프롬프트 템플릿 (Writing Prompt Template)
 
+> ## ⛔ RETIRED — 이 템플릿으로 집필 지시를 내리지 않는다 (DEC-022)
+>
+> 이전 판본의 문서다. 12번 항목이 지시하는 `1~2문장 단위로 잦은 줄바꿈`은
+> 작가 원칙 **단문금지**와 충돌한다. 분량 기준·설정 경로도 현재와 다르다.
+>
+> 대체 경로: [`sentence-narrator/SKILL.md`](../.agent/skills/sentence-narrator/SKILL.md) ·
+> 회차별 [`.agent/context-packs/episodes/`](../.agent/context-packs/episodes/) ·
+> [`craft-manifests/`](../docs/10_story_architecture/craft-manifests/)
+>
+> 기록 보존용으로만 남긴다. 아래 내용은 **정본이 아니다.**
+
 > AI에게 글을 써달라고 할 때, 또는 검수해달라고 할 때 쓰는 **명령어 모음**입니다.
 > 상황에 맞춰 복사해서 사용하세요.
 

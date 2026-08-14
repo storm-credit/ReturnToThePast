@@ -59,7 +59,20 @@ BARE_PATTERNS = [
 SHORTFORM = [
     (r"움\s*판관", "`움 판관` 금지 — `베사르` 또는 `장례판관` (움브라와 충돌)"),
     (r"(?<![가-힣])솔라(?!\s*종탑)", "대사에서 `솔라` 단독 금지 — 축약은 `종탑` (메이라 솔과 충돌)"),
+    # 발음사전 §기관 축약: 앙카 귀환다리 → `앙카`. `귀환원`은 폐기명 `연대출귀원`의 잔재다.
+    (r"귀환원", "`귀환원` 금지 — 앙카 귀환다리의 축약은 `앙카`"),
+    # 바로 앞뒤에 한글이 없는 `탑`. `관측탑`·`종탑`은 통과한다.
+    (r"(?<![가-힣])탑(?=[은는이가을를에와과의도만]|\s|$)",
+     "`탑` 단독 금지 — 관측탑인지 종탑인지 갈린다. `아스트라` 또는 `종탑`"),
 ]
+
+# 부정형 톤 태그 (기능인물 화법 규격 §1.1)
+# 서술이 「이 사람은 악역이 아님」을 보증하면 대립자 온도가 평탄해진다.
+TONE_TAG = re.compile(
+    r"[^.\n]{0,30}(처럼 하지( 않았|도 않)|처럼 받아들이지 않았|화를 내지 않았"
+    r"|부끄러워하지( 않았|도)|목소리를 높이지 않았|비꼬는 말을 받아들이지 않았"
+    r"|얼굴이 아니었다|말투가 아니었다)[^.\n]{0,15}"
+)
 
 # ---------------------------------------------------------------- 조어·외래어
 # 명명규칙 §3.2 분위기 접두어 자동 부착
@@ -85,6 +98,45 @@ PARTICLE_RULES = [
 
 # ---------------------------------------------------------------- 첫 등장
 FIRST_FULL_NAME = ["에이든 로엔", "리아 세른", "세렌 바일"]
+
+# ---------------------------------------------------------------- 단문 비율
+# DEC-022. 작가 원칙은 `단문금지 · 자연스러운 문장`이다.
+# Legacy `Guidelines/`가 지시하던 `단문 위주 · 1~2문장마다 줄바꿈`은 폐기됐다.
+#
+# 대사는 인물마다 호흡이 달라야 하므로 세지 않는다. 서술문만 본다.
+# 단문 자체는 금지 대상이 아니다. 긴 문장 뒤의 짧은 문장은 강조다.
+# 문제가 되는 것은 `전부 짧을 때`다. 대비가 없으면 아무것도 꽂히지 않는다.
+# 따라서 비율이 아니라 **연속**과 **긴 문장 결핍**을 잡는다.
+SHORT_CHARS = 20          # 이하를 단문으로 센다
+LONG_CHARS = 40           # 초과를 장문으로 센다
+SHORT_RUN_MAX = 8         # 단문 연속 허용 한계
+LONG_RATIO_MIN = 0.05     # 서술문 중 장문이 이 비율 미만이면 호흡이 평평하다
+
+# 번역체 표지. 작가가 실제로 싫어하는 축이다.
+TRANSLATIONESE = [
+    (r"되어졌|지게 되었", "`되어졌`·`지게 되었` — 이중 피동"),
+    (r"에 의해(?!서는)", "`~에 의해` — 영어 수동태 직역"),
+    (r"할 수 있었다.{0,60}할 수 있었다", "`~할 수 있었다` 연쇄"),
+    (r"에 대한 ", "`~에 대한` — 명사화 직역"),
+]
+SKIP_LINE_PREFIX = ("#", ">", "|", "***", "---", "*", "!")
+QUOTE_OPEN = ('"', "“", "'", "‘")
+
+
+def narrative_sentences(body: str) -> list[str]:
+    """서술문만 뽑는다. 대사 줄과 표·제목·장면구분은 제외한다."""
+    out: list[str] = []
+    for raw in body.split("\n"):
+        line = raw.strip()
+        if not line or line.startswith(SKIP_LINE_PREFIX) or line.startswith(QUOTE_OPEN):
+            continue
+        # 서술 안에 끼어든 인용은 제거한다
+        line = re.sub(r"[\"“][^\"”]*[\"”]", "", line).strip()
+        for piece in re.split(r"(?<=[.!?…])\s+", line):
+            piece = piece.strip()
+            if len(piece) > 1:
+                out.append(piece)
+    return out
 
 
 def body_without_frontmatter(text: str) -> tuple[str, str]:
@@ -164,7 +216,63 @@ def check(path: Path) -> list[str]:
     if "HUMAN PROSE PASS" in front or "status: FINAL" in front:
         fails.append("[상태] 작가 승인 전 최종 상태 사용")
 
+    # 11. 문장 호흡 (DEC-022)
+    sents = narrative_sentences(body)
+    if sents:
+        # 11-a. 단문이 몇 개나 연속되는가
+        run = best = 0
+        best_at = 0
+        for i, s in enumerate(sents):
+            run = run + 1 if len(s) <= SHORT_CHARS else 0
+            if run > best:
+                best, best_at = run, i
+        if best > SHORT_RUN_MAX:
+            head = " / ".join(sents[best_at - best + 1 : best_at - best + 4])
+            fails.append(
+                f"[호흡] 단문 {best}문장 연속 — 한계 {SHORT_RUN_MAX}. 시작: {head}"
+            )
+
+        # 11-b. 긴 문장이 아예 없으면 대비가 사라진다
+        long_ratio = sum(1 for s in sents if len(s) > LONG_CHARS) / len(sents)
+        if long_ratio < LONG_RATIO_MIN:
+            fails.append(
+                f"[호흡] {LONG_CHARS}자 초과 문장 {long_ratio:.1%} — "
+                f"최소 {LONG_RATIO_MIN:.0%}. 전부 짧아 강조가 죽는다"
+            )
+
+    # 12. 번역체
+    for pattern, msg in TRANSLATIONESE:
+        for m in re.finditer(pattern, body):
+            line = body[: m.start()].count("\n") + 1
+            fails.append(f"[번역체] (L{line}) {msg}")
+
+    # 13-a. 부정형 톤 태그
+    for m in TONE_TAG.finditer(body):
+        line = body[: m.start()].count("\n") + 1
+        fails.append(f"[화법] (L{line}) 부정형 톤 태그 — {m.group(0).strip()}")
+
+    # 13. 제작 식별자 누출 — 독자가 읽는 본문에 회차·설계 ID가 남으면 안 된다.
+    #     E003에 `E001에서 은판 위로 봤던`이 실제로 남아 있었다.
+    for m in re.finditer(r"(?<![A-Za-z])(E\d{3}|V\d{1,2}|DEC-\d+|[CM]\d{2}|F[0-3])(?![A-Za-z0-9])", body):
+        line = body[: m.start()].count("\n") + 1
+        ctx = body[max(0, m.start() - 20) : m.start() + 20].replace("\n", " ")
+        fails.append(f"[누출] (L{line}) 제작 식별자 `{m.group(1)}` — …{ctx}…")
+
     return fails
+
+
+def measure(path: Path) -> str:
+    """실패 여부와 무관하게 찍는 문장 호흡 지표."""
+    _, body = body_without_frontmatter(path.read_text(encoding="utf-8"))
+    sents = narrative_sentences(body)
+    if not sents:
+        return "서술문 0"
+    lengths = [len(s) for s in sents]
+    short = sum(1 for n in lengths if n <= SHORT_CHARS)
+    return (
+        f"서술문 {len(sents)} · 평균 {sum(lengths) / len(lengths):.1f}자 · "
+        f"단문 {short} ({short / len(sents):.1%})"
+    )
 
 
 def main() -> int:
@@ -184,7 +292,7 @@ def main() -> int:
             total += 1
             continue
         fails = check(path)
-        print(f"[MANUSCRIPT] file={path.name}")
+        print(f"[MANUSCRIPT] file={path.name}  {measure(path)}")
         for item in fails:
             print(f"  FAIL: {item}")
         print(f"[MANUSCRIPT] {'RESULT=PASS' if not fails else f'RESULT=FAIL ({len(fails)})'}")
