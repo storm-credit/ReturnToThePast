@@ -11,10 +11,14 @@
             "id": "aed1afee97ca9355",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "manuscript/volume-01/E001-마지막-도시의-다른-날짜.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "새 탭"
+              "title": "E001-마지막-도시의-다른-날짜"
             }
           }
         ]
@@ -37,7 +41,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": false
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-folder-closed",
               "title": "파일 탐색기"
@@ -177,5 +183,42 @@
     }
   },
   "active": "aed1afee97ca9355",
-  "lastOpenFiles": []
+  "lastOpenFiles": [
+    "docs/10_story_architecture/acts/GA-III.md",
+    "docs/10_story_architecture/acts/GA-V.md",
+    "docs/10_story_architecture/acts/GA-II.md",
+    "docs/10_story_architecture/acts/GA-I.md",
+    "docs/10_story_architecture/acts/GA-IV.md",
+    "docs/10_story_architecture/acts",
+    "docs/10_story_architecture/subacts/V15-15C.md",
+    "docs/10_story_architecture/subacts/V15-15D.md",
+    "docs/10_story_architecture/subacts/V15-15B.md",
+    "docs/10_story_architecture/subacts/V14-14D.md",
+    "docs/10_story_architecture/subacts/V15-15A.md",
+    "docs/10_story_architecture/subacts/V14-14C.md",
+    "docs/10_story_architecture/subacts/V14-14B.md",
+    "manuscript/volume-01/E024-성공-판정.md.tmp.21384.ddd696fe084e",
+    "manuscript/volume-01/E023-미래를-위한-한-번의-칼.md.tmp.21384.6401e8d2936e",
+    "manuscript/volume-01/E021-도주처럼-보이는-대피.md.tmp.21384.147a081e80ca",
+    "docs/10_story_architecture/subacts/V14-14A.md",
+    "manuscript/volume-01/E023-미래를-위한-한-번의-칼.md.tmp.21384.fa26b3d5123e",
+    "manuscript/volume-01/E021-도주처럼-보이는-대피.md.tmp.21384.d3c78b5ca62d",
+    "docs/10_story_architecture/subacts/V13-13C.md.tmp.21384.8a0800606fb3",
+    "manuscript/volume-01/E021-도주처럼-보이는-대피.md.tmp.21384.c657bf312ea2",
+    "manuscript/volume-01/E023-미래를-위한-한-번의-칼.md.tmp.21384.3f959d9b25de",
+    "docs/10_story_architecture/subacts/V13-13D.md",
+    "docs/10_story_architecture/subacts/V13-13C.md",
+    "docs/10_story_architecture/subacts/V13-13A.md",
+    "docs/10_story_architecture/subacts/V13-13B.md",
+    "manuscript/volume-01/E021-도주처럼-보이는-대피.md.tmp.21384.e4c0a2021ffd",
+    "docs/10_story_architecture/subacts/V12-12C.md",
+    "manuscript/volume-01/E024-성공-판정.md",
+    "docs/10_story_architecture/subacts/V12-12B.md",
+    "manuscript/volume-01/E025-내가-모르는-영웅.md",
+    "docs/10_story_architecture/subacts/V12-12D.md",
+    "manuscript/volume-01/E023-미래를-위한-한-번의-칼.md",
+    "manuscript/volume-01/E021-도주처럼-보이는-대피.md",
+    "manuscript/volume-01/E022-명단을-받은-살인자.md",
+    "docs/10_story_architecture/subacts/V12-12A.md"
+  ]
 }
