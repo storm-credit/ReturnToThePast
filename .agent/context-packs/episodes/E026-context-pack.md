@@ -1,0 +1,60 @@
+# E026 Context Pack — 내가 모르는 영웅담
+
+Status: DRAFTING READY FOR THIS BRANCH  
+Episode: E026  
+Volume: 02  
+POV: 에이든 로엔 근접 3인칭  
+Density: E · 4장면  
+Base continuity: E025 F1 귀환 직후
+
+## Sources
+- `docs/10_story_architecture/detail/v02-scene-ready-design-v1.md`
+- `docs/10_story_architecture/scene-density-map-v1.md`
+- `docs/10_story_architecture/15-volume-architecture-v1.md`
+- `docs/05_characters/cast-canon-index-v2.md`
+- `docs/05_characters/character-state-checkpoints-v1.md`
+- `docs/08_institutions/institution-state-checkpoints-v1.md`
+- `docs/12_losses/permanent-loss-lock-v1.md`
+- `manuscript/state/E025-state-mutation.md` on `agent/manuscript-e025`
+
+## Entry State
+- 에이든은 F0 기억을 유지하지만 현재 현실은 F1이다.
+- F1에서 에이든은 국가 영웅이며 실제 이동 권한과 공적 기록을 가진다.
+- 다렌 모트는 F1의 오랜 전우로 행동하지만 에이든은 그 공동 기억이 없다.
+- 리아 세른은 존재하나 F0 기억 보존 범위는 미확정이다.
+- 세렌 바일은 영구사망 상태다.
+- 절검은 전리품이 아니라 소유권 미확정 임시 증거다.
+- 소거 위험명부 일부가 F1에 반입돼 있다.
+
+## Episode Function
+F1이 단순한 가짜 미래가 아니라 실제 성과·생활·관계를 가진 현재라는 사실을 더 강하게 보여 주면서, 에이든의 영웅 서사가 현지에서 발생한 폭력과 숙청을 공적으로 흡수했다는 비용을 처음 직접 연결한다.
+
+## Required Beats
+1. 귀환실 의료검사: 낯선 의료진은 에이든의 흉터·후유증을 `과거 임무 후유증`으로 이미 알고 있고 에이든은 기억 불일치를 숨긴다.
+2. 공적 전시회랑: 서부 숙청·중앙망 재통합이 에이든의 지휘 또는 공적으로 전시돼 있으나 에이든은 기억하지 못한다.
+3. 환영식: 다렌 모트가 사적인 공동 기억을 너무 자연스럽게 말해 에이든이 모르는 관계의 실제성을 강화한다.
+4. 비용 훅: 숙청/정리 대상 명단 첫 부분에서 Era N에서 에이든이 직접 본 환자 이름을 발견한다.
+
+## Hard Facts
+- F1 사람들의 호의와 생활은 가짜 연기나 집단 세뇌가 아니다.
+- 에이든의 공적은 실제 F1 제도와 시민 기억 속에 정착돼 있다.
+- 에이든은 이 회차에서 영웅등급을 즉시 폐기하거나 체제를 적으로 선언하지 않는다.
+- `에이든이 기억하지 못한다`와 `현재 기록이 거짓이다`를 동일시하지 않는다.
+- 아벨 네르는 Era N에서 에이든이 직접 보고 구조·진료 과정에 관여한 환자다.
+
+## Forbidden Reveals
+- F1 재앙이 정확히 20년 앞당겨졌다는 결론을 이 회차에서 확정하지 않는다.
+- 다렌 모트의 F0 적대축 연관을 확정하지 않는다.
+- 리아 세른의 F0 기억 보존 원리를 공개하지 않는다.
+- 모든 F1 공적 기록이 조작됐다고 단정하지 않는다.
+- F0를 유일하게 도덕적으로 정당한 원본 시간선으로 선언하지 않는다.
+
+## Prose Constraints
+- 설명보다 검사 절차, 표지판, 사진, 직원의 자연스러운 행동으로 F1 차이를 보인다.
+- `모든 것이 달라졌다` 같은 총평 문장을 피한다.
+- 다렌은 세계관 설명자가 아니라 현재 생활을 공유하는 실제 친구처럼 말한다.
+- 에이든은 감정을 즉시 결론내리지 않고 사실을 확인한다.
+- 수치는 아라비아 숫자 사용.
+
+## Exit / Hook
+에이든이 서부 숙청 또는 정리 대상 기록의 첫 부분에서 `아벨 네르`를 발견한다. 그 이름은 F1 공적 서사가 말하는 `서부 안정화`가 에이든이 Era N에서 직접 본 환자와 연결돼 있음을 처음 개인 단위로 만든다.
