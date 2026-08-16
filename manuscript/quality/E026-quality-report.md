@@ -1,0 +1,61 @@
+# E026 품질 보고서 — 환영받는 낯선 사람
+
+Status: AUTHOR REVIEW — FIRST DRAFT / NOT HUMAN-PROSE APPROVED
+
+## 정본 설계 대조
+기준: `docs/10_story_architecture/detail/v02-scene-ready-design-v1.md` E026.
+
+- 정본 제목 `환영받는 낯선 사람`으로 원고·Context Pack·Storycraft Manifest·State Mutation을 통일함.
+- 밀도: E형 4실제장면.
+- Scene 1 `귀환실/의료검사`: 낯선 의료진이 에이든의 흉터와 치료기록을 오래된 임무 후유증으로 알고 있으며, 에이든은 기억 불일치를 바로 공개하지 않고 기록을 확인함.
+- Scene 2 `공적 전시회랑`: 세렌 바일 제거 뒤 서부 숙청·중앙 기록망 재통합까지 에이든의 현장 지휘로 전시되고 교육됨. 동시에 병원·배급 개선 자료도 존재함.
+- Scene 3 `환영식`: 다렌 모트와 주변 사람들이 결혼식·출산 대기·식사 습관 같은 사적 공동기억을 자연스럽게 다루지만 에이든에게는 기억이 없음.
+- Scene 4 `명단`: 서부 정리 대상 명단 맨 위에서 `아벨 네르`를 확인하고, 최종 처리 결과는 열람 제한으로 남김.
+
+## E025 중복 방지
+- E025에서 이미 확인한 `다렌은 7년 전우라고 주장`, `F1 생활은 실제로 개선된 부분이 있음`, `에이든 영웅 분류`를 다시 발견하는 장면으로 쓰지 않음.
+- E026에서는 한 단계 전진해 `몸의 흉터 기록`, `숙청 현장 지휘`, `다렌의 사적 공동기억`, `아벨 네르 개인 이름`으로 검증 층위를 높임.
+- E025의 가족사진을 반복하지 않고 환영식의 생활 기억으로 관계를 검증함.
+
+## 정보상한 교정
+- 기존 Context Pack의 `리아 세른은 존재` 문구 삭제. 리아의 F1 존재 여부와 기억 상태는 E028 검증 전 선취하지 않음.
+- 다렌 배우자·자녀의 비정본 고유이름 `소라/라온/미엘`을 원고에서 사용하지 않음.
+- F1 재앙이 20년 앞당겨졌다는 E029 정보 선취 금지.
+- 다렌 모트의 F0 적대축 연관 세부는 E030 전까지 확정하지 않음.
+- 아벨 네르의 최종 생사·처분은 열람 제한으로 유지함.
+- 모든 F1 기록을 조작으로 판정하지 않음.
+
+## Legacy 대조
+- main에서 `Drafts/Vol_1/Vol_1_Chapter_26.md`를 직접 조회했으나 파일이 존재하지 않음.
+- 저장소 코드 검색에서도 `Chapter_26` Legacy 원고를 찾지 못함.
+- 따라서 E026은 재활용할 Legacy 장면이 없으며 V2 정본 카드와 기존 정본 인물/상태 문서만을 사건 기준으로 사용함.
+
+## Anti-Padding 재감사
+기준: `docs/13_writing_harness/anti-padding-policy-v1.md`.
+
+- 날씨·감상·공간 장식으로 분량을 늘리지 않음.
+- 의료장면의 추가 분량은 실제 흉터 위치·치료기록·변경이력 검증에 사용함.
+- 전시회랑의 추가 분량은 숙청이 교육자료와 승인계보에 어떻게 에이든 지휘로 남았는지 확인하는 행동에 사용함.
+- 환영식은 다렌이 설정을 설명하는 장면이 아니라 서로 다른 사람들이 같은 친숙함을 자연스럽게 보이는 관계 검증으로 구성함.
+- 마지막 장면은 숙청 전체를 재설명하지 않고 아벨 네르의 분류 근거와 가려진 처리 결과만 확인함.
+- 장면 끝의 `그는 깨달았다`식 의미 요약을 제거하고 행동·기록·대사로 종료함.
+
+## 정본/문체 가드
+- 독자용 본문에서 `F0/F1/E0xx` 같은 내부 설계표기를 제거함.
+- 다렌 모트는 전체 이름으로 명확히 사용함.
+- 숫자는 아라비아 숫자를 우선함.
+- 정본에 없는 다렌 가족 고유명사 추가 없음.
+- `HUMAN PROSE PASS`는 작가 승인 전 부여하지 않음.
+
+## 자동검증
+- GitHub Actions `Manuscript Validate` run #16: SUCCESS.
+- 정확한 공백 포함 글자수: **7,440자**.
+- `.agent/skills/sentence-narrator/scripts/validate_manuscript.py`: **RESULT=PASS**.
+
+Structural/Craft: PASS (manual)  
+Canon/Information Ceiling: PASS (manual)  
+Legacy Reuse: NO LEGACY E026 FILE FOUND ON MAIN  
+Anti-Padding: PASS  
+Automated Manuscript Validator: PASS  
+Human Prose: AUTHOR REVIEW REQUIRED  
+Final: DRAFT ONLY
