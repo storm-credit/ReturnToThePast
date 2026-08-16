@@ -33,7 +33,7 @@ H5 Scene Architecture로 되돌아가 확인한 결과, 새 사건이 필요한 
 
 날씨·공간·감정·비유·생활 디테일을 분량 보충용으로 추가하지 않았고, 펜리르·전투·새 비밀·새 관계·새 반전을 만들지 않음.
 
-정확한 공백 포함 글자수는 GitHub `Manuscript Validate` workflow의 `[CHAR_COUNT]` 로그를 기준으로 판정한다. CI가 7,000자 미만이면 병합 금지. 오래 열린 PR에서도 정확히 동작하도록 변경파일 탐지는 현재 `origin/main`과 PR head의 merge-base를 사용한다.
+정확한 공백 포함 글자수는 GitHub `Manuscript Validate` workflow의 `[CHAR_COUNT]` 로그를 기준으로 판정한다. CI가 7,000자 미만이면 병합 금지. 오래 열린 PR은 현재 `origin/main`과 PR head의 merge-base로 비교하고, 한글 파일명은 `core.quotepath=false`로 탐지한다.
 
 ## 정보상한/금지
 - F1 변화 원인 미공개.
