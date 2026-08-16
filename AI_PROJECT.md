@@ -50,6 +50,7 @@ Project: 《왕국은 과거를 먹고 산다》 (`ReturnToThePast`)
 7. 작업 유형별 Domain Bible
 8. 관련 Story Architecture
 9. Context Pack과 Harness
+10. 원고 작업이면 [`docs/13_writing_harness/anti-padding-policy-v1.md`](docs/13_writing_harness/anti-padding-policy-v1.md)
 
 ## 5. Orchestration Roles
 
@@ -102,6 +103,17 @@ CP는 원본 경로, 기준 commit/ref, 추출한 사실, 정보상한, 현재 �
 
 작가가 AI 티를 지적한 원고는 구조·정본 검사를 통과했더라도 다음 화로 진행하지 않는다.
 
+### Anti-Padding Hard Stop
+
+[`docs/13_writing_harness/anti-padding-policy-v1.md`](docs/13_writing_harness/anti-padding-policy-v1.md)는 모든 모델과 E001–E375 전체 원고에 강제 적용한다.
+
+- 7,000자 미달을 이유로 묘사·감정·동작·독백·비유·설명을 늘리지 않는다.
+- 분량이 부족하면 문장 확장이 아니라 H5 Scene Architecture로 되돌아간다.
+- 정본/CP 안에서 실제 구현이 부족한 목표·방해·선택·비용·검증·이동·보급·치료·법적 후과·기관 반응을 **장면 기능**으로 보강한다.
+- 분량을 위해 새 사건·설정·관계·복선·반전을 만들지 않는다.
+- 정본 기능을 충분히 구현하고도 7,000자 미달이면 `BLOCKED — LENGTH REQUIRES DESIGN REVIEW`로 중단한다.
+- Anti-Padding Audit 미통과 원고는 다음 화의 기준 원고로 사용할 수 없다.
+
 ## 9. Current State
 
 - D10 모델중립 정본 우선 오케스트라: MERGED / MAIN VERIFIED
@@ -125,6 +137,7 @@ CP는 원본 경로, 기준 commit/ref, 추출한 사실, 정보상한, 현재 �
 - 상태장부 갱신계획 부재
 - S0 또는 S1 미해결
 - Human Prose Audit 미실행
+- Anti-Padding Audit 미통과
 - 작가가 AI 티를 지적한 원고의 재검토 미완료
 - 명명 감사에서 S1로 분류된 기관·종교·시간·장비 이름의 미해결
 - 이전 화가 `AUTHOR REVIEW READY`에 도달하지 못함
