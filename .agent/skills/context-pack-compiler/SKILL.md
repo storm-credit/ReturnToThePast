@@ -11,6 +11,16 @@ description: 특정 권·Subact·회차 작업에 필요한 정본·상태·금�
 
 CP는 새로운 정본이 아니다. 사실을 추가·수정하지 않으며 원본 문서가 바뀌면 재생성한다.
 
+## Legacy 격리
+
+`Drafts/`, 기존 `outline/`, 기존 `lore_bible/`은 기본 CP 출처에서 제외한다.
+
+- 저장소 전체 검색 결과에 Legacy 파일이 나타나도 CP에 자동 편입하지 않는다.
+- 현재 원고 사실·사건·관계·문체는 `manuscript/`와 상위 정본에서만 가져온다.
+- 작가가 명시적으로 Legacy salvage를 요청한 경우에만 Legacy를 읽는다.
+- Legacy에서 현재 작품으로 채택할 항목은 `docs/00_project/legacy-salvage-ledger-v1.md`의 개별 심사를 거친 뒤에만 CP에 포함할 수 있다.
+- 옛 원고가 현재 설계의 공백을 메우는 자동 대체재가 되어서는 안 된다.
+
 ## CP 단계
 
 ### Series CP
@@ -65,6 +75,7 @@ CP는 새로운 정본이 아니다. 사실을 추가·수정하지 않으며 �
 
 ## 컴파일 절차
 
+0. Legacy 경로를 기본 검색·출처 집합에서 제외한다.
 1. 최신 main commit SHA를 기록한다.
 2. 작업 ID를 확정한다.
 3. Authority Stack에서 관련 작가 결정·헌법·개정안을 읽는다.
