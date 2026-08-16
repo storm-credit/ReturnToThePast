@@ -51,11 +51,15 @@ Status: AUTHOR REVIEW — FIRST DRAFT / NOT HUMAN-PROSE APPROVED
 - 다렌을 가짜·세뇌 인물로 만들지 않고 현재 가족과 생활이 있는 독립 인물로 유지함.
 - 에이든은 영웅 분류를 즉시 거부하거나 수용하지 않고 사실 확인을 위해 권한을 유지함.
 
-정확한 공백 포함 글자수와 명칭·호칭·조어·상태 검증은 GitHub `Manuscript Validate` workflow를 기준으로 판정한다. CI PASS 전 main 병합 금지.
+## 자동검증
+- GitHub Actions `Manuscript Validate` run #9: SUCCESS.
+- 정확한 공백 포함 글자수: **7,262자**.
+- `.agent/skills/sentence-narrator/scripts/validate_manuscript.py`: **RESULT=PASS**.
 
 Structural/Craft: PASS (manual)  
 Canon/Information Ceiling: PASS (manual)  
 Legacy Reuse: NO DIRECT SCENE REUSE — CANON CONFLICT AVOIDED  
-Anti-Padding: PASS PENDING CI  
+Anti-Padding: PASS  
+Automated Manuscript Validator: PASS  
 Human Prose: AUTHOR REVIEW REQUIRED  
 Final: DRAFT ONLY
