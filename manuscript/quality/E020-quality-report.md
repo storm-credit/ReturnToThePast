@@ -11,15 +11,39 @@ Status: AUTHOR REVIEW — FIRST DRAFT / NOT HUMAN-PROSE APPROVED
 - 왕실군은 단계적으로 기록실 접근로를 막고, 본부는 강제귀환 준비를 권고.
 - 종료 훅: 세렌 조직원들이 기록·물·식량을 챙겨 목적 불명의 이동 준비를 시작.
 
+## Legacy 대조
+- 비교 원본: `Drafts/Vol_1/Vol_1_Chapter_20.md` (`막다른 골목`).
+- 옛 20화는 이레이저를 피해 하수도로 도주하는 추격전이며 현재 E020의 시간·협상·대피 일정 충돌과 사건 구조가 다르다.
+- 따라서 하수구·추격자·반복 생애 기억·전투 장면은 직접 재사용하지 않는다.
+- 참고 가능한 범용 원리는 이동시간과 통로 제약이 선택을 실제로 제한해야 한다는 점이며, 현행 E020의 40분/25분/1시간과 대피로 봉쇄로 이미 구현한다.
+
+## Anti-Padding 재감사
+기준: `docs/13_writing_harness/anti-padding-policy-v1.md`.
+
+재감사에서 다음을 실제 수정했다.
+
+- 40분/25분/1시간을 같은 장면에서 반복 낭독하던 부분 축소.
+- `문제는 결심이 아니었다` 등 계산 결과를 다시 설명하는 문장 제거.
+- 검증시간·돌파시간을 임의로 깎았다 되돌리는 과정을 핵심 2회만 남겨 실제 제약을 보여 줌.
+- 장부가 사람 목록이라는 의미를 여러 문장으로 재해설하던 부분을 세렌의 보호조건 대화로 넘김.
+- `다시 시간이 돌아왔다`, `그 여지를 만드는 데 시간이 들었다`, `그 1시간은 다른 항목에서...` 같은 주제 반복 축소.
+- 왕실군 진입을 `첫 번째/두 번째/세 번째`로 정렬하던 설계표식 제거하고 시간 흐름으로 서술.
+- 마지막에 숫자 40/25/1시간을 다시 나열하지 않고 실제 조직원 이동을 훅으로 종료.
+- 분량을 위해 옛 하수구 추격전이나 새 전투를 추가하지 않음.
+
+판정: **ANTI-PADDING REVISION COMPLETED / PASS (manual)**.
+
 ## 정보상한/금지
 - 부하 이동 목적 미공개(E021 소관).
 - 장부 실제 결재계보 미공개.
 - 봉쇄 이전·복제 해법 추가 안 함.
-- `시간이 없다`는 감정 선언보다 실제 분 단위 계산을 우선.
+- 옛 원고의 이레이저·하수구 추격·반복 생애 설정 미이식.
 
-최소 7,000자 기준을 넘기는 장편 초고로 작성. validator는 connector-only 환경에서 실제 실행하지 않았으므로 PASS 주장 안 함.
+재수술 뒤 기계 validator는 connector-only 환경에서 실제 실행하지 않았으므로 기계 PASS 주장 안 함.
 
 Structural/Craft: PASS (manual)  
 Canon/Information Ceiling: PASS (manual)  
+Legacy Reuse: NO DIRECT SCENE REUSE — CANON CONFLICT AVOIDED  
+Anti-Padding: PASS (manual, revised)  
 Human Prose: AUTHOR REVIEW REQUIRED  
 Final: DRAFT ONLY
