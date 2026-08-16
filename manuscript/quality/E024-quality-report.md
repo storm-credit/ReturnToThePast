@@ -27,13 +27,20 @@ H5 Scene Architecture로 되돌아가 확인한 결과, 새 사건이 필요한 
 - 절검 원소유자 `세렌 바일` 등록
 - 소거명부 전체를 가져갈 수 없어 교차검증 가능한 줄을 실제로 고르는 과정
 - 서로 다른 주소가 충돌하는 가족 기록은 임의로 하나를 택하지 않고 현지에 남기는 선택
+- 미회수 묶음과 제외 사유를 현장 기록판에 남기는 책임 기록
 - 현지 잔류물의 왕실 회수 가능성을 확인한 뒤 보관함을 닫는 행동
+- 아이리스가 주소 충돌 항목까지 확인하고 `두고 간 사람들`의 책임을 상기시키는 대화
 - 아이리스가 귀환 연결을 출발 순간까지만 안정시키고 환자 쪽으로 돌아가는 선택
-- 좌표 명칭 불일치 재확인과 출발 인장 내 동료 1명 공란 확인
+- 귀환 좌표의 위치 결속과 기관명 표기를 분리 대조하고, 출발 인장 내 동료 1명 공란을 `현장요원 기억과 불일치`로 기록
 
 날씨·공간·감정·비유·생활 디테일을 분량 보충용으로 추가하지 않았고, 펜리르·전투·새 비밀·새 관계·새 반전을 만들지 않음.
 
-정확한 공백 포함 글자수는 GitHub `Manuscript Validate` workflow의 `[CHAR_COUNT]` 로그를 기준으로 판정한다. CI가 7,000자 미만이면 병합 금지. 오래 열린 PR은 현재 `origin/main`과 PR head의 merge-base로 비교하고, 한글 파일명은 `core.quotepath=false`로 탐지한다.
+### 자동 검증
+GitHub Actions `Manuscript Validate` run #5:
+- `[CHAR_COUNT] manuscript/volume-01/E024-성공-판정.md: 7624 chars including spaces/newlines`
+- `.agent/skills/sentence-narrator/scripts/validate_manuscript.py`: `RESULT=PASS`
+
+따라서 최소 분량은 실제 공백 포함 글자수로 통과함.
 
 ## 정보상한/금지
 - F1 변화 원인 미공개.
@@ -46,6 +53,7 @@ H5 Scene Architecture로 되돌아가 확인한 결과, 새 사건이 필요한 
 Structural/Craft: PASS (manual)  
 Canon/Information Ceiling: PASS (manual)  
 Legacy Reuse: NO DIRECT SCENE REUSE — CANON CONFLICT AVOIDED  
-Anti-Padding: PASS PENDING EXACT LENGTH CI  
+Anti-Padding: PASS  
+Automated Manuscript Validator: PASS / 7,624 chars  
 Human Prose: AUTHOR REVIEW REQUIRED  
 Final: DRAFT ONLY
