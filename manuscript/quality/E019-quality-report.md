@@ -12,16 +12,40 @@ Status: AUTHOR REVIEW — FIRST DRAFT / NOT HUMAN-PROSE APPROVED
 - 봉쇄 이전·복제·대체키의 간편 해법을 제시하지 않음.
 - 종료 훅: 본부가 `표적 생존 시 F0 잔여일 예측 11일`을 갱신. 객관적 확정값이 아니라 예측으로 처리.
 
+## Legacy 대조
+- 비교 원본: `Drafts/Vol_1/Vol_1_Chapter_19.md` (`추격자`).
+- 옛 19화는 검은 시장에서 추격자가 접근하는 전투·도주 압박이 핵심이다.
+- 새 E019는 세렌 생체인장과 서부 기록망 봉쇄의 연동, 권한 독점의 비용, 본부 11일 예측이 핵심이므로 옛 추격자·검은 시장 사건을 이식하지 않는다.
+- 참고 가능한 범용 원리는 외부 압박이 판단 시간을 좁히는 방식뿐이며, 현행 원고에서는 왕실 포위와 환자 수레 연기로 이미 구현한다.
+
+## Anti-Padding 재감사
+기준: `docs/13_writing_harness/anti-padding-policy-v1.md`.
+
+재감사에서 다음을 실제 수정했다.
+
+- `E017에서는` 같은 내부 회차번호 제거.
+- 세렌의 `필요해서` 답변 뒤 기억채취·금지의식·명령불복종을 다시 나열하며 인물 의미를 해설하던 문단 삭제.
+- `거짓말이면 죽이기 쉬웠다 / 사실이어도...` 식 주제 해설 삭제.
+- 장치실 검증 뒤 `핵심 하나는 사실 / 다른 핵심도 사실 / 무고하지 않음 / 제거도 공짜 아님`의 4단 재요약 제거.
+- 마지막 `미래는 11일 / 현지는 봉쇄 / 둘 다 사실이라 어렵다`는 격언형 결론 삭제.
+- 장면은 세렌의 공개 → 아이리스의 독립 검증 → 11일 예측 순서로만 남김.
+- 분량을 위해 옛 추격자 전투나 새 액션을 추가하지 않음.
+
+판정: **ANTI-PADDING REVISION COMPLETED / PASS (manual)**.
+
 ## 정보상한/금지
 - 세렌이 실제로 지방 소거·비용전가를 늦추는 전체 기능 미공개.
 - 기록 변경 주체·삭제 증언자 정체 미공개.
 - 11일 예측의 누락항목 미공개.
 - 세렌 사망 뒤 재앙 가속 미공개.
 - 세렌을 무고·무해한 인물로 처리하지 않음.
+- 옛 원고의 검은 시장·추격자 사건을 현행 정본에 이식하지 않음.
 
-최소 7,000자 기준을 넘기는 장편 초고로 작성. validator는 connector-only 환경에서 실제 실행하지 않았으므로 PASS 주장 안 함.
+재수술 뒤 기계 validator는 connector-only 환경에서 실제 실행하지 않았으므로 기계 PASS 주장 안 함.
 
 Structural/Craft: PASS (manual)  
 Canon/Information Ceiling: PASS (manual)  
+Legacy Reuse: NO DIRECT SCENE REUSE — CANON CONFLICT AVOIDED  
+Anti-Padding: PASS (manual, revised)  
 Human Prose: AUTHOR REVIEW REQUIRED  
 Final: DRAFT ONLY
