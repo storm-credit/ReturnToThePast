@@ -25,11 +25,12 @@ jobs:
           # Old PRs may have been created from a much older main. Compare the
           # current PR head to its merge-base with current origin/main so only
           # changes introduced by the PR branch are validated.
+          # core.quotepath=false is required because manuscript filenames are Korean.
           HEAD_SHA="${{ github.event.pull_request.head.sha }}"
           BASE_SHA="$(git merge-base origin/main "$HEAD_SHA")"
           echo "PR head: $HEAD_SHA"
           echo "merge-base: $BASE_SHA"
-          git diff --name-only "$BASE_SHA" "$HEAD_SHA" \
+          git -c core.quotepath=false diff --name-only "$BASE_SHA" "$HEAD_SHA" \
             | grep -E '^manuscript/volume-[0-9]+/E[0-9]{3}.*\.md$' \
             | tee /tmp/changed-manuscripts.txt || true
           if [ ! -s /tmp/changed-manuscripts.txt ]; then
