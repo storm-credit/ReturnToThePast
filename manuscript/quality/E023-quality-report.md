@@ -12,6 +12,29 @@ Status: AUTHOR REVIEW — FIRST DRAFT / NOT HUMAN-PROSE APPROVED
 - 세렌이 인지하던 연대기 접근 경로 일부는 사망과 함께 소실되어 확인 불가 상태로 전환.
 - 도시 전체 회색 종 동시 타종과 장부 속 주민 이름 흐림으로 종료.
 
+## Legacy 대조
+- 비교 원본: `Drafts/Vol_1/Vol_1_Chapter_23.md` (`펜리르`).
+- 옛 23화는 빈민가 독립세력 펜리르 접촉과 반복 생애 기억을 바탕으로 한 협상이 핵심이다.
+- 현행 E023은 세렌 바일 영구사망과 봉쇄 해제라는 HARD LOCK 사건이므로 펜리르·반복 생애·별도 세력 협상을 이식하지 않는다.
+- 참고 가능한 범용 원리는 좁은 공간에서 동선·퇴로가 실제 전투 선택을 제약하는 방식뿐이며, 현행 원고는 장부장과 환자 통로를 파괴하지 않는 제약으로 구현한다.
+
+## Anti-Padding 재감사
+기준: `docs/13_writing_harness/anti-padding-policy-v1.md`.
+
+재감사에서 다음을 실제 수정했다.
+
+- `E016` 같은 내부 회차번호를 독자용 본문에서 제거.
+- 세렌의 `명단` 말을 `마지막 부탁처럼 들릴 수 있었다 / 인계 확인이었다`로 해설하던 부분 축소.
+- 전투 중 `이기려는 검이 아니었다 / 시간을 쓰게 하는 검이었다` 등 동작 뒤 의미 대구를 제거.
+- 치명상 직전 `제압/결박/검증` 선택을 장황하게 재해설하던 부분 축소하고 이미 확정된 수치와 귀환창만 남김.
+- 세렌 마지막 반응을 `웃지 않았다/용서하지 않았다/무죄를 말하지 않았다`로 3단 정리하던 부분 삭제.
+- 생체인장 소등 뒤 `죽음은 종료가 아니었다 / 장치의 다음 단계였다` 격언형 해설 제거.
+- 세렌 사망 이유를 `확신해서가 아니다/거짓말쟁이라서가 아니다/시간이 없어서다/결과는 같다`로 반복하던 문단 삭제.
+- 마지막 명단·죽음 의미를 다시 해설하지 않고 실제 장부 이름 흐림과 본부 `표적 제거 확인` 신호에서 종료.
+- 분량 확보를 위해 옛 펜리르 세력이나 새 전투·유언을 추가하지 않음.
+
+판정: **ANTI-PADDING REVISION COMPLETED / PASS (manual)**.
+
 ## 영구손실
 - 세렌 바일: **영구사망.** 리셋·대체 시간선 회수·다른 세렌 대체 없음.
 - 그의 사망은 성공 조건과 현지 비용을 동시에 발생시킴.
@@ -22,10 +45,13 @@ Status: AUTHOR REVIEW — FIRST DRAFT / NOT HUMAN-PROSE APPROVED
 - 회색 종 원리 미공개.
 - 19만 모델 누락비용 미공개.
 - 시신 애도·카타르시스·죄책감 독백으로 종료하지 않음.
+- 옛 원고의 펜리르·반복 생애 설정 미이식.
 
-최소 7,000자 기준을 넘기는 장편 초고로 작성. validator는 connector-only 환경에서 실제 실행하지 않았으므로 PASS 주장 안 함.
+재수술 뒤 기계 validator는 connector-only 환경에서 실제 실행하지 않았으므로 기계 PASS 주장 안 함.
 
 Structural/Craft: PASS (manual)  
 Canon/Information Ceiling: PASS (manual)  
+Legacy Reuse: NO DIRECT SCENE REUSE — CANON CONFLICT AVOIDED  
+Anti-Padding: PASS (manual, revised)  
 Human Prose: AUTHOR REVIEW REQUIRED  
 Final: DRAFT ONLY
