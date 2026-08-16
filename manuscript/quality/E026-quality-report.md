@@ -47,11 +47,15 @@ Status: AUTHOR REVIEW — FIRST DRAFT / NOT HUMAN-PROSE APPROVED
 - 정본에 없는 다렌 가족 고유명사 추가 없음.
 - `HUMAN PROSE PASS`는 작가 승인 전 부여하지 않음.
 
-정확한 공백 포함 글자수와 명칭·호칭·조어·상태 검증은 GitHub `Manuscript Validate` workflow를 기준으로 판정한다. CI PASS 전 main 병합 금지.
+## 자동검증
+- GitHub Actions `Manuscript Validate` run #16: SUCCESS.
+- 정확한 공백 포함 글자수: **7,440자**.
+- `.agent/skills/sentence-narrator/scripts/validate_manuscript.py`: **RESULT=PASS**.
 
 Structural/Craft: PASS (manual)  
 Canon/Information Ceiling: PASS (manual)  
 Legacy Reuse: NO LEGACY E026 FILE FOUND ON MAIN  
-Anti-Padding: PASS PENDING CI  
+Anti-Padding: PASS  
+Automated Manuscript Validator: PASS  
 Human Prose: AUTHOR REVIEW REQUIRED  
 Final: DRAFT ONLY
