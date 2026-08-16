@@ -27,6 +27,7 @@ Project: 《왕국은 과거를 먹고 산다》 / `ReturnToThePast`
 7. 작업 유형에 필요한 Domain Bible
 8. 관련 Story Architecture
 9. 해당 Context Pack과 Harness
+10. 원고 작업이면 [`docs/13_writing_harness/anti-padding-policy-v1.md`](docs/13_writing_harness/anti-padding-policy-v1.md)
 
 Codex는 [`/AGENTS.md`](AGENTS.md), ChatGPT 프로젝트는 [`/AI_PROJECT.md`](AI_PROJECT.md)를 진입점으로 사용한다. 세 라우터는 정본을 복사하지 않고 같은 원본을 가리킨다.
 
@@ -73,6 +74,19 @@ Episode CP가 READY가 아니면 A18을 호출하지 않는다. CP는 정본이 
 
 명칭 생성·교체가 포함되면 `naming-audit`을 Prose Audit 전에 실행한다.
 
+## Anti-Padding Hard Stop
+
+원고 분량 하한은 문장을 늘리라는 지시가 아니다. [`docs/13_writing_harness/anti-padding-policy-v1.md`](docs/13_writing_harness/anti-padding-policy-v1.md)는 E001–E375 전체에 강제 적용한다.
+
+- 7,000자 미달을 이유로 묘사·감정·독백·동작·설명·비유를 늘리지 않는다.
+- 이미 전달된 정보를 표현만 바꿔 반복하지 않는다.
+- 분량이 부족하면 A18은 즉시 H5 Scene Architecture로 되돌아간다.
+- 보강은 정본/CP 안에 이미 있는 목표·방해·선택·비용·검증·이동·보급·치료·법적 후과·기관 반응 중 실제 구현이 부족한 **장면 기능**으로만 한다.
+- 새 사건·새 설정·새 관계·새 복선·새 반전은 분량 보강 명목으로 만들 수 없다.
+- 정본 기능을 충분히 구현하고도 7,000자 미달이면 `BLOCKED — LENGTH REQUIRES DESIGN REVIEW`로 중단한다.
+- `7,000자 이상`만으로 PASS를 선언할 수 없다.
+- Anti-Padding Audit이 끝나지 않은 원고는 다음 화 집필·병합 기준으로 승격하지 않는다.
+
 ## Working Process
 
 [`docs/13_writing_harness/working-process-and-meta-prompting-v1.md`](docs/13_writing_harness/working-process-and-meta-prompting-v1.md)
@@ -92,4 +106,5 @@ Episode CP가 READY가 아니면 A18을 호출하지 않는다. CP는 정본이 
 - CP 안에서 새 설정 생성 금지
 - S0/S1 또는 stale CP가 있으면 집필·병합 중단
 - 명명 감사 S1이 남은 상태에서는 관련 새 이름을 원고에 확장하지 않음
+- Anti-Padding Audit 미통과 시 다음 화 집필·병합 중단
 - GitHub 완료는 A17이 main에서 재확인한 상태만 보고
