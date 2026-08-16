@@ -1,0 +1,50 @@
+name: Manuscript Validate
+
+on:
+  pull_request:
+    paths:
+      - 'manuscript/**/*.md'
+      - '.agent/skills/sentence-narrator/scripts/validate_manuscript.py'
+
+permissions:
+  contents: read
+
+jobs:
+  validate-manuscript:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout PR
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Find changed episode manuscripts
+        id: changed
+        shell: bash
+        run: |
+          git diff --name-only "${{ github.event.pull_request.base.sha }}" "${{ github.sha }}" \
+            | grep -E '^manuscript/volume-[0-9]+/E[0-9]{3}.*\.md$' \
+            | tee /tmp/changed-manuscripts.txt || true
+          if [ ! -s /tmp/changed-manuscripts.txt ]; then
+            echo 'No changed episode manuscript files.'
+          fi
+
+      - name: Report exact character counts
+        shell: bash
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          paths = [Path(p) for p in Path('/tmp/changed-manuscripts.txt').read_text().splitlines() if p.strip()]
+          for path in paths:
+              text = path.read_text(encoding='utf-8')
+              print(f'[CHAR_COUNT] {path}: {len(text)} chars including spaces/newlines')
+          PY
+
+      - name: Run manuscript validator
+        shell: bash
+        run: |
+          if [ ! -s /tmp/changed-manuscripts.txt ]; then
+            exit 0
+          fi
+          mapfile -t files < /tmp/changed-manuscripts.txt
+          python .agent/skills/sentence-narrator/scripts/validate_manuscript.py "${files[@]}"
