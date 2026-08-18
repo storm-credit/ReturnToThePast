@@ -49,7 +49,7 @@ Codex는 [`/AGENTS.md`](AGENTS.md), ChatGPT 프로젝트는 [`/AI_PROJECT.md`](A
 
 - [`.agent/skills/context-pack-compiler/SKILL.md`](.agent/skills/context-pack-compiler/SKILL.md)
 - [`.agent/skills/storycraft-orchestrator/SKILL.md`](.agent/skills/storycraft-orchestrator/SKILL.md)
-- [`.agent/skills/sentence-narrator/SKILL.md`](.agent/skills/sentence-narrator/SKILL.md)
+- [`.agent/skills/sentence-narrator/SKILL.md`](.agent/skills/sentence-narrator/SKILL.md) — 문체 표본은 §5.2-A: 내부(E023 수술본·작가 수정 E001·E015 물지게꾼) 우선, 외부는 [`prose-style-references-v1.md`](docs/13_writing_harness/prose-style-references-v1.md) 장면 매핑
 - [`.agent/skills/naming-audit/SKILL.md`](.agent/skills/naming-audit/SKILL.md)
 
 Skill은 절차이며 정본 승인권이 없다.
