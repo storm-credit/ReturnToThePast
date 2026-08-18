@@ -51,6 +51,7 @@ Codex는 [`/AGENTS.md`](AGENTS.md), ChatGPT 프로젝트는 [`/AI_PROJECT.md`](A
 - [`.agent/skills/storycraft-orchestrator/SKILL.md`](.agent/skills/storycraft-orchestrator/SKILL.md)
 - [`.agent/skills/sentence-narrator/SKILL.md`](.agent/skills/sentence-narrator/SKILL.md) — 문체 표본은 §5.2-A: 내부(E023 수술본·작가 수정 E001·E015 물지게꾼) 우선, 외부는 [`prose-style-references-v1.md`](docs/13_writing_harness/prose-style-references-v1.md) 장면 매핑
 - [`.agent/skills/naming-audit/SKILL.md`](.agent/skills/naming-audit/SKILL.md)
+- [`.agent/skills/human-prose-audit/SKILL.md`](.agent/skills/human-prose-audit/SKILL.md) — **AI 티 검수.** 원고 배치·수술 후 반드시 실행. 기계 2단(validate_manuscript 13종 + check_volume_divergence 권 단위)이 먼저, 이 스킬이 기계가 못 잡는 패턴(§3 격언·재해설·공식화), `HUMAN PROSE PASS`는 작가만 부여
 
 Skill은 절차이며 정본 승인권이 없다.
 

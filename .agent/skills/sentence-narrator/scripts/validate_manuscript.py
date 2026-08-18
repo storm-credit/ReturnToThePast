@@ -253,7 +253,13 @@ def check(path: Path) -> list[str]:
 
     # 13. 제작 식별자 누출 — 독자가 읽는 본문에 회차·설계 ID가 남으면 안 된다.
     #     E003에 `E001에서 은판 위로 봤던`이 실제로 남아 있었다.
+    #     예외: E031의 `F0`는 세계 내 격리분류명이자 정본 훅이다
+    #     (v02-scene-ready-design L114, E027-E031 CP `마지막 F0는 정본 훅이므로 예외`).
+    LEAK_WHITELIST = {"E031": {"F0"}}
+    allowed = LEAK_WHITELIST.get(path.name[:4], set())
     for m in re.finditer(r"(?<![A-Za-z])(E\d{3}|V\d{1,2}|DEC-\d+|[CM]\d{2}|F[0-3])(?![A-Za-z0-9])", body):
+        if m.group(1) in allowed:
+            continue
         line = body[: m.start()].count("\n") + 1
         ctx = body[max(0, m.start() - 20) : m.start() + 20].replace("\n", " ")
         fails.append(f"[누출] (L{line}) 제작 식별자 `{m.group(1)}` — …{ctx}…")
