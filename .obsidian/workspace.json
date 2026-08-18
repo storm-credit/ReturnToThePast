@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "manuscript/volume-01/E001-마지막-도시의-다른-날짜.md",
+                "file": "manuscript/volume-01/E025-내가-모르는-영웅.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "E001-마지막-도시의-다른-날짜"
+              "title": "E025-내가-모르는-영웅"
             }
           }
         ]
@@ -184,6 +184,17 @@
   },
   "active": "aed1afee97ca9355",
   "lastOpenFiles": [
+    "manuscript/volume-01/E001-마지막-도시의-다른-날짜.md",
+    "manuscript/volume-01/E025-내가-모르는-영웅.md",
+    "manuscript/volume-01/E021-도주처럼-보이는-대피.md",
+    "manuscript/volume-01/E016-세-편이-노리는-기록.md",
+    "manuscript/volume-01/E013-한쪽-장부에만-있는-마을.md",
+    "manuscript/volume-01/E005-제거와-차단.md",
+    "manuscript/volume-01/E002-여섯-개의-승인.md",
+    "docs/10_story_architecture/craft-manifests/E050-storycraft-manifest.md",
+    "docs/10_story_architecture/craft-manifests/E049-storycraft-manifest.md",
+    "docs/10_story_architecture/craft-manifests/E048-storycraft-manifest.md",
+    "docs/10_story_architecture/craft-manifests/E047-storycraft-manifest.md",
     "docs/10_story_architecture/craft-manifests/E046-storycraft-manifest.md",
     "manuscript/volume-01/E019-죽으면-열리는-봉쇄.md.tmp.21384.8449921240f9",
     "manuscript/volume-01/E019-죽으면-열리는-봉쇄.md.tmp.21384.449e454461db",
@@ -208,17 +219,6 @@
     "docs/10_story_architecture/craft-manifests/E029-storycraft-manifest.md",
     "docs/10_story_architecture/craft-manifests/E027-storycraft-manifest.md",
     "docs/10_story_architecture/craft-manifests/E028-storycraft-manifest.md",
-    "docs/10_story_architecture/craft-manifests/E031-storycraft-manifest.md",
-    "docs/10_story_architecture/craft-manifests/E035-storycraft-manifest.md",
-    "docs/10_story_architecture/craft-manifests/E033-storycraft-manifest.md",
-    "docs/10_story_architecture/craft-manifests/E030-storycraft-manifest.md",
-    "docs/10_story_architecture/craft-manifests/E026-storycraft-manifest.md",
-    "docs/10_story_architecture/craft-manifests/E034-storycraft-manifest.md",
-    "docs/10_story_architecture/craft-manifests/E032-storycraft-manifest.md",
-    "docs/10_story_architecture/acts/GA-III.md",
-    "docs/10_story_architecture/acts/GA-V.md",
-    "docs/10_story_architecture/acts/GA-II.md",
-    "docs/10_story_architecture/acts/GA-I.md",
-    "docs/10_story_architecture/acts/GA-IV.md"
+    "docs/10_story_architecture/craft-manifests/E031-storycraft-manifest.md"
   ]
 }
