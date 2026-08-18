@@ -184,6 +184,11 @@
   },
   "active": "a8714c186ba11a29",
   "lastOpenFiles": [
+    "docs/05_characters/hubs/C07-다렌-모트.md",
+    "docs/10_story_architecture/subacts/V03-3C.md",
+    "docs/10_story_architecture/subacts/V03-3D.md",
+    "docs/10_story_architecture/subacts/V03-3A.md",
+    "docs/10_story_architecture/subacts/V03-3B.md",
     "manuscript/volume-02/E050-친구가-쫓아오는-이유.md.tmp.68236.9a3cb19a0b40",
     "manuscript/volume-02/E049-돌아오지-않는-귀환.md.tmp.37796.c964c4ed92b1",
     "manuscript/volume-02/E042-더-위험한-구조.md.tmp.37796.edf5b1413891",
@@ -194,7 +199,6 @@
     "manuscript/volume-02/E031-거짓말로-연-문.md.tmp.37796.b9092f2694fe",
     "manuscript/volume-02/E031-거짓말로-연-문.md.tmp.37796.7a82010b22a6",
     "manuscript/volume-02/E031-거짓말로-연-문.md.tmp.37796.102a01ee6eaf",
-    "manuscript/volume-02/E035-감사관의-꿈.md.tmp.37796.ccf75e438ab4",
     "docs/10_story_architecture/subacts/V10-10C.md",
     "docs/10_story_architecture/craft-manifests/E082-E088-storycraft-manifest.md",
     "manuscript/quality/E082-E088-state-mutation.md",
@@ -215,10 +219,6 @@
     "manuscript/volume-04/E087-영웅이-아닌-보증인.md",
     "manuscript/state/E017-state-mutation.md",
     "manuscript/state/E016-state-mutation.md",
-    "manuscript/state/E015-state-mutation.md",
-    "manuscript/volume-04/E086-땅보다-사람.md",
-    "manuscript/state/E014-state-mutation.md",
-    "manuscript/volume-04/E085-법정의-주소를-지키기.md",
-    "manuscript/volume-04/E084-피해자만-있던-도시는-없다.md"
+    "manuscript/state/E015-state-mutation.md"
   ]
 }
