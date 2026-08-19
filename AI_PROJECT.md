@@ -29,6 +29,16 @@ Project: 《왕국은 과거를 먹고 산다》 (`ReturnToThePast`)
 
 라우터·에이전트·스킬·하네스·CP에는 정본 승인권이 없다.
 
+### Legacy Quarantine
+
+`Drafts/`, 기존 `outline/`, 기존 `lore_bible/`은 기본 검색·집필·검수·Context Pack 대상에서 제외한다.
+
+- 현재 원고의 근거는 `manuscript/`만 사용한다.
+- 저장소 전체 검색에서 Legacy 결과가 잡혀도 현재 설정·사건·관계·문체의 근거로 채택하지 않는다.
+- 작가가 명시적으로 옛 원고/레거시 살베지를 요청한 경우에만 Legacy를 읽는다.
+- Legacy에서 현재 작품으로 가져올 항목은 [`docs/00_project/legacy-salvage-ledger-v1.md`](docs/00_project/legacy-salvage-ledger-v1.md)를 통해 개별 심사한다.
+- `Drafts/` 세부 격리 규칙은 [`Drafts/README.md`](Drafts/README.md)를 따른다.
+
 ## 3. Tool-Specific Routers
 
 - Claude Code: [`/CLAUDE.md`](CLAUDE.md)
@@ -89,6 +99,8 @@ Skill은 반복 절차다. 설정·사건·결말을 독자적으로 승인하�
 - Episode CP
 
 CP는 원본 경로, 기준 commit/ref, 추출한 사실, 정보상한, 현재 상태를 기록한다. CP 안에서 새 설정을 만들지 않는다. 빠진 정보는 Domain Bible 단계로 되돌린다.
+
+`Drafts/`와 다른 Legacy 경로는 작가가 명시적으로 Legacy salvage를 요청하지 않는 한 CP 출처로 넣지 않는다.
 
 ## 8. Harness
 
