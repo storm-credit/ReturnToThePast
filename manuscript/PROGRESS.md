@@ -1,64 +1,106 @@
 # Manuscript Progress
 
-Status: PAUSED — E001 AUTHOR PROSE REVIEW  
-Gate: PAUSED  
+Status: **MAIN VERIFIED THROUGH E088 / E089+ RECONCILIATION PREP**  
+Gate: **NEW MANUSCRIPT BLOCKED UNTIL D12 PREP COMPLETE**  
 Target: E001–E375  
-Protocol: one episode per branch, PR and squash merge
+Verified Main: `0a2e5204233723829f97167d744e2e89c187d90c`
 
-## Infrastructure
+## 1. Current Main Boundary
 
-- D10 Orchestration PR: #25
-- D10 Merge SHA: `a34113d538f9ec22b396fdf0193dd82ab19328ec`
-- Structural/Canon system: READY
-- Human Prose Audit skill: ACTIVE
-- Human Prose final approval: AUTHOR ONLY
+Actual GitHub main manuscript coverage:
 
-| Episode | Title | Structural/Canon | Human Prose | PR | Merge SHA | Current Status |
-|---|---|---|---|---|---|---|
-| E001 | 마지막 도시의 다른 날짜 | PASS | REVISION COMPLETE / AUTHOR REVIEW READY | #31 revision | `9272c6e500a77262368ae930ae440532932288b4` | WAITING FOR AUTHOR REVIEW |
-| E002 | 여섯 개의 승인 | PASS | PENDING — same generator pattern | #27 | `f33141d42634e0d7f634ae5886a0b63ad3a8b88f` | PROVISIONAL / REAUDIT REQUIRED |
-| E003 | 창시자의 증거 | PASS on closed branch | NOT ACCEPTED | #29 closed | not merged | STOPPED |
+- V1: E001–E025
+- V2: E026–E050
+- V3: E051–E075
+- V4: E076–E088
+- Current last manuscript: **E088 `가족관계가 바뀌는 의식`**
 
-## Author Feedback Lock
+E089 이후 원고는 현재 main에 없다.
 
-`1화를 읽어봤는데 AI 티가 너무 난다.`
+> 주의: main 파일 존재는 `HUMAN PROSE PASS`를 의미하지 않는다. 최종 인간문체 승인은 작가만 부여한다.
 
-이 피드백은 취향 S2가 아니라 원고 생산을 멈추는 품질 차단조건이다.
+## 2. Architecture Baseline for Continuation
 
-## E001 Revision
+E089 이후는 다음 main 설계를 기준으로 한다.
 
-- Original manuscript PR: #24
-- Human-Prose Revision PR: #31
-- Human-Prose Revision Merge SHA: `9272c6e500a77262368ae930ae440532932288b4`
-- Main manuscript: VERIFIED
-- Status in manuscript header: `AUTHOR REVIEW — HUMAN PROSE REVISION`
-- Revision report: [`manuscript/quality/E001-human-prose-revision-report.md`](quality/E001-human-prose-revision-report.md)
-- Canon/event change: 없음
-- AI verdict: `AUTHOR REVIEW READY`
-- Final verdict: 작가 검토 대기
+- Canon Constitution
+- D11 Story Architecture Amendment
+- D12 Ensemble Resolution Amendment
+- V4 D6 Scene-Ready Design
+- D11 Faction Causal Track
+- D11 Parallel Plot / POV Governance
+- D12 V4 E089–E093 Ensemble Overlay
+- D12 Witness-Zone Consent Protocol
 
-### Main changes
+### E089 correction
 
-- 격언형 마감과 문단별 결론문 대부분 삭제
-- 대칭 대조구문 축소
-- 행동 뒤 의미 재해설 삭제
-- 에이든·리아·총감·승인관 대사 리듬 분리
-- 식은 차, 막힌 복도, 걸리는 수레, 잘 닫히지 않는 통신기 등 생활 마찰 추가
-- 세계관 설명을 환자 분류·명단·접근 거부 같은 행동으로 이동
-- 사건·수치·복선·인물 의도 유지
+- required POV: **리아 세른 P1**
+- old E089 Aiden-POV drafts: reference only
+- Naha Anor: address-loss resident independent-action face
+- B05 white deer: support evidence only, never truth judge
 
-## Required Recovery Sequence
+## 3. Recent Architecture Merges
 
-1. E001 작가 검토
-2. 지적이 있으면 해당 구간 추가 재수술
-3. 승인 시 E001 `HUMAN PROSE PASS`
-4. E002 전체 Human Prose Audit
-5. E002 문체 재수술 및 작가 검토
-6. E003 branch draft 폐기 또는 전면 재작성
-7. E001·E002 작가 승인 뒤 Gate 재개방
+| PR | Scope | State | Main SHA |
+|---|---|---|---|
+| #126 | D11 deep world/faction ensemble causality | MERGED | `e93803f370b9c07a9a3e6cb26d7bf9583a33bd68` |
+| #127 | D12 V4/V12 ensemble resolution | MERGED | `0a2e5204233723829f97167d744e2e89c187d90c` |
 
-## Next Production Unit
+## 4. Superseded Manuscript PRs
 
-E001 author prose review.
+The following are **CLOSED / NOT MERGED / REFERENCE ONLY**:
 
-새 회차 집필과 PR 병합은 중단한다.
+| PR | Episodes | Reason |
+|---:|---|---|
+| #90 | E089–E094 | old V4 path / POV and later canon superseded |
+| #114 | E094–E100 | stale base / pre-D11-D12 chain |
+| #115 | E101–E106 | depends on stale #114 |
+| #116 | E107–E112 | depends on stale chain |
+| #117 | E113–E118 | depends on stale chain |
+| #118 | E119–E125 | depends on stale chain |
+| #125 | E089–E093 | E089 POV conflict + D12 ensemble/consent not reflected |
+
+Branches are retained for reference. Do not merge them directly.
+
+## 5. Operational PRs
+
+- #124 `Adopt Minimum Action Agent OS without changing canon` — OPEN / NOT MERGED. Separate operations work; revalidation against latest main required before any merge.
+- #123 old production-state sync — OPEN but superseded by the current D12 state sync. Must not be merged directly.
+
+## 6. Required Recovery / Continuation Sequence
+
+### Phase A — complete now
+1. D11 ensemble/faction deep design — DONE / main
+2. D12 V4/V12 gap resolution — DONE / main
+3. stale E089+ PR safety cleanup — DONE
+4. production state resync — IN PROGRESS (this branch)
+
+### Phase B — next design-preparation unit
+5. rebuild E089–E093 Context Pack from latest main
+6. rebuild E089–E093 Craft Manifest
+7. compile per-episode faction residues / information ceilings / irreversible choices
+8. Red Team against E088 actual ending + D12 V4 overlay
+
+### Phase C — manuscript only after preparation gate
+9. reconstruct E089 with Ria P1
+10. reconstruct E090–E093 with D12 ensemble causality
+11. Human Prose Audit
+12. author review; no automatic HUMAN PROSE PASS
+
+### Phase D — later continuation
+13. E094–E100: salvage only event/prose elements that survive D12 revalidation
+14. E101–E125: rebuild sequentially after accepted predecessor state
+
+## 7. Human Prose State
+
+Historical author feedback about AI-like prose remains an active quality constraint.
+
+Do not infer from main merge that all E001–E088 have author-approved final prose.
+
+Final `HUMAN PROSE PASS` remains AUTHOR ONLY.
+
+## 8. Current Next Unit
+
+**E089–E093 D12 Context Pack + Craft Manifest + Continuity preparation.**
+
+No new manuscript should be generated from old PR branches.

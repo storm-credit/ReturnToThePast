@@ -1,109 +1,136 @@
-# Pre-Writing Gate Status
+# Production / Pre-Writing Gate Status
 
-Status: **PAUSED — E001 AUTHOR PROSE REVIEW**  
-Effective: 2026-08-07  
-Author Feedback: `1화를 읽어봤는데 AI 티가 너무 난다.`  
-Current Production Unit: E001 human-prose revision review
+Status: **DESIGN RECONCILIATION ACTIVE — NEW MANUSCRIPT BLOCKED**  
+Effective: 2026-08-20  
+Main Verified: `0a2e5204233723829f97167d744e2e89c187d90c`  
+Main Manuscript Boundary: **E001–E088 present**  
+Current Production Unit: **D12-based E089–E093 preparation only (Context Pack / Craft / Continuity), no manuscript**
 
-## Reason for Pause
+## 1. Why This File Was Resynced
 
-D10의 정본·작법·연속성 검사는 통과했지만, 기존 원고에서 다음 인간문체 차단 문제가 발견됐다.
+이 문서는 오래도록 `E001 AUTHOR PROSE REVIEW / E003+ STOP` 상태에 머물렀지만 실제 GitHub main에는 이후 E001–E088 원고가 병합되었다.
 
-- 짧은 격언형 마감문장의 과다
-- `A가 아니었다. B였다.` 대조구문의 반복
-- 대사마다 주제와 설정이 지나치게 정확히 전달됨
-- 모든 묘사가 상징·복선·세계관 설명을 동시에 수행함
-- 문단 끝마다 의미를 해설해 독자 해석 여백이 적음
-- 인물별 말투가 달라도 모두 같은 수준으로 정제되고 영리함
-- 인물의 생활감·우연·머뭇거림보다 설계기능이 전면에 보임
-- 장면 구조와 독자 보상 장치가 원고 표면에 노출됨
+따라서 과거 상태문구를 현재 생산 경계로 사용하면 안 된다.
 
-이 문제는 사건·세계관·정본 충돌이 아니라 원고 구현과 인간적 질감의 문제다.
+현재 사실은 다음 두 가지를 동시에 보존한다.
 
-## Active Human-Prose System
+1. **파일 존재 상태**: main 원고는 E001–E088까지 존재한다.
+2. **품질 승인 상태**: 파일이 main에 있다는 사실은 각 회차의 `HUMAN PROSE PASS`를 의미하지 않는다. 최종 인간문체 승인은 작가만 부여한다.
 
-- Skill: [`.agent/skills/human-prose-audit/SKILL.md`](../../.agent/skills/human-prose-audit/SKILL.md)
-- Registry: [`.agent/skills/README.md`](../../.agent/skills/README.md)
-- Rule: AI는 `AUTHOR REVIEW READY`까지만 판정
-- Final `HUMAN PROSE PASS`: 작가 승인 필수
+## 2. Current Canon / Architecture State
 
-## Production State
+- Canon Constitution: ACTIVE
+- D11 Story Architecture Amendment: MAIN MERGED
+  - 마나열병 = 회색 재앙
+  - 에이든은 중심 주인공이지만 세계의 유일한 인과 주체가 아님
+- D12 Ensemble Resolution Amendment: MAIN MERGED
+  - V12 Era O 대표 = C21 레오르 세르바
+  - V10→V12 세 시대 협상 연속성 해소
+  - V4 E089–E093 병렬세력·POV·권리절차 보강
+- 5 Grand Acts / 15권 / 60 Subact 사건 골격: 유지
+- 결말·영구손실: 유지
 
-### E001
+## 3. Main Manuscript Boundary
 
-- Original PR: #24
-- Original Merge SHA: `97d9195913a53eba96d7cde4360429125ee7c69b`
-- Structural/Canon Audit: PASS
-- Original Human Prose Audit: FAIL
-- Human-Prose Revision PR: #31
-- Human-Prose Revision Merge SHA: `9272c6e500a77262368ae930ae440532932288b4`
-- Human-Prose Revision: MERGED / MAIN VERIFIED
-- Revision Report: [`manuscript/quality/E001-human-prose-revision-report.md`](../../manuscript/quality/E001-human-prose-revision-report.md)
-- Current Status: **AUTHOR REVIEW READY — NOT HUMAN-PROSE APPROVED**
+현재 main의 연속 원고 경계는 **E088**이다.
 
-### E002
+V4 main:
+- E076–E088 존재 확인
+- E088 `가족관계가 바뀌는 의식`이 현재 마지막 원고
+- E089 이후 원고는 main에 없음
 
-- PR: #27
-- Merge SHA: `f33141d42634e0d7f634ae5886a0b63ad3a8b88f`
-- Structural/Canon Audit: PASS
-- Human Prose Audit: PENDING
-- Status: **PROVISIONAL MANUSCRIPT — REAUDIT / REVISION REQUIRED**
+### Important
 
-### E003
+`main에 있음`과 `최종 문체 승인`을 구분한다.
 
-- PR: #29
-- Status: CLOSED / NOT MERGED
-- Reason: E001 author prose feedback before merge
-- Branch draft is reference only and cannot become canon without recalibration
+- HUMAN PROSE 최종 승인: AUTHOR ONLY
+- 자동 validator 통과: HUMAN PROSE PASS가 아님
+- AUTHOR REVIEW / FIRST DRAFT 원고가 main에 존재할 수 있음
 
-## E001 Revision Boundary
+## 4. E089+ Production Gate
 
-다음 정본과 사건은 변경하지 않았다.
+D11/D12 이후 E089부터는 과거 초안을 그대로 이어 쓰지 않는다.
 
-- 제칠 방벽 붕괴와 주소 연결 상실
-- 구조표식 5개 조회 실패
-- 방벽 진입 거부와 구조 가능 인원 감소
-- 도시 생존시한 127일 / 계절 동기화 156일
-- 서부 구조대 31명 연락두절
-- 시간 파견 제안
-- 세렌 바일과 9일·12일·17일 기록 충돌
-- 세렌 제거 시 19만 생존증가 예측
-- 증언자 5번·13번 공백
-- 기록 접근실과 삭제 잔문 `세`
+### E089–E093 before manuscript
 
-수정 범위는 문장·대사·호흡·정보 제시·생활 디테일이다.
+필수:
+1. E088 실제 원고 Exit 재확인
+2. V4 D6
+3. D11 Amendment
+4. D12 Amendment
+5. `v04-e089-e093-d11-ensemble-overlay-v1.md`
+6. `v04-witness-zone-consent-protocol-v1.md`
+7. Secondary POV table
+8. 새 Context Pack
+9. 새 Craft Manifest
+10. Continuity / Red Team PASS
 
-## Human Prose Hard Stops
+이 준비가 끝나기 전 **새 E089 원고 작성/병합 금지**.
 
-다음이 반복되면 PASS 금지한다.
+### E089 hard correction
 
-- 한 장면에서 격언처럼 인용 가능한 문장 2개 초과
-- `A가 아니라 B`, `A가 아니었다. B였다.`의 기계적 반복
-- 대사 뒤 서술이 방금 말한 의미를 다시 해설
-- 모든 단락이 훅·반전·주제문으로 종료
-- 인물 전원이 짧고 정확하고 영리하게만 말함
-- 설정어가 실제 감각·행동보다 먼저 제시됨
-- 감정이 행동으로 드러난 뒤 다시 추상어로 설명됨
-- 의미 없는 생활 디테일과 우연한 행동이 전혀 없음
+- POV: **리아 세른 P1**
+- 기존 에이든 POV 초안은 superseded reference
+- B05 백지사슴: 보조증거, 진실판독기 금지
+- 나하 아노르: 주소상실 주민 독립행동 축
 
-## Naming Audit Status
+## 5. Stale Manuscript PR Safety
 
-`CLAUDE.md` Repository Rules는 "명명 감사 S1이 남은 상태에서는 관련 새 이름을 원고에 확장하지 않음"을 규정한다. 그 S1 상태를 여기서 추적한다.
+D11/D12 이전 연쇄 초고는 직접 병합하지 않는다.
 
-| 항목 | 상태 |
-|---|---|
-| `naming-system-initial-audit-v1.md` A16 S1 | **해소 (2026-08-09)** |
-| 해소 근거 | 전수 감사 완료 + DEC-016 4개 기관 개명 + 작가 승인 |
-| 남은 명명 결정 | **DEC-017로 전량 종결.** 잔여 3건은 비차단 — 종족 `네바르` 개명 여부, atlas `[WORKING]` 장소 11개, `로엔` 단독 호출 규칙 |
-| 원고 확장 제한 | **해제.** 위 잔여 항목은 신규 회차 집필을 막지 않는다 |
+### Closed / Not Merged / Reference Only
 
-잔여 항목은 `docs/99_quality_control/naming-full-audit-v1.md`에 있다.
+- #90 E089–E094 — superseded
+- #114 E094–E100 — stale chain
+- #115 E101–E106 — stale chain
+- #116 E107–E112 — stale chain
+- #117 E113–E118 — stale chain
+- #118 E119–E125 — stale chain
+- #125 E089–E093 v2 — D11/D12 POV/ensemble mismatch
 
-## Resume Condition
+브랜치는 보존하며 사건·문장 재사용 여부는 최신 main 정본과 대조 후 결정한다.
 
-1. 작가가 E001 재수술본을 직접 읽는다.
-2. 충분히 자연스럽다고 판단하면 E001을 `HUMAN PROSE PASS`로 승격한다.
-3. E002를 동일 기준으로 전면 재감사·재수술한다.
-4. E001·E002 모두 작가 승인 후 E003 이후 집필을 재개한다.
+## 6. Operational PRs
 
-작가 승인 전에는 새 회차 집필과 병합을 진행하지 않는다.
+- #126 D11 deep world/faction architecture — MERGED
+- #127 D12 ensemble resolution — MERGED
+- #124 Minimum Action Agent OS adoption — OPEN / NOT MERGED / 별도 운영 작업
+- #123 old production-state sync — SUPERSEDED by this D12 sync; 직접 병합 금지
+
+## 7. Human Prose Hard Stops
+
+기존 작가 피드백은 계속 유효한 품질 규칙이다.
+
+- 짧은 격언형 마감 과다
+- `A가 아니라 B`, `A가 아니었다. B였다.` 기계적 반복
+- 대사 직후 의미 재해설
+- 모든 단락을 훅·주제문으로 마감
+- 모든 인물이 같은 수준으로 짧고 정확하게 말함
+- 설정어가 감각·행동보다 먼저 나옴
+- 감정을 행동 뒤 추상어로 다시 설명
+- 생활 마찰·우연·머뭇거림 부재
+
+이 규칙은 E089 이후 재구성에도 적용한다.
+
+## 8. Current Gate Verdict
+
+### Allowed now
+- 세계관·설정집·설계도 심화
+- 맹점/Red Team
+- 최신 main 기준 상태 동기화
+- E089+ Context Pack / Craft Manifest / continuity preparation
+- 구식 PR 정리
+
+### Blocked now
+- D11/D12를 반영하지 않은 기존 E089+ 초안 병합
+- E089 새 원고를 준비문서 없이 작성
+- HUMAN PROSE PASS 자동 선언
+
+## 9. Resume Condition for New Manuscript
+
+1. E089–E093 D12 Context Pack/Craft/Continuity 준비 완료
+2. Canon/POV/Faction/Information Ceiling 검증 PASS
+3. 실제 원고 작성 단계 진입 시 Human Prose Audit 적용
+4. HUMAN PROSE PASS는 작가 승인만으로 확정
+
+현재 다음 단위는 **원고가 아니라 E089–E093 D12 집필 준비문서 재생성**이다.
