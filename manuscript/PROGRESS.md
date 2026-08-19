@@ -1,64 +1,80 @@
 # Manuscript Progress
 
-Status: PAUSED — E001 AUTHOR PROSE REVIEW  
-Gate: PAUSED  
+Status: **MAIN VERIFIED THROUGH E088 / E089+ RECONCILIATION**  
+Gate: ACTIVE — continuation requires latest-main reconciliation  
 Target: E001–E375  
-Protocol: one episode per branch, PR and squash merge
+Verified Main SHA: `c3130ba8ccb095959d02d8bec8862e1a37e3e6cb`  
+Protocol: latest main → episode/subact branch → validation → push → PR → author approval → merge
 
-## Infrastructure
+## Current Main Boundary
 
-- D10 Orchestration PR: #25
-- D10 Merge SHA: `a34113d538f9ec22b396fdf0193dd82ab19328ec`
-- Structural/Canon system: READY
-- Human Prose Audit skill: ACTIVE
-- Human Prose final approval: AUTHOR ONLY
+| Range | GitHub state | Notes |
+|---|---|---|
+| E001~E025 | MAIN | V1 surgical/canon edition reflected by PR #120 |
+| E026~E050 | MAIN | V2 canon-standard retrofit reflected by PR #122 |
+| E051~E056 | MAIN | PR #84 lineage |
+| E057~E062 | MAIN | PR #85 lineage |
+| E063~E069 | MAIN | PR #86 lineage |
+| E070~E075 | MAIN | PR #87 lineage |
+| E076~E081 | MAIN | PR #88 lineage |
+| E082~E088 | MAIN | latest canon rewrite reflected by PR #121 |
 
-| Episode | Title | Structural/Canon | Human Prose | PR | Merge SHA | Current Status |
-|---|---|---|---|---|---|---|
-| E001 | 마지막 도시의 다른 날짜 | PASS | REVISION COMPLETE / AUTHOR REVIEW READY | #31 revision | `9272c6e500a77262368ae930ae440532932288b4` | WAITING FOR AUTHOR REVIEW |
-| E002 | 여섯 개의 승인 | PASS | PENDING — same generator pattern | #27 | `f33141d42634e0d7f634ae5886a0b63ad3a8b88f` | PROVISIONAL / REAUDIT REQUIRED |
-| E003 | 창시자의 증거 | PASS on closed branch | NOT ACCEPTED | #29 closed | not merged | STOPPED |
+The last manuscript file currently verified on `main` is:
 
-## Author Feedback Lock
+`manuscript/volume-04/E088-가족관계가-바뀌는-의식.md`
 
-`1화를 읽어봤는데 AI 티가 너무 난다.`
+`main` 존재 여부와 `HUMAN PROSE PASS`는 별도 상태다. AI는 작가 대신 Human Prose 최종승인을 부여하지 않는다.
 
-이 피드백은 취향 S2가 아니라 원고 생산을 멈추는 품질 차단조건이다.
+## Unmerged Continuation Drafts
 
-## E001 Revision
+| Range | PR | Branch | Current use |
+|---|---:|---|---|
+| E089~E094 old draft | #90 | `agent/manuscript-e089-e094` | E089~E093 salvage candidate only; E094 superseded |
+| E094~E100 | #114 | `agent/manuscript-e094-e100-v2` | current event-line candidate, but stale branch |
+| E101~E106 | #115 | `agent/manuscript-e101-e106` | stale dependent draft |
+| E107~E112 | #116 | `agent/manuscript-e107-e112` | stale dependent draft |
+| E113~E118 | #117 | `agent/manuscript-e113-e118` | stale dependent draft |
+| E119~E125 | #118 | `agent/manuscript-e119-e125` | stale dependent draft |
 
-- Original manuscript PR: #24
-- Human-Prose Revision PR: #31
-- Human-Prose Revision Merge SHA: `9272c6e500a77262368ae930ae440532932288b4`
-- Main manuscript: VERIFIED
-- Status in manuscript header: `AUTHOR REVIEW — HUMAN PROSE REVISION`
-- Revision report: [`manuscript/quality/E001-human-prose-revision-report.md`](quality/E001-human-prose-revision-report.md)
-- Canon/event change: 없음
-- AI verdict: `AUTHOR REVIEW READY`
-- Final verdict: 작가 검토 대기
+## Freshness Check — 2026-08-19
 
-### Main changes
+Latest `main`: `c3130ba8ccb095959d02d8bec8862e1a37e3e6cb`
 
-- 격언형 마감과 문단별 결론문 대부분 삭제
-- 대칭 대조구문 축소
-- 행동 뒤 의미 재해설 삭제
-- 에이든·리아·총감·승인관 대사 리듬 분리
-- 식은 차, 막힌 복도, 걸리는 수레, 잘 닫히지 않는 통신기 등 생활 마찰 추가
-- 세계관 설명을 환자 분류·명단·접근 거부 같은 행동으로 이동
-- 사건·수치·복선·인물 의도 유지
+- #90: **ahead 9 / behind 279 / diverged**
+- #114: **ahead 10 / behind 279 / diverged**
+
+The continuation chain was authored from the older `2717e3d...` main lineage. It must not be merged or extended in place without latest-main reconstruction and revalidation.
+
+## Superseded Drafts
+
+The repository still contains multiple historical OPEN/DRAFT branches for early episodes and replaced batches. They are not production truth when a newer merged or explicitly superseding branch exists.
+
+Important examples:
+
+- #89 E082~E088 → superseded by merged #121 rewrite
+- #113 E095~E100 → CLOSED / NOT MERGED because of canon mismatch; #114 supersedes it
+- #112 E025 → CLOSED / NOT MERGED because it conflicts with the canon card; merged #77 lineage is authoritative for manuscript state
+
+## Human Prose Governance
+
+- `AUTHOR REVIEW READY` is the highest AI-only prose verdict.
+- `HUMAN PROSE PASS` requires explicit author approval after reading.
+- Existing main manuscripts may still require later prose surgery even though they are GitHub-main verified.
+- Prose revision must preserve approved events, numbers, mysteries, character intent, and canon unless the author explicitly changes canon.
 
 ## Required Recovery Sequence
 
-1. E001 작가 검토
-2. 지적이 있으면 해당 구간 추가 재수술
-3. 승인 시 E001 `HUMAN PROSE PASS`
-4. E002 전체 Human Prose Audit
-5. E002 문체 재수술 및 작가 검토
-6. E003 branch draft 폐기 또는 전면 재작성
-7. E001·E002 작가 승인 뒤 Gate 재개방
+1. Start from latest `main`.
+2. Re-read E088 exit state and V4 E089~E093 Scene-Ready Design / CP / Craft / State requirements.
+3. Compare PR #90 E089~E093 against current canon; salvage only still-valid prose/events.
+4. Build a clean E089~E093 continuation branch with `behind_by=0`.
+5. Validate manuscript, canon, information ceiling, scene density, state mutation, and human-prose risks.
+6. Push and open PR. Do not merge without explicit author approval.
+7. Reconstruct E094~E100 using #114 event line, not #90 E094.
+8. Then revalidate #115~#118 sequentially because each depends on the previous batch state.
 
 ## Next Production Unit
 
-E001 author prose review.
+**E089~E093 latest-main reconciliation.**
 
-새 회차 집필과 PR 병합은 중단한다.
+After that: E094~E100 → E101~E106 → E107~E112 → E113~E118 → E119~E125.
