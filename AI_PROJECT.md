@@ -37,6 +37,12 @@ Project: 《왕국은 과거를 먹고 산다》 (`ReturnToThePast`)
 
 도구별 라우터는 이 파일과 Governance를 가리키는 얇은 진입점이어야 한다. 정본 내용을 복사해 별도 버전으로 유지하지 않는다.
 
+### Working Method Adapter
+
+이 프로젝트는 `storm-credit/minimum-action-agent-os`를 작업 방법론으로 채택한다. 도메인 정본 변경은 없으며, Local Action Space 감사·5개 routing lane·Skill lazy-load·A17 tool exposure 규칙은 [`.agent/orchestra/minimum-action-agent-os-adoption-v1.md`](.agent/orchestra/minimum-action-agent-os-adoption-v1.md)를 따른다.
+
+공통 OS는 **어떻게 일할지**만 규정한다. 이 저장소의 Canon / Spec / State / Story Architecture / Manuscript가 **무엇을 만들지**의 원본이다.
+
 ## 4. Required Startup Read
 
 모든 작업은 다음을 확인한다.
@@ -62,6 +68,8 @@ Project: 《왕국은 과거를 먹고 산다》 (`ReturnToThePast`)
 - A16 Red Team: S0/S1 차단
 - A17 GitHub State Verifier: branch/PR/merge/SHA/main 실재 확인
 
+이 목록은 역할 인덱스다. A00의 직접 action surface는 `L1 Authority & Planning / L2 World Systems / L3 Narrative Systems / L4 Evaluation & Release / L5 Production` 5개 lane으로 제한하며, 해당 lane에 들어간 뒤 필요한 Agent만 lazy-load한다.
+
 전체 역할과 승인범위는 [`.agent/orchestra/agent-registry.md`](.agent/orchestra/agent-registry.md)와 [`expert-contracts-v1.md`](.agent/orchestra/expert-contracts-v1.md)를 따른다.
 
 ## 6. Active Skills
@@ -72,7 +80,7 @@ Project: 《왕국은 과거를 먹고 산다》 (`ReturnToThePast`)
 - [`.agent/skills/human-prose-audit/SKILL.md`](.agent/skills/human-prose-audit/SKILL.md)
 - [`.agent/skills/naming-audit/SKILL.md`](.agent/skills/naming-audit/SKILL.md)
 
-Skill은 반복 절차다. 설정·사건·결말을 독자적으로 승인하거나 변경할 수 없다.
+Skill은 반복 절차다. 설정·사건·결말을 독자적으로 승인하거나 변경할 수 없다. 이 목록은 레지스트리이며 Skill은 담당 Agent 내부에서 필요한 때만 load한다.
 
 `human-prose-audit`은 AI 자체로 `AUTHOR REVIEW READY`까지만 판정할 수 있다. 최종 `HUMAN PROSE PASS`는 작가가 실제 원고를 읽고 승인한 경우에만 기록한다.
 
