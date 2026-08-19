@@ -55,6 +55,33 @@ A00은 총괄 지휘자다. 정본 소유자가 아니다.
 - A16 반대가 남은 상태에서 PASS
 - A17 검증 없이 병합 완료 보고
 
+### 3.1 Minimum Action Agent OS — Local Routing Lanes
+
+작업 방법론은 `storm-credit/minimum-action-agent-os`의 bounded local action space 원칙을 따른다. 상세 감사와 예외는 [`minimum-action-agent-os-adoption-v1.md`](minimum-action-agent-os-adoption-v1.md)를 참조한다.
+
+A00은 A01~A21을 한 번에 평면 선택지로 펼치지 않고 다음 5개 Lane 중 필요한 Lane만 선택한다.
+
+| Lane | Existing Agents | Direct choices after entering Lane |
+|---|---|---:|
+| L1 Authority & Planning | A01, A02 | 2 |
+| L2 World Systems | A03, A04, A05, A06, A07 | 5 |
+| L3 Narrative Systems | A08, A09, A10, A11, A12 | 5 |
+| L4 Evaluation & Release | A13, A14, A15, A16, A17 | 5 |
+| L5 Production | A18, A19, A20, A21 | 4 |
+
+규칙:
+
+- 전체 Agent 수는 제한하지 않는다.
+- 한 reasoning node에서 직접 선택 가능한 Agent/Tool/Skill/MCP/기타 callable action은 기본 `<= 5`로 유지한다.
+- 기존 Agent를 삭제·병합하지 않는다. Lane은 새 Agent가 아니라 라우팅 그룹이다.
+- 작업 유형 라벨은 분류값이지 peer callable action이 아니다.
+- 필수 quorum과 Harness 단계는 선택지가 아니라 고정 순서이므로 인원을 줄이지 않는다.
+- 여러 Lane이 필요하면 한 node에서 모두 펼치지 않고 Harness 순서대로 이동한다.
+- Skill은 전역 action menu가 아니라 담당 Agent 내부에서 lazy-load한다.
+- 실제 MCP가 세부 action을 많이 제공하면 담당 Agent가 task-relevant subset만 노출한다.
+
+`Item / Relic / Beast`의 optional specialist 6개는 한 번에 노출하지 않는다. 먼저 L2의 A04/A05/A06 중 필요한 Agent를 고르고, 이어 L3의 A08/A11/A12 중 필요한 Agent를 고른다. 역할·정족수·승인권은 변하지 않는다.
+
 ## 4. 작업 유형별 라우팅
 
 ### Canon Change
@@ -74,6 +101,7 @@ A00은 총괄 지휘자다. 정본 소유자가 아니다.
 ### Item / Relic / Beast
 필수: A10 + A13 + A16
 필요 시: A04/A05/A06/A08/A11/A12
+Local Action Rule: optional specialist는 `L2(A04/A05/A06) → L3(A08/A11/A12)` 순서로 분리 선택한다.
 출력: Ownership / Access / Cost / Refusal / State / Plot Uses
 
 ### Religion / Myth / Ritual
@@ -123,6 +151,8 @@ Skill:
 - 출력 형식
 
 스킬은 Agent의 판단을 대체하지 않는다.
+
+Minimum Action 적용 시 Skill은 담당 Agent 내부의 lazy-loaded procedure로 취급한다. Active Skills 목록에 존재한다는 이유만으로 A00의 직접 peer choice에 포함하지 않는다.
 
 ## 7. Hook
 
