@@ -1,109 +1,99 @@
-# Pre-Writing Gate Status
+# Production Gate Status
 
-Status: **PAUSED — E001 AUTHOR PROSE REVIEW**  
-Effective: 2026-08-07  
-Author Feedback: `1화를 읽어봤는데 AI 티가 너무 난다.`  
-Current Production Unit: E001 human-prose revision review
+Status: **ACTIVE — MAIN VERIFIED THROUGH E088 / CONTINUATION RECONCILIATION REQUIRED**  
+Effective: 2026-08-19  
+Verified Main SHA: `c3130ba8ccb095959d02d8bec8862e1a37e3e6cb`  
+Current Production Unit: E089+ continuation reconciliation from latest `main`
 
-## Reason for Pause
+## Why This File Was Updated
 
-D10의 정본·작법·연속성 검사는 통과했지만, 기존 원고에서 다음 인간문체 차단 문제가 발견됐다.
+이 문서는 2026-08-07의 `E001 AUTHOR PROSE REVIEW` 상태에 멈춰 있었지만, 실제 GitHub `main`과 PR 이력은 이후 크게 진행됐다.
 
-- 짧은 격언형 마감문장의 과다
-- `A가 아니었다. B였다.` 대조구문의 반복
-- 대사마다 주제와 설정이 지나치게 정확히 전달됨
-- 모든 묘사가 상징·복선·세계관 설명을 동시에 수행함
-- 문단 끝마다 의미를 해설해 독자 해석 여백이 적음
-- 인물별 말투가 달라도 모두 같은 수준으로 정제되고 영리함
-- 인물의 생활감·우연·머뭇거림보다 설계기능이 전면에 보임
-- 장면 구조와 독자 보상 장치가 원고 표면에 노출됨
+현재 확인된 실제 상태:
 
-이 문제는 사건·세계관·정본 충돌이 아니라 원고 구현과 인간적 질감의 문제다.
+- `main`에는 `manuscript/volume-01`~`volume-04`가 존재한다.
+- `manuscript/volume-04`에는 E076~E088이 존재한다.
+- 최신 `main` SHA는 `c3130ba8ccb095959d02d8bec8862e1a37e3e6cb`이다.
+- PR #120에서 V1 E001~E025 수술본이 정본 원고 경로에 반영됐다.
+- PR #121에서 E082~E088 최신 정본 재작성본이 병합됐다.
+- PR #122에서 E026~E050 V2 정본 기준 수술이 병합됐다.
+- 따라서 과거의 `E001에서 생산 중단` 표기는 현재 저장소 실재 상태와 일치하지 않는다.
 
-## Active Human-Prose System
+이 갱신은 사건·설정·결말을 변경하지 않는다. GitHub 실재 상태를 장부에 맞추는 작업이다.
 
-- Skill: [`.agent/skills/human-prose-audit/SKILL.md`](../../.agent/skills/human-prose-audit/SKILL.md)
-- Registry: [`.agent/skills/README.md`](../../.agent/skills/README.md)
-- Rule: AI는 `AUTHOR REVIEW READY`까지만 판정
-- Final `HUMAN PROSE PASS`: 작가 승인 필수
+## Main-Verified Manuscript Boundary
 
-## Production State
+### E001~E088
 
-### E001
+- GitHub state: **MAIN에 존재 / 원격 확인됨**
+- 현재 main 기준 마지막 확인 원고: `manuscript/volume-04/E088-가족관계가-바뀌는-의식.md`
+- `HUMAN PROSE PASS`는 작가 전용 판정이므로 AI가 일괄 부여하지 않는다.
+- main 존재와 Human Prose 최종승인은 별개 상태다.
 
-- Original PR: #24
-- Original Merge SHA: `97d9195913a53eba96d7cde4360429125ee7c69b`
-- Structural/Canon Audit: PASS
-- Original Human Prose Audit: FAIL
-- Human-Prose Revision PR: #31
-- Human-Prose Revision Merge SHA: `9272c6e500a77262368ae930ae440532932288b4`
-- Human-Prose Revision: MERGED / MAIN VERIFIED
-- Revision Report: [`manuscript/quality/E001-human-prose-revision-report.md`](../../manuscript/quality/E001-human-prose-revision-report.md)
-- Current Status: **AUTHOR REVIEW READY — NOT HUMAN-PROSE APPROVED**
+## Unmerged Continuation Chain
 
-### E002
+아래 원고는 `main`에 없는 초고다.
 
-- PR: #27
-- Merge SHA: `f33141d42634e0d7f634ae5886a0b63ad3a8b88f`
-- Structural/Canon Audit: PASS
-- Human Prose Audit: PENDING
-- Status: **PROVISIONAL MANUSCRIPT — REAUDIT / REVISION REQUIRED**
+| 범위 | PR | 상태 | 주의 |
+|---|---:|---|---|
+| E089~E094 구판 | #90 | OPEN / DRAFT / NOT MERGED | E094는 #114 정본 재작성으로 대체됨. E089~E093만 salvage 후보 |
+| E094~E100 | #114 | OPEN / DRAFT / NOT MERGED | 최신 main 기준 재검증·재기반 필요 |
+| E101~E106 | #115 | OPEN / DRAFT / NOT MERGED | #114 인계 상태 의존 |
+| E107~E112 | #116 | OPEN / DRAFT / NOT MERGED | #115 인계 상태 의존 |
+| E113~E118 | #117 | OPEN / DRAFT / NOT MERGED | #116 인계 상태 의존 |
+| E119~E125 | #118 | OPEN / DRAFT / NOT MERGED | #117 인계 상태 의존 |
 
-### E003
+2026-08-19 재확인 기준:
 
-- PR: #29
-- Status: CLOSED / NOT MERGED
-- Reason: E001 author prose feedback before merge
-- Branch draft is reference only and cannot become canon without recalibration
+- PR #90 head `agent/manuscript-e089-e094`: 최신 main 대비 **ahead 9 / behind 279 / diverged**
+- PR #114 head `agent/manuscript-e094-e100-v2`: 최신 main 대비 **ahead 10 / behind 279 / diverged**
+- #115~#118 역시 PR 생성 당시 동일한 구형 main 계열을 인계받은 연쇄 초고이므로, 사용 전 각각 최신 main 기준 freshness 검증이 필수다.
 
-## E001 Revision Boundary
+## Superseded / Legacy Draft Warning
 
-다음 정본과 사건은 변경하지 않았다.
+저장소에는 E003~E024 및 기타 구간의 오래된 OPEN/DRAFT PR이 다수 남아 있다. 이후 정본 병합본 또는 최신 재작성본이 존재하는 경우 해당 PR을 현행 집필 기준으로 사용하지 않는다.
 
-- 제칠 방벽 붕괴와 주소 연결 상실
-- 구조표식 5개 조회 실패
-- 방벽 진입 거부와 구조 가능 인원 감소
-- 도시 생존시한 127일 / 계절 동기화 156일
-- 서부 구조대 31명 연락두절
-- 시간 파견 제안
-- 세렌 바일과 9일·12일·17일 기록 충돌
-- 세렌 제거 시 19만 생존증가 예측
-- 증언자 5번·13번 공백
-- 기록 접근실과 삭제 잔문 `세`
+특히:
 
-수정 범위는 문장·대사·호흡·정보 제시·생활 디테일이다.
+- 구판 #89 E082~E088은 #121 최신 재작성 병합으로 대체됨.
+- #113 E095~E100은 정본 불일치로 CLOSED / NOT MERGED이며 #114가 후속 기준이다.
+- #112 E025는 정본 카드 불일치로 CLOSED / NOT MERGED이며 #77 계열이 반영됐다.
 
-## Human Prose Hard Stops
+## Human Prose Rule
 
-다음이 반복되면 PASS 금지한다.
+- AI는 `AUTHOR REVIEW READY`까지만 판정할 수 있다.
+- 최종 `HUMAN PROSE PASS`는 작가가 실제 원고를 읽고 승인한 경우에만 기록한다.
+- `main에 존재`와 `HUMAN PROSE PASS`를 혼동하지 않는다.
+- 작가가 AI 티를 지적한 구간은 사건을 바꾸지 않고 문장·대사·호흡·생활감만 재수술한다.
 
-- 한 장면에서 격언처럼 인용 가능한 문장 2개 초과
-- `A가 아니라 B`, `A가 아니었다. B였다.`의 기계적 반복
-- 대사 뒤 서술이 방금 말한 의미를 다시 해설
-- 모든 단락이 훅·반전·주제문으로 종료
-- 인물 전원이 짧고 정확하고 영리하게만 말함
-- 설정어가 실제 감각·행동보다 먼저 제시됨
-- 감정이 행동으로 드러난 뒤 다시 추상어로 설명됨
-- 의미 없는 생활 디테일과 우연한 행동이 전혀 없음
+## Resume / Continuation Rule
 
-## Naming Audit Status
+E089 이후를 이어갈 때는 다음 순서를 강제한다.
 
-`CLAUDE.md` Repository Rules는 "명명 감사 S1이 남은 상태에서는 관련 새 이름을 원고에 확장하지 않음"을 규정한다. 그 S1 상태를 여기서 추적한다.
+1. 최신 `main`에서 새 작업 브랜치를 만든다.
+2. E089~E093은 PR #90의 사건을 자동 채택하지 말고 현재 Scene-Ready Design / CP / State Ledger와 다시 대조한다.
+3. E094는 #90 버전을 폐기하고 #114의 정본 사건선을 기준으로 재검증한다.
+4. E094~E125의 기존 초고는 사건·수치·훅을 현재 정본과 대조한 뒤 필요한 부분만 salvage한다.
+5. branch가 `behind_by=0`인지 확인한다.
+6. 원고 Validator / Canon / Information Ceiling / Scene Density / Human Prose Audit을 통과시킨다.
+7. 원격 브랜치에 푸시하고 PR을 만든다.
+8. **작가의 명시적 승인 전 `main`에는 병합하지 않는다.**
 
-| 항목 | 상태 |
-|---|---|
-| `naming-system-initial-audit-v1.md` A16 S1 | **해소 (2026-08-09)** |
-| 해소 근거 | 전수 감사 완료 + DEC-016 4개 기관 개명 + 작가 승인 |
-| 남은 명명 결정 | **DEC-017로 전량 종결.** 잔여 3건은 비차단 — 종족 `네바르` 개명 여부, atlas `[WORKING]` 장소 11개, `로엔` 단독 호출 규칙 |
-| 원고 확장 제한 | **해제.** 위 잔여 항목은 신규 회차 집필을 막지 않는다 |
+## Current Hard Stops
 
-잔여 항목은 `docs/99_quality_control/naming-full-audit-v1.md`에 있다.
+다음 중 하나라도 있으면 `main` 병합 금지다.
 
-## Resume Condition
+- 최신 main보다 뒤처진 branch
+- 구판 PR의 사건선을 최신 정본 대조 없이 그대로 재사용
+- E094의 #90 구판과 #114 재작성본을 혼합
+- 정본 충돌 미해결
+- 필요한 Context Pack / Craft Manifest / State Mutation 부재
+- S0 또는 S1 미해결
+- 작가 승인 없이 `HUMAN PROSE PASS` 선언
+- 작가의 명시적 main 병합 승인 부재
 
-1. 작가가 E001 재수술본을 직접 읽는다.
-2. 충분히 자연스럽다고 판단하면 E001을 `HUMAN PROSE PASS`로 승격한다.
-3. E002를 동일 기준으로 전면 재감사·재수술한다.
-4. E001·E002 모두 작가 승인 후 E003 이후 집필을 재개한다.
+## Next Production Unit
 
-작가 승인 전에는 새 회차 집필과 병합을 진행하지 않는다.
+**E089~E093 최신-main 정본 재검증 및 clean continuation branch 구성.**
+
+그다음 E094~E100 → E101~E106 → E107~E112 → E113~E118 → E119~E125 순으로 오래된 연쇄 초고를 최신 main에 맞춰 재검증한다.
