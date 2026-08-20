@@ -1,11 +1,10 @@
 # PROJECT COMPLETION SCORECARD — 2026-08-20
 
-Status: PROJECT-WIDE READINESS SCORECARD / AUTHOR REVIEW
-Owner: A00 Story Orchestrator / A01 Architecture PM / A02 Canon / A12 Architecture / A13 Continuity / A14 Reader / A16 Red Team / A17 GitHub State / A20 Storycraft / A21 Context Pack
-Base verified: `main@dd96788e8eb8181fb5ba13ac6c54827d1f5d65fe`
+Status: PROJECT-WIDE READINESS SCORECARD / AUTHOR REVIEW  
+Owner: A00 Story Orchestrator / A01 Architecture PM / A02 Canon / A12 Architecture / A13 Continuity / A14 Reader / A16 Red Team / A17 GitHub State / A20 Storycraft / A21 Context Pack  
 Applies To: 《왕국은 과거를 먹고 산다》 E001–E375
 
-> 이 문서는 완료 상태를 과장하지 않는다. `설계 완료`, `정량검증 필요`, `원고/HUMAN 미완료`를 분리한다.
+> 이 문서는 `설계 완료`, `정량검증 완료`, `원고/HUMAN 미완료`를 분리한다.
 
 ## Executive Checklist
 
@@ -24,15 +23,17 @@ Applies To: 《왕국은 과거를 먹고 산다》 E001–E375
 13. **Faction / Ensemble Parallel Causality:** **60/60 A-Line/F-Line/C-Line OVERLAY COMPLETE**
 14. **Scene Density / Pacing:** **375/375 ALLOCATED / REGRESSION PASS**
 15. **POV Operations:** P1 **30/375 = 8.0%**, P2 **15**, P3 **8 inserts** — **PASS**
-16. **Protagonist Presence Balance:** **TARGET LOCKED / EXACT 375-EP NARRATIVE-CENTER COUNT PENDING QUANT AUDIT**
-17. **Act Fun / Reader Stress:** **STRUCTURAL PASS / FINAL READER-STRESS QUANT-AUDIT RECOMMENDED BEFORE MASS PROSE**
-18. **Minimum-Action Context Pack + Harness System:** **FRAMEWORK COMPLETE**; 375개 Episode CP 일괄완성으로 오기 금지, CP는 JIT 생산 방식
-19. **Manuscript State:** `main` 기준 **E001–E088 존재**; E089–E093 최신 준비문서 완료, 원고 재구성 전
-20. **HUMAN PROSE / Final Author Approval:** **NOT COMPLETE / AUTHOR ONLY**
+16. **Protagonist Center Regression:** **PASS — A 289 / B 62 / C 24**
+17. **에이든 중심 비율:** **289/375 = 77.1% — PASS**
+18. **에이든 등장 비율:** **351/375 = 93.6% — PASS**
+19. **에이든 완전 부재:** **24/375 = 6.4% — PASS**
+20. **Minimum-Action Context Pack + Harness:** **SYSTEM COMPLETE / JIT OPERATION**
+21. **Manuscript State:** `main` 기준 **E001–E088 존재**; E089–E093 최신 준비문서 완료, 원고 재구성 전
+22. **HUMAN PROSE / Final Author Approval:** **NOT COMPLETE / AUTHOR ONLY**
 
 ## RTG01–RTG20 Project Gates
 
-| Gate | Domain | Current Verdict | Evidence / Notes |
+| Gate | Domain | Verdict | Evidence / Notes |
 |---|---|---|---|
 | RTG01 | Canon Authority / Source Precedence | PASS | Author → Constitution → Amendment/Errata → Decision Log → State → Bible → Architecture → Craft/CP → Manuscript |
 | RTG02 | World Bible | PASS / FREEZE | geography, peoples, magic, religion, economy, law, military, daily life, assets integrated |
@@ -42,76 +43,55 @@ Applies To: 《왕국은 과거를 먹고 산다》 E001–E375
 | RTG06 | Factions / Institutions | PASS | independent utility, harm, authority, exit cost; no pure-evil dependency |
 | RTG07 | Character Macro Arcs | PASS | C01–C30 recurring roles / hard final states |
 | RTG08 | Ensemble Agency | PASS | every Subact has independent faction move/countermove/residue |
-| RTG09 | Grand Acts | 5/5 PASS | each solution causes next Act; different dominant engine per Act |
-| RTG10 | Volume Acts | 15/15 PASS | 25 episodes each, Promise/Turn/Choice/Loss/Exit |
-| RTG11 | Arcs / Subacts | 30/30 + 60/60 PASS | Local Goal → Resolution → Cost/Next Cause complete |
-| RTG12 | Episode Architecture | 375/375 PASS | D6 Scene-Ready cards, no gaps/overlaps |
+| RTG09 | Grand Acts | **5/5 PASS** | each solution causes next Act; different dominant engine per Act |
+| RTG10 | Volume Acts | **15/15 PASS** | 25 episodes each, Promise/Turn/Choice/Loss/Exit |
+| RTG11 | Arcs / Subacts | **30/30 + 60/60 PASS** | Local Goal → Resolution → Cost/Next Cause complete |
+| RTG12 | Episode Architecture | **375/375 PASS** | D6 Scene-Ready cards, no gaps/overlaps |
 | RTG13 | Mystery / MacGuffin | PASS / FREEZE | staged clue, false interpretation, inference point, payoff; no cost-free master key |
 | RTG14 | Permanent Loss / Ending | PASS / FREEZE | F0 not restored, Aiden address loss, Ria memory loss, Blank Zone residue, no secret reset |
-| RTG15 | Protagonist Balance | TARGET LOCKED / COUNT AUDIT OPEN | see `protagonist-presence-balance-gate-v1.md` |
-| RTG16 | POV / Offscreen Agency | PASS | P1 30, P2 15, P3 8; D15 overrides E089/E128/E371/E374/E375 |
+| RTG15 | Protagonist Balance | **PASS** | A 289 / B 62 / C 24; see protagonist-center regression |
+| RTG16 | POV / Offscreen Agency | PASS | P1 30, P2 15, P3 8; D15 overrides preserved |
 | RTG17 | Scene Rhythm / Anti-Repeat | PASS | 375/375 density assigned; 4-identical-density streak = 0; volume engines differentiated |
-| RTG18 | Reader Fun / Cognitive Load | PASS WITH GUARDS | GA III lore-load, GA IV time/faction load, GA V procedural-philosophy load require final stress pass |
-| RTG19 | Context Pack / Storycraft / Harness | SYSTEM PASS | Minimum Action/JIT compilation ready; do not prebuild all 375 CP unless production needs them |
+| RTG18 | Reader Fun / Cognitive Load | PASS WITH EXECUTION GUARDS | GA III lore-load, GA IV time/faction load, GA V procedural-philosophy load |
+| RTG19 | Context Pack / Storycraft / Harness | SYSTEM PASS | Minimum Action/JIT compilation ready; 375 CP 일괄완성으로 오기 금지 |
 | RTG20 | Manuscript / Human Prose | OPEN | E001–E088 on main; HUMAN PROSE final status remains author-only |
 
-## Quantitative Protagonist Gate
+## Quantitative Protagonist Result
 
-Project-specific target:
+Target:
+- Aiden-centered: **75–80%**
+- Aiden appears: **90–95%**
+- Aiden fully absent: **5–10%**
 
-- **Aiden-centered episodes:** **75–80%** = **281–300 / 375**
-- **Aiden appears in episode:** **90–95%** = **338–356 / 375**
-- **Aiden fully absent:** **5–10%** = **19–37 / 375**
-- Practical preferred absence band: **24–30 episodes** when the scene genuinely proves independent agency.
-- Ensemble-centered while Aiden still appears: target roughly **12–18%**; this is how faction agency is strengthened without overusing secondary POV.
+Verified E001–E375 regression:
+
+| Class | Count | Ratio | Verdict |
+|---|---:|---:|---|
+| A — Aiden-centered | **289** | **77.1%** | PASS |
+| B — Ensemble-centered / Aiden present | **62** | **16.5%** | PASS |
+| C — Aiden absent | **24** | **6.4%** | PASS |
+| A+B — Aiden appears | **351** | **93.6%** | PASS |
+
+Source of truth for classification: `docs/10_story_architecture/protagonist-center-regression-e001-e375-v1.md`.
 
 Important:
+- P1 `30/375 = 8.0%` and protagonist-center ratio are different metrics.
+- P1/P2/P3 are not increased mechanically to hit the ratio.
+- Ensemble agency is primarily carried by F-Line/C-Line, decisive-actor visibility and offscreen material residue while Aiden remains physically present.
 
-- Existing P1 `30/375 = 8.0%` is already inside the intended full-secondary-POV range.
-- Therefore **do not mechanically increase P1** to hit ensemble goals.
-- Existing 330 episodes outside P1/P2 are not automatically `Aiden-centered`; narrative-center classification must consider who makes the irreversible choice and whose action creates the next state.
-- A/F/C faction causality should carry much of the ensemble load while Aiden remains physically present.
+## Grand Act Reader-Stress Result
 
-## Current Quantitative Limitation
+- GA I: structural PASS — mystery overload execution guard remains.
+- GA II: structural PASS — legal/rights decisions must reach food/family/land/defense consequences within 1–2 episodes.
+- GA III: structural PASS — prevent lore lecture; construction, evacuation, supply, loss and faction clocks carry exposition.
+- GA IV: structural PASS — highest ensemble pressure; timeline/faction objective visibility required.
+- GA V: structural PASS — prevent constitution/philosophy from replacing crisis/logistics; E369–E375 intentional world-after-Aiden handoff.
 
-The repository currently has a verified POV allocation count, but **does not yet contain a deterministic 375-row `Narrative Center = AIDEN / ENSEMBLE / ABSENT` ledger**.
-
-Therefore do not publish an invented exact percentage such as `Aiden-centered = 82.4%` until all 375 episode cards are classified under the same rule.
-
-Required classification rule:
-
-### A — AIDEN-CENTERED
-At least 2 of 3 are true:
-1. decisive local choice belongs to Aiden;
-2. emotional irreversible cost is primarily Aiden's;
-3. episode resolution/next-cause cannot occur without Aiden's direct action.
-
-### B — ENSEMBLE-CENTERED / AIDEN PRESENT
-Aiden appears, but another named actor/faction makes the decisive move or creates the state that Aiden must react to.
-
-### C — AIDEN ABSENT
-Aiden is not physically present in the episode; independent action still changes material/legal/resource/faction state and rejoins the main line within the governed window.
-
-A 375-row regression must confirm:
-- A = 281–300
-- A+B = 338–356 appearance episodes
-- C = 19–37
-- no Volume feels like a side-story detour
-- GA IV may have the highest ensemble share; GA I should remain the most Aiden-limited-view Act.
-
-## Reader-Stress Guardrails
-
-Even with architecture PASS, final mass-prose production should retain these nonblocking checks:
-
-- GA I: prevent mystery overload from obscuring the assassination/survival engine.
-- GA II: rights/law decisions must become food, family, land, defense, return-window consequences within 1–2 episodes.
-- GA III: prevent lore lecture; construction, evacuation, supply, loss and faction clocks must carry exposition.
-- GA IV: prevent timeline/faction cognitive overload; every simultaneous mission needs a visible objective and residue.
-- GA V: prevent constitutional/philosophical discussion from replacing crisis, logistics, family, school, food and medical stakes.
+These are **execution guards, not S1 blockers**.
 
 ## What Is Actually Complete
 
-`GLOBAL DEEP DESIGN COMPLETE` means the project can descend into episode preparation/prose **without inventing new macro laws, factions, ending mechanisms or event-spine changes**.
+`GLOBAL DEEP DESIGN COMPLETE` means the project can descend into episode preparation/prose without inventing new macro laws, factions, ending mechanisms or event-spine changes.
 
 It does **not** mean:
 - 375 manuscripts completed;
@@ -119,10 +99,12 @@ It does **not** mean:
 - 375 Context Packs precompiled;
 - all JIT names/numbers/rooms/calendar dates frozen.
 
-## Next Valid QA Before Large-Scale Prose
+## Remaining Valid QA
 
-1. `375-episode protagonist-center quantitative regression`
-2. `5-Grand-Act FUN / READER STRESS final pass`
-3. `stale-reference / legacy-contamination audit`
+Macro design blocker is closed. Remaining QA is production-side:
 
-These are quality-control passes, not global world redesign.
+1. stale-reference / legacy-contamination audit
+2. Episode Context Pack JIT verification before each drafting batch
+3. Human Prose / Korean prose / continuity audit after drafting
+
+Open-ended global world redesign is no longer required unless an author decision reopens canon.
