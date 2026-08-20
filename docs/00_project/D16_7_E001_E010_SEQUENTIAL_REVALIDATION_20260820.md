@@ -1,16 +1,14 @@
 # D16.7 — E001–E010 Pack-First Sequential Revalidation
 
-Status: **CURRENT CONTEXT PACK COMPLETE / MANUSCRIPT REVALIDATION PENDING**  
+Status: **PACK COMPLETE / PACK-BASED REVALIDATION COMPLETE / E007 REPAIR BLOCKER**  
 Date: 2026-08-20  
 Base Main: `da538974f8cfb200f359c0de797259f7885a9a03`  
 Branch: `agent/d16-7-e001-e010-sequential-revalidation-20260820`  
 Authority: production-validation overlay only; 사건·설정·결말·인물의도를 새로 만들지 않는다.
 
-## 1. Why the order was corrected
+## 1. Correct production order
 
-D16.6 proved historical coverage and handoff, but it did not make D9/D10-era Context Packs current under D11–D16.6.
-
-The correct order for historical manuscript revalidation is therefore:
+Historical manuscript revalidation follows:
 
 ```text
 CURRENT CANON / ARCHITECTURE
@@ -20,98 +18,92 @@ CURRENT CANON / ARCHITECTURE
 → STATE / NEXT ENTRY RECHECK
 ```
 
-The earlier D16.7 pass inspected manuscripts before a formal current pack existed. Those findings remain useful **diagnostic evidence**, but they are provisional until rerun against the current pack.
+D16.7 initially inspected manuscripts before a formal Current Pack. That order was corrected. The diagnostic findings were reset, the Current Pack was compiled, and the manuscripts were then re-evaluated against it.
 
-## 2. Pack completed first
-
-Current master pack:
+## 2. Current Pack
 
 - `.agent/context-packs/episodes/E001-E010-current-context-pack-d16-7.md`
 
-The pack contains 10/10 episode-level JIT headers with:
+Coverage: **E001–E010 = 10/10**
 
+Every episode now has current production fields:
 - Episode / GA / Volume / Subact
-- architecture hub / historical CP
-- previous Exit source
-- current Entry State
-- current POV lock
-- Information Ceiling
+- Architecture Hub / historical CP pointer
+- Previous Exit Source / Entry State
+- current POV / Information Ceiling
 - Goal / Opposition / Choice / Cost
-- State Change Target / Hook
-- Scene Assets
-- Primary/Secondary Visual route
+- State Change / Hook
+- Scene Assets / Visual State
 - Do Not Re-explain / Do Not Advance
-- active local deadline/clock where applicable
-- Mystery Ceiling
-- Loss Locks
-- Craft Route
-- Next Cause Boundary
+- local deadline/clock where applicable
+- Mystery Ceiling / Loss Lock
+- Craft Route / Next Cause Boundary
 
-Historical E001–E010 CP files remain provenance and are not overwritten.
+Historical D9/D10 CP files are retained as provenance.
 
-## 3. Current pack corrections already locked
+## 3. Pack-based final structural verdict
+
+| Episode | Verdict | Note |
+|---|---|---|
+| E001 | GREEN — CURRENT-CLEAN | structural reuse allowed |
+| E002 | GREEN — CURRENT-CLEAN | structural reuse allowed |
+| E003 | YELLOW-DOC — CURRENT-CLEAN WITH OVERLAY | old E033 mystery duplicate routing is stale |
+| E004 | GREEN — CURRENT-CLEAN | structural reuse allowed |
+| E005 | GREEN — CURRENT-CLEAN | structural reuse allowed |
+| E006 | YELLOW-DOC — CURRENT-CLEAN WITH OVERLAY | current chronology overrides old uncertainty metadata |
+| E007 | **RED-ARCH — REPAIR REQUIRED** | current Iris P1 vs historical Aiden POV |
+| E008 | GREEN — CURRENT-CLEAN | individually valid |
+| E009 | GREEN — CURRENT-CLEAN | individually valid |
+| E010 | GREEN — CURRENT-CLEAN | individually valid |
+
+Sequential certified boundary is currently **E006** because unresolved E007 interrupts the continuous chain.
+
+## 4. Locked corrections from the pack
 
 ### E003
-The death-date contradiction is already an E003 reveal. The older Mystery Ladder line that repeats the same fact at E033 is stale for production routing. E033's current support pack uses the F0 mission-report / Daren Mott author hook instead.
+The witness death-date contradiction is an E003 reveal. Do not repeat it as a first reveal at E033. Current E033 production support uses the F0 mission-report / Daren Mott author hook.
 
 ### E006
-Current chronology is:
-- F0 / CY 664 / 장야월 21일 departure
-- N0 / CY 640 / 안개월 4일 arrival
+Current chronology:
+- departure: F0 / CY 664 / 장야월 21일
+- arrival: N0 / CY 640 / 안개월 4일
 
-Older CP/frontmatter wording that leaves this uncertain is metadata provenance, not current routing.
+Older CP/frontmatter uncertainty is metadata provenance only.
 
 ### E007
-Current POV is:
+Current POV:
 
 **C03 아이리스 네르 — P1**
 
-Iris does not know Aiden's mission purpose or hidden internal equipment calculations. She acts independently through local convoy/refusal/route decisions and observation.
+Required function:
+- protect local convoy/resident priorities
+- exercise local route/refusal agency
+- independently observe the undocumented outsider
+- not know Aiden's mission purpose
 
-The historical Aiden-POV CP/manuscript is therefore a repair candidate, but manuscript editing starts only **after** pack-first revalidation.
+Historical E007 Aiden-close-3rd text cannot be certified without architecture repair.
 
-## 4. Provisional diagnostic findings from the pre-pack audit
-
-These are not yet final batch verdicts:
-
-| Episode | Pre-pack diagnostic |
-|---|---|
-| E001 | GREEN candidate |
-| E002 | GREEN candidate |
-| E003 | YELLOW-DOC candidate — stale mystery routing |
-| E004 | GREEN candidate |
-| E005 | GREEN candidate |
-| E006 | YELLOW-DOC candidate — chronology metadata |
-| E007 | RED-ARCH candidate — POV conflict |
-| E008 | GREEN candidate |
-| E009 | GREEN candidate |
-| E010 | GREEN candidate |
-
-They must be rerun against `.agent/context-packs/episodes/E001-E010-current-context-pack-d16-7.md` before `CURRENT-CLEAN` certification.
+Event outcomes remain salvageable and must be preserved.
 
 ## 5. Human prose boundary
 
-Pack PASS ≠ manuscript PASS ≠ HUMAN PROSE PASS.
+No HUMAN PROSE PASS is granted.
 
-- No episode receives HUMAN PROSE PASS here.
-- No full prose rewrite is authorized by this document.
-- If revalidation finds a repair, report only the required change scope first.
-- Existing events/settings are preserved unless an active higher authority explicitly conflicts.
+- structural current-clean ≠ literary final
+- author review remains required
+- E007 repair does not authorize changing plot/settings/intent
+- full manuscript rewrite is not performed merely from this status document
 
-## 6. Next execution order
+## 6. Next execution
 
-1. Revalidate E001 against Current Pack.
-2. Revalidate E002 against Current Pack.
-3. Continue sequentially through E010.
-4. Correct document-only debt without changing events.
-5. For any manuscript RED, identify exact required repair and preserve next-entry state.
-6. Re-run E006→E007→E008 if E007 repair is required.
-7. Only then certify E001–E010 `CURRENT-CLEAN`.
-8. Then compile **E011–E020 Current Context Pack** before inspecting that manuscript batch.
+1. Create E007 exact repair specification in review format.
+2. Preserve all event/state outcomes and E008 Entry.
+3. After repair implementation, rerun E006→E007→E008.
+4. If PASS, extend sequential current-clean boundary to E010.
+5. Then compile **E011–E020 Current Context Pack first**.
+6. Only after that pack exists, revalidate E011–E020 manuscripts.
 
-## 7. Production invariant for later batches
-
-Every historical batch follows:
+This batch pattern is reused forward:
 
 ```text
 PACK FIRST
@@ -119,6 +111,6 @@ PACK FIRST
 → STATE/HANDOFF THIRD
 ```
 
-Future unwritten episodes still follow D16.6 JIT and empty-file ban; E090–E375 empty packs are not batch-created.
+Future E090–E375 empty Context files are not created; D16.6 JIT rule remains active.
 
-**D16.7 Batch 01: PACK COMPLETE / REVALIDATION NOT YET FINAL.**
+**D16.7 Batch 01: PACK-FIRST PIPELINE CORRECTED AND EXECUTED.**
