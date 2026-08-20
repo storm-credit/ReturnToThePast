@@ -45,16 +45,16 @@ The D6 3 lines are functional beats, not literal scene-count authority.
 ### H3 — POV
 Older/stale E089 drafts included Aiden POV risk.
 
-Current lock: **Ria Seorn P1**.
+Current lock: **리아 세른 P1**.
 
-Verdict: **Ria P1 hard lock.**
-Aiden may appear only through Ria's external observation.
+Verdict: **리아 세른 P1 hard lock.**
+에이든 로엔 may appear only through 리아 세른's external observation.
 
-### H4 — Naha
+### H4 — 나하 아노르
 Current D12 role: independent address-loss resident action, not POV.
 
 Verdict: PASS.
-Naha organizes roll call/current-life testimony without receiving forbidden knowledge.
+나하 아노르 organizes roll call/current-life testimony without receiving forbidden knowledge.
 
 ### H5 — B05
 Older D6 gives beast sensing a strong functional position.
@@ -73,8 +73,8 @@ E088 Exit requires:
 - evacuation and multi-institution record copy underway
 - direct ritual destruction excluded because of collapse risk
 - temporary citizenship/testimony community intact
-- Aiden personal-guarantor responsibility active
-- Aiden address instability risk opened
+- 에이든 로엔 personal-guarantor responsibility active
+- 에이든 로엔 address instability risk opened
 - child fails to recognize mother
 
 E089 JIT Entry preserves all items above.
@@ -101,22 +101,22 @@ Protected from premature use:
 - E091 confirmed external-fleet approach
 - E092 three-package rights comparison / affected-party veto structure
 - E093 legal-force closure
-- Aiden final address loss
-- Ria GA V private-memory loss
+- 에이든 로엔 final address loss
+- 리아 세른 GA V private-memory loss
 
 Verdict: **DO-NOT-ADVANCE PASS.**
 
 ## 7. Visual Resolver QA
 
 Primary Asset:
-- C02 Ria Seorn
+- C02 리아 세른
 
 Current state:
 - MULTI-ERA EVIDENCE
 
 Secondary echoes:
-- C09 Naha Anor — current-life repair lines / shoes / testimony tag
-- C01 Aiden Roen — ALTERED/WORN only
+- C09 나하 아노르 — current-life repair lines / shoes / testimony tag
+- C01 에이든 로엔 — ALTERED/WORN only
 
 Forbidden future visual advance:
 - C01 later ADDRESS-LOSS full variant
@@ -162,6 +162,6 @@ This satisfies D16.6 future-empty-file ban.
 **E089 D16.6 JIT PRE-WRITING GATE: PASS.**
 
 Next allowed unit:
-**E089 author-review draft, Ria Seorn P1, Q / 2 scenes.**
+**E089 author-review draft, 리아 세른 P1, Q / 2 scenes.**
 
 HUMAN PROSE PASS: **NOT GRANTED.**
