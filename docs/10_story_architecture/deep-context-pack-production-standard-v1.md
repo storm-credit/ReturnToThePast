@@ -24,9 +24,9 @@ JIT RUNTIME STATE OVERLAY
 
 각 Episode Entry는 최소 다음을 가진다.
 
-1. Episode ID / Title / GA / Volume / Subact / Arc
+1. Episode ID / Title source / GA / Volume / Subact / Arc
 2. Authority pointers
-3. D6 Goal / Opposition / Choice / Cost / State Change / Hook
+3. D6 Goal / Opposition / Choice / Cost / Planned State Change / Hook
 4. Entry assumptions — architecture-level only
 5. Timeline / age / calendar ceiling
 6. Location / movement / logistics constraints
@@ -36,18 +36,56 @@ JIT RUNTIME STATE OVERLAY
 10. Institution / faction active functions and opposition benefit
 11. Active systems — allowed facts / forbidden reveals
 12. Mystery / MacGuffin active rung / false interpretation / reveal ceiling
-13. Relic / beast / landmark / faction assets and ownership/contract state
+13. Relic / beast / landmark / faction assets and ownership/contract/custody state
 14. Permanent loss / irreversible choice locks
 15. Active clocks and which may move in this episode
 16. Scene density / craft route / anti-repeat
 17. Primary visual anchor / secondary echoes / Do-Not-Advance
-18. Required state-change target
+18. Required planned state-change target
 19. Next Cause Boundary
 20. State Mutation plan — what categories must be checked after drafting
 21. Obsidian node/edge pointers
 22. Known stale-source overrides / unresolved gaps
 
-## 3. JIT Runtime Overlay 필드
+## 3. Deepness model — source-bound, not Bible-copy
+
+Deep Pack의 깊이는 파일 글자수로 판정하지 않는다.
+
+`SOURCE-BOUND DEEP`가 되려면 해당 Episode가 다음을 **유일하게 resolve**할 수 있어야 한다.
+
+```text
+Subact Hub
++ Volume Scene-Ready Design
++ exact D6 Episode row
++ active POV allocation
++ Chronology
++ Character/Relationship state
++ Institution/Faction rules
++ Mystery ladder/Errata
++ Asset/Loss state
++ Visual resolver
+```
+
+규칙:
+- 위 소스의 긴 내용을 Deep Pack에 다시 복사해 drift를 만드는 것은 금지한다.
+- 대신 draft 직전 resolver가 22개 필드를 실제 값으로 materialize해야 한다.
+- source pointer만 있고 소스가 없거나, 어느 값을 읽어야 할지 모호하면 COMPLETE가 아니다.
+- D12 E089–E093처럼 이미 충분히 컴파일된 Historical/Current CP가 있으면 Deep Master는 그것을 provenance/active support로 함께 읽을 수 있다.
+
+## 4. Unresolved source gap rule
+
+상위 Hub/Scene-Ready/Domain Bible에 `[설계 미정]`이 있으면 Deep Pack이 임의로 채우지 않는다.
+
+분류:
+- `GAP-NB` non-blocking: 정확한 지명·분 단위 거리·부차 이름처럼 현재 Episode의 선택/인과/정보상한을 바꾸지 않는 값. Pack에 gap으로 남기고 JIT에서 필요할 때만 ruling.
+- `GAP-B` blocking: POV 주체, 핵심 선택, 인물 정체, 필수 이동 가능성, 법적 권한, Mystery reveal 시점처럼 실제 장면을 쓰려면 확정이 필요한 값. 해당 Episode JIT Preflight에서 STOP.
+
+중요:
+- Static Pack coverage는 gap 존재와 별개로 만들 수 있다.
+- `STATIC COMPLETE`는 빈칸을 숨겼다는 뜻이 아니라 **빈칸의 위치와 권한을 안전하게 보존했다**는 뜻이다.
+- Manuscript READY는 GAP-B가 0일 때만 가능하다.
+
+## 5. JIT Runtime Overlay 필드
 
 실제 집필 직전에만 채운다.
 
@@ -65,17 +103,18 @@ JIT RUNTIME STATE OVERLAY
 - 미래 손실을 현재 상태처럼 기록
 - Static Pack의 목표를 실제 사건 완료 상태로 오인
 
-## 4. Pack grouping
+## 6. Pack grouping
 
 파일 단위는 Subact Master를 기본으로 한다.
 
 - 60 Subacts = 60 Deep Context Masters
-- 각 Master 내부에 해당 Episode의 독립 Deep Entry를 둔다.
+- 각 Master 내부에 해당 Episode의 독립 routing entry를 둔다.
+- 각 entry는 공통 22-field materialization contract를 상속한다.
 - Episode별 실제 집필 시 JIT Runtime Overlay는 별도 episode file 또는 header로 생성한다.
 
-이 방식은 375개의 중복 Bible 복사를 피하면서도 375 Episode Entry를 모두 사전 컴파일한다.
+이 방식은 375개의 중복 Bible 복사를 피하면서도 E001–E375 전체를 사전 컴파일한다.
 
-## 5. Authority rule
+## 7. Authority rule
 
 Deep Pack은 Canon이 아니다.
 
@@ -84,24 +123,28 @@ Author → Canon Constitution → Amendment/Errata → Decision Log → State Le
 
 Deep Pack이 상위 정본과 충돌하면 Pack을 고친다. 사건을 Pack에 맞춰 바꾸지 않는다.
 
-## 6. Pack completeness gate
+과거 Subact Hub의 `Context Pack 없음` 문구는 새 Full-Series Deep Master 생성 이후 **routing/index staleness**로 취급한다. 사건/정본 부재를 뜻하지 않는다.
 
-각 Episode Entry는 다음 12 Gate를 모두 통과해야 COMPLETE다.
+## 8. Pack completeness gate
+
+각 Episode Entry는 다음 Gate를 모두 통과해야 STATIC COMPLETE다.
 
 - G1 Architecture ownership unique
 - G2 Previous/Next causal boundaries identifiable
-- G3 POV/knowledge ceiling explicit
-- G4 Character agency explicit
-- G5 Institution opposition benefit explicit where relevant
-- G6 Mystery reveal ceiling explicit
-- G7 Asset ownership/contract state explicit where relevant
-- G8 Loss/irreversibility lock explicit
-- G9 Visual current-state ceiling explicit
-- G10 Anti-repeat/craft route explicit
+- G3 POV/knowledge ceiling resolvable
+- G4 Character agency resolvable
+- G5 Institution opposition benefit resolvable where relevant
+- G6 Mystery reveal ceiling resolvable
+- G7 Asset ownership/contract/custody state resolvable where relevant
+- G8 Loss/irreversibility lock resolvable
+- G9 Visual current-state ceiling resolvable
+- G10 Anti-repeat/craft route resolvable
 - G11 Runtime-only fields not prematurely frozen
 - G12 Obsidian routing valid
+- G13 Deep source bundle exists and is unambiguous
+- G14 `[설계 미정]` is surfaced as GAP-NB/GAP-B rather than invented
 
-## 7. Production order
+## 9. Production order
 
 ```text
 375 Static Deep Entries complete
@@ -109,6 +152,7 @@ Deep Pack이 상위 정본과 충돌하면 Pack을 고친다. 사건을 Pack에 
 → fix S0/S1
 → main merge
 → actual episode JIT Runtime Overlay
+→ resolve GAP-B if any
 → draft/review
 → State Mutation
 ```
