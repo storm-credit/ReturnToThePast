@@ -131,7 +131,32 @@ Important: `100/100`은 **내부 설계 루브릭 통과**를 뜻하며 실제 �
 
 **Verdict:** PASS.
 
-# 4. Collection Desire Curve
+# 4. D16.2 Deep Blindspot Extension
+
+H1–H12는 ‘설계 결과가 서로 다른가’를 주로 본다. 실제 생성·작화·상품화 과정에서 다시 수렴하는 위험은 별도 문서에서 더 강하게 다룬다.
+
+`d16-visual-collectibility-blindspot-brainstorm-v1.md`에서 다음을 추가 검증했다.
+
+- AI 미형화/대칭화
+- 나이·체형 수렴
+- 성별/선악 시각코딩
+- 동일 직업군 수렴
+- 시간요원 4인 혼동
+- 대표소품 기믹화
+- 유산 스케일·Final Emotion 반복
+- 신수 장엄화/펫화
+- 랜드마크 palimpsest 반복
+- 세력 유니폼화
+- Era 직선발전/P1 유토피아화
+- Reference Leak
+- Style의 얼굴다양성 억압
+- Variant 얼굴 드리프트
+- Group Shot 포즈 수렴
+- 팬덤/상품성의 Canon 침식
+
+Result: 문서 단계 Open P0 = 0 / Open blocking P1 = 0. 실제 이미지가 없으므로 Production Test T1–T10은 Pilot에서 수행한다.
+
+# 5. Collection Desire Curve
 
 독자의 감정은 다음 4단계를 반복한다.
 
@@ -142,7 +167,25 @@ Important: `100/100`은 **내부 설계 루브릭 통과**를 뜻하며 실제 �
 
 이 4단계가 이 작품을 ‘아이템 수집 판타지’와 구분하는 핵심 IP 감정선이다.
 
-# 5. Remaining Non-Blocking Production Work
+# 6. Brainstorm Result
+
+Art Direction은 4안을 비교했다.
+- A Grounded Material Fantasy
+- B Graphic Shape Animation
+- C Illustrated Chronicle / Painterly Fantasy
+- D Hybrid Graphic Realism
+
+Pilot 기본 추천: **D Hybrid Graphic Realism**. 단, 작가 승인 전 HARD LOCK하지 않는다.
+
+Collectibility 운영도 4안을 비교했다.
+- Character-First
+- Relic-Lineage First
+- World-Atlas First
+- Braided Collection
+
+운영 기본 추천: **Braided Collection** — Grand Act마다 Character / Relic-or-Beast / Place-or-Faction를 엮어 팬 진입점을 분산한다. 새 사건은 추가하지 않는다.
+
+# 7. Remaining Non-Blocking Production Work
 
 다음은 **설계 미완성**이 아니라 제작단계다.
 
@@ -153,12 +196,16 @@ Important: `100/100`은 **내부 설계 루브릭 통과**를 뜻하며 실제 �
 - 신수 크기비 이미지
 - 지도/랜드마크 콘셉트아트
 - 표지 실제 제작
+- D16.2 Production Test T1–T10
 
 이 작업에서 디자인 결과가 어색하면 SOFT 필드(색, 세부머리, 일부 문양)를 조정할 수 있으나 사건·인물의도·소유권·최종손실은 변경하지 않는다.
 
-# 6. Final Verdict
+# 8. Final Verdict
 
 - D16 design coverage: COMPLETE
+- D16.1 reference research: COMPLETE
+- D16.2 blindspot sweep: COMPLETE
+- D16.2 constrained brainstorm: COMPLETE
 - Internal 100-point collectibility rubric: **100/100**
 - Canon-breaking issue: **0**
 - Plot mutation: **0**
@@ -166,7 +213,8 @@ Important: `100/100`은 **내부 설계 루브릭 통과**를 뜻하며 실제 �
 - Ownership/petification violation: **0**
 - Blocking P0/S0: **0**
 - Blocking structural P1/S1: **0**
+- Images generated: **0**
 
 정확한 표현:
 
-> **《왕국은 과거를 먹고 산다》의 IP / Visual Collectibility Deep Design은 캐릭터 30명, 유산 12개, 주권신수 5종, 핵심 배경 8축, 세력 시각문법 14종, 15권 노출·변형 운영까지 연결된 상태로 내부 설계 목표 10/10을 충족한다. 실제 그림 제작은 별도 제작 단계다.**
+> **《왕국은 과거를 먹고 산다》의 IP / Visual Collectibility 문서설계는 캐릭터 30명, 유산 12개, 주권신수 5종, 핵심 배경 8축, 세력 시각문법 14종, 15권 노출·변형 운영뿐 아니라 레퍼런스 조사, 얼굴·실루엣 충돌방지, 제작 맹점훑기, 4안 브레인스토밍까지 완료했다. 실제 시각품질은 Pilot 이미지에서 별도 검증한다.**
