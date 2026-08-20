@@ -183,60 +183,71 @@ HUMAN PROSE PASS 권한은 변하지 않는다.
 
 ---
 
-## 14. D16.1 — Reference Research Before Visual Production
+# 14. D16.1 — Reference Research Before Visual Production
 
-작가 지시에 따라 Visual Production 전에 **전체 자산 범위의 레퍼런스 조사**를 선행한다.
+실제 이미지 생성 전에 게임·만화·애니메이션·영화/TV의 사례에서 **복제할 디자인 결과가 아니라 설계 원리**를 조사한다.
 
-대표 5종만 조사하고 이미지를 생성하는 방식은 금지한다.
+필수 범위:
+- 캐릭터 얼굴·체형 다양성
+- 대규모 캐스트 식별
+- 직업·계층·문화와 복식의 결합
+- 세력 공통문법과 개인차
+- 유산/소품의 마모·provenance
+- 신수의 생태·행동·환경 연결
+- 랜드마크의 생활·제도·역사 동시 표현
 
-조사 범위:
+참조작 이름이나 특정 캐릭터/배우/무기/의상은 이미지 생성 프롬프트에 직접 넣지 않는다.
 
-- C01–C30: 30/30
-- R01–R12: 12/12
-- B01–B05: 5/5
-- Core Landmark: 8/8
-- F01–F14: 14/14
-- Era O/N/F/P1: 4/4
-
-참조 매체:
-- manga
-- animation
-- game
-- film / TV
-
-참조는 캐릭터/의상/무기를 베끼는 것이 아니라 `얼굴 다양성 / 실루엣 / 직업복식 / material culture / 생태 / 배경 / 변형 / 대규모 앙상블 식별`의 **방법론만 추출**한다.
-
-### Active D16.1 QA Documents
-
+관련 문서:
 - `docs/99_quality_control/visual-reference-research-matrix-v1.md`
 - `docs/99_quality_control/visual-reference-coverage-all-assets-v1.md`
 - `docs/99_quality_control/face-silhouette-collision-gate-v1.md`
 - `docs/99_quality_control/visual-production-preflight-gate-v1.md`
 
-### Face Clone Prevention
+전체 자산(C30/R12/B05/L8/F14/Era4) 조사·매핑 전 이미지 생성 금지.
 
-C01–C30 전원에게 Production Soft `Face DNA / Body DNA / Gesture DNA / Silhouette DNA`를 부여한다.
+---
 
-- 일반 인물쌍 최소 4/8축 차이
-- 동일기능 위험군 5/8 미만 FAIL
-- 현재 scaffold 비예외 최소거리 6/8
-- C01↔C08은 동일인 다른 시기라 얼굴골격 유사 허용
-- C01↔C30은 8/8 분리 목표. 얼굴로 정체 암시 금지
+# 15. D16.2 — Blindspot Sweep & Constrained Brainstorm
 
-### Image Generation State
+D16.1이 `무엇을 참고할 것인가`를 다룬다면 D16.2는 **실제 제작에서 어떻게 다시 망가질 수 있는가**를 다룬다.
 
-**D16.1 문서 작업 중 실제 이미지 생성: 0장.**
+추가 방어 대상:
+- AI 미형화·대칭화
+- 연령·체형·성별 표현 수렴
+- 선악 얼굴코딩
+- 동일 직업군 얼굴/몸/소품 수렴
+- C01/C08/C29/C30 시간요원계열 혼동
+- 대표소품 기믹화
+- 유산 Scale/Final Emotion 반복
+- 신수 장엄화·펫화
+- 랜드마크의 palimpsest 모티프 반복
+- 세력 로고·유니폼화
+- Era 직선발전·P1 유토피아화
+- Reference Leak
+- Style에 의한 얼굴다양성 억압
+- Variant 얼굴 드리프트
+- Group Shot 포즈·시선 수렴
+- 팬덤·상품성 때문에 영구손실을 되돌리려는 압력
 
-Visual Validation Pilot은 전역 문서 PASS 후에만 시작한다.
-Pilot이 5종이어도 그것은 ‘조사 5종’이 아니라 **전체 설계의 실물 검증 샘플**이다.
+관련 문서:
+- `docs/99_quality_control/d16-visual-collectibility-blindspot-brainstorm-v1.md`
+- `docs/99_quality_control/visual-production-preflight-gate-v1.md`
 
-### Visual Production Gate
+### Art Direction 4안
+A Grounded Material Fantasy  
+B Graphic Shape Animation  
+C Illustrated Chronicle / Painterly Fantasy  
+D Hybrid Graphic Realism
 
-첫 이미지 전 필수:
-1. Reference Research PASS
-2. Full Asset Coverage PASS
-3. Face/Silhouette Collision Gate PASS
-4. Canon Integrity PASS
-5. Reference Integrity PASS
+**Pilot 기본 추천 = D.** HARD LOCK은 실제 Pilot 승인 전 금지.
 
-실제 이미지가 생성된 뒤에는 문서 PASS와 별개로 다시 Collision/Canon/Recognition 검증을 수행한다.
+### Collectibility 운영 4안
+1 Character-First  
+2 Relic-Lineage First  
+3 World-Atlas First  
+4 Braided Collection
+
+**운영 기본 추천 = 4.** 각 Grand Act에서 `Character / Relic-or-Beast / Place-or-Faction`의 삼각형으로 팬 진입점을 분산한다. 새 사건은 추가하지 않는다.
+
+D16.2는 실제 이미지가 나오기 전의 설계 방어층이므로, 여기서 `실물 비주얼 10/10`을 선언하지 않는다.
