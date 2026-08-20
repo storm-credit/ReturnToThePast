@@ -1,7 +1,7 @@
 # Manuscript Progress
 
 Status: **MAIN MANUSCRIPT THROUGH E088 / E089 PREPARATION COMPLETE**  
-Gate: **E089 MAY ENTER AUTHOR-REVIEW DRAFT AFTER CURRENT LEGACY QA**  
+Gate: **E089 READY FOR AUTHOR-REVIEW DRAFT**  
 Target: E001–E375  
 Audit Base Main: `9b0edee394455726d2270ac0dae58d2919cf2731`
 
@@ -21,7 +21,7 @@ E089 이후 원고는 현재 main에 없다.
 
 > main 파일 존재는 `HUMAN PROSE PASS`를 의미하지 않는다. 최종 인간문체 승인은 작가만 부여한다.
 
-## 2. Global Design State
+## 2. Global Design / QA State
 
 - World / Setting / Canon / Faction / Institution Deep Design: COMPLETE / FROZEN
 - Temporal / Address / Return / Engine mechanics: COMPLETE / FROZEN
@@ -35,11 +35,16 @@ E089 이후 원고는 현재 main에 없다.
   - Aiden center 289/375 = 77.1%
   - Aiden appears 351/375 = 93.6%
   - Aiden absent 24/375 = 6.4%
+- stale-reference / legacy-contamination audit: PASS on cleanup branch
 - known blocking S0: 0
 - known architecture-blocking S1: 0
 
 Full scorecard:
 `docs/00_project/PROJECT_COMPLETION_SCORECARD_20260820.md`
+
+Legacy QA:
+- `docs/00_project/legacy-quarantine-index-v1.md`
+- `docs/99_quality_control/stale-reference-legacy-contamination-audit-20260820.md`
 
 ## 3. Architecture Baseline for E089+
 
@@ -106,7 +111,7 @@ Preflight:
 Current safety index:
 `docs/00_project/legacy-quarantine-index-v1.md`
 
-`outline/`, `Drafts/`, 구 회귀 root files에서 발견한 사건·이름·엔딩을 현재 원고로 바로 가져오지 않는다.
+`outline/`, `Drafts/`, legacy-era `lore_bible/`, 구 회귀 root files에서 발견한 사건·이름·엔딩을 현재 원고로 바로 가져오지 않는다.
 
 특히 금지:
 - 172회차 / 무한 회귀 / 죽음 리셋
@@ -116,8 +121,8 @@ Current safety index:
 
 ## 8. Continuation Sequence
 
-### Current QA
-1. stale-reference / legacy-contamination audit — **IN PROGRESS on cleanup branch**
+### Completed QA
+1. stale-reference / legacy-contamination audit — **PASS ON CLEANUP BRANCH**
 
 ### Next Prose Unit
 2. latest main + actual E088 exit 재확인
@@ -141,4 +146,4 @@ Current safety index:
 
 ## 10. Current Next Unit
 
-**STALE/LEGACY QA를 닫은 뒤 E089 원고 — 리아 세른 P1 / AUTHOR-REVIEW DRAFT ONLY.**
+**E089 원고 — 리아 세른 P1 / AUTHOR-REVIEW DRAFT ONLY.**
