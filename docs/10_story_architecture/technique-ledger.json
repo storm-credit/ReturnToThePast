@@ -3,11 +3,28 @@
   "density": "E",
   "hook": "H2",
   "primary_craft": "이해관계 협상",
-  "secondary_craft": ["권한 절차", "대립자 성과"],
+  "secondary_craft": [
+   "권한 절차",
+   "대립자 성과"
+  ],
   "diagnosis": "정치·법·행정",
   "pov": "AIDEN_CLOSE_THIRD",
   "opening": "공간 안에서 이미 대상을 보고 있는 상태",
   "score": 89.5,
+  "status": "FIRST DRAFT / AUTHOR REVIEW READY"
+ },
+ "E002": {
+  "density": "E",
+  "hook": "H1",
+  "primary_craft": "권한 절차",
+  "secondary_craft": [
+   "구체적 현실 불일치",
+   "대립자 성과"
+  ],
+  "diagnosis": "정치·법·행정",
+  "pov": "AIDEN_CLOSE_THIRD",
+  "opening": "공간의 물리적 기울기를 먼저 감각",
+  "score": 90.0,
   "status": "FIRST DRAFT / AUTHOR REVIEW READY"
  }
 }
