@@ -5,14 +5,43 @@ Owner: Grand Architecture / Continuity
 
 ## Composite Card Definition
 
-E001–E375 각 회차 카드는 다음 네 자료를 합성한 하나의 설계 카드로 본다.
+E001–E375 각 회차 카드는 다음 **5개 자료**를 합성한 하나의 설계 카드로 본다.
 
 1. `detail/gaXX-episode-registry-...md`의 해당 Episode 행
 2. [`subact-causal-matrix-v1.md`](subact-causal-matrix-v1.md)의 해당 Subact
 3. 이 문서의 권별 공통 Context
 4. 인물·기관·자산·미스터리·손실 상태 장부
+5. [`obsidian-act-subact-visual-wiring-v1.md`](obsidian-act-subact-visual-wiring-v1.md) + [`visual-cp-resolver-rules-v1.md`](visual-cp-resolver-rules-v1.md)의 현재 Act/Volume/Subact Visual Binding
 
 따라서 각 회차에는 Reader Promise, Goal, Opposition, Choice, Cost, State Change, Hook, POV, Era, Location, Information Ceiling, Canon Links, Prohibitions가 존재한다. 원고 장면과 문장은 포함하지 않는다.
+
+## D16.5 Mandatory Hierarchy
+
+회차 카드를 만들 때 아래 계층을 건너뛰지 않는다.
+
+`Grand Act → Volume → Subact → Episode → Current Asset State`
+
+- Grand Act는 5개 중 하나.
+- Volume은 15개 중 하나.
+- Subact는 60개 중 정확히 하나.
+- Episode는 Subact 범위 안에 있어야 한다.
+- Visual Asset은 해당 Subact/장면에 실제 존재하는 대상만 사용한다.
+- Asset의 외형·손상·소유권·Variant는 `visual-asset-act-usage-matrix-v1.md`에서 현재 Act/Volume 행으로 제한한다.
+
+### Mandatory Episode Card Fields
+
+D16.5 이후 신규/갱신 Episode Card에는 다음 8개를 추가한다.
+
+- `Grand Act`
+- `Volume`
+- `Subact`
+- `Architecture Hub`
+- `Primary Visual Asset`
+- `Current Visual State`
+- `Do Not Advance`
+- `Visual Resolver Route`
+
+이 필드가 없다고 기존 E001–E088 카드를 소급 재작성하지는 않는다. E089 이후 생산 시 JIT로 적용한다.
 
 ## POV Rule `[ASSUMPTION]`
 
@@ -42,6 +71,16 @@ E001–E375 각 회차 카드는 다음 네 자료를 합성한 하나의 설계
 | V14 E326–350 | O/N/F | 분산기록소·계약항 | 단일 원본 부재와 기억 한계를 확인 | Mystery M14–M17 |
 | V15 E351–375 | 세 시대→새 현재 | 중앙·지역망·백지권 | 최종 선택의 비용을 당사자에게 공개 | Ending, Loss Ledger, Final States |
 
+## Obsidian Graph Use
+
+기존 Act/Subact/Character/Asset Markdown 링크를 유지한다. Obsidian Graph는 이 링크를 edge로 읽는다.
+
+D16.5 Wiring Registry가 5 Acts / 15 Volumes / 60 Subacts를 한 곳에서 모두 연결하며, Resolver가 실제 회차 생산 경로를 강제한다.
+
+향후 Properties 도입 시 파일명을 바꾸지 않고 다음 ID만 추가한다.
+
+`GA-II / V04 / V04-4C / E089 / C02`
+
 ## Global Prohibitions
 
 - 회귀·리셋·부활·완전 복원
@@ -52,3 +91,5 @@ E001–E375 각 회차 카드는 다음 네 자료를 합성한 하나의 설계
 - 권말마다 같은 배신·귀환충격
 - 반전 직전 새 시간법칙
 - 기존 손실을 다른 시간대 인물로 대체
+- Act/Volume에서 Subact를 건너뛰어 Visual Asset을 직접 선택
+- Visual Prompt가 Story Architecture보다 상위 권한을 갖는 것

@@ -1,6 +1,6 @@
 # Visual CP Resolver Rules v1
 
-Status: **D16.4 PRODUCTION ROUTER — ACTIVE AFTER MERGE**  
+Status: **D16.5 PRODUCTION ROUTER — ACT/SUBACT GRAPH WIRED**  
 Purpose: 5 Grand Acts / 15 Volumes / 60 Subacts / E001–E375에서 Visual Bible을 실제 집필 Context Pack에 필요한 만큼만 주입한다.
 
 ## 1. Resolver Input
@@ -8,13 +8,21 @@ Purpose: 5 Grand Acts / 15 Volumes / 60 Subacts / E001–E375에서 Visual Bible
 Episode CP 생성 시 다음 입력만 사용한다.
 
 1. Episode ID / Volume / Subact
-2. POV
-3. 장면에 이미 존재하는 캐릭터·유산·신수·장소·세력
-4. `visual-asset-act-usage-matrix-v1.md`
-5. 각 domain Production Prompt / Visual Identity Bible
-6. 현재 상태 체크포인트
+2. 현재 Grand Act / Volume / Subact 허브
+3. `obsidian-act-subact-visual-wiring-v1.md`
+4. POV
+5. 장면에 이미 존재하는 캐릭터·유산·신수·장소·세력
+6. `visual-asset-act-usage-matrix-v1.md`
+7. 각 domain Production Prompt / Visual Identity Bible
+8. 현재 상태 체크포인트
 
 새 자산을 ‘비주얼을 위해’ 장면에 추가하지 않는다.
+
+### Mandatory Resolution Order
+
+`Episode → Wiring Registry → Grand Act → Volume → Subact → Scene Assets → Visual Matrix → Production Prompt`
+
+Act나 Volume만 보고 Episode 자산을 바로 고르지 않는다. 반드시 해당 Subact까지 내려간다.
 
 ## 2. Resolver Priority
 
@@ -113,6 +121,15 @@ Subact 마지막:
 
 다음 Subact 첫 회는 직전 변경을 기억해야 한다.
 
+### D16.5 Wiring Requirement
+
+각 Subact는 `obsidian-act-subact-visual-wiring-v1.md`의 60개 행 중 정확히 1개와 대응한다.
+
+- 60/60 Subact 모두 Wiring 행을 가진다.
+- Episode가 어느 Subact에 속하는지 불명확하면 원고 생산 중지.
+- Subact Hub에 등장하지 않는 자산을 Wiring만으로 새로 추가하지 않는다.
+- Subact에서 이미 링크된 캐릭터·기관·자산·장소가 실제 후보군이다.
+
 ## 8. Volume Transition Rule
 
 Volume 시작 CP는 직전 Volume의 다음 상태만 가져온다.
@@ -144,6 +161,8 @@ Volume 시작 CP는 직전 Volume의 다음 상태만 가져온다.
 VISUAL_CP
 Episode: E###
 Grand Act / Volume / Subact:
+Architecture Hub:
+Wiring Registry Row:
 Primary Asset:
 Current State:
 Beat Type:
@@ -159,26 +178,52 @@ Production Prompt Route:
 Collision Check Against:
 ```
 
-## 11. E089 Production Example
+## 11. Obsidian Graph Compatibility
+
+D16.5는 파일명이나 정본 구조를 바꾸지 않고 링크 레이어를 추가한다.
+
+Graph에서 최소 다음 경로가 보여야 한다.
+
+`GA Hub ↔ Subact Hub ↔ Wiring Registry ↔ Visual Resolver ↔ Visual Matrix`
+
+기존 Subact Hub가 캐릭터/장소/자산 허브로 가진 Markdown 링크도 그대로 Graph edge가 된다.
+
+향후 Obsidian properties는 다음 키만 권장한다.
+
+- `node_type`
+- `node_id`
+- `parent_act`
+- `parent_volume`
+- `parent_subact`
+- `visual_router`
+- `visual_matrix`
+
+properties 도입 때문에 정본 파일명을 개명하지 않는다.
+
+## 12. E089 Production Example
 
 E089는 기존 D12/D15 lock을 따른다.
 
 ```text
 Episode: E089
+Grand Act / Volume / Subact: GA II / V04 / 4C
+Architecture Hub: V04-4C
+Wiring Registry Row: V04-4C / E088–E093
 Primary Asset: C02 리아 세른
-Current State: GA II / V4 opening-side state; existing history only
+Current State: MULTI-ERA EVIDENCE
 3-Second Anchor: 비대칭 겹소매 / 세로 문서갑 / 얇은 투명판
 Gesture: 이름·출처를 확인하며 작은 출처점을 남김
 Do Not Re-explain: 전신 소개와 미모평가
-Do Not Advance: GA V의 PRIVATE LOSS / FINAL state
+Do Not Advance: GA V의 PUBLIC EVIDENCE / PRIVATE LOSS
 Collision: C12 엘사, C22 하렌
 ```
 
 이 예시는 새 사건을 만들지 않는다. E089 실제 장면에서 존재하는 행동만 사용한다.
 
-## 12. QA Gate
+## 13. QA Gate
 
 FAIL:
+- Act에서 Subact를 건너뛰어 Episode 자산 직접 선택
 - 장면에 없는 자산을 굿즈/비주얼 목적으로 추가
 - 미래 Variant 선행
 - 색/머리만으로 캐릭터 구분
@@ -187,10 +232,12 @@ FAIL:
 - 유산 Final 역행
 - B05 진실판정자화
 - C30 정체시각 확정
+- Wiring Registry와 Episode range 불일치
 
 PASS:
+- Episode → Act/Volume/Subact 경로가 유일하게 해석됨
 - 자산 ID가 현재 Act/Volume 상태와 일치
 - 1–3개의 짧은 인지단서만 원고에 사용
 - 실제 콘셉트아트 제작이 필요할 때만 Production Prompt로 라우팅
 
-**VISUAL CP RESOLVER: COMPLETE / READY FOR JIT USE.**
+**VISUAL CP RESOLVER: D16.5 WIRED / READY FOR JIT USE.**
