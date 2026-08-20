@@ -27,15 +27,17 @@ Applies To: 《왕국은 과거를 먹고 산다》 E001–E375
 17. **에이든 중심 비율:** **289/375 = 77.1% — PASS**
 18. **에이든 등장 비율:** **351/375 = 93.6% — PASS**
 19. **에이든 완전 부재:** **24/375 = 6.4% — PASS**
-20. **Minimum-Action Context Pack + Harness:** **SYSTEM COMPLETE / JIT OPERATION**
-21. **Manuscript State:** `main` 기준 **E001–E088 존재**; E089–E093 최신 준비문서 완료, 원고 재구성 전
-22. **HUMAN PROSE / Final Author Approval:** **NOT COMPLETE / AUTHOR ONLY**
+20. **5 Grand Act FUN / Reader Stress:** **5/5 PASS WITH EXECUTION GUARDS**
+21. **STALE REFERENCE / LEGACY CONTAMINATION QA:** **PASS ON CLEANUP BRANCH / P0 0 / blocking S1 0**
+22. **Minimum-Action Context Pack + Harness:** **SYSTEM COMPLETE / JIT OPERATION**
+23. **Manuscript State:** `main` 기준 **E001–E088 존재**; E089–E093 최신 준비문서 완료, E089 원고 전
+24. **HUMAN PROSE / Final Author Approval:** **NOT COMPLETE / AUTHOR ONLY**
 
 ## RTG01–RTG20 Project Gates
 
 | Gate | Domain | Verdict | Evidence / Notes |
 |---|---|---|---|
-| RTG01 | Canon Authority / Source Precedence | PASS | Author → Constitution → Amendment/Errata → Decision Log → State → Bible → Architecture → Craft/CP → Manuscript |
+| RTG01 | Canon Authority / Source Precedence | PASS | Author → Constitution → Amendment/Errata → Decision Log → State → Bible → Architecture → Craft/CP → Manuscript → Legacy; legacy quarantine active |
 | RTG02 | World Bible | PASS / FREEZE | geography, peoples, magic, religion, economy, law, military, daily life, assets integrated |
 | RTG03 | Temporal Mechanics | PASS / FREEZE | direct embodied travel, mutable timeline, no reset, address/return debt, no late new power |
 | RTG04 | Mana Fever / Gray Calamity | PASS | same phenomenon; scale only personal/group/regional collapse |
@@ -89,6 +91,24 @@ Important:
 
 These are **execution guards, not S1 blockers**.
 
+## Legacy / Stale QA Result
+
+Audit:
+`docs/99_quality_control/stale-reference-legacy-contamination-audit-20260820.md`
+
+Safety routing:
+`docs/00_project/legacy-quarantine-index-v1.md`
+
+Cleanup-branch result:
+- canon-destructive legacy root sources identified: 3 / quarantined: 3
+- active state/continuity stale defects identified: 5 / closed: 5
+- unresolved P0: 0
+- unresolved blocking S1: 0
+- legacy directories preserved for provenance rather than mass-rewritten
+- active-but-older alias docs lose to current Canon Index / Gate / Progress by explicit rule
+
+This QA does not reopen World/Canon design.
+
 ## What Is Actually Complete
 
 `GLOBAL DEEP DESIGN COMPLETE` means the project can descend into episode preparation/prose without inventing new macro laws, factions, ending mechanisms or event-spine changes.
@@ -99,12 +119,15 @@ It does **not** mean:
 - 375 Context Packs precompiled;
 - all JIT names/numbers/rooms/calendar dates frozen.
 
-## Remaining Valid QA
+## Remaining Valid QA / Production Work
 
-Macro design blocker and protagonist-balance quantitative blocker are closed. Remaining QA is production-side:
+Project-wide macro blockers are closed. Remaining work is production-side:
 
-1. stale-reference / legacy-contamination audit
-2. Episode Context Pack JIT verification before each drafting batch
-3. Human Prose / Korean prose / continuity audit after drafting
+1. verify latest main immediately before each drafting batch
+2. Episode Context Pack JIT freshness check
+3. Human Prose / Korean prose / continuity / reader audit after drafting
+4. author review before any HUMAN PROSE PASS
+
+Next valid prose unit after this cleanup is **E089 — 리아 세른 P1**.
 
 Open-ended global world redesign is no longer required unless an author decision reopens canon.
