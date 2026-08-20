@@ -13,6 +13,10 @@ Applies To: repository-wide Codex work
 
 [`AGENTS.md`](AGENTS.md), [`CLAUDE.md`](CLAUDE.md), Skill, Harness, CP는 상위 정본을 덮어쓸 수 없다.
 
+## Minimum Action Routing
+
+이 파일의 Agent/Skill 목록은 역할 레지스트리이지 평면 action menu가 아니다. 실제 Codex 작업도 [`AI_PROJECT.md`](AI_PROJECT.md)와 [Minimum Action adoption](.agent/orchestra/minimum-action-agent-os-adoption-v1.md)의 5개 routing lane을 사용하고, 해당 lane의 Agent/Skill만 lazy-load한다. 전체 Agent 수에는 제한이 없으며 reasoning node의 직접 callable action만 기본 `<= 5`로 관리한다.
+
 ## Required Reads
 
 1. [`/AI_PROJECT.md`](AI_PROJECT.md)
@@ -46,7 +50,7 @@ Applies To: repository-wide Codex work
 - [`.agent/skills/human-prose-audit/SKILL.md`](.agent/skills/human-prose-audit/SKILL.md)
 - [`.agent/skills/naming-audit/SKILL.md`](.agent/skills/naming-audit/SKILL.md)
 
-Skill은 절차이고 정본 승인권이 없다.
+Skill은 절차이고 정본 승인권이 없다. Active Skills 목록은 레지스트리이며 담당 Agent 내부에서 필요한 때만 load한다.
 
 `human-prose-audit`은 AI가 `AUTHOR REVIEW READY`까지만 판정한다. `HUMAN PROSE PASS`는 작가 승인 없이는 기록하지 않는다.
 

@@ -16,6 +16,18 @@ Project: 《왕국은 과거를 먹고 산다》 / `ReturnToThePast`
 
 `작가 결정 → Canon Constitution → Amendment/Errata → Decision Log → State Ledger → Domain Bible → Story Architecture → Craft/POV/CP → Manuscript → Legacy`
 
+## Minimum Action Agent OS
+
+이 프로젝트는 `storm-credit/minimum-action-agent-os`를 **작업 방법론으로만** 따른다.
+
+- 전체 Agent 수를 제한하지 않는다. 각 reasoning node의 직접 선택 가능한 Agent/Tool/Skill/MCP/기타 callable action을 기본 `<= 5`로 유지한다.
+- 기존 Canon / Spec / State / 원고 / Harness가 도메인 정본이며 공통 OS가 이를 덮어쓰지 않는다.
+- A00은 기존 A01~A21을 삭제하지 않고 [5개 routing lane](.agent/orchestra/minimum-action-agent-os-adoption-v1.md)으로 lazy-load한다.
+- 기존 Skill과 Tool은 전역 평면 메뉴로 펼치지 않고 담당 Agent 안에서 필요한 것만 load한다.
+- OS의 중복 절차를 새 Agent/Skill로 만들지 않는다.
+
+상세 Audit과 예외는 [`.agent/orchestra/minimum-action-agent-os-adoption-v1.md`](.agent/orchestra/minimum-action-agent-os-adoption-v1.md)를 따른다.
+
 ## Start Here
 
 1. [`/AI_PROJECT.md`](AI_PROJECT.md)
@@ -41,6 +53,8 @@ Codex는 [`/AGENTS.md`](AGENTS.md), ChatGPT 프로젝트는 [`/AI_PROJECT.md`](A
 - A16 Red Team: S0/S1 차단
 - A17 GitHub Verifier: 실제 PR·merge·SHA 확인
 
+위 목록은 역할 인덱스이며 A00의 평면 action menu가 아니다. 실제 선택은 Minimum Action Agent OS의 5개 routing lane을 거친다.
+
 명명 작업은 A00+A02+영향 Domain+A15+A19+A16+A17 라우트를 사용한다.
 
 전체 역할과 승인범위는 [`.agent/orchestra/agent-registry.md`](.agent/orchestra/agent-registry.md)를 따른다.
@@ -52,6 +66,8 @@ Codex는 [`/AGENTS.md`](AGENTS.md), ChatGPT 프로젝트는 [`/AI_PROJECT.md`](A
 - [`.agent/skills/sentence-narrator/SKILL.md`](.agent/skills/sentence-narrator/SKILL.md) — 문체 표본은 §5.2-A: 내부(E023 수술본·작가 수정 E001·E015 물지게꾼) 우선, 외부는 [`prose-style-references-v1.md`](docs/13_writing_harness/prose-style-references-v1.md) 장면 매핑
 - [`.agent/skills/naming-audit/SKILL.md`](.agent/skills/naming-audit/SKILL.md)
 - [`.agent/skills/human-prose-audit/SKILL.md`](.agent/skills/human-prose-audit/SKILL.md) — **AI 티 검수.** 원고 배치·수술 후 반드시 실행. 기계 2단(validate_manuscript 13종 + check_volume_divergence 권 단위)이 먼저, 이 스킬이 기계가 못 잡는 패턴(§3 격언·재해설·공식화), `HUMAN PROSE PASS`는 작가만 부여
+
+이 목록은 레지스트리다. Skill은 담당 Agent 안에서 lazy-load하며 Bootstrap의 peer action으로 동시에 노출하지 않는다.
 
 Skill은 절차이며 정본 승인권이 없다.
 
