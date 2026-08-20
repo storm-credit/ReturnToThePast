@@ -1,8 +1,8 @@
 # Visual Production Preflight Gate v1
 
-Status: **D16.1 HARD GATE — NO IMAGE BEFORE PASS**  
+Status: **D16.2 HARD GATE — NO IMAGE BEFORE PASS**  
 Date: 2026-08-20  
-Purpose: D16 문서설계가 실제 이미지 제작에서 유사얼굴·레퍼런스 복제·설정오염으로 무너지는 것을 막는다.
+Purpose: D16 문서설계가 실제 이미지 제작에서 유사얼굴·레퍼런스 복제·설정오염·AI 수렴·과상품화로 무너지는 것을 막는다.
 
 ---
 
@@ -47,7 +47,8 @@ Pilot 5개는 **조사범위 5개**가 아니라 **전체 문서가 작동하는
 7. `visual-reference-research-matrix-v1.md`
 8. `visual-reference-coverage-all-assets-v1.md`
 9. `face-silhouette-collision-gate-v1.md`
-10. 본 `visual-production-preflight-gate-v1.md`
+10. `d16-visual-collectibility-blindspot-brainstorm-v1.md`
+11. 본 `visual-production-preflight-gate-v1.md`
 
 Missing 1개라도 있으면 이미지 생성 금지.
 
@@ -87,7 +88,37 @@ Current: PASS.
 
 ---
 
-# 5. Face Clone Prevention Gate
+# 5. D16.2 Blindspot / Brainstorm Gate
+
+첫 이미지 전 다음 위험에 방어규칙이 있어야 한다.
+
+- AI 미형화·대칭화
+- 연령·체형 수렴
+- 성별 시각코딩
+- 선악 얼굴코딩
+- 기록/군사/공방/해안/중앙권력 직업군 수렴
+- C01/C08/C29/C30 시간요원계열 혼동
+- 대표소품 기믹화
+- 유산 스케일 단조
+- 유산 Final Emotion 반복
+- 신수 장엄화/펫화
+- 랜드마크의 ‘겹침’ 모티프 반복
+- 세력 로고·유니폼화
+- Era 직선발전·P1 유토피아화
+- 레퍼런스 누출
+- 화풍이 얼굴다양성을 억압
+- Variant 동일인 얼굴 드리프트
+- 그룹샷 포즈·시선 수렴
+- 팬덤/상품성에 의한 영구손실 침식
+
+Current: **PASS — guards documented.**
+
+Art Direction은 D16.2의 4안 중 `Hybrid Graphic Realism`을 **Pilot 기본안으로 추천**하지만 HARD LOCK하지 않는다.
+Collectibility 운영은 `Braided Collection`을 추천한다.
+
+---
+
+# 6. Face Clone Prevention Gate
 
 첫 캐릭터 이미지 전에도 적용하고, 매 캐릭터 승인 전 재적용한다.
 
@@ -103,12 +134,14 @@ Current: PASS.
 - black silhouette 비교
 - prop-less 비교
 - 동일 성별/연령 위험군 비교
+- hair/color masking 비교
+- age spread 비교
 
 FAIL이면 얼굴만 미세수정하지 않고 **골격/비율/자세 중 최소 2축을 다시 설계**한다.
 
 ---
 
-# 6. Reference Integrity Gate
+# 7. Reference Integrity Gate
 
 생성 전 프롬프트에서 다음을 검사한다.
 
@@ -126,9 +159,11 @@ FAIL이면 얼굴만 미세수정하지 않고 **골격/비율/자세 중 최소
 - D16 문서의 독립 실루엣
 - Reference Matrix에서 추출된 추상 설계 원리
 
+결과물 자체가 특정 참고작 캐릭터·복식·무기를 먼저 떠올리게 하면 `Reference Leak`로 FAIL 처리한다.
+
 ---
 
-# 7. Canon Integrity Gate
+# 8. Canon Integrity Gate
 
 이미지가 멋있다는 이유로 다음을 새 Canon으로 만들지 않는다.
 
@@ -148,7 +183,7 @@ Visual Production은 **설정을 그린다. 설정을 발명하지 않는다.**
 
 ---
 
-# 8. Character Production Order
+# 9. Character Production Order
 
 전원 한꺼번에 생성하지 않는다.
 
@@ -170,6 +205,7 @@ Visual Production은 **설정을 그린다. 설정을 발명하지 않는다.**
 ## Phase V3 — Variant
 - 해당 캐릭터에게 실제 정본 Variant가 있는 경우만
 - 색만 바꾸는 스킨 금지
+- 승인된 Face DNA를 새로 설계하지 않는다
 
 ## Phase V4 — Production Sheet
 - 정면/3-4면/후면 또는 필요한 턴어라운드
@@ -179,21 +215,23 @@ Visual Production은 **설정을 그린다. 설정을 발명하지 않는다.**
 
 ---
 
-# 9. Relic Production Order
+# 10. Relic Production Order
 
 1. Black silhouette 4안
-2. Material/age study
-3. O Original
-4. U In Use
-5. C Contested
-6. F Final
-7. 4상태 한 줄 비교
+2. Human scale comparison
+3. Material/age study
+4. O Original
+5. U In Use
+6. C Contested
+7. F Final
+8. 4상태 한 줄 비교
 
 R03/R06/R10/R12는 Final이 강화형처럼 보이면 FAIL.
+R01–R12 전체는 최소 4개 Scale Band에 분산되는지 별도 확인한다.
 
 ---
 
-# 10. Beast Production Order
+# 11. Beast Production Order
 
 1. Ecology notes 확인
 2. Rest silhouette 4안
@@ -202,24 +240,37 @@ R03/R06/R10/R12는 Final이 강화형처럼 보이면 FAIL.
 5. Trace sheet
 6. Environment interaction
 7. 계약/거부 상황
+8. Presence Type 비교
 
 신수만 흰 배경에 세워둔 ‘몬스터 도감’ 1장으로 완료 처리 금지.
+5종 모두가 ‘거대하고 장엄한 신비생물’로 읽히면 FAIL.
 
 ---
 
-# 11. Landmark Production Order
+# 12. Landmark Production Order
 
 1. 생활행동 foreground
 2. 제도/노동 midground
 3. 역사/시간 landmark background
 4. 낮/밤보다 상태변형 우선
-5. 사람 없는 beauty shot은 마지막
+5. Region Primary Verb 확인
+6. 사람 없는 beauty shot은 마지막
 
 랜드마크는 엽서가 아니라 **사람이 사는 제도적 공간**이어야 한다.
 
+Region Primary Verb:
+- 아르켄 = 증축한다
+- 서부 = 수선한다
+- 셀카르 = 파고/접합한다
+- 라디아 = 흐르게/막는다
+- 조류도시 = 잠기고/드러난다
+- 백지권 = 다시 적는다
+- Era F = 재사용한다
+- P1 = 나눠 맡는다
+
 ---
 
-# 12. Pilot PASS Criteria
+# 13. Pilot PASS Criteria — Core 50 Checks
 
 대표 5종 Visual Validation Pilot은 다음 10문항을 각각 통과해야 한다.
 
@@ -240,7 +291,60 @@ R03/R06/R10/R12는 Final이 강화형처럼 보이면 FAIL.
 
 ---
 
-# 13. Human Approval Rule
+# 14. D16.2 Additional Production Tests T1–T10
+
+Core 50 Checks와 별도로 다음 10개를 수행한다.
+
+### T1 Face Entropy Board
+30명 face scaffold를 동일 조명·무표정으로 배열.
+
+### T2 Body Entropy Board
+소품·머리 제거 black silhouette.
+
+### T3 Age Spread Board
+청년/중년/노년의 조직량·피부·자세가 실제로 다른지 검사.
+
+### T4 Moral Neutrality Board
+주역/대립자 이름을 숨기고 악역 시각코딩 여부 검사.
+
+### T5 Job Cluster Board
+기록/군사/공방/해안/중앙권력 위험군만 따로 배열.
+
+### T6 Group Scene Board
+8명 이상 군중장면에서 자세·높이·시선·손동작 분산.
+
+### T7 Relic Scale Board
+R01–R12를 같은 인간 실루엣 옆에 놓아 크기분포 확인.
+
+### T8 Beast Presence Board
+본체가 아니라 발자국/소리/환경반응만으로 B01–B05를 구별 가능한지 확인.
+
+### T9 Landmark Verb Board
+8지역의 구조 스케치가 서로 다른 동사로 읽히는지 확인.
+
+### T10 Reference Leak Check
+특정 참고작 캐릭터·의상·무기가 먼저 떠오르는 결과는 재설계.
+
+**T1–T10 중 하나라도 FAIL이면 전체 양산 금지.**
+
+---
+
+# 15. Group Composition Gate
+
+8명 이상 그룹샷에서:
+
+- 중심 높이 3단계 이상
+- 몸 방향 최소 4종
+- 손 사용 4종 이상
+- 앉음/기댐/작업/이동 중 최소 2종
+- 모든 인물이 카메라를 보는 단체사진 금지
+- 세력별 색 덩어리로 단순 분리 금지
+
+개별 캐릭터가 PASS해도 그룹에서 무너지면 Production PASS가 아니다.
+
+---
+
+# 16. Human Approval Rule
 
 Visual Pilot에서 AI가 할 수 있는 판정:
 - Structural PASS
@@ -258,14 +362,16 @@ AI가 할 수 없는 최종 판정:
 
 ---
 
-# 14. Current Verdict
+# 17. Current Verdict
 
 Reference Research: PASS  
 Full Asset Coverage: PASS  
+D16.2 Blindspot Sweep: PASS  
+D16.2 Constrained Brainstorm: PASS  
 Face/Silhouette Scaffold: PASS  
 Canon Mutation: 0  
 Images Generated in this phase: **0**
 
 **VISUAL PRODUCTION PREFLIGHT: PASS FOR PILOT, BUT PILOT NOT STARTED.**
 
-다음 단계는 문서 누락 검증과 PR 상태 확인이며, 그 다음에만 Visual Validation Pilot을 시작한다.
+다음 단계는 PR 상태와 문서 누락을 다시 검증하고, 작가 승인 뒤에만 Visual Validation Pilot을 시작한다.
