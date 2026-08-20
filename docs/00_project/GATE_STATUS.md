@@ -1,6 +1,6 @@
 # Production / Pre-Writing Gate Status
 
-Status: **GLOBAL DESIGN FROZEN / E089 PROSE GATE READY AFTER LEGACY QA**  
+Status: **GLOBAL DESIGN FROZEN / E089 PROSE GATE READY**  
 Effective: 2026-08-20  
 Audit Base Main: `9b0edee394455726d2270ac0dae58d2919cf2731`  
 Main Manuscript Boundary: **E001–E088 present**  
@@ -23,10 +23,12 @@ Next Valid Manuscript Unit: **E089 — 리아 세른 P1 / AUTHOR-REVIEW DRAFT ON
   - 에이든 중심 289/375 = 77.1%
   - 에이든 등장 351/375 = 93.6%
   - 에이든 완전부재 24/375 = 6.4%
+- stale-reference / legacy-contamination QA: PASS on cleanup branch
 - known blocking S0: 0
 - known architecture-blocking S1: 0
 
 정량/완료 상세는 `PROJECT_COMPLETION_SCORECARD_20260820.md`를 따른다.
+Legacy 상세는 `legacy-quarantine-index-v1.md`와 `docs/99_quality_control/stale-reference-legacy-contamination-audit-20260820.md`를 따른다.
 
 ## 2. Main Manuscript Boundary
 
@@ -71,18 +73,19 @@ Preflight:
 
 ## 4. Legacy / Stale Safety
 
-현재 Legacy 격리 규칙:
+Legacy 격리 규칙:
 `docs/00_project/legacy-quarantine-index-v1.md`
 
 다음은 현재 Canon/State/Ending 근거로 사용하지 않는다.
 
 - `outline/`
 - `Drafts/`
+- legacy-era `lore_bible/` 및 구 세계관 트리
 - 구 회귀 설정을 가진 root legacy files
 - closed stale manuscript branches/PRs
 - `[WORKING]`, `슬롯`, `후보`가 최신 Canon Index와 충돌하는 명칭
 
-구형 루트 엔딩/세계관 인덱스의 `정사`, `Final`, `절대 기준` 선언은 현재 권한이 없다.
+구형 루트 엔딩/세계관 인덱스의 `정사`, `Final`, `절대 기준`, `COMPLETE` 선언은 현재 권한이 없다.
 
 ## 5. Stale Manuscript PR Safety
 
@@ -120,12 +123,12 @@ Preflight:
 
 ## 7. Allowed Now
 
-- stale-reference / legacy-contamination cleanup 및 검증
-- E089 실제 원고 집필 준비·실행
+- **E089 실제 원고 집필 준비·실행**
 - E090–E093 순차 집필
-- 해당 회차 JIT Context Pack 보충
+- 해당 회차 JIT Context Pack freshness 보충
 - Human Prose Audit
 - Canon/Continuity/Reader Red Team
+- legacy 자료 salvage가 필요한 경우 quarantine rule에 따른 검증
 
 ## 8. Still Forbidden
 
@@ -138,7 +141,8 @@ Preflight:
 ## 9. Current Verdict
 
 **GLOBAL DEEP DESIGN: COMPLETE / FROZEN**  
+**PROTAGONIST BALANCE QA: PASS**  
+**STALE/LEGACY QA: PASS / NO KNOWN BLOCKING ACTIVE-SOURCE CONFLICT**  
 **E089–E093 PREPARATION: COMPLETE**  
-**STALE/LEGACY QA: ACTIVE IN THIS CLEANUP UNIT**  
-**AFTER QA: NEXT VALID PROSE = E089, 리아 세른 P1**  
+**NEXT VALID PROSE: E089, 리아 세른 P1**  
 **HUMAN PROSE FINAL APPROVAL: NOT GRANTED / AUTHOR ONLY**
