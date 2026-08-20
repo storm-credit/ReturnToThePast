@@ -72,7 +72,7 @@ Verified E001–E375 regression:
 | C — Aiden absent | **24** | **6.4%** | PASS |
 | A+B — Aiden appears | **351** | **93.6%** | PASS |
 
-Source of truth for classification: `docs/10_story_architecture/protagonist-center-regression-e001-e375-v1.md`.
+Authoritative quantitative ledger: `docs/10_story_architecture/protagonist-center-regression-e001-e375-v1.md`.
 
 Important:
 - P1 `30/375 = 8.0%` and protagonist-center ratio are different metrics.
@@ -101,7 +101,7 @@ It does **not** mean:
 
 ## Remaining Valid QA
 
-Macro design blocker is closed. Remaining QA is production-side:
+Macro design blocker and protagonist-balance quantitative blocker are closed. Remaining QA is production-side:
 
 1. stale-reference / legacy-contamination audit
 2. Episode Context Pack JIT verification before each drafting batch
