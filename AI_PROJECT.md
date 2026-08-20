@@ -45,13 +45,41 @@ Project: 《왕국은 과거를 먹고 산다》 (`ReturnToThePast`)
 2. [`docs/00_project/canon-constitution-v1.md`](docs/00_project/canon-constitution-v1.md)
 3. 최신 Amendment와 [`docs/00_project/decision-log.md`](docs/00_project/decision-log.md)
 4. [`docs/00_project/GATE_STATUS.md`](docs/00_project/GATE_STATUS.md)
-5. [`.agent/orchestra/governance-and-routing-v2.md`](.agent/orchestra/governance-and-routing-v2.md)
-6. [`.agent/orchestra/agent-registry.md`](.agent/orchestra/agent-registry.md)
-7. 작업 유형별 Domain Bible
-8. 관련 Story Architecture
-9. Context Pack과 Harness
+5. [`manuscript/PROGRESS.md`](manuscript/PROGRESS.md)
+6. [`docs/00_project/PROJECT_COMPLETION_SCORECARD_20260820.md`](docs/00_project/PROJECT_COMPLETION_SCORECARD_20260820.md)
+7. [`.agent/orchestra/governance-and-routing-v2.md`](.agent/orchestra/governance-and-routing-v2.md)
+8. [`.agent/orchestra/agent-registry.md`](.agent/orchestra/agent-registry.md)
+9. 작업 유형별 Domain Bible
+10. 관련 Story Architecture
+11. 관련 Context Pack과 Harness
 
-## 5. Orchestration Roles
+## 5. Legacy Quarantine — Mandatory
+
+레거시 격리 원본:
+[`docs/00_project/legacy-quarantine-index-v1.md`](docs/00_project/legacy-quarantine-index-v1.md)
+
+다음은 **startup / Canon / current state / current ending source로 사용 금지**다.
+
+- `outline/`
+- `Drafts/`
+- `Ending_Scenarios.md`
+- `Lore_Bible_Master_Index.md`
+- `02_SESSION_SUMMARY.md`
+- DEPRECATED로 표시된 root legacy files
+
+`Guidelines/`는 현재 `.agent/skills/`와 `docs/13_writing_harness/`보다 우선하지 않는다. 활성 라우터가 특정 파일을 명시적으로 가리킬 때만 보조자료로 사용한다.
+
+GitHub 검색에서 Legacy가 먼저 나와도 다음 요소를 현재 정본으로 가져오지 않는다.
+
+- 172회차·무한 회귀·죽음 리셋
+- 현대 환생 / 신·영원한 관찰자 엔딩
+- 발타자르를 C05 현재 이름으로 사용
+- 12사도·창백한 의회·영시·세라핌 등 구 세계관을 자동 복구
+- `F1 지휘관`, `F1 친구 슬롯`, `[WORKING]` 표기를 최신 C01–C30 이름보다 우선
+
+인물명은 [`docs/05_characters/cast-canon-index-v2.md`](docs/05_characters/cast-canon-index-v2.md)가 우선한다.
+
+## 6. Orchestration Roles
 
 - A00 Story Orchestrator: 요청분류, 호출순서, 정족수, 중단조건 관리
 - A02 Canon Controller: 정본 우선순위와 충돌 판정
@@ -64,7 +92,7 @@ Project: 《왕국은 과거를 먹고 산다》 (`ReturnToThePast`)
 
 전체 역할과 승인범위는 [`.agent/orchestra/agent-registry.md`](.agent/orchestra/agent-registry.md)와 [`expert-contracts-v1.md`](.agent/orchestra/expert-contracts-v1.md)를 따른다.
 
-## 6. Active Skills
+## 7. Active Skills
 
 - [`.agent/skills/storycraft-orchestrator/SKILL.md`](.agent/skills/storycraft-orchestrator/SKILL.md)
 - [`.agent/skills/context-pack-compiler/SKILL.md`](.agent/skills/context-pack-compiler/SKILL.md)
@@ -78,7 +106,7 @@ Skill은 반복 절차다. 설정·사건·결말을 독자적으로 승인하�
 
 `naming-audit`은 한국 웹소설 판타지 명명 규칙을 검사하지만 기존 정본 이름을 작가 승인 없이 변경하지 않는다.
 
-## 7. Context Pack Rule
+## 8. Context Pack Rule
 
 작업 전 CP를 컴파일한다.
 
@@ -90,7 +118,9 @@ Skill은 반복 절차다. 설정·사건·결말을 독자적으로 승인하�
 
 CP는 원본 경로, 기준 commit/ref, 추출한 사실, 정보상한, 현재 상태를 기록한다. CP 안에서 새 설정을 만들지 않는다. 빠진 정보는 Domain Bible 단계로 되돌린다.
 
-## 8. Harness
+Legacy 자료가 필요한 경우 CP에 provenance를 표시하고 현재 Canon/Architecture와 재검증한다.
+
+## 9. Harness
 
 주 실행 하네스:
 
@@ -102,18 +132,17 @@ CP는 원본 경로, 기준 commit/ref, 추출한 사실, 정보상한, 현재 �
 
 작가가 AI 티를 지적한 원고는 구조·정본 검사를 통과했더라도 다음 화로 진행하지 않는다.
 
-## 9. Current State
+## 10. Current State Routing
 
-- D10 모델중립 정본 우선 오케스트라: MERGED / MAIN VERIFIED
-- D10 PR: #25
-- D10 Merge SHA: `a34113d538f9ec22b396fdf0193dd82ab19328ec`
-- 정확한 현재 집필 회차·완료 PR·다음 작업은 다음 두 파일만 따른다.
-  - [`docs/00_project/GATE_STATUS.md`](docs/00_project/GATE_STATUS.md)
-  - [`manuscript/PROGRESS.md`](manuscript/PROGRESS.md)
+정확한 현재 집필 회차·완료 PR·다음 작업은 다음을 따른다.
 
-이 라우터에는 회차별 상태를 중복 기록하지 않는다.
+- [`docs/00_project/GATE_STATUS.md`](docs/00_project/GATE_STATUS.md)
+- [`manuscript/PROGRESS.md`](manuscript/PROGRESS.md)
+- [`docs/00_project/PROJECT_COMPLETION_SCORECARD_20260820.md`](docs/00_project/PROJECT_COMPLETION_SCORECARD_20260820.md)
 
-## 10. Hard Stops
+이 라우터에는 회차별 상태와 main SHA를 중복 하드코딩하지 않는다.
+
+## 11. Hard Stops
 
 다음 중 하나라도 있으면 원고 또는 설계 승격을 중단한다.
 
@@ -129,15 +158,16 @@ CP는 원본 경로, 기준 commit/ref, 추출한 사실, 정보상한, 현재 �
 - 명명 감사에서 S1로 분류된 기관·종교·시간·장비 이름의 미해결
 - 이전 화가 `AUTHOR REVIEW READY`에 도달하지 못함
 - branch가 main보다 뒤처짐
+- Legacy/DEPRECATED 문서를 현재 Canon/Ending/State 근거로 사용함
 
-## 11. GitHub Rule
+## 12. GitHub Rule
 
 - 최신 main에서 branch 생성
 - 의도한 범위만 변경
 - compare에서 `behind_by=0`
 - PR 생성
-- squash merge
-- PR `closed/merged=true` 확인
+- main 머지는 작가의 명시적 승인 후에만 수행
+- 병합 시 PR `closed/merged=true` 확인
 - 실제 merge SHA 기록
 - main의 대표파일 재확인
 
