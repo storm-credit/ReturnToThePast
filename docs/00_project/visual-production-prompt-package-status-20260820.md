@@ -23,6 +23,7 @@ D16/D16.1/D16.2에서 설계한 비주얼 정체성을 실제 이미지 생성 �
 - Faction: **F01–F14 = 14/14**
 - Global Negative / Collision Rules: COMPLETE
 - Visual Pilot Evaluation Sheet: COMPLETE
+- Visual Pilot Copy-Ready Execution Bundle: COMPLETE
 - External Artist / Image Model Handoff: COMPLETE
 - Master Production Spec: COMPLETE
 - Prompt Engineering Red Team: COMPLETE
@@ -45,9 +46,10 @@ D16/D16.1/D16.2에서 설계한 비주얼 정체성을 실제 이미지 생성 �
 - `docs/02_world/production-prompts-l01-l08-v1.md`
 - `docs/02_world/production-prompts-f01-f14-v1.md`
 
-### QA
+### QA / Pilot
 - `docs/99_quality_control/visual-negative-and-collision-rules-v1.md`
 - `docs/99_quality_control/visual-pilot-evaluation-sheet-v1.md`
+- `docs/99_quality_control/visual-pilot-execution-bundle-v1.md`
 - `docs/99_quality_control/visual-prompt-engineering-red-team-v1.md`
 
 ## 4. Production Rule
@@ -111,10 +113,12 @@ SOFT 필드는 Pilot에서 작가 승인 전 Canon HARD로 승격하지 않는�
 - D16.2 / D16.3 Production Tests PASS
 - 작가의 방향 승인
 
+외부 실행자는 우선 `visual-pilot-execution-bundle-v1.md`만 복사해 V0 5종을 생성할 수 있다.
+
 ## 8. Final Verdict
 
 **D16.3 Visual Production Prompt / Handoff Package: COMPLETE.**
 
 이 단계의 완료는 ‘실제 이미지가 10/10’이라는 뜻이 아니다. 정확한 의미는:
 
-> **전체 비주얼 자산을 외부 이미지 모델 또는 전문 아티스트에게 넘길 수 있는 제작 명세·프롬프트·금지규칙·검수표가 준비되었다. 다음 단계는 Visual Pilot 실물 검증이다.**
+> **전체 비주얼 자산을 외부 이미지 모델 또는 전문 아티스트에게 넘길 수 있는 제작 명세·프롬프트·금지규칙·검수표와 대표 5종 Copy-Ready Pilot Bundle이 준비되었다. 다음 단계는 Visual Pilot 실물 검증이다.**
