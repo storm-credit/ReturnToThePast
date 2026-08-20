@@ -1,14 +1,13 @@
 # Production / Pre-Writing Gate Status
 
-Status: **PRE-MANUSCRIPT DESIGN/PACK CLOSED / MANUSCRIPT PHASE NOT STARTED**  
-Effective: 2026-08-20 PRE-MANUSCRIPT FINAL CLOSURE  
-Closure Base: `main@770d260e7805b525dca7322c3cf813c43cb4b9fe`  
-Physical Main Manuscript Coverage: **E001–E088 files present**  
-Sequential Current-Clean Boundary: **E006**  
-Blocking Manuscript Boundary: **E007 — C03 아이리스 네르 P1 architecture lock vs historical manuscript POV conflict**
+Status: **FULL PREWRITING SYSTEM CLOSED / NEW MANUSCRIPT NOT STARTED**
+Effective: 2026-08-21 CONTEXT MAP COLD-START / CRAFT BINDING CLOSURE
+Closure Base: `main@9fdf2faa3278201bae624421ce6600ee871a95f5`
+Production Basis: **NEW MANUSCRIPT FROM E001**
+Legacy Manuscript (E001–E088, 88 files): **LEGACY / REFERENCE / PROVENANCE ONLY**
+First Episode When Phase Opens: **E001**
 
-> `파일이 main에 존재함`과 `현재 정본으로 순차 인증됨`을 구분한다.  
-> E008–E010은 D16.7에서 개별 current-clean이지만 E007이 RED-ARCH이므로 연속 인증 경계는 E006이다.
+> 이 게이트는 2026-08-21부터 **새 원고 기준**이다. 기존 `manuscript/volume-01`~`volume-04`는 정본 입력이 아니며 게이트 지표도 아니다. 근거: [`../99_quality_control/manuscript-independent-context-audit-20260821.md`](../99_quality_control/manuscript-independent-context-audit-20260821.md)
 
 ## 1. Pre-Manuscript Closure State
 
@@ -25,18 +24,22 @@ Blocking Manuscript Boundary: **E007 — C03 아이리스 네르 P1 architecture
 - M01–M17 D6 Semantic Crosswalk: **17/17 PASS**
 - active mystery gap > 50 episodes: **0**
 - Knowledge Holder C01–C30 ↔ M01–M17: **SYNC PASS**
-- old Canon Gap Register: **HISTORICAL / superseded**
+- Character Hubs C01–C30: **30/30**
 - current REAL OPEN / BLOCKING Canon gap: **0**
 - Decision-Mechanism Diversity Red Team: **PASS WITH EXECUTION GUARDS**
 - JIT / runtime detail: **intentionally open**
 - manuscript prose changed by this closure: **0**
 
-Current closure sources:
-- `docs/11_mystery/mystery-semantic-crosswalk-e001-e375-v2.md`
-- `docs/11_mystery/knowledge-holder-ledger-v1.md`
-- `docs/99_quality_control/pre-manuscript-gap-resolution-register-20260820.md`
-- `docs/99_quality_control/decision-mechanism-diversity-red-team-20260820.md`
-- `docs/99_quality_control/pre-manuscript-final-semantic-closure-20260820.md`
+## 1.1 Cold-Start / Craft / Economy Closure (2026-08-21)
+
+| 검사 | 결과 | 근거 |
+|---|---|---|
+| Cold-start 표본 11화 (GA I×3 · II×2 · III×2 · IV×2 · V×2) | **9 PASS / 2 GAP-B** | [`cold-start-harness`](../99_quality_control/context-map-cold-start-harness-20260821.md) |
+| 기존 원고를 읽어야만 resolve되는 항목 | **0** | 같은 문서 |
+| 원고 의존성 등록·강등 | **8건 / 전부 PROVENANCE** | [`manuscript-independent-audit`](../99_quality_control/manuscript-independent-context-audit-20260821.md) |
+| Craft Route resolvable | **0/11 → 11/11** | [`craft-context-resolver-v1`](../10_story_architecture/craft-context-resolver-v1.md) |
+| 회차당 Context 로딩 | 21문서 359,834B → **12문서 113,201B (−68.5%)** | [`minimum-context-resolver-v1`](../10_story_architecture/minimum-context-resolver-v1.md) |
+| Red Team 10벡터 | CONFIRMED 6 / REFUTED 4 / **S0 = 0** | [`final-red-team`](../99_quality_control/context-map-final-red-team-20260821.md) |
 
 ## 2. Static Deep vs JIT
 
@@ -52,92 +55,97 @@ Static Deep Context는 E001–E375에 대해 source-bound routing을 제공한�
 
 `Static Deep PASS ≠ future runtime facts pre-frozen`.
 
-## 3. Manuscript Physical Coverage vs Sequential Certification
+## 3. New Manuscript Runtime
 
-### Physical files on main
-- V1 E001–E025
-- V2 E026–E050
-- V3 E051–E075
-- V4 E076–E088
+```text
+STATIC DESIGN STATE
+        +
+NEW MANUSCRIPT RUNTIME STATE      ← 새 원고가 만든 State Mutation만
+        ↓
+NEXT EPISODE JIT
+```
 
-이것은 HUMAN PROSE PASS 또는 현재 정본 순차 인증을 뜻하지 않는다.
+| 회차 | Previous Exit |
+|---|---|
+| **E001** | **SERIES ORIGIN STATE** — `manuscript-independent-context-audit-20260821.md` §3.3에 전 항목 확정 |
+| E002–E375 | 직전 회차의 **새 원고** State Mutation |
 
-### D16.7 current-context revalidation
+- Legacy runtime state는 **자동 상속되지 않는다.**
+- 직전 새 원고가 없으면 그 회차를 쓰지 않는다. **건너뛰기 금지.**
+- 권한계층의 `Manuscript` 항은 **새 원고만** 가리킨다.
 
-`docs/99_quality_control/d16-7-e001-e010-sequential-revalidation-qa-v1.md`
+## 4. Registered Episode-Level GAP-B (2건)
 
-- E001–E006: **CURRENT-CLEAN** (E003/E006 active overlay 포함)
-- E007: **RED-ARCH / REPAIR REQUIRED**
-- E008–E010: individually current-clean
-- unbroken sequential boundary: **E006**
+이것은 시스템 결손이 아니라 회차 단위 설계 공백을 시스템이 정상 검출한 결과다 (`deep-context-pack-production-standard-v1` §4).
 
-### E007 Hard Lock
+| Episode | 내용 | 필요한 판정 |
+|---|---|---|
+| **E173** | 사다리·장부가 M05와 M13의 **독자 추론 가능 시점을 동시에 E173**에 배정하는데, v07 설계 카드에 두 rung의 근거가 없다. 밀도는 S·3장면 | 두 rung을 E173의 어느 장면에 얹을지, 하나를 인접 회차로 옮길지. **E171 Revelation vs M01 사다리 E176 순서 역전**도 함께 |
+| **E199** | V08-8D에 이름 붙은 배정 인물이 E200 보조 POV 오르바드 한 명뿐. **`변경도시 대표`가 구간 전체의 감정을 지는데 ID·이름이 없다** | 8D 대표를 C01–C30 중 배정할지, `AUTHOR DECISION REQUIRED`로 신규 인물을 세울지. 판정 1회로 8D 7화가 함께 풀린다 |
+
+**두 GAP-B는 E001–E172 집필을 막지 않는다.** E173·E199에 도달하기 전에 판정하면 된다.
+
+## 5. Legacy Provenance (구 §3·§4 이관)
+
+아래는 **기록**이며 현재 게이트 지표가 아니다.
+
+| 항목 | 값 |
+|---|---|
+| Legacy 원고 파일 | `manuscript/volume-01`~`volume-04` = E001–E088 / 88파일 |
+| Legacy Episode CP | `.agent/context-packs/episodes/` = 38파일 (E001–E026 개별 + E027–E093 묶음) |
+| Legacy State Mutation | `manuscript/state/` 26 + `manuscript/quality/*-state-mutation.md` |
+| Legacy Craft Manifest | `docs/10_story_architecture/craft-manifests/` = E001–E093 |
+| 구 sequential current-clean boundary | E006 |
+| 구 E007 RED-ARCH | **소멸** — 사유는 설계 결손이 아니라 과거 원고가 에이든 시점으로 쓰였다는 사실이었다. 새 원고 E007은 처음부터 **C03 아이리스 네르 P1**으로 쓴다 |
+| 구 `E089 DIRECT ROUTING FORBIDDEN` | **무효** — 새 원고는 E001부터 순차 진행하므로 애초에 E089로 점프하지 않는다 |
+| D12 E089–E093 준비자산 | provenance. 필수 입력 아님 |
+
+**E007 POV 잠금 자체는 활성 설계 정본이다** — 강등된 것은 원고 판정문이지 잠금이 아니다.
 
 - POV: **C03 아이리스 네르 P1**
-- Iris는 에이든의 임무 목적·숨은 장비 계산·내적 판단을 알 수 없음
-- Iris의 지역 환자호송·거부권·경로선택·독립관찰이 장면 인과를 가져야 함
+- Iris는 에이든의 임무 목적·숨은 장비 계산·내적 판단을 알 수 없다
+- Iris의 지역 환자호송·거부권·경로선택·독립관찰이 장면 인과를 가진다
 - Aiden은 Iris P1 안에서 외부 관측 대상
-- E008은 Iris의 독립행동 결과를 이어받음
+- E008은 Iris의 독립행동 결과(변경된 호송경로)를 이어받는다
 
-이번 PRE-MANUSCRIPT Closure는 **E007 원고를 수정하지 않는다.**
+출처: `secondary-pov-and-offscreen-action-allocation-v1.md` §4 · `e001-e010-current-context-overlay-d16-7.md` §5.
 
-## 4. E089–E093 Preparation Status
+## 6. New Manuscript Order
 
-기존 D12 준비자산은 main에 존재한다.
-
-- `.agent/context-packs/episodes/E089-E093-context-pack-d12.md`
-- `docs/10_story_architecture/craft-manifests/E089-E093-storycraft-manifest-d12.md`
-- `manuscript/quality/E089-E093-d12-preflight.md`
-
-하지만 이는 **cached future preparation**이다.
-
-**E089는 현재 Next Valid Prose가 아니다.**
-E007을 건너뛰고 E089로 내려가지 않는다.
-
-## 5. Current Allowed Work
-
-현재 사용자가 원고 단계로 전환하기 전:
-
-- Canon/Pack/QA 상태 확인
-- JIT가 아닌 정적 문서 정합성 유지
-- visual production 등 별도 production 작업
-
-원고 단계 전환 후의 순서는:
+작가가 원고 단계로 전환한 뒤:
 
 1. latest main 재확인
-2. E001–E006 current-clean 상태 확인
-3. **E007 repair specification / author-approved repair**
-4. E006→E007→E008 재검증
-5. PASS 시 sequential boundary를 E010으로 확장
-6. 다음 batch Context/JIT를 컴파일한 뒤 순차 전진
+2. **E001**부터 시작. `minimum-context-resolver-v1.md` §7 회차 Preflight 7항목 통과
+3. Craft Manifest를 `craft-context-resolver-v1.md` §12 형식으로 작성. **이 필드가 없으면 원고를 시작하지 않는다**
+4. draft → Prose Audit → Canon/Continuity → Red Team
+5. State Mutation 기록 (`JIT_RESOLVED_VALUES` 포함)
+6. 다음 회차로 순차 전진
 
-## 6. Still Forbidden
+## 7. Still Forbidden
 
-- E007 blocker를 건너뛰고 E089부터 집필
-- 과거 E007 Aiden-POV draft 직접 재사용
-- stale E089+ manuscript branch 직접 병합
+- **기존 원고를 정본 입력으로 사용** (Exit·사건·문장·상태 전부)
+- E007 원고 수리 · E008–E088 복구 · E089 선행 작성
+- legacy State Mutation을 새 원고의 Entry State로 사용
+- 직전 새 원고 없이 다음 회차 집필
 - 자동 `HUMAN PROSE PASS`
 - JIT 값을 375화 미래 사실처럼 선결
 - Legacy/DEPRECATED를 current Canon/State로 사용
 - 새 핵심 시간법칙·세력·인물·결말을 임의 추가
-
-## 7. Open PR Safety
-
-- #124 Minimum Action Agent OS adoption: **OPEN / DRAFT / NOT MERGED / separate scope**
-- old E007–E012 draft PRs including #94–#99: **OPEN / STALE / NOT CURRENT ROUTE**
-- #94 E007은 current Iris P1 lock과 충돌하므로 직접 병합 금지
+- 독자 추론 가능 시점이 지나지 않은 미스터리의 답을 인물 대사로 설명
 
 ## 8. Human Prose
 
-- PRE-MANUSCRIPT closure는 HUMAN PROSE PASS를 부여하지 않는다.
-- main file presence ≠ HUMAN PROSE PASS.
+- 이 closure는 HUMAN PROSE PASS를 부여하지 않는다.
+- AI는 `FIRST DRAFT` / `AUTHOR REVIEW READY`까지만 기록한다.
 - final HUMAN PROSE PASS = **AUTHOR ONLY**.
 
 ## 9. Current Verdict
 
-**PRE-MANUSCRIPT DESIGN/PACK: CLOSED**  
-**REAL BLOCKING CANON GAP: 0**  
-**MANUSCRIPT PHASE: NOT STARTED**  
-**SEQUENTIAL CURRENT-CLEAN BOUNDARY: E006**  
-**FIRST MANUSCRIPT BLOCKER WHEN PHASE OPENS: E007 IRIS P1 REPAIR**  
-**E089 DIRECT ROUTING: FORBIDDEN UNTIL SEQUENTIAL CHAIN REACHES IT**
+**FULL PREWRITING SYSTEM: CLOSED**
+**MANUSCRIPT DEPENDENCY: 0**
+**REAL BLOCKING CANON GAP: 0**
+**COLD-START: 9/11 PASS · 2 REGISTERED EPISODE-LEVEL GAP-B (E173 · E199)**
+**CRAFT RESOLVER: ACTIVE**
+**CONTEXT ECONOMY: −68.5%**
+**NEW MANUSCRIPT PHASE: NOT STARTED**
+**FIRST EPISODE: E001**
