@@ -180,3 +180,63 @@ PASS: 90점 이상, 어느 항목도 70% 미만 금지, 기존 Canon 위반 0.
 D16은 E089 이후 원고에서 **기존 사건을 묘사하는 방법**만 강화한다. 한 회에 외형설명을 몰아넣지 않고 첫 등장 2–3개 단서 → 행동 중 재료/소품 → 후속 손상/변형으로 분산 노출한다.
 
 HUMAN PROSE PASS 권한은 변하지 않는다.
+
+---
+
+## 14. D16.1 — Reference Research Before Visual Production
+
+작가 지시에 따라 Visual Production 전에 **전체 자산 범위의 레퍼런스 조사**를 선행한다.
+
+대표 5종만 조사하고 이미지를 생성하는 방식은 금지한다.
+
+조사 범위:
+
+- C01–C30: 30/30
+- R01–R12: 12/12
+- B01–B05: 5/5
+- Core Landmark: 8/8
+- F01–F14: 14/14
+- Era O/N/F/P1: 4/4
+
+참조 매체:
+- manga
+- animation
+- game
+- film / TV
+
+참조는 캐릭터/의상/무기를 베끼는 것이 아니라 `얼굴 다양성 / 실루엣 / 직업복식 / material culture / 생태 / 배경 / 변형 / 대규모 앙상블 식별`의 **방법론만 추출**한다.
+
+### Active D16.1 QA Documents
+
+- `docs/99_quality_control/visual-reference-research-matrix-v1.md`
+- `docs/99_quality_control/visual-reference-coverage-all-assets-v1.md`
+- `docs/99_quality_control/face-silhouette-collision-gate-v1.md`
+- `docs/99_quality_control/visual-production-preflight-gate-v1.md`
+
+### Face Clone Prevention
+
+C01–C30 전원에게 Production Soft `Face DNA / Body DNA / Gesture DNA / Silhouette DNA`를 부여한다.
+
+- 일반 인물쌍 최소 4/8축 차이
+- 동일기능 위험군 5/8 미만 FAIL
+- 현재 scaffold 비예외 최소거리 6/8
+- C01↔C08은 동일인 다른 시기라 얼굴골격 유사 허용
+- C01↔C30은 8/8 분리 목표. 얼굴로 정체 암시 금지
+
+### Image Generation State
+
+**D16.1 문서 작업 중 실제 이미지 생성: 0장.**
+
+Visual Validation Pilot은 전역 문서 PASS 후에만 시작한다.
+Pilot이 5종이어도 그것은 ‘조사 5종’이 아니라 **전체 설계의 실물 검증 샘플**이다.
+
+### Visual Production Gate
+
+첫 이미지 전 필수:
+1. Reference Research PASS
+2. Full Asset Coverage PASS
+3. Face/Silhouette Collision Gate PASS
+4. Canon Integrity PASS
+5. Reference Integrity PASS
+
+실제 이미지가 생성된 뒤에는 문서 PASS와 별개로 다시 Collision/Canon/Recognition 검증을 수행한다.
