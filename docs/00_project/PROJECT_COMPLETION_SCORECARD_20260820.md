@@ -1,133 +1,215 @@
 # PROJECT COMPLETION SCORECARD — 2026-08-20
 
-Status: PROJECT-WIDE READINESS SCORECARD / AUTHOR REVIEW  
-Owner: A00 Story Orchestrator / A01 Architecture PM / A02 Canon / A12 Architecture / A13 Continuity / A14 Reader / A16 Red Team / A17 GitHub State / A20 Storycraft / A21 Context Pack  
-Applies To: 《왕국은 과거를 먹고 산다》 E001–E375
+Status: **PRE-MANUSCRIPT DESIGN/PACK CLOSURE — PASS**  
+Owner: A00 / A01 / A02 / A11 / A12 / A13 / A14 / A16 / A17 / A20 / A21  
+Applies To: 《왕국은 과거를 먹고 산다》 E001–E375  
+Closure Base: `main@770d260e7805b525dca7322c3cf813c43cb4b9fe`
 
-> 이 문서는 `설계 완료`, `정량검증 완료`, `원고/HUMAN 미완료`를 분리한다.
+> 이 문서는 `설계 완료`, `Static Pack 완료`, `JIT 의도적 개방`, `원고 파일 존재`, `순차 current-clean 인증`, `HUMAN PROSE 미승인`을 분리한다.
 
-## Executive Checklist
+## 1. Executive Checklist
 
 1. **설계도·설정집·세계관 Deep Design:** **PASS / GLOBAL FREEZE**
-2. **시간여행·역사주소·귀환·생활안정 시스템 규칙:** **PASS / FREEZE**
-3. **5 Grand Acts:** **5/5 COMPLETE / HOSTILE STRUCTURAL QA PASS**
+2. **시간여행·역사주소·귀환·생활안정 시스템:** **PASS / FREEZE**
+3. **5 Grand Acts:** **5/5 COMPLETE**
 4. **15 Volume Acts:** **15/15 COMPLETE**
 5. **30 Arcs:** **30/30 COMPLETE**
-6. **60 Expanded Subacts:** **60/60 COMPLETE**
-7. **E001–E375 D6 Scene-Ready Episode Cards:** **375/375 COMPLETE**
-8. **15권 Detail Audit + 전체 375화 Cross-Regression:** **PASS**
-9. **Blocking S0:** **0**
-10. **Architecture-blocking S1:** **0**
-11. **Mystery/Payoff Spine M01–M17:** **FREEZE / PAYOFF ROUTES COMPLETE**
-12. **Permanent Loss / Ending Function:** **FREEZE / PASS**
-13. **Faction / Ensemble Parallel Causality:** **60/60 A-Line/F-Line/C-Line OVERLAY COMPLETE**
-14. **Scene Density / Pacing:** **375/375 ALLOCATED / REGRESSION PASS**
-15. **POV Operations:** P1 **30/375 = 8.0%**, P2 **15**, P3 **8 inserts** — **PASS**
-16. **Protagonist Center Regression:** **PASS — A 289 / B 62 / C 24**
-17. **에이든 중심 비율:** **289/375 = 77.1% — PASS**
-18. **에이든 등장 비율:** **351/375 = 93.6% — PASS**
-19. **에이든 완전 부재:** **24/375 = 6.4% — PASS**
-20. **5 Grand Act FUN / Reader Stress:** **5/5 PASS WITH EXECUTION GUARDS**
-21. **STALE REFERENCE / LEGACY CONTAMINATION QA:** **PASS ON CLEANUP BRANCH / P0 0 / blocking S1 0**
-22. **Minimum-Action Context Pack + Harness:** **SYSTEM COMPLETE / JIT OPERATION**
-23. **Manuscript State:** `main` 기준 **E001–E088 존재**; E089–E093 최신 준비문서 완료, E089 원고 전
+6. **60 Subacts:** **60/60 COMPLETE**
+7. **E001–E375 D6 Scene-Ready:** **375/375 COMPLETE**
+8. **Faction / Ensemble Parallel Causality:** **60/60 COMPLETE**
+9. **POV / Offscreen Governance:** **PASS**
+10. **Permanent Loss / Ending:** **FREEZE / PASS**
+11. **Collectibility / IP / Visual Identity Design:** **D16 DESIGN PASS / production art separate**
+12. **Static Deep Context Masters:** **60/60 COMPLETE**
+13. **Episode Static Deep Routing:** **375/375 / ownership gap 0 / duplicate 0**
+14. **Deep Context Hostile QA:** **PASS**
+15. **M01–M17 Semantic Crosswalk:** **17/17 PASS**
+16. **Mystery active gap > 50 episodes:** **0**
+17. **Knowledge Holder C01–C30 ↔ M01–M17:** **PASS**
+18. **Current REAL OPEN / BLOCKING Canon Gap:** **0**
+19. **Decision-Mechanism Diversity Red Team:** **PASS WITH EXECUTION GUARDS**
+20. **Static/JIT Separation:** **PASS**
+21. **Physical manuscript files on main:** **E001–E088 present**
+22. **Sequential Current-Clean Boundary:** **E006**
+23. **E007:** **RED-ARCH / Iris P1 repair required when manuscript phase opens**
 24. **HUMAN PROSE / Final Author Approval:** **NOT COMPLETE / AUTHOR ONLY**
 
-## RTG01–RTG20 Project Gates
+## 2. RTG01–RTG22 Gates
 
-| Gate | Domain | Verdict | Evidence / Notes |
+| Gate | Domain | Verdict | Current evidence |
 |---|---|---|---|
-| RTG01 | Canon Authority / Source Precedence | PASS | Author → Constitution → Amendment/Errata → Decision Log → State → Bible → Architecture → Craft/CP → Manuscript → Legacy; legacy quarantine active |
-| RTG02 | World Bible | PASS / FREEZE | geography, peoples, magic, religion, economy, law, military, daily life, assets integrated |
-| RTG03 | Temporal Mechanics | PASS / FREEZE | direct embodied travel, mutable timeline, no reset, address/return debt, no late new power |
-| RTG04 | Mana Fever / Gray Calamity | PASS | same phenomenon; scale only personal/group/regional collapse |
-| RTG05 | Geography / Logistics / Scale | PASS | travel, food, medicine, border, V15 99-day conversion, V14 archive logistics audited |
-| RTG06 | Factions / Institutions | PASS | independent utility, harm, authority, exit cost; no pure-evil dependency |
-| RTG07 | Character Macro Arcs | PASS | C01–C30 recurring roles / hard final states |
-| RTG08 | Ensemble Agency | PASS | every Subact has independent faction move/countermove/residue |
-| RTG09 | Grand Acts | **5/5 PASS** | each solution causes next Act; different dominant engine per Act |
-| RTG10 | Volume Acts | **15/15 PASS** | 25 episodes each, Promise/Turn/Choice/Loss/Exit |
-| RTG11 | Arcs / Subacts | **30/30 + 60/60 PASS** | Local Goal → Resolution → Cost/Next Cause complete |
-| RTG12 | Episode Architecture | **375/375 PASS** | D6 Scene-Ready cards, no gaps/overlaps |
-| RTG13 | Mystery / MacGuffin | PASS / FREEZE | staged clue, false interpretation, inference point, payoff; no cost-free master key |
-| RTG14 | Permanent Loss / Ending | PASS / FREEZE | F0 not restored, Aiden address loss, Ria memory loss, Blank Zone residue, no secret reset |
-| RTG15 | Protagonist Balance | **PASS** | A 289 / B 62 / C 24; see protagonist-center regression |
-| RTG16 | POV / Offscreen Agency | PASS | P1 30, P2 15, P3 8; D15 overrides preserved |
-| RTG17 | Scene Rhythm / Anti-Repeat | PASS | 375/375 density assigned; 4-identical-density streak = 0; volume engines differentiated |
-| RTG18 | Reader Fun / Cognitive Load | PASS WITH EXECUTION GUARDS | GA III lore-load, GA IV time/faction load, GA V procedural-philosophy load |
-| RTG19 | Context Pack / Storycraft / Harness | SYSTEM PASS | Minimum Action/JIT compilation ready; 375 CP 일괄완성으로 오기 금지 |
-| RTG20 | Manuscript / Human Prose | OPEN | E001–E088 on main; HUMAN PROSE final status remains author-only |
+| RTG01 | Canon Authority | PASS | Author → Constitution → Amendment/Errata → Decision → State → Bible → Architecture → CP → Manuscript → Legacy |
+| RTG02 | World Bible | PASS / FREEZE | geography, culture, peoples, religion, economy, law, military, daily life integrated |
+| RTG03 | Temporal Mechanics | PASS / FREEZE | direct embodied travel, mutable single timeline, address/return debt, no reset |
+| RTG04 | Mana Fever / Gray Calamity | PASS | continuity mismatch phenomenon, system-linked |
+| RTG05 | Geography / Logistics / Scale | PASS | D15 logistics overlays, V15 99-day operations, Harben macro scale fixed; exact numbers JIT |
+| RTG06 | Factions / Institutions | PASS | independent utility/harm/exit cost; D12–D15 face and rights closures |
+| RTG07 | Characters | PASS | C01–C30 macro roles, final states, current knowledge ceilings |
+| RTG08 | Ensemble Agency | PASS | A/F/C-Line and offscreen causality |
+| RTG09 | Grand Acts | 5/5 PASS | causal escalation preserved |
+| RTG10 | Volumes | 15/15 PASS | 25 episodes each, distinct promise/choice/loss/exit |
+| RTG11 | Arcs/Subacts | 30/30 + 60/60 PASS | causal spine complete |
+| RTG12 | Episode Architecture | 375/375 PASS | current D6 |
+| RTG13 | Mystery / MacGuffin | **PASS AFTER SEMANTIC CLOSURE** | Crosswalk v2; all 17 mapped; active gap >50 = 0 |
+| RTG14 | Knowledge / Information Ceiling | **PASS** | C01–C30 ↔ M01–M17 active ledger; no single truth judge |
+| RTG15 | Permanent Loss / Ending | PASS / FREEZE | F0 no restoration, C04 death, Ria private-memory loss, Aiden address/return loss, Blank Zone residue |
+| RTG16 | Protagonist Balance | PASS | A 289 / B 62 / C 24; Aiden-centered 77.1% |
+| RTG17 | POV / Offscreen | PASS | P1/P2/P3 governance + D15 overrides; E007 Iris P1 lock explicitly preserved |
+| RTG18 | Scene Rhythm / Decision Diversity | PASS WITH GUARDS | density regression + 2026-08-20 decision-mechanism Red Team |
+| RTG19 | Reader Fun / Cognitive Load | PASS WITH EXECUTION GUARDS | GA III lore, GA IV complexity, GA V procedural risk controlled by concrete consequence gates |
+| RTG20 | Collectibility / Visual Design | PASS AT DESIGN LAYER | D16 collectibility, exposure/variant map, production handoff; actual concept art is production |
+| RTG21 | Context Pack / Harness | **STATIC SYSTEM PASS** | 60/60 Deep Masters, 375/375 routing, Hostile QA PASS; actual previous state JIT |
+| RTG22 | Manuscript / Human Prose | **NOT CLOSED** | physical E001–E088 exists; sequential current-clean E006; E007 repair blocker; HUMAN final author-only |
 
-## Quantitative Protagonist Result
+## 3. Mystery Semantic Closure
 
-Target:
-- Aiden-centered: **75–80%**
-- Aiden appears: **90–95%**
-- Aiden fully absent: **5–10%**
+Authoritative current routing:
 
-Verified E001–E375 regression:
+- `docs/11_mystery/mystery-reinforcement-ladder-v1.md` — D9 questions/rules
+- `docs/11_mystery/mystery-semantic-crosswalk-e001-e375-v2.md` — current episode routing
+- `docs/11_mystery/knowledge-holder-ledger-v1.md` — who may know/show what
 
-| Class | Count | Ratio | Verdict |
-|---|---:|---:|---|
-| A — Aiden-centered | **289** | **77.1%** | PASS |
-| B — Ensemble-centered / Aiden present | **62** | **16.5%** | PASS |
-| C — Aiden absent | **24** | **6.4%** | PASS |
-| A+B — Aiden appears | **351** | **93.6%** | PASS |
+Regression result:
 
-Authoritative quantitative ledger: `docs/10_story_architecture/protagonist-center-regression-e001-e375-v1.md`.
+| M | Max active gap |
+|---|---:|
+| M01 | 50 |
+| M02 | 45 |
+| M03 | 45 |
+| M04 | 43 |
+| M05 | 39 |
+| M06 | 48 |
+| M07 | 25 |
+| M08 | 3 |
+| M09 | 8 |
+| M10 | 12 |
+| M11 | 8 |
+| M12 | 50 |
+| M13 | 44 |
+| M14 | 45 |
+| M15 | 46 |
+| M16 | 26 |
+| M17 | 44 |
 
-Important:
-- P1 `30/375 = 8.0%` and protagonist-center ratio are different metrics.
-- P1/P2/P3 are not increased mechanically to hit the ratio.
-- Ensemble agency is primarily carried by F-Line/C-Line, decisive-actor visibility and offscreen material residue while Aiden remains physically present.
+**REAL MYSTERY GAP > 50: 0.**
 
-## Grand Act Reader-Stress Result
+No new event was added to satisfy this regression.
 
-- GA I: structural PASS — mystery overload execution guard remains.
-- GA II: structural PASS — legal/rights decisions must reach food/family/land/defense consequences within 1–2 episodes.
-- GA III: structural PASS — prevent lore lecture; construction, evacuation, supply, loss and faction clocks carry exposition.
-- GA IV: structural PASS — highest ensemble pressure; timeline/faction objective visibility required.
-- GA V: structural PASS — prevent constitution/philosophy from replacing crisis/logistics; E369–E375 intentional world-after-Aiden handoff.
+## 4. Gap / Stale Closure
 
-These are **execution guards, not S1 blockers**.
+Current active register:
+`docs/99_quality_control/pre-manuscript-gap-resolution-register-20260820.md`
 
-## Legacy / Stale QA Result
+Old `canon-gap-register-v1.md` is now historical/provenance only.
 
-Audit:
-`docs/99_quality_control/stale-reference-legacy-contamination-audit-20260820.md`
+Current classification:
+- RESOLVED BY HIGHER AUTHORITY: old structural/canon conflicts routed
+- JIT / NONBLOCKING: intentionally preserved
+- REAL OPEN / BLOCKING: **0**
 
-Safety routing:
-`docs/00_project/legacy-quarantine-index-v1.md`
+Examples already closed by higher authority:
+- B02/B03 beast ID/function routing
+- C21 Era O ↔ V12/V14–V15 time consistency by D12
+- Aiden–Ria 5–8% low-intensity relationship by D9/Constitution
+- E003 duplicate mystery reveal routing
+- Full-Series Context coverage
+- M13/M16 long-gap warnings
 
-Cleanup-branch result:
-- canon-destructive legacy root sources identified: 3 / quarantined: 3
-- active state/continuity stale defects identified: 5 / closed: 5
-- unresolved P0: 0
-- unresolved blocking S1: 0
-- legacy directories preserved for provenance rather than mass-rewritten
-- active-but-older alias docs lose to current Canon Index / Gate / Progress by explicit rule
+## 5. Static Deep Context State
 
-This QA does not reopen World/Canon design.
+Current status:
+- Grand Acts 5/5
+- Volumes 15/15
+- Subact Deep Masters 60/60
+- Episode Static Routing 375/375
+- ownership gaps 0
+- duplicate ownership 0
+- forward handoffs 374/374
+- Hostile QA PASS
 
-## What Is Actually Complete
+Drafting/readiness formula remains:
 
-`GLOBAL DEEP DESIGN COMPLETE` means the project can descend into episode preparation/prose without inventing new macro laws, factions, ending mechanisms or event-spine changes.
+`Static Deep PASS + actual Previous Exit + GAP-B=0 + Episode Preflight PASS`
 
-It does **not** mean:
-- 375 manuscripts completed;
-- 375 Human Prose Passes completed;
-- 375 Context Packs precompiled;
-- all JIT names/numbers/rooms/calendar dates frozen.
+Do **not** bulk freeze future runtime:
+- wounds
+- custody
+- relationship deltas
+- actual clock
+- evidence-copy survival
+- one-off names/rooms/counts/dates
 
-## Remaining Valid QA / Production Work
+## 6. Collectibility / Visual State
 
-Project-wide macro blockers are closed. Remaining work is production-side:
+Design layer:
+- characters C01–C30 identity system
+- relics R01–R12 lineage
+- beasts B01–B05 iconography
+- faction visual grammar
+- landmark/era variants
+- 15-volume exposure map
+- collection desire curve / hostile QA
 
-1. verify latest main immediately before each drafting batch
-2. Episode Context Pack JIT freshness check
-3. Human Prose / Korean prose / continuity / reader audit after drafting
-4. author review before any HUMAN PROSE PASS
+= **DESIGN COMPLETE**.
 
-Next valid prose unit after this cleanup is **E089 — 리아 세른 P1**.
+Not complete by design, and not a manuscript blocker:
+- final concept-art render sheets
+- final palette locks
+- 3D turnarounds
+- actual cover production
+- external market/merch validation
 
-Open-ended global world redesign is no longer required unless an author decision reopens canon.
+## 7. Decision-Mechanism Blind-Spot Result
+
+New Red Team:
+`docs/99_quality_control/decision-mechanism-diversity-red-team-20260820.md`
+
+Finding:
+- surface diversity alone was insufficient audit criterion
+- `reasonable sides → cost disclosure → authority split` motif does repeat
+- however 15 volumes have distinct dominant operating mechanisms
+- V9→V12→V15 specifically = prototype experiment → emergency shutdown → permanent decommission
+- V4/V13/V14 rights/records cluster remains execution-risk, not redesign blocker
+
+Verdict: **PASS WITH HARD EXECUTION GUARDS / blocking redesign 0.**
+
+## 8. Manuscript Truth
+
+### Physical file coverage
+main contains episode files E001–E088.
+
+### Current-context sequential certification
+Authoritative D16.7 result:
+- E001–E006: current-clean sequential chain
+- E007: RED-ARCH, Iris P1 required
+- E008–E010: individually current-clean but cannot extend unbroken chain past E007
+
+Therefore:
+
+**SEQUENTIAL CURRENT-CLEAN BOUNDARY = E006.**
+
+E089–E093 preparation assets exist but are **cached future prep**, not permission to jump over E007.
+
+## 9. Current Phase
+
+**PRE-MANUSCRIPT DESIGN/PACK CLOSURE: PASS.**
+
+This means:
+- no new global world/canon architecture is needed before manuscript revalidation
+- no static Context Pack generation backlog remains
+- active semantic/stale routing is closed
+
+It does NOT mean:
+- manuscript E001–E375 is final
+- E001–E088 is Human Prose approved
+- E007 is repaired
+- JIT future values are fixed
+- actual visual production is finished
+
+## 10. Next Phase Only When Explicitly Opened
+
+Correct manuscript-phase start:
+
+`verify latest main → confirm E001–E006 → E007 Iris P1 repair → rerun E006→E007→E008 → extend sequential chain → next Current Context/JIT batch`
+
+**Do not route directly to E089.**
