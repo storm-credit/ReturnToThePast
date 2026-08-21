@@ -272,17 +272,30 @@ def anti_repeat(r):
         if e in led:
             prev.append(dict(led[e], episode=e))
     forbid_hook, forbid_dens, forbid_craft = set(), set(), set()
-    # same value three episodes running is banned; two running forbids a third
+    # Forbid any value already used twice in the previous three episodes.
+    #
+    # The earlier rule only blocked a repeat of the immediately preceding
+    # episode, which let V01-1A alternate H2 H1 H2 H1 H2 H1 for six episodes
+    # straight. No rule was broken and the result was still a pattern; a
+    # two-beat cycle reads as monotony just as a three-in-a-row does.
     for field, bucket in (("hook", forbid_hook), ("density", forbid_dens),
                           ("primary_craft", forbid_craft)):
         vals = [p.get(field) for p in prev if p.get(field)]
-        if len(vals) >= 2 and vals[-1] and vals[-1] == vals[-2]:
-            bucket.add(vals[-1])
+        for v in set(vals):
+            if v and vals.count(v) >= 2:
+                bucket.add(v)
         if vals and vals[-1]:
-            bucket.add(vals[-1]) if field == "hook" else None
+            bucket.add(vals[-1])
+
+    # Hook types never used yet, so the packet can point somewhere fresh
+    # instead of only saying what is closed off.
+    used = {v.get("hook") for v in led.values() if v.get("hook")}
+    unused = [h for h in ("H1", "H2", "H3", "H4", "H5", "H6", "H7") if h not in used]
+
     return {"previous": prev, "forbid_hook": sorted(forbid_hook),
             "forbid_density": sorted(forbid_dens),
-            "forbid_primary_craft": sorted(forbid_craft)}
+            "forbid_primary_craft": sorted(forbid_craft),
+            "hooks_never_used": unused}
 
 
 # --------------------------------------------------------------------------
@@ -549,6 +562,9 @@ def render(p):
         v = p["anti_repeat"][k]
         if v:
             A("- **%s forbidden this episode: %s**" % (label, ", ".join(v)))
+    nu = p["anti_repeat"].get("hooks_never_used")
+    if nu:
+        A("- Hook types not used anywhere yet: **%s**. Prefer one of these if the D6 hook text supports it." % ", ".join(nu))
     A("")
     A("## 7. Mystery — active rungs")
     A("")
