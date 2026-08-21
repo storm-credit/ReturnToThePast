@@ -68,5 +68,19 @@
   "opening": "전술실에서 목표 축소 논의 진행 중",
   "score": 93.0,
   "status": "FIRST DRAFT / AUTHOR REVIEW READY"
+ },
+ "E006": {
+  "density": "X",
+  "hook": "H1",
+  "primary_craft": "구체적 현실 불일치",
+  "secondary_craft": [
+   "공간 명료성",
+   "제한자원 선택"
+  ],
+  "diagnosis": "시간선 이상",
+  "pov": "AIDEN_CLOSE_THIRD",
+  "opening": "동기화실 안, 장치음이 이미 도는 상태",
+  "score": 95.5,
+  "status": "FIRST DRAFT / AUTHOR REVIEW READY"
  }
 }
