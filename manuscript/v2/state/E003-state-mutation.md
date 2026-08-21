@@ -147,7 +147,7 @@ PREVIOUS_EXIT: `manuscript/v2/state/E002-state-mutation.md`
 | 항목 | 결과 |
 |---|---|
 | 상태 | FIRST DRAFT / AUTHOR REVIEW READY |
-| 공백 포함 자수 | 13,213 |
+| 공백 포함 자수 | 13,224 |
 | 장면 수 | 3 |
 | 서술 단문 최장 연속 | 4 |
 | 서술 장문 비율 | 31.3% |

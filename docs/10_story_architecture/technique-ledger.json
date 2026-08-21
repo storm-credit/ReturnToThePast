@@ -40,5 +40,19 @@
   "opening": "공간의 위치·높이를 먼저 제시",
   "score": 94.0,
   "status": "FIRST DRAFT / AUTHOR REVIEW READY"
+ },
+ "E004": {
+  "density": "Q",
+  "hook": "H1",
+  "primary_craft": "이해관계 협상",
+  "secondary_craft": [
+   "권한 절차",
+   "대립자 성과"
+  ],
+  "diagnosis": "정치·법·행정",
+  "pov": "AIDEN_CLOSE_THIRD",
+  "opening": "배급실 안에서 이미 명단을 마주한 상태",
+  "score": 94.5,
+  "status": "FIRST DRAFT / AUTHOR REVIEW READY"
  }
 }
