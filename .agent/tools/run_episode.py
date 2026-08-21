@@ -145,6 +145,12 @@ def prev_manuscript(n):
 # Quantitative gate
 # --------------------------------------------------------------------------
 
+def narration_text(narr):
+    """Narration with inline quotes stripped, so dialogue register is not
+    judged by narration rules."""
+    return "\n".join(re.sub(r"[“\"][^”\"]*[”\"]", "", p) for p in narr)
+
+
 def gate(path, expected_scenes, prev_hook=None):
     t = io.open(os.path.join(ROOT, path), encoding="utf-8").read()
     body = t.split("\n", 1)[1] if "\n" in t else ""
@@ -179,7 +185,16 @@ def gate(path, expected_scenes, prev_hook=None):
         ("scene count", scenes == expected_scenes, "%d (want %d)" % (scenes, expected_scenes)),
         ("short run <= 8", (max(runs) if runs else 0) <= 8, max(runs) if runs else 0),
         ("long >= 5%", long_pct >= 5, round(long_pct, 1)),
-        ("no translationese", not re.search(r"되어졌|에 의해|에 대한", t), ""),
+        # Only the two that are translationese wherever they appear.
+        #
+        # sentence-narrator 5.3 calls these 번역체 표지 - signals, not banned
+        # words - and the same section says dialogue is not counted, because
+        # each character needs their own register. Treating a single 에 대한
+        # as a hard failure halted the chain at E021 over one line of a
+        # records-keeper's ordinary administrative speech: "장부가 없어지면
+        # 표적에 대한 판정도 사라집니다."
+        ("no translationese", not re.search(r"되어졌", t)
+         and not re.search(r"에 의해", narration_text(narr)), ""),
         # Bare surname only. A full name (리아 세른) and a trailing title
         # (세른 기록관) are both correct; the retroactive run on E001 flagged
         # "참관 기록관 리아 세른" until the given-name lookbehind was added.
@@ -191,11 +206,17 @@ def gate(path, expected_scenes, prev_hook=None):
         ("no episode id in prose", len(re.findall(r"E\d{3}", body)) == 0,
          re.findall(r"E\d{3}", body)[:3]),
     ]
+    nt = narration_text(narr)
+    per10k = lambda p: len(re.findall(p, nt)) / max(len(nt), 1) * 10000
     warns = [
         ("scene ends on weak landing", any(
             re.search(r"(고 있었다|고 있다|것을 보았다)[.”\"]?\s*$", s.strip())
             for s in t.split("***")),
          "훅 착지가 늘어진다. 작가 판단"),
+        ("에 대한 density", per10k(r"에 대한") > 4,
+         "서술 1만자당 %.1f회" % per10k(r"에 대한")),
+        ("할 수 있었다 chain", len(re.findall(
+            r"할 수 있었다[^.]*\.[^.]*할 수 있었다", nt)) > 0, "연쇄 사용"),
     ]
     return checks + [("WARN " + n, not v, d) for n, v, d in warns], \
            {"chars": chars, "scenes": scenes,
