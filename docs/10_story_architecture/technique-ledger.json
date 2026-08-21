@@ -26,5 +26,19 @@
   "opening": "공간의 물리적 기울기를 먼저 감각",
   "score": 90.0,
   "status": "FIRST DRAFT / AUTHOR REVIEW READY"
+ },
+ "E003": {
+  "density": "S",
+  "hook": "H2",
+  "primary_craft": "공정 단서",
+  "secondary_craft": [
+   "오답",
+   "정보 간극"
+  ],
+  "diagnosis": "조사·추리",
+  "pov": "AIDEN_CLOSE_THIRD",
+  "opening": "공간의 위치·높이를 먼저 제시",
+  "score": 94.0,
+  "status": "FIRST DRAFT / AUTHOR REVIEW READY"
  }
 }

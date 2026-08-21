@@ -38,13 +38,25 @@ _spec.loader.exec_module(bep)
 # --------------------------------------------------------------------------
 
 def title_for(n):
-    """Working title from the subact hub's episode-breakdown table."""
+    """Working title from the subact hub's episode-breakdown table.
+
+    The hub holds several tables keyed by episode id. Take the first cell that
+    actually looks like a title: not a density code, not a movement path, not a
+    prohibition list. E003 first matched the movement table and shipped as
+    '증거실 → 피해 계산실 → 폐기기록 보관대'.
+    """
     r = bep.route(n)
     hub = bep.rd(r["hub"]) or ""
-    m = re.search(r"^\|\s*E%03d\s*\|\s*([^|]+?)\s*\|" % n, hub, re.M)
-    if m:
-        t = m.group(1).strip()
-        if t and not re.match(r"^[QSEX]\s*[·.]", t) and "장면" not in t:
+    for line in hub.split("\n"):
+        cells = [c.strip() for c in line.split("|")]
+        if len(cells) < 3 or cells[1] != "E%03d" % n:
+            continue
+        # The episode-breakdown table is the wide one: id, title, density,
+        # hook, links. Movement (3 cells) and prohibitions (2) are narrower.
+        if len(cells) < 6:
+            continue
+        t = cells[2]
+        if t and "→" not in t and "장면" not in t:
             return t
     t2 = bep.rd("docs/10_story_architecture/v1-episode-titles-v1.md") or ""
     m2 = re.search(r"^\|\s*E%03d\s*\|\s*([^|]+?)\s*\|" % n, t2, re.M)
