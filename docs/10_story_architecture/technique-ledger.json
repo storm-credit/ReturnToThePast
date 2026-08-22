@@ -572,5 +572,117 @@
   "chars": 9436,
   "scenes": 2,
   "status": "FIRST DRAFT / GATE PASS / AWAITING QUALITY SCORE"
+ },
+ "E043": {
+  "density": "X",
+  "hook": "H3",
+  "primary_craft": "이해관계 협상",
+  "secondary_craft": [
+   "권한 절차",
+   "대립자 성과"
+  ],
+  "diagnosis": "정치·법·행정",
+  "pov": "AIDEN_CLOSE_THIRD",
+  "chars": 15823,
+  "scenes": 6,
+  "status": "FIRST DRAFT / GATE PASS / AWAITING QUALITY SCORE"
+ },
+ "E044": {
+  "density": "S",
+  "hook": "H6",
+  "primary_craft": "제한자원 선택",
+  "secondary_craft": [
+   "시도–실패–학습",
+   "공간 명료성"
+  ],
+  "diagnosis": "생존 압박",
+  "pov": "AIDEN_CLOSE_THIRD",
+  "chars": 11868,
+  "scenes": 3,
+  "status": "FIRST DRAFT / GATE PASS / AWAITING QUALITY SCORE"
+ },
+ "E045": {
+  "density": "E",
+  "hook": "H1",
+  "primary_craft": "제한자원 선택",
+  "secondary_craft": [
+   "시도–실패–학습",
+   "공간 명료성"
+  ],
+  "diagnosis": "생존 압박",
+  "pov": "AIDEN_CLOSE_THIRD",
+  "chars": 14550,
+  "scenes": 4,
+  "status": "FIRST DRAFT / GATE PASS / AWAITING QUALITY SCORE"
+ },
+ "E046": {
+  "density": "S",
+  "hook": "H3",
+  "primary_craft": "이해관계 협상",
+  "secondary_craft": [
+   "권한 절차",
+   "대립자 성과"
+  ],
+  "diagnosis": "정치·법·행정",
+  "pov": "AIDEN_CLOSE_THIRD",
+  "chars": 15010,
+  "scenes": 3,
+  "status": "FIRST DRAFT / GATE PASS / AWAITING QUALITY SCORE"
+ },
+ "E047": {
+  "density": "E",
+  "hook": "H6",
+  "primary_craft": "제한자원 선택",
+  "secondary_craft": [
+   "공간 명료성",
+   "생활 후과"
+  ],
+  "diagnosis": "재난·대피·보급",
+  "pov": "AIDEN_CLOSE_THIRD",
+  "chars": 12949,
+  "scenes": 4,
+  "status": "FIRST DRAFT / GATE PASS / AWAITING QUALITY SCORE"
+ },
+ "E048": {
+  "density": "E",
+  "hook": "H6",
+  "primary_craft": "구체적 현실 불일치",
+  "secondary_craft": [
+   "기억 신뢰도",
+   "현재인의 권리"
+  ],
+  "diagnosis": "미래 변형·귀환",
+  "pov": "AIDEN_CLOSE_THIRD",
+  "chars": 13086,
+  "scenes": 4,
+  "status": "FIRST DRAFT / GATE PASS / AWAITING QUALITY SCORE"
+ },
+ "E049": {
+  "density": "Q",
+  "hook": "H6",
+  "primary_craft": "구체적 현실 불일치",
+  "secondary_craft": [
+   "기억 신뢰도",
+   "현재인의 권리"
+  ],
+  "diagnosis": "미래 변형·귀환",
+  "pov": "AIDEN_CLOSE_THIRD",
+  "chars": 15018,
+  "scenes": 2,
+  "status": "FIRST DRAFT / GATE PASS / AWAITING QUALITY SCORE"
+ },
+ "E050": {
+  "density": "X",
+  "hook": "H6",
+  "primary_craft": "이해관계 협상",
+  "secondary_craft": [
+   "권한 절차",
+   "대립자 성과"
+  ],
+  "diagnosis": "정치·법·행정",
+  "pov": "AIDEN_CLOSE_THIRD",
+  "chars": 11740,
+  "scenes": 6,
+  "status": "FIRST DRAFT / GATE PASS / AWAITING QUALITY SCORE"
  }
 }
