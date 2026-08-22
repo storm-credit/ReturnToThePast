@@ -430,14 +430,14 @@ def preflight(r, d6, dens, prv):
     else:
         add("7 previous exit", prv is not None,
             prv if prv else
-            "missing: manuscript/v2/state/E%03d-state-mutation.md" % (r["n"] - 1))
+            "missing: manuscript/state/E%03d-state-mutation.md" % (r["n"] - 1))
     return checks
 
 
 def prev_state(r):
     if r["n"] == 1:
         return "SERIES ORIGIN STATE"
-    p = "manuscript/v2/state/E%03d-state-mutation.md" % (r["n"] - 1)
+    p = "manuscript/state/E%03d-state-mutation.md" % (r["n"] - 1)
     return p if rd(p) else None
 
 

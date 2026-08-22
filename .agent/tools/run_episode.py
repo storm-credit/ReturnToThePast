@@ -87,7 +87,9 @@ READ FIRST, IN THIS ORDER:
 7. docs/13_writing_harness/anti-padding-policy-v1.md
 8. docs/05_characters/hubs/C01-에이든-로엔.md — sections 말투, 사상·거짓 믿음, 이 인물이 모르는 것. Plus the hub of any other named character the packet lists.
 
-DO NOT READ: manuscript/volume-01 through volume-04 (legacy), Drafts/, lore_bible/, outline/, Guidelines/, .agent/context-packs/episodes/, and any craft manifest other than the one named above.
+DO NOT READ: Drafts/, lore_bible/, outline/, Guidelines/, .agent/context-packs/episodes/, any manuscript file other than {prev_ms}, and any craft manifest other than the one named above.
+
+The legacy manuscript has been removed from the working tree. manuscript/ now holds only this run's episodes. Do not attempt to recover legacy text from git history.
 
 HARD CONSTRAINTS:
 - Korean prose. Close third on the POV character named in the packet. No head-hopping.
@@ -118,8 +120,8 @@ def build_prompt(n, p):
     t = title_for(n)
     return PROMPT.format(
         ep=r["episode"], title=t,
-        out="manuscript/v2/volume-%02d/%s-%s.md" % (r["vol_n"], r["episode"], slug(t)),
-        state_out="manuscript/v2/state/%s-state-mutation.md" % r["episode"],
+        out="manuscript/volume-%02d/%s-%s.md" % (r["vol_n"], r["episode"], slug(t)),
+        state_out="manuscript/state/%s-state-mutation.md" % r["episode"],
         manifest="docs/10_story_architecture/craft-manifests/%s-craft-manifest-auto.md" % r["episode"],
         prev_state=p["previous_exit"],
         prev_ms=prev_manuscript(n) or "(none - series entry)",
@@ -132,12 +134,12 @@ def build_prompt(n, p):
 def prev_manuscript(n):
     if n <= 1:
         return None
-    d = os.path.join(ROOT, "manuscript", "v2", "volume-%02d" % ((n - 2) // 25 + 1))
+    d = os.path.join(ROOT, "manuscript", "volume-%02d" % ((n - 2) // 25 + 1))
     if not os.path.isdir(d):
         return None
     for f in os.listdir(d):
         if f.startswith("E%03d-" % (n - 1)):
-            return "manuscript/v2/volume-%02d/%s" % ((n - 2) // 25 + 1, f)
+            return "manuscript/volume-%02d/%s" % ((n - 2) // 25 + 1, f)
     return None
 
 
@@ -232,12 +234,12 @@ def gate(path, expected_scenes, prev_hook=None):
 
 
 def find_manuscript(n):
-    d = os.path.join(ROOT, "manuscript", "v2", "volume-%02d" % ((n - 1) // 25 + 1))
+    d = os.path.join(ROOT, "manuscript", "volume-%02d" % ((n - 1) // 25 + 1))
     if not os.path.isdir(d):
         return None
     for f in os.listdir(d):
         if f.startswith("E%03d-" % n):
-            return "manuscript/v2/volume-%02d/%s" % ((n - 1) // 25 + 1, f)
+            return "manuscript/volume-%02d/%s" % ((n - 1) // 25 + 1, f)
     return None
 
 
@@ -285,7 +287,7 @@ def main():
         print("wrote prompt-preview.txt")
         return 0
 
-    vol = os.path.join(ROOT, "manuscript", "v2", "volume-%02d" % ((n - 1) // 25 + 1))
+    vol = os.path.join(ROOT, "manuscript", "volume-%02d" % ((n - 1) // 25 + 1))
     if not os.path.isdir(vol):
         os.makedirs(vol)
 

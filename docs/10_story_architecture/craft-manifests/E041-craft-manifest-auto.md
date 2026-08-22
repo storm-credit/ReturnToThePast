@@ -14,7 +14,7 @@ Format: `craft-context-resolver-v1.md` section 12. Values are sliced from source
 | Subact Beat | 2C · 대항 세력 |
 | Hub | `docs/10_story_architecture/subacts/V02-2C.md` |
 | D6 | `docs/10_story_architecture/detail/ga01-episode-registry-e001-e075.md` |
-| Previous Exit | manuscript/v2/state/E040-state-mutation.md |
+| Previous Exit | manuscript/state/E040-state-mutation.md |
 
 ## 1. S1 density
 
@@ -116,7 +116,7 @@ Reader inference for these is later than E041. A clue may appear; the answer may
 | 1c registry row | PASS | docs/10_story_architecture/detail/ga01-episode-registry-e001-e075.md |
 | 1d density row | PASS |  |
 | 5 GAP-B triage | PASS | hub warnings must be triaged by hand; see section 6 |
-| 7 previous exit | PASS | manuscript/v2/state/E040-state-mutation.md |
+| 7 previous exit | PASS | manuscript/state/E040-state-mutation.md |
 
 **PREFLIGHT PASS**
 
