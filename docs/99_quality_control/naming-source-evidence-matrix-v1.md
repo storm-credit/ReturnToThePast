@@ -180,11 +180,11 @@ Base: `main` @ `06ef0b7c97cfeabdbb5e92dece12c11dce18886d`
 | 변경 위험 | 판단 불가 |
 | 1차 판정 | **설정 확인 필요 — 후보 제시 중단** |
 
-### A-12. 방위지휘부 / 방위총감
+### A-12. 방위지휘부 / 방벽총감
 
 | 항목 | 확인 내용 |
 |---|---|
-| 현재 이름 | `방위지휘부`, 직함 `방위총감` |
+| 현재 이름 | `방위지휘부`, 직함 `방벽총감` |
 | 대상 유형 | 조직 + 직함 |
 | 물리 구조 | 제3보고실·제2브리핑실·생존 현황판 보유 (E001 L135, L175–L177, L307) |
 | 설정 기능 | 구조 출동 승인. 연대출귀원·성력국과 함께 3기관 공동승인 (E001 L99–L101) |
@@ -192,7 +192,7 @@ Base: `main` @ `06ef0b7c97cfeabdbb5e92dece12c11dce18886d`
 | 사용 장면 | E001 L99, L119, L133, L175, L525 |
 | 잠금 수준 | **CANON CLARIFICATION 등재됨.** [`terminology-and-addressing-clarification-v1.md`](../00_project/terminology-and-addressing-clarification-v1.md) §2 |
 | 확인한 원문 | `E001` 전문 / [`terminology-and-addressing-clarification-v1.md`](../00_project/terminology-and-addressing-clarification-v1.md) §2 / [`canon-naming-pack-v1.md`](../00_project/canon-naming-pack-v1.md) §6 (미등재 확인) / [`.agent/context-packs/episodes/E001-context-pack.md`](../../.agent/context-packs/episodes/E001-context-pack.md) §6 |
-| 변경 위험 | 낮음. `방위지휘부` = "F0 수도의 구조·군사·생존배분 실무 지휘기관", `방위총감` = "E001의 기능인물 직책, 마르칸 베르와 동일 인물 아님, 새 개인 이름을 임의로 붙이지 않는다"로 확정됨 |
+| 변경 위험 | 낮음. `방위지휘부` = "F0 수도의 구조·군사·생존배분 실무 지휘기관", `방벽총감` = "E001의 기능인물 직책, 마르칸 베르와 동일 인물 아님, 새 개인 이름을 임의로 붙이지 않는다"로 확정됨 |
 | 1차 판정 | **유지.** 다만 [`canon-naming-pack-v1.md`](../00_project/canon-naming-pack-v1.md) §6 기관표에는 여전히 없으므로 명명 패키지 갱신 시 함께 등재 권고 |
 | 비고 | **[정정 2026-08-08]** 초판은 이 항목을 `정본 미등재 / 설정 확인 필요`로 기재했다. 오류다. [`terminology-and-addressing-clarification-v1.md`](../00_project/terminology-and-addressing-clarification-v1.md)를 확인하지 않은 결과이며 철회한다 |
 
@@ -330,7 +330,7 @@ Base: `main` @ `06ef0b7c97cfeabdbb5e92dece12c11dce18886d`
 |---|---|
 | 최후 연대국 | 조직 구조를 규정한 Domain Bible 부재. `방위지휘부`·`미래 본부`와의 관계 미확정 |
 | 연대개입산업연합 | crosswalk 한 줄 외 근거 없음 |
-| ~~방위지휘부 / 방위총감~~ | **해소 (2026-08-08).** [`terminology-and-addressing-clarification-v1.md`](../00_project/terminology-and-addressing-clarification-v1.md) §2에 등재되어 있었다. 초판의 `정본 미등재` 판정은 오류이며 철회한다 |
+| ~~방위지휘부 / 방벽총감~~ | **해소 (2026-08-08).** [`terminology-and-addressing-clarification-v1.md`](../00_project/terminology-and-addressing-clarification-v1.md) §2에 등재되어 있었다. 초판의 `정본 미등재` 판정은 오류이며 철회한다 |
 | 선별실 | 원고(E001 L465)와 E002·E003 CP에만 존재. Domain Bible·명명 패키지 미등재 |
 | 대가분산 의식 | 원고(E001 L361)에만 존재. 세렌의 금지술인데 [`magic-and-mana-v1.md`](../03_systems/magic-and-mana-v1.md)·[`myth-religion-nine-wounds-v1.md`](../02_world/myth-religion-nine-wounds-v1.md) 미등재 |
 | 왕좌승인원 ↔ 세르바 왕실평의회 | 기관 지위는 terminology §2로 확정. 평의회와의 포함관계만 미확정 |

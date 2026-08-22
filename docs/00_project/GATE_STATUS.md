@@ -34,7 +34,7 @@ First Episode When Phase Opens: **E001**
 
 | 검사 | 결과 | 근거 |
 |---|---|---|
-| Cold-start 표본 11화 (GA I×3 · II×2 · III×2 · IV×2 · V×2) | **9 PASS / 2 GAP-B** | [`cold-start-harness`](../99_quality_control/context-map-cold-start-harness-20260821.md) |
+| Cold-start 표본 11화 (GA I×3 · II×2 · III×2 · IV×2 · V×2) | **10 PASS / 1 GAP-B** | [`cold-start-harness`](../99_quality_control/context-map-cold-start-harness-20260821.md) |
 | 기존 원고를 읽어야만 resolve되는 항목 | **0** | 같은 문서 |
 | 원고 의존성 등록·강등 | **8건 / 전부 PROVENANCE** | [`manuscript-independent-audit`](../99_quality_control/manuscript-independent-context-audit-20260821.md) |
 | Craft Route resolvable | **0/11 → 11/11** | [`craft-context-resolver-v1`](../10_story_architecture/craft-context-resolver-v1.md) |
@@ -144,7 +144,7 @@ NEXT EPISODE JIT
 **FULL PREWRITING SYSTEM: CLOSED**
 **MANUSCRIPT DEPENDENCY: 0**
 **REAL BLOCKING CANON GAP: 0**
-**COLD-START: 9/11 PASS · 2 REGISTERED EPISODE-LEVEL GAP-B (E173 · E199)**
+**COLD-START: 10/11 PASS · 1 REGISTERED EPISODE-LEVEL GAP-B (E199)**
 **CRAFT RESOLVER: ACTIVE**
 **CONTEXT ECONOMY: −68.5%**
 **NEW MANUSCRIPT PHASE: NOT STARTED**

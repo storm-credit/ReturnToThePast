@@ -1,0 +1,688 @@
+{
+ "E001": {
+  "density": "E",
+  "hook": "H2",
+  "primary_craft": "이해관계 협상",
+  "secondary_craft": [
+   "권한 절차",
+   "대립자 성과"
+  ],
+  "diagnosis": "정치·법·행정",
+  "pov": "AIDEN_CLOSE_THIRD",
+  "opening": "공간 안에서 이미 대상을 보고 있는 상태",
+  "score": 89.5,
+  "status": "FIRST DRAFT / AUTHOR REVIEW READY"
+ },
+ "E002": {
+  "density": "E",
+  "hook": "H1",
+  "primary_craft": "권한 절차",
+  "secondary_craft": [
+   "구체적 현실 불일치",
+   "대립자 성과"
+  ],
+  "diagnosis": "정치·법·행정",
+  "pov": "AIDEN_CLOSE_THIRD",
+  "opening": "공간의 물리적 기울기를 먼저 감각",
+  "score": 90.0,
+  "status": "FIRST DRAFT / AUTHOR REVIEW READY"
+ },
+ "E003": {
+  "density": "S",
+  "hook": "H2",
+  "primary_craft": "공정 단서",
+  "secondary_craft": [
+   "오답",
+   "정보 간극"
+  ],
+  "diagnosis": "조사·추리",
+  "pov": "AIDEN_CLOSE_THIRD",
+  "opening": "공간의 위치·높이를 먼저 제시",
+  "score": 94.0,
+  "status": "FIRST DRAFT / AUTHOR REVIEW READY"
+ },
+ "E004": {
+  "density": "Q",
+  "hook": "H1",
+  "primary_craft": "이해관계 협상",
+  "secondary_craft": [
+   "권한 절차",
+   "대립자 성과"
+  ],
+  "diagnosis": "정치·법·행정",
+  "pov": "AIDEN_CLOSE_THIRD",
+  "opening": "배급실 안에서 이미 명단을 마주한 상태",
+  "score": 94.5,
+  "status": "FIRST DRAFT / AUTHOR REVIEW READY"
+ },
+ "E005": {
+  "density": "S",
+  "hook": "H2",
+  "primary_craft": "권한 절차",
+  "secondary_craft": [
+   "오답",
+   "정보 간극"
+  ],
+  "diagnosis": "정치·법·행정",
+  "pov": "AIDEN_CLOSE_THIRD",
+  "opening": "전술실에서 목표 축소 논의 진행 중",
+  "score": 93.0,
+  "status": "FIRST DRAFT / AUTHOR REVIEW READY"
+ },
+ "E006": {
+  "density": "X",
+  "hook": "H1",
+  "primary_craft": "구체적 현실 불일치",
+  "secondary_craft": [
+   "공간 명료성",
+   "제한자원 선택"
+  ],
+  "diagnosis": "시간선 이상",
+  "pov": "AIDEN_CLOSE_THIRD",
+  "opening": "동기화실 안, 장치음이 이미 도는 상태",
+  "score": 95.5,
+  "status": "FIRST DRAFT / AUTHOR REVIEW READY"
+ },
+ "E007": {
+  "density": "S",
+  "hook": "H6",
+  "primary_craft": "제한자원 선택",
+  "secondary_craft": [
+   "공간 명료성",
+   "생활 후과"
+  ],
+  "diagnosis": "재난·대피·보급",
+  "pov": "SECONDARY",
+  "chars": 10383,
+  "scenes": 3,
+  "status": "FIRST DRAFT / GATE PASS / AWAITING QUALITY SCORE"
+ },
+ "E008": {
+  "density": "E",
+  "hook": "H6",
+  "primary_craft": "제한자원 선택",
+  "secondary_craft": [
+   "시도–실패–학습",
+   "공간 명료성"
+  ],
+  "diagnosis": "생존 압박",
+  "pov": "AIDEN_CLOSE_THIRD",
+  "chars": 13349,
+  "scenes": 4,
+  "status": "FIRST DRAFT / GATE PASS / AWAITING QUALITY SCORE"
+ },
+ "E009": {
+  "density": "S",
+  "hook": "H7",
+  "primary_craft": "공정 단서",
+  "secondary_craft": [
+   "오답",
+   "정보 간극"
+  ],
+  "diagnosis": "조사·추리",
+  "pov": "AIDEN_CLOSE_THIRD",
+  "chars": 14485,
+  "scenes": 3,
+  "status": "FIRST DRAFT / GATE PASS / AWAITING QUALITY SCORE"
+ },
+ "E010": {
+  "density": "E",
+  "hook": "H6",
+  "primary_craft": "이해관계 협상",
+  "secondary_craft": [
+   "권한 절차",
+   "가치 변화"
+  ],
+  "diagnosis": "협상·거부권",
+  "pov": "AIDEN_CLOSE_THIRD",
+  "chars": 14681,
+  "scenes": 4,
+  "status": "FIRST DRAFT / GATE PASS / AWAITING QUALITY SCORE"
+ },
+ "E011": {
+  "density": "S",
+  "hook": "H3",
+  "primary_craft": "제한자원 선택",
+  "secondary_craft": [
+   "공간 명료성",
+   "생활 후과"
+  ],
+  "diagnosis": "재난·대피·보급",
+  "pov": "AIDEN_CLOSE_THIRD",
+  "chars": 10358,
+  "scenes": 3,
+  "status": "FIRST DRAFT / GATE PASS / AWAITING QUALITY SCORE"
+ },
+ "E012": {
+  "density": "X",
+  "hook": "H6",
+  "primary_craft": "제한자원 선택",
+  "secondary_craft": [
+   "공간 명료성",
+   "생활 후과"
+  ],
+  "diagnosis": "재난·대피·보급",
+  "pov": "AIDEN_CLOSE_THIRD",
+  "chars": 13254,
+  "scenes": 6,
+  "status": "FIRST DRAFT / GATE PASS / AWAITING QUALITY SCORE"
+ },
+ "E013": {
+  "density": "S",
+  "hook": "H2",
+  "primary_craft": "공정 단서",
+  "secondary_craft": [
+   "오답",
+   "정보 간극"
+  ],
+  "diagnosis": "조사·추리",
+  "pov": "AIDEN_CLOSE_THIRD",
+  "chars": 10690,
+  "scenes": 3,
+  "status": "FIRST DRAFT / GATE PASS / AWAITING QUALITY SCORE"
+ },
+ "E014": {
+  "density": "E",
+  "hook": "H6",
+  "primary_craft": "구체적 현실 불일치",
+  "secondary_craft": [
+   "기억 신뢰도",
+   "현재인의 권리"
+  ],
+  "diagnosis": "미래 변형·귀환",
+  "pov": "AIDEN_CLOSE_THIRD",
+  "chars": 12025,
+  "scenes": 4,
+  "status": "FIRST DRAFT / GATE PASS / AWAITING QUALITY SCORE"
+ },
+ "E015": {
+  "density": "S",
+  "hook": "H6",
+  "primary_craft": "제한자원 선택",
+  "secondary_craft": [
+   "시도–실패–학습",
+   "공간 명료성"
+  ],
+  "diagnosis": "생존 압박",
+  "pov": "AIDEN_CLOSE_THIRD",
+  "chars": 8543,
+  "scenes": 3,
+  "status": "FIRST DRAFT / GATE PASS / AWAITING QUALITY SCORE"
+ },
+ "E016": {
+  "density": "E",
+  "hook": "H6",
+  "primary_craft": "공정 단서",
+  "secondary_craft": [
+   "오답",
+   "정보 간극"
+  ],
+  "diagnosis": "조사·추리",
+  "pov": "SECONDARY",
+  "chars": 11079,
+  "scenes": 4,
+  "status": "FIRST DRAFT / GATE PASS / AWAITING QUALITY SCORE"
+ },
+ "E017": {
+  "density": "Q",
+  "hook": "H6",
+  "primary_craft": "이해관계 협상",
+  "secondary_craft": [
+   "권한 절차",
+   "가치 변화"
+  ],
+  "diagnosis": "협상·거부권",
+  "pov": "AIDEN_CLOSE_THIRD",
+  "chars": 9464,
+  "scenes": 2,
+  "status": "FIRST DRAFT / GATE PASS / AWAITING QUALITY SCORE"
+ },
+ "E018": {
+  "density": "S",
+  "hook": "H1",
+  "primary_craft": "공정 단서",
+  "secondary_craft": [
+   "오답",
+   "정보 간극"
+  ],
+  "diagnosis": "조사·추리",
+  "pov": "AIDEN_CLOSE_THIRD",
+  "chars": 9725,
+  "scenes": 3,
+  "status": "FIRST DRAFT / GATE PASS / AWAITING QUALITY SCORE"
+ },
+ "E019": {
+  "density": "Q",
+  "hook": "H1",
+  "primary_craft": "소유권·거부권",
+  "secondary_craft": [
+   "오해된 기능",
+   "반환/분해"
+  ],
+  "diagnosis": "유산·신수·소유권",
+  "pov": "AIDEN_CLOSE_THIRD",
+  "chars": 10849,
+  "scenes": 2,
+  "status": "FIRST DRAFT / GATE PASS / AWAITING QUALITY SCORE"
+ },
+ "E020": {
+  "density": "S",
+  "hook": "H1",
+  "primary_craft": "이해관계 협상",
+  "secondary_craft": [
+   "권한 절차",
+   "가치 변화"
+  ],
+  "diagnosis": "협상·거부권",
+  "pov": "AIDEN_CLOSE_THIRD",
+  "chars": 10244,
+  "scenes": 3,
+  "status": "FIRST DRAFT / GATE PASS / AWAITING QUALITY SCORE"
+ },
+ "E021": {
+  "density": "E",
+  "hook": "H6",
+  "primary_craft": "제한자원 선택",
+  "secondary_craft": [
+   "공간 명료성",
+   "생활 후과"
+  ],
+  "diagnosis": "재난·대피·보급",
+  "pov": "AIDEN_CLOSE_THIRD",
+  "chars": 13687,
+  "scenes": 4,
+  "status": "FIRST DRAFT / GATE PASS / WARN: 할 수 있었다 연쇄"
+ },
+ "E022": {
+  "density": "Q",
+  "hook": "H6",
+  "primary_craft": "제한자원 선택",
+  "secondary_craft": [
+   "시도–실패–학습",
+   "공간 명료성"
+  ],
+  "diagnosis": "생존 압박",
+  "pov": "AIDEN_CLOSE_THIRD",
+  "chars": 14405,
+  "scenes": 2,
+  "status": "FIRST DRAFT / GATE PASS / AWAITING QUALITY SCORE"
+ },
+ "E023": {
+  "density": "E",
+  "hook": "H6",
+  "primary_craft": "관계 상태 변화",
+  "secondary_craft": [
+   "장면–반응",
+   "부재 복선"
+  ],
+  "diagnosis": "관계 변화·상실",
+  "pov": "AIDEN_CLOSE_THIRD",
+  "chars": 11729,
+  "scenes": 4,
+  "status": "FIRST DRAFT / GATE PASS / AWAITING QUALITY SCORE"
+ },
+ "E024": {
+  "density": "Q",
+  "hook": "H2",
+  "primary_craft": "구체적 현실 불일치",
+  "secondary_craft": [
+   "기억 신뢰도",
+   "현재인의 권리"
+  ],
+  "diagnosis": "미래 변형·귀환",
+  "pov": "AIDEN_CLOSE_THIRD",
+  "chars": 9836,
+  "scenes": 2,
+  "status": "FIRST DRAFT / GATE PASS / AWAITING QUALITY SCORE"
+ },
+ "E025": {
+  "density": "X",
+  "hook": "H6",
+  "primary_craft": "구체적 현실 불일치",
+  "secondary_craft": [
+   "기억 신뢰도",
+   "현재인의 권리"
+  ],
+  "diagnosis": "미래 변형·귀환",
+  "pov": "AIDEN_CLOSE_THIRD",
+  "chars": 14416,
+  "scenes": 6,
+  "status": "FIRST DRAFT / GATE PASS / AWAITING QUALITY SCORE"
+ },
+ "E026": {
+  "density": "E",
+  "hook": "H6",
+  "primary_craft": "제한자원 선택",
+  "secondary_craft": [
+   "공간 명료성",
+   "생활 후과"
+  ],
+  "diagnosis": "재난·대피·보급",
+  "pov": "AIDEN_CLOSE_THIRD",
+  "chars": 13191,
+  "scenes": 4,
+  "status": "FIRST DRAFT / GATE PASS / AWAITING QUALITY SCORE"
+ },
+ "E027": {
+  "density": "Q",
+  "hook": "H6",
+  "primary_craft": "이해관계 협상",
+  "secondary_craft": [
+   "권한 절차",
+   "대립자 성과"
+  ],
+  "diagnosis": "정치·법·행정",
+  "pov": "AIDEN_CLOSE_THIRD",
+  "chars": 8443,
+  "scenes": 2,
+  "status": "FIRST DRAFT / GATE PASS / AWAITING QUALITY SCORE"
+ },
+ "E028": {
+  "density": "Q",
+  "hook": "H2",
+  "primary_craft": "공정 단서",
+  "secondary_craft": [
+   "오답",
+   "정보 간극"
+  ],
+  "diagnosis": "조사·추리",
+  "pov": "SECONDARY",
+  "chars": 9558,
+  "scenes": 2,
+  "status": "FIRST DRAFT / GATE PASS / AWAITING QUALITY SCORE"
+ },
+ "E029": {
+  "density": "S",
+  "hook": "H6",
+  "primary_craft": "공정 단서",
+  "secondary_craft": [
+   "오답",
+   "정보 간극"
+  ],
+  "diagnosis": "조사·추리",
+  "pov": "AIDEN_CLOSE_THIRD",
+  "chars": 14102,
+  "scenes": 3,
+  "status": "FIRST DRAFT / GATE PASS / AWAITING QUALITY SCORE"
+ },
+ "E030": {
+  "density": "X",
+  "hook": "H6",
+  "primary_craft": "장면–반응",
+  "secondary_craft": [
+   "가치 변화",
+   "생활 후과"
+  ],
+  "diagnosis": "애도·회복·생활 후과",
+  "pov": "AIDEN_CLOSE_THIRD",
+  "chars": 15713,
+  "scenes": 6,
+  "status": "FIRST DRAFT / GATE PASS / AWAITING QUALITY SCORE"
+ },
+ "E031": {
+  "density": "E",
+  "hook": "H6",
+  "primary_craft": "공정 단서",
+  "secondary_craft": [
+   "오답",
+   "정보 간극"
+  ],
+  "diagnosis": "조사·추리",
+  "pov": "AIDEN_CLOSE_THIRD",
+  "chars": 11146,
+  "scenes": 4,
+  "status": "FIRST DRAFT / GATE PASS / AWAITING QUALITY SCORE"
+ },
+ "E032": {
+  "density": "S",
+  "hook": "H6",
+  "primary_craft": "소유권·거부권",
+  "secondary_craft": [
+   "오해된 기능",
+   "반환/분해"
+  ],
+  "diagnosis": "유산·신수·소유권",
+  "pov": "AIDEN_CLOSE_THIRD",
+  "chars": 10797,
+  "scenes": 3,
+  "status": "FIRST DRAFT / GATE PASS / AWAITING QUALITY SCORE"
+ },
+ "E033": {
+  "density": "E",
+  "hook": "H6",
+  "primary_craft": "공정 단서",
+  "secondary_craft": [
+   "오답",
+   "정보 간극"
+  ],
+  "diagnosis": "조사·추리",
+  "pov": "AIDEN_CLOSE_THIRD",
+  "chars": 13796,
+  "scenes": 4,
+  "status": "FIRST DRAFT / GATE PASS / AWAITING QUALITY SCORE"
+ },
+ "E034": {
+  "density": "S",
+  "hook": "H6",
+  "primary_craft": "구체적 현실 불일치",
+  "secondary_craft": [
+   "기억 신뢰도",
+   "현재인의 권리"
+  ],
+  "diagnosis": "미래 변형·귀환",
+  "pov": "AIDEN_CLOSE_THIRD",
+  "chars": 13166,
+  "scenes": 3,
+  "status": "FIRST DRAFT / GATE PASS / AWAITING QUALITY SCORE"
+ },
+ "E035": {
+  "density": "Q",
+  "hook": "H1",
+  "primary_craft": "결말 역산",
+  "secondary_craft": [
+   "식물–회수–재맥락화",
+   "약속–진행–회수"
+  ],
+  "diagnosis": "결말 기능 준비",
+  "pov": "AIDEN_CLOSE_THIRD",
+  "chars": 11189,
+  "scenes": 2,
+  "status": "FIRST DRAFT / GATE PASS / AWAITING QUALITY SCORE"
+ },
+ "E036": {
+  "density": "S",
+  "hook": "H2",
+  "primary_craft": "공정 단서",
+  "secondary_craft": [
+   "오답",
+   "정보 간극"
+  ],
+  "diagnosis": "조사·추리",
+  "pov": "AIDEN_CLOSE_THIRD",
+  "chars": 15699,
+  "scenes": 3,
+  "status": "FIRST DRAFT / GATE PASS / AWAITING QUALITY SCORE"
+ },
+ "E037": {
+  "density": "S",
+  "hook": "H6",
+  "primary_craft": "공정 단서",
+  "secondary_craft": [
+   "오답",
+   "정보 간극"
+  ],
+  "diagnosis": "조사·추리",
+  "pov": "AIDEN_CLOSE_THIRD",
+  "chars": 13863,
+  "scenes": 3,
+  "status": "FIRST DRAFT / GATE PASS / AWAITING QUALITY SCORE"
+ },
+ "E038": {
+  "density": "E",
+  "hook": "H6",
+  "primary_craft": "공정 단서",
+  "secondary_craft": [
+   "오답",
+   "정보 간극"
+  ],
+  "diagnosis": "조사·추리",
+  "pov": "AIDEN_CLOSE_THIRD",
+  "chars": 16521,
+  "scenes": 4,
+  "status": "FIRST DRAFT / GATE PASS / AWAITING QUALITY SCORE"
+ },
+ "E039": {
+  "density": "Q",
+  "hook": "H3",
+  "primary_craft": "공정 단서",
+  "secondary_craft": [
+   "오답",
+   "정보 간극"
+  ],
+  "diagnosis": "조사·추리",
+  "pov": "AIDEN_CLOSE_THIRD",
+  "chars": 10706,
+  "scenes": 2,
+  "status": "FIRST DRAFT / GATE PASS / AWAITING QUALITY SCORE"
+ },
+ "E040": {
+  "density": "S",
+  "hook": "H6",
+  "primary_craft": "공정 단서",
+  "secondary_craft": [
+   "오답",
+   "정보 간극"
+  ],
+  "diagnosis": "조사·추리",
+  "pov": "AIDEN_CLOSE_THIRD",
+  "chars": 11480,
+  "scenes": 3,
+  "status": "FIRST DRAFT / GATE PASS / AWAITING QUALITY SCORE"
+ },
+ "E041": {
+  "density": "Q",
+  "hook": "H6",
+  "primary_craft": "제한자원 선택",
+  "secondary_craft": [
+   "시도–실패–학습",
+   "공간 명료성"
+  ],
+  "diagnosis": "생존 압박",
+  "pov": "SECONDARY",
+  "chars": 9436,
+  "scenes": 2,
+  "status": "FIRST DRAFT / GATE PASS / AWAITING QUALITY SCORE"
+ },
+ "E043": {
+  "density": "X",
+  "hook": "H3",
+  "primary_craft": "이해관계 협상",
+  "secondary_craft": [
+   "권한 절차",
+   "대립자 성과"
+  ],
+  "diagnosis": "정치·법·행정",
+  "pov": "AIDEN_CLOSE_THIRD",
+  "chars": 15823,
+  "scenes": 6,
+  "status": "FIRST DRAFT / GATE PASS / AWAITING QUALITY SCORE"
+ },
+ "E044": {
+  "density": "S",
+  "hook": "H6",
+  "primary_craft": "제한자원 선택",
+  "secondary_craft": [
+   "시도–실패–학습",
+   "공간 명료성"
+  ],
+  "diagnosis": "생존 압박",
+  "pov": "AIDEN_CLOSE_THIRD",
+  "chars": 11868,
+  "scenes": 3,
+  "status": "FIRST DRAFT / GATE PASS / AWAITING QUALITY SCORE"
+ },
+ "E045": {
+  "density": "E",
+  "hook": "H1",
+  "primary_craft": "제한자원 선택",
+  "secondary_craft": [
+   "시도–실패–학습",
+   "공간 명료성"
+  ],
+  "diagnosis": "생존 압박",
+  "pov": "AIDEN_CLOSE_THIRD",
+  "chars": 14550,
+  "scenes": 4,
+  "status": "FIRST DRAFT / GATE PASS / AWAITING QUALITY SCORE"
+ },
+ "E046": {
+  "density": "S",
+  "hook": "H3",
+  "primary_craft": "이해관계 협상",
+  "secondary_craft": [
+   "권한 절차",
+   "대립자 성과"
+  ],
+  "diagnosis": "정치·법·행정",
+  "pov": "AIDEN_CLOSE_THIRD",
+  "chars": 15010,
+  "scenes": 3,
+  "status": "FIRST DRAFT / GATE PASS / AWAITING QUALITY SCORE"
+ },
+ "E047": {
+  "density": "E",
+  "hook": "H6",
+  "primary_craft": "제한자원 선택",
+  "secondary_craft": [
+   "공간 명료성",
+   "생활 후과"
+  ],
+  "diagnosis": "재난·대피·보급",
+  "pov": "AIDEN_CLOSE_THIRD",
+  "chars": 12949,
+  "scenes": 4,
+  "status": "FIRST DRAFT / GATE PASS / AWAITING QUALITY SCORE"
+ },
+ "E048": {
+  "density": "E",
+  "hook": "H6",
+  "primary_craft": "구체적 현실 불일치",
+  "secondary_craft": [
+   "기억 신뢰도",
+   "현재인의 권리"
+  ],
+  "diagnosis": "미래 변형·귀환",
+  "pov": "AIDEN_CLOSE_THIRD",
+  "chars": 13086,
+  "scenes": 4,
+  "status": "FIRST DRAFT / GATE PASS / AWAITING QUALITY SCORE"
+ },
+ "E049": {
+  "density": "Q",
+  "hook": "H6",
+  "primary_craft": "구체적 현실 불일치",
+  "secondary_craft": [
+   "기억 신뢰도",
+   "현재인의 권리"
+  ],
+  "diagnosis": "미래 변형·귀환",
+  "pov": "AIDEN_CLOSE_THIRD",
+  "chars": 15018,
+  "scenes": 2,
+  "status": "FIRST DRAFT / GATE PASS / AWAITING QUALITY SCORE"
+ },
+ "E050": {
+  "density": "X",
+  "hook": "H6",
+  "primary_craft": "이해관계 협상",
+  "secondary_craft": [
+   "권한 절차",
+   "대립자 성과"
+  ],
+  "diagnosis": "정치·법·행정",
+  "pov": "AIDEN_CLOSE_THIRD",
+  "chars": 11740,
+  "scenes": 6,
+  "status": "FIRST DRAFT / GATE PASS / AWAITING QUALITY SCORE"
+ }
+}
