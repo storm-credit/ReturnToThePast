@@ -161,7 +161,13 @@ def gate(path, expected_scenes, prev_hook=None):
     sents = []
     for pg in narr:
         s = re.sub(r"[“\"][^”\"]*[”\"]", "", pg)
-        for x in re.split(r"(?<=[.!?…다])\s+", s):
+        # Split on sentence-ending punctuation only.
+        #
+        # The old pattern also split after a bare 다 followed by space, which
+        # cuts inside 다시, 다음, 한 번에 다, and so on. That inflated the
+        # short-sentence count in every episode measured so far and finally
+        # halted the chain at E042 on a run of 9 that is really 8.
+        for x in re.split(r"(?<=[.!?…])\s+", s):
             if len(x.strip()) >= 2:
                 sents.append(x.strip())
 
