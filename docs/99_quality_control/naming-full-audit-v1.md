@@ -69,7 +69,7 @@ DEC-016 반영 뒤 `working-process-and-meta-prompting-v1.md` §2의 5축으로 
 | 초판 기재 | 실제 | 근거 |
 |---|---|---|
 | E001 L101 `성력국은 달력과 병원망을 맡았다`가 institution §3과 충돌 | **충돌 아님.** 정본이 성력국을 "달력·계절·병원 동기화 승인기관"으로 규정 | terminology §2 |
-| `방위지휘부`·`방위총감` 정본 미등재 | **등재되어 있음** | terminology §2 |
+| `방위지휘부`·`방벽총감` 정본 미등재 | **등재되어 있음** | terminology §2 |
 | `지하 진동계`가 현대어 검토 대상 | **정본이 지정한 표현.** `압력계` → `지하 진동계`로 바꾸라고 명시 | terminology §3 |
 
 또한 `회색열`은 [`mana-fever-gray-calamity-v1.md`](../03_systems/mana-fever-gray-calamity-v1.md) Public Name에 `마나열병`과 함께 등재된 정식 명칭임을 확인했다.
@@ -216,7 +216,7 @@ DEC-016 반영 뒤 `working-process-and-meta-prompting-v1.md` §2의 5축으로 
 |---|---|
 | 최후 연대국 | 조직 구조 Domain Bible 부재. `방위지휘부`·`미래 본부`와 동일 조직인가 |
 | 연대개입산업연합 | crosswalk V10 한 줄 외 근거 없음 |
-| ~~방위지휘부 / 방위총감~~ | **해소 (2026-08-08).** [`terminology-and-addressing-clarification-v1.md`](../00_project/terminology-and-addressing-clarification-v1.md) §2에 이미 등재. 초판 오류 철회 |
+| ~~방위지휘부 / 방벽총감~~ | **해소 (2026-08-08).** [`terminology-and-addressing-clarification-v1.md`](../00_project/terminology-and-addressing-clarification-v1.md) §2에 이미 등재. 초판 오류 철회 |
 | 선별실 | 원고(E001 L465)와 E002·E003 CP에만 존재. Domain Bible 미등재 |
 | 대가분산 의식 | E001 L361의 세렌 금지술. 마법·종교 Domain Bible 미등재 |
 | 왕좌승인원 ↔ 세르바 왕실평의회 | 기관 지위는 terminology §2로 확정. 평의회와의 포함관계만 미확정 |

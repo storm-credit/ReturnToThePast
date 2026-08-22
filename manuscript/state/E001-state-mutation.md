@@ -34,7 +34,7 @@ PREVIOUS_EXIT: SERIES ORIGIN STATE
 ## RELATIONSHIP_MUTATIONS
 
 - 에이든 ↔ 리아: **직업적 신뢰의 첫 접점**. 리아가 은판을 숨기지 않고 먼저 내놓음. 로맨스 축 이동 없음
-- 에이든 ↔ 방위총감: 거부 뒤에도 적대로 전환되지 않음. 에이든은 총감이 책임을 미루지 않았다는 점을 인지
+- 에이든 ↔ 방벽총감: 거부 뒤에도 적대로 전환되지 않음. 에이든은 총감이 책임을 미루지 않았다는 점을 인지
 
 ## INSTITUTION_FACTION_MUTATIONS
 
